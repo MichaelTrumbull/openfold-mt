@@ -13,6 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+
 '''
 This is a personal attempt to modify the inference code so I better understand it.
 Code will be simplified and less modular and will hopefully lead to latent space 
@@ -146,8 +147,10 @@ def list_files_with_extensions(dir, extensions):
 def main(args):
     # Create the output directory
     os.makedirs(args.output_dir, exist_ok=True)
+    if p: print('directory created ', args.output_dir)
 
     config = model_config(args.config_preset)
+    if p: print('config: ', config)
     
     if(args.trace_model):
         if(not config.data.predict.fixed_size):
@@ -375,6 +378,12 @@ if __name__ == "__main__":
         help=""""Whether to output (100 - pLDDT) in the B-factor column instead
                  of the pLDDT itself"""
     )
+    parser.add_argument(
+        '-p', action='store_true', default=False,
+        help="""Trigger print statements during runtime. Print statements 
+        describe each step in the process"""
+    )
+    
     add_data_args(parser)
     args = parser.parse_args()
 
