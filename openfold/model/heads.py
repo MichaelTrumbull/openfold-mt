@@ -30,6 +30,13 @@ from openfold.utils.loss import (
     compute_predicted_aligned_error,
 )
 
+def qprint(classname, location, item):
+    print('-'*8)
+    print(classname, location)
+    print(item)
+    if type(item) is dict: print(item.keys())
+    if torch.is_tensor(item): print(item.size())
+    
 
 class AuxiliaryHeads(nn.Module):
     def __init__(self, config):
@@ -120,7 +127,12 @@ class PerResidueLDDTCaPredictor(nn.Module):
         s = self.relu(s)
         s = self.linear_2(s)
         s = self.relu(s)
+
+        qprint("PerResidueLDDTCaPredictor", "Before", s)
+
         s = self.linear_3(s)
+
+        qprint("PerResidueLDDTCaPredictor", "After", s)
 
         return s
 
@@ -156,8 +168,17 @@ class DistogramHead(nn.Module):
             [*, N, N, no_bins] distogram probability distribution
         """
         # [*, N, N, no_bins]
+
+        qprint("DistogramHead", "Before", z)
+
         logits = self.linear(z)
+
+        qprint("DistogramHead", "middle", logits)
+
         logits = logits + logits.transpose(-2, -3)
+
+        qprint("DistogramHead", "After", logits)
+
         return logits
 
 
@@ -190,7 +211,13 @@ class TMScoreHead(nn.Module):
             [*, N_res, N_res, no_bins] prediction
         """
         # [*, N, N, no_bins]
+
+        qprint("TMScoreHead", "Before", z)
+
         logits = self.linear(z)
+
+        qprint("TMScoreHead", "After", logits)
+
         return logits
 
 
@@ -223,7 +250,13 @@ class MaskedMSAHead(nn.Module):
             [*, N_seq, N_res, C_out] reconstruction
         """
         # [*, N_seq, N_res, C_out]
+
+        qprint("MaskedMSAHead", "Before", m)
+
         logits = self.linear(m)
+
+        qprint("MaskedMSAHead", "After", logits)
+
         return logits
 
 
@@ -257,9 +290,11 @@ class ExperimentallyResolvedHead(nn.Module):
             [*, N, C_out] logits
         """
         # [*, N, C_out]
-        print('heads.ExperimentallyResolvedHead: forward fnc: before logits linears activation:')
-        print(s)
-        if type(s) is dict: print(s.keys())
-        if torch.is_tensor(s): print(s.size())
+
+        qprint("ExperimentallyResolvedHead", "Before", s)
+        
         logits = self.linear(s)
+
+        qprint("ExperimentallyResolvedHead", "After", logits)
+
         return logits
