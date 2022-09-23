@@ -13,13 +13,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-'''
-THIS IS A MODIFIED VERSION OF HEADS.PY
-SEE HEADS_ORIGINAL.PY
-MODIFIED FOR SECOND TO LAST LAYER ACTIVATION INVESTIGATION
-'''
-
-
 import torch
 import torch.nn as nn
 
@@ -59,7 +52,6 @@ class AuxiliaryHeads(nn.Module):
         self.config = config
 
     def forward(self, outputs):
-        print('heads.py: start of forward')
         aux_out = {}
         lddt_logits = self.plddt(outputs["sm"]["single"])
         aux_out["lddt_logits"] = lddt_logits
@@ -92,8 +84,6 @@ class AuxiliaryHeads(nn.Module):
                     **self.config.tm,
                 )
             )
-        print('heads.py/AuxillaryHeads: aux_out.keys()')
-        print(aux_out.keys())
 
         return aux_out
 
@@ -257,9 +247,5 @@ class ExperimentallyResolvedHead(nn.Module):
             [*, N, C_out] logits
         """
         # [*, N, C_out]
-        print('heads.ExperimentallyResolvedHead: forward fnc: before logits linears activation:')
-        print(s)
-        if type(s) is dict: print(s.keys())
-        if torch.is_tensor(s): print(s.size())
         logits = self.linear(s)
         return logits
