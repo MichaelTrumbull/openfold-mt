@@ -37,7 +37,7 @@ from openfold.utils.loss import (
 def qprint(classname, location, item):
     print('-'*8)
     print(classname, location)
-    print(item)
+    #print(item)
     if type(item) is dict: print(item.keys())
     if torch.is_tensor(item): print(item.size())
     
