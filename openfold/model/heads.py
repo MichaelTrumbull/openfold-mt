@@ -34,12 +34,15 @@ from openfold.utils.loss import (
 )
 
 def qprint(classname, location, item):
-    print('testing...')
     print('-'*8)
     print(classname, location)
     #print(item)
     if type(item) is dict: print(item.keys())
     if torch.is_tensor(item): print(item.size())
+    # save tensor to colab
+    torch.save(item, '/content/drive/My Drive/Colab Notebooks/' + classname + location + ".pt")
+
+
     
 
 class AuxiliaryHeads(nn.Module):
@@ -70,7 +73,6 @@ class AuxiliaryHeads(nn.Module):
         self.config = config
 
     def forward(self, outputs):
-        print('heads.py: start of forward')
         aux_out = {}
         lddt_logits = self.plddt(outputs["sm"]["single"])
         aux_out["lddt_logits"] = lddt_logits
