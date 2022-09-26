@@ -21,7 +21,6 @@ MODIFIED FOR SECOND TO LAST LAYER ACTIVATION INVESTIGATION
 
 ## test modification line...
 ## another test mod
-print('testing...')
 
 
 import torch
@@ -35,6 +34,7 @@ from openfold.utils.loss import (
 )
 
 def qprint(classname, location, item):
+    print('testing...')
     print('-'*8)
     print(classname, location)
     #print(item)
