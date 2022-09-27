@@ -44,6 +44,7 @@ def qprint(classname, location, item):
 
 def modify(second_to_last_layer):
     print('will modify: ', second_to_last_layer.size())
+    '''
     try:
         nudge_value = torch.load('/content/drive/My Drive/Colab Notebooks/nudge_value.pt').item()
         print('Using nudge_value: ', nudge_value)
@@ -51,8 +52,8 @@ def modify(second_to_last_layer):
         print('File not found: /content/drive/My Drive/Colab Notebooks/nudge_value.pt')
         print('Setting nudge_value to 1')
         nudge_value = 1
-    
-    modified_second_to_last_layer = torch.mul(second_to_last_layer, nudge_value)
+    '''
+    modified_second_to_last_layer = torch.mul(second_to_last_layer, 1)#nudge_value)
     
     return modified_second_to_last_layer
 
