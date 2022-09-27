@@ -42,8 +42,19 @@ def qprint(classname, location, item):
     # save tensor to colab
     torch.save(item, '/content/drive/My Drive/Colab Notebooks/' + classname + location + ".pt")
 
-
+def modify(second_to_last_layer):
+    print('will modify: ', second_to_last_layer.size())
+    try:
+        nudge_value = torch.load('/content/drive/My Drive/Colab Notebooks/nudge_value.pt')
+        print('Using nudge_value: ', nudge_value)
+    except:
+        print('File not found: /content/drive/My Drive/Colab Notebooks/nudge_value.pt')
+        print('Setting nudge_value to 1')
+        nudge_value = 1
     
+    modified_second_to_last_layer = torch.mul(second_to_last_layer, nudge_value)
+    
+    return modified_second_to_last_layer
 
 class AuxiliaryHeads(nn.Module):
     def __init__(self, config):
@@ -135,6 +146,7 @@ class PerResidueLDDTCaPredictor(nn.Module):
         s = self.relu(s)
 
         qprint("PerResidueLDDTCaPredictor", "Before", s)
+        s = modify(s) #modify latent space to search for other conformations
 
         s = self.linear_3(s)
 
@@ -181,6 +193,8 @@ class DistogramHead(nn.Module):
 
         qprint("DistogramHead", "middle", logits)
 
+        logits = modify(logits) #this might NOT be the right location for this...
+
         logits = logits + logits.transpose(-2, -3)
 
         qprint("DistogramHead", "After", logits)
@@ -219,6 +233,8 @@ class TMScoreHead(nn.Module):
         # [*, N, N, no_bins]
 
         qprint("TMScoreHead", "Before", z)
+
+        z = modify(z)
 
         logits = self.linear(z)
 
@@ -259,6 +275,8 @@ class MaskedMSAHead(nn.Module):
 
         qprint("MaskedMSAHead", "Before", m)
 
+        m = modify(m)
+
         logits = self.linear(m)
 
         qprint("MaskedMSAHead", "After", logits)
@@ -298,6 +316,8 @@ class ExperimentallyResolvedHead(nn.Module):
         # [*, N, C_out]
 
         qprint("ExperimentallyResolvedHead", "Before", s)
+
+        s = modify(s)
         
         logits = self.linear(s)
 
