@@ -45,7 +45,7 @@ def qprint(classname, location, item):
 def modify(second_to_last_layer):
     print('will modify: ', second_to_last_layer.size())
     try:
-        nudge_value = torch.load('/content/drive/My Drive/Colab Notebooks/nudge_value.pt')
+        nudge_value = torch.load('/content/drive/My Drive/Colab Notebooks/nudge_value.pt').item()
         print('Using nudge_value: ', nudge_value)
     except:
         print('File not found: /content/drive/My Drive/Colab Notebooks/nudge_value.pt')
