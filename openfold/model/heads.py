@@ -32,7 +32,7 @@ from openfold.utils.loss import (
     compute_tm,
     compute_predicted_aligned_error,
 )
-
+'''
 def qprint(classname, location, item):
     print('-'*8)
     print(classname, location)
@@ -42,9 +42,9 @@ def qprint(classname, location, item):
     # save tensor to colab
     torch.save(item, '/content/drive/My Drive/Colab Notebooks/' + classname + location + ".pt")
 
-def modify(second_to_last_layer):
-    print('will modify: ', second_to_last_layer.size())
-    '''
+def #modify(second_to_last_layer):
+    print('will #modify: ', second_to_last_layer.size())
+    
     try:
         nudge_value = torch.load('/content/drive/My Drive/Colab Notebooks/nudge_value.pt').item()
         print('Using nudge_value: ', nudge_value)
@@ -52,10 +52,11 @@ def modify(second_to_last_layer):
         print('File not found: /content/drive/My Drive/Colab Notebooks/nudge_value.pt')
         print('Setting nudge_value to 1')
         nudge_value = 1
-    '''
+    
     modified_second_to_last_layer = torch.mul(second_to_last_layer, 1)#nudge_value)
     
     return modified_second_to_last_layer
+'''
 
 class AuxiliaryHeads(nn.Module):
     def __init__(self, config):
@@ -146,12 +147,12 @@ class PerResidueLDDTCaPredictor(nn.Module):
         s = self.linear_2(s)
         s = self.relu(s)
 
-        qprint("PerResidueLDDTCaPredictor", "Before", s)
-        s = modify(s) #modify latent space to search for other conformations
+        ##qprint("PerResidueLDDTCaPredictor", "Before", s)
+        # ##modify latent space to search for other conformations
 
         s = self.linear_3(s)
 
-        qprint("PerResidueLDDTCaPredictor", "After", s)
+        ##qprint("PerResidueLDDTCaPredictor", "After", s)
 
         return s
 
@@ -188,17 +189,17 @@ class DistogramHead(nn.Module):
         """
         # [*, N, N, no_bins]
 
-        qprint("DistogramHead", "Before", z)
+        #qprint("DistogramHead", "Before", z)
 
         logits = self.linear(z)
 
-        qprint("DistogramHead", "middle", logits)
+        #qprint("DistogramHead", "middle", logits)
 
-        logits = modify(logits) #this might NOT be the right location for this...
+        #logits = modify(logits) #this might NOT be the right location for this...
 
         logits = logits + logits.transpose(-2, -3)
 
-        qprint("DistogramHead", "After", logits)
+        #qprint("DistogramHead", "After", logits)
 
         return logits
 
@@ -233,13 +234,13 @@ class TMScoreHead(nn.Module):
         """
         # [*, N, N, no_bins]
 
-        qprint("TMScoreHead", "Before", z)
+        #qprint("TMScoreHead", "Before", z)
 
-        z = modify(z)
+        #z = modify(z)
 
         logits = self.linear(z)
 
-        qprint("TMScoreHead", "After", logits)
+        #qprint("TMScoreHead", "After", logits)
 
         return logits
 
@@ -274,13 +275,13 @@ class MaskedMSAHead(nn.Module):
         """
         # [*, N_seq, N_res, C_out]
 
-        qprint("MaskedMSAHead", "Before", m)
+        #qprint("MaskedMSAHead", "Before", m)
 
-        m = modify(m)
+        #m = modify(m)
 
         logits = self.linear(m)
 
-        qprint("MaskedMSAHead", "After", logits)
+        #qprint("MaskedMSAHead", "After", logits)
 
         return logits
 
@@ -316,12 +317,12 @@ class ExperimentallyResolvedHead(nn.Module):
         """
         # [*, N, C_out]
 
-        qprint("ExperimentallyResolvedHead", "Before", s)
+        #qprint("ExperimentallyResolvedHead", "Before", s)
 
-        s = modify(s)
+        #s = modify(s)
         
         logits = self.linear(s)
 
-        qprint("ExperimentallyResolvedHead", "After", logits)
+        #qprint("ExperimentallyResolvedHead", "After", logits)
 
         return logits
