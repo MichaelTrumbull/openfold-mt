@@ -407,7 +407,7 @@ class AlphaFold(nn.Module):
         outputs["pair"] = z
         #outputs["single"] = s
         vari = 0.1 ######## NEW CODE
-        outputs["single"] = s + (vari**0.5)*torch.randn(s.size()) ############# NEW CODE
+        outputs["single"] = s + (vari**0.5)*(torch.randn(s.size()).to(dtype=s.dtype)) ############# NEW CODE
         ################################################### Here I will try to add noise to s
         '''
         print(type(s))
