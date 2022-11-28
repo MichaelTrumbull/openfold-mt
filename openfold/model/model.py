@@ -406,9 +406,21 @@ class AlphaFold(nn.Module):
         outputs["msa"] = m[..., :n_seq, :, :]
         outputs["pair"] = z
         outputs["single"] = s
+        ################################################### Here I will try to add noise to s
+        print(type(s))
+        print(s.size())
+        # from stack overflow: x = x + (0.1**0.5)*torch.randn(5, 10, 20)
+        test_guassian_tensor = (0.1**0.5)*torch.randn(s.size())
+        print(test_guassian_tensor.size())
+        try:
+            print(test_guassian_tensor[0])
+        except:
+            print('FAILED TO PRINT NOISE TENSOR')
+
+        ########################################################
 
         del z
-
+        ############ Begin line 21 in Algorithm 2
         # Predict 3D structure
         outputs["sm"] = self.structure_module(
             outputs,
