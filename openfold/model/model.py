@@ -407,6 +407,7 @@ class AlphaFold(nn.Module):
         outputs["pair"] = z
         outputs["single"] = s
         ################################################### Here I will try to add noise to s
+        '''
         print(type(s))
         print(s.size())
         # from stack overflow: x = x + (0.1**0.5)*torch.randn(5, 10, 20)
@@ -416,6 +417,9 @@ class AlphaFold(nn.Module):
             print(test_guassian_tensor[0])
         except:
             print('FAILED TO PRINT NOISE TENSOR')
+        '''
+        vari = 0.1
+        s = s + (vari**0.5)*torch.randn(s.size())
 
         ########################################################
 
