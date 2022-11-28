@@ -1,0 +1,11 @@
+This dir contains personal scripts and files to run mult conf tests.
+
+Using https://www.biorxiv.org/content/10.1101/2021.11.29.470469v1.full
+- I will use XylE because I see clear download locations and testable goals with their diff confs.
+- standard (closed conf) from PDB: 4ja4
+- goal (open conf by mutation) PDB: 6n3i
+Seqs
+ 4ja4: 
+ 6n3i: 
+XylE is too long for coloab. trying LmrP:
+6T1Z -> https://www.rcsb.org/structure/6T1Z
