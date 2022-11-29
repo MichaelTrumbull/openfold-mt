@@ -51,7 +51,7 @@ if not set(sequence).issubset(aatypes):
 #@markdown **Note**: This installs the software on the Colab 
 #@markdown notebook in the cloud and not on your computer.
 
-from IPython.utils import io
+#from IPython.utils import io
 import os
 import subprocess
 import tqdm.notebook
@@ -198,7 +198,7 @@ unnecessary_modules = [
 
 import os
 
-from urllib import request
+#from urllib import request
 from concurrent import futures
 #from google.colab import files
 import json
@@ -233,9 +233,9 @@ if(relax_prediction):
 from openfold.utils.import_weights import import_jax_weights_
 from openfold.utils.tensor_utils import tensor_tree_map
 
-from IPython import display
-from ipywidgets import GridspecLayout
-from ipywidgets import Output
+#from IPython import display
+#from ipywidgets import GridspecLayout
+#from ipywidgets import Output
 
 
 
