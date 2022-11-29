@@ -404,14 +404,19 @@ class AlphaFold(nn.Module):
             )
 
         outputs["msa"] = m[..., :n_seq, :, :]
-        outputs["pair"] = z
-        #outputs["single"] = s
-        vari = 10000.0 ######## NEW CODE
-        print('vari', vari)
-        #noise = (vari**0.5)*(torch.randn(s.size()).to(dtype=s.dtype, device='cuda')) ############# NEW CODE
-        outputs["single"] = s*0 #+ noise
 
-        print('s[0]',s[0])
+        vari = 10.0 ######## NEW CODE
+        print('vari', vari)
+
+        noisez = (vari**0.5)*(torch.randn(z.size()).to(dtype=z.dtype, device='cuda')) ############# NEW CODE
+
+        outputs["pair"] = z + noisez
+        #outputs["single"] = s
+        
+        
+        outputs["single"] = s#Modifying this at all, even setting to zero, does nothing at all???#*0 #+ noise
+
+        #print('s[0]',s[0])
         ################################################### Here I will try to add noise to s
         '''
         print(type(s))
