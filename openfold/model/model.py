@@ -411,7 +411,7 @@ class AlphaFold(nn.Module):
         #noise = (vari**0.5)*(torch.randn(s.size()).to(dtype=s.dtype, device='cuda')) ############# NEW CODE
         outputs["single"] = s*0 #+ noise
 
-        #print('s[0]',s[0])
+        print('s[0]',s[0])
         ################################################### Here I will try to add noise to s
         '''
         print(type(s))
