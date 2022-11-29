@@ -202,8 +202,8 @@ import os
 from concurrent import futures
 #from google.colab import files
 import json
-from matplotlib import gridspec
-import matplotlib.pyplot as plt
+#from matplotlib import gridspec
+#import matplotlib.pyplot as plt
 import numpy as np
 import py3Dmol
 import torch
@@ -613,18 +613,18 @@ if show_sidechains:
 view.setStyle({'model': -1}, style)
 view.zoomTo()
 
-grid = GridspecLayout(1, 2)
-out = Output()
-with out:
-  view.show()
-grid[0, 0] = out
+#grid = GridspecLayout(1, 2)
+#out = Output()
+#with out:
+#  view.show()
+#grid[0, 0] = out
 
-out = Output()
-with out:
-  plot_plddt_legend().show()
-grid[0, 1] = out
+#out = Output()
+#with out:
+#  plot_plddt_legend().show()
+#grid[0, 1] = out
 
-display.display(grid)
+#display.display(grid)
 
 # Display pLDDT and predicted aligned error (if output by the model).
 if pae_outputs:
@@ -632,21 +632,21 @@ if pae_outputs:
 else:
   num_plots = 1
 
-plt.figure(figsize=[8 * num_plots, 6])
-plt.subplot(1, num_plots, 1)
-plt.plot(plddts[best_model_name])
-plt.title('Predicted LDDT')
-plt.xlabel('Residue')
-plt.ylabel('pLDDT')
+#plt.figure(figsize=[8 * num_plots, 6])
+#plt.subplot(1, num_plots, 1)
+#plt.plot(plddts[best_model_name])
+#plt.title('Predicted LDDT')
+#plt.xlabel('Residue')
+#plt.ylabel('pLDDT')
 
-if num_plots == 2:
-  plt.subplot(1, 2, 2)
-  pae, max_pae = list(pae_outputs.values())[0]
-  plt.imshow(pae, vmin=0., vmax=max_pae, cmap='Greens_r')
-  plt.colorbar(fraction=0.046, pad=0.04)
-  plt.title('Predicted Aligned Error')
-  plt.xlabel('Scored residue')
-  plt.ylabel('Aligned residue')
+#if num_plots == 2:
+#  plt.subplot(1, 2, 2)
+#  pae, max_pae = list(pae_outputs.values())[0]
+#  plt.imshow(pae, vmin=0., vmax=max_pae, cmap='Greens_r')
+#  plt.colorbar(fraction=0.046, pad=0.04)
+#  plt.title('Predicted Aligned Error')
+#  plt.xlabel('Scored residue')
+#  plt.ylabel('Aligned residue')
 
 # Save pLDDT and predicted aligned error (if it exists)
 pae_output_path = os.path.join(output_dir, 'predicted_aligned_error.json')
