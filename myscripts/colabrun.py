@@ -1,4 +1,16 @@
-# BLOCK Enter the amino acid sequence
+# BLOCK  MOUNT DRIVE
+
+'''
+#@title Mount drive
+###################################################### NEW CODE
+from google.colab import drive
+drive.mount('/content/drive')'''
+#folderpath = r'/content/drive/My Drive/Colab Notebooks/MSAs/'
+
+folderpath = r'/myscripts/MSAs/'
+
+# BLOCK  ENTER AMINO ACID SEQ
+
 
 
 #@markdown ### Enter the amino acid sequence to fold ⬇️
@@ -20,7 +32,15 @@ if not set(sequence).issubset(aatypes):
 #@markdown *Play* button on the left.
 
 
-# BLOCK install third party software
+
+
+
+
+# BLOCK  INSTALL THIRD PARTY SOFTWARE
+
+
+
+
 
 
 #@title Install third-party software
@@ -37,24 +57,133 @@ import subprocess
 import tqdm.notebook
 
 TQDM_BAR_FORMAT = '{l_bar}{bar}| {n_fmt}/{total_fmt} [elapsed: {elapsed} remaining: {remaining}]'
+'''
+try:
+  with io.capture_output() as captured:
+    %shell sudo apt install --quiet --yes hmmer
+
+    # Install py3dmol.
+    %shell pip install py3dmol
+
+    %shell rm -rf /opt/conda
+    %shell wget -q -P /tmp \
+      https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh \
+        && bash /tmp/Miniconda3-latest-Linux-x86_64.sh -b -p /opt/conda \
+        && rm /tmp/Miniconda3-latest-Linux-x86_64.sh
+
+    PATH=%env PATH
+    %env PATH=/opt/conda/bin:{PATH}
+
+    # Install the required versions of all dependencies.
+    %shell conda install -y -q -c conda-forge -c bioconda \
+      kalign2=2.04 \
+      hhsuite=3.3.0 \
+      python=3.7 \
+      2>&1 1>/dev/null
+    %shell pip install -q \
+      ml-collections==0.1.0 \
+      PyYAML==5.4.1 \
+      biopython==1.79 \
+      pickle5 ################################# NEW CODE
+
+    # Create a ramdisk to store a database chunk to make Jackhmmer run fast.
+    %shell sudo mkdir -m 777 --parents /tmp/ramdisk
+    %shell sudo mount -t tmpfs -o size=9G ramdisk /tmp/ramdisk
+
+    %shell wget -q -P /content \
+      https://git.scicore.unibas.ch/schwede/openstructure/-/raw/7102c63615b64735c4941278d92b554ec94415f8/modules/mol/alg/src/stereo_chemical_props.txt
+
+    # Install AWS CLI
+    %shell curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+    %shell unzip -qq awscliv2.zip
+    %shell sudo ./aws/install
+    %shell rm awscliv2.zip
+    %shell rm -rf ./aws
+except subprocess.CalledProcessError as captured:
+  print(captured)
+  raise
+'''
 
 
 
-# BLOCK Install openfold
 
 
-# BLOCK Import python packages
+# BLOCK INSTALL OPENFOLD
+
+
+
+
+#@title Install OpenFold
+#@markdown Please execute this cell by pressing the *Play* button on 
+#@markdown the left.
+
+# Define constants
+#GIT_REPO='https://github.com/aqlaboratory/openfold'
+GIT_REPO='https://github.com/MichaelTrumbull/openfold-mt'####### NEW CODE
+ALPHAFOLD_PARAM_SOURCE_URL = 'https://storage.googleapis.com/alphafold/alphafold_params_2022-01-19.tar'
+OPENFOLD_PARAMS_DIR = '/openfold/resources/openfold_params'
+ALPHAFOLD_PARAMS_DIR = '/openfold/resources/params'
+ALPHAFOLD_PARAMS_PATH = os.path.join(
+  ALPHAFOLD_PARAMS_DIR, os.path.basename(ALPHAFOLD_PARAM_SOURCE_URL)
+)
+'''
+try:
+  with io.capture_output() as captured:
+    # Run setup.py to install only Openfold.
+    %shell rm -rf openfold
+    %shell git clone "{GIT_REPO}" openfold 2>&1 1> /dev/null
+    %shell mkdir -p /content/openfold/openfold/resources
+    %shell cp -f /content/stereo_chemical_props.txt /content/openfold/openfold/resources
+    %shell /usr/bin/python3 -m pip install -q ./openfold
+
+    if(relax_prediction):
+      %shell conda install -y -q -c conda-forge \
+        openmm=7.5.1 \
+        pdbfixer=1.7
+      
+      # Apply OpenMM patch.
+      %shell pushd /opt/conda/lib/python3.7/site-packages/ && \
+          patch -p0 < /content/openfold/lib/openmm.patch && \
+          popd
+
+    if(weight_set == 'AlphaFold'):
+      %shell mkdir --parents "{ALPHAFOLD_PARAMS_DIR}"
+      %shell wget -O {ALPHAFOLD_PARAMS_PATH} {ALPHAFOLD_PARAM_SOURCE_URL}
+      %shell tar --extract --verbose --file="{ALPHAFOLD_PARAMS_PATH}" \
+        --directory="{ALPHAFOLD_PARAMS_DIR}" --preserve-permissions
+      %shell rm "{ALPHAFOLD_PARAMS_PATH}"
+    elif(weight_set == 'OpenFold'):
+      %shell mkdir --parents "{OPENFOLD_PARAMS_DIR}"
+      %shell aws s3 cp \
+        --no-sign-request \
+        --region us-east-1 \
+        s3://openfold/openfold_params "{OPENFOLD_PARAMS_DIR}" \
+        --recursive
+    else:
+      raise ValueError("Invalid weight set")
+except subprocess.CalledProcessError as captured:
+  print(captured)
+  raise
+'''
+
+
+
+
+# BLOCK IMPORT PYTHON PACKAGES
+
+
+
 
 
 #@title Import Python packages
 #@markdown Please execute this cell by pressing the *Play* button on 
 #@markdown the left.
 
-import unittest.mock
+#import unittest.mock
 import sys
 
-sys.path.insert(0, '/usr/local/lib/python3.7/site-packages/')
-sys.path.append('/opt/conda/lib/python3.7/site-packages')
+#sys.path.insert(0, '/usr/local/lib/python3.7/site-packages/')
+#sys.path.append('/opt/conda/lib/python3.7/site-packages')
 
 # Allows us to skip installing these packages
 unnecessary_modules = [
@@ -64,14 +193,14 @@ unnecessary_modules = [
   "pytorch_lightning.callbacks.early_stopping",
   "pytorch_lightning.utilities.seed",
 ]
-for unnecessary_module in unnecessary_modules:
-  sys.modules[unnecessary_module] = unittest.mock.MagicMock()
+#for unnecessary_module in unnecessary_modules:
+#  sys.modules[unnecessary_module] = unittest.mock.MagicMock()
 
 import os
 
 from urllib import request
 from concurrent import futures
-from google.colab import files
+#from google.colab import files
 import json
 from matplotlib import gridspec
 import matplotlib.pyplot as plt
@@ -110,23 +239,20 @@ from ipywidgets import Output
 
 
 
-# BLOCK Mount drive
+# BLOCK PICKLE
 
-#@title Mount drive
-###################################################### NEW CODE
-#from google.colab import drive
-#drive.mount('/content/drive')
-#folderpath = r'/content/drive/My Drive/Colab Notebooks/MSAs/'
-folderpath = r'/MSAs/'
+
+
+#@title pickle
 # pickle is used to save the dbs file generated by jkhmmer
 import pickle
 dbspath = folderpath + pdbname + ".dbs"
-#run_jkhmmer = not os.path.exists(dbspath)
+run_jkhmmer = not os.path.exists(dbspath)
 ###################################################### END NEW CODE
 
 
 
-# BLOCK Search against genetic database
+# BLOCK SEARCH AGAINST GENETIC DATABASE
 
 
 
@@ -140,7 +266,8 @@ dbspath = folderpath + pdbname + ".dbs"
 
 
 
-if False: #run_jkhmmer: ###################### NEW CODE
+#if run_jkhmmer: ###################### NEW CODE
+if False:
   print('Running JKHMMER. msa dbs file will be saved and chosen if ran again.')
   # --- Find the closest source ---
   test_url_pattern = 'https://storage.googleapis.com/alphafold-colab{:s}/latest/uniref90_2021_03.fasta.1'
@@ -253,19 +380,22 @@ aa_map = {restype: i for i, restype in enumerate('ABCDEFGHIJKLMNOPQRSTUVWXYZ-')}
 msa_arr = np.array([[aa_map[aa] for aa in seq] for seq in deduped_full_msa])
 num_alignments, num_res = msa_arr.shape
 
-fig = plt.figure(figsize=(12, 3))
-plt.title('Per-Residue Count of Non-Gap Amino Acids in the MSA')
-plt.plot(np.sum(msa_arr != aa_map['-'], axis=0), color='black')
-plt.ylabel('Non-Gap Count')
-plt.yticks(range(0, num_alignments + 1, max(1, int(num_alignments / 3))))
-plt.show()
+#fig = plt.figure(figsize=(12, 3))
+#plt.title('Per-Residue Count of Non-Gap Amino Acids in the MSA')
+#plt.plot(np.sum(msa_arr != aa_map['-'], axis=0), color='black')
+#plt.ylabel('Non-Gap Count')
+#plt.yticks(range(0, num_alignments + 1, max(1, int(num_alignments / 3))))
+#plt.show()
 
 
 
 
 
-# BLOCK Run openfold and downlaod prediction
+# BLOCK RUN OPENFOLD AND DOWNLOAD PREDICTION
 
+
+
+NAME_DETAILS = 'zvari10_0' # TRY turning off relaxation???? whatever that means
 
 
 
@@ -302,7 +432,14 @@ def _placeholder_template_feats(num_templates_, num_res_):
       'template_sum_probs': np.zeros((num_templates_, 1), dtype=np.float32),
   }
 
-output_dir = 'prediction'
+
+
+
+
+output_dir = 'myscripts/output'
+
+
+
 os.makedirs(output_dir, exist_ok=True)
 
 plddts = {}
@@ -416,7 +553,8 @@ with tqdm.notebook.tqdm(total=len(model_names) + 1, bar_format=TQDM_BAR_FORMAT) 
     )
 
     # Write out the prediction
-    pred_output_path = os.path.join(output_dir, 'selected_prediction.pdb')
+    #NAME_DETAILS = 's_vari0_1' ################### NEW CODE
+    pred_output_path = os.path.join(output_dir, NAME_DETAILS + 'selected_prediction.pdb')
     with open(pred_output_path, 'w') as f:
       f.write(relaxed_pdb)
 
@@ -532,8 +670,4 @@ if pae_outputs:
 
 # --- Download the predictions ---
 #!zip -q -r {output_dir}.zip {output_dir}
-files.download(f'{output_dir}.zip')
-
-
-
-
+#files.download(f'{output_dir}.zip')
