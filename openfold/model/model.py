@@ -411,6 +411,7 @@ class AlphaFold(nn.Module):
         noisez = (vari**0.5)*(torch.randn(z.size()).to(dtype=z.dtype, device='cuda')) ############# NEW CODE
 
         outputs["pair"] = z + noisez
+        print('z[0]',z[0])
         #outputs["single"] = s
         
         
