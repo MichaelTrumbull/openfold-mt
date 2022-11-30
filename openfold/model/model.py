@@ -403,13 +403,13 @@ class AlphaFold(nn.Module):
                 _mask_trans=self.config._mask_trans,
             )
         
-        variance = 0.0 ######## NEW CODE
+        variance = 10.0 ######## NEW CODE
         print('variance', variance) ############ NEW CODE
 
         outputs["msa"] = m[..., :n_seq, :, :]
 
-        z = z*0
-
+        #z = z*0 # This led to error after running for a while: "Particle coordinate is nan". ValueError: Minimization failed after 100 attempts.
+        z = z + (variance**0.5)*(torch.randn(z.size()).to(dtype=z.dtype, device='cuda'))
 
         outputs["pair"] = z
         #s = s + (variance**0.5)*(torch.randn(s.size()).to(dtype=s.dtype, device='cuda')) ############# NEW CODE
