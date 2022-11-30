@@ -403,7 +403,7 @@ class AlphaFold(nn.Module):
                 _mask_trans=self.config._mask_trans,
             )
         
-        variance = 1.0 ######## NEW CODE
+        variance = 100.0 ######## NEW CODE
         print('variance', variance) ############ NEW CODE
 
         outputs["msa"] = m[..., :n_seq, :, :]
