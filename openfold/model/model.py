@@ -408,10 +408,13 @@ class AlphaFold(nn.Module):
 
         outputs["msa"] = m[..., :n_seq, :, :]
 
+        z = z*0
+
+
         outputs["pair"] = z
         #s = s + (variance**0.5)*(torch.randn(s.size()).to(dtype=s.dtype, device='cuda')) ############# NEW CODE
-        s = s*0
-        print('s',s)
+        #s = s*0
+        print('z',z)
         outputs["single"] = s
         
 
