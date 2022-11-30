@@ -402,35 +402,16 @@ class AlphaFold(nn.Module):
                 inplace_safe=inplace_safe,
                 _mask_trans=self.config._mask_trans,
             )
+        
+        variance = 1.0 ######## NEW CODE
+        print('variance', variance) ############ NEW CODE
 
         outputs["msa"] = m[..., :n_seq, :, :]
 
-        vari = 10.0 ######## NEW CODE
-        print('vari', vari)
-
-        noisez = (vari**0.5)*(torch.randn(z.size()).to(dtype=z.dtype, device='cuda')) ############# NEW CODE
-
-        outputs["pair"] = z + noisez
-        print('z[0]',z[0])
-        #outputs["single"] = s
+        outputs["pair"] = z
+        s = s + (variance**0.5)*(torch.randn(s.size()).to(dtype=s.dtype, device='cuda')) ############# NEW CODE
+        outputs["single"] = s
         
-        
-        outputs["single"] = s#Modifying this at all, even setting to zero, does nothing at all???#*0 #+ noise
-
-        #print('s[0]',s[0])
-        ################################################### Here I will try to add noise to s
-        '''
-        print(type(s))
-        print(s.size())# -> torch.Size([411, 384])
-        # from stack overflow: x = x + (0.1**0.5)*torch.randn(5, 10, 20)
-        test_guassian_tensor = (0.1**0.5)*torch.randn(s.size())
-        print(test_guassian_tensor.size())
-        try:
-            print(test_guassian_tensor[0])
-        except:
-            print('FAILED TO PRINT NOISE TENSOR')
-        '''
-        ########################################################
 
         del z
         ############ Begin line 21 in Algorithm 2
