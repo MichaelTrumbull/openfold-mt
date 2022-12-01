@@ -220,6 +220,9 @@ def __default_linear_init__(self, *args, **kwargs):
 
 #openfold.model.primitives.Linear.__init__ = __default_linear_init__
 
+print(os.getcwd())
+
+
 from openfold import config
 from openfold.data import feature_pipeline
 from openfold.data import parsers
