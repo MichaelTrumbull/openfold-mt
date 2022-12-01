@@ -223,7 +223,7 @@ def __default_linear_init__(self, *args, **kwargs):
 print(os.getcwd())
 
 
-from openfold import config
+from .openfold import config
 from openfold.data import feature_pipeline
 from openfold.data import parsers
 from openfold.data import data_pipeline
