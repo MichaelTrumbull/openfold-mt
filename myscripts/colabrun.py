@@ -209,7 +209,7 @@ import py3Dmol
 import torch
 
 # A filthy hack to avoid slow Linear layer initialization
-import openfold.model.primitives
+#import openfold.model.primitives
 
 def __default_linear_init__(self, *args, **kwargs):
     return torch.nn.Linear.__init__(
@@ -218,7 +218,7 @@ def __default_linear_init__(self, *args, **kwargs):
       **{k:v for k,v in kwargs.items() if k == "bias"}
     )
 
-openfold.model.primitives.Linear.__init__ = __default_linear_init__
+#openfold.model.primitives.Linear.__init__ = __default_linear_init__
 
 from openfold import config
 from openfold.data import feature_pipeline
@@ -393,7 +393,7 @@ num_alignments, num_res = msa_arr.shape
 
 # BLOCK RUN OPENFOLD AND DOWNLOAD PREDICTION
 
-
+'''##############################################
 
 NAME_DETAILS = 'zvari10_0' # TRY turning off relaxation???? whatever that means
 
@@ -671,3 +671,5 @@ if pae_outputs:
 # --- Download the predictions ---
 #!zip -q -r {output_dir}.zip {output_dir}
 #files.download(f'{output_dir}.zip')
+
+'''#########################################
