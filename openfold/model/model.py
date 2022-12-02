@@ -51,6 +51,7 @@ from openfold.utils.tensor_utils import (
     tensor_tree_map,
 )
 
+first_loop_through = True
 
 class AlphaFold(nn.Module):
     """
@@ -403,18 +404,40 @@ class AlphaFold(nn.Module):
                 _mask_trans=self.config._mask_trans,
             )
         
-        variance = 10.0 ######## NEW CODE
+        if first_loop_through: 
+            print('orig s',s)
+            print('orig z',z)
+            print('orig m',m)
+        
+        #variance = 10.0 ######## NEW CODE
+        colab_variance_path = r'/content/drive/My Drive/Colab Notebooks/variables/variance.txt'
+        l = []
+        with open(colab_variance_path) as f:
+            for line in f.readlines():
+                l.append(line)
+        variance = float(l[0])
+        which_tensor = l[1][0]
+
+        if which_tensor == 's':
+            s = s + (variance)*(torch.randn(s.size()).to(dtype=s.dtype, device='cuda'))
+        elif which_tensor == 'z':
+            z = z + (variance)*(torch.randn(z.size()).to(dtype=z.dtype, device='cuda'))
+        elif which_tensor == 'm':
+            m = m + (variance)*(torch.randn(m.size()).to(dtype=m.dtype, device='cuda'))
+        else:
+            print('which_tensor is not specified. which_tensor=',which_tensor)
+
 
         outputs["msa"] = m[..., :n_seq, :, :]
-
-        #z = z*0 # This led to error after running for a while: "Particle coordinate is nan". ValueError: Minimization failed after 100 attempts.
-        #z = z + (variance**0.5)*(torch.randn(z.size()).to(dtype=z.dtype, device='cuda'))
-
         outputs["pair"] = z
-        
-        s = s + (variance**0.5)*(torch.randn(s.size()).to(dtype=s.dtype, device='cuda')) ############# NEW CODE
-        #s = s*0
         outputs["single"] = s
+
+        if first_loop_through: 
+            print('s',s)
+            print('z',z)
+            print('m',m)
+
+        first_loop_through = False
         
 
         del z

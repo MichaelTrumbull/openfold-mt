@@ -1,3 +1,18 @@
+
+'''
+
+WARNING
+
+This code does not run on ExxMini. Error thrown: RuntimeError: FlashAttention is only supported on CUDA 11
+
+This is likely due to FlashAttention failing to install (not supported on ExxMini GPUs)
+
+
+'''
+
+
+
+
 # BLOCK  MOUNT DRIVE
 
 '''
