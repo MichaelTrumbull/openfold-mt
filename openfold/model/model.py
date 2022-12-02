@@ -51,7 +51,6 @@ from openfold.utils.tensor_utils import (
     tensor_tree_map,
 )
 
-first_loop_through = True
 
 class AlphaFold(nn.Module):
     """
@@ -403,7 +402,7 @@ class AlphaFold(nn.Module):
                 inplace_safe=inplace_safe,
                 _mask_trans=self.config._mask_trans,
             )
-        
+        first_loop_through = True # i need a way to determine if its the first loop through. maybe need to load something? idk
         if first_loop_through: 
             print('orig s',s)
             print('orig z',z)
@@ -437,7 +436,7 @@ class AlphaFold(nn.Module):
             print('z',z)
             print('m',m)
 
-        first_loop_through = False
+        #first_loop_through = False
         
 
         del z
