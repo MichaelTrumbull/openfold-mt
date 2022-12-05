@@ -402,11 +402,11 @@ class AlphaFold(nn.Module):
                 inplace_safe=inplace_safe,
                 _mask_trans=self.config._mask_trans,
             )
-        first_loop_through = True # i need a way to determine if its the first loop through. maybe need to load something? idk
-        if first_loop_through: 
-            print('orig s',s)
-            print('orig z',z)
-            print('orig m',m)
+        
+        ''' 
+        print('orig s',s)
+        print('orig z',z)
+        print('orig m',m)'''
         
         #variance = 10.0 ######## NEW CODE
         colab_variance_path = r'/content/drive/My Drive/Colab Notebooks/variables/variance.txt'
@@ -431,12 +431,11 @@ class AlphaFold(nn.Module):
         outputs["pair"] = z
         outputs["single"] = s
 
-        if first_loop_through: 
-            print('s',s)
-            print('z',z)
-            print('m',m)
+        '''
+        print('s',s)
+        print('z',z)
+        print('m',m)'''
 
-        #first_loop_through = False
         
 
         del z
