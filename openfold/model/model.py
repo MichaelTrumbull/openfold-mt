@@ -403,12 +403,14 @@ class AlphaFold(nn.Module):
                 _mask_trans=self.config._mask_trans,
             )
         
-        ''' 
+        ################################################################################
+        # MODIFICATION CODE
+        ################################################################################
         print('orig s',s)
-        print('orig z',z)
-        print('orig m',m)'''
+        #print('orig z',z)
+        #print('orig m',m)
         
-        #variance = 10.0 ######## NEW CODE
+        '''
         colab_variance_path = r'/content/drive/My Drive/Colab Notebooks/variables/variance.txt'
         l = []
         with open(colab_variance_path) as f:
@@ -425,16 +427,23 @@ class AlphaFold(nn.Module):
             m = m + (variance)*(torch.randn(m.size()).to(dtype=m.dtype, device='cuda'))
         else:
             print('which_tensor is not specified. which_tensor=',which_tensor)
+        '''
+        s = s*0
+
+
+        print('s after',s)
+        #print('z after',z)
+        #print('m after',m)
+
+
+        ################################################################################
+        # END MODIFICATION CODE
+        ################################################################################
 
 
         outputs["msa"] = m[..., :n_seq, :, :]
         outputs["pair"] = z
         outputs["single"] = s
-
-        '''
-        print('s',s)
-        print('z',z)
-        print('m',m)'''
 
         
 
