@@ -1,38 +1,21 @@
 
-'''
+folderpath = r'myscripts/MSAs/' #location of .dbs file that contains the msa
 
-WARNING
+output_dir = 'output/'
+os.makedirs(output_dir, exist_ok=True)
 
-This code does not run on ExxMini. Error thrown: RuntimeError: FlashAttention is only supported on CUDA 11
+NAME_DETAILS = 's_0tensor' 
 
-This is likely due to FlashAttention failing to install (not supported on ExxMini GPUs)
-
-
-'''
-
-
-
-
-# BLOCK  MOUNT DRIVE
-
-'''
-#@title Mount drive
-###################################################### NEW CODE
-from google.colab import drive
-drive.mount('/content/drive')'''
-#folderpath = r'/content/drive/My Drive/Colab Notebooks/MSAs/'
-
-folderpath = r'myscripts/MSAs/'
-
-# BLOCK  ENTER AMINO ACID SEQ
-
-
+##############################################################################################################
+#  BLOCK  BEGIN
+##############################################################################################################
 
 #@markdown ### Enter the amino acid sequence to fold ⬇️
 pdbname = '6t1z' #@param {type:"string"}
 if pdbname == '6t1z':
   sequence = 'GKEFWNLDKNLQLRLGIVFLGAFSYGTVFSSMTIYYNQYLGSAITGILLALSAVATFVAGILAGFFADRNGRKPVMVFGTIIQLLGAALAIASNLPGHVNPWSTFIAFLLISFGYNFVITAGNAMIIDASNAENRKVVFMLDYWAQNLSVILGAALGAWLFRPAFEALLVILLLTVLVSFFLTTFVMTETFKPTVKVDNIFQAYKTVLQDKTYMIFMGANIATTFIIMQFDNFLPVHLSNSFKTITFWGFEIYGQRMLTIYLILACVLVVLLMTTLNRLTKDWSHQKGFIWGSLFMAIGMIFSFLTTTFTPIFIAGIVYTLGEIVYTPSVQTLGADLMNPEKIGSYNGVAAIKMPIASILAGLLVSISPMIKAIGVSLVLALTEVLAIILVLVAVNRHQKTKLNLEVLFQG'
-#@markdown ### Configure the model ⬇️
+if pdbname == '4JA4':# NOT ENOUGH MEM
+  sequence = 'GNTQYNSSYIFSITLVATLGGLLFGYDTAVISGTVESLNTVFVAPQNLSESAANSLLGFCVASALIGCIIGGALGGYCSNRFGRRDSLKIAAVLFFISGVGSAWPELGFTSINPDNTVPVYLAGYVPEFVIYRIIGGIGVGLASMLSPMYIAELAPAHIRGKLVSFNQFAIIFGQLLVYCVNYFIARSGDASWLNTDGWRYMFASECIPALLFLMLLYTVPESPRWLMSRGKQEQAEGILRKIMGNTLATQAVQEIKHSLDHGRKTGGRLLMFGVGVIVIGVMLSIFQQFVGINVVLYYAPEVFKTLGASTDIALLQTIIVGVINLTFTVLAIMTVDKFGRKPLQIIGALGMAIGMFSLGTAFYTQAPGIVALLSMLFYVAAFAMSWGPVCWVLLSEIFPNAIRGKALAIAVAAQWLANYFVSWTFPMMDKNSWLVAHFHNGFSYWIYGCMGVLAALFMWKFVPETKGKTLEELEALWEPETKKT'
 
 weight_set = 'OpenFold' #@param ["OpenFold", "AlphaFold"]
 relax_prediction = True #@param {type:"boolean"}
@@ -43,28 +26,15 @@ aatypes = set('ACDEFGHIKLMNPQRSTVWY')  # 20 standard aatypes
 if not set(sequence).issubset(aatypes):
   raise Exception(f'Input sequence contains non-amino acid letters: {set(sequence) - aatypes}. OpenFold only supports 20 standard amino acids as inputs.')
 
-#@markdown After making your selections, execute this cell by pressing the
-#@markdown *Play* button on the left.
+
+##############################################################################################################
+#  BLOCK  INSTALL THIRD PARTY SOFTWARE
+##############################################################################################################
+# note: most has been deleted
 
 
 
 
-
-
-# BLOCK  INSTALL THIRD PARTY SOFTWARE
-
-
-
-
-
-
-#@title Install third-party software
-#@markdown Please execute this cell by pressing the *Play* button on 
-#@markdown the left.
-
-
-#@markdown **Note**: This installs the software on the Colab 
-#@markdown notebook in the cloud and not on your computer.
 
 #from IPython.utils import io
 import os
@@ -72,65 +42,12 @@ import subprocess
 import tqdm.notebook
 
 TQDM_BAR_FORMAT = '{l_bar}{bar}| {n_fmt}/{total_fmt} [elapsed: {elapsed} remaining: {remaining}]'
-'''
-try:
-  with io.capture_output() as captured:
-    %shell sudo apt install --quiet --yes hmmer
-
-    # Install py3dmol.
-    %shell pip install py3dmol
-
-    %shell rm -rf /opt/conda
-    %shell wget -q -P /tmp \
-      https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh \
-        && bash /tmp/Miniconda3-latest-Linux-x86_64.sh -b -p /opt/conda \
-        && rm /tmp/Miniconda3-latest-Linux-x86_64.sh
-
-    PATH=%env PATH
-    %env PATH=/opt/conda/bin:{PATH}
-
-    # Install the required versions of all dependencies.
-    %shell conda install -y -q -c conda-forge -c bioconda \
-      kalign2=2.04 \
-      hhsuite=3.3.0 \
-      python=3.7 \
-      2>&1 1>/dev/null
-    %shell pip install -q \
-      ml-collections==0.1.0 \
-      PyYAML==5.4.1 \
-      biopython==1.79 \
-      pickle5 ################################# NEW CODE
-
-    # Create a ramdisk to store a database chunk to make Jackhmmer run fast.
-    %shell sudo mkdir -m 777 --parents /tmp/ramdisk
-    %shell sudo mount -t tmpfs -o size=9G ramdisk /tmp/ramdisk
-
-    %shell wget -q -P /content \
-      https://git.scicore.unibas.ch/schwede/openstructure/-/raw/7102c63615b64735c4941278d92b554ec94415f8/modules/mol/alg/src/stereo_chemical_props.txt
-
-    # Install AWS CLI
-    %shell curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
-    %shell unzip -qq awscliv2.zip
-    %shell sudo ./aws/install
-    %shell rm awscliv2.zip
-    %shell rm -rf ./aws
-except subprocess.CalledProcessError as captured:
-  print(captured)
-  raise
-'''
 
 
-
-
-
+##############################################################################################################
 # BLOCK INSTALL OPENFOLD
-
-
-
-
-#@title Install OpenFold
-#@markdown Please execute this cell by pressing the *Play* button on 
-#@markdown the left.
+##############################################################################################################
+# note: OF preinstalled. Just using the paths in this block
 
 # Define constants
 #GIT_REPO='https://github.com/aqlaboratory/openfold'
@@ -141,64 +58,13 @@ ALPHAFOLD_PARAMS_DIR = 'openfold/resources/params'
 ALPHAFOLD_PARAMS_PATH = os.path.join(
   ALPHAFOLD_PARAMS_DIR, os.path.basename(ALPHAFOLD_PARAM_SOURCE_URL)
 )
-'''
-try:
-  with io.capture_output() as captured:
-    # Run setup.py to install only Openfold.
-    %shell rm -rf openfold
-    %shell git clone "{GIT_REPO}" openfold 2>&1 1> /dev/null
-    %shell mkdir -p /content/openfold/openfold/resources
-    %shell cp -f /content/stereo_chemical_props.txt /content/openfold/openfold/resources
-    %shell /usr/bin/python3 -m pip install -q ./openfold
 
-    if(relax_prediction):
-      %shell conda install -y -q -c conda-forge \
-        openmm=7.5.1 \
-        pdbfixer=1.7
-      
-      # Apply OpenMM patch.
-      %shell pushd /opt/conda/lib/python3.7/site-packages/ && \
-          patch -p0 < /content/openfold/lib/openmm.patch && \
-          popd
-
-    if(weight_set == 'AlphaFold'):
-      %shell mkdir --parents "{ALPHAFOLD_PARAMS_DIR}"
-      %shell wget -O {ALPHAFOLD_PARAMS_PATH} {ALPHAFOLD_PARAM_SOURCE_URL}
-      %shell tar --extract --verbose --file="{ALPHAFOLD_PARAMS_PATH}" \
-        --directory="{ALPHAFOLD_PARAMS_DIR}" --preserve-permissions
-      %shell rm "{ALPHAFOLD_PARAMS_PATH}"
-    elif(weight_set == 'OpenFold'):
-      %shell mkdir --parents "{OPENFOLD_PARAMS_DIR}"
-      %shell aws s3 cp \
-        --no-sign-request \
-        --region us-east-1 \
-        s3://openfold/openfold_params "{OPENFOLD_PARAMS_DIR}" \
-        --recursive
-    else:
-      raise ValueError("Invalid weight set")
-except subprocess.CalledProcessError as captured:
-  print(captured)
-  raise
-'''
-
-
-
-
+##############################################################################################################
 # BLOCK IMPORT PYTHON PACKAGES
-
-
-
-
-
-#@title Import Python packages
-#@markdown Please execute this cell by pressing the *Play* button on 
-#@markdown the left.
+##############################################################################################################
 
 #import unittest.mock
 import sys
-
-#sys.path.insert(0, '/usr/local/lib/python3.7/site-packages/')
-#sys.path.append('/opt/conda/lib/python3.7/site-packages')
 
 # Allows us to skip installing these packages
 unnecessary_modules = [
@@ -210,9 +76,7 @@ unnecessary_modules = [
 ]
 #for unnecessary_module in unnecessary_modules:
 #  sys.modules[unnecessary_module] = unittest.mock.MagicMock()
-
 import os
-
 #from urllib import request
 from concurrent import futures
 #from google.colab import files
@@ -225,7 +89,6 @@ import torch
 
 # A filthy hack to avoid slow Linear layer initialization
 #import openfold.model.primitives
-
 def __default_linear_init__(self, *args, **kwargs):
     return torch.nn.Linear.__init__(
       self, 
@@ -234,9 +97,7 @@ def __default_linear_init__(self, *args, **kwargs):
     )
 
 #openfold.model.primitives.Linear.__init__ = __default_linear_init__
-
 #print(os.getcwd())
-
 
 from openfold import config
 from openfold.data import feature_pipeline
@@ -255,108 +116,27 @@ from openfold.utils.tensor_utils import tensor_tree_map
 #from ipywidgets import GridspecLayout
 #from ipywidgets import Output
 
-
-
+##############################################################################################################
 # BLOCK PICKLE
-
-
+##############################################################################################################
 
 #@title pickle
 # pickle is used to save the dbs file generated by jkhmmer
 import pickle
 dbspath = folderpath + pdbname + ".dbs"
 run_jkhmmer = not os.path.exists(dbspath)
-###################################################### END NEW CODE
 
-
-
+##############################################################################################################
 # BLOCK SEARCH AGAINST GENETIC DATABASE
+##############################################################################################################
 
-
-
-#@title Search against genetic databases
-
-#@markdown Once this cell has been executed, you will see
-#@markdown statistics about the multiple sequence alignment 
-#@markdown (MSA) that will be used by OpenFold. In particular, 
-#@markdown you’ll see how well each residue is covered by similar 
-#@markdown sequences in the MSA.
-
-
-
-#if run_jkhmmer: ###################### NEW CODE
-if False:
-  print('Running JKHMMER. msa dbs file will be saved and chosen if ran again.')
-  # --- Find the closest source ---
-  test_url_pattern = 'https://storage.googleapis.com/alphafold-colab{:s}/latest/uniref90_2021_03.fasta.1'
-  ex = futures.ThreadPoolExecutor(3)
-  def fetch(source):
-    request.urlretrieve(test_url_pattern.format(source))
-    return source
-  fs = [ex.submit(fetch, source) for source in ['', '-europe', '-asia']]
-  source = None
-  for f in futures.as_completed(fs):
-    source = f.result()
-    ex.shutdown()
-    break
-
-  # --- Search against genetic databases ---
-  with open('target.fasta', 'wt') as f:
-    f.write(f'>query\n{sequence}')
-
-  # Run the search against chunks of genetic databases (since the genetic
-  # databases don't fit in Colab ramdisk).
-
-  jackhmmer_binary_path = '/usr/bin/jackhmmer'
-  dbs = []
-
-  num_jackhmmer_chunks = {'uniref90': 59, 'smallbfd': 17, 'mgnify': 71}
-  total_jackhmmer_chunks = sum(num_jackhmmer_chunks.values())
-  with tqdm.notebook.tqdm(total=total_jackhmmer_chunks, bar_format=TQDM_BAR_FORMAT) as pbar:
-    def jackhmmer_chunk_callback(i):
-      pbar.update(n=1)
-
-    pbar.set_description('Searching uniref90')
-    jackhmmer_uniref90_runner = jackhmmer.Jackhmmer(
-        binary_path=jackhmmer_binary_path,
-        database_path=f'https://storage.googleapis.com/alphafold-colab{source}/latest/uniref90_2021_03.fasta',
-        get_tblout=True,
-        num_streamed_chunks=num_jackhmmer_chunks['uniref90'],
-        streaming_callback=jackhmmer_chunk_callback,
-        z_value=135301051)
-    dbs.append(('uniref90', jackhmmer_uniref90_runner.query('target.fasta')))
-
-    pbar.set_description('Searching smallbfd')
-    jackhmmer_smallbfd_runner = jackhmmer.Jackhmmer(
-        binary_path=jackhmmer_binary_path,
-        database_path=f'https://storage.googleapis.com/alphafold-colab{source}/latest/bfd-first_non_consensus_sequences.fasta',
-        get_tblout=True,
-        num_streamed_chunks=num_jackhmmer_chunks['smallbfd'],
-        streaming_callback=jackhmmer_chunk_callback,
-        z_value=65984053)
-    dbs.append(('smallbfd', jackhmmer_smallbfd_runner.query('target.fasta')))
-
-    pbar.set_description('Searching mgnify')
-    jackhmmer_mgnify_runner = jackhmmer.Jackhmmer(
-        binary_path=jackhmmer_binary_path,
-        database_path=f'https://storage.googleapis.com/alphafold-colab{source}/latest/mgy_clusters_2019_05.fasta',
-        get_tblout=True,
-        num_streamed_chunks=num_jackhmmer_chunks['mgnify'],
-        streaming_callback=jackhmmer_chunk_callback,
-        z_value=304820129)
-    dbs.append(('mgnify', jackhmmer_mgnify_runner.query('target.fasta')))
-
-  ############### NEW CODE
-  with open(dbspath, "wb") as f: 
-    pickle.dump(dbs, f)
-else:
-  print('Skipping JKHMMER. Loading msa dbs instead.')
-  # need this pbar code or things break...
-  with tqdm.notebook.tqdm(total=1, bar_format=TQDM_BAR_FORMAT) as pbar:
-    pbar.set_description('Searching mgnify')
-  with open(dbspath, "rb") as f:
-    dbs = pickle.load(f)
-################ END NEW CODE
+## Removing any jackhammer done
+print('Skipping JKHMMER. Loading msa dbs instead.')
+# need this pbar code or things break...
+with tqdm.notebook.tqdm(total=1, bar_format=TQDM_BAR_FORMAT) as pbar:
+  pbar.set_description('Searching mgnify')
+with open(dbspath, "rb") as f:
+  dbs = pickle.load(f)
 
 # --- Extract the MSAs and visualize ---
 # Extract the MSAs from the Stockholm files.
@@ -405,24 +185,9 @@ num_alignments, num_res = msa_arr.shape
 #plt.yticks(range(0, num_alignments + 1, max(1, int(num_alignments / 3))))
 #plt.show()
 
-
-
-
-
+##############################################################################################################
 # BLOCK RUN OPENFOLD AND DOWNLOAD PREDICTION
-
-##############################################
-
-NAME_DETAILS = 'zvari10_0' # TRY turning off relaxation???? whatever that means
-
-
-
-
-#@title Run OpenFold and download prediction
-
-#@markdown Once this cell has been executed, a zip-archive with 
-#@markdown the obtained prediction will be automatically downloaded 
-#@markdown to your computer.
+##############################################################################################################
 
 # Color bands for visualizing plddt
 PLDDT_BANDS = [
@@ -449,16 +214,6 @@ def _placeholder_template_feats(num_templates_, num_res_):
       'template_domain_names': np.zeros((num_templates_,), dtype=np.float32),
       'template_sum_probs': np.zeros((num_templates_, 1), dtype=np.float32),
   }
-
-
-
-
-
-output_dir = 'myscripts/output'
-
-
-
-os.makedirs(output_dir, exist_ok=True)
 
 plddts = {}
 pae_outputs = {}
@@ -572,7 +327,7 @@ with tqdm.notebook.tqdm(total=len(model_names) + 1, bar_format=TQDM_BAR_FORMAT) 
 
     # Write out the prediction
     #NAME_DETAILS = 's_vari0_1' ################### NEW CODE
-    pred_output_path = os.path.join(output_dir, NAME_DETAILS + 'selected_prediction.pdb')
+    pred_output_path = os.path.join(output_dir, NAME_DETAILS + '_prediction.pdb')
     with open(pred_output_path, 'w') as f:
       f.write(relaxed_pdb)
 
@@ -667,7 +422,7 @@ if num_plots == 2:
   plt.ylabel('Aligned residue')
 
 # Save pLDDT and predicted aligned error (if it exists)
-pae_output_path = os.path.join(output_dir, 'predicted_aligned_error.json')
+pae_output_path = os.path.join(output_dir, NAME_DETAILS + '_predicted_aligned_error.json')
 if pae_outputs:
   # Save predicted aligned error in the same format as the AF EMBL DB
   rounded_errors = np.round(pae.astype(np.float64), decimals=1)
