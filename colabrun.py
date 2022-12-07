@@ -218,7 +218,7 @@ from concurrent import futures
 #from google.colab import files
 import json
 #from matplotlib import gridspec
-#import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 import numpy as np
 import py3Dmol
 import torch
@@ -657,14 +657,14 @@ else:
 #plt.xlabel('Residue')
 #plt.ylabel('pLDDT')
 
-#if num_plots == 2:
-#  plt.subplot(1, 2, 2)
-#  pae, max_pae = list(pae_outputs.values())[0]
-#  plt.imshow(pae, vmin=0., vmax=max_pae, cmap='Greens_r')
-#  plt.colorbar(fraction=0.046, pad=0.04)
-#  plt.title('Predicted Aligned Error')
-#  plt.xlabel('Scored residue')
-#  plt.ylabel('Aligned residue')
+if num_plots == 2:
+  plt.subplot(1, 2, 2)
+  pae, max_pae = list(pae_outputs.values())[0]
+  plt.imshow(pae, vmin=0., vmax=max_pae, cmap='Greens_r')
+  plt.colorbar(fraction=0.046, pad=0.04)
+  plt.title('Predicted Aligned Error')
+  plt.xlabel('Scored residue')
+  plt.ylabel('Aligned residue')
 
 # Save pLDDT and predicted aligned error (if it exists)
 pae_output_path = os.path.join(output_dir, 'predicted_aligned_error.json')
