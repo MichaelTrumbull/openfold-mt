@@ -411,7 +411,7 @@ num_alignments, num_res = msa_arr.shape
 
 # BLOCK RUN OPENFOLD AND DOWNLOAD PREDICTION
 
-'''##############################################
+##############################################
 
 NAME_DETAILS = 'zvari10_0' # TRY turning off relaxation???? whatever that means
 
@@ -690,4 +690,4 @@ if pae_outputs:
 #!zip -q -r {output_dir}.zip {output_dir}
 #files.download(f'{output_dir}.zip')
 
-'''#########################################
+#########################################
