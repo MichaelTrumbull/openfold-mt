@@ -136,8 +136,8 @@ except subprocess.CalledProcessError as captured:
 #GIT_REPO='https://github.com/aqlaboratory/openfold'
 GIT_REPO='https://github.com/MichaelTrumbull/openfold-mt'####### NEW CODE
 ALPHAFOLD_PARAM_SOURCE_URL = 'https://storage.googleapis.com/alphafold/alphafold_params_2022-01-19.tar'
-OPENFOLD_PARAMS_DIR = '/openfold/resources/openfold_params'
-ALPHAFOLD_PARAMS_DIR = '/openfold/resources/params'
+OPENFOLD_PARAMS_DIR = 'openfold/resources/openfold_params'
+ALPHAFOLD_PARAMS_DIR = 'openfold/resources/params'
 ALPHAFOLD_PARAMS_PATH = os.path.join(
   ALPHAFOLD_PARAMS_DIR, os.path.basename(ALPHAFOLD_PARAM_SOURCE_URL)
 )
