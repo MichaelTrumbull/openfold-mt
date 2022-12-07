@@ -22,7 +22,7 @@ from google.colab import drive
 drive.mount('/content/drive')'''
 #folderpath = r'/content/drive/My Drive/Colab Notebooks/MSAs/'
 
-folderpath = r'/myscripts/MSAs/'
+folderpath = r'myscripts/MSAs/'
 
 # BLOCK  ENTER AMINO ACID SEQ
 
