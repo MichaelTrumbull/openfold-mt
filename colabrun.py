@@ -2,38 +2,14 @@
 folderpath = r'myscripts/MSAs/' #location of .dbs file that contains the msa
 
 output_dir = 'output/'
-os.makedirs(output_dir, exist_ok=True)
 
 NAME_DETAILS = 's_0tensor' 
 
-##############################################################################################################
-#  BLOCK  BEGIN
-##############################################################################################################
 
-#@markdown ### Enter the amino acid sequence to fold ⬇️
-pdbname = '6t1z' #@param {type:"string"}
-if pdbname == '6t1z':
-  sequence = 'GKEFWNLDKNLQLRLGIVFLGAFSYGTVFSSMTIYYNQYLGSAITGILLALSAVATFVAGILAGFFADRNGRKPVMVFGTIIQLLGAALAIASNLPGHVNPWSTFIAFLLISFGYNFVITAGNAMIIDASNAENRKVVFMLDYWAQNLSVILGAALGAWLFRPAFEALLVILLLTVLVSFFLTTFVMTETFKPTVKVDNIFQAYKTVLQDKTYMIFMGANIATTFIIMQFDNFLPVHLSNSFKTITFWGFEIYGQRMLTIYLILACVLVVLLMTTLNRLTKDWSHQKGFIWGSLFMAIGMIFSFLTTTFTPIFIAGIVYTLGEIVYTPSVQTLGADLMNPEKIGSYNGVAAIKMPIASILAGLLVSISPMIKAIGVSLVLALTEVLAIILVLVAVNRHQKTKLNLEVLFQG'
-if pdbname == '4JA4':# NOT ENOUGH MEM
-  sequence = 'GNTQYNSSYIFSITLVATLGGLLFGYDTAVISGTVESLNTVFVAPQNLSESAANSLLGFCVASALIGCIIGGALGGYCSNRFGRRDSLKIAAVLFFISGVGSAWPELGFTSINPDNTVPVYLAGYVPEFVIYRIIGGIGVGLASMLSPMYIAELAPAHIRGKLVSFNQFAIIFGQLLVYCVNYFIARSGDASWLNTDGWRYMFASECIPALLFLMLLYTVPESPRWLMSRGKQEQAEGILRKIMGNTLATQAVQEIKHSLDHGRKTGGRLLMFGVGVIVIGVMLSIFQQFVGINVVLYYAPEVFKTLGASTDIALLQTIIVGVINLTFTVLAIMTVDKFGRKPLQIIGALGMAIGMFSLGTAFYTQAPGIVALLSMLFYVAAFAMSWGPVCWVLLSEIFPNAIRGKALAIAVAAQWLANYFVSWTFPMMDKNSWLVAHFHNGFSYWIYGCMGVLAALFMWKFVPETKGKTLEELEALWEPETKKT'
-
-weight_set = 'OpenFold' #@param ["OpenFold", "AlphaFold"]
-relax_prediction = True #@param {type:"boolean"}
-
-# Remove all whitespaces, tabs and end lines; upper-case
-sequence = sequence.translate(str.maketrans('', '', ' \n\t')).upper()
-aatypes = set('ACDEFGHIKLMNPQRSTVWY')  # 20 standard aatypes
-if not set(sequence).issubset(aatypes):
-  raise Exception(f'Input sequence contains non-amino acid letters: {set(sequence) - aatypes}. OpenFold only supports 20 standard amino acids as inputs.')
-
-
-##############################################################################################################
-#  BLOCK  INSTALL THIRD PARTY SOFTWARE
-##############################################################################################################
-# note: most has been deleted
-
-
-
+###########################################################
+import pickle
+dbspath = folderpath + pdbname + ".dbs"
+run_jkhmmer = not os.path.exists(dbspath)
 
 
 #from IPython.utils import io
@@ -41,27 +17,6 @@ import os
 import subprocess
 import tqdm.notebook
 
-TQDM_BAR_FORMAT = '{l_bar}{bar}| {n_fmt}/{total_fmt} [elapsed: {elapsed} remaining: {remaining}]'
-
-
-##############################################################################################################
-# BLOCK INSTALL OPENFOLD
-##############################################################################################################
-# note: OF preinstalled. Just using the paths in this block
-
-# Define constants
-#GIT_REPO='https://github.com/aqlaboratory/openfold'
-GIT_REPO='https://github.com/MichaelTrumbull/openfold-mt'####### NEW CODE
-ALPHAFOLD_PARAM_SOURCE_URL = 'https://storage.googleapis.com/alphafold/alphafold_params_2022-01-19.tar'
-OPENFOLD_PARAMS_DIR = 'openfold/resources/openfold_params'
-ALPHAFOLD_PARAMS_DIR = 'openfold/resources/params'
-ALPHAFOLD_PARAMS_PATH = os.path.join(
-  ALPHAFOLD_PARAMS_DIR, os.path.basename(ALPHAFOLD_PARAM_SOURCE_URL)
-)
-
-##############################################################################################################
-# BLOCK IMPORT PYTHON PACKAGES
-##############################################################################################################
 
 #import unittest.mock
 import sys
@@ -106,9 +61,6 @@ from openfold.data import data_pipeline
 from openfold.data.tools import jackhmmer
 from openfold.model import model
 from openfold.np import protein
-if(relax_prediction):
-  from openfold.np.relax import relax
-  from openfold.np.relax import utils
 from openfold.utils.import_weights import import_jax_weights_
 from openfold.utils.tensor_utils import tensor_tree_map
 
@@ -116,15 +68,71 @@ from openfold.utils.tensor_utils import tensor_tree_map
 #from ipywidgets import GridspecLayout
 #from ipywidgets import Output
 
+
+
+##############################################################################################################
+#  BLOCK  BEGIN
+##############################################################################################################
+
+#@markdown ### Enter the amino acid sequence to fold ⬇️
+pdbname = '6t1z' #@param {type:"string"}
+if pdbname == '6t1z':
+  sequence = 'GKEFWNLDKNLQLRLGIVFLGAFSYGTVFSSMTIYYNQYLGSAITGILLALSAVATFVAGILAGFFADRNGRKPVMVFGTIIQLLGAALAIASNLPGHVNPWSTFIAFLLISFGYNFVITAGNAMIIDASNAENRKVVFMLDYWAQNLSVILGAALGAWLFRPAFEALLVILLLTVLVSFFLTTFVMTETFKPTVKVDNIFQAYKTVLQDKTYMIFMGANIATTFIIMQFDNFLPVHLSNSFKTITFWGFEIYGQRMLTIYLILACVLVVLLMTTLNRLTKDWSHQKGFIWGSLFMAIGMIFSFLTTTFTPIFIAGIVYTLGEIVYTPSVQTLGADLMNPEKIGSYNGVAAIKMPIASILAGLLVSISPMIKAIGVSLVLALTEVLAIILVLVAVNRHQKTKLNLEVLFQG'
+if pdbname == '4JA4':# NOT ENOUGH MEM
+  sequence = 'GNTQYNSSYIFSITLVATLGGLLFGYDTAVISGTVESLNTVFVAPQNLSESAANSLLGFCVASALIGCIIGGALGGYCSNRFGRRDSLKIAAVLFFISGVGSAWPELGFTSINPDNTVPVYLAGYVPEFVIYRIIGGIGVGLASMLSPMYIAELAPAHIRGKLVSFNQFAIIFGQLLVYCVNYFIARSGDASWLNTDGWRYMFASECIPALLFLMLLYTVPESPRWLMSRGKQEQAEGILRKIMGNTLATQAVQEIKHSLDHGRKTGGRLLMFGVGVIVIGVMLSIFQQFVGINVVLYYAPEVFKTLGASTDIALLQTIIVGVINLTFTVLAIMTVDKFGRKPLQIIGALGMAIGMFSLGTAFYTQAPGIVALLSMLFYVAAFAMSWGPVCWVLLSEIFPNAIRGKALAIAVAAQWLANYFVSWTFPMMDKNSWLVAHFHNGFSYWIYGCMGVLAALFMWKFVPETKGKTLEELEALWEPETKKT'
+
+weight_set = 'OpenFold' #@param ["OpenFold", "AlphaFold"]
+relax_prediction = True #@param {type:"boolean"}
+
+if(relax_prediction):
+  from openfold.np.relax import relax
+  from openfold.np.relax import utils
+
+# Remove all whitespaces, tabs and end lines; upper-case
+sequence = sequence.translate(str.maketrans('', '', ' \n\t')).upper()
+aatypes = set('ACDEFGHIKLMNPQRSTVWY')  # 20 standard aatypes
+if not set(sequence).issubset(aatypes):
+  raise Exception(f'Input sequence contains non-amino acid letters: {set(sequence) - aatypes}. OpenFold only supports 20 standard amino acids as inputs.')
+
+
+##############################################################################################################
+#  BLOCK  INSTALL THIRD PARTY SOFTWARE
+##############################################################################################################
+# note: most has been deleted
+
+
+
+TQDM_BAR_FORMAT = '{l_bar}{bar}| {n_fmt}/{total_fmt} [elapsed: {elapsed} remaining: {remaining}]'
+
+
+##############################################################################################################
+# BLOCK INSTALL OPENFOLD
+##############################################################################################################
+# note: OF preinstalled. Just using the paths in this block
+
+# Define constants
+#GIT_REPO='https://github.com/aqlaboratory/openfold'
+GIT_REPO='https://github.com/MichaelTrumbull/openfold-mt'####### NEW CODE
+ALPHAFOLD_PARAM_SOURCE_URL = 'https://storage.googleapis.com/alphafold/alphafold_params_2022-01-19.tar'
+OPENFOLD_PARAMS_DIR = 'openfold/resources/openfold_params'
+ALPHAFOLD_PARAMS_DIR = 'openfold/resources/params'
+ALPHAFOLD_PARAMS_PATH = os.path.join(
+  ALPHAFOLD_PARAMS_DIR, os.path.basename(ALPHAFOLD_PARAM_SOURCE_URL)
+)
+
+##############################################################################################################
+# BLOCK IMPORT PYTHON PACKAGES
+##############################################################################################################
+
+# moved up..
+
 ##############################################################################################################
 # BLOCK PICKLE
 ##############################################################################################################
 
 #@title pickle
 # pickle is used to save the dbs file generated by jkhmmer
-import pickle
-dbspath = folderpath + pdbname + ".dbs"
-run_jkhmmer = not os.path.exists(dbspath)
+# moved up...
 
 ##############################################################################################################
 # BLOCK SEARCH AGAINST GENETIC DATABASE
