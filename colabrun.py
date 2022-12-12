@@ -3,7 +3,7 @@ folderpath = r'myscripts/MSAs/' #location of .dbs file that contains the msa
 
 output_dir = 'output/'
 
-NAME_DETAILS = 's_0tensor' 
+NAME_DETAILS = 'computed_NO_MODS_' 
 
 
 

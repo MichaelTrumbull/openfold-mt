@@ -406,7 +406,7 @@ class AlphaFold(nn.Module):
         ################################################################################
         # MODIFICATION CODE
         ################################################################################
-        print('orig s',s)
+        #print('orig s',s)
         #print('orig z',z)
         #print('orig m',m)
         
@@ -428,10 +428,10 @@ class AlphaFold(nn.Module):
         else:
             print('which_tensor is not specified. which_tensor=',which_tensor)
         '''
-        s = s*0
+        #s = s*0
 
 
-        print('s after',s)
+        #print('s after',s)
         #print('z after',z)
         #print('m after',m)
 
