@@ -458,4 +458,9 @@ if pae_outputs:
 #files.download(f'{output_dir}.zip')
 
 #########################################
+
+# if we saved an s_tensor we need to rename it to this runname:
+s_filename = 'output/s_tensor'
+if (os.path.exists(s_filename) == True):
+  os.rename(s_filename, s_filename + NAME_DETAILS + '.pt')
 print('######### FINISHED ###########')

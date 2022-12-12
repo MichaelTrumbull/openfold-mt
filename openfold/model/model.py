@@ -12,6 +12,9 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+
+import os ##### NEW CODE
+
 from functools import partial
 import weakref
 
@@ -435,6 +438,11 @@ class AlphaFold(nn.Module):
         #print('z after',z)
         #print('m after',m)
 
+        ##### save s if we haven't yet. 
+        s_filename = 'output/s_tensor'
+        if (os.path.exists(s_filename) == False):
+            torch.save(s, s_filename)
+        #####
 
         ################################################################################
         # END MODIFICATION CODE
