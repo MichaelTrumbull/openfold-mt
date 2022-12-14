@@ -431,7 +431,8 @@ class AlphaFold(nn.Module):
         else:
             print('which_tensor is not specified. which_tensor=',which_tensor)
         '''
-        s = s*0
+        #s = s*0
+        z = z*0
 
 
         #print('s after',s)
@@ -452,10 +453,6 @@ class AlphaFold(nn.Module):
         outputs["msa"] = m[..., :n_seq, :, :]
         outputs["pair"] = z
         outputs["single"] = s
-
-        ###### new code
-        print('outputs["single"]', outputs["single"])
-        ######
 
         
 

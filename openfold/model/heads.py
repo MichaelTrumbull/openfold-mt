@@ -118,8 +118,8 @@ class AuxiliaryHeads(nn.Module):
                     **self.config.tm,
                 )
             )
-        print('heads.py/AuxillaryHeads: aux_out.keys()')
-        print(aux_out.keys())
+        #print('heads.py/AuxillaryHeads: aux_out.keys()')
+        #print(aux_out.keys())
 
         return aux_out
 

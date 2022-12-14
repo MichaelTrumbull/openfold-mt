@@ -1,9 +1,15 @@
-
+import argparse
+parser = argparse.ArgumentParser()
+parser.add_argument('--protien_name', type=str, default="6t1z")
+parser.add_argument('--vari', type=float, default=10)
+parser.add_argument('--representation', type=str, default='s')
+args = parser.parse_args()
 
 
 
 #@markdown ### Enter the amino acid sequence to fold ⬇️
-pdbname = '4JA4' #@param {type:"string"}
+#pdbname = '4JA4' #@param {type:"string"}
+pdbname = args.protien_name
 if pdbname == '6t1z':
   sequence = 'GKEFWNLDKNLQLRLGIVFLGAFSYGTVFSSMTIYYNQYLGSAITGILLALSAVATFVAGILAGFFADRNGRKPVMVFGTIIQLLGAALAIASNLPGHVNPWSTFIAFLLISFGYNFVITAGNAMIIDASNAENRKVVFMLDYWAQNLSVILGAALGAWLFRPAFEALLVILLLTVLVSFFLTTFVMTETFKPTVKVDNIFQAYKTVLQDKTYMIFMGANIATTFIIMQFDNFLPVHLSNSFKTITFWGFEIYGQRMLTIYLILACVLVVLLMTTLNRLTKDWSHQKGFIWGSLFMAIGMIFSFLTTTFTPIFIAGIVYTLGEIVYTPSVQTLGADLMNPEKIGSYNGVAAIKMPIASILAGLLVSISPMIKAIGVSLVLALTEVLAIILVLVAVNRHQKTKLNLEVLFQG'
 if pdbname == '4JA4':# NOT ENOUGH MEM
@@ -11,7 +17,7 @@ if pdbname == '4JA4':# NOT ENOUGH MEM
 
 ###########################################################
 
-NAME_DETAILS = 's_equal_0_' + pdbname + '_'
+NAME_DETAILS = 'z_equal_0_' + pdbname + '_'
 
 folderpath = r'myscripts/MSAs/' #location of .dbs file that contains the msa
 
