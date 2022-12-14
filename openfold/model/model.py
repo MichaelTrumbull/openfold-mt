@@ -432,7 +432,8 @@ class AlphaFold(nn.Module):
             print('which_tensor is not specified. which_tensor=',which_tensor)
         '''
         #s = s*0
-        z = z*0
+        #z = z*0 #BREAKS THE RUN
+        m=m*0
 
 
         #print('s after',s)

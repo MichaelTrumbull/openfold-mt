@@ -17,7 +17,7 @@ if pdbname == '4JA4':# NOT ENOUGH MEM
 
 ###########################################################
 
-NAME_DETAILS = 'z_equal_0_' + pdbname + '_'
+NAME_DETAILS = 'm_equal_0_' + pdbname + '_'
 
 folderpath = r'myscripts/MSAs/' #location of .dbs file that contains the msa
 
