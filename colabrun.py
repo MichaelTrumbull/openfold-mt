@@ -8,8 +8,8 @@ args = parser.parse_args()
 
 
 #@markdown ### Enter the amino acid sequence to fold ⬇️
-#pdbname = '4JA4' #@param {type:"string"}
-pdbname = args.protien_name
+pdbname = '4JA4' #@param {type:"string"}
+#pdbname = args.protien_name
 if pdbname == '6t1z':
   sequence = 'GKEFWNLDKNLQLRLGIVFLGAFSYGTVFSSMTIYYNQYLGSAITGILLALSAVATFVAGILAGFFADRNGRKPVMVFGTIIQLLGAALAIASNLPGHVNPWSTFIAFLLISFGYNFVITAGNAMIIDASNAENRKVVFMLDYWAQNLSVILGAALGAWLFRPAFEALLVILLLTVLVSFFLTTFVMTETFKPTVKVDNIFQAYKTVLQDKTYMIFMGANIATTFIIMQFDNFLPVHLSNSFKTITFWGFEIYGQRMLTIYLILACVLVVLLMTTLNRLTKDWSHQKGFIWGSLFMAIGMIFSFLTTTFTPIFIAGIVYTLGEIVYTPSVQTLGADLMNPEKIGSYNGVAAIKMPIASILAGLLVSISPMIKAIGVSLVLALTEVLAIILVLVAVNRHQKTKLNLEVLFQG'
 if pdbname == '4JA4':# NOT ENOUGH MEM
@@ -17,13 +17,15 @@ if pdbname == '4JA4':# NOT ENOUGH MEM
 
 ###########################################################
 
-NAME_DETAILS = 'z_vari_100_' + pdbname + '_'
+NAME_DETAILS = 's_vari_100_' + pdbname + '_'
 
 folderpath = r'myscripts/MSAs/' #location of .dbs file that contains the msa
 
 output_dir = 'output/'
 
-
+print('#'*10)
+print('Starting: ', NAME_DETAILS)
+print('Output dir: ', output_dir)
 
 #from IPython.utils import io
 import os

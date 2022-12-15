@@ -432,9 +432,11 @@ class AlphaFold(nn.Module):
             print('which_tensor is not specified. which_tensor=',which_tensor)
         '''
         #s = s*0
+        s = s + (100.)*(torch.randn(s.size()).to(dtype=s.dtype, device='cuda'))
         #z = z*0 #BREAKS THE RUN
-        z = z + (100.)*(torch.randn(z.size()).to(dtype=z.dtype, device='cuda'))
+        #z = z + (100.)*(torch.randn(z.size()).to(dtype=z.dtype, device='cuda'))
         #m=m*0
+        print('*')
 
 
         #print('s after',s)
