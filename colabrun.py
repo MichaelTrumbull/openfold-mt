@@ -18,8 +18,9 @@ if pdbname == '4JA4':# NOT ENOUGH MEM
 ###########################################################
 representation = 's'
 vari = 100
+zero_tensor = str(True)
 
-NAME_DETAILS = pdbname + '_' + representation + '_' + 'vari' + vari + '_' 
+NAME_DETAILS = pdbname + '_' + representation + '_' + 'vari' + vari + '_' + 'zt' + zero_tensor + '_'
 
 folderpath = r'myscripts/MSAs/' #location of .dbs file that contains the msa
 
