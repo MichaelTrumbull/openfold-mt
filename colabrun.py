@@ -12,7 +12,7 @@ args = parser.parse_args()
 ##### !!!!! NEED TO REMOVE MULTIPLE CPU PROCESSES. Look at subprocesses.
 
 #@markdown ### Enter the amino acid sequence to fold ⬇️
-pdbname = '6t1z' #@param {type:"string"}
+pdbname = '4JA4' #@param {type:"string"}
 #pdbname = args.protien_name
 if pdbname == '6t1z':
   sequence = 'GKEFWNLDKNLQLRLGIVFLGAFSYGTVFSSMTIYYNQYLGSAITGILLALSAVATFVAGILAGFFADRNGRKPVMVFGTIIQLLGAALAIASNLPGHVNPWSTFIAFLLISFGYNFVITAGNAMIIDASNAENRKVVFMLDYWAQNLSVILGAALGAWLFRPAFEALLVILLLTVLVSFFLTTFVMTETFKPTVKVDNIFQAYKTVLQDKTYMIFMGANIATTFIIMQFDNFLPVHLSNSFKTITFWGFEIYGQRMLTIYLILACVLVVLLMTTLNRLTKDWSHQKGFIWGSLFMAIGMIFSFLTTTFTPIFIAGIVYTLGEIVYTPSVQTLGADLMNPEKIGSYNGVAAIKMPIASILAGLLVSISPMIKAIGVSLVLALTEVLAIILVLVAVNRHQKTKLNLEVLFQG'
@@ -24,7 +24,7 @@ representation = 's'
 vari = '_'
 zero_tensor = str(True)
 
-NAME_DETAILS = pdbname + 'NO_MODS_SECOND_RUN'#'_' + representation + '_' + 'vari' + vari + '_' + 'zt' + zero_tensor + '_'
+NAME_DETAILS = pdbname + '_vari_s_100_'#'_' + representation + '_' + 'vari' + vari + '_' + 'zt' + zero_tensor + '_'
 
 folderpath = r'myscripts/MSAs/' #location of .dbs file that contains the msa
 
