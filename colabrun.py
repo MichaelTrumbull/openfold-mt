@@ -5,7 +5,11 @@ parser.add_argument('--vari', type=float, default=10)
 parser.add_argument('--representation', type=str, default='s')
 args = parser.parse_args()
 
-
+#########
+######
+#######
+######
+##### !!!!! NEED TO REMOVE MULTIPLE CPU PROCESSES. Look at subprocesses.
 
 #@markdown ### Enter the amino acid sequence to fold ⬇️
 pdbname = '4JA4' #@param {type:"string"}
@@ -17,10 +21,10 @@ if pdbname == '4JA4':# NOT ENOUGH MEM
 
 ###########################################################
 representation = 's'
-vari = 100
+vari = '_'
 zero_tensor = str(True)
 
-NAME_DETAILS = pdbname + '_' + representation + '_' + 'vari' + vari + '_' + 'zt' + zero_tensor + '_'
+NAME_DETAILS = pdbname + 'NO_MODS_SECOND_RUN'#'_' + representation + '_' + 'vari' + vari + '_' + 'zt' + zero_tensor + '_'
 
 folderpath = r'myscripts/MSAs/' #location of .dbs file that contains the msa
 
@@ -32,7 +36,7 @@ print('Output dir: ', output_dir)
 
 #from IPython.utils import io
 import os
-import subprocess
+#import subprocess
 import tqdm.notebook
 
 import pickle
