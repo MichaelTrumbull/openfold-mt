@@ -434,7 +434,7 @@ class AlphaFold(nn.Module):
         #s = s*0
         #s = s + (100.)*(torch.randn(s.size()).to(dtype=s.dtype, device='cuda'))
         #z = z*0 #BREAKS THE RUN
-        #z = torch.ones(z.size()).to(dtype=z.dtype, device='cuda')
+        #z = torch.ones(z.size()).to(dtype=z.dtype, device='cuda') # also breaks the run with Particle coordinate is nan
         #z = z + (100.)*(torch.randn(z.size()).to(dtype=z.dtype, device='cuda'))
         #m=m*0
         #print('*', end =" ")
