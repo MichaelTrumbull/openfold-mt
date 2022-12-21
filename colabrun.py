@@ -24,7 +24,7 @@ representation = 's'
 vari = '_'
 zero_tensor = str(True)
 
-NAME_DETAILS = pdbname + 'z_set_to_ones'#'_' + representation + '_' + 'vari' + vari + '_' + 'zt' + zero_tensor + '_'
+NAME_DETAILS = pdbname + 'z_times_0_05_'#'_' + representation + '_' + 'vari' + vari + '_' + 'zt' + zero_tensor + '_'
 
 folderpath = r'myscripts/MSAs/' #location of .dbs file that contains the msa
 
