@@ -438,7 +438,7 @@ class AlphaFold(nn.Module):
         #z = z + (100.)*(torch.randn(z.size()).to(dtype=z.dtype, device='cuda'))
         #m=m*0
         #print('*', end =" ")
-        z = z*0.05
+        z = z*0.0001
 
 
         #print('s after',s)
