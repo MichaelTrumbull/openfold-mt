@@ -73,7 +73,8 @@ class AlphaFold(nn.Module):
         ######################### NEW CODE TO LOAD RUN PARAMETERS
 
         with open("experiment_config_file", "r") as f:
-            self.experiment_params = f.split(' ')
+            for line in f:
+                self.experiment_params = line.split(' ')
         print('model.py load self.experimental_params: ', self.experiment_params)
 
         
