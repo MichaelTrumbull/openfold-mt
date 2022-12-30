@@ -8,23 +8,16 @@ conda activate openfold_venv
 
 for v in 0.000001 0.00001 0.0001 0.001 0.01 0.1 10 100 1000 10000 100000
 do
-    for r in s z
+    for r in s z m
     do
-        CUDA_VISIBLE_DEVICES=0 python3 colabrun.py --protien_name 7MZZ --variation_mode mult --value $v --representation $r
+        for m in mult noise
+        do
+            CUDA_VISIBLE_DEVICES=0 python3 colabrun.py --protien_name 7MZZ --variation_mode $m --value $v --representation $r
+        done
     done
+    echo $v
 done
-
-echo FINISHED FIRST FOR LOOP
 
 CUDA_VISIBLE_DEVICES=0 python3 colabrun.py --protien_name 7MZZ --variation_mode zero --value 1 --representation s
 CUDA_VISIBLE_DEVICES=0 python3 colabrun.py --protien_name 7MZZ --variation_mode zero --value 1 --representation z
 CUDA_VISIBLE_DEVICES=0 python3 colabrun.py --protien_name 7MZZ --variation_mode zero --value 1 --representation m
-
-for v in 0.000001 0.00001 0.0001 0.001 0.01 0.1 10 100 1000 10000 100000
-do
-    for r in s z m
-    do
-        CUDA_VISIBLE_DEVICES=0 python3 colabrun.py --protien_name 7MZZ --variation_mode noise --value $v --representation $r
-    done
-done
-echo FULLY DONE
