@@ -32,7 +32,7 @@ if pdbname == '7MZZ':# https://www.rcsb.org/structure/7MZZ
 ###########################################################
 
 #NAME_DETAILS = pdbname + 'z_times_0_0001_'#'_' + representation + '_' + 'vari' + vari + '_' + 'zt' + zero_tensor + '_'
-NAME_DETAILS = args.protien_name + '_' + args.variation_mode + '_' + args.value + '_' + args.representation
+NAME_DETAILS = args.protien_name + '_' + args.variation_mode + '_' + str(args.value) + '_' + args.representation
 
 folderpath = r'myscripts/MSAs/' #location of .dbs file that contains the msa
 
