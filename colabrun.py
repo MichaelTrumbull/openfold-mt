@@ -46,7 +46,7 @@ print('Output dir: ', output_dir)
 print('Config file:')
 with open("experiment_config_file", "w") as f:
   f.write(args.variation_mode + " ")
-  f.write(args.value + " ")
+  f.write(str(args.value) + " ")
   f.write(args.representation)
   print(f)
 
