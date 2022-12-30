@@ -21,3 +21,5 @@ done
 CUDA_VISIBLE_DEVICES=0 python3 colabrun.py --protien_name 7MZZ --variation_mode zero --value 1 --representation s
 CUDA_VISIBLE_DEVICES=0 python3 colabrun.py --protien_name 7MZZ --variation_mode zero --value 1 --representation z
 CUDA_VISIBLE_DEVICES=0 python3 colabrun.py --protien_name 7MZZ --variation_mode zero --value 1 --representation m
+
+echo TOTALLY FINISHED
