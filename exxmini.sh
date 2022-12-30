@@ -4,4 +4,4 @@ conda activate openfold_venv
 # Need:
 # pip install ipywidgets
 # pip install py3Dmol
-CUDA_VISIBLE_DEVICES=0 python3 colabrun.py
+CUDA_VISIBLE_DEVICES=0 python3 colabrun.py --protien_name 7MZZ --variation_mode none --value 1 --representation s

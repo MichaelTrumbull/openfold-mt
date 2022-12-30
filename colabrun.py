@@ -36,7 +36,7 @@ NAME_DETAILS = args.protien_name + '_' + args.variation_mode + '_' + args.value 
 
 folderpath = r'myscripts/MSAs/' #location of .dbs file that contains the msa
 
-output_dir = 'output_doe/' #need to make directory
+output_dir = 'output/' #need to make directory
 
 print('#'*10)
 print('Starting: ', NAME_DETAILS)
