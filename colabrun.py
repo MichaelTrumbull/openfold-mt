@@ -1,8 +1,15 @@
+'''
+6t1z and 4ja4 coming from: https://www.biorxiv.org/content/10.1101/2021.11.29.470469v1.full
+kinases coming from: https://molecular-cancer.biomedcentral.com/articles/10.1186/s12943-018-0804-2
+'''
+
+
 import argparse
 parser = argparse.ArgumentParser()
-parser.add_argument('--protien_name', type=str, default="6t1z")
-parser.add_argument('--vari', type=float, default=10)
-parser.add_argument('--representation', type=str, default='s')
+parser.add_argument('--protien_name', type=str, default="7MZZ", choices=['6t1z', '4JA4', '____'])
+parser.add_argument('--variation_mode', type=str, default="noise", choices=['noise', 'zero', 'mult', 'none'])
+parser.add_argument('--value', type=float, default=1)
+parser.add_argument('--representation', type=str, default='s', choices=['s', 'z', 'm'])
 args = parser.parse_args()
 
 #########
@@ -12,27 +19,37 @@ args = parser.parse_args()
 ##### !!!!! NEED TO REMOVE MULTIPLE CPU PROCESSES. Look at subprocesses.
 
 #@markdown ### Enter the amino acid sequence to fold ⬇️
-pdbname = '4JA4' #@param {type:"string"}
-#pdbname = args.protien_name
+#pdbname = '4JA4' #@param {type:"string"}
+pdbname = args.protien_name
 if pdbname == '6t1z':
   sequence = 'GKEFWNLDKNLQLRLGIVFLGAFSYGTVFSSMTIYYNQYLGSAITGILLALSAVATFVAGILAGFFADRNGRKPVMVFGTIIQLLGAALAIASNLPGHVNPWSTFIAFLLISFGYNFVITAGNAMIIDASNAENRKVVFMLDYWAQNLSVILGAALGAWLFRPAFEALLVILLLTVLVSFFLTTFVMTETFKPTVKVDNIFQAYKTVLQDKTYMIFMGANIATTFIIMQFDNFLPVHLSNSFKTITFWGFEIYGQRMLTIYLILACVLVVLLMTTLNRLTKDWSHQKGFIWGSLFMAIGMIFSFLTTTFTPIFIAGIVYTLGEIVYTPSVQTLGADLMNPEKIGSYNGVAAIKMPIASILAGLLVSISPMIKAIGVSLVLALTEVLAIILVLVAVNRHQKTKLNLEVLFQG'
 if pdbname == '4JA4':# NOT ENOUGH MEM
   sequence = 'GNTQYNSSYIFSITLVATLGGLLFGYDTAVISGTVESLNTVFVAPQNLSESAANSLLGFCVASALIGCIIGGALGGYCSNRFGRRDSLKIAAVLFFISGVGSAWPELGFTSINPDNTVPVYLAGYVPEFVIYRIIGGIGVGLASMLSPMYIAELAPAHIRGKLVSFNQFAIIFGQLLVYCVNYFIARSGDASWLNTDGWRYMFASECIPALLFLMLLYTVPESPRWLMSRGKQEQAEGILRKIMGNTLATQAVQEIKHSLDHGRKTGGRLLMFGVGVIVIGVMLSIFQQFVGINVVLYYAPEVFKTLGASTDIALLQTIIVGVINLTFTVLAIMTVDKFGRKPLQIIGALGMAIGMFSLGTAFYTQAPGIVALLSMLFYVAAFAMSWGPVCWVLLSEIFPNAIRGKALAIAVAAQWLANYFVSWTFPMMDKNSWLVAHFHNGFSYWIYGCMGVLAALFMWKFVPETKGKTLEELEALWEPETKKT'
+if pdbname == '7MZZ':# https://www.rcsb.org/structure/7MZZ
+  sequence = 'SRSAEIFPRDSNLKDKFIKHFTGPVTFSPECSKHFHRLYYNTRECSTPAYYKRCARLLTRLAVSPLCSQT'
+
 
 ###########################################################
-representation = 's'
-vari = '_'
-zero_tensor = str(True)
 
-NAME_DETAILS = pdbname + 'z_times_0_0001_'#'_' + representation + '_' + 'vari' + vari + '_' + 'zt' + zero_tensor + '_'
+#NAME_DETAILS = pdbname + 'z_times_0_0001_'#'_' + representation + '_' + 'vari' + vari + '_' + 'zt' + zero_tensor + '_'
+NAME_DETAILS = args.protien_name + '_' + args.variation_mode + '_' + args.value + '_' + args.representation
 
 folderpath = r'myscripts/MSAs/' #location of .dbs file that contains the msa
 
-output_dir = 'output/'
+output_dir = 'output_doe/' #need to make directory
 
 print('#'*10)
 print('Starting: ', NAME_DETAILS)
 print('Output dir: ', output_dir)
+
+####### Set up config file that will be loaded into model.py as self.experiment_params
+print('Config file:')
+with open("experiment_config_file", "w") as f:
+  f.write(args.variation_mode + " ")
+  f.write(args.value + " ")
+  f.write(args.representation)
+  print(f)
+
 
 #from IPython.utils import io
 import os

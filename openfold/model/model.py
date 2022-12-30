@@ -70,6 +70,17 @@ class AlphaFold(nn.Module):
         """
         super(AlphaFold, self).__init__()
 
+        ######################### NEW CODE TO LOAD RUN PARAMETERS
+
+        with open("experiment_config_file", "r") as f:
+            self.experiment_params = f.split(' ')
+        print('model.py load self.experimental_params: ', self.experiment_params)
+
+        
+
+
+        ############################
+
         self.globals = config.globals
         self.config = config.model
         self.template_config = self.config.template
@@ -438,7 +449,7 @@ class AlphaFold(nn.Module):
         #z = z + (100.)*(torch.randn(z.size()).to(dtype=z.dtype, device='cuda'))
         #m=m*0
         #print('*', end =" ")
-        z = z*0.0001
+        #z = z*0.0001
 
 
         #print('s after',s)
@@ -450,6 +461,43 @@ class AlphaFold(nn.Module):
         #if (os.path.exists(s_filename) == False):
         #    torch.save(s, s_filename)
         #####
+
+        # variation mode: self.experiment_params[0]
+        # value: self.experiment_params[1]
+        # representation: self.experiment_params[2]
+
+        if self.experiment_params[0] == "noise":
+            if self.experiment_params[2] == "s":
+                s = s + (float(self.experiment_params[1]))*(torch.randn(s.size()).to(dtype=s.dtype, device='cuda'))
+            elif self.experiment_params[2] == "z":
+                z = z + (float(self.experiment_params[1]))*(torch.randn(z.size()).to(dtype=z.dtype, device='cuda'))
+            elif self.experiment_params[2] == "m":
+                m = m + (float(self.experiment_params[1]))*(torch.randn(m.size()).to(dtype=z.dtype, device='cuda'))
+        elif self.experiment_params[0] == "zero":
+            if self.experiment_params[2] == "s":
+                s = s*0
+            elif self.experiment_params[2] == "z":
+                z = z*0
+            elif self.experiment_params[2] == "m":
+                m = m*0
+        elif self.experiment_params[0] == "mult":
+            if self.experiment_params[2] == "s":
+                s = s * float(self.experiment_params[1])
+            elif self.experiment_params[2] == "z":
+                z = z * float(self.experiment_params[1])
+            elif self.experiment_params[2] == "m":
+                m = m * float(self.experiment_params[1])
+        elif self.experiment_params[0] == "none":
+            pass
+        else:
+            print('BAD experiment_config_file')
+
+
+
+
+
+
+
 
         ################################################################################
         # END MODIFICATION CODE
