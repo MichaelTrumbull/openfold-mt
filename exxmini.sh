@@ -4,7 +4,7 @@ conda activate openfold_venv
 # Need:
 # pip install ipywidgets
 # pip install py3Dmol
-CUDA_VISIBLE_DEVICES=0 python3 colabrun.py --protien_name 5D3W --variation_mode none --value 1 --representation s
+CUDA_VISIBLE_DEVICES=0 python3 colabrun.py --protien_name 4O75 --variation_mode none --value 1 --representation s
 
 for v in 0.000001 0.00001 0.0001 0.001 0.01 0.1 10 100 1000 10000 100000
 do
@@ -12,14 +12,14 @@ do
     do
         for m in mult noise
         do
-            CUDA_VISIBLE_DEVICES=0 python3 colabrun.py --protien_name 5D3W --variation_mode $m --value $v --representation $r
+            CUDA_VISIBLE_DEVICES=0 python3 colabrun.py --protien_name 4O75 --variation_mode $m --value $v --representation $r
         done
     done
     echo $v
 done
 
-CUDA_VISIBLE_DEVICES=0 python3 colabrun.py --protien_name 5D3W --variation_mode zero --value 1 --representation s
-CUDA_VISIBLE_DEVICES=0 python3 colabrun.py --protien_name 5D3W --variation_mode zero --value 1 --representation z
-CUDA_VISIBLE_DEVICES=0 python3 colabrun.py --protien_name 5D3W --variation_mode zero --value 1 --representation m
+CUDA_VISIBLE_DEVICES=0 python3 colabrun.py --protien_name 4O75 --variation_mode zero --value 1 --representation s
+CUDA_VISIBLE_DEVICES=0 python3 colabrun.py --protien_name 4O75 --variation_mode zero --value 1 --representation z
+CUDA_VISIBLE_DEVICES=0 python3 colabrun.py --protien_name 4O75 --variation_mode zero --value 1 --representation m
 
 echo TOTALLY FINISHED

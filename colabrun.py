@@ -6,7 +6,7 @@ kinases coming from: https://molecular-cancer.biomedcentral.com/articles/10.1186
 
 import argparse
 parser = argparse.ArgumentParser()
-parser.add_argument('--protien_name', type=str, default="7MZZ", choices=['6t1z', '4JA4', '7MZZ','5D3W','1AKE'])
+parser.add_argument('--protien_name', type=str, default="7MZZ", choices=['6t1z', '4JA4', '7MZZ','5D3W','1AKE','4O75','3KHF','1DGN'])
 parser.add_argument('--variation_mode', type=str, default="noise", choices=['noise', 'zero', 'mult', 'none'])
 parser.add_argument('--value', type=float, default=1)
 parser.add_argument('--representation', type=str, default='s', choices=['s', 'z', 'm'])
@@ -32,6 +32,14 @@ if pdbname == '5D3W': #https://www.rcsb.org/structure/5D3W
 if pdbname == '1AKE': #https://www.rcsb.org/structure/1AKE
   sequence = 'MRIILLGAPGAGKGTQAQFIMEKYGIPQISTGDMLRAAVKSGSELGKQAKDIMDAGKLVTDELVIALVKERIAQEDCRNGFLLDGFPRTIPQADAMKEAGINVDYVLEFDVPDELIVDRIVGRRVHAPSGRVYHVKFNPPKVEGKDDVTGEELTTRKDDQEETVRKRLVEYHQMTAPLIGYYSKEAEAGNTKYAKVDGTKPVAEVRADLEKILG'
 
+##
+if pdbname == '4O75': #https://www.rcsb.org/structure/4O75
+  sequence = 'SMNPPPPETSNPNKPKRQTNQLQYLLRVVLKTLWKHQFAWPFQQPVDAVKLNLPDYYKIIKTPMDMGTIKKRLENNYYWNAQECIQDFNTMFTNCYIYNKPGDDIVLMAEALEKLFLQKINELPTEE'
+if pdbname == '3KHF': #https://www.rcsb.org/structure/3KHF
+  sequence = 'SMRPPIVIHSSGKKYGFSLRAIRVYMGDSDVYTVHHVVWSVEDGSPAQEAGLRAGDLITHINGESVLGLVHMDVVELLLKSGNKISLRTTALENTETSV'
+if pdbname == '1DGN': #https://www.rcsb.org/structure/1DGN
+  sequence = 'ADQLLRKKRRIFIHSVGAGTINALLDCLLEDEVISQEDMNKVRDENDTVMDKARVLIDLVTGKGPKSCCKFIKHLCEEDPQLASKMGLH'
+###
 
 ###########################################################
 
