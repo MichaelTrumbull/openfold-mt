@@ -474,6 +474,15 @@ class AlphaFold(nn.Module):
                 z = z + (float(self.experiment_params[1]))*(torch.randn(z.size()).to(dtype=z.dtype, device='cuda'))
             elif self.experiment_params[2] == "m":
                 m = m + (float(self.experiment_params[1]))*(torch.randn(m.size()).to(dtype=z.dtype, device='cuda'))
+            elif self.experiment_params[2] == "sz":
+                s = s + (float(self.experiment_params[1]))*(torch.randn(s.size()).to(dtype=s.dtype, device='cuda'))
+                z = z + (float(self.experiment_params[1]))*(torch.randn(z.size()).to(dtype=z.dtype, device='cuda'))
+            elif self.experiment_params[2] == "sm":
+                s = s + (float(self.experiment_params[1]))*(torch.randn(s.size()).to(dtype=s.dtype, device='cuda'))
+                m = m + (float(self.experiment_params[1]))*(torch.randn(m.size()).to(dtype=z.dtype, device='cuda'))
+            elif self.experiment_params[2] == "zm":
+                z = z + (float(self.experiment_params[1]))*(torch.randn(z.size()).to(dtype=z.dtype, device='cuda'))
+                m = m + (float(self.experiment_params[1]))*(torch.randn(m.size()).to(dtype=z.dtype, device='cuda'))
         elif self.experiment_params[0] == "zero":
             if self.experiment_params[2] == "s":
                 s = s*0
@@ -481,12 +490,30 @@ class AlphaFold(nn.Module):
                 z = z*0
             elif self.experiment_params[2] == "m":
                 m = m*0
+            elif self.experiment_params[2] == "sz":
+                s = s*0
+                z = z*0
+            elif self.experiment_params[2] == "sm":
+                s = s*0
+                m = m*0
+            elif self.experiment_params[2] == "zm":
+                z = z*0
+                m = m*0
         elif self.experiment_params[0] == "mult":
             if self.experiment_params[2] == "s":
                 s = s * float(self.experiment_params[1])
             elif self.experiment_params[2] == "z":
                 z = z * float(self.experiment_params[1])
             elif self.experiment_params[2] == "m":
+                m = m * float(self.experiment_params[1])
+            elif self.experiment_params[2] == "sz":
+                s = s * float(self.experiment_params[1])
+                z = z * float(self.experiment_params[1])
+            elif self.experiment_params[2] == "sm":
+                s = s * float(self.experiment_params[1])
+                m = m * float(self.experiment_params[1])
+            elif self.experiment_params[2] == "zm":
+                z = z * float(self.experiment_params[1])
                 m = m * float(self.experiment_params[1])
         elif self.experiment_params[0] == "none":
             pass
