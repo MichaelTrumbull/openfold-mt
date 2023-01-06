@@ -6,7 +6,7 @@ conda activate openfold_venv
 # pip install py3Dmol
 
 g=0
-p="7MZZ"
+p="5D3W"
 
 # target run
 #CUDA_VISIBLE_DEVICES=$g python3 colabrun.py --protien_name $p --variation_mode none --value 1 --representation s
@@ -39,3 +39,5 @@ do
         done
     done
 done
+
+echo LAST LINE
