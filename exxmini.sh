@@ -17,7 +17,6 @@ m="noise"
 for v in 10 100 1000 10000 100000 1000000 10000000
 do
     CUDA_VISIBLE_DEVICES=$g python3 colabrun.py --protien_name $p --variation_mode $m --value $v --representation $r
-
 done
 
 echo DONE
