@@ -5,7 +5,7 @@ conda activate openfold_venv
 # pip install ipywidgets
 # pip install py3Dmol
 
-g=0
+g=1
 p="4JA4"
 
 # target run
