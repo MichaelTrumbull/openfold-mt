@@ -6,21 +6,19 @@ conda activate openfold_venv
 # pip install py3Dmol
 
 g=1
-p="4JA4"
+p="4JA3"
 
 # target run
 #CUDA_VISIBLE_DEVICES=$g python3 colabrun.py --protien_name $p --variation_mode none --value 1 --representation s
-CUDA_VISIBLE_DEVICES=$g python3 colabrun.py --protien_name 4JA3 --variation_mode none --value 1 --representation s
-CUDA_VISIBLE_DEVICES=$g python3 colabrun.py --protien_name 6N3I --variation_mode none --value 1 --representation s
 r="z"
 m="noise"
 
-#for v in 5 15 20 25 30 35 40 45 50
-#do
-#    CUDA_VISIBLE_DEVICES=$g python3 colabrun.py --protien_name $p --variation_mode $m --value $v --representation $r
-#done
+for v in 5 15 20 25
+do
+    CUDA_VISIBLE_DEVICES=$g python3 colabrun.py --protien_name $p --variation_mode $m --value $v --representation $r
+done
 
-#echo DONE
+echo DONE
 
 # NOTES
-# 4JA4: value >= 100 throws error "ValueError: The number of positions must match the number of atoms"
+# 4JA4: value >= 30 throws error "ValueError: The number of positions must match the number of atoms"
