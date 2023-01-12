@@ -12,18 +12,27 @@ Usually something will be spit out on small protiens. Large protiens (XylE and L
 
   PROTIENS
     protiens with mult conf from paper: https://www.biorxiv.org/content/10.1101/2021.11.29.470469v1.full
-    4AKE
-    1AKE
-    2DRI
-    1URP
-    4JA4
-    4JA3
-    6N3I
-    4YBQ
-    4YB9
-    2JLN
-    4D1B
-    2X79
+      Adenylate Kinase
+        4AKE
+        1AKE
+      Ribose Binding Protein
+        2DRI
+        1URP
+        1BA2
+      LmrP
+        6t1z
+        *open version was just visual inspection, not comparison*
+      XylE
+        4JA4
+        4JA3
+        6N3I
+      GLUT5
+        4YBQ
+        4YB9
+      Mhp1
+        2JLN
+        4D1B
+        2X79
 '''
 
 import argparse
