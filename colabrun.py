@@ -12,12 +12,12 @@ Usually something will be spit out on small protiens. Large protiens (XylE and L
 
   PROTIENS
     protiens with mult conf from paper: https://www.biorxiv.org/content/10.1101/2021.11.29.470469v1.full
-      Adenylate Kinase
+      Adenylate Kinase *smallish
         4AKE
         1AKE
-      Ribose Binding Protein
-        2DRI
-        1URP
+      Ribose Binding Protein *smallish
+        2DRI 
+        1URP 
         1BA2
       LmrP
         6t1z
