@@ -2,7 +2,29 @@
 6t1z and 4ja4 coming from: https://www.biorxiv.org/content/10.1101/2021.11.29.470469v1.full
 kinases coming from: https://molecular-cancer.biomedcentral.com/articles/10.1186/s12943-018-0804-2
 '''
+'''
+  FINDINGS
+OF (trained with all three representations) puts heavy weight into the pair representation (z)
+AF2 paper shows retraining successfully without pair rep (z), so it can learn from the other representations.
+Therefore if given all three options it will get more info out of pair rep. 
+We can noise or zero pair rep to change the structure (want new conformation, get garbage so far).
+Usually something will be spit out on small protiens. Large protiens (XylE and LmrP) will throw an error if too much noise is applied to z or if z is zeroes out.
 
+  PROTIENS
+    protiens with mult conf from paper: https://www.biorxiv.org/content/10.1101/2021.11.29.470469v1.full
+    4AKE
+    1AKE
+    2DRI
+    1URP
+    4JA4
+    4JA3
+    6N3I
+    4YBQ
+    4YB9
+    2JLN
+    4D1B
+    2X79
+'''
 
 import argparse
 parser = argparse.ArgumentParser()

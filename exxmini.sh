@@ -21,4 +21,4 @@ done
 echo DONE
 
 # NOTES
-# 4JA4: value >= 30 throws error "ValueError: The number of positions must match the number of atoms"
+# 4JA4: value >= 25 throws error "ValueError: The number of positions must match the number of atoms"
