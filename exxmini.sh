@@ -6,14 +6,14 @@ conda activate openfold_venv
 # pip install py3Dmol
 
 g=0
-p="1AKE"
+p="2DRI"
 
 # target run
-CUDA_VISIBLE_DEVICES=$g python3 colabrun.py --protien_name $p --variation_mode none --value 1 --representation s
+CUDA_VISIBLE_DEVICES=$g python3 colabrun.py --protien_name $p --variation_mode none --value 0 --representation z
 r="z"
 m="noise"
 
-for v in 5 10 15 20 25 50 100 200
+for v in 1 3 6 9 10 13 15 17 20 25
 do
     CUDA_VISIBLE_DEVICES=$g python3 colabrun.py --protien_name $p --variation_mode $m --value $v --representation $r
 done
