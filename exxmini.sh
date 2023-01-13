@@ -13,7 +13,7 @@ CUDA_VISIBLE_DEVICES=$g python3 colabrun.py --protien_name $p --variation_mode n
 r="z"
 m="noise"
 
-for v in 1 3 6 9 10 13 15 17 20 25
+for v in 1 3 6 9 10 13 15 17 20
 do
     CUDA_VISIBLE_DEVICES=$g python3 colabrun.py --protien_name $p --variation_mode $m --value $v --representation $r
 done
