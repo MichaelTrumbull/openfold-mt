@@ -24,6 +24,8 @@ alias aws="/work/09123/mjt2211/ls6/openfold-mt/local-modules/aws/aws --no-verify
 alias aria2c="/work/09123/mjt2211/ls6/openfold-mt/local-modules/aria2c  --check-certificate=false"
 ##################################################################################################
 
+aria2c -h
+
 if [[ $# -eq 0 ]]; then
     echo "Error: download directory must be provided as an input argument."
     exit 1
