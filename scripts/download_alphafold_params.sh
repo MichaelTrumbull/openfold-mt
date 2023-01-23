@@ -19,7 +19,10 @@
 # Usage: bash download_alphafold_params.sh /path/to/download/directory
 set -e
 
-source $HOME/.bashrc
+##################################################################################################
+alias aws="/work/09123/mjt2211/ls6/openfold-mt/local-modules/aws/aws --no-verify-ssl"
+alias aria2c="/work/09123/mjt2211/ls6/openfold-mt/local-modules/aria2c  --check-certificate=false"
+##################################################################################################
 
 if [[ $# -eq 0 ]]; then
     echo "Error: download directory must be provided as an input argument."
