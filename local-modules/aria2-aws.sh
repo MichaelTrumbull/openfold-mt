@@ -11,3 +11,6 @@ rm awscliv2.zip
 mv aws/dist dist
 rm -rf aws
 mv dist aws
+
+echo --- RUN THE FOLLOWING ---
+echo export PATH=\"${PWD}:$PATH\"
