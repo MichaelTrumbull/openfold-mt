@@ -13,4 +13,4 @@ rm -rf aws
 mv dist aws
 
 echo --- RUN THE FOLLOWING ---
-echo export PATH=\"${PWD}:$PATH\"
+echo export PATH=\"${PWD}:${PWD}/aws:\$PATH\"
