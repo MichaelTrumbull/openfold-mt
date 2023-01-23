@@ -12,5 +12,6 @@ mv aws/dist dist
 rm -rf aws
 mv dist aws
 
-echo --- RUN THE FOLLOWING ---
-echo export PATH=\"${PWD}:${PWD}/aws:\$PATH\"
+echo --- exporting new path to home bashrc ---
+echo export PATH=\"${PWD}:${PWD}/aws:\$PATH\" >> $HOME/.bashrc
+echo restart terminal session for changes to take effect
