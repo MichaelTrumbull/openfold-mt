@@ -12,6 +12,7 @@ mv aws/dist dist
 rm -rf aws
 mv dist aws
 
-echo --- exporting new path to home bashrc ---
-echo export PATH=\"${PWD}:${PWD}/aws:\$PATH\" >> $HOME/.bashrc
-echo restart terminal session for changes to take effect
+echo --- add these to your bashrc then restart ---
+#echo export PATH=\"${PWD}:${PWD}/aws:\$PATH\"
+echo alias aws=\"${PWD}/aws/aws\"
+echo alias aria2c=\"${PWD}/aria2c  --check-certificate=false\"
