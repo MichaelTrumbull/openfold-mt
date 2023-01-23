@@ -6,6 +6,7 @@ rm -rf aria2-1.36.0-linux-gnu-64bit-build1/
 
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
 unzip awscliv2.zip
+rm awscliv2.zip
 
 mv aws/dist dist
 rm -rf aws
