@@ -14,5 +14,9 @@ mv dist aws
 
 echo --- add these to your bashrc then restart ---
 #echo export PATH=\"${PWD}:${PWD}/aws:\$PATH\"
-echo alias aws=\"${PWD}/aws/aws\"
+
+echo note: adding these to the path will not work because a certificate it missing. 
+echo To run without certificate add the following.
+echo alias aws=\"${PWD}/aws/aws --no-verify-ssl\"
 echo alias aria2c=\"${PWD}/aria2c  --check-certificate=false\"
+echo alias does not work inside other shell scripts though so 

@@ -19,6 +19,8 @@
 # Usage: bash download_alphafold_params.sh /path/to/download/directory
 set -e
 
+source $HOME/.bashrc
+
 if [[ $# -eq 0 ]]; then
     echo "Error: download directory must be provided as an input argument."
     exit 1
