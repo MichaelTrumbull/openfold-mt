@@ -69,13 +69,16 @@ class AlphaFold(nn.Module):
                 A dict-like config object (like the one in config.py)
         """
         super(AlphaFold, self).__init__()
-
+        
+        #########################################################
         ######################### NEW CODE TO LOAD RUN PARAMETERS
-
+        #########################################################
+        '''
         with open("experiment_config_file", "r") as f:
             for line in f:
                 self.experiment_params = line.split(' ')
         print('model.py load self.experimental_params: ', self.experiment_params)
+        '''
 
         
 
@@ -466,6 +469,7 @@ class AlphaFold(nn.Module):
         # variation mode: self.experiment_params[0]
         # value: self.experiment_params[1]
         # representation: self.experiment_params[2]
+        '''
 
         if self.experiment_params[0] == "noise":
             if self.experiment_params[2] == "s":
@@ -519,6 +523,9 @@ class AlphaFold(nn.Module):
             pass
         else:
             print('BAD experiment_config_file')
+
+
+        '''
 
 
 

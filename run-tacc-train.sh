@@ -1,8 +1,10 @@
 #!/bin/bash
 
 source ~/.bashrc
-export LD_LIBRARY_PATH=/usr/lib64:$LD_LIBRARY_PATH
-conda activate /scratch/00946/zzhang/python-env/openfold-venv
+#export LD_LIBRARY_PATH=/usr/lib64:$LD_LIBRARY_PATH
+#conda activate /scratch/00946/zzhang/python-env/openfold-venv
+source /work/09123/mjt2211/ls6/openfold-mt/lib/conda/bin/activate
+conda activate openfold_venv
 which python
 
 python train_openfold.py \
