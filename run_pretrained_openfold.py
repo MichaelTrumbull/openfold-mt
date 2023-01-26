@@ -260,26 +260,14 @@ def main(args):
             )
             out = tensor_tree_map(lambda x: np.array(x.cpu()), out)
 
-            print(out)
-            print()
-            print(processed_feature_dict)
-            print()
-            print(feature_dict)
-            print()
-            print(feature_processor)
-            print()
-            print(args.config_preset)
-            print()
-            print(args.multimer_ri_gap)
-            print()
-
             unrelaxed_protein = prep_output(
                 out, 
                 processed_feature_dict, 
                 feature_dict, 
                 feature_processor, 
                 args.config_preset,
-                args.multimer_ri_gap
+                args.multimer_ri_gap,
+                args.subtract_plddt
             )
 
             unrelaxed_output_path = os.path.join(
