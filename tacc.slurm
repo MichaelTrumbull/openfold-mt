@@ -6,7 +6,7 @@
 #SBATCH -p gpu-a100          # Queue (partition) name
 #SBATCH -N 1               # Total # of nodes
 #SBATCH -n 1              # Total # of mpi tasks
-#SBATCH -t 00:15:00        # Run time (hh:mm:ss)
+#SBATCH -t 00:40:00        # Run time (hh:mm:ss)
 
 ###srun run-tacc-inf.sh
 
@@ -23,6 +23,7 @@ python3 run_pretrained_openfold.py \
     --model_device "cuda:0" \
     --config_preset "model_1_ptm" \
     --openfold_checkpoint_path openfold/resources/openfold_params/finetuning_ptm_2.pt \
-    --use_precomputed_alignments /scratch/00946/zzhang/data/openfold/cameo/alignments 
+    --use_precomputed_alignments /scratch/00946/zzhang/data/openfold/cameo/alignments \
+    --subtract_plddt
     
     
