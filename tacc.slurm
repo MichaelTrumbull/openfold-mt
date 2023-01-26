@@ -26,5 +26,6 @@ python3 run_pretrained_openfold.py \
     --model_device "cuda:0" \
     --config_preset "model_1_ptm" \
     --openfold_checkpoint_path openfold/resources/openfold_params/finetuning_ptm_2.pt \
-    --use_precomputed_alignments /scratch/00946/zzhang/data/openfold/cameo/alignments # I think?
+    --use_precomputed_alignments /scratch/00946/zzhang/data/openfold/cameo/alignments \
+    --template_mmcif_dir /scratch/00946/zzhang/data/openfold/cameo/mmcif_files #Is this correct?
     
