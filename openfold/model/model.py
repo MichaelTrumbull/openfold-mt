@@ -528,6 +528,9 @@ class AlphaFold(nn.Module):
         '''
 
 
+        s=s*0
+
+
 
 
 
