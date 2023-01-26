@@ -526,9 +526,6 @@ class AlphaFold(nn.Module):
 
 
         '''
-        print('***')
-
-
 
 
 
