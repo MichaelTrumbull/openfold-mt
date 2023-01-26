@@ -1,13 +1,11 @@
 #!/bin/bash
 
 #SBATCH -J openfold-mt           # Job name
-#SBATCH -o openfold.o%j       # Name of stdout output file
-#SBATCH -e openfold.e%j       # Name of stderr error file
+#SBATCH -o output_log       # Name of stdout output file #use %j for job number
+#SBATCH -e error_log       # Name of stderr error file
 #SBATCH -p gpu-a100          # Queue (partition) name
 #SBATCH -N 1               # Total # of nodes
-#SBATCH -n 12              # Total # of mpi tasks
-#SBATCH -t 01:00:00        # Run time (hh:mm:ss)
-#SBATCH --mail-type=all    # Send email at begin and end of job
-# #SBATCH --mail-user=mjt2211@columbia.edu
+#SBATCH -n 1              # Total # of mpi tasks
+#SBATCH -t 00:30:00        # Run time (hh:mm:ss)
 
 srun ./run-tacc-inf.sh
