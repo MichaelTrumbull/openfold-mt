@@ -15,10 +15,10 @@ export LD_LIBRARY_PATH=/usr/lib64:$LD_LIBRARY_PATH
 source /work/09123/mjt2211/ls6/openfold-mt/lib/conda/bin/activate
 conda activate openfold_venv
 which python
-### scratch/00946/zzhang/data/openfold/cameo/mmcif_files
+### /scratch/00946/zzhang/data/openfold/ls6-tacc/pdb_mmcif/mmcif_files 
 python3 run_pretrained_openfold.py \
     fasta_dir \
-    /scratch/00946/zzhang/data/openfold/ls6-tacc/pdb_mmcif/mmcif_files \
+    scratch/00946/zzhang/data/openfold/cameo/mmcif_files \
     --output_dir ./ \
     --model_device "cuda:0" \
     --config_preset "model_1_ptm" \
