@@ -6,7 +6,7 @@
 #SBATCH -p gpu-a100          # Queue (partition) name
 #SBATCH -N 1               # Total # of nodes
 #SBATCH -n 1              # Total # of mpi tasks
-#SBATCH -t 00:10:00        # Run time (hh:mm:ss)
+#SBATCH -t 07:00:00        # Run time (hh:mm:ss)
 
 ###srun run-tacc-inf.sh
 
