@@ -1,8 +1,8 @@
 #!/bin/bash
 
 #SBATCH -J openfold-mt           # Job name
-#SBATCH -o log_output       # Name of stdout output file #use %j for job number
-#SBATCH -e log_error       # Name of stderr error file
+#SBATCH -o o.log       # Name of stdout output file #use %j for job number
+#SBATCH -e e.log       # Name of stderr error file
 #SBATCH -p gpu-a100          # Queue (partition) name
 #SBATCH -N 1               # Total # of nodes
 #SBATCH -n 1              # Total # of mpi tasks
