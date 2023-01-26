@@ -69,7 +69,7 @@ class AlphaFold(nn.Module):
                 A dict-like config object (like the one in config.py)
         """
         super(AlphaFold, self).__init__()
-        
+
         #########################################################
         ######################### NEW CODE TO LOAD RUN PARAMETERS
         #########################################################
@@ -526,6 +526,7 @@ class AlphaFold(nn.Module):
 
 
         '''
+        print('***')
 
 
 
