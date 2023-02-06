@@ -24,3 +24,21 @@ for protien in os.listdir(protiens_dir):
     output_file.write(protien + "  " + lines[8])
 
 output_file.close()
+
+# get value from hmmfile. specifically looking for: (even though i don't know what they are)
+#STATS LOCAL MSV    ## LINE [13]
+#STATS LOCAL VITERBI ## LINE [14]
+#STATS LOCAL FORWARD ## LINE [15]
+import os
+protiens_dir = "hmmfiles/" 
+output_file = open("FORWARD_from_hmmfile.txt", "w")
+for protien in os.listdir(protiens_dir):
+    hmm_file = protiens_dir + protien
+    with open(hmm_file) as f:
+        lines = f.readlines()
+    try:
+        output_file.write(protien + "  " + lines[15])
+    except:
+        print(protien, 'failed')
+
+output_file.close()
