@@ -31,14 +31,49 @@ output_file.close()
 #STATS LOCAL FORWARD ## LINE [15]
 import os
 protiens_dir = "hmmfiles/" 
-output_file = open("FORWARD_from_hmmfile.txt", "w")
+output_file = open("NSEQ_from_hmmfile.txt", "w")
 for protien in os.listdir(protiens_dir):
     hmm_file = protiens_dir + protien
     with open(hmm_file) as f:
         lines = f.readlines()
     try:
-        output_file.write(protien + "  " + lines[15])
+        output_file.write(protien + "  " + lines[10])
     except:
         print(protien, 'failed')
 
 output_file.close()
+
+import os
+protiens_dir = "hmmfiles/" 
+output_file = open("EFFN_from_hmmfile.txt", "w")
+for protien in os.listdir(protiens_dir):
+    hmm_file = protiens_dir + protien
+    with open(hmm_file) as f:
+        lines = f.readlines()
+    try:
+        output_file.write(protien + "  " + lines[11])
+    except:
+        print(protien, 'failed')
+
+output_file.close()
+
+
+# I'm putting this here to see if the protein files in the fasta dir are the same as in the align dir
+import os
+fasta_dir = "/work/09123/mjt2211/ls6/openfold-mt/cameo_dir/fasta_dir"
+align_dir = "/scratch/09120/sk844/validation_set_cameo/alignments"
+hold_align = []
+for name in os.listdir(align_dir):
+    hold_align.append(name)
+
+for name in os.listdir(fasta_dir):
+    if not name[0:6] in hold_align:
+            print(name)
+
+hold_fasta = []
+for name in os.listdir(fasta_dir):
+    hold_fasta.append(name[0:6])
+
+for name in os.listdir(align_dir):
+    if not name in hold_fasta:
+            print(name)

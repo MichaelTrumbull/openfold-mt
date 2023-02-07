@@ -20,3 +20,46 @@ for p in 6tf4_A 6wmk_A 6wqc_A 6xqj_A 6z01_A 7ab3_E 7amc_A 7ar0_B 7atr_A 7au7_A 7
 do
 bin/hmmstat "hmmfiles/$p" >> "hmmstats/$p"
 done
+
+
+#### HOW TO LOOP THROGH FILE NAMES IN A DIR
+
+for dir in /scratch/09120/sk844/validation_set_cameo/alignments/*
+do
+p="${dir##*/}"
+echo $p
+done
+
+# Same run as above but for Sachin
+
+mkdir sk844/validation_set_a2m #location where i will put it all
+cd sk844/validation_set_a2m
+#format a3m to a2m using hh-suite/scripts/reformat.pl
+pth="/scratch/09120/sk844/validation_set_cameo/alignments/"
+outfile="_uniref90_hits.a2m"
+for dir in /scratch/09120/sk844/validation_set_cameo/alignments/*
+do
+p="${dir##*/}"
+/work/09123/mjt2211/ls6/tmp/hh-suite/scripts/reformat.pl a3m a2m "$pth$p/uniref90_hits.a3m" "$p$outfile"
+done
+
+
+# make hmmfile out of a2m
+cd ..
+mkdir sk844/hmmfiles
+cd ..
+pth="/work/09123/mjt2211/ls6/sk844/validation_set_a2m/"
+for dir in /scratch/09120/sk844/validation_set_cameo/alignments/*
+do
+p="${dir##*/}"
+bin/hmmbuild --amino --informat a2m "sk844/hmmfiles/$p" "$pth$p$outfile"
+done
+
+mkdir sk844/hmmstats
+for dir in /scratch/09120/sk844/validation_set_cameo/alignments/*
+do
+p="${dir##*/}"
+bin/hmmstat "sk844/hmmfiles/$p" >> "sk844/hmmstats/$p"
+done
+#6tf.. 406 3.119217
+#7lew_b 48 1.573242
