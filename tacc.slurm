@@ -6,7 +6,7 @@
 #SBATCH -p gpu-a100          # Queue (partition) name
 #SBATCH -N 1               # Total # of nodes
 #SBATCH -n 1              # Total # of mpi tasks
-#SBATCH -t 08:00:00        # Run time (hh:mm:ss)
+#SBATCH -t 05:00:00        # Run time (hh:mm:ss)
 
 ###srun run-tacc-inf.sh
 
@@ -18,7 +18,7 @@ which python
 ### scratch/00946/zzhang/data/openfold/cameo/mmcif_files # wrong loc for templates. I don't know why.
 python3 run_pretrained_openfold.py \
     /work/09123/mjt2211/ls6/openfold-mt/cameo_dir/fasta_dir \
-    /work/09123/mjt2211/ls6/openfold-mt/cameo_dir/data_dir \
+    /scratch/00946/zzhang/data/openfold/ls6-tacc/pdb_mmcif/mmcif_files \
     --output_dir ./ \
     --model_device "cuda:0" \
     --config_preset "model_1_ptm" \
