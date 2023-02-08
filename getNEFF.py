@@ -16,7 +16,7 @@ output_file.close()
 #get values from hmmstats files...
 import os
 protiens_dir = "hmmstats/" 
-output_file = open("validata_from_hmmstat.txt", "w")
+output_file = open("hmmstat.txt", "w")
 for protien in os.listdir(protiens_dir):
     hmm_file = protiens_dir + protien
     with open(hmm_file) as f:
