@@ -31,13 +31,13 @@ output_file.close()
 #STATS LOCAL FORWARD ## LINE [15]
 import os
 protiens_dir = "hmmfiles/" 
-output_file = open("NSEQ_from_hmmfile.txt", "w")
+output_file = open("FORWARD_from_hmmfile.txt", "w")
 for protien in os.listdir(protiens_dir):
     hmm_file = protiens_dir + protien
     with open(hmm_file) as f:
         lines = f.readlines()
     try:
-        output_file.write(protien + "  " + lines[10])
+        output_file.write(protien + "  " + lines[15])
     except:
         print(protien, 'failed')
 
