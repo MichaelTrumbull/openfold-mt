@@ -27,3 +27,4 @@ python3 run_pretrained_openfold.py \
     --subtract_plddt
     
 
+# test model 4 or 5 .. for no templates
