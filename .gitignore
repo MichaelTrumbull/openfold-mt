@@ -1,5 +1,5 @@
 /openfold/resources
-/myscripts/MSAs/bigdbs
+/myscripts/MSAs
 .DS_Store
 /local-modules/aws
 /local-modules/aria2c

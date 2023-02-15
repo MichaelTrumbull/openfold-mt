@@ -6,7 +6,7 @@
 #SBATCH -p gpu-a100          # Queue (partition) name
 #SBATCH -N 1               # Total # of nodes
 #SBATCH -n 1              # Total # of mpi tasks
-#SBATCH -t 04:00:00        # Run time (hh:mm:ss)
+#SBATCH -t 00:10:00        # Run time (hh:mm:ss)
 
 ###srun run-tacc-inf.sh
 
@@ -22,9 +22,10 @@ python3 run_pretrained_openfold.py \
     --output_dir ./ \
     --model_device "cuda:0" \
     --config_preset "model_4_ptm" \
-    --openfold_checkpoint_path openfold/resources/openfold_params/finetuning_no_templ_ptm_1.pt \ #openfold/resources/openfold_params/finetuning_ptm_2.pt \
+    --openfold_checkpoint_path openfold/resources/openfold_params/finetuning_no_templ_ptm_1.pt \
     --use_precomputed_alignments /scratch/09120/sk844/validation_set_cameo/alignments \
     --subtract_plddt
 
 # test model 4 or 5 .. for no templates: --config_preset "model_4_ptm" \
 # usually model 1: --config_preset "model_1_ptm" \
+# usually: openfold/resources/openfold_params/finetuning_ptm_2.pt \
