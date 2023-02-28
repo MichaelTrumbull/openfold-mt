@@ -646,10 +646,10 @@ class StructureModule(nn.Module):
             mask = s.new_ones(s.shape[:-1])
 
         # [*, N, C_s]
-        s = self.layer_norm_s(s)
+        s = self.layer_norm_s(s) ################### line 1 ################### 
 
         # [*, N, N, C_z]
-        z = self.layer_norm_z(evoformer_output_dict["pair"])
+        z = self.layer_norm_z(evoformer_output_dict["pair"])################### line 2 ################### 
 
         z_reference_list = None
         if(_offload_inference):
@@ -660,7 +660,7 @@ class StructureModule(nn.Module):
 
         # [*, N, C_s]
         s_initial = s
-        s = self.linear_in(s)
+        s = self.linear_in(s) ################### line 3 ################### 
 
         # [*, N]
         rigids = Rigid.identity(
@@ -671,7 +671,7 @@ class StructureModule(nn.Module):
             fmt="quat",
         )
         outputs = []
-        for i in range(self.no_blocks):
+        for i in range(self.no_blocks): ################### line 5 ################### 
             # [*, N, C_s]
             s = s + self.ipa(
                 s, 
@@ -681,9 +681,20 @@ class StructureModule(nn.Module):
                 inplace_safe=inplace_safe,
                 _offload_inference=_offload_inference, 
                 _z_reference_list=z_reference_list
-            )
-            s = self.ipa_dropout(s)
-            s = self.layer_norm_ipa(s)
+            )  ################### line 6 ################### 
+            
+            ### TEST ###
+            '''
+            Test: remove s here, after IPA. s is carrying info 
+            through at this step so s=s*0 here should totally 
+            destroy it. apply only to first iteration
+            '''
+            if i == 0: s = s * 0
+            ### TEST ###
+
+
+            s = self.ipa_dropout(s)  ################### line 7 ################### 
+            s = self.layer_norm_ipa(s) ################### line 7 ################### 
             s = self.transition(s)
            
             # [*, N]
