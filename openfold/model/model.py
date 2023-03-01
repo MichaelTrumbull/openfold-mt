@@ -634,10 +634,10 @@ class AlphaFold(nn.Module):
 
         # Main recycling loop
 
-        num_iters = batch["aatype"].shape[-1] # old
+        #num_iters = batch["aatype"].shape[-1] # old
         ############################################################################################################################## new code
-        print(num_iters)
-        # num_iters = 0 # don't iterate multiple times
+        #print(num_iters)
+        num_iters = 1 # don't iterate multiple times
         ##############################################################################################################################
         for cycle_no in range(num_iters): # algorithm 2 line 2
             # Select the features for the current recycling cycle
