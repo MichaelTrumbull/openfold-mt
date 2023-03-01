@@ -528,7 +528,7 @@ class AlphaFold(nn.Module):
         '''
 
 
-        #s=s*0
+        s=s*0
 
 
 
@@ -633,7 +633,7 @@ class AlphaFold(nn.Module):
         is_grad_enabled = torch.is_grad_enabled()
 
         # Main recycling loop
-        
+
         #num_iters = batch["aatype"].shape[-1] # old
         ############################################################################################################################## new code
         num_iters = 0 # don't iterate multiple times
