@@ -633,8 +633,12 @@ class AlphaFold(nn.Module):
         is_grad_enabled = torch.is_grad_enabled()
 
         # Main recycling loop
-        num_iters = batch["aatype"].shape[-1]
-        for cycle_no in range(num_iters): 
+        
+        #num_iters = batch["aatype"].shape[-1] # old
+        ############################################################################################################################## new code
+        num_iters = 0 # don't iterate multiple times
+        ##############################################################################################################################
+        for cycle_no in range(num_iters): # algorithm 2 line 2
             # Select the features for the current recycling cycle
             fetch_cur_batch = lambda t: t[..., cycle_no]
             feats = tensor_tree_map(fetch_cur_batch, batch)

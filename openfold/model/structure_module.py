@@ -40,6 +40,16 @@ from openfold.utils.tensor_utils import (
     flatten_final_dims,
 )
 
+###################### NEW IMPORTS
+from openfold.utils.tensor_utils import (
+    tensor_tree_map,
+)
+import numpy as np
+
+
+##################
+
+
 attn_core_inplace_cuda = importlib.import_module("attn_core_inplace_cuda")
 
 
@@ -689,7 +699,7 @@ class StructureModule(nn.Module):
             through at this step so s=s*0 here should totally 
             destroy it. apply only to first iteration
             '''
-            if i == 0: s = s * 0
+            ### if i == 0: s = s * 0
             ### TEST ###
 
 
@@ -753,6 +763,39 @@ class StructureModule(nn.Module):
 
         outputs = dict_multimap(torch.stack, outputs)
         outputs["single"] = s
+        #####################################################################################################################################################################
+        '''
+        Download at each iteration.
+        '''
+        '''
+        processed_feature_dict = feature_processor.process_features(
+                feature_dict, mode='predict',
+            )   
+        processed_feature_dict = {
+                k:torch.as_tensor(v, device=args.model_device) 
+                for k,v in processed_feature_dict.items()
+            }
+        
+        processed_feature_dict = tensor_tree_map(
+            lambda x: np.array(x[..., -1].cpu()), 
+            processed_feature_dict
+        )
+        out = tensor_tree_map(lambda x: np.array(x.cpu()), outputs)
+        unrelaxed_protein = prep_output(
+                out, 
+                processed_feature_dict, 
+                feature_dict, 
+                feature_processor, 
+                args.config_preset,
+                args.multimer_ri_gap,
+                True#args.subtract_plddt
+            )
+
+        unrelaxed_output_path = "predictions/" + str(i)
+        with open(unrelaxed_output_path, 'w') as fp:
+            fp.write(protein.to_pdb(unrelaxed_protein))
+            '''
+        ############
 
         return outputs
 
