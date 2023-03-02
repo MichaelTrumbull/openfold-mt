@@ -528,7 +528,7 @@ class AlphaFold(nn.Module):
         '''
 
 
-        s=s*0
+        ###s=s*0
 
 
 
