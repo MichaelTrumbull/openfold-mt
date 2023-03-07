@@ -699,7 +699,8 @@ class StructureModule(nn.Module):
             through at this step so s=s*0 here should totally 
             destroy it. apply only to first iteration
             '''
-            ### if i == 0: s = s * 0
+            if i == 0: s = s * 0
+            
             ### TEST ###
 
 
