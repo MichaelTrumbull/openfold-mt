@@ -700,7 +700,9 @@ class StructureModule(nn.Module):
             destroy it. apply only to first iteration
             '''
             if i == 0: s = s * 0
-            
+            ###s = s * 0
+            ###if i == (self.no_blocks - 1): s = s * 0
+
             ### TEST ###
 
 
