@@ -45,7 +45,7 @@ from openfold.utils.tensor_utils import (
     tensor_tree_map,
 )
 import numpy as np
-
+import pickle
 
 ##################
 
@@ -649,6 +649,11 @@ class StructureModule(nn.Module):
         Returns:
             A dictionary of outputs
         """
+        ######## SAVE ########
+        LATENT_SPACE_SAVE_PATH = 'predictions/tmp/' # /tmp folder should be created (then modified) in run_pretrained_openfold.py
+        torch.save(evoformer_output_dict,LATENT_SPACE_SAVE_PATH + 'evoformer_output_dict.dict')
+        ######################
+
         s = evoformer_output_dict["single"]
         
         if mask is None:
@@ -657,6 +662,7 @@ class StructureModule(nn.Module):
 
         # [*, N, C_s]
         s = self.layer_norm_s(s) ################### line 1 ################### 
+        
 
         # [*, N, N, C_z]
         z = self.layer_norm_z(evoformer_output_dict["pair"])################### line 2 ################### 
@@ -708,10 +714,14 @@ class StructureModule(nn.Module):
 
             s = self.ipa_dropout(s)  ################### line 7 ################### 
             s = self.layer_norm_ipa(s) ################### line 7 ################### 
-            s = self.transition(s)
+            s = self.transition(s) ########## line 8, 9 #############
+            ######## SAVE ########
+            name_file = "s_iter_{}_recy_-_.pt".format(i) # - is renamed to recycle number in model.py
+            torch.save(s,LATENT_SPACE_SAVE_PATH + name_file)
+            ######################
            
             # [*, N]
-            rigids = rigids.compose_q_update_vec(self.bb_update(s))
+            rigids = rigids.compose_q_update_vec(self.bb_update(s)) ############### line 10 #############
 
             # To hew as closely as possible to AlphaFold, we convert our
             # quaternion-based transformations to rotation-matrix ones
@@ -729,7 +739,7 @@ class StructureModule(nn.Module):
             )
 
             # [*, N, 7, 2]
-            unnormalized_angles, angles = self.angle_resnet(s, s_initial)
+            unnormalized_angles, angles = self.angle_resnet(s, s_initial) ########### line 11-14 ? ###############
 
             all_frames_to_global = self.torsion_angles_to_frames(
                 backb_to_global,
@@ -752,6 +762,11 @@ class StructureModule(nn.Module):
                 "positions": pred_xyz,
                 "states": s,
             }
+            ######## SAVE ########
+            # here I will try to grab the backbone as a tensor out of preds['frames']
+            name_file = "frames_iter_{}_recy_-_.pt".format(i) # - is renamed to recycle number in model.py
+            torch.save(preds["frames"],LATENT_SPACE_SAVE_PATH + name_file)
+            ######################
 
             outputs.append(preds)
 

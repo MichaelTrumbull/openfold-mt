@@ -662,6 +662,14 @@ class AlphaFold(nn.Module):
                     del outputs
                     prevs = [m_1_prev, z_prev, x_prev]
                     del m_1_prev, z_prev, x_prev
+            ######################################### rename latent space files with cycle_no
+            direc = 'predictions/tmp/'
+            for f in os.listdir(direc):
+                if f[-2:] == "pt":
+                    if '-' in f:
+                        newname = f.replace('-',cycle_no)
+                        os.rename('predictions/tmp/' + f,'predictions/tmp/' + newname)
+            #####################################
 
         # Run auxiliary heads
         outputs.update(self.aux_heads(outputs))

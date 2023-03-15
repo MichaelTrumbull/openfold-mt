@@ -292,6 +292,9 @@ def main(args):
                     pickle.dump(out, fp, protocol=pickle.HIGHEST_PROTOCOL)
 
                 logger.info(f"Model output written to {output_dict_path}...")
+            ######################### rename tmp/ file to this protein name {tag}
+            os.rename('predictions/tmp/','predictions/{tag}/')
+            #####################################
 
 
 if __name__ == "__main__":
