@@ -767,6 +767,10 @@ class StructureModule(nn.Module):
             name_file = "frames_iter_{}_recy_-_.pt".format(i) # - is renamed to recycle number in model.py
             torch.save(preds["frames"],LATENT_SPACE_SAVE_PATH + name_file)
             ######################
+            ######## SAVE ########
+            name_file = "sidechainframes_iter_{}_recy_-_.pt".format(i) # - is renamed to recycle number in model.py
+            torch.save(preds["sidechain_frames"],LATENT_SPACE_SAVE_PATH + name_file)
+            ######################
 
             outputs.append(preds)
 
