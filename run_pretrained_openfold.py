@@ -203,6 +203,9 @@ def main(args):
     for model, output_directory in model_generator:
         cur_tracing_interval = 0
         for (tag, tags), seqs in sorted_targets:
+            ############## new code: make the directory to save latent spaces to
+            os.mkdir('predictions/tmp/')
+            ################################
             output_name = f'{tag}_{args.config_preset}'
             if args.output_postfix is not None:
                 output_name = f'{output_name}_{args.output_postfix}'
