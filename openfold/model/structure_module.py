@@ -766,7 +766,7 @@ class StructureModule(nn.Module):
 
         outputs = dict_multimap(torch.stack, outputs)
         ############### test ####### remove s before sending all the way back.
-        s=s*0
+        ####s=s*0
         ############################
 
         outputs["single"] = s
