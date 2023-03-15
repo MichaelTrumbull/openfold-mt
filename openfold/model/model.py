@@ -667,7 +667,7 @@ class AlphaFold(nn.Module):
             for f in os.listdir(direc):
                 if f[-2:] == "pt":
                     if '-' in f:
-                        newname = f.replace('-',cycle_no)
+                        newname = f.replace('-',str(cycle_no))
                         os.rename('predictions/tmp/' + f,'predictions/tmp/' + newname)
             #####################################
 
