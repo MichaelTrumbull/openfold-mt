@@ -1,13 +1,12 @@
 #!/bin/bash
 
-#SBATCH -J openfold-mt           # Job name
+#SBATCH -J mult_conf           # Job name
 #SBATCH -o o.log       # Name of stdout output file #use %j for job number
 #SBATCH -e e.log       # Name of stderr error file
-#SBATCH -p gpu-a100          # Queue (partition) name
+#SBATCH -p vm-small          # Queue (partition) name
 #SBATCH -N 1               # Total # of nodes
 #SBATCH -n 1              # Total # of mpi tasks
-#SBATCH -t 00:30:00        # Run time (hh:mm:ss)
-
+#SBATCH -t 05:00:00        # Run time (hh:mm:ss)
 
 source ~/.bashrc
 export LD_LIBRARY_PATH=/usr/lib64:$LD_LIBRARY_PATH
