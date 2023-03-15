@@ -296,7 +296,7 @@ def main(args):
 
                 logger.info(f"Model output written to {output_dict_path}...")
             ######################### rename tmp/ file to this protein name {tag}
-            os.rename('predictions/tmp/','predictions/{tag}/')
+            os.rename('predictions/tmp/','predictions/{}/'.format(tag))
             #####################################
 
 
