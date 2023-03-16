@@ -650,6 +650,9 @@ class StructureModule(nn.Module):
             A dictionary of outputs
         """
         ######## SAVE ########
+        '''
+        ** TODO: Save this at every recycle!!!!! otherwise they are overwritten each recycle.
+        '''
         LATENT_SPACE_SAVE_PATH = 'predictions/tmp/' # /tmp folder should be created (then modified) in run_pretrained_openfold.py
         torch.save(evoformer_output_dict,LATENT_SPACE_SAVE_PATH + 'evoformer_output_dict.dict')
         ######################
