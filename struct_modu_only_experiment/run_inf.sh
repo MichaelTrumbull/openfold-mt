@@ -4,7 +4,7 @@ source ~/.bashrc
 source /data/mjt2211/openfold-mt/lib/conda/bin/activate
 conda activate openfold_venv
 
-python3 run_pretrained_openfold.py \
+CUDA_VISIBLE_DEVICES=1 python3 run_pretrained_openfold.py \
     /data/mjt2211/openfold-mt/struct_modu_only_experiment/fasta_dir \
     /data/mjt2211/openfold-mt/struct_modu_only_experiment/mmcif_files \
     --output_dir ./ \
