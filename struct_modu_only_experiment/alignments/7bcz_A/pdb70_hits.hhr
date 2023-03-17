@@ -1,0 +1,1788 @@
+Query         query 
+Match_columns 245
+No_of_seqs    204 out of 5123
+Neff          6.17497
+Searched_HMMs 90139
+Date          Sun Jan 16 19:05:23 2022
+Command       /mnt/home/dberenberg/gustaf_stuff/hh-suite/build/bin/hhsearch -i /tmp/tmp_cljfqai/query.a3m -o /tmp/tmp_cljfqai/output.hhr -maxseq 1000000 -cpu 2 -d /mnt/home/dberenberg/gustaf_stuff/OpenFold/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4QJL_A Phosphopantetheinyl tra  99.9   2E-32 2.3E-37  243.0   0.0  182   59-243    41-227 (235)
+  2 4U89_A 4'-phosphopantetheinyl   99.9 1.1E-31 1.2E-36  241.8   0.0  183   59-244    61-248 (259)
+  3 6QXR_A 4'-phosphopantetheinyl   99.9 8.2E-31   9E-36  232.1   0.0  176   62-244    41-219 (232)
+  4 6QYF_A 4'-phosphopantetheinyl   99.9 8.2E-31   9E-36  232.1   0.0  176   62-244    41-219 (232)
+  5 4QVH_B Maltose-binding peripla  99.9 1.2E-27 1.3E-32  232.0   0.0  181   60-243   413-598 (598)
+  6 4QVH_A Maltose-binding peripla  99.9 4.7E-27 5.2E-32  228.2   0.0  182   59-243   412-598 (598)
+  7 4MRT_A Tyrocidine synthase 3,   99.2 1.3E-14 1.4E-19  129.0   0.0  165   63-243    37-207 (232)
+  8 1QR0_A 4'-PHOSPHOPANTETHEINYL   99.1 1.2E-13 1.3E-18  122.3   0.0  132   62-202    36-173 (228)
+  9 2BYD_A HSPC223 (E.C.1.2.1.31);  98.8 7.6E-12 8.5E-17  117.3   0.0  134   63-202    63-213 (323)
+ 10 2C43_A AMINOADIPATE-SEMIALDEHY  98.8 7.6E-12 8.5E-17  117.3   0.0  134   63-202    63-213 (323)
+ 11 4JM7_A Holo-[acyl-carrier-prot  98.5 2.4E-10 2.6E-15   93.9   0.0  124  106-243     9-138 (143)
+ 12 4JM7_B Holo-[acyl-carrier-prot  98.5 2.4E-10 2.6E-15   93.9   0.0  124  106-243     9-138 (143)
+ 13 3QMN_E Holo-[acyl-carrier-prot  98.0 1.3E-08 1.5E-13   80.8   0.0  115  126-243     5-126 (129)
+ 14 3QMN_T Holo-[acyl-carrier-prot  98.0 1.3E-08 1.5E-13   80.8   0.0  115  126-243     5-126 (129)
+ 15 2WAS_F 3-OXOACYL-[ACYL-CARRIER  98.0 1.4E-08 1.5E-13   81.0   0.0  115  127-244     2-120 (122)
+ 16 5CMO_C Holo-[acyl-carrier-prot  97.9 2.9E-08 3.2E-13   78.2   0.0  114  127-243     3-123 (125)
+ 17 2WAT_A 3-OXOACYL-[ACYL-CARRIER  97.9 4.1E-08 4.6E-13   77.7   0.0  115  127-244     2-120 (122)
+ 18 2WDS_A HOLO-[ACYL-CARRIER-PROT  97.9 4.7E-08 5.2E-13   80.6   0.0  127  109-243     9-141 (143)
+ 19 2WAT_F 3-OXOACYL-[ACYL-CARRIER  97.9 5.1E-08 5.7E-13   77.6   0.0  114  127-243     2-119 (122)
+ 20 1F80_B HOLO-(ACYL CARRIER PROT  97.8 6.5E-08 7.2E-13   75.7   0.0  109  127-243     2-115 (120)
+ 21 5VBX_B Holo-[acyl-carrier-prot  97.8 7.1E-08 7.8E-13   76.2   0.0  115  127-244     4-125 (126)
+ 22 5XU7_A Holo-[acyl-carrier-prot  97.8 7.1E-08 7.8E-13   76.2   0.0  115  127-244     4-125 (126)
+ 23 5XUH_B Holo-[acyl-carrier-prot  97.8 7.1E-08 7.9E-13   76.2   0.0  115  127-244     4-125 (126)
+ 24 5SUV_A Holo-[acyl-carrier-prot  97.8 7.2E-08   8E-13   76.2   0.0  114  127-243     4-124 (126)
+ 25 3HYK_A Holo-[acyl-carrier-prot  97.8 7.5E-08 8.4E-13   75.7   0.0  107  127-243     6-117 (122)
+ 26 1FTF_A ACYL CARRIER PROTEIN SY  97.7 1.3E-07 1.4E-12   74.8   0.0  107  127-243     5-116 (122)
+ 27 1FTH_B ACYL CARRIER PROTEIN SY  97.7 1.3E-07 1.4E-12   74.8   0.0  107  127-243     5-116 (122)
+ 28 5XUK_A Holo-[acyl-carrier-prot  97.6 2.5E-07 2.7E-12   73.2   0.0  109  128-243     1-114 (119)
+ 29 3NFD_E Phosphopantetheine prot  97.6 3.1E-07 3.4E-12   77.7   0.0  117  126-244     7-150 (153)
+ 30 4HC6_A Holo-[acyl-carrier-prot  97.6 3.6E-07   4E-12   73.6   0.0  113  127-243     3-126 (129)
+ 31 2BDD_A ACP-synthase; ACP synth  97.6 4.1E-07 4.5E-12   79.4   0.0  116  125-242    23-161 (182)
+ 32 1F7L_A HOLO-(ACYL CARRIER PROT  97.5 6.7E-07 7.5E-12   70.2   0.0  109  127-243     3-116 (121)
+ 33 2JBZ_A HOLO-[ACYL-CARRIER-PROT  97.4 8.2E-07 9.1E-12   73.4   0.0  127  111-244    10-142 (143)
+ 34 1FTH_A ACYL CARRIER PROTEIN SY  97.3 1.5E-06 1.7E-11   68.7   0.0  107  127-243     5-116 (122)
+ 35 5CXD_B Holo-[acyl-carrier-prot  97.2 2.8E-06 3.1E-11   66.6   0.0  107  126-243     5-117 (122)
+ 36 2QG8_A Acyl Carrier Protein Sy  97.2 2.9E-06 3.2E-11   72.4   0.0  114  126-241     5-141 (163)
+ 37 5XUM_A Holo-[acyl-carrier-prot  97.2 3.2E-06 3.5E-11   72.3   0.0  104  127-242     3-106 (169)
+ 38 3GWM_A Holo-[acyl-carrier-prot  97.2 3.4E-06 3.7E-11   67.7   0.0  114  127-243     3-126 (129)
+ 39 3NFD_F Phosphopantetheine prot  97.1 5.6E-06 6.2E-11   70.0   0.0  117  126-244     7-150 (153)
+ 40 5XUM_A Holo-[acyl-carrier-prot  97.1 5.6E-06 6.3E-11   70.8   0.0  106   65-185    36-157 (169)
+ 41 2BDD_A ACP-synthase; ACP synth  96.3 0.00017 1.9E-09   63.2   0.0   72   64-138    77-175 (182)
+ 42 2QG8_A Acyl Carrier Protein Sy  95.7 0.00078 8.7E-09   57.7   0.0   70   64-135    58-154 (163)
+ 43 4V59_B FATTY ACID SYNTHASE ALP  95.6  0.0011 1.2E-08   76.3   0.0  116  125-243  1757-1876(1878)
+ 44 4V59_D FATTY ACID SYNTHASE ALP  95.6  0.0011 1.2E-08   76.3   0.0  116  125-243  1757-1876(1878)
+ 45 6U5V_A Fatty acid synthase sub  95.6  0.0012 1.3E-08   76.1   0.0  115  126-243  1765-1883(1885)
+ 46 1F7L_A HOLO-(ACYL CARRIER PROT  95.4  0.0016 1.7E-08   51.3   0.0   60   63-122    42-116 (121)
+ 47 4HC6_A Holo-[acyl-carrier-prot  95.4  0.0017 1.9E-08   52.5   0.0   58   65-122    43-126 (129)
+ 48 6QL9_D Fatty acid synthase sub  95.3   0.002 2.2E-08   74.3   0.0  115  125-243  1765-1884(1887)
+ 49 5CXD_B Holo-[acyl-carrier-prot  95.2  0.0023 2.6E-08   50.1   0.0   59   64-122    47-117 (122)
+ 50 1FTH_A ACYL CARRIER PROTEIN SY  95.1  0.0027   3E-08   50.4   0.0   59   64-122    45-116 (122)
+ 51 6QL5_D Fatty acid synthase sub  95.1  0.0027   3E-08   73.3   0.0  115  125-243  1765-1884(1887)
+ 52 6QL9_A Fatty acid synthase sub  95.1  0.0027   3E-08   73.3   0.0  115  125-243  1765-1884(1887)
+ 53 5SUV_A Holo-[acyl-carrier-prot  95.1  0.0029 3.2E-08   50.2   0.0   57   65-121    44-123 (126)
+ 54 3HYK_A Holo-[acyl-carrier-prot  95.0  0.0036   4E-08   49.3   0.0   59   64-122    46-117 (122)
+ 55 5XUH_B Holo-[acyl-carrier-prot  94.8  0.0045 4.9E-08   49.1   0.0   57   65-121    44-123 (126)
+ 56 5VBX_B Holo-[acyl-carrier-prot  94.8   0.005 5.5E-08   48.8   0.0   58   65-122    44-124 (126)
+ 57 5XU7_A Holo-[acyl-carrier-prot  94.8   0.005 5.5E-08   48.8   0.0   58   65-122    44-124 (126)
+ 58 5CMO_C Holo-[acyl-carrier-prot  94.7  0.0057 6.3E-08   48.3   0.0   57   65-121    43-122 (125)
+ 59 1F80_B HOLO-(ACYL CARRIER PROT  94.6  0.0059 6.6E-08   47.9   0.0   59   64-122    42-115 (120)
+ 60 3QMN_E Holo-[acyl-carrier-prot  94.6  0.0063   7E-08   48.5   0.0   58   65-122    46-126 (129)
+ 61 3QMN_T Holo-[acyl-carrier-prot  94.6  0.0063   7E-08   48.5   0.0   58   65-122    46-126 (129)
+ 62 1FTF_A ACYL CARRIER PROTEIN SY  94.5  0.0074 8.2E-08   47.9   0.0   59   64-122    45-116 (122)
+ 63 1FTH_B ACYL CARRIER PROTEIN SY  94.5  0.0074 8.2E-08   47.9   0.0   59   64-122    45-116 (122)
+ 64 3GWM_A Holo-[acyl-carrier-prot  94.1   0.011 1.2E-07   47.5   0.0   59   64-122    42-126 (129)
+ 65 5XUK_A Holo-[acyl-carrier-prot  94.0   0.013 1.4E-07   46.5   0.0   57   66-122    38-114 (119)
+ 66 2JBZ_A HOLO-[ACYL-CARRIER-PROT  93.8   0.016 1.8E-07   48.2   0.0   59   64-122    62-141 (143)
+ 67 2WDS_A HOLO-[ACYL-CARRIER-PROT  93.2   0.027   3E-07   46.7   0.0   57   65-121    63-140 (143)
+ 68 3NFD_E Phosphopantetheine prot  92.5   0.043 4.7E-07   46.9   0.0   58   65-122    60-149 (153)
+ 69 2WAT_A 3-OXOACYL-[ACYL-CARRIER  92.3   0.051 5.7E-07   43.2   0.0   58   65-122    38-119 (122)
+ 70 2WAS_F 3-OXOACYL-[ACYL-CARRIER  92.2   0.051 5.7E-07   43.6   0.0   58   65-122    38-119 (122)
+ 71 2WAT_F 3-OXOACYL-[ACYL-CARRIER  91.7   0.071 7.9E-07   42.7   0.0   58   65-122    38-119 (122)
+ 72 3NFD_F Phosphopantetheine prot  88.9    0.22 2.4E-06   42.5   0.0   59   64-122    59-149 (153)
+ 73 4JM7_A Holo-[acyl-carrier-prot  88.3    0.26 2.8E-06   40.9   0.0   58   65-122    69-138 (143)
+ 74 4JM7_B Holo-[acyl-carrier-prot  88.3    0.26 2.8E-06   40.9   0.0   58   65-122    69-138 (143)
+ 75 6U5V_A Fatty acid synthase sub  21.6      90   0.001   38.2   0.0   56   65-120  1802-1881(1885)
+
+No 1
+>4QJL_A Phosphopantetheinyl transferase, PptII (E.C.2.7.8.7); Phosphopantetheinyl Transferase, CoA Binding, transferase; HET: COA; 1.65A {Mycobacterium ulcerans}
+Probab=99.94  E-value=2e-32  Score=243.03  Aligned_cols=182  Identities=27%  Similarity=0.354  Sum_probs=156.7  Template_Neff=7.800
+
+Q query            59 ILRAVAKRQAEFLAGRLCARAALFALDGRAQTPAVGEDRAPVWPAAISGSITHGDRWAAALVAARGDWRGLGLDVETLLE  138 (245)
+Q Consensus        59 l~~av~kR~aEF~aGR~~Ar~AL~~lg~~~~~~~~g~~r~P~WP~G~~GSISHs~~~a~A~va~~~~~~~lGIDiE~~~~  138 (245)
+                      +.++.++||.+|++||+|++.++++++..++.+.++++|+|+|+.++.+||||++++++++++..++...||||||.+.+
+T Consensus        41 ~~~~~~~rr~e~l~gR~l~k~~l~~~~~~~~~i~~~~~GkP~~~~~~~~SISHs~~~~~~av~~~~~~~~iGIDIE~~~~  120 (235)
+T 4QJL_A           41 IAKSVAKRRNEFITVRHCARVALGDLGVPPVPILKGDKGQPCWPDGVVGSLTHCSGYRGAVVGRSAAVRSVGIDAEPHDV  120 (235)
+T ss_dssp             HTTSCHHHHHHHHHHHHHHHHHHHHHTCCCCCCEECTTSCEECCTTEEEEEEEETTEEEEEEEETTTEEEEEEEEEESCC
+T ss_pred             HHhhCHHHHHHHHHHHHHHHHHHHHcCCCCCCcccCCCCCcccCCCcEEEEeccCCeEEEEEEeCcccceeeeEEEEccc
+Confidence            34467789999999999999999988776678888999999999999999999999999999874445799999999987
+
+
+Q query           139 AERARYLHGEILTEGERLRFADDLERRTGLLVTLAFSLKESLFKALYPLVGKRFYFEHAELLEWRA----DGQARLRLLT  214 (245)
+Q Consensus       139 ~~~~~~i~~~i~~~~E~~~~~~~~~~~~~~~~tliFSAKESlyKAlyP~~~~~~~F~~a~l~~~~~----~~~~~l~l~~  214 (245)
+                      ..  .++...+|++.|...+.. ........++++||+|||++||+|+.++.+++|++++|...+.    ++++.+++..
+T Consensus       121 ~~--~~~~~~~~t~~E~~~l~~-~~~~~~~~~~~lWs~KEA~~Ka~g~~~~~~l~f~~i~v~~~~~~~~~~~~~~~~l~~  197 (235)
+T 4QJL_A          121 LS--NGVLDAISLPEERDEIPS-AMPDGLHWDRILFCAKEATYKVWFPLTNRWLGFEDAHITFEADDSGRTGRFVSRILI  197 (235)
+T ss_dssp             CC--HHHHHHHCCHHHHHHHHH-HSCTTSCHHHHHHHHHHHHHHHHHHHHCSCCCGGGEEEEEEECTTSSEEEEEEEECS
+T ss_pred             cc--chHHHHhCCHHHHHHHHh-cCCCccHHHHHHHHHHHHHHHHhccccccCCCcceEEEEEecCCCCCCceEEEEEEe
+Confidence            65  678899999999988765 3224567899999999999999999988899999999986654    4778999888
+
+
+Q query           215 DLSP-EWRHGSELDAQFAVLDGRLLSLVAV  243 (245)
+Q Consensus       215 ~l~~-~~~~G~~~~g~f~~~d~~VlTlVa~  243 (245)
+                      ++++ .+..|..++++|.+.+++|+|+++.
+T Consensus       198 ~~~~~~~~~g~~~~~~~~~~~~~V~T~~~~  227 (235)
+T 4QJL_A          198 DPSALWGPPLTTLHGRWSVERGLVLTAIVL  227 (235)
+T ss_dssp             CCCCSSSSCCSEEEEEEEEETTEEEEEEEE
+T ss_pred             CcccCCCCCCcEEEEEEEEECCEEEEEEEE
+Confidence            8763 5678899999999999999999864
+
+
+No 2
+>4U89_A 4'-phosphopantetheinyl transferase PptT; transferase; HET: PG4, NA, COA; 1.4A {Mycobacterium tuberculosis}
+Probab=99.94  E-value=1.1e-31  Score=241.78  Aligned_cols=183  Identities=29%  Similarity=0.388  Sum_probs=153.7  Template_Neff=7.700
+
+Q query            59 ILRAVAKRQAEFLAGRLCARAALFALDGRAQTPAVGEDRAPVWPAAISGSITHGDRWAAALVAARGDWRGLGLDVETLLE  138 (245)
+Q Consensus        59 l~~av~kR~aEF~aGR~~Ar~AL~~lg~~~~~~~~g~~r~P~WP~G~~GSISHs~~~a~A~va~~~~~~~lGIDiE~~~~  138 (245)
+                      +.++.++||.+|++||+|++.++++++..++.|.++++|+|+|+.++.+||||++++++++++..+....||||||.+.+
+T Consensus        61 ~~~~~~~rr~e~lagR~l~r~al~~~~~~~~~i~~~~~GkP~~~~~~~~SISHs~~~~~~avs~~~~~~~iGIDIE~~~~  140 (259)
+T 4U89_A           61 IARSVAKRRNEFITVRHCARIALDQLGVPPAPILKGDKGEPCWPDGMVGSLTHCAGYRGAVVGRRDAVRSVGIDAEPHDV  140 (259)
+T ss_dssp             GTTCCHHHHHHHHHHHHHHHHHHHHTTCCCCCCCBCGGGCBCCCTTEEEEEEEETTEEEEEEEETTTCSCEEEEEEESCC
+T ss_pred             HHccCHHHHHHHHHHHHHHHHHHHHcCCCCCCcccCCCCCccCCCCcEEEEEccCCeeEEEEEcCcccceeEEEEEEcCC
+Confidence            44467889999999999999999988876678889999999999999999999999999999874445799999999987
+
+
+Q query           139 AERARYLHGEILTEGERLRFADDLERRTGLLVTLAFSLKESLFKALYPLVGKRFYFEHAELLEWRA----DGQARLRLLT  214 (245)
+Q Consensus       139 ~~~~~~i~~~i~~~~E~~~~~~~~~~~~~~~~tliFSAKESlyKAlyP~~~~~~~F~~a~l~~~~~----~~~~~l~l~~  214 (245)
+                      ..  .++...+|++.|+..+.. ........++++||+|||++||+++..|.+++|++++|...+.    .+++.+++..
+T Consensus       141 ~~--~~~~~~~~~~~E~~~l~~-~~~~~~~~~~~lWsaKEA~~Ka~g~~~g~~~~f~~i~i~~~~~~~~~~g~~~~~l~~  217 (259)
+T 4U89_A          141 LP--NGVLDAISLPAERADMPR-TMPAALHWDRILFCAKEATYKAWFPLTKRWLGFEDAHITFETDSTGWTGRFVSRILI  217 (259)
+T ss_dssp             CC--HHHHHHHCCHHHHHHHHH-HSCTTSCHHHHHHHHHHHHHHHHHHHHCSCCCGGGEEEEEEECTTSSEEEEEEEECS
+T ss_pred             CC--cchHHHhCCHHHHHHHHh-hCchhhHHHHHHHHHHHHHHHHhcccccCCCCcccEEEEEeCCCCCceEEEEEEEEe
+Confidence            55  678899999999988765 3223467789999999999999999889999999999976654    3678888776
+
+
+Q query           215 DLSP-EWRHGSELDAQFAVLDGRLLSLVAVG  244 (245)
+Q Consensus       215 ~l~~-~~~~G~~~~g~f~~~d~~VlTlVa~~  244 (245)
+                      ++.. .+..+..++++|.+.+++|+|+|+..
+T Consensus       218 ~~~~~~~~~~~~~~~~~~~~~~~vlT~v~~~  248 (259)
+T 4U89_A          218 DGSTLSGPPLTTLRGRWSVERGLVLTAIVLG  248 (259)
+T ss_dssp             CCCCSSSSCCCEEEEEEEEETTEEEEEEEC-
+T ss_pred             cCCCCCCCCCcEEEEEEEEECCEEEEEEEEc
+Confidence            6542 24567889999999999999999864
+
+
+No 3
+>6QXR_A 4'-phosphopantetheinyl transferase PptT; transferase; HET: COA; 1.2A {Mycobacterium abscessus (strain ATCC 19977 / DSM 44196 / CIP 104536 / JCM 13569 / NCTC 13031 / TMC 1543)}
+Probab=99.93  E-value=8.2e-31  Score=232.12  Aligned_cols=176  Identities=31%  Similarity=0.448  Sum_probs=147.7  Template_Neff=8.000
+
+Q query            62 AVAKRQAEFLAGRLCARAALFALDGRAQTPAVGEDRAPVWPAAISGSITHGDRWAAALVAARGDWRGLGLDVETLLEAER  141 (245)
+Q Consensus        62 av~kR~aEF~aGR~~Ar~AL~~lg~~~~~~~~g~~r~P~WP~G~~GSISHs~~~a~A~va~~~~~~~lGIDiE~~~~~~~  141 (245)
+                      +.++||.+|++||+|++.+++++|.+.+.+.++++|+|+|+.++.+||||++++++++++.......||||||.+.+.. 
+T Consensus        41 ~~~krr~e~lagR~~~~~~l~~~g~~~~~i~~~~~GkP~~~~~~~~SISHs~~~~~~~~~~~~~~~~vGIDiE~~~~~~-  119 (232)
+T 6QXR_A           41 SVAKRRNEFITVRYCARQALSVLGIPEVPILKGDKGQPLWPDGIVGSMTHTEGFRGAVVGRTGEVRSVGIDAEPHDVLP-  119 (232)
+T ss_dssp             SCHHHHHHHHHHHHHHHHHHHHTTCCSCCCEECTTSCEECCTTEEEEEEEETTEEEEEEEETTTEEEEEEEEEESSCCC-
+T ss_pred             hcHHHHHHHHHHHHHHHHHHHHcCCCCcccccCCCCCccCCCCceEEEeecCCeEEEEEEeCCCcceEEEEEEECccCC-
+Confidence            5779999999999999999998887667888999999999999999999999999999987544469999999998655 
+
+
+Q query           142 ARYLHGEILTEGERLRFADDLERRTGLLVTLAFSLKESLFKALYPLVGKRFYFEHAELLEWRADGQARLRLLTDLSPEWR  221 (245)
+Q Consensus       142 ~~~i~~~i~~~~E~~~~~~~~~~~~~~~~tliFSAKESlyKAlyP~~~~~~~F~~a~l~~~~~~~~~~l~l~~~l~~~~~  221 (245)
+                       .++...+|++.|+..+.. .. .....++++||+|||++||+++..+.+++|++++|...+ ++++.+++..+..  +.
+T Consensus       120 -~~~~~~~~t~~E~~~l~~-~~-~~~~~~~~~WsaKEA~~Ka~~~~~~~~~~f~~~~i~~~~-~~~~~~~l~~~~~--~~  193 (232)
+T 6QXR_A          120 -NGVLKSIALPVERDELDA-LP-AGTHWDRLLFCAKETTYKAWFPLTARWLGFEDAHITIDP-DGTFTSRILVDGR--AN  193 (232)
+T ss_dssp             -TTHHHHHCCHHHHHHHHH-SC-TTSCHHHHHHHHHHHHHHHHHHHHSSCCCGGGEEEEEET-TTEEEEEECSCCB--CT
+T ss_pred             -cchHHHhcCHHHHHHHHc-CC-CccHHHHHHHHHHHHHHHHhcccccccCCceeEEEEECC-CCCEEEEEeecCC--CC
+Confidence             678899999999988865 32 244578999999999999999988999999988887544 5778888866543  22
+
+
+Q query           222 HG---SELDAQFAVLDGRLLSLVAVG  244 (245)
+Q Consensus       222 ~G---~~~~g~f~~~d~~VlTlVa~~  244 (245)
+                      .|   ..+.++|.+.+|+|+|+|+..
+T Consensus       194 ~~~~~~~~~~~~~~~~~~vlT~~~~~  219 (232)
+T 6QXR_A          194 DGTVLSAFDGRWIIDKGLILTAIVVP  219 (232)
+T ss_dssp             TSCBCCEEEEEEEEETTEEEEEEEEE
+T ss_pred             CCCeeeEEEEEEEEECCEEEEEEEec
+Confidence            33   378999999999999999754
+
+
+No 4
+>6QYF_A 4'-phosphopantetheinyl transferase PptT; transferase; HET: COA; 1.4A {Mycobacteroides abscessus ATCC 19977}
+Probab=99.93  E-value=8.2e-31  Score=232.12  Aligned_cols=176  Identities=31%  Similarity=0.448  Sum_probs=147.7  Template_Neff=8.000
+
+Q query            62 AVAKRQAEFLAGRLCARAALFALDGRAQTPAVGEDRAPVWPAAISGSITHGDRWAAALVAARGDWRGLGLDVETLLEAER  141 (245)
+Q Consensus        62 av~kR~aEF~aGR~~Ar~AL~~lg~~~~~~~~g~~r~P~WP~G~~GSISHs~~~a~A~va~~~~~~~lGIDiE~~~~~~~  141 (245)
+                      +.++||.+|++||+|++.+++++|.+.+.+.++++|+|+|+.++.+||||++++++++++.......||||||.+.+.. 
+T Consensus        41 ~~~krr~e~lagR~~~~~~l~~~g~~~~~i~~~~~GkP~~~~~~~~SISHs~~~~~~~~~~~~~~~~vGIDiE~~~~~~-  119 (232)
+T 6QYF_A           41 SVAKRRNEFITVRYCARQALSVLGIPEVPILKGDKGQPLWPDGIVGSMTHTEGFRGAVVGRTGEVRSVGIDAEPHDVLP-  119 (232)
+T ss_dssp             CCHHHHHHHHHHHHHHHHHHHHTTCCSCCCCBCTTSCBCCCTTEEEEEEEETTEEEEEEEETTTEEEEEEEEEESSCCC-
+T ss_pred             hcHHHHHHHHHHHHHHHHHHHHcCCCCcccccCCCCCccCCCCceEEEeecCCeEEEEEEeCCCcceEEEEEEECccCC-
+Confidence            5779999999999999999998887667888999999999999999999999999999987544469999999998655 
+
+
+Q query           142 ARYLHGEILTEGERLRFADDLERRTGLLVTLAFSLKESLFKALYPLVGKRFYFEHAELLEWRADGQARLRLLTDLSPEWR  221 (245)
+Q Consensus       142 ~~~i~~~i~~~~E~~~~~~~~~~~~~~~~tliFSAKESlyKAlyP~~~~~~~F~~a~l~~~~~~~~~~l~l~~~l~~~~~  221 (245)
+                       .++...+|++.|+..+.. .. .....++++||+|||++||+++..+.+++|++++|...+ ++++.+++..+..  +.
+T Consensus       120 -~~~~~~~~t~~E~~~l~~-~~-~~~~~~~~~WsaKEA~~Ka~~~~~~~~~~f~~~~i~~~~-~~~~~~~l~~~~~--~~  193 (232)
+T 6QYF_A          120 -NGVLKSIALPVERDELDA-LP-AGTHWDRLLFCAKETTYKAWFPLTARWLGFEDAHITIDP-DGTFTSRILVDGR--AN  193 (232)
+T ss_dssp             -TTHHHHHCCHHHHHHHHH-SC-SSSCHHHHHHHHHHHHHHHHHHHHCSCCCGGGEEEEEET-TTEEEEEECSCCB--CT
+T ss_pred             -cchHHHhcCHHHHHHHHc-CC-CccHHHHHHHHHHHHHHHHhcccccccCCceeEEEEECC-CCCEEEEEeecCC--CC
+Confidence             678899999999988865 32 244578999999999999999988999999988887544 5778888866543  22
+
+
+Q query           222 HG---SELDAQFAVLDGRLLSLVAVG  244 (245)
+Q Consensus       222 ~G---~~~~g~f~~~d~~VlTlVa~~  244 (245)
+                      .|   ..+.++|.+.+|+|+|+|+..
+T Consensus       194 ~~~~~~~~~~~~~~~~~~vlT~~~~~  219 (232)
+T 6QYF_A          194 DGTVLSAFDGRWIIDKGLILTAIVVP  219 (232)
+T ss_dssp             TSCBCCEEEEEEEEETTEEEEEEEEE
+T ss_pred             CCCeeeEEEEEEEEECCEEEEEEEec
+Confidence            33   378999999999999999754
+
+
+No 5
+>4QVH_B Maltose-binding periplasmic protein; a/b-fold, Phosphopantetheinyl transferase, acyl carrier; HET: GLC, COA, FLC, GOL; 1.75A {Escherichia coli}
+Probab=99.89  E-value=1.2e-27  Score=231.99  Aligned_cols=181  Identities=28%  Similarity=0.372  Sum_probs=153.2  Template_Neff=10.400
+
+Q query            60 LRAVAKRQAEFLAGRLCARAALFALDGRAQTPAVGEDRAPVWPAAISGSITHGDRWAAALVAARGDWRGLGLDVETLLEA  139 (245)
+Q Consensus        60 ~~av~kR~aEF~aGR~~Ar~AL~~lg~~~~~~~~g~~r~P~WP~G~~GSISHs~~~a~A~va~~~~~~~lGIDiE~~~~~  139 (245)
+                      .++..+||.+|++||+|+++++++++..++.|.++++|+|+|+.++.+|||||+++++++++..+....||||||.+.+.
+T Consensus       413 ~~~~~~~~~~~l~~r~~~~~~l~~~~~~~~~~~~~~~g~P~~~~~~~~siSHs~~~~~~~~~~~~~~~~iGiDie~~~~~  492 (598)
+T 4QVH_B          413 ARSVAKRRNEFITVRHCARIALDQLGVPPAPILKGDKGEPCWPDGMVGSLTHCAGYRGAVVGRRDAVRSVGIDAEPHDVL  492 (598)
+T ss_dssp             TTCCHHHHHHHHHHHHHHHHHHHHTTCCCCCCEECGGGCEECCTTEEEEEEEETTEEEEEEEETTTCSCEEEEEEESSCC
+T ss_pred             HhhcHHHHHHHHHHHHHHHHHHHHcCCCCCCCcCCCCCCCCCCCCeEEEEEecCCEEEEEEEecccCCeeEEEEEeCCCC
+Confidence            33567899999999999999999887766788899999999999999999999999999998754557999999999866
+
+
+Q query           140 ERARYLHGEILTEGERLRFADDLERRTGLLVTLAFSLKESLFKALYPLVGKRFYFEHAELLEWRA----DGQARLRLLTD  215 (245)
+Q Consensus       140 ~~~~~i~~~i~~~~E~~~~~~~~~~~~~~~~tliFSAKESlyKAlyP~~~~~~~F~~a~l~~~~~----~~~~~l~l~~~  215 (245)
+                      .  ..+..++|++.|+..+.. ........++++||+|||++|++|++++..++|+++++...+.    ++.+.+++..+
+T Consensus       493 ~--~~~~~~~~~~~e~~~~~~-~~~~~~~~~~~~w~~KEa~~K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  569 (598)
+T 4QVH_B          493 P--NGVLDAISLPAERADMPR-TMPAALHWDRILFCAKEATYKAWFPLTKRWLGFEDAHITFETDSTGWTGRFVSRILID  569 (598)
+T ss_dssp             C--TTHHHHHCCHHHHHHHHH-HSCTTSCHHHHHHHHHHHHHHHHHHHHCSCCCGGGEEEEEEECTTSSEEEEEEEECSC
+T ss_pred             C--CcHHHHhCCHHHHHhHHh-hCcccchHHHHHHHHHHHHHHHHchhhcccCCcceEEEEEEcCCCCceEEEEEEEEec
+Confidence            5  678899999999988765 3224567889999999999999999999999999999876554    36777888776
+
+
+Q query           216 LSP-EWRHGSELDAQFAVLDGRLLSLVAV  243 (245)
+Q Consensus       216 l~~-~~~~G~~~~g~f~~~d~~VlTlVa~  243 (245)
+                      +.. .+..+..+.++|.+.+++|+|+|++
+T Consensus       570 ~~~~~~~~~~~~~~~~~~~~~~v~t~~~~  598 (598)
+T 4QVH_B          570 GSTLSGPPLTTLRGRWSVERGLVLTAIVL  598 (598)
+T ss_dssp             CCCSSSSCCCEEEEEEEEETTEEEEEEEC
+T ss_pred             CCCCCCCCCCEEEEEEEEECCEEEEEEEC
+Confidence            643 2556788999999999999999964
+
+
+No 6
+>4QVH_A Maltose-binding periplasmic protein; a/b-fold, Phosphopantetheinyl transferase, acyl carrier; HET: MAL, GOL, FLC, COA; 1.75A {Escherichia coli, Mycobacterium tuberculosis}
+Probab=99.88  E-value=4.7e-27  Score=228.17  Aligned_cols=182  Identities=29%  Similarity=0.378  Sum_probs=152.5  Template_Neff=10.300
+
+Q query            59 ILRAVAKRQAEFLAGRLCARAALFALDGRAQTPAVGEDRAPVWPAAISGSITHGDRWAAALVAARGDWRGLGLDVETLLE  138 (245)
+Q Consensus        59 l~~av~kR~aEF~aGR~~Ar~AL~~lg~~~~~~~~g~~r~P~WP~G~~GSISHs~~~a~A~va~~~~~~~lGIDiE~~~~  138 (245)
+                      +.++.++||.+|++||+|++.++++++++++.+.++++|+|+|+.++.+||||++++++++++.......||||||.+.+
+T Consensus       412 ~~~~~~~~~~~~l~~r~~~~~~l~~~~~~~~~~~~~~~g~P~~~~~~~~siSh~~~~~~~~~~~~~~~~~vGiDie~~~~  491 (598)
+T 4QVH_A          412 IARSVAKRRNEFITVRHCARIALDQLGVPPAPILKGDKGEPCWPDGMVGSLTHCAGYRGAVVGRRDAVRSVGIDAEPHDV  491 (598)
+T ss_dssp             GTTCCHHHHHHHHHHHHHHHHHHHHTTCCCCCCEECGGGCEECCTTEEEEEEEETTEEEEEEEETTTCSCEEEEEEESSC
+T ss_pred             HHhhhHHHHHHHHHHHHHHHHHHHHcCCCCCCCCCCCCCCCCCCCCcEEEEeecCCeEEEEEEeccccceeEEEEEeCCC
+Confidence            33456789999999999999999988776678889999999999999999999999999999874445799999999986
+
+
+Q query           139 AERARYLHGEILTEGERLRFADDLERRTGLLVTLAFSLKESLFKALYPLVGKRFYFEHAELLEWRA----DGQARLRLLT  214 (245)
+Q Consensus       139 ~~~~~~i~~~i~~~~E~~~~~~~~~~~~~~~~tliFSAKESlyKAlyP~~~~~~~F~~a~l~~~~~----~~~~~l~l~~  214 (245)
+                      ..  ..+..++|++.|+..+.. ........++++||+|||++|+++|..|.+++|+++++...+.    .+.+.+++..
+T Consensus       492 ~~--~~~~~~~~~~~e~~~~~~-~~~~~~~~~~~~w~~KEa~~Ka~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  568 (598)
+T 4QVH_A          492 LP--NGVLDAISLPAERADMPR-TMPAALHWDRILFCAKEATYKAWFPLTKRWLGFEDAHITFETDSTGWTGRFVSRILI  568 (598)
+T ss_dssp             CC--TTHHHHHCCHHHHHHHHH-HSCTTSCHHHHHHHHHHHHHHHHHHHHCSCCCGGGEEEEEEECTTSSEEEEEEEECS
+T ss_pred             CC--ccHHHHhCCHHHHHhhHh-hCCccccHHHHHHHHHHHHHHHHchhcCCCCCceeEEEEEEcCCCCceEEEEEEEEe
+Confidence            55  678899999999988765 3334567789999999999999999989999999999875553    3557777766
+
+
+Q query           215 DLSP-EWRHGSELDAQFAVLDGRLLSLVAV  243 (245)
+Q Consensus       215 ~l~~-~~~~G~~~~g~f~~~d~~VlTlVa~  243 (245)
+                      ++.. .+..+..+.++|.+.+++|+|+|++
+T Consensus       569 ~~~~~~~~~~~~~~~~~~~~~~~v~t~~~~  598 (598)
+T 4QVH_A          569 DGSTLSGPPLTTLRGRWSVERGLVLTAIVL  598 (598)
+T ss_dssp             CCCCSSSSCCSEEEEEEEEETTEEEEEEEC
+T ss_pred             cCCCCCCCCCCeEEEEEEEECCEEEEEEEC
+Confidence            5543 2567788999999999999999863
+
+
+No 7
+>4MRT_A Tyrocidine synthase 3, 4'-phosphopantetheinyl transferase; PCP: Aminoacyl/peptidyl carrier, Sfp: Phosphopantetheine; HET: COA; 2.0A {Brevibacillus parabrevis}
+Probab=99.20  E-value=1.3e-14  Score=129.04  Aligned_cols=165  Identities=16%  Similarity=0.197  Sum_probs=121.1  Template_Neff=8.300
+
+Q query            63 VAKRQAEFLAGRLCARAALFA-LDGR--AQTPAVGEDRAPVWPA--AISGSITHGDRWAAALVAARGDWRGLGLDVETLL  137 (245)
+Q Consensus        63 v~kR~aEF~aGR~~Ar~AL~~-lg~~--~~~~~~g~~r~P~WP~--G~~GSISHs~~~a~A~va~~~~~~~lGIDiE~~~  137 (245)
+                      .+++|.+|++||++++.++.+ ++++  .+.+.++++|||+++.  ++.+||||++++++++++.    .+||||||.+.
+T Consensus        37 ~~~~r~~~l~~r~llr~~l~~~~~~~~~~i~~~~~~~GkP~l~~~~~~~fsiSHs~~~v~~a~s~----~~vGIDIE~~~  112 (232)
+T 4MRT_A           37 HKEDAHRTLLGDVLVRSVISRQYQLDKSDIRFSTQEYGKPCIPDLPDAHFNISHSGRWVIGAFDS----QPIGIDIEKTK  112 (232)
+T ss_pred             CHHHHHHHHHHHHHHHHHHHHHhCCCHHHCeEEeCCCCCccCCCCCCCEEEEEecCCeEEEEEcC----CceEEEeEecC
+Confidence            467889999999999999976 4544  3677889999999985  7999999999999999885    69999999998
+
+
+Q query           138 EAERARYLHGEILTEGERLRFADDLE-RRTGLLVTLAFSLKESLFKALYPLVGKRFYFEHAELLEWRADGQARLRLLTDL  216 (245)
+Q Consensus       138 ~~~~~~~i~~~i~~~~E~~~~~~~~~-~~~~~~~tliFSAKESlyKAlyP~~~~~~~F~~a~l~~~~~~~~~~l~l~~~l  216 (245)
+                      +..  .+++..+|++.|+..+.. .+ ......|+.+|++|||++||+|.  |...+++.+++.... ++...+....  
+T Consensus       113 ~~~--~~~~~~~f~~~E~~~l~~-~~~~~~~~~f~~~Wt~KEA~~Ka~G~--Gl~~~~~~~~~~~~~-~~~~~~~~~~--  184 (232)
+T 4MRT_A          113 PIS--LEIAKRFFSKTEYSDLLA-KDKDEQTDYFYHLWSMKESFIKQEGK--GLSLPLDSFSVRLHQ-DGQVSIELPD--  184 (232)
+T ss_pred             CCc--HHHHHHHCCHHHHHHHHc-CCHHHHHHHHHHHHHHHHHHHHHHCC--CcCCChhhEEEEeCC-CCcEEEEcCC--
+Confidence            654  678899999999988865 32 24567899999999999999995  444567777665433 2222222111  
+
+
+Q query           217 SPEWRHGSELDAQFAVLDGRLLSLVAV  243 (245)
+Q Consensus       217 ~~~~~~G~~~~g~f~~~d~~VlTlVa~  243 (245)
+                         ...+..+ ..+.+.+++++++|..
+T Consensus       185 ---~~~~~~~-~~~~~~~~y~~sv~~~  207 (232)
+T 4MRT_A          185 ---SHSPCYI-KTYEVDPGYKMAVCAA  207 (232)
+T ss_pred             ---CCCCeEE-EEEEcCCCEEEEEEEe
+Confidence               0111222 2344557888887653
+
+
+No 8
+>1QR0_A 4'-PHOSPHOPANTETHEINYL TRANSFERASE SFP; PROTEIN-COENZYME A COMPLEX, TRANSFERASE; HET: COA; 1.9A {Bacillus subtilis} SCOP: d.150.1.1
+Probab=99.08  E-value=1.2e-13  Score=122.26  Aligned_cols=132  Identities=15%  Similarity=0.164  Sum_probs=107.8  Template_Neff=8.600
+
+Q query            62 AVAKRQAEFLAGRLCARAALFA-LDGR--AQTPAVGEDRAPVWPA--AISGSITHGDRWAAALVAARGDWRGLGLDVETL  136 (245)
+Q Consensus        62 av~kR~aEF~aGR~~Ar~AL~~-lg~~--~~~~~~g~~r~P~WP~--G~~GSISHs~~~a~A~va~~~~~~~lGIDiE~~  136 (245)
+                      ..++++.+|++||++++.++.+ ++.+  .+.+.++++|||+++.  ++.+||||++++++++++.    .+||||||.+
+T Consensus        36 ~~~~~~~~~l~~r~llr~~l~~~~~~~~~~~~~~~~~~GkP~l~~~~~~~fsiSHs~~~v~~a~s~----~~vGvDIE~~  111 (228)
+T 1QR0_A           36 YHKEDAHRTLLGDVLVRSVISRQYQLDKSDIRFSTQEYGKPCIPDLPDAHFNISHSGRWVIGAFDS----QPIGIDIEKT  111 (228)
+T ss_dssp             SSHHHHHHHHHHHHHHHHHHHHHTTCCGGGCCCEECTTSCEECTTCTTCEEEEEEETTEEEEEEES----SCCEEEEEEC
+T ss_pred             CCHHHHHHHHHHHHHHHHHHHHHhCCCHHHCeEEeCCCCCcccCCCCCCEEEEeecCCeEEEEEcC----CceEEEEEEc
+Confidence            3567889999999999999975 4544  3677889999999975  7899999999999999885    6999999999
+
+
+Q query           137 LEAERARYLHGEILTEGERLRFADDLE-RRTGLLVTLAFSLKESLFKALYPLVGKRFYFEHAELLEW  202 (245)
+Q Consensus       137 ~~~~~~~~i~~~i~~~~E~~~~~~~~~-~~~~~~~tliFSAKESlyKAlyP~~~~~~~F~~a~l~~~  202 (245)
+                      .+..  ..+...+|++.|+..+.. .+ ......|+.+|++|||++|++|.  |...+++.+++...
+T Consensus       112 ~~~~--~~~~~~~~~~~E~~~l~~-~~~~~~~~~f~~~Wt~KEA~~Ka~G~--Gl~~~~~~~~~~~~  173 (228)
+T 1QR0_A          112 KPIS--LEIAKRFFSKTEYSDLLA-KDKDEQTDYFYHLWSMKESFIKQEGK--GLSLPLDSFSVRLH  173 (228)
+T ss_dssp             CCCC--HHHHSSSSCHHHHHHHHH-SCHHHHHHHHHHHHHHHHHHHHHHCS--TTSCCSSCCEEEEC
+T ss_pred             CCCC--HHHHHHHCCHHHHHHHHc-CCHHHHHHHHHHHHHHHHHHHHHhCC--CcCCCcceEEEEeC
+Confidence            8754  577889999999988865 32 24566799999999999999995  44567777766543
+
+
+No 9
+>2BYD_A HSPC223 (E.C.1.2.1.31); TRANSFERASE, FATTY ACID BIOSYNTHESIS, PHOSPHOPANTETHEINE; 2.0A {HOMO SAPIENS}
+Probab=98.79  E-value=7.6e-12  Score=117.30  Aligned_cols=134  Identities=19%  Similarity=0.152  Sum_probs=107.7  Template_Neff=7.500
+
+Q query            63 VAKRQAEFLAGRLCARAALFA-LDGR--AQTPAVGEDRAPVWPA-------AISGSITHGDRWAAALVAARGDWRGLGLD  132 (245)
+Q Consensus        63 v~kR~aEF~aGR~~Ar~AL~~-lg~~--~~~~~~g~~r~P~WP~-------G~~GSISHs~~~a~A~va~~~~~~~lGID  132 (245)
+                      .++++.++++||+++|.++.+ ++++  .+.+.++++|||++..       ++.+||||++++++++++..   ..||||
+T Consensus        63 ~~~dr~~~L~gRlLlr~~l~~~~g~~~~~i~~~r~~~GKP~l~~~~~~~~~~~~FnISHsg~~vv~a~s~~---~~VGVD  139 (323)
+T 2BYD_A           63 FARDAKAAMAGRLMIRKLVAEKLNIPWNHIRLQRTAKGKPVLAKDSSNPYPNFNFNISHQGDYAVLAAEPE---LQVGID  139 (323)
+T ss_dssp             BHHHHHHHHHHHHHHHHHHHHHHCCCGGGCCEEECTTCCEEECSSCSCSCTTCEEEEEEETTEEEEEEESS---SEEEEE
+T ss_pred             CHHHHHHHHHHHHHHHHHHHHHcCCCHHHCeEeeCCCCCcEEccCCCCCCCCcEEEEEecCCEEEEEECCC---CceEEE
+Confidence            568899999999999999976 4554  3778899999999964       58999999999999998753   699999
+
+
+Q query           133 VETLLEAE-----RARYLHGEILTEGERLRFADDLE--RRTGLLVTLAFSLKESLFKALYPLVGKRFYFEHAELLEW  202 (245)
+Q Consensus       133 iE~~~~~~-----~~~~i~~~i~~~~E~~~~~~~~~--~~~~~~~tliFSAKESlyKAlyP~~~~~~~F~~a~l~~~  202 (245)
+                      ||.+....     .+.+++..+|++.|+..+.. ..  ......|+++||+|||++||+|.  |...+++.+++...
+T Consensus       140 Ie~i~~~~~~~~~~~~~~~~~~fs~~E~~~i~~-~~~~~~~~~~F~~~WtlKEA~vKa~G~--GL~~~l~~l~~~~~  213 (323)
+T 2BYD_A          140 IMKTSFPGRGSIPEFFHIMKRKFTNKEWETIRS-FKDEWTQLDMFYRNWALKESFIKAIGV--GLGFELQRLEFDLS  213 (323)
+T ss_dssp             EEECCCCSSSCHHHHHHHTGGGSCHHHHHHHHT-SSSHHHHHHHHHHHHHHHHHHHHHHTC--GGGCCGGGEEEECS
+T ss_pred             EEECCCCCCCChHHHHHHHHHHCCHHHHHHHHc-CCCHHHHHHHHHHHHHHHHHHHHHhCC--ccCCCHhhEEEECC
+Confidence            99997531     22467789999999988875 32  23567899999999999999994  44567777777543
+
+
+No 10
+>2C43_A AMINOADIPATE-SEMIALDEHYDE DEHYDROGENASE-PHOSPHOPANTETHEINYL TRANSFERASE (E.C.1.2.1.31); TRANSFERASE, FATTY ACID BIOSYNTHESIS, COENZYME; HET: COA; 1.93A {HOMO SAPIENS}
+Probab=98.79  E-value=7.6e-12  Score=117.30  Aligned_cols=134  Identities=19%  Similarity=0.152  Sum_probs=107.7  Template_Neff=7.500
+
+Q query            63 VAKRQAEFLAGRLCARAALFA-LDGR--AQTPAVGEDRAPVWPA-------AISGSITHGDRWAAALVAARGDWRGLGLD  132 (245)
+Q Consensus        63 v~kR~aEF~aGR~~Ar~AL~~-lg~~--~~~~~~g~~r~P~WP~-------G~~GSISHs~~~a~A~va~~~~~~~lGID  132 (245)
+                      .++++.++++||+++|.++.+ ++++  .+.+.++++|||++..       ++.+||||++++++++++..   ..||||
+T Consensus        63 ~~~dr~~~L~gRlLlr~~l~~~~g~~~~~i~~~r~~~GKP~l~~~~~~~~~~~~FnISHsg~~vv~a~s~~---~~VGVD  139 (323)
+T 2C43_A           63 FARDAKAAMAGRLMIRKLVAEKLNIPWNHIRLQRTAKGKPVLAKDSSNPYPNFNFNISHQGDYAVLAAEPE---LQVGID  139 (323)
+T ss_dssp             BHHHHHHHHHHHHHHHHHHHHHSCCCGGGCCEEECTTSCEEECCC--CCSSSCEEEEEEETTEEEEEEESS---SEEEEE
+T ss_pred             CHHHHHHHHHHHHHHHHHHHHHcCCCHHHCeEeeCCCCCcEEccCCCCCCCCcEEEEEecCCEEEEEECCC---CceEEE
+Confidence            568899999999999999976 4554  3778899999999964       58999999999999998753   699999
+
+
+Q query           133 VETLLEAE-----RARYLHGEILTEGERLRFADDLE--RRTGLLVTLAFSLKESLFKALYPLVGKRFYFEHAELLEW  202 (245)
+Q Consensus       133 iE~~~~~~-----~~~~i~~~i~~~~E~~~~~~~~~--~~~~~~~tliFSAKESlyKAlyP~~~~~~~F~~a~l~~~  202 (245)
+                      ||.+....     .+.+++..+|++.|+..+.. ..  ......|+++||+|||++||+|.  |...+++.+++...
+T Consensus       140 Ie~i~~~~~~~~~~~~~~~~~~fs~~E~~~i~~-~~~~~~~~~~F~~~WtlKEA~vKa~G~--GL~~~l~~l~~~~~  213 (323)
+T 2C43_A          140 IMKTSFPGRGSIPEFFHIMKRKFTNKEWETIRS-FKDEWTQLDMFYRNWALKESFIKAIGV--GLGFELQRLEFDLS  213 (323)
+T ss_dssp             EEECCCCSSSCHHHHHHHTGGGSCHHHHHHHTT-SSSHHHHHHHHHHHHHHHHHHHHHHTC--CSCCCGGGEEEECC
+T ss_pred             EEECCCCCCCChHHHHHHHHHHCCHHHHHHHHc-CCCHHHHHHHHHHHHHHHHHHHHHhCC--ccCCCHhhEEEECC
+Confidence            99997531     22467789999999988875 32  23567899999999999999994  44567777777543
+
+
+No 11
+>4JM7_A Holo-[acyl-carrier-protein] synthase (E.C.2.7.8.7); holo-(acyl-carrier-protein) synthase, Structural Genomics, Infectious; 1.824A {Staphylococcus aureus}
+Probab=98.49  E-value=2.4e-10  Score=93.89  Aligned_cols=124  Identities=21%  Similarity=0.231  Sum_probs=84.1  Template_Neff=9.100
+
+Q query           106 SGSITHGDRWAAALVAARGDWRGLGLDVETLLEAERA----RYLHGEILTEGERLRFADDLE--RRTGLLVTLAFSLKES  179 (245)
+Q Consensus       106 ~GSISHs~~~a~A~va~~~~~~~lGIDiE~~~~~~~~----~~i~~~i~~~~E~~~~~~~~~--~~~~~~~tliFSAKES  179 (245)
+                      .+-++|++++++.+++..   ..||||||.+.+....    ..+..++|++.|+..+.. ..  ..+...++.+|++|||
+T Consensus         9 ~~~~~~~~~~~~~~~~~~---~~iGIDIe~~~~~~~~~~~~~~~~~~~lt~~E~~~l~~-~~~~~~~~~~~~~~W~~KEA   84 (143)
+T 4JM7_A            9 SGVDLGTENLYFQSNAMI---HGIGVDLIEIDRIQALYSKQPKLVERILTKNEQHKFNN-FTHEQRKIEFLAGRFATKEA   84 (143)
+T ss_dssp             ---CTTCCCHHHHCCCSE---EEEEEEEEEHHHHHHHHHHCGGGHHHHSCHHHHHHHHH-CSSHHHHHHHHHHHHHHHHH
+T ss_pred             CCCchhHHHHHhhcccce---eeeeEEEEEhHHHHHHHhcChhHHHHhCCHHHHHHHhc-CCChHHHHHHHHHHHHHHHH
+Confidence            467899999999888874   7999999999865433    467789999999988865 32  2456789999999999
+
+
+Q query           180 LFKALYPLVGKRFYFEHAELLEWRADGQARLRLLTDLSPEWRHGSELDAQFAVLDGRLLSLVAV  243 (245)
+Q Consensus       180 lyKAlyP~~~~~~~F~~a~l~~~~~~~~~~l~l~~~l~~~~~~G~~~~g~f~~~d~~VlTlVa~  243 (245)
+                      ++|+++.+.+..++|..+++...+ .+...+.+.         +..+.+.+...+++++++|..
+T Consensus        85 ~~Ka~g~gl~~~~~~~~i~~~~~~-~g~p~~~~~---------~~~~~~sis~~~~~~~ava~~  138 (143)
+T 4JM7_A           85 FSKALGTGLGKHVAFNDIDCYNDE-LGKPKIDYE---------GFIVHVSISHTEHYAMSQVVL  138 (143)
+T ss_dssp             HHHHHC------CCGGGCCEEEC---CCEEECCT---------TEEEEEEEEECSSEEEEEEEE
+T ss_pred             HHHHhCCCCccCcchhhEEEEeCC-CCCEEEEeC---------CcEEEEEEEecCCEEEEEEEE
+Confidence            999999765545778888776533 344333321         113345566678888877753
+
+
+No 12
+>4JM7_B Holo-[acyl-carrier-protein] synthase (E.C.2.7.8.7); holo-(acyl-carrier-protein) synthase, Structural Genomics, Infectious; 1.824A {Staphylococcus aureus}
+Probab=98.49  E-value=2.4e-10  Score=93.89  Aligned_cols=124  Identities=21%  Similarity=0.231  Sum_probs=75.8  Template_Neff=9.100
+
+Q query           106 SGSITHGDRWAAALVAARGDWRGLGLDVETLLEAERA----RYLHGEILTEGERLRFADDLE--RRTGLLVTLAFSLKES  179 (245)
+Q Consensus       106 ~GSISHs~~~a~A~va~~~~~~~lGIDiE~~~~~~~~----~~i~~~i~~~~E~~~~~~~~~--~~~~~~~tliFSAKES  179 (245)
+                      .+-++|++++++.+++..   ..||||||.+.+....    ..+..++|++.|+..+.. ..  ..+...++.+|++|||
+T Consensus         9 ~~~~~~~~~~~~~~~~~~---~~iGIDIe~~~~~~~~~~~~~~~~~~~lt~~E~~~l~~-~~~~~~~~~~~~~~W~~KEA   84 (143)
+T 4JM7_B            9 SGVDLGTENLYFQSNAMI---HGIGVDLIEIDRIQALYSKQPKLVERILTKNEQHKFNN-FTHEQRKIEFLAGRFATKEA   84 (143)
+T ss_dssp             ------------CCSCSE---EEEEEEEEEHHHHHHHHHHCGGGHHHHSCHHHHHHHHH-CSSHHHHHHHHHHHHHHHHH
+T ss_pred             CCCchhHHHHHhhcccce---eeeeEEEEEhHHHHHHHhcChhHHHHhCCHHHHHHHhc-CCChHHHHHHHHHHHHHHHH
+Confidence            467899999999888874   7999999999865433    467789999999988865 32  2456789999999999
+
+
+Q query           180 LFKALYPLVGKRFYFEHAELLEWRADGQARLRLLTDLSPEWRHGSELDAQFAVLDGRLLSLVAV  243 (245)
+Q Consensus       180 lyKAlyP~~~~~~~F~~a~l~~~~~~~~~~l~l~~~l~~~~~~G~~~~g~f~~~d~~VlTlVa~  243 (245)
+                      ++|+++.+.+..++|..+++...+ .+...+.+.         +..+.+.+...+++++++|..
+T Consensus        85 ~~Ka~g~gl~~~~~~~~i~~~~~~-~g~p~~~~~---------~~~~~~sis~~~~~~~ava~~  138 (143)
+T 4JM7_B           85 FSKALGTGLGKHVAFNDIDCYNDE-LGKPKIDYE---------GFIVHVSISHTEHYAMSQVVL  138 (143)
+T ss_dssp             HHHHHC------CCGGGCCCEEC--CCCEECCCT---------TEEEEEEEEECSSEEEEEEEE
+T ss_pred             HHHHhCCCCccCcchhhEEEEeCC-CCCEEEEeC---------CcEEEEEEEecCCEEEEEEEE
+Confidence            999999765545778888776533 344333321         113345566678888877753
+
+
+No 13
+>3QMN_E Holo-[acyl-carrier-protein] synthase (E.C.2.7.8.7); Structural Genomics, Center for Structural; HET: MRD, COA, A3P, MPD, CA, MSE, ACT; 1.85A {Vibrio cholerae O1 biovar El Tor}
+Probab=98.05  E-value=1.3e-08  Score=80.85  Aligned_cols=115  Identities=19%  Similarity=0.202  Sum_probs=80.1  Template_Neff=10.100
+
+Q query           126 WRGLGLDVETLLEAER-----ARYLHGEILTEGERLRFADDLERRTGLLVTLAFSLKESLFKALYPLVGKRFYFEHAELL  200 (245)
+Q Consensus       126 ~~~lGIDiE~~~~~~~-----~~~i~~~i~~~~E~~~~~~~~~~~~~~~~tliFSAKESlyKAlyP~~~~~~~F~~a~l~  200 (245)
+                      ..+||||||.+.+...     ...+...+|+++|+..+.. . .....+++.+|++|||++|+++.+.+..+++.++++.
+T Consensus         5 ~~~iGiDie~~~~~~~~~~~~~~~~~~~~l~~~E~~~~~~-~-~~~~~~l~~~w~~KEA~~Ka~g~~~~~~~~~~~i~i~   82 (129)
+T 3QMN_E            5 IVGLGTDIAEIERVEKALARSGENFARRILTDSELEQFHA-S-KQQGRFLAKRFAAKEAASKALGTGIAQGVTFHDFTIS   82 (129)
+T ss_dssp             EEEEEEEEEEHHHHHHHHHHHHHHHHHHHSCHHHHHHHHH-C-SCHHHHHHHHHHHHHHHHHHTTSCSCTTCCGGGEEEE
+T ss_pred             ceeeEEEEEEhHHHHHHHHhchhhHHHHhCCHHHHHHHHh-c-hhHHHHHHHHHHHHHHHHHHhCCCccCCCchhhEEEE
+Confidence            3689999999986432     2567889999999988765 3 2456788999999999999999765545678888876
+
+
+Q query           201 EWRADGQARLRLLTDLSPEW--RHGSELDAQFAVLDGRLLSLVAV  243 (245)
+Q Consensus       201 ~~~~~~~~~l~l~~~l~~~~--~~G~~~~g~f~~~d~~VlTlVa~  243 (245)
+                      ... .|...+.+........  .....+.+...+.+++++++|+.
+T Consensus        83 ~~~-~g~p~v~~~~~~~~~~~~~~~~~~~~sish~~~~~~a~~~~  126 (129)
+T 3QMN_E           83 HDK-LGKPLLILSGQAAELASQLQVENIHLSISDERHYAMATVIL  126 (129)
+T ss_dssp             ECT-TSCEEEEECHHHHHHHHHTTEEEEEEEEEECSSEEEEEEEE
+T ss_pred             eCC-CCCeEEEEchHHHHHHHhcCCcEEEEEEECCCCeEEEEEEE
+Confidence            543 4556555443221100  01234666777888888888764
+
+
+No 14
+>3QMN_T Holo-[acyl-carrier-protein] synthase (E.C.2.7.8.7); Structural Genomics, Center for Structural; HET: MRD, COA, A3P, MPD, CA, MSE, ACT; 1.85A {Vibrio cholerae O1 biovar El Tor}
+Probab=98.05  E-value=1.3e-08  Score=80.85  Aligned_cols=115  Identities=19%  Similarity=0.202  Sum_probs=80.1  Template_Neff=10.100
+
+Q query           126 WRGLGLDVETLLEAER-----ARYLHGEILTEGERLRFADDLERRTGLLVTLAFSLKESLFKALYPLVGKRFYFEHAELL  200 (245)
+Q Consensus       126 ~~~lGIDiE~~~~~~~-----~~~i~~~i~~~~E~~~~~~~~~~~~~~~~tliFSAKESlyKAlyP~~~~~~~F~~a~l~  200 (245)
+                      ..+||||||.+.+...     ...+...+|+++|+..+.. . .....+++.+|++|||++|+++.+.+..+++.++++.
+T Consensus         5 ~~~iGiDie~~~~~~~~~~~~~~~~~~~~l~~~E~~~~~~-~-~~~~~~l~~~w~~KEA~~Ka~g~~~~~~~~~~~i~i~   82 (129)
+T 3QMN_T            5 IVGLGTDIAEIERVEKALARSGENFARRILTDSELEQFHA-S-KQQGRFLAKRFAAKEAASKALGTGIAQGVTFHDFTIS   82 (129)
+T ss_dssp             EEEEEEEEEEHHHHHHHHHHHHHHHHHHHSCHHHHHHHHH-C-SCHHHHHHHHHHHHHHHHHHHTSCSCTTCCGGGEEEE
+T ss_pred             ceeeEEEEEEhHHHHHHHHhchhhHHHHhCCHHHHHHHHh-c-hhHHHHHHHHHHHHHHHHHHhCCCccCCCchhhEEEE
+Confidence            3689999999986432     2567889999999988765 3 2456788999999999999999765545678888876
+
+
+Q query           201 EWRADGQARLRLLTDLSPEW--RHGSELDAQFAVLDGRLLSLVAV  243 (245)
+Q Consensus       201 ~~~~~~~~~l~l~~~l~~~~--~~G~~~~g~f~~~d~~VlTlVa~  243 (245)
+                      ... .|...+.+........  .....+.+...+.+++++++|+.
+T Consensus        83 ~~~-~g~p~v~~~~~~~~~~~~~~~~~~~~sish~~~~~~a~~~~  126 (129)
+T 3QMN_T           83 HDK-LGKPLLILSGQAAELASQLQVENIHLSISDERHYAMATVIL  126 (129)
+T ss_dssp             ECT-TSCEEEEECHHHHHHHHHTTCCEEEEEEEECSSEEEEEEEE
+T ss_pred             eCC-CCCeEEEEchHHHHHHHhcCCcEEEEEEECCCCeEEEEEEE
+Confidence            543 4556555443221100  01234666777888888888764
+
+
+No 15
+>2WAS_F 3-OXOACYL-[ACYL-CARRIER-PROTEIN] SYNTHASE (E.C.2.7.8.7, 2.3.1.41); COA, FAS, PPT, NAD, NADP; 1.9A {SACCHAROMYCES CEREVISIAE}
+Probab=98.04  E-value=1.4e-08  Score=80.96  Aligned_cols=115  Identities=15%  Similarity=0.128  Sum_probs=74.6  Template_Neff=9.400
+
+Q query           127 RGLGLDVETLLEAE-RARYLHGEILTEGERLRFADDLERRTGLLVTLAFSLKESLFKALYPLV-GKRFYFEHAELLEWRA  204 (245)
+Q Consensus       127 ~~lGIDiE~~~~~~-~~~~i~~~i~~~~E~~~~~~~~~~~~~~~~tliFSAKESlyKAlyP~~-~~~~~F~~a~l~~~~~  204 (245)
+                      .+||||||.+.+.. ....+..+++++.|+..+.. .. .....++.+|++|||++|+++... |..++|+++++...+ 
+T Consensus         2 ~~iGiDie~~~~~~~~~~~~~~~~~~~~E~~~~~~-~~-~~~~~l~~~w~~KEA~~Ka~g~~~~g~~~~~~~i~i~~~~-   78 (122)
+T 2WAS_F            2 GGVGVDVELITSINVENDTFIERNFTPQEIEYCSA-QP-SVQSSFAGTWSAKEAVFKSLGVKSLGGGAALKDIEIVRTN-   78 (122)
+T ss_dssp             -CEEEEEEEGGGCCSSCHHHHHHHSCHHHHHHHHT-SS-SHHHHHHHHHHHHHHHHHHC----------CTTEEEEEC--
+T ss_pred             CceeeeEEEccccccCcchHHHHhCCHHHHHHHhc-CC-CHHHHHHHHHHHHHHHHHHhCCcccCCCCccceEEEEeCC-
+Confidence            47999999998643 23567889999999988765 32 456789999999999999998643 456788888887654 
+
+
+Q query           205 DGQARLRLLTDLSPEWR-H-GSELDAQFAVLDGRLLSLVAVG  244 (245)
+Q Consensus       205 ~~~~~l~l~~~l~~~~~-~-G~~~~g~f~~~d~~VlTlVa~~  244 (245)
+                      +|...+.+.......+. . ...+.+.+.+.+++++.+|+..
+T Consensus        79 ~g~p~~~~~~~~~~~~~~~~~~~~~~sish~~~~~~a~~~~~  120 (122)
+T 2WAS_F           79 KNAPAVELHGNAKKAAEEAGVTDVKVSISHDDLQAVAVAVST  120 (122)
+T ss_dssp             --CEEEEECHHHHHHHHTTTCCEEEEEEEECSSEEEEEEEEE
+T ss_pred             CCCeEEEEChhHHHHHHHcCCCEEEEEEEecCCeEEEEEEEE
+Confidence            46666665443221111 1 1356677888899999888653
+
+
+No 16
+>5CMO_C Holo-[acyl-carrier-protein] synthase (E.C.2.7.8.7); acpS, transferase, FASII, trimer; HET: GOL; 2.0A {Neisseria meningitidis serogroup C / serotype 2a (strain ATCC 700532 / DSM 15464 / FAM18)}
+Probab=97.95  E-value=2.9e-08  Score=78.16  Aligned_cols=114  Identities=21%  Similarity=0.209  Sum_probs=78.6  Template_Neff=10.300
+
+Q query           127 RGLGLDVETLLEAERA-----RYLHGEILTEGERLRFADDLERRTGLLVTLAFSLKESLFKALYPLVGKRFYFEHAELLE  201 (245)
+Q Consensus       127 ~~lGIDiE~~~~~~~~-----~~i~~~i~~~~E~~~~~~~~~~~~~~~~tliFSAKESlyKAlyP~~~~~~~F~~a~l~~  201 (245)
+                      .+||||||.+.+....     ..+..++++++|+..+.. . ......++..|++|||++|+++.+.+...++.++++..
+T Consensus         3 ~~iGiDi~~~~~~~~~~~~~~~~~~~~~l~~~E~~~~~~-~-~~~~~~l~~~~~~KEa~~Ka~~~~~~~~~~~~~i~i~~   80 (125)
+T 5CMO_C            3 YGIGTDIVSLKRIIRLNKKFGQAFAGRILTPEELLEFPQ-A-GKPVNYLAKRFAAKEAFAKAVGTGIRGAVSFRNIGIGH   80 (125)
+T ss_dssp             EEEEEEEEEHHHHHHHHHHHTHHHHHHHSCHHHHHHGGG-C-SSHHHHHHHHHHHHHHHHHHTTSCSBTTBCTTTEEEEE
+T ss_pred             ceeEEEEEEHHHHHHHHHHhchhhHHHhCCHHHHHHHHh-c-CCHHHHHHHHHHHHHHHHHHhcCCCcCCccccceEEEe
+Confidence            4799999999864321     467789999999988765 3 24567889999999999999996655446788887765
+
+
+Q query           202 WRADGQARLRLLTDLSPEW--RHGSELDAQFAVLDGRLLSLVAV  243 (245)
+Q Consensus       202 ~~~~~~~~l~l~~~l~~~~--~~G~~~~g~f~~~d~~VlTlVa~  243 (245)
+                      .. .|...+.+.......+  .....+.+++.+.+++++++++.
+T Consensus        81 ~~-~g~p~~~~~~~~~~~~~~~~~~~~~~sish~~~~~~a~~~~  123 (125)
+T 5CMO_C           81 DA-LGKPEFFYGPALSKWLEEQGISRVSLSMSDEEDTVLAFVVA  123 (125)
+T ss_dssp             CT-TSCEEEEECHHHHHHHHHTTCCEEEEEEEEETTEEEEEEEE
+T ss_pred             CC-CCCeEEEECHHHHHHHHHcCCcEEEEEEECCCCEEEEEEEE
+Confidence            43 4555555433211000  00234566778888998887764
+
+
+No 17
+>2WAT_A 3-OXOACYL-[ACYL-CARRIER-PROTEIN] SYNTHASE (E.C.2.7.8.7, 2.3.1.41); COA, FAS, PPT, NAD, NADP; HET: COA; 2.2A {SACCHAROMYCES CEREVISIAE}
+Probab=97.90  E-value=4.1e-08  Score=77.73  Aligned_cols=115  Identities=15%  Similarity=0.139  Sum_probs=81.2  Template_Neff=9.800
+
+Q query           127 RGLGLDVETLLEAE-RARYLHGEILTEGERLRFADDLERRTGLLVTLAFSLKESLFKALYP-LVGKRFYFEHAELLEWRA  204 (245)
+Q Consensus       127 ~~lGIDiE~~~~~~-~~~~i~~~i~~~~E~~~~~~~~~~~~~~~~tliFSAKESlyKAlyP-~~~~~~~F~~a~l~~~~~  204 (245)
+                      .+||||||.+.+.. ....+...++++.|+..+.. .. .....++.+|++|||++|+++. ..|..++|.+++|...+ 
+T Consensus         2 ~~iGiDie~~~~~~~~~~~~~~~~l~~~E~~~~~~-~~-~~~~~l~~~w~~KEA~~Ka~g~~~~g~~~~~~~i~i~~~~-   78 (122)
+T 2WAT_A            2 GGVGVDVELITSINVENDTFIERNFTPQEIEYCSA-QP-SVQSSFAGTWSAKEAVFKSLGVKSLGGGAALKDIEIVRVN-   78 (122)
+T ss_dssp             CEEEEEEEEGGGCCTTCHHHHHHHSCHHHHHHHHT-SS-SHHHHHHHHHHHHHHHHHHHCCSCCSSCSCCTTEEEECCT-
+T ss_pred             CCeeeeEEEcccccccChhHHHHhCCHHHHHHHhc-CC-CHHHHHHHHHHHHHHHHHHhCCcccCCCCChhhEEEEEcC-
+Confidence            47999999998653 23577889999999887765 32 4567899999999999999986 23556788888887554 
+
+
+Q query           205 DGQARLRLLTDLSPEW-RH-GSELDAQFAVLDGRLLSLVAVG  244 (245)
+Q Consensus       205 ~~~~~l~l~~~l~~~~-~~-G~~~~g~f~~~d~~VlTlVa~~  244 (245)
+                      .|...+.+........ .. ...+.++..+.+++++++|+..
+T Consensus        79 ~g~p~~~~~~~~~~~~~~~~~~~~~~sish~~~~~~a~~~~~  120 (122)
+T 2WAT_A           79 KNAPAVELHGNAKKAAEEAGVTDVKVSISHDDLQAVAVAVST  120 (122)
+T ss_dssp             TSCCEEEECHHHHHHHHHTTCCEEEEEEEECSSEEEEEEEEE
+T ss_pred             CCCeEEEEchhHHHHHHHhCCCEEEEEEEecCCeEEEEEEEE
+Confidence            4666666544322101 11 2356677788889998887653
+
+
+No 18
+>2WDS_A HOLO-[ACYL-CARRIER-PROTEIN] SYNTHASE (E.C.2.7.8.7); PHOSPHOPANTETHEINE ARM, FATTY ACID BIOSYNTHESIS; HET: COA; 1.35A {STREPTOMYCES COELICOLOR}
+Probab=97.88  E-value=4.7e-08  Score=80.55  Aligned_cols=127  Identities=20%  Similarity=0.176  Sum_probs=78.4  Template_Neff=9.000
+
+Q query           109 ITHGDRWAAALVAARGDWRGLGLDVETLLEAER----ARYLHGEILTEGERLRFADDLERRTGLLVTLAFSLKESLFKAL  184 (245)
+Q Consensus       109 ISHs~~~a~A~va~~~~~~~lGIDiE~~~~~~~----~~~i~~~i~~~~E~~~~~~~~~~~~~~~~tliFSAKESlyKAl  184 (245)
+                      -+|+++++..+.+..   ..||||||.+.....    ...+..++|+++|+..+.. . ......++.+|++|||++|++
+T Consensus         9 ~~~~~~~~~~~~~~~---~~vGIDie~~~~~~~~~~~~~~~~~~~~~~~E~~~~~~-~-~~~~~~l~~~w~~KEA~~Ka~   83 (143)
+T 2WDS_A            9 HHSSGLVPRGSHMSI---IGVGIDVAEVERFGAALERTPALAGRLFLESELLLPGG-E-RRGVASLAARFAAKEALAKAL   83 (143)
+T ss_dssp             ------------CCE---EEEEEEEEEHHHHHHHHHHCTTHHHHHCCGGGGBCTTS-S-BCCHHHHHHHHHHHHHHHHHT
+T ss_pred             ccCCCCCCCccccce---eeEEEEEEEhHHHHHHHhcChhHHHHhCCHHHHHhcCC-c-hhHHHHHHHHHHHHHHHHHHh
+Confidence            356778776666553   799999999985432    1567889999999987765 3 245678899999999999999
+
+
+Q query           185 YPLVGKRFYFEHAELLEWRADGQARLRLLTDLSPE--WRHGSELDAQFAVLDGRLLSLVAV  243 (245)
+Q Consensus       185 yP~~~~~~~F~~a~l~~~~~~~~~~l~l~~~l~~~--~~~G~~~~g~f~~~d~~VlTlVa~  243 (245)
+                      +++  ...+|.++++...+ .|+..+.+.......  -.....+.+.+...+++++++++.
+T Consensus        84 g~~--~~~~~~~i~i~~~~-~g~p~l~~~~~~~~~~~~~~~~~~~vsish~~~~~~a~~~~  141 (143)
+T 2WDS_A           84 GAP--AGLLWTDAEVWVEA-GGRPRLRVTGTVAARAAELGVASWHVSLSADAGIASAVVIA  141 (143)
+T ss_dssp             TCC--TTCCGGGEEEEECT-TSCEEEEECHHHHHHHHHHTCCEEEEEEEEETTEEEEEEEE
+T ss_pred             CCC--CCCCHhhEEEEeCC-CCCEEEEEchhHHHHHHHhCCCEEEEEEEecCCeEEEEEEE
+Confidence            854  35678888886543 355555543322100  001234556677778888887764
+
+
+No 19
+>2WAT_F 3-OXOACYL-[ACYL-CARRIER-PROTEIN] SYNTHASE (E.C.2.7.8.7, 2.3.1.41); COA, FAS, PPT, NAD, NADP; HET: COA; 2.2A {SACCHAROMYCES CEREVISIAE}
+Probab=97.87  E-value=5.1e-08  Score=77.60  Aligned_cols=114  Identities=15%  Similarity=0.135  Sum_probs=78.7  Template_Neff=9.500
+
+Q query           127 RGLGLDVETLLEAE-RARYLHGEILTEGERLRFADDLERRTGLLVTLAFSLKESLFKALYPLV-GKRFYFEHAELLEWRA  204 (245)
+Q Consensus       127 ~~lGIDiE~~~~~~-~~~~i~~~i~~~~E~~~~~~~~~~~~~~~~tliFSAKESlyKAlyP~~-~~~~~F~~a~l~~~~~  204 (245)
+                      .+||||||.+.... ....+..+++++.|+..+.. .. .+..+++.+|++|||++|+++... |..+++.++++...+ 
+T Consensus         2 ~~iGIDie~~~~~~~~~~~~~~~~l~~~E~~~~~~-~~-~~~~~l~~~w~~KEA~~Ka~g~~~~g~~~~~~~i~i~~~~-   78 (122)
+T 2WAT_F            2 GGVGVDVELITSINVENDTFIERNFTPQEIEYCSA-QP-SVQSSFAGTWSAKEAVFKSLGVKSLGGGAALKDIEIVRVN-   78 (122)
+T ss_dssp             CEEEEEEECGGGCCTTCHHHHHHHSCHHHHHHHHT-SS-SHHHHHHHHHHHHHHHHHHHCCC-----CCCTTEEEEESS-
+T ss_pred             CceeeeEEEccccccCchhHHHHhCCHHHHHHHhc-CC-CHHHHHHHHHHHHHHHHHHhCCcccCCCCCceeEEEEECC-
+Confidence            57999999998653 22467899999999988765 32 356789999999999999998643 456788888886544 
+
+
+Q query           205 DGQARLRLLTDLSPEWR-H-GSELDAQFAVLDGRLLSLVAV  243 (245)
+Q Consensus       205 ~~~~~l~l~~~l~~~~~-~-G~~~~g~f~~~d~~VlTlVa~  243 (245)
+                      .|.+.+.+......... . ...+.+.+.+.+++++++|+.
+T Consensus        79 ~g~p~~~~~~~~~~~~~~~~~~~~~~sish~~~~~~a~~~~  119 (122)
+T 2WAT_F           79 KNAPAVELHGNAKKAAEEAGVTDVKVSISHDDLQAVAVAVS  119 (122)
+T ss_dssp             SSCEEEEECHHHHHHHHHTTCCEEEEEEEECSSCEEEEEEE
+T ss_pred             CCCeEEEEChhHHHHHHHcCCCEEEEEEEecCCeEEEEEEE
+Confidence            46666655433211011 1 135667788888998888765
+
+
+No 20
+>1F80_B HOLO-(ACYL CARRIER PROTEIN) SYNTHASE (E.C.2.7.8.7); 9-strand pseudo beta barrel holo-(acyl; HET: PN2; 2.3A {Bacillus subtilis} SCOP: d.150.1.2
+Probab=97.84  E-value=6.5e-08  Score=75.66  Aligned_cols=109  Identities=19%  Similarity=0.275  Sum_probs=76.3  Template_Neff=10.300
+
+Q query           127 RGLGLDVETLLEAERA----RYLHGEILTEGERLRFADDLE-RRTGLLVTLAFSLKESLFKALYPLVGKRFYFEHAELLE  201 (245)
+Q Consensus       127 ~~lGIDiE~~~~~~~~----~~i~~~i~~~~E~~~~~~~~~-~~~~~~~tliFSAKESlyKAlyP~~~~~~~F~~a~l~~  201 (245)
+                      ..||||||.+......    ..+...+|++.|+..+.. .. ..+...++.+|++|||++|+++.+++..+++..+++..
+T Consensus         2 ~~iGiDie~~~~~~~~~~~~~~~~~~~l~~~E~~~~~~-~~~~~~~~~~~~~w~~KEA~~Ka~g~g~~~~~~~~~i~~~~   80 (120)
+T 1F80_B            2 YGIGLDITELKRIASMAGRQKRFAERILTRSELDQYYE-LSEARKNEFLAGRFAAKEAFSKAFGTGIGRQLSFQDIEIRK   80 (120)
+T ss_dssp             CEEEEEEEEHHHHHHHHHHCTTHHHHHSCHHHHHHHHT-SCHHHHHHHHHHHHHHHHHHHHHHTSCSSSSCCGGGEEEEE
+T ss_pred             CceeEEEEEHHHHHHHhhchhhHHHHhCCHHHHHHHHh-cCHHHhHHHHHHHHHHHHHHHHHhCCCccCCccHHhEEEEe
+Confidence            4799999999875533    467889999999988765 32 24567889999999999999997655446788877765
+
+
+Q query           202 WRADGQARLRLLTDLSPEWRHGSELDAQFAVLDGRLLSLVAV  243 (245)
+Q Consensus       202 ~~~~~~~~l~l~~~l~~~~~~G~~~~g~f~~~d~~VlTlVa~  243 (245)
+                      .. +|...+.+....      ...+.+.+.+.+++++++++.
+T Consensus        81 ~~-~g~p~l~~~~~~------~~~~~~sish~~~~~~a~~~~  115 (120)
+T 1F80_B           81 DQ-NGKPYIICTKLS------QAAVHVSITHTKEYAAAQVVI  115 (120)
+T ss_dssp             CT-TSCEEEEETTCS------SCEEEEEEEECSSEEEEEEEE
+T ss_pred             CC-CCCEEEEECCcc------cceEEEEEEeCCCeEEEEEEE
+Confidence            44 355544432111      123445666778888887754
+
+
+No 21
+>5VBX_B Holo-[acyl-carrier-protein] synthase (E.C.2.7.8.7); Trimer, TRANSFERASE; HET: EDO; 2.05A {Escherichia coli (strain K12)}
+Probab=97.82  E-value=7.1e-08  Score=76.23  Aligned_cols=115  Identities=19%  Similarity=0.207  Sum_probs=78.5  Template_Neff=10.200
+
+Q query           127 RGLGLDVETLLEAER-----ARYLHGEILTEGERLRFADDLERRTGLLVTLAFSLKESLFKALYPLVGKRFYFEHAELLE  201 (245)
+Q Consensus       127 ~~lGIDiE~~~~~~~-----~~~i~~~i~~~~E~~~~~~~~~~~~~~~~tliFSAKESlyKAlyP~~~~~~~F~~a~l~~  201 (245)
+                      .+||||||.+.+...     ...+...++++.|+..+.. . ..+..+++..|++|||++|+++.+.+..+++.++++..
+T Consensus         4 ~~vGiDi~~~~~~~~~~~~~~~~~~~~~l~~~E~~~~~~-~-~~~~~~l~~~w~~Kea~~Ka~~~~~~~~~~~~~i~~~~   81 (126)
+T 5VBX_B            4 LGLGTDIVEIARIEAVIARSGDRLARRVLSDNEWAIWKT-H-HQPVRFLAKRFAVKEAAAKAFGTGIRNGLAFNQFEVFN   81 (126)
+T ss_dssp             EEEEEEEEEHHHHHHHHHHHTTHHHHHHSCHHHHHHHHT-C-SSHHHHHHHHHHHHHHHHHHHCCCTTC-CCGGGEEEEE
+T ss_pred             eeeEEEEEEhHHHHHHHHhhhhhHHHHhCCHHHHHHHHh-c-cChHHHHHHHHHHHHHHHHHhCCCccCCcccceEEEEe
+Confidence            579999999986432     1567789999999988765 3 24567889999999999999986655457788887765
+
+
+Q query           202 WRADGQARLRLLTDLSPEWR--HGSELDAQFAVLDGRLLSLVAVG  244 (245)
+Q Consensus       202 ~~~~~~~~l~l~~~l~~~~~--~G~~~~g~f~~~d~~VlTlVa~~  244 (245)
+                      .+ .|...+.+.......+.  ....+.+.+.+.+++++++++..
+T Consensus        82 ~~-~g~p~~~~~~~~~~~~~~~~~~~~~~sish~~~~~~a~~~~~  125 (126)
+T 5VBX_B           82 DE-LGKPRLRLWGEALKLAEKLGVANMHVTLADERHYACATVIIE  125 (126)
+T ss_dssp             CT-TSCEEEEECHHHHHHHHHHTCCEEEEEEEECSSEEEEEEEEE
+T ss_pred             CC-CCCeEEEEeHHHHHHHHHhCCCEEEEEEEcCCCeEEEEEEEe
+Confidence            43 45555554332211000  12345566777888888877643
+
+
+No 22
+>5XU7_A Holo-[acyl-carrier-protein] synthase (E.C.2.7.8.7); Gram-negative bacteria, phosphopantetheinyl transferase, homotrimer; 1.84A {Escherichia coli (strain K12)}
+Probab=97.82  E-value=7.1e-08  Score=76.23  Aligned_cols=115  Identities=19%  Similarity=0.207  Sum_probs=76.3  Template_Neff=10.200
+
+Q query           127 RGLGLDVETLLEAER-----ARYLHGEILTEGERLRFADDLERRTGLLVTLAFSLKESLFKALYPLVGKRFYFEHAELLE  201 (245)
+Q Consensus       127 ~~lGIDiE~~~~~~~-----~~~i~~~i~~~~E~~~~~~~~~~~~~~~~tliFSAKESlyKAlyP~~~~~~~F~~a~l~~  201 (245)
+                      .+||||||.+.+...     ...+...++++.|+..+.. . ..+..+++..|++|||++|+++.+.+..+++.++++..
+T Consensus         4 ~~vGiDi~~~~~~~~~~~~~~~~~~~~~l~~~E~~~~~~-~-~~~~~~l~~~w~~Kea~~Ka~~~~~~~~~~~~~i~~~~   81 (126)
+T 5XU7_A            4 LGLGTDIVEIARIEAVIARSGDRLARRVLSDNEWAIWKT-H-HQPVRFLAKRFAVKEAAAKAFGTGIRNGLAFNQFEVFN   81 (126)
+T ss_dssp             EEEEEEEEEHHHHHHHHHHHTTHHHHHHCCHHHHHHHHH-C-SSHHHHHHHHHHHHHHHHHHTTC-----CCGGGEEEEE
+T ss_pred             eeeEEEEEEhHHHHHHHHhhhhhHHHHhCCHHHHHHHHh-c-cChHHHHHHHHHHHHHHHHHhCCCccCCcccceEEEEe
+Confidence            579999999986432     1567789999999988765 3 24567889999999999999986655457788887765
+
+
+Q query           202 WRADGQARLRLLTDLSPEWR--HGSELDAQFAVLDGRLLSLVAVG  244 (245)
+Q Consensus       202 ~~~~~~~~l~l~~~l~~~~~--~G~~~~g~f~~~d~~VlTlVa~~  244 (245)
+                      .+ .|...+.+.......+.  ....+.+.+.+.+++++++++..
+T Consensus        82 ~~-~g~p~~~~~~~~~~~~~~~~~~~~~~sish~~~~~~a~~~~~  125 (126)
+T 5XU7_A           82 DE-LGKPRLRLWGEALKLAEKLGVANMHVTLADERHYACATVIIE  125 (126)
+T ss_dssp             CT-TSCEEEEECHHHHHHHHHHTCCEEEEEEEECSSEEEEEEEEE
+T ss_pred             CC-CCCeEEEEeHHHHHHHHHhCCCEEEEEEEcCCCeEEEEEEEe
+Confidence            43 45555554332211000  12345566777888888877643
+
+
+No 23
+>5XUH_B Holo-[acyl-carrier-protein] synthase (E.C.2.7.8.7); Gram-negative bacteria, phosphopantetheinyl transferase, homotrimer; HET: COA; 2.02A {Escherichia coli (strain K12)}
+Probab=97.82  E-value=7.1e-08  Score=76.20  Aligned_cols=115  Identities=18%  Similarity=0.192  Sum_probs=75.5  Template_Neff=10.200
+
+Q query           127 RGLGLDVETLLEAER-----ARYLHGEILTEGERLRFADDLERRTGLLVTLAFSLKESLFKALYPLVGKRFYFEHAELLE  201 (245)
+Q Consensus       127 ~~lGIDiE~~~~~~~-----~~~i~~~i~~~~E~~~~~~~~~~~~~~~~tliFSAKESlyKAlyP~~~~~~~F~~a~l~~  201 (245)
+                      ..||||||.+.....     ...+...+|++.|+..+.. . ..+...++..|++|||++|+++.+.+..++|.++++..
+T Consensus         4 ~~vGiDi~~~~~~~~~~~~~~~~~~~~~l~~~E~~~~~~-~-~~~~~~l~~~w~~Kea~~Ka~g~~~~~~~~~~~i~i~~   81 (126)
+T 5XUH_B            4 LGLGTAIVEIARIEAVIARSGDRLARRVLSDNEWAIWKT-H-HQPVRFLAKRFAVKEAAAKAFGTGIRNGLAFNQFEVFN   81 (126)
+T ss_dssp             EEEEEEEEEHHHHHHHHHHHTTHHHHHHCCHHHHHHHHH-C-SSHHHHHHHHHHHHHHHHHHHC-------CGGGEEEEE
+T ss_pred             eeEEEEEEEhHHHHHHHHHchhhHHHhhCCHHHHHHHHh-c-cchHHHHHHHHHHHHHHHHHHCCCccCCcccccEEEEe
+Confidence            579999999876432     2467789999999988765 3 34567789999999999999986554447788888765
+
+
+Q query           202 WRADGQARLRLLTDLSPEWR--HGSELDAQFAVLDGRLLSLVAVG  244 (245)
+Q Consensus       202 ~~~~~~~~l~l~~~l~~~~~--~G~~~~g~f~~~d~~VlTlVa~~  244 (245)
+                      .+ .|...+.+.........  ....+.+...+.+++++++|+..
+T Consensus        82 ~~-~g~p~~~~~~~~~~~~~~~~~~~~~~sish~~~~~~a~~~~~  125 (126)
+T 5XUH_B           82 DE-LGKPRLRLWGEALKLAEKLGVANMHVTLADERHYACATVIIE  125 (126)
+T ss_dssp             CT-TSCEEEEECHHHHHHHHHHTCCEEEEEEEECSSEEEEEEEEE
+T ss_pred             CC-CCCEEEEEcHHHHHHHHHhCCCEEEEEEEcCCCeEEEEEEEe
+Confidence            43 46666554432211000  12346667778899998887653
+
+
+No 24
+>5SUV_A Holo-[acyl-carrier-protein] synthase (E.C.2.7.8.7); acpS, transferase, FASII, trimer, CoA; HET: COA; 1.75A {Neisseria meningitidis FAM18}
+Probab=97.82  E-value=7.2e-08  Score=76.19  Aligned_cols=114  Identities=21%  Similarity=0.209  Sum_probs=78.2  Template_Neff=10.200
+
+Q query           127 RGLGLDVETLLEAERA-----RYLHGEILTEGERLRFADDLERRTGLLVTLAFSLKESLFKALYPLVGKRFYFEHAELLE  201 (245)
+Q Consensus       127 ~~lGIDiE~~~~~~~~-----~~i~~~i~~~~E~~~~~~~~~~~~~~~~tliFSAKESlyKAlyP~~~~~~~F~~a~l~~  201 (245)
+                      .+||||||.+......     ..+...+++++|+..+.. . ......++..|++|||++|+++.+.+...++.++++..
+T Consensus         4 ~~iGiDi~~~~~~~~~~~~~~~~~~~~~l~~~E~~~~~~-~-~~~~~~l~~~~~~Kea~~Ka~g~~~~~~~~~~~i~i~~   81 (126)
+T 5SUV_A            4 YGIGTDIVSLKRIIRLNKKFGQAFAGRILTPEELLEFPQ-A-GKPVNYLAKRFAAKEAFAKAVGTGIRGAVSFRNIGIGH   81 (126)
+T ss_dssp             EEEEEEEEEHHHHHHHHHHHTHHHHHHHSCHHHHHHGGG-C-SSHHHHHHHHHHHHHHHHHHTTSCSBTTBSGGGEEEEE
+T ss_pred             cceEEEEEEhHHHHHHHHHhchhhHHhhCCHHHHHHhhh-c-CChHHHHHHHHHHHHHHHHHhcCCccCCccccceEEEe
+Confidence            5799999999864322     467789999999988765 3 24566789999999999999996655456788887765
+
+
+Q query           202 WRADGQARLRLLTDLSPEW--RHGSELDAQFAVLDGRLLSLVAV  243 (245)
+Q Consensus       202 ~~~~~~~~l~l~~~l~~~~--~~G~~~~g~f~~~d~~VlTlVa~  243 (245)
+                      .. .|...+.........+  ..+..+.+++.+.+++++++++.
+T Consensus        82 ~~-~g~p~~~~~~~~~~~~~~~~~~~~~~sish~~~~~~a~~~~  124 (126)
+T 5SUV_A           82 DA-LGKPEFFYGPALSKWLEEQGISRVSLSMSDEEDTVLAFVVA  124 (126)
+T ss_dssp             CT-TCCEEEEECHHHHHHHHHHTCCEEEEEEEEETTEEEEEEEE
+T ss_pred             CC-CCCeEEEEcHHHHHHHHHcCCcEEEEEEECCCCEEEEEEEE
+Confidence            43 4555554432211000  01235556677888888887764
+
+
+No 25
+>3HYK_A Holo-[acyl-carrier-protein] synthase (E.C.2.7.8.7); Holo-(Acyl-Carrier-Protein) Synthase, Structural Genomics, Infectious; HET: A3P; 2.31A {Bacillus anthracis}
+Probab=97.81  E-value=7.5e-08  Score=75.65  Aligned_cols=107  Identities=25%  Similarity=0.232  Sum_probs=75.4  Template_Neff=10.200
+
+Q query           127 RGLGLDVETLLEAER----ARYLHGEILTEGERLRFADDLE-RRTGLLVTLAFSLKESLFKALYPLVGKRFYFEHAELLE  201 (245)
+Q Consensus       127 ~~lGIDiE~~~~~~~----~~~i~~~i~~~~E~~~~~~~~~-~~~~~~~tliFSAKESlyKAlyP~~~~~~~F~~a~l~~  201 (245)
+                      ..||||||.+.+...    ...+...+|+++|+..+.. .. ..+...++..|++|||++|+++.+.+..+++.++++..
+T Consensus         6 ~~iGiDie~~~~~~~~~~~~~~~~~~~l~~~E~~~~~~-~~~~~~~~~l~~~w~~KEa~~K~~g~~~~~~~~~~~i~i~~   84 (122)
+T 3HYK_A            6 VGIGIDIIELNRIEKMLDGKLKFMERILTENERNVAKG-LKGSRLTEFVAGRFAAKEAYSKAVGTGIGKEVSFLDIEVRN   84 (122)
+T ss_dssp             EEEEEEEEEHHHHHHHHC---CHHHHHSCHHHHHHHTT-CCTHHHHHHHHHHHHHHHHHHHHHTSCSSSSCCGGGCEEEE
+T ss_pred             eEEEEEEEEHHHHHHHHhcchhHHHHhCCHHHHHHHhc-CCcchHHHHHHHHHHHHHHHHHHhcCCCCCCccceeEEEEe
+Confidence            689999999986432    2567789999999987765 32 24567889999999999999997766667778777764
+
+
+Q query           202 WRADGQARLRLLTDLSPEWRHGSELDAQFAVLDGRLLSLVAV  243 (245)
+Q Consensus       202 ~~~~~~~~l~l~~~l~~~~~~G~~~~g~f~~~d~~VlTlVa~  243 (245)
+                      .. .|...+....        ...+.+++.+.+++++++|..
+T Consensus        85 ~~-~g~p~~~~~~--------~~~~~~sish~~~~~~a~~~~  117 (122)
+T 3HYK_A           85 DD-RGKPILITST--------EHIVHLSISHSKEFAVAQVVL  117 (122)
+T ss_dssp             CT-TSCEEEECSC--------SSEEEEEEEECSSEEEEEEEE
+T ss_pred             CC-CCCEEEEecC--------CCeEEEEEEeCCCEEEEEEEE
+Confidence            33 3544443321        123446677788898888754
+
+
+No 26
+>1FTF_A ACYL CARRIER PROTEIN SYNTHASE (E.C.2.7.8.7); Bacterial fatty acid biosynthesis, Acyl; 2.05A {Streptococcus pneumoniae} SCOP: d.150.1.2
+Probab=97.74  E-value=1.3e-07  Score=74.80  Aligned_cols=107  Identities=24%  Similarity=0.249  Sum_probs=76.8  Template_Neff=9.900
+
+Q query           127 RGLGLDVETLLEAER----ARYLHGEILTEGERLRFADDLE-RRTGLLVTLAFSLKESLFKALYPLVGKRFYFEHAELLE  201 (245)
+Q Consensus       127 ~~lGIDiE~~~~~~~----~~~i~~~i~~~~E~~~~~~~~~-~~~~~~~tliFSAKESlyKAlyP~~~~~~~F~~a~l~~  201 (245)
+                      ..||||||.+.....    ...+..+++++.|+..+.. .. ......++.+|++|||++|+++.+.+. ++++++++..
+T Consensus         5 ~~iGvDie~~~~~~~~~~~~~~~~~~~l~~~E~~~~~~-~~~~~~~~~l~~~w~~KEA~~Ka~g~~~~~-~~~~~i~i~~   82 (122)
+T 1FTF_A            5 VGHGIDIEELASIESAVTRHEGFAKRVLTALEMERFTS-LKGRRQIEYLAGRWSAKEAFSKAMGTGISK-LGFQDLEVLN   82 (122)
+T ss_dssp             EEEEEEEEEHHHHHHHHHHCTHHHHHHSCHHHHHHHHH-CCHHHHHHHHHHHHHHHHHHHHHTTSCHHH-HCGGGCEEEE
+T ss_pred             eeeEEEEEeHHHHHHHHhcChhHHHHhCCHHHHHHHHh-ccchHhHHHHHHHHHHHHHHHHHhCCCccc-CCcceEEEEe
+Confidence            579999999986542    2567889999999988765 32 245667899999999999999865443 6788887765
+
+
+Q query           202 WRADGQARLRLLTDLSPEWRHGSELDAQFAVLDGRLLSLVAV  243 (245)
+Q Consensus       202 ~~~~~~~~l~l~~~l~~~~~~G~~~~g~f~~~d~~VlTlVa~  243 (245)
+                      .+ .|...+.+..+       +..+.+++.+.+++++++++.
+T Consensus        83 ~~-~g~p~~~~~~~-------~~~~~~s~sh~~~~~~a~~~~  116 (122)
+T 1FTF_A           83 NE-RGAPYFSQAPF-------SGKIWLSISHTDQFVTASVIL  116 (122)
+T ss_dssp             CT-TSCEEEEECSC-------SSEEEEEEEECSSEEEEEEEE
+T ss_pred             CC-CCCeEEEecCC-------CCeEEEEEEecCCEEEEEEEE
+Confidence            43 35555443321       234666778888888887754
+
+
+No 27
+>1FTH_B ACYL CARRIER PROTEIN SYNTHASE (E.C.2.7.8.7); Bacterial fatty acid biosynthesis, Acyl; HET: A3P; 1.9A {Streptococcus pneumoniae} SCOP: d.150.1.2
+Probab=97.74  E-value=1.3e-07  Score=74.80  Aligned_cols=107  Identities=24%  Similarity=0.249  Sum_probs=76.8  Template_Neff=9.900
+
+Q query           127 RGLGLDVETLLEAER----ARYLHGEILTEGERLRFADDLE-RRTGLLVTLAFSLKESLFKALYPLVGKRFYFEHAELLE  201 (245)
+Q Consensus       127 ~~lGIDiE~~~~~~~----~~~i~~~i~~~~E~~~~~~~~~-~~~~~~~tliFSAKESlyKAlyP~~~~~~~F~~a~l~~  201 (245)
+                      ..||||||.+.....    ...+..+++++.|+..+.. .. ......++.+|++|||++|+++.+.+. ++++++++..
+T Consensus         5 ~~iGvDie~~~~~~~~~~~~~~~~~~~l~~~E~~~~~~-~~~~~~~~~l~~~w~~KEA~~Ka~g~~~~~-~~~~~i~i~~   82 (122)
+T 1FTH_B            5 VGHGIDIEELASIESAVTRHEGFAKRVLTALEMERFTS-LKGRRQIEYLAGRWSAKEAFSKAMGTGISK-LGFQDLEVLN   82 (122)
+T ss_dssp             EEEEEEEEEHHHHHHHHHTCSSHHHHHSCHHHHHHHTT-CCHHHHHHHHHHHHHHHHHHHHHTTSCHHH-HCGGGCEEEE
+T ss_pred             eeeEEEEEeHHHHHHHHhcChhHHHHhCCHHHHHHHHh-ccchHhHHHHHHHHHHHHHHHHHhCCCccc-CCcceEEEEe
+Confidence            579999999986542    2567889999999988765 32 245667899999999999999865443 6788887765
+
+
+Q query           202 WRADGQARLRLLTDLSPEWRHGSELDAQFAVLDGRLLSLVAV  243 (245)
+Q Consensus       202 ~~~~~~~~l~l~~~l~~~~~~G~~~~g~f~~~d~~VlTlVa~  243 (245)
+                      .+ .|...+.+..+       +..+.+++.+.+++++++++.
+T Consensus        83 ~~-~g~p~~~~~~~-------~~~~~~s~sh~~~~~~a~~~~  116 (122)
+T 1FTH_B           83 NE-RGAPYFSQAPF-------SGKIWLSISHTDQFVTASVIL  116 (122)
+T ss_dssp             CT-TSCEEEEECSC-------SSEEEEEEEECSSEEEEEEEE
+T ss_pred             CC-CCCeEEEecCC-------CCeEEEEEEecCCEEEEEEEE
+Confidence            43 35555443321       234666778888888887754
+
+
+No 28
+>5XUK_A Holo-[acyl-carrier-protein] synthase (E.C.2.7.8.7); Gram-negative bacteria, phosphopantetheinyl transferase, homotrimer; HET: COA; 2.3A {Helicobacter pylori (strain ATCC 700392 / 26695)}
+Probab=97.64  E-value=2.5e-07  Score=73.15  Aligned_cols=109  Identities=20%  Similarity=0.229  Sum_probs=75.4  Template_Neff=9.700
+
+Q query           128 GLGLDVETLLEAER-----ARYLHGEILTEGERLRFADDLERRTGLLVTLAFSLKESLFKALYPLVGKRFYFEHAELLEW  202 (245)
+Q Consensus       128 ~lGIDiE~~~~~~~-----~~~i~~~i~~~~E~~~~~~~~~~~~~~~~tliFSAKESlyKAlyP~~~~~~~F~~a~l~~~  202 (245)
+                      +||||||.+.+...     ...+...+|+++|+..+..     ....++.+|++|||++|+++.+++..++|.++.+...
+T Consensus         1 ~vGiDie~~~~~~~~~~~~~~~~~~~~l~~~E~~~l~~-----~~~~l~~~w~~KEa~~Ka~g~~~~~~~~~~~i~~~~~   75 (119)
+T 5XUK_A            1 MIGIDIVSIARIEKCVKRFKMKFLERFLSPSEIVLCKD-----KSSSIAGFFALKEACSKALQVGIGKELSFLDIKISKS   75 (119)
+T ss_dssp             CEEEEEEEHHHHHHHTTSTTHHHHHHHCCHHHHHHHTT-----CHHHHHHHHHHHHHHHHHTTSCSSSSSCGGGEEEEEC
+T ss_pred             CceeEEEehHHHHHHHHHhhhhHHHhhCCHHHHHHhcc-----HHHHHHHHHHHHHHHHHHhhccCCCCCCcceEEEEeC
+Confidence            48999999986432     1567788999999887753     3567899999999999999976655578888887654
+
+
+Q query           203 RADGQARLRLLTDLSPEWRHGSELDAQFAVLDGRLLSLVAV  243 (245)
+Q Consensus       203 ~~~~~~~l~l~~~l~~~~~~G~~~~g~f~~~d~~VlTlVa~  243 (245)
+                      . .|...+.+.....+ ......+.+.+.+.+++++++|+.
+T Consensus        76 ~-~g~p~l~~~~~~~~-~~~~~~~~~sish~~~~~~a~~~~  114 (119)
+T 5XUK_A           76 P-KNAPLITLSKEKMD-YFNIQSLSASISHDAGFAIAVVVV  114 (119)
+T ss_dssp             T-TCCEEEEECHHHHH-HTTCSCEEEEEEEETTEEEEEEEE
+T ss_pred             C-CCCcEEEECHHHHH-HcCCcEEEEEEEecCCEEEEEEEE
+Confidence            3 35555544322110 011234556777788999888764
+
+
+No 29
+>3NFD_E Phosphopantetheine protein transferase, Ppt1p; acyl carrier protein synthase, Mycobacterium; HET: COA; 1.89A {Corynebacterium ammoniagenes}
+Probab=97.61  E-value=3.1e-07  Score=77.71  Aligned_cols=117  Identities=15%  Similarity=0.103  Sum_probs=78.8  Template_Neff=7.800
+
+Q query           126 WRGLGLDVETLLEAERA----RYLHGEILTEGERLRFADDLE------------RRTGLLVTLAFSLKESLFKALYPLVG  189 (245)
+Q Consensus       126 ~~~lGIDiE~~~~~~~~----~~i~~~i~~~~E~~~~~~~~~------------~~~~~~~tliFSAKESlyKAlyP~~~  189 (245)
+                      ...||||||.+......    .+.+.++|++.|+..+.. ..            ......++..|++|||++||++.+..
+T Consensus         7 ~~~vGvDI~~~~~~~~~~~~~~~~~~~~ls~~E~~~~~~-~~~~~~~~~~~~~~~~~~~~la~rwa~KEA~~Ka~g~g~~   85 (153)
+T 3NFD_E            7 AMTVGVDLVHIPGFAEQLSRPGSTFEQVFSPLERRHAQT-RRSAAADATNSSLAGSRTEHLAGRWAAKEAFIKAWSQAIY   85 (153)
+T ss_dssp             EEEEEEEEEEHHHHHHHHHSTTCCGGGGSCHHHHHHHHH-CC-----------CCSSHHHHHHHHHHHHHHHHHHHHHTT
+T ss_pred             cceeEeEEEEChhHHHHHcCCcchHHHHcCHHHHHHHHh-chhhhcccccccccccHHHHHHHHHHHHHHHHHHHhchhc
+Confidence            46899999999875421    133489999999987754 21            23567889999999999999996543
+
+
+Q query           190 K--------RFYFEHAELLEWRADGQARLRLLTDLSPEW---RHGSELDAQFAVLDGRLLSLVAVG  244 (245)
+Q Consensus       190 ~--------~~~F~~a~l~~~~~~~~~~l~l~~~l~~~~---~~G~~~~g~f~~~d~~VlTlVa~~  244 (245)
+                      .        .++|+++++.... .|...+.+........   .....+.+...+.+++++++|+..
+T Consensus        86 ~~~~~~~~~~~~~~~i~v~~~~-~gkp~l~~~~~~~~~~~~~~~~~~~~vsish~~~~a~a~~~~~  150 (153)
+T 3NFD_E           86 GKPPVIEPDLVNFAEIEVLPDR-WGRVALQLKGEVAAKLQESIGDVELALSISHDGDYATALCLLR  150 (153)
+T ss_dssp             TSCCSSCGGGCCGGGEEEEECT-TSCEEEEECHHHHHHHHHHHCSEEEEEEEEEETTEEEEEEEEE
+T ss_pred             CCCCCCCcccCCHhheEEEeCC-CCCEEEEEeHHHHHHHHHhhCCcEEEEEEecccCeEEEEEEEE
+Confidence            2        3678888876544 4666666543221100   012356667778888998887643
+
+
+No 30
+>4HC6_A Holo-[acyl-carrier-protein] synthase (E.C.2.7.8.7); Structural Genomics, Protein Structure Initiative; 1.8A {Mycobacterium tuberculosis H37Rv}
+Probab=97.58  E-value=3.6e-07  Score=73.61  Aligned_cols=113  Identities=16%  Similarity=0.173  Sum_probs=76.2  Template_Neff=9.400
+
+Q query           127 RGLGLDVETLLEAERA-----RYLHGEILTEGERLRFADDLERRTGLLVTLAFSLKESLFKALYPLVGK------RFYFE  195 (245)
+Q Consensus       127 ~~lGIDiE~~~~~~~~-----~~i~~~i~~~~E~~~~~~~~~~~~~~~~tliFSAKESlyKAlyP~~~~------~~~F~  195 (245)
+                      ..||||||.+......     ..+. .+|+++|+..+.+ ........++..|++|||++|+++.+...      .++|.
+T Consensus         3 ~~vGiDi~~~~~~~~~~~~~~~~~~-~~l~~~E~~~~~~-~~~~~~~~l~~~w~~KEA~~Ka~g~~~~~~~~~~~~~~~~   80 (129)
+T 4HC6_A            3 VGVGIDLVSIPDFAEQVDQPGTVFA-ETFTPGERRDASD-KSSSAARHLAARWAAKEAVIKAWSGSRFAQRPVLPADIHR   80 (129)
+T ss_dssp             EEEEEEEEEHHHHHHHHTSSSSGGG-GTSCHHHHHHHTS-TTSHHHHHHHHHHHHHHHHHHHHHHTTTTSCCCCCTTGGG
+T ss_pred             cceeEEEEEChhHHHHHhCCcchHH-HHCCHHHHHHHhc-cchhHHHHHHHHHHHHHHHHHHhcCccccCCCCCCCCCcc
+Confidence            5799999999864422     4567 8999999988765 32245678899999999999999854331      15788
+
+
+Q query           196 HAELLEWRADGQARLRLLTDLSPEWRHGSELDAQFAVLDGRLLSLVAV  243 (245)
+Q Consensus       196 ~a~l~~~~~~~~~~l~l~~~l~~~~~~G~~~~g~f~~~d~~VlTlVa~  243 (245)
+                      ++++.... .|...+.+........ ....+.+++.+.+++++++|+.
+T Consensus        81 ~i~i~~~~-~g~p~l~~~~~~~~~~-~~~~~~~sish~~~~~~a~~~~  126 (129)
+T 4HC6_A           81 DIEVVTDM-WGRPRVRLTGAIAEYL-ADVTIHVSLTHEGDTAAAVAIL  126 (129)
+T ss_dssp             GEEEEECT-TCCEEEEECTHHHHHT-TTCEEEEEEEEETTEEEEEEEE
+T ss_pred             eEEEEeCC-CCCEEEEEchHHHHHh-cCcEEEEEEecccCeEEEEEEE
+Confidence            88876543 4666555443221000 1234556777888888887764
+
+
+No 31
+>2BDD_A ACP-synthase; ACP synthase, Structural Genomics, Structural; 2.28A {Plasmodium yoelii yoelii}
+Probab=97.56  E-value=4.1e-07  Score=79.37  Aligned_cols=116  Identities=12%  Similarity=0.075  Sum_probs=78.4  Template_Neff=7.400
+
+Q query           125 DWRGLGLDVETLLEAERA----RYLHGEILTEGERLRFADDLE-------------RRTGLLVTLAFSLKESLFKALYPL  187 (245)
+Q Consensus       125 ~~~~lGIDiE~~~~~~~~----~~i~~~i~~~~E~~~~~~~~~-------------~~~~~~~tliFSAKESlyKAlyP~  187 (245)
+                      ....||||||.+.+....    ..+..++|+++|+..+.. ..             .....+++..|++|||++|++++.
+T Consensus        23 ~~~~IGIDI~~i~r~~~~l~~~~~~~~~ilt~~E~~~~~~-~~~~~~~~~~~~~~~~~~~~~LagrwaaKEAv~KAlg~~  101 (182)
+T 2BDD_A           23 HIIGIGTDILCVNRIYKILEKNINFIKKVLNPFELAEFET-QKKKLNEKINKSNELKKLAIYVSKKFAAKEAILKSMGRG  101 (182)
+T ss_pred             CcceEEEEEEEcHHHHHHHhCChhHHHHHCCHHHHHHHHc-CCCCccccccCCCChHHHHHHHHHHHHHHHHHHHHHCCC
+Confidence            347899999999864421    467789999999987754 21             134567899999999999999865
+
+
+Q query           188 VG----KRFYFEHAELLEWRADGQARLRLLTDLSPEW-RH-GSELDAQFAVLDGRLLSLVA  242 (245)
+Q Consensus       188 ~~----~~~~F~~a~l~~~~~~~~~~l~l~~~l~~~~-~~-G~~~~g~f~~~d~~VlTlVa  242 (245)
+                      .+    ..++|.+++|.... .|...+.+........ .. ...+.+...+.+++++.++.
+T Consensus       102 ~~~~~~~~~~~~dI~i~~~~-~G~P~v~l~~~~~~~~~~~g~~~~~vSISH~~~~~~a~~~  161 (182)
+T 2BDD_A          102 LSSISKYGLSMNDIEIKNDK-YGKPHVYLYGKAKKVAYEMGIVKIFLSISDEKIINSQTNN  161 (182)
+T ss_pred             CCCCCCCCCCCccEEEEECC-CCCEEEEEchhHHHHHHHhCCCEEEEEEEecCCeEEEEEe
+Confidence            43    34788888876543 4666666654322100 01 13466677777888876554
+
+
+No 32
+>1F7L_A HOLO-(ACYL CARRIER PROTEIN) SYNTHASE (E.C.2.7.8.7); 9-strand pseudo beta barrel protein; HET: COA; 1.5A {Bacillus subtilis} SCOP: d.150.1.2
+Probab=97.48  E-value=6.7e-07  Score=70.20  Aligned_cols=109  Identities=19%  Similarity=0.289  Sum_probs=77.0  Template_Neff=10.200
+
+Q query           127 RGLGLDVETLLEAERA----RYLHGEILTEGERLRFADDLE-RRTGLLVTLAFSLKESLFKALYPLVGKRFYFEHAELLE  201 (245)
+Q Consensus       127 ~~lGIDiE~~~~~~~~----~~i~~~i~~~~E~~~~~~~~~-~~~~~~~tliFSAKESlyKAlyP~~~~~~~F~~a~l~~  201 (245)
+                      ..||||||.+.+....    ..+...+|++.|+..+.. .. ..+..+++..|++|||+.|+++.+.+..+++.++++..
+T Consensus         3 ~~vGiDie~~~~~~~~~~~~~~~~~~~ls~~E~~~~~~-~~~~~~~~~l~~~~~~Kea~~k~~g~~~~~~~~~~~i~i~~   81 (121)
+T 1F7L_A            3 YGIGLDITELKRIASMAGRQKRFAERILTRSELDQYYE-LSEKRKNEFLAGRFAAKEAFSKAFGTGIGRQLSFQDIEIRK   81 (121)
+T ss_dssp             EEEEEEEEEHHHHHHHHHHCTTHHHHHCCHHHHHHHTT-SCHHHHHHHHHHHHHHHHHHHHHHTSCSBTTBCGGGCEEEE
+T ss_pred             ceEEEEEEEHHHHHHHHhchHhHHHHhCCHHHHHHHHh-cCHHHhHHHHHHHHHHHHHHHHHhcCCcccCCChhhEEEEe
+Confidence            5799999999865432    567889999999987765 32 24567889999999999999997666567788777765
+
+
+Q query           202 WRADGQARLRLLTDLSPEWRHGSELDAQFAVLDGRLLSLVAV  243 (245)
+Q Consensus       202 ~~~~~~~~l~l~~~l~~~~~~G~~~~g~f~~~d~~VlTlVa~  243 (245)
+                      .+ .|...+.....      ....+.+...+.+++++++|+.
+T Consensus        82 ~~-~g~p~~~~~~~------~~~~~~~sish~~~~~~a~~~~  116 (121)
+T 1F7L_A           82 DQ-NGKPYIICTKL------SPAAVHVSITHTKEYAAAQVVI  116 (121)
+T ss_dssp             CT-TSCEEEEETTT------EEEEEEEEEEECSSEEEEEEEE
+T ss_pred             CC-CCCEEEEEcCC------CCceEEEEEEeCCCeEEEEEEE
+Confidence            44 35555443211      1123446667778888887754
+
+
+No 33
+>2JBZ_A HOLO-[ACYL-CARRIER-PROTEIN] SYNTHASE (E.C.2.7.8.7); ACP, MAGNESIUM, COENZYME A, TRANSFERASE; HET: COA; 1.62A {STREPTOMYCES COELICOLOR}
+Probab=97.45  E-value=8.2e-07  Score=73.36  Aligned_cols=127  Identities=21%  Similarity=0.193  Sum_probs=79.4  Template_Neff=8.900
+
+Q query           111 HGDRWAAALVAARGDWRGLGLDVETLLEAER----ARYLHGEILTEGERLRFADDLERRTGLLVTLAFSLKESLFKALYP  186 (245)
+Q Consensus       111 Hs~~~a~A~va~~~~~~~lGIDiE~~~~~~~----~~~i~~~i~~~~E~~~~~~~~~~~~~~~~tliFSAKESlyKAlyP  186 (245)
+                      |+.+++-...+.  ....||||||.+.....    ...+..++|++.|+..+.. . ......++.+|++|||++|+++.
+T Consensus        10 ~~~~~~~~~~~~--~~~~iGIDie~~~~~~~~~~~~~~~~~~~l~~~E~~~~~~-~-~~~~~~l~~~w~~KEA~~Ka~g~   85 (143)
+T 2JBZ_A           10 HSSGLVPRGSHM--SIIGVGIDVAEVERFGAALERTPALAGRLFLESELLLPGG-E-RRGVASLAARFAAKEALAKALGA   85 (143)
+T ss_dssp             ----------CC--CEEEEEEEEEEHHHHHHHHHHCTTHHHHHCCGGGGBCTTS-S-BCCHHHHHHHHHHHHHHHHHTTC
+T ss_pred             cCCCCccCCCcC--ceeeEEEEEEEhhHHHHHHhcChhHHHHhCCHHHHhccCc-c-hhHHHHHHHHHHHHHHHHHHhCC
+Confidence            455555433332  34789999999986432    2567889999999988765 3 24567899999999999999985
+
+
+Q query           187 LVGKRFYFEHAELLEWRADGQARLRLLTDLSP--EWRHGSELDAQFAVLDGRLLSLVAVG  244 (245)
+Q Consensus       187 ~~~~~~~F~~a~l~~~~~~~~~~l~l~~~l~~--~~~~G~~~~g~f~~~d~~VlTlVa~~  244 (245)
+                      +  ...++.++++...+ .|...+........  .-.....+.+.+.+.+++++++|+..
+T Consensus        86 ~--~~~~~~~i~i~~~~-~g~p~l~~~~~~~~~~~~~~~~~~~~sish~~~~~~a~~~~~  142 (143)
+T 2JBZ_A           86 P--AGLLWTDAEVWVEA-GGRPRLRVTGTVAARAAELGVASWHVSLSHDAGIASAVVIAE  142 (143)
+T ss_dssp             C--TTCCGGGEEEEECT-TSCEEEEECHHHHHHHHHHTCCEEEEEEEEETTEEEEEEEEE
+T ss_pred             C--CCCChhhEEEEeCC-CCCEEEEEechHHHHHHHhCCcEEEEEEEecCCEEEEEEEEe
+Confidence            3  35678888876544 35555554332210  00012345566777899998887653
+
+
+No 34
+>1FTH_A ACYL CARRIER PROTEIN SYNTHASE (E.C.2.7.8.7); Bacterial fatty acid biosynthesis, Acyl; HET: A3P; 1.9A {Streptococcus pneumoniae} SCOP: d.150.1.2
+Probab=97.34  E-value=1.5e-06  Score=68.74  Aligned_cols=107  Identities=23%  Similarity=0.247  Sum_probs=74.9  Template_Neff=9.900
+
+Q query           127 RGLGLDVETLLEAER----ARYLHGEILTEGERLRFADDLE-RRTGLLVTLAFSLKESLFKALYPLVGKRFYFEHAELLE  201 (245)
+Q Consensus       127 ~~lGIDiE~~~~~~~----~~~i~~~i~~~~E~~~~~~~~~-~~~~~~~tliFSAKESlyKAlyP~~~~~~~F~~a~l~~  201 (245)
+                      ..||||||.+.....    ...+..++++++|+..+.. .. ......++..|++|||++|+++.+.. .++++.+++..
+T Consensus         5 ~~iGiDie~~~~~~~~~~~~~~~~~~~l~~~E~~~~~~-~~~~~~~~~~~~~w~~KEa~~Ka~g~~l~-~~~~~~~~i~~   82 (122)
+T 1FTH_A            5 VGHGIDIEELASIESAVTRHEGFAKRVLTALEMERFTS-LKGRRQIEYLAGRWSAKEAFSKAMGTGIS-KLGFQDLEVLN   82 (122)
+T ss_dssp             EEEEEEEEEHHHHHHHHHTTSSHHHHHSCHHHHHHHHH-CCHHHHHHHHHHHHHHHHHHHHHHTSCSS-SSCGGGCEEEE
+T ss_pred             eeEEEEEEEcHHHHHHHhcCchHHHHhCCHHHHHHHHh-cCchHHHHHHHHHHHHHHHHHHHhCCCcc-CCCccceEEEe
+Confidence            579999999986432    2567789999999988765 32 24577889999999999999985443 25778777765
+
+
+Q query           202 WRADGQARLRLLTDLSPEWRHGSELDAQFAVLDGRLLSLVAV  243 (245)
+Q Consensus       202 ~~~~~~~~l~l~~~l~~~~~~G~~~~g~f~~~d~~VlTlVa~  243 (245)
+                      .. .+.+.+....+       ...+.+...+.+++++++++.
+T Consensus        83 ~~-~g~p~~~~~~~-------~~~~~isish~~~~~~a~~~~  116 (122)
+T 1FTH_A           83 NE-RGAPYFSQAPF-------SGKIWLSISHTDQFVTASVIL  116 (122)
+T ss_dssp             CT-TSCEEEEECSC-------CSEEEEEEEECSSEEEEEEEE
+T ss_pred             CC-CCCeEEEeCCC-------CceEEEEEEecCCeEEEEEEE
+Confidence            44 35554433211       134566777788888877653
+
+
+No 35
+>5CXD_B Holo-[acyl-carrier-protein] synthase (E.C.2.7.8.7); acyl-carrier-protein synthase, AcpS, FAS II; HET: CL, PEG; 1.75A {Staphylococcus aureus (strain COL)}
+Probab=97.23  E-value=2.8e-06  Score=66.56  Aligned_cols=107  Identities=21%  Similarity=0.284  Sum_probs=73.9  Template_Neff=10.400
+
+Q query           126 WRGLGLDVETLLEAERA----RYLHGEILTEGERLRFADDLE--RRTGLLVTLAFSLKESLFKALYPLVGKRFYFEHAEL  199 (245)
+Q Consensus       126 ~~~lGIDiE~~~~~~~~----~~i~~~i~~~~E~~~~~~~~~--~~~~~~~tliFSAKESlyKAlyP~~~~~~~F~~a~l  199 (245)
+                      ..+||||||.+......    ..+...+|++.|+..+.+ ..  .....+++.+|++|||++|+++.+.+..++++.+++
+T Consensus         5 ~~~vGvDie~~~~~~~~~~~~~~~~~~~l~~~E~~~~~~-~~~~~~~~~~l~~~w~~KEa~~K~~g~~~~~~~~~~~~~i   83 (122)
+T 5CXD_B            5 IHGIGVDLIEIDRIQALYSKQPKLVERILTKNEQHKFNN-FTHEQRKIEFLAGRFATKEAFSKALGTGLGKHVAFNDIDC   83 (122)
+T ss_dssp             EEEEEEEEEEHHHHHHHHHHCHHHHHTTSCHHHHHHHHT-CCCHHHHHHHHHHHHHHHHHHHHHHCHHHHHTCCGGGCCC
+T ss_pred             ceeEEEEEEEHHHHHHHHhcChhHHHHhCCHHHHHHHhc-CCCchHHHHHHHHHHHHHHHHHHHhCCCCCCCCcHhhEEE
+Confidence            46899999999864322    567888999999988765 32  234567779999999999999866554466777777
+
+
+Q query           200 LEWRADGQARLRLLTDLSPEWRHGSELDAQFAVLDGRLLSLVAV  243 (245)
+Q Consensus       200 ~~~~~~~~~~l~l~~~l~~~~~~G~~~~g~f~~~d~~VlTlVa~  243 (245)
+                      .... .|...+...         +..+.+.+.+.+++++++|+.
+T Consensus        84 ~~~~-~g~p~~~~~---------~~~~~~sish~~~~~~a~~~~  117 (122)
+T 5CXD_B           84 YNDE-LGKPKIDYE---------GFIVHVSISHTEHYAMSQVVL  117 (122)
+T ss_dssp             EECT-TSCEECCCT---------TSEEEEEEEECSSEEEEEEEE
+T ss_pred             EeCC-CCCeEEEeC---------CceEEEEEEecCCEEEEEEEE
+Confidence            5433 344433221         123445677778888887764
+
+
+No 36
+>2QG8_A Acyl Carrier Protein Synthase PY06285; malaria, acyl carrier protein synthase; HET: A3P; 2.0A {Plasmodium yoelii yoelii}
+Probab=97.23  E-value=2.9e-06  Score=72.42  Aligned_cols=114  Identities=12%  Similarity=0.076  Sum_probs=71.9  Template_Neff=8.100
+
+Q query           126 WRGLGLDVETLLEAERA----RYLHGEILTEGERLRFADDLE-------------RRTGLLVTLAFSLKESLFKALYPLV  188 (245)
+Q Consensus       126 ~~~lGIDiE~~~~~~~~----~~i~~~i~~~~E~~~~~~~~~-------------~~~~~~~tliFSAKESlyKAlyP~~  188 (245)
+                      ...||||||.+.+....    ..+..++|++.|++.+.. ..             .....+++..|++|||++|++++..
+T Consensus         5 ~~~IGvDI~~i~r~~~~~~~~~~~~~~~lt~~E~~~~~~-~~~~~~~~~~~~~~~~~~~~~la~rwaaKEA~~Kal~~~~   83 (163)
+T 2QG8_A            5 IIGIGTDILCVNRIYKILEKNINFIKKVLNPFELAEFET-QKKKLNEKINKSNELKKLAIYVSKKFAAKEAILKSMGRGL   83 (163)
+T ss_dssp             EEEEEEEEEEHHHHHHHHHHCGGGHHHHSCHHHHHHHHH-TC-------CHHHHHHHHHHHHHHHHHHHHHHHHHTTCCB
+T ss_pred             ceeeEEEEEEhHHHHHHHHccchHHHHhCCHHHHHHHHH-HHHHhchhcccchhHHHHHHHHHHHHHHHHHHHHHhcccc
+Confidence            36899999999874321    467789999999987754 21             2346678999999999999998643
+
+
+Q query           189 G----KRFYFEHAELLEWRADGQARLRLLTDLSPEW-RH-GSELDAQFAVLDGRLLSLV  241 (245)
+Q Consensus       189 ~----~~~~F~~a~l~~~~~~~~~~l~l~~~l~~~~-~~-G~~~~g~f~~~d~~VlTlV  241 (245)
+                      +    ..++|.++++.... .|...+.+........ .. ...+.+...+.++++++++
+T Consensus        84 ~~~~~~~~~~~~I~i~~~~-~GkP~l~~~~~~~~~~~~~~~~~~~vSISH~~~~~va~~  141 (163)
+T 2QG8_A           84 SSISKYGLSMNDIEIKNDK-YGKPHVYLYGKAKKVAYEMGIVKIFLSISDEKIINSQTN  141 (163)
+T ss_dssp             C-----CBCGGGEEEEECT-TSCEEEEECHHHHHHHHHTTCCEEEEEEEEEEC------
+T ss_pred             chhcccCCChhhEEEEeCC-CCCeEEEEehhHHHHHHHcCCcEEEEEEEcCCceeEEEE
+Confidence            2    23688888876543 4666666543321100 01 1346667777788777655
+
+
+No 37
+>5XUM_A Holo-[acyl-carrier-protein] synthase (E.C.2.7.8.7); Gram-negative bacteria, phosphopantetheinyl transferase, homotrimer; 2.1A {Thermotoga maritima (strain ATCC 43589 / MSB8 / DSM 3109 / JCM 10099)}
+Probab=97.21  E-value=3.2e-06  Score=72.30  Aligned_cols=104  Identities=26%  Similarity=0.329  Sum_probs=72.5  Template_Neff=8.400
+
+Q query           127 RGLGLDVETLLEAERARYLHGEILTEGERLRFADDLERRTGLLVTLAFSLKESLFKALYPLVGKRFYFEHAELLEWRADG  206 (245)
+Q Consensus       127 ~~lGIDiE~~~~~~~~~~i~~~i~~~~E~~~~~~~~~~~~~~~~tliFSAKESlyKAlyP~~~~~~~F~~a~l~~~~~~~  206 (245)
+                      ..||||||.+....  ..+..++|++.|+..+.. . ..+..+++.+|++|||++|+++.+.+ .++|+++++.. + .+
+T Consensus         3 ~~vGIDIe~i~~~~--~~~~~~~ls~~E~~~l~~-~-~~~~~~~~~~Wt~KEA~~Ka~g~gl~-~~~~~~i~i~~-~-~g   75 (169)
+T 5XUM_A            3 VGVGIDVLEVERVP--EKFAERILGESEKRLFLT-R-KRRREFIAGRFALKEAFFKALGTGLN-GHSFTDVEFLE-S-NG   75 (169)
+T ss_dssp             EEEEEEEEEGGGSC--GGGHHHHCCHHHHHHHHH-C-SCHHHHHHHHHHHHHHHHHHHSSCSS-SCCGGGEEEEE-E-TT
+T ss_pred             cCeEeeEEEcCCCC--hHHHHhhCCHHHHHHHHc-c-hhHHHHHHHHHHHHHHHHHHhCcCcC-CCCcceEEEEc-C-CC
+Confidence            47999999998765  678899999999988765 3 34677899999999999999986543 36788888765 3 45
+
+
+Q query           207 QARLRLLTDLSPEWRHGSELDAQFAVLDGRLLSLVA  242 (245)
+Q Consensus       207 ~~~l~l~~~l~~~~~~G~~~~g~f~~~d~~VlTlVa  242 (245)
+                      ...+.+.....    ....+.+.+.+.+ +++++|+
+T Consensus        76 ~p~l~~~~~~~----~~~~~~vsish~~-y~~Av~~  106 (169)
+T 5XUM_A           76 KPVLCVHKDFG----FFNYAHVSLSHDR-FAVALVV  106 (169)
+T ss_dssp             EEEEEESSCCC----SCCEEEEEEEESS-EEEEEEE
+T ss_pred             CeEEEEccCCC----ceeeEEEEEcCCC-eEEEEEE
+Confidence            55555433211    1123345555544 7766654
+
+
+No 38
+>3GWM_A Holo-[acyl-carrier-protein] synthase (E.C.2.7.8.7); Homo-trimer, 9-stand pseudo beta barrel; HET: SO4; 1.7A {Mycobacterium smegmatis}
+Probab=97.19  E-value=3.4e-06  Score=67.66  Aligned_cols=114  Identities=17%  Similarity=0.209  Sum_probs=74.1  Template_Neff=9.700
+
+Q query           127 RGLGLDVETLLEAERA----RYLHGEILTEGERLRFADDLERRTGLLVTLAFSLKESLFKALYPLVGK------RFYFEH  196 (245)
+Q Consensus       127 ~~lGIDiE~~~~~~~~----~~i~~~i~~~~E~~~~~~~~~~~~~~~~tliFSAKESlyKAlyP~~~~------~~~F~~  196 (245)
+                      .+||||||.+.+....    ...+..+|+++|+..+.. ....+..++...|++|||++|+++.....      .++|++
+T Consensus         3 ~~iGiDie~~~~~~~~~~~~~~~~~~~l~~~E~~~~~~-~~~~~~~~l~~~~~~Kea~~Ka~~~~~~~~~~~~~~~~~~~   81 (129)
+T 3GWM_A            3 VGVGIDLVSIPDFAEQVDRPGTVFAETFTPGERRDAAD-KSSSAARHLAARWAAKEAVIKAWSSSRFSKRPALPEGIHRD   81 (129)
+T ss_dssp             EEEEEEEEEHHHHHHHHTSCCHHHHTTSCHHHHHHHTS-TTSHHHHHHHHHHHHHHHHHHHHHTSTTCCSSSCCTTHHHH
+T ss_pred             ccceEEEEEchHHHHHhcCCcchHHHHCCHHHHHHHhc-cCchHHHHHHHHHHHHHHHHHHhccccccCCCCCCCCCccc
+Confidence            5799999999864321    134457999999987765 32345678899999999999999854321      256788
+
+
+Q query           197 AELLEWRADGQARLRLLTDLSPEWRHGSELDAQFAVLDGRLLSLVAV  243 (245)
+Q Consensus       197 a~l~~~~~~~~~~l~l~~~l~~~~~~G~~~~g~f~~~d~~VlTlVa~  243 (245)
+                      +++.... .|...+.+........ ....+.+.+.+.+++++++++.
+T Consensus        82 i~i~~~~-~g~p~l~~~~~~~~~~-~~~~~~~sish~~~~~~a~~~~  126 (129)
+T 3GWM_A           82 IEVVTDM-WGRPKVRLSGEIAKHL-EDVTIHVSLTHEDQTAAAVAII  126 (129)
+T ss_dssp             EEEEECT-TSCEEEEECHHHHHHT-TTCEEEEEEEEETTEEEEEEEE
+T ss_pred             EEEEeCC-CCCEEEEEcHHHHHHh-ccceEEEEEEcCCCeEEEEEEE
+Confidence            8776433 4555555432111000 1134556677788888887764
+
+
+No 39
+>3NFD_F Phosphopantetheine protein transferase, Ppt1p; acyl carrier protein synthase, Mycobacterium; HET: COA, MSE; 1.89A {Corynebacterium ammoniagenes}
+Probab=97.10  E-value=5.6e-06  Score=69.96  Aligned_cols=117  Identities=15%  Similarity=0.121  Sum_probs=75.6  Template_Neff=8.100
+
+Q query           126 WRGLGLDVETLLEAERA-----RYLHGEILTEGERLRFADDL-----------ERRTGLLVTLAFSLKESLFKALYPLVG  189 (245)
+Q Consensus       126 ~~~lGIDiE~~~~~~~~-----~~i~~~i~~~~E~~~~~~~~-----------~~~~~~~~tliFSAKESlyKAlyP~~~  189 (245)
+                      ...||||||.+.+....     ..+. ++|++.|+..+....           .......++..|++|||++|+++.+..
+T Consensus         7 ~~~iGiDI~~~~~~~~~~~~~~~~~~-~~ls~~E~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~w~~KEA~~Ka~g~~~~   85 (153)
+T 3NFD_F            7 AMTVGVDLVHIPGFAEQLSRPGSTFE-QVFSPLERRHAQTRRSAAADATNSSLAGSRTEHLAGRWAAKEAFIKAWSQAIY   85 (153)
+T ss_dssp             EEEEEEEEEEHHHHHHHHTSTTCGGG-GTSCHHHHHHHHCC------------CCHHHHHHHHHHHHHHHHHHHHHHHTT
+T ss_pred             cceeEEEEEEchhHHHHhcCCcccHH-HHcCHHHHHHHHhhchhhhcccccccccchHHHHHHHHHHHHHHHHHhhchhc
+Confidence            36899999999764321     3556 899999998775411           124567889999999999999985432
+
+
+Q query           190 --------KRFYFEHAELLEWRADGQARLRLLTDLSPEW---RHGSELDAQFAVLDGRLLSLVAVG  244 (245)
+Q Consensus       190 --------~~~~F~~a~l~~~~~~~~~~l~l~~~l~~~~---~~G~~~~g~f~~~d~~VlTlVa~~  244 (245)
+                              ....|.++++.... .|...+.+........   .....+.+...+.+++++++|+..
+T Consensus        86 ~~~~~~~~~~~~~~~i~i~~~~-~Gkp~l~~~~~~~~~~~~~~~~~~~~~siSh~~~~~va~~~~~  150 (153)
+T 3NFD_F           86 GKPPVIEPDLVNFAEIEVLPDR-WGRVALQLKGEVAAKLQESIGDVELALSISHDGDYATALCLLR  150 (153)
+T ss_dssp             TSCCSSCTTTCCGGGEEEEECT-TSCEEEEECHHHHHHHHHHHCSEEEEEEEEEETTEEEEEEEEE
+T ss_pred             CCCCCCCcccCCcceEEEEeCC-CCCEEEEEcHHHHHHHHHhhCCeEEEEEEecCcCeEEEEEEEE
+Confidence                    12577777776443 4666655543211000   011245566777888998888653
+
+
+No 40
+>5XUM_A Holo-[acyl-carrier-protein] synthase (E.C.2.7.8.7); Gram-negative bacteria, phosphopantetheinyl transferase, homotrimer; 2.1A {Thermotoga maritima (strain ATCC 43589 / MSB8 / DSM 3109 / JCM 10099)}
+Probab=97.09  E-value=5.6e-06  Score=70.79  Aligned_cols=106  Identities=25%  Similarity=0.209  Sum_probs=73.1  Template_Neff=8.400
+
+Q query            65 KRQAEFLAGRLCARAALFA-LDG-----R--AQTPAVGEDRAPVWP--------AAISGSITHGDRWAAALVAARGDWRG  128 (245)
+Q Consensus        65 kR~aEF~aGR~~Ar~AL~~-lg~-----~--~~~~~~g~~r~P~WP--------~G~~GSISHs~~~a~A~va~~~~~~~  128 (245)
+                      +++.+++++|+++|+++.+ +|.     +  .+.+.. ++|+|++.        ..+.+|+||++ ++++++...  ...
+T Consensus        36 ~~~~~~~~~~Wt~KEA~~Ka~g~gl~~~~~~~i~i~~-~~g~p~l~~~~~~~~~~~~~vsish~~-y~~Av~~~~--~~~  111 (169)
+T 5XUM_A           36 KRRREFIAGRFALKEAFFKALGTGLNGHSFTDVEFLE-SNGKPVLCVHKDFGFFNYAHVSLSHDR-FAVALVVLE--KRK  111 (169)
+T ss_dssp             SCHHHHHHHHHHHHHHHHHHHSSCSSSCCGGGEEEEE-ETTEEEEEESSCCCSCCEEEEEEEESS-EEEEEEEEE--CCS
+T ss_pred             hhHHHHHHHHHHHHHHHHHHhCcCcCCCCcceEEEEc-CCCCeEEEEccCCCceeeEEEEEcCCC-eEEEEEEEe--cCC
+Confidence            6889999999999999965 332     1  144444 67888774        35789999998 777665432  368
+
+
+Q query           129 LGLDVETLLEAERARYLHGEILTEGERLRFADDLERRTGLLVTLAFSLKESLFKALY  185 (245)
+Q Consensus       129 lGIDiE~~~~~~~~~~i~~~i~~~~E~~~~~~~~~~~~~~~~tliFSAKESlyKAly  185 (245)
+                      .|||+|....          .+++.|...... ........++.+||+|||+.|+-.
+T Consensus       112 ~gid~e~~~~----------~~~~~~~~~~~~-~~~~~~~~~~~~wtlke~~~k~~~  157 (169)
+T 5XUM_A          112 GDIIVEGDES----------FLRKRFEVLERS-VEGWEIETSLPPFTLKKLLESSGC  157 (169)
+T ss_dssp             SCEEEESCHH----------HHHHHSEEEEEC-SSCEEEECCCCHHHHHHHHHHTTC
+T ss_pred             CCccccCccc----------hhHHHHHHHHhh-cCCCcccccCCchhHHHHHHhhCC
+Confidence            9999996642          144555443332 221234567999999999999964
+
+
+No 41
+>2BDD_A ACP-synthase; ACP synthase, Structural Genomics, Structural; 2.28A {Plasmodium yoelii yoelii}
+Probab=96.27  E-value=0.00017  Score=63.23  Aligned_cols=72  Identities=11%  Similarity=0.016  Sum_probs=56.5  Template_Neff=7.400
+
+Q query            64 AKRQAEFLAGRLCARAALFA-LD----------GR--AQTPAVGEDRAPVWP--------------AAISGSITHGDRWA  116 (245)
+Q Consensus        64 ~kR~aEF~aGR~~Ar~AL~~-lg----------~~--~~~~~~g~~r~P~WP--------------~G~~GSISHs~~~a  116 (245)
+                      .+++.+|+++|+++|+++.+ ++          ..  .+.+..+++|+|++.              ..+.+||||+++++
+T Consensus        77 ~~~~~~~LagrwaaKEAv~KAlg~~~~~~~~~~~~~~dI~i~~~~~G~P~v~l~~~~~~~~~~~g~~~~~vSISH~~~~~  156 (182)
+T 2BDD_A           77 LKKLAIYVSKKFAAKEAILKSMGRGLSSISKYGLSMNDIEIKNDKYGKPHVYLYGKAKKVAYEMGIVKIFLSISDEKIIN  156 (182)
+T ss_pred             hHHHHHHHHHHHHHHHHHHHHHCCCCCCCCCCCCCCccEEEEECCCCCEEEEEchhHHHHHHHhCCCEEEEEEEecCCeE
+Confidence            36889999999999999975 33          11  245666789999863              24789999999999
+
+
+Q query           117 AALVAARGDWRGLGLDVETLLE  138 (245)
+Q Consensus       117 ~A~va~~~~~~~lGIDiE~~~~  138 (245)
+                      +++++..   .++|+||-.+..
+T Consensus       157 ~a~~~~~---~~~~~~~~~~~~  175 (182)
+T 2BDD_A          157 SQTNNIS---SNFPTFIIQAQA  175 (182)
+T ss_pred             EEEEeCC---CCCCcceeeehe
+Confidence            9888875   689999977653
+
+
+No 42
+>2QG8_A Acyl Carrier Protein Synthase PY06285; malaria, acyl carrier protein synthase; HET: A3P; 2.0A {Plasmodium yoelii yoelii}
+Probab=95.73  E-value=0.00078  Score=57.71  Aligned_cols=70  Identities=11%  Similarity=0.032  Sum_probs=44.2  Template_Neff=8.100
+
+Q query            64 AKRQAEFLAGRLCARAALFA-LD----------GR--AQTPAVGEDRAPVWP--------------AAISGSITHGDRWA  116 (245)
+Q Consensus        64 ~kR~aEF~aGR~~Ar~AL~~-lg----------~~--~~~~~~g~~r~P~WP--------------~G~~GSISHs~~~a  116 (245)
+                      .+++.+|+++|+++|+++.+ ++          ..  .+.+..+++|+|++.              ..+.+||||+++++
+T Consensus        58 ~~~~~~~la~rwaaKEA~~Kal~~~~~~~~~~~~~~~~I~i~~~~~GkP~l~~~~~~~~~~~~~~~~~~~vSISH~~~~~  137 (163)
+T 2QG8_A           58 LKKLAIYVSKKFAAKEAILKSMGRGLSSISKYGLSMNDIEIKNDKYGKPHVYLYGKAKKVAYEMGIVKIFLSISDEKIIN  137 (163)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHTTCCBC-----CBCGGGEEEEECTTSCEEEEECHHHHHHHHHTTCCEEEEEEEEEEC--
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHhccccchhcccCCChhhEEEEeCCCCCeEEEEehhHHHHHHHcCCcEEEEEEEcCCcee
+Confidence            46789999999999999965 33          12  255666788999864              24789999999999
+
+
+Q query           117 AALVAARGDWRGLGLDVET  135 (245)
+Q Consensus       117 ~A~va~~~~~~~lGIDiE~  135 (245)
+                      +++++.++  ...|.||..
+T Consensus       138 va~~~~~~--~~~~~~~~~  154 (163)
+T 2QG8_A          138 SQTNNISS--NFPTFIIQA  154 (163)
+T ss_dssp             -------------CEEEEE
+T ss_pred             EEEEEccc--CCCcchhhh
+Confidence            98887643  568888865
+
+
+No 43
+>4V59_B FATTY ACID SYNTHASE ALPHA SUBUNITS; FUNGAL, DEHYDRATASE, ENOYL REDUCTASE, KETOACYL; HET: FMN, NAP; 3.1A {THERMOMYCES LANUGINOSUS}
+Probab=95.59  E-value=0.0011  Score=76.26  Aligned_cols=116  Identities=15%  Similarity=0.135  Sum_probs=0.0  Template_Neff=6.800
+
+Q query           125 DWRGLGLDVETLLEAE-RARYLHGEILTEGERLRFADDLERRTGLLVTLAFSLKESLFKALYPLV-GKRFYFEHAELLEW  202 (245)
+Q Consensus       125 ~~~~lGIDiE~~~~~~-~~~~i~~~i~~~~E~~~~~~~~~~~~~~~~tliFSAKESlyKAlyP~~-~~~~~F~~a~l~~~  202 (245)
+                      ....||||||.+.... ....+++++|++.|++.+.+ .. .....|+.+|++|||++||+|.+. |.+..+++++|...
+T Consensus      1757 ~~~~VGVDIE~i~~~~~~~~~fl~r~Ft~~E~~~~~~-~~-~~~~~Fa~~WtaKEAv~KAlG~gl~g~~~~l~~Iei~~~ 1834 (1878)
+T 4V59_B         1757 PASRVGVDVESVDSINIDNEEFISRNFTEREQAYCRR-AP-NPRASFAGRWTAKEAIFKSLGVASKGAGAAMREIEVIND 1834 (1878)
+T ss_dssp             --------------------------------------------------------------------------------
+T ss_pred             CCCeeEEEEEEcCCCCCCcHHHHHHhCCHHHHHHHHh-CC-ChHHHHHHHHHHHHHHHHHhCCcccCCCCChhhEEEEeC
+Confidence            3478999999998644 12578899999999998876 42 456789999999999999999544 33467888888754
+
+
+Q query           203 RADGQARLRLLTDLSPE-WRH-GSELDAQFAVLDGRLLSLVAV  243 (245)
+Q Consensus       203 ~~~~~~~l~l~~~l~~~-~~~-G~~~~g~f~~~d~~VlTlVa~  243 (245)
+                      . .+...+.+....... ... ...+.+.+.+.+++++++|+.
+T Consensus      1835 ~-~g~p~v~l~g~~~~~~~~~~~~~~~vsish~~~~avAvai~ 1876 (1878)
+T 4V59_B         1835 A-NGAPEVHLHGAAAEAAKQAGVKTVNVSISHGDLQAVAVAVS 1876 (1878)
+T ss_dssp             -------------------------------------------
+T ss_pred             C-CCCeEEEEchhHHHHHHHcCCCEEEEEEEccCCEEEEEEEE
+Confidence            3 355555555432210 011 124556666788999888865
+
+
+No 44
+>4V59_D FATTY ACID SYNTHASE ALPHA SUBUNITS; FUNGAL, DEHYDRATASE, ENOYL REDUCTASE, KETOACYL; HET: NAP, FMN; 3.1A {THERMOMYCES LANUGINOSUS}
+Probab=95.59  E-value=0.0011  Score=76.26  Aligned_cols=116  Identities=15%  Similarity=0.135  Sum_probs=0.0  Template_Neff=6.800
+
+Q query           125 DWRGLGLDVETLLEAE-RARYLHGEILTEGERLRFADDLERRTGLLVTLAFSLKESLFKALYPLV-GKRFYFEHAELLEW  202 (245)
+Q Consensus       125 ~~~~lGIDiE~~~~~~-~~~~i~~~i~~~~E~~~~~~~~~~~~~~~~tliFSAKESlyKAlyP~~-~~~~~F~~a~l~~~  202 (245)
+                      ....||||||.+.... ....+++++|++.|++.+.+ .. .....|+.+|++|||++||+|.+. |.+..+++++|...
+T Consensus      1757 ~~~~VGVDIE~i~~~~~~~~~fl~r~Ft~~E~~~~~~-~~-~~~~~Fa~~WtaKEAv~KAlG~gl~g~~~~l~~Iei~~~ 1834 (1878)
+T 4V59_D         1757 PASRVGVDVESVDSINIDNEEFISRNFTEREQAYCRR-AP-NPRASFAGRWTAKEAIFKSLGVASKGAGAAMREIEVIND 1834 (1878)
+T ss_dssp             --------------------------------------------------------------------------------
+T ss_pred             CCCeeEEEEEEcCCCCCCcHHHHHHhCCHHHHHHHHh-CC-ChHHHHHHHHHHHHHHHHHhCCcccCCCCChhhEEEEeC
+Confidence            3478999999998644 12578899999999998876 42 456789999999999999999544 33467888888754
+
+
+Q query           203 RADGQARLRLLTDLSPE-WRH-GSELDAQFAVLDGRLLSLVAV  243 (245)
+Q Consensus       203 ~~~~~~~l~l~~~l~~~-~~~-G~~~~g~f~~~d~~VlTlVa~  243 (245)
+                      . .+...+.+....... ... ...+.+.+.+.+++++++|+.
+T Consensus      1835 ~-~g~p~v~l~g~~~~~~~~~~~~~~~vsish~~~~avAvai~ 1876 (1878)
+T 4V59_D         1835 A-NGAPEVHLHGAAAEAAKQAGVKTVNVSISHGDLQAVAVAVS 1876 (1878)
+T ss_dssp             -------------------------------------------
+T ss_pred             C-CCCeEEEEchhHHHHHHHcCCCEEEEEEEccCCEEEEEEEE
+Confidence            3 355555555432210 011 124556666788999888865
+
+
+No 45
+>6U5V_A Fatty acid synthase subunit alpha; Fungal Fatty acid synthase, TRANSFERASE; HET: FMN; 2.8A {Candida albicans}
+Probab=95.56  E-value=0.0012  Score=76.09  Aligned_cols=115  Identities=18%  Similarity=0.117  Sum_probs=0.0  Template_Neff=7.100
+
+Q query           126 WRGLGLDVETLLEAER-ARYLHGEILTEGERLRFADDLERRTGLLVTLAFSLKESLFKALYPLV-GKRFYFEHAELLEWR  203 (245)
+Q Consensus       126 ~~~lGIDiE~~~~~~~-~~~i~~~i~~~~E~~~~~~~~~~~~~~~~tliFSAKESlyKAlyP~~-~~~~~F~~a~l~~~~  203 (245)
+                      ...||||||.+..... ...+.+++||+.|+..+.. . ......|+.+|++|||++||+|.+. +.+.++.+++|....
+T Consensus      1765 ~~~VGVDIE~i~~~~~~~~~fl~r~FT~~E~~~~~~-~-~~~~~~fa~~WaaKEAvlKAlG~gl~~~~~~l~~iei~~~~ 1842 (1885)
+T 6U5V_A         1765 SKGVGVDVELLSAINIDNETFIERNFTGNEVEYCLN-T-AHPQASFTGTWSAKEAVFKALGVESKGAGASLIDIEITRDV 1842 (1885)
+T ss_dssp             --------------------------------------------------------------------------------
+T ss_pred             CCceEEEEEECccccCCChhHHHHhCCHHHHHHHhc-c-CChhHHHHHHHHHHHHHHHHhCCcccCCCCChhhEEEEeCC
+Confidence            4799999999986432 2568899999999998876 3 2456789999999999999999543 234778888887643
+
+
+Q query           204 ADGQARLRLLTDLSPEWR-H-GSELDAQFAVLDGRLLSLVAV  243 (245)
+Q Consensus       204 ~~~~~~l~l~~~l~~~~~-~-G~~~~g~f~~~d~~VlTlVa~  243 (245)
+                       .+...+.+......... . ...+.+.+.+.+++++++|+.
+T Consensus      1843 -~g~p~v~l~g~~~~~~~~~~~~~~~~sis~~~~~a~Ava~~ 1883 (1885)
+T 6U5V_A         1843 -NGAPKVILHGEAKKAAAKAGVKNVNISISHDDFQATAVALS 1883 (1885)
+T ss_dssp             ------------------------------------------
+T ss_pred             -CCCeEEEEcchHHHHHHHcCCcEEEEEEEcCCCEEEEEEEE
+Confidence             35566666543321010 1 134556677778999888764
+
+
+No 46
+>1F7L_A HOLO-(ACYL CARRIER PROTEIN) SYNTHASE (E.C.2.7.8.7); 9-strand pseudo beta barrel protein; HET: COA; 1.5A {Bacillus subtilis} SCOP: d.150.1.2
+Probab=95.42  E-value=0.0016  Score=51.27  Aligned_cols=60  Identities=33%  Similarity=0.406  Sum_probs=47.5  Template_Neff=10.200
+
+Q query            63 VAKRQAEFLAGRLCARAALFA-LDG------R--AQTPAVGEDRAPVWPA------AISGSITHGDRWAAALVAA  122 (245)
+Q Consensus        63 v~kR~aEF~aGR~~Ar~AL~~-lg~------~--~~~~~~g~~r~P~WP~------G~~GSISHs~~~a~A~va~  122 (245)
+                      .++++.+++++|+++|+++.+ ++.      .  .+.+..+++|+|++..      .+.+||||++++++++++.
+T Consensus        42 ~~~~~~~~l~~~~~~Kea~~k~~g~~~~~~~~~~~i~i~~~~~g~p~~~~~~~~~~~~~~sish~~~~~~a~~~~  116 (121)
+T 1F7L_A           42 SEKRKNEFLAGRFAAKEAFSKAFGTGIGRQLSFQDIEIRKDQNGKPYIICTKLSPAAVHVSITHTKEYAAAQVVI  116 (121)
+T ss_dssp             CHHHHHHHHHHHHHHHHHHHHHHTSCSBTTBCGGGCEEEECTTSCEEEEETTTEEEEEEEEEEECSSEEEEEEEE
+T ss_pred             CHHHhHHHHHHHHHHHHHHHHHhcCCcccCCChhhEEEEeCCCCCEEEEEcCCCCceEEEEEEeCCCeEEEEEEE
+Confidence            457889999999999999975 331      1  3566777889999743      6789999999999887764
+
+
+No 47
+>4HC6_A Holo-[acyl-carrier-protein] synthase (E.C.2.7.8.7); Structural Genomics, Protein Structure Initiative; 1.8A {Mycobacterium tuberculosis H37Rv}
+Probab=95.38  E-value=0.0017  Score=52.51  Aligned_cols=58  Identities=26%  Similarity=0.200  Sum_probs=44.6  Template_Neff=9.400
+
+Q query            65 KRQAEFLAGRLCARAALFA-LDG------------R--AQTPAVGEDRAPVWP-----------AAISGSITHGDRWAAA  118 (245)
+Q Consensus        65 kR~aEF~aGR~~Ar~AL~~-lg~------------~--~~~~~~g~~r~P~WP-----------~G~~GSISHs~~~a~A  118 (245)
+                      +++.+++++|+++|+++.+ ++.            .  .+.+..+++|+|++.           ..+.+|+||+++++++
+T Consensus        43 ~~~~~~l~~~w~~KEA~~Ka~g~~~~~~~~~~~~~~~~~i~i~~~~~g~p~l~~~~~~~~~~~~~~~~~sish~~~~~~a  122 (129)
+T 4HC6_A           43 SSAARHLAARWAAKEAVIKAWSGSRFAQRPVLPADIHRDIEVVTDMWGRPRVRLTGAIAEYLADVTIHVSLTHEGDTAAA  122 (129)
+T ss_dssp             SHHHHHHHHHHHHHHHHHHHHHHTTTTSCCCCCTTGGGGEEEEECTTCCEEEEECTHHHHHTTTCEEEEEEEEETTEEEE
+T ss_pred             hhHHHHHHHHHHHHHHHHHHhcCccccCCCCCCCCCcceEEEEeCCCCCEEEEEchHHHHHhcCcEEEEEEecccCeEEE
+Confidence            7889999999999999965 332            1  245556788999862           3578999999999987
+
+
+Q query           119 LVAA  122 (245)
+Q Consensus       119 ~va~  122 (245)
+                      ++..
+T Consensus       123 ~~~~  126 (129)
+T 4HC6_A          123 VAIL  126 (129)
+T ss_dssp             EEEE
+T ss_pred             EEEE
+Confidence            6653
+
+
+No 48
+>6QL9_D Fatty acid synthase subunit alpha; Fatty acid synthase, Acyl carrier; HET: A2P, PNS, ACT, FMN, NA, J8W, EDO, MLI, PGE; 2.82A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=95.30  E-value=0.002  Score=74.31  Aligned_cols=115  Identities=16%  Similarity=0.134  Sum_probs=77.7  Template_Neff=7.000
+
+Q query           125 DWRGLGLDVETLLEAER-ARYLHGEILTEGERLRFADDLERRTGLLVTLAFSLKESLFKALYP-LVGKRFYFEHAELLEW  202 (245)
+Q Consensus       125 ~~~~lGIDiE~~~~~~~-~~~i~~~i~~~~E~~~~~~~~~~~~~~~~tliFSAKESlyKAlyP-~~~~~~~F~~a~l~~~  202 (245)
+                      ....||||||.+..... ...+.+++|++.|++.+.. . ......|+.+|++|||++||+|. +++....++++++...
+T Consensus      1765 ~~~~VGVDIE~i~~~~~~~~~~~~r~Ft~~E~~~l~~-~-~~~~~~F~~~WtaKEAv~KAlG~~Gl~~~~~l~~iei~~~ 1842 (1887)
+T 6QL9_D         1765 SNGGVGVDVELITSINVENDTFIERNFTPQEIEYCSA-Q-PSVQSSFAGTWSAKEAVFKSLGVKSLGGGAALKDIEIVRV 1842 (1887)
+T ss_dssp             SSEEEEEEEEEGGGCCTTCHHHHHHHSCHHHHHHHHT-S-SSHHHHHHHHHHHHHHHHHHTTCCSSSSSCCCTTEEEECC
+T ss_pred             cCCceEEEEEEcCCCccCchhHHHHhCCHHHHHHHHc-C-CcHHHHHHHHHHHHHHHHHHhCCcccCCCCCHHHEEEEec
+Confidence            44799999999986431 2578899999999998875 3 24567899999999999999995 4433367788877653
+
+
+Q query           203 RADGQARLRLLTDLSP---EWRHGSELDAQFAVLDGRLLSLVAV  243 (245)
+Q Consensus       203 ~~~~~~~l~l~~~l~~---~~~~G~~~~g~f~~~d~~VlTlVa~  243 (245)
+                      . .+...+.+......   .+. ...+.++..+.+++++++|+.
+T Consensus      1843 ~-~g~p~v~l~g~~~~~~~~~~-~~~~~vsish~~~ya~Ava~~ 1884 (1887)
+T 6QL9_D         1843 N-KNAPAVELHGNAKKAAEEAG-VTDVKVSISHDDLQAVAVAVS 1884 (1887)
+T ss_dssp             T-TSCCEEEECHHHHHHHHHTT-CSEEEEEEEECSSEEEEEEEE
+T ss_pred             C-CCCeEEEEcccHHHHHHHcC-CcEEEEEEecCCCEEEEEEEE
+Confidence            3 24444444432211   111 123444555678999988865
+
+
+No 49
+>5CXD_B Holo-[acyl-carrier-protein] synthase (E.C.2.7.8.7); acyl-carrier-protein synthase, AcpS, FAS II; HET: CL, PEG; 1.75A {Staphylococcus aureus (strain COL)}
+Probab=95.21  E-value=0.0023  Score=50.14  Aligned_cols=59  Identities=27%  Similarity=0.327  Sum_probs=46.9  Template_Neff=10.400
+
+Q query            64 AKRQAEFLAGRLCARAALFA-LDG--------RAQTPAVGEDRAPVWPA---AISGSITHGDRWAAALVAA  122 (245)
+Q Consensus        64 ~kR~aEF~aGR~~Ar~AL~~-lg~--------~~~~~~~g~~r~P~WP~---G~~GSISHs~~~a~A~va~  122 (245)
+                      .+++.+|+++|+++|+++.+ +|.        ..+.+..+.+|+|++..   .+.+|+||+++++++++..
+T Consensus        47 ~~~~~~~l~~~w~~KEa~~K~~g~~~~~~~~~~~~~i~~~~~g~p~~~~~~~~~~~sish~~~~~~a~~~~  117 (122)
+T 5CXD_B           47 EQRKIEFLAGRFATKEAFSKALGTGLGKHVAFNDIDCYNDELGKPKIDYEGFIVHVSISHTEHYAMSQVVL  117 (122)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHCHHHHHTCCGGGCCCEECTTSCEECCCTTSEEEEEEEECSSEEEEEEEE
+T ss_pred             chHHHHHHHHHHHHHHHHHHHhCCCCCCCCcHhhEEEEeCCCCCeEEEeCCceEEEEEEecCCEEEEEEEE
+Confidence            47889999999999999976 331        12556677899998764   6789999999999888765
+
+
+No 50
+>1FTH_A ACYL CARRIER PROTEIN SYNTHASE (E.C.2.7.8.7); Bacterial fatty acid biosynthesis, Acyl; HET: A3P; 1.9A {Streptococcus pneumoniae} SCOP: d.150.1.2
+Probab=95.14  E-value=0.0027  Score=50.36  Aligned_cols=59  Identities=32%  Similarity=0.383  Sum_probs=46.7  Template_Neff=9.900
+
+Q query            64 AKRQAEFLAGRLCARAALFAL-DG-----R--AQTPAVGEDRAPVWPA-----AISGSITHGDRWAAALVAA  122 (245)
+Q Consensus        64 ~kR~aEF~aGR~~Ar~AL~~l-g~-----~--~~~~~~g~~r~P~WP~-----G~~GSISHs~~~a~A~va~  122 (245)
+                      .+++.+++++|+++|+++.+. +.     .  .+.+..+++|+|++..     .+.+|+||+++++++++..
+T Consensus        45 ~~~~~~~~~~~w~~KEa~~Ka~g~~l~~~~~~~~~i~~~~~g~p~~~~~~~~~~~~isish~~~~~~a~~~~  116 (122)
+T 1FTH_A           45 GRRQIEYLAGRWSAKEAFSKAMGTGISKLGFQDLEVLNNERGAPYFSQAPFSGKIWLSISHTDQFVTASVIL  116 (122)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHTSCSSSSCGGGCEEEECTTSCEEEEECSCCSEEEEEEEECSSEEEEEEEE
+T ss_pred             chHHHHHHHHHHHHHHHHHHHhCCCccCCCccceEEEeCCCCCeEEEeCCCCceEEEEEEecCCeEEEEEEE
+Confidence            478899999999999999764 32     1  2566677899999853     4899999999999877654
+
+
+No 51
+>6QL5_D Fatty acid synthase subunit alpha; Fatty acid synthase, Acyl carrier; HET: FMN, PNS; 2.8A {Saccharomyces cerevisiae}
+Probab=95.14  E-value=0.0027  Score=73.31  Aligned_cols=115  Identities=16%  Similarity=0.136  Sum_probs=79.2  Template_Neff=6.900
+
+Q query           125 DWRGLGLDVETLLEAE-RARYLHGEILTEGERLRFADDLERRTGLLVTLAFSLKESLFKALYPLV-GKRFYFEHAELLEW  202 (245)
+Q Consensus       125 ~~~~lGIDiE~~~~~~-~~~~i~~~i~~~~E~~~~~~~~~~~~~~~~tliFSAKESlyKAlyP~~-~~~~~F~~a~l~~~  202 (245)
+                      ....||||||.+.... ....+.+++|++.|++.+.. . ......|+.+|++|||++||+|.+. |...+++++++...
+T Consensus      1765 ~~~~VGVDIE~i~~~~~~~~~~~~r~Ft~~E~~~l~~-~-~~~~~~F~~~WtaKEAv~KAlG~Gl~g~~~~l~~Iei~~~ 1842 (1887)
+T 6QL5_D         1765 SNGGVGVDVELITSINVENDTFIERNFTPQEIEYCSA-Q-PSVQSSFAGTWSAKEAVFKSLGVKSLGGGAALKDIEIVRV 1842 (1887)
+T ss_dssp             SSSEEEEEECCGGGCCSSCHHHHHHHSCHHHHHHHHT-S-SSHHHHHHHHHHHHHHHHHHTCCSCSSSSCCTTSEEEECC
+T ss_pred             cCCceEEEEEEcCCCCCCchhHHHHhCCHHHHHHHHc-C-CchHHHHHHHHHHHHHHHHHhCCCccCCCCCHhhEEEEec
+Confidence            4578999999998643 12578899999999998876 3 2456789999999999999999543 22567888887654
+
+
+Q query           203 RADGQARLRLLTDLSP---EWRHGSELDAQFAVLDGRLLSLVAV  243 (245)
+Q Consensus       203 ~~~~~~~l~l~~~l~~---~~~~G~~~~g~f~~~d~~VlTlVa~  243 (245)
+                      . .+...+.+......   .+.. ..+.+.+.+.+++++++|+.
+T Consensus      1843 ~-~g~p~v~l~g~~~~~~~~~~~-~~~~vsish~~~ya~Avaia 1884 (1887)
+T 6QL5_D         1843 N-KNAPAVELHGNAKKAAEEAGV-TDVKVSISHDDLQAVAVAVS 1884 (1887)
+T ss_dssp             T-TSCCEEEECHHHHHHHHHHCC-SEEEEEEEECSSCEEEEEEE
+T ss_pred             C-CCCeEEEECccHHHHHHHcCC-CEEEEEEEcCCCEEEEEEEE
+Confidence            3 34445555433211   1111 23445566678999988865
+
+
+No 52
+>6QL9_A Fatty acid synthase subunit alpha; Fatty acid synthase, Acyl carrier; HET: PGE, J8W, FMN, NA, A2P, EDO, MLI, ACT, PNS; 2.82A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=95.14  E-value=0.0027  Score=73.31  Aligned_cols=115  Identities=16%  Similarity=0.136  Sum_probs=79.2  Template_Neff=6.900
+
+Q query           125 DWRGLGLDVETLLEAE-RARYLHGEILTEGERLRFADDLERRTGLLVTLAFSLKESLFKALYPLV-GKRFYFEHAELLEW  202 (245)
+Q Consensus       125 ~~~~lGIDiE~~~~~~-~~~~i~~~i~~~~E~~~~~~~~~~~~~~~~tliFSAKESlyKAlyP~~-~~~~~F~~a~l~~~  202 (245)
+                      ....||||||.+.... ....+.+++|++.|++.+.. . ......|+.+|++|||++||+|.+. |...+++++++...
+T Consensus      1765 ~~~~VGVDIE~i~~~~~~~~~~~~r~Ft~~E~~~l~~-~-~~~~~~F~~~WtaKEAv~KAlG~Gl~g~~~~l~~Iei~~~ 1842 (1887)
+T 6QL9_A         1765 SNGGVGVDVELITSINVENDTFIERNFTPQEIEYCSA-Q-PSVQSSFAGTWSAKEAVFKSLGVKSLGGGAALKDIEIVRV 1842 (1887)
+T ss_dssp             SSEEEEEEEEEGGGCCTTCHHHHHHHSCHHHHHHHHT-S-SSHHHHHHHHHHHHHHHHHHTTCSCSSSSCCCTTEEEECC
+T ss_pred             cCCceEEEEEEcCCCCCCchhHHHHhCCHHHHHHHHc-C-CchHHHHHHHHHHHHHHHHHhCCCccCCCCCHhhEEEEec
+Confidence            4578999999998643 12578899999999998876 3 2456789999999999999999543 22567888887654
+
+
+Q query           203 RADGQARLRLLTDLSP---EWRHGSELDAQFAVLDGRLLSLVAV  243 (245)
+Q Consensus       203 ~~~~~~~l~l~~~l~~---~~~~G~~~~g~f~~~d~~VlTlVa~  243 (245)
+                      . .+...+.+......   .+.. ..+.+.+.+.+++++++|+.
+T Consensus      1843 ~-~g~p~v~l~g~~~~~~~~~~~-~~~~vsish~~~ya~Avaia 1884 (1887)
+T 6QL9_A         1843 N-KNAPAVELHGNAKKAAEEAGV-TDVKVSISHDDLQAVAVAVS 1884 (1887)
+T ss_dssp             T-TSCCEEEECHHHHHHHHHTTC-SEEEEEEEECSSEEEEEEEE
+T ss_pred             C-CCCeEEEECccHHHHHHHcCC-CEEEEEEEcCCCEEEEEEEE
+Confidence            3 34445555433211   1111 23445566678999988865
+
+
+No 53
+>5SUV_A Holo-[acyl-carrier-protein] synthase (E.C.2.7.8.7); acpS, transferase, FASII, trimer, CoA; HET: COA; 1.75A {Neisseria meningitidis FAM18}
+Probab=95.10  E-value=0.0029  Score=50.16  Aligned_cols=57  Identities=18%  Similarity=0.195  Sum_probs=44.8  Template_Neff=10.200
+
+Q query            65 KRQAEFLAGRLCARAALFA-LDG------R--AQTPAVGEDRAPVWP--------------AAISGSITHGDRWAAALVA  121 (245)
+Q Consensus        65 kR~aEF~aGR~~Ar~AL~~-lg~------~--~~~~~~g~~r~P~WP--------------~G~~GSISHs~~~a~A~va  121 (245)
+                      +++.+++++|+++|+++.+ +|.      .  .+.+..+++|+|++.              ..+.+|+||+++++++++.
+T Consensus        44 ~~~~~~l~~~~~~Kea~~Ka~g~~~~~~~~~~~i~i~~~~~g~p~~~~~~~~~~~~~~~~~~~~~~sish~~~~~~a~~~  123 (126)
+T 5SUV_A           44 GKPVNYLAKRFAAKEAFAKAVGTGIRGAVSFRNIGIGHDALGKPEFFYGPALSKWLEEQGISRVSLSMSDEEDTVLAFVV  123 (126)
+T ss_dssp             SSHHHHHHHHHHHHHHHHHHTTSCSBTTBSGGGEEEEECTTCCEEEEECHHHHHHHHHHTCCEEEEEEEEETTEEEEEEE
+T ss_pred             CChHHHHHHHHHHHHHHHHHhcCCccCCccccceEEEeCCCCCeEEEEcHHHHHHHHHcCCcEEEEEEECCCCEEEEEEE
+Confidence            6789999999999999965 331      1  256666788999973              3578999999999987664
+
+
+No 54
+>3HYK_A Holo-[acyl-carrier-protein] synthase (E.C.2.7.8.7); Holo-(Acyl-Carrier-Protein) Synthase, Structural Genomics, Infectious; HET: A3P; 2.31A {Bacillus anthracis}
+Probab=94.96  E-value=0.0036  Score=49.29  Aligned_cols=59  Identities=25%  Similarity=0.303  Sum_probs=46.5  Template_Neff=10.200
+
+Q query            64 AKRQAEFLAGRLCARAALFAL-D------G--RAQTPAVGEDRAPVWP----AAISGSITHGDRWAAALVAA  122 (245)
+Q Consensus        64 ~kR~aEF~aGR~~Ar~AL~~l-g------~--~~~~~~~g~~r~P~WP----~G~~GSISHs~~~a~A~va~  122 (245)
+                      .+++.+++++|+++|+++.+. +      .  ..+.+..++.|+|++.    ..+.+|+||+++++++++..
+T Consensus        46 ~~~~~~~l~~~w~~KEa~~K~~g~~~~~~~~~~~i~i~~~~~g~p~~~~~~~~~~~~sish~~~~~~a~~~~  117 (122)
+T 3HYK_A           46 GSRLTEFVAGRFAAKEAYSKAVGTGIGKEVSFLDIEVRNDDRGKPILITSTEHIVHLSISHSKEFAVAQVVL  117 (122)
+T ss_dssp             THHHHHHHHHHHHHHHHHHHHHTSCSSSSCCGGGCEEEECTTSCEEEECSCSSEEEEEEEECSSEEEEEEEE
+T ss_pred             cchHHHHHHHHHHHHHHHHHHhcCCCCCCccceeEEEEeCCCCCEEEEecCCCeEEEEEEeCCCEEEEEEEE
+Confidence            467899999999999999763 3      1  1255666788999875    36789999999999887765
+
+
+No 55
+>5XUH_B Holo-[acyl-carrier-protein] synthase (E.C.2.7.8.7); Gram-negative bacteria, phosphopantetheinyl transferase, homotrimer; HET: COA; 2.02A {Escherichia coli (strain K12)}
+Probab=94.83  E-value=0.0045  Score=49.08  Aligned_cols=57  Identities=19%  Similarity=0.197  Sum_probs=44.2  Template_Neff=10.200
+
+Q query            65 KRQAEFLAGRLCARAALFA-LDG------R--AQTPAVGEDRAPVWP--------------AAISGSITHGDRWAAALVA  121 (245)
+Q Consensus        65 kR~aEF~aGR~~Ar~AL~~-lg~------~--~~~~~~g~~r~P~WP--------------~G~~GSISHs~~~a~A~va  121 (245)
+                      +++.+++++|+++|+++.+ +|.      +  .+.+..+++|+|++.              ..+.+||||+++++++++.
+T Consensus        44 ~~~~~~l~~~w~~Kea~~Ka~g~~~~~~~~~~~i~i~~~~~g~p~~~~~~~~~~~~~~~~~~~~~~sish~~~~~~a~~~  123 (126)
+T 5XUH_B           44 HQPVRFLAKRFAVKEAAAKAFGTGIRNGLAFNQFEVFNDELGKPRLRLWGEALKLAEKLGVANMHVTLADERHYACATVI  123 (126)
+T ss_dssp             SSHHHHHHHHHHHHHHHHHHHC-------CGGGEEEEECTTSCEEEEECHHHHHHHHHHTCCEEEEEEEECSSEEEEEEE
+T ss_pred             cchHHHHHHHHHHHHHHHHHHCCCccCCcccccEEEEeCCCCCEEEEEcHHHHHHHHHhCCCEEEEEEEcCCCeEEEEEE
+Confidence            6889999999999999975 332      1  255666778999873              3578999999999987664
+
+
+No 56
+>5VBX_B Holo-[acyl-carrier-protein] synthase (E.C.2.7.8.7); Trimer, TRANSFERASE; HET: EDO; 2.05A {Escherichia coli (strain K12)}
+Probab=94.76  E-value=0.005  Score=48.81  Aligned_cols=58  Identities=19%  Similarity=0.170  Sum_probs=44.6  Template_Neff=10.200
+
+Q query            65 KRQAEFLAGRLCARAALFA-LD------GR--AQTPAVGEDRAPVWP--------------AAISGSITHGDRWAAALVA  121 (245)
+Q Consensus        65 kR~aEF~aGR~~Ar~AL~~-lg------~~--~~~~~~g~~r~P~WP--------------~G~~GSISHs~~~a~A~va  121 (245)
+                      +++.+++++|+++|+++.+ ++      .+  .+.+..+++|+|++.              ..+.+||||+++++++++.
+T Consensus        44 ~~~~~~l~~~w~~Kea~~Ka~~~~~~~~~~~~~i~~~~~~~g~p~~~~~~~~~~~~~~~~~~~~~~sish~~~~~~a~~~  123 (126)
+T 5VBX_B           44 HQPVRFLAKRFAVKEAAAKAFGTGIRNGLAFNQFEVFNDELGKPRLRLWGEALKLAEKLGVANMHVTLADERHYACATVI  123 (126)
+T ss_dssp             SSHHHHHHHHHHHHHHHHHHHCCCTTC-CCGGGEEEEECTTSCEEEEECHHHHHHHHHHTCCEEEEEEEECSSEEEEEEE
+T ss_pred             cChHHHHHHHHHHHHHHHHHhCCCccCCcccceEEEEeCCCCCeEEEEeHHHHHHHHHhCCCEEEEEEEcCCCeEEEEEE
+Confidence            5789999999999999965 33      12  245666788999863              3578999999999987765
+
+
+Q query           122 A  122 (245)
+Q Consensus       122 ~  122 (245)
+                      .
+T Consensus       124 ~  124 (126)
+T 5VBX_B          124 I  124 (126)
+T ss_dssp             E
+T ss_pred             E
+Confidence            3
+
+
+No 57
+>5XU7_A Holo-[acyl-carrier-protein] synthase (E.C.2.7.8.7); Gram-negative bacteria, phosphopantetheinyl transferase, homotrimer; 1.84A {Escherichia coli (strain K12)}
+Probab=94.76  E-value=0.005  Score=48.81  Aligned_cols=58  Identities=19%  Similarity=0.170  Sum_probs=44.6  Template_Neff=10.200
+
+Q query            65 KRQAEFLAGRLCARAALFA-LD------GR--AQTPAVGEDRAPVWP--------------AAISGSITHGDRWAAALVA  121 (245)
+Q Consensus        65 kR~aEF~aGR~~Ar~AL~~-lg------~~--~~~~~~g~~r~P~WP--------------~G~~GSISHs~~~a~A~va  121 (245)
+                      +++.+++++|+++|+++.+ ++      .+  .+.+..+++|+|++.              ..+.+||||+++++++++.
+T Consensus        44 ~~~~~~l~~~w~~Kea~~Ka~~~~~~~~~~~~~i~~~~~~~g~p~~~~~~~~~~~~~~~~~~~~~~sish~~~~~~a~~~  123 (126)
+T 5XU7_A           44 HQPVRFLAKRFAVKEAAAKAFGTGIRNGLAFNQFEVFNDELGKPRLRLWGEALKLAEKLGVANMHVTLADERHYACATVI  123 (126)
+T ss_dssp             SSHHHHHHHHHHHHHHHHHHTTC-----CCGGGEEEEECTTSCEEEEECHHHHHHHHHHTCCEEEEEEEECSSEEEEEEE
+T ss_pred             cChHHHHHHHHHHHHHHHHHhCCCccCCcccceEEEEeCCCCCeEEEEeHHHHHHHHHhCCCEEEEEEEcCCCeEEEEEE
+Confidence            5789999999999999965 33      12  245666788999863              3578999999999987765
+
+
+Q query           122 A  122 (245)
+Q Consensus       122 ~  122 (245)
+                      .
+T Consensus       124 ~  124 (126)
+T 5XU7_A          124 I  124 (126)
+T ss_dssp             E
+T ss_pred             E
+Confidence            3
+
+
+No 58
+>5CMO_C Holo-[acyl-carrier-protein] synthase (E.C.2.7.8.7); acpS, transferase, FASII, trimer; HET: GOL; 2.0A {Neisseria meningitidis serogroup C / serotype 2a (strain ATCC 700532 / DSM 15464 / FAM18)}
+Probab=94.66  E-value=0.0057  Score=48.31  Aligned_cols=57  Identities=18%  Similarity=0.183  Sum_probs=44.4  Template_Neff=10.300
+
+Q query            65 KRQAEFLAGRLCARAALFA-LD------GR--AQTPAVGEDRAPVWP--------------AAISGSITHGDRWAAALVA  121 (245)
+Q Consensus        65 kR~aEF~aGR~~Ar~AL~~-lg------~~--~~~~~~g~~r~P~WP--------------~G~~GSISHs~~~a~A~va  121 (245)
+                      +++.+++++|+++|+++.+ ++      ..  .+.+..+++|+|++.              ..+.+|+||+++++++++.
+T Consensus        43 ~~~~~~l~~~~~~KEa~~Ka~~~~~~~~~~~~~i~i~~~~~g~p~~~~~~~~~~~~~~~~~~~~~~sish~~~~~~a~~~  122 (125)
+T 5CMO_C           43 GKPVNYLAKRFAAKEAFAKAVGTGIRGAVSFRNIGIGHDALGKPEFFYGPALSKWLEEQGISRVSLSMSDEEDTVLAFVV  122 (125)
+T ss_dssp             SSHHHHHHHHHHHHHHHHHHTTSCSBTTBCTTTEEEEECTTSCEEEEECHHHHHHHHHTTCCEEEEEEEEETTEEEEEEE
+T ss_pred             CCHHHHHHHHHHHHHHHHHHhcCCCcCCccccceEEEeCCCCCeEEEECHHHHHHHHHcCCcEEEEEEECCCCEEEEEEE
+Confidence            6789999999999999965 33      11  255666788999872              3578999999999987664
+
+
+No 59
+>1F80_B HOLO-(ACYL CARRIER PROTEIN) SYNTHASE (E.C.2.7.8.7); 9-strand pseudo beta barrel holo-(acyl; HET: PN2; 2.3A {Bacillus subtilis} SCOP: d.150.1.2
+Probab=94.63  E-value=0.0059  Score=47.86  Aligned_cols=59  Identities=34%  Similarity=0.391  Sum_probs=45.2  Template_Neff=10.300
+
+Q query            64 AKRQAEFLAGRLCARAALFAL-DG------R--AQTPAVGEDRAPVWP------AAISGSITHGDRWAAALVAA  122 (245)
+Q Consensus        64 ~kR~aEF~aGR~~Ar~AL~~l-g~------~--~~~~~~g~~r~P~WP------~G~~GSISHs~~~a~A~va~  122 (245)
+                      ..++.+++++|+++|+++.+. |.      .  .+.+..+++|+|++.      ..+.+|+||+++++++++..
+T Consensus        42 ~~~~~~~~~~~w~~KEA~~Ka~g~g~~~~~~~~~i~~~~~~~g~p~l~~~~~~~~~~~~sish~~~~~~a~~~~  115 (120)
+T 1F80_B           42 EARKNEFLAGRFAAKEAFSKAFGTGIGRQLSFQDIEIRKDQNGKPYIICTKLSQAAVHVSITHTKEYAAAQVVI  115 (120)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHTSCSSSSCCGGGEEEEECTTSCEEEEETTCSSCEEEEEEEECSSEEEEEEEE
+T ss_pred             HHHhHHHHHHHHHHHHHHHHHhCCCccCCccHHhEEEEeCCCCCEEEEECCcccceEEEEEEeCCCeEEEEEEE
+Confidence            468899999999999999653 31      1  245666778999874      35789999999999876654
+
+
+No 60
+>3QMN_E Holo-[acyl-carrier-protein] synthase (E.C.2.7.8.7); Structural Genomics, Center for Structural; HET: MRD, COA, A3P, MPD, CA, MSE, ACT; 1.85A {Vibrio cholerae O1 biovar El Tor}
+Probab=94.58  E-value=0.0063  Score=48.52  Aligned_cols=58  Identities=29%  Similarity=0.271  Sum_probs=44.5  Template_Neff=10.100
+
+Q query            65 KRQAEFLAGRLCARAALFA-LDG------R--AQTPAVGEDRAPVWP--------------AAISGSITHGDRWAAALVA  121 (245)
+Q Consensus        65 kR~aEF~aGR~~Ar~AL~~-lg~------~--~~~~~~g~~r~P~WP--------------~G~~GSISHs~~~a~A~va  121 (245)
+                      +++.+++++|+++|+++.+ ++.      .  .+.+..+++|+|++.              ..+.+|+||+++++++++.
+T Consensus        46 ~~~~~~l~~~w~~KEA~~Ka~g~~~~~~~~~~~i~i~~~~~g~p~v~~~~~~~~~~~~~~~~~~~~sish~~~~~~a~~~  125 (129)
+T 3QMN_E           46 KQQGRFLAKRFAAKEAASKALGTGIAQGVTFHDFTISHDKLGKPLLILSGQAAELASQLQVENIHLSISDERHYAMATVI  125 (129)
+T ss_dssp             SCHHHHHHHHHHHHHHHHHHTTSCSCTTCCGGGEEEEECTTSCEEEEECHHHHHHHHHTTEEEEEEEEEECSSEEEEEEE
+T ss_pred             hhHHHHHHHHHHHHHHHHHHhCCCccCCCchhhEEEEeCCCCCeEEEEchHHHHHHHhcCCcEEEEEEECCCCeEEEEEE
+Confidence            5788999999999999965 332      1  255666778999863              3588999999999987665
+
+
+Q query           122 A  122 (245)
+Q Consensus       122 ~  122 (245)
+                      .
+T Consensus       126 ~  126 (129)
+T 3QMN_E          126 L  126 (129)
+T ss_dssp             E
+T ss_pred             E
+Confidence            3
+
+
+No 61
+>3QMN_T Holo-[acyl-carrier-protein] synthase (E.C.2.7.8.7); Structural Genomics, Center for Structural; HET: MRD, COA, A3P, MPD, CA, MSE, ACT; 1.85A {Vibrio cholerae O1 biovar El Tor}
+Probab=94.58  E-value=0.0063  Score=48.52  Aligned_cols=58  Identities=29%  Similarity=0.271  Sum_probs=44.5  Template_Neff=10.100
+
+Q query            65 KRQAEFLAGRLCARAALFA-LDG------R--AQTPAVGEDRAPVWP--------------AAISGSITHGDRWAAALVA  121 (245)
+Q Consensus        65 kR~aEF~aGR~~Ar~AL~~-lg~------~--~~~~~~g~~r~P~WP--------------~G~~GSISHs~~~a~A~va  121 (245)
+                      +++.+++++|+++|+++.+ ++.      .  .+.+..+++|+|++.              ..+.+|+||+++++++++.
+T Consensus        46 ~~~~~~l~~~w~~KEA~~Ka~g~~~~~~~~~~~i~i~~~~~g~p~v~~~~~~~~~~~~~~~~~~~~sish~~~~~~a~~~  125 (129)
+T 3QMN_T           46 KQQGRFLAKRFAAKEAASKALGTGIAQGVTFHDFTISHDKLGKPLLILSGQAAELASQLQVENIHLSISDERHYAMATVI  125 (129)
+T ss_dssp             SCHHHHHHHHHHHHHHHHHHHTSCSCTTCCGGGEEEEECTTSCEEEEECHHHHHHHHHTTCCEEEEEEEECSSEEEEEEE
+T ss_pred             hhHHHHHHHHHHHHHHHHHHhCCCccCCCchhhEEEEeCCCCCeEEEEchHHHHHHHhcCCcEEEEEEECCCCeEEEEEE
+Confidence            5788999999999999965 332      1  255666778999863              3588999999999987665
+
+
+Q query           122 A  122 (245)
+Q Consensus       122 ~  122 (245)
+                      .
+T Consensus       126 ~  126 (129)
+T 3QMN_T          126 L  126 (129)
+T ss_dssp             E
+T ss_pred             E
+Confidence            3
+
+
+No 62
+>1FTF_A ACYL CARRIER PROTEIN SYNTHASE (E.C.2.7.8.7); Bacterial fatty acid biosynthesis, Acyl; 2.05A {Streptococcus pneumoniae} SCOP: d.150.1.2
+Probab=94.46  E-value=0.0074  Score=47.86  Aligned_cols=59  Identities=32%  Similarity=0.383  Sum_probs=46.1  Template_Neff=9.900
+
+Q query            64 AKRQAEFLAGRLCARAALFAL-DG-----R--AQTPAVGEDRAPVWPA-----AISGSITHGDRWAAALVAA  122 (245)
+Q Consensus        64 ~kR~aEF~aGR~~Ar~AL~~l-g~-----~--~~~~~~g~~r~P~WP~-----G~~GSISHs~~~a~A~va~  122 (245)
+                      .+++.+++++|+++|+++.+. +.     .  .+.+..+++|+|++..     .+.+|+||+++++++++..
+T Consensus        45 ~~~~~~~l~~~w~~KEA~~Ka~g~~~~~~~~~~i~i~~~~~g~p~~~~~~~~~~~~~s~sh~~~~~~a~~~~  116 (122)
+T 1FTF_A           45 GRRQIEYLAGRWSAKEAFSKAMGTGISKLGFQDLEVLNNERGAPYFSQAPFSGKIWLSISHTDQFVTASVIL  116 (122)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHTTSCHHHHCGGGCEEEECTTSCEEEEECSCSSEEEEEEEECSSEEEEEEEE
+T ss_pred             chHhHHHHHHHHHHHHHHHHHhCCCcccCCcceEEEEeCCCCCeEEEecCCCCeEEEEEEecCCEEEEEEEE
+Confidence            467889999999999999753 31     2  2566677889998753     4889999999999877654
+
+
+No 63
+>1FTH_B ACYL CARRIER PROTEIN SYNTHASE (E.C.2.7.8.7); Bacterial fatty acid biosynthesis, Acyl; HET: A3P; 1.9A {Streptococcus pneumoniae} SCOP: d.150.1.2
+Probab=94.46  E-value=0.0074  Score=47.86  Aligned_cols=59  Identities=32%  Similarity=0.383  Sum_probs=46.1  Template_Neff=9.900
+
+Q query            64 AKRQAEFLAGRLCARAALFAL-DG-----R--AQTPAVGEDRAPVWPA-----AISGSITHGDRWAAALVAA  122 (245)
+Q Consensus        64 ~kR~aEF~aGR~~Ar~AL~~l-g~-----~--~~~~~~g~~r~P~WP~-----G~~GSISHs~~~a~A~va~  122 (245)
+                      .+++.+++++|+++|+++.+. +.     .  .+.+..+++|+|++..     .+.+|+||+++++++++..
+T Consensus        45 ~~~~~~~l~~~w~~KEA~~Ka~g~~~~~~~~~~i~i~~~~~g~p~~~~~~~~~~~~~s~sh~~~~~~a~~~~  116 (122)
+T 1FTH_B           45 GRRQIEYLAGRWSAKEAFSKAMGTGISKLGFQDLEVLNNERGAPYFSQAPFSGKIWLSISHTDQFVTASVIL  116 (122)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHTTSCHHHHCGGGCEEEECTTSCEEEEECSCSSEEEEEEEECSSEEEEEEEE
+T ss_pred             chHhHHHHHHHHHHHHHHHHHhCCCcccCCcceEEEEeCCCCCeEEEecCCCCeEEEEEEecCCEEEEEEEE
+Confidence            467889999999999999753 31     2  2566677889998753     4889999999999877654
+
+
+No 64
+>3GWM_A Holo-[acyl-carrier-protein] synthase (E.C.2.7.8.7); Homo-trimer, 9-stand pseudo beta barrel; HET: SO4; 1.7A {Mycobacterium smegmatis}
+Probab=94.12  E-value=0.011  Score=47.53  Aligned_cols=59  Identities=27%  Similarity=0.248  Sum_probs=45.2  Template_Neff=9.700
+
+Q query            64 AKRQAEFLAGRLCARAALFA-LDG--------------RAQTPAVGEDRAPVWP-----------AAISGSITHGDRWAA  117 (245)
+Q Consensus        64 ~kR~aEF~aGR~~Ar~AL~~-lg~--------------~~~~~~~g~~r~P~WP-----------~G~~GSISHs~~~a~  117 (245)
+                      ++++.+++++|+++|+++.+ ++.              ..+.+..+++|+|++.           ..+.+||||++++++
+T Consensus        42 ~~~~~~~l~~~~~~Kea~~Ka~~~~~~~~~~~~~~~~~~~i~i~~~~~g~p~l~~~~~~~~~~~~~~~~~sish~~~~~~  121 (129)
+T 3GWM_A           42 SSSAARHLAARWAAKEAVIKAWSSSRFSKRPALPEGIHRDIEVVTDMWGRPKVRLSGEIAKHLEDVTIHVSLTHEDQTAA  121 (129)
+T ss_dssp             TSHHHHHHHHHHHHHHHHHHHHHTSTTCCSSSCCTTHHHHEEEEECTTSCEEEEECHHHHHHTTTCEEEEEEEEETTEEE
+T ss_pred             CchHHHHHHHHHHHHHHHHHHhccccccCCCCCCCCCcccEEEEeCCCCCEEEEEcHHHHHHhccceEEEEEEcCCCeEE
+Confidence            47899999999999999965 332              1245666788999863           257899999999998
+
+
+Q query           118 ALVAA  122 (245)
+Q Consensus       118 A~va~  122 (245)
+                      +++..
+T Consensus       122 a~~~~  126 (129)
+T 3GWM_A          122 AVAII  126 (129)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+Confidence            76643
+
+
+No 65
+>5XUK_A Holo-[acyl-carrier-protein] synthase (E.C.2.7.8.7); Gram-negative bacteria, phosphopantetheinyl transferase, homotrimer; HET: COA; 2.3A {Helicobacter pylori (strain ATCC 700392 / 26695)}
+Probab=94.00  E-value=0.013  Score=46.52  Aligned_cols=57  Identities=21%  Similarity=0.257  Sum_probs=43.5  Template_Neff=9.700
+
+Q query            66 RQAEFLAGRLCARAALFAL-DG------R--AQTPAVGEDRAPVWP-----------AAISGSITHGDRWAAALVAA  122 (245)
+Q Consensus        66 R~aEF~aGR~~Ar~AL~~l-g~------~--~~~~~~g~~r~P~WP-----------~G~~GSISHs~~~a~A~va~  122 (245)
+                      ++.+++++|+++|+++.+. +.      +  .+.+..++.|+|++.           ..+.+|+||+++++++++..
+T Consensus        38 ~~~~~l~~~w~~KEa~~Ka~g~~~~~~~~~~~i~~~~~~~g~p~l~~~~~~~~~~~~~~~~~sish~~~~~~a~~~~  114 (119)
+T 5XUK_A           38 DKSSSIAGFFALKEACSKALQVGIGKELSFLDIKISKSPKNAPLITLSKEKMDYFNIQSLSASISHDAGFAIAVVVV  114 (119)
+T ss_dssp             TCHHHHHHHHHHHHHHHHHTTSCSSSSSCGGGEEEEECTTCCEEEEECHHHHHHTTCSCEEEEEEEETTEEEEEEEE
+T ss_pred             cHHHHHHHHHHHHHHHHHHhhccCCCCCCcceEEEEeCCCCCcEEEECHHHHHHcCCcEEEEEEEecCCEEEEEEEE
+Confidence            6789999999999999753 21      1  245556678888873           35788999999999877654
+
+
+No 66
+>2JBZ_A HOLO-[ACYL-CARRIER-PROTEIN] SYNTHASE (E.C.2.7.8.7); ACP, MAGNESIUM, COENZYME A, TRANSFERASE; HET: COA; 1.62A {STREPTOMYCES COELICOLOR}
+Probab=93.78  E-value=0.016  Score=48.18  Aligned_cols=59  Identities=27%  Similarity=0.258  Sum_probs=45.2  Template_Neff=8.900
+
+Q query            64 AKRQAEFLAGRLCARAALFAL-DG------RAQTPAVGEDRAPVWP--------------AAISGSITHGDRWAAALVAA  122 (245)
+Q Consensus        64 ~kR~aEF~aGR~~Ar~AL~~l-g~------~~~~~~~g~~r~P~WP--------------~G~~GSISHs~~~a~A~va~  122 (245)
+                      .+++.+++++|+++|+++.++ +.      ..+.+...++|+|++.              ..+.+|+||+++++++++..
+T Consensus        62 ~~~~~~~l~~~w~~KEA~~Ka~g~~~~~~~~~i~i~~~~~g~p~l~~~~~~~~~~~~~~~~~~~~sish~~~~~~a~~~~  141 (143)
+T 2JBZ_A           62 ERRGVASLAARFAAKEALAKALGAPAGLLWTDAEVWVEAGGRPRLRVTGTVAARAAELGVASWHVSLSHDAGIASAVVIA  141 (143)
+T ss_dssp             SBCCHHHHHHHHHHHHHHHHHTTCCTTCCGGGEEEEECTTSCEEEEECHHHHHHHHHHTCCEEEEEEEEETTEEEEEEEE
+T ss_pred             chhHHHHHHHHHHHHHHHHHHhCCCCCCChhhEEEEeCCCCCEEEEEechHHHHHHHhCCcEEEEEEEecCCEEEEEEEE
+Confidence            368899999999999999653 32      1255666778999863              34789999999999877643
+
+
+No 67
+>2WDS_A HOLO-[ACYL-CARRIER-PROTEIN] SYNTHASE (E.C.2.7.8.7); PHOSPHOPANTETHEINE ARM, FATTY ACID BIOSYNTHESIS; HET: COA; 1.35A {STREPTOMYCES COELICOLOR}
+Probab=93.16  E-value=0.027  Score=46.73  Aligned_cols=57  Identities=25%  Similarity=0.213  Sum_probs=43.2  Template_Neff=9.000
+
+Q query            65 KRQAEFLAGRLCARAALFAL-DG------RAQTPAVGEDRAPVWP--------------AAISGSITHGDRWAAALVA  121 (245)
+Q Consensus        65 kR~aEF~aGR~~Ar~AL~~l-g~------~~~~~~~g~~r~P~WP--------------~G~~GSISHs~~~a~A~va  121 (245)
+                      +++.+++++|+++|+++.+. +.      ..+.+...+.|+|.+.              ..+.+|+||+++++++++.
+T Consensus        63 ~~~~~~l~~~w~~KEA~~Ka~g~~~~~~~~~i~i~~~~~g~p~l~~~~~~~~~~~~~~~~~~~vsish~~~~~~a~~~  140 (143)
+T 2WDS_A           63 RRGVASLAARFAAKEALAKALGAPAGLLWTDAEVWVEAGGRPRLRVTGTVAARAAELGVASWHVSLSADAGIASAVVI  140 (143)
+T ss_dssp             BCCHHHHHHHHHHHHHHHHHTTCCTTCCGGGEEEEECTTSCEEEEECHHHHHHHHHHTCCEEEEEEEEETTEEEEEEE
+T ss_pred             hhHHHHHHHHHHHHHHHHHHhCCCCCCCHhhEEEEeCCCCCEEEEEchhHHHHHHHhCCCEEEEEEEecCCeEEEEEE
+Confidence            67899999999999999753 31      1245556678888752              3578999999999987664
+
+
+No 68
+>3NFD_E Phosphopantetheine protein transferase, Ppt1p; acyl carrier protein synthase, Mycobacterium; HET: COA; 1.89A {Corynebacterium ammoniagenes}
+Probab=92.55  E-value=0.043  Score=46.93  Aligned_cols=58  Identities=22%  Similarity=0.216  Sum_probs=44.4  Template_Neff=7.800
+
+Q query            65 KRQAEFLAGRLCARAALFA-LD--------------GR--AQTPAVGEDRAPVWP---------------AAISGSITHG  112 (245)
+Q Consensus        65 kR~aEF~aGR~~Ar~AL~~-lg--------------~~--~~~~~~g~~r~P~WP---------------~G~~GSISHs  112 (245)
+                      +++.+++++|+++|+++.+ ++              ..  .+.+..+.+|+|++.               ..+.+||||+
+T Consensus        60 ~~~~~~la~rwa~KEA~~Ka~g~g~~~~~~~~~~~~~~~~~i~v~~~~~gkp~l~~~~~~~~~~~~~~~~~~~~vsish~  139 (153)
+T 3NFD_E           60 GSRTEHLAGRWAAKEAFIKAWSQAIYGKPPVIEPDLVNFAEIEVLPDRWGRVALQLKGEVAAKLQESIGDVELALSISHD  139 (153)
+T ss_dssp             CSSHHHHHHHHHHHHHHHHHHHHHTTTSCCSSCGGGCCGGGEEEEECTTSCEEEEECHHHHHHHHHHHCSEEEEEEEEEE
+T ss_pred             ccHHHHHHHHHHHHHHHHHHHhchhcCCCCCCCcccCCHhheEEEeCCCCCEEEEEeHHHHHHHHHhhCCcEEEEEEecc
+Confidence            6889999999999999854 33              11  245556678999763               2578899999
+
+
+Q query           113 DRWAAALVAA  122 (245)
+Q Consensus       113 ~~~a~A~va~  122 (245)
+                      ++++++++..
+T Consensus       140 ~~~a~a~~~~  149 (153)
+T 3NFD_E          140 GDYATALCLL  149 (153)
+T ss_dssp             TTEEEEEEEE
+T ss_pred             cCeEEEEEEE
+Confidence            9999887654
+
+
+No 69
+>2WAT_A 3-OXOACYL-[ACYL-CARRIER-PROTEIN] SYNTHASE (E.C.2.7.8.7, 2.3.1.41); COA, FAS, PPT, NAD, NADP; HET: COA; 2.2A {SACCHAROMYCES CEREVISIAE}
+Probab=92.26  E-value=0.051  Score=43.22  Aligned_cols=58  Identities=24%  Similarity=0.260  Sum_probs=44.5  Template_Neff=9.800
+
+Q query            65 KRQAEFLAGRLCARAALFA-LDG---------RAQTPAVGEDRAPVWP--------------AAISGSITHGDRWAAALV  120 (245)
+Q Consensus        65 kR~aEF~aGR~~Ar~AL~~-lg~---------~~~~~~~g~~r~P~WP--------------~G~~GSISHs~~~a~A~v  120 (245)
+                      .++.+++++|+++|+++.+ +|.         ..+.+..+++|+|++.              ..+.+|+||+++++++++
+T Consensus        38 ~~~~~~l~~~w~~KEA~~Ka~g~~~~g~~~~~~~i~i~~~~~g~p~~~~~~~~~~~~~~~~~~~~~~sish~~~~~~a~~  117 (122)
+T 2WAT_A           38 PSVQSSFAGTWSAKEAVFKSLGVKSLGGGAALKDIEIVRVNKNAPAVELHGNAKKAAEEAGVTDVKVSISHDDLQAVAVA  117 (122)
+T ss_dssp             SSHHHHHHHHHHHHHHHHHHHCCSCCSSCSCCTTEEEECCTTSCCEEEECHHHHHHHHHTTCCEEEEEEEECSSEEEEEE
+T ss_pred             CCHHHHHHHHHHHHHHHHHHhCCcccCCCCChhhEEEEEcCCCCeEEEEchhHHHHHHHhCCCEEEEEEEecCCeEEEEE
+Confidence            3688999999999999864 332         1245667789999873              347899999999998876
+
+
+Q query           121 AA  122 (245)
+Q Consensus       121 a~  122 (245)
+                      ..
+T Consensus       118 ~~  119 (122)
+T 2WAT_A          118 VS  119 (122)
+T ss_dssp             EE
+T ss_pred             EE
+Confidence            54
+
+
+No 70
+>2WAS_F 3-OXOACYL-[ACYL-CARRIER-PROTEIN] SYNTHASE (E.C.2.7.8.7, 2.3.1.41); COA, FAS, PPT, NAD, NADP; 1.9A {SACCHAROMYCES CEREVISIAE}
+Probab=92.25  E-value=0.051  Score=43.56  Aligned_cols=58  Identities=24%  Similarity=0.253  Sum_probs=40.4  Template_Neff=9.400
+
+Q query            65 KRQAEFLAGRLCARAALFA-LDG-------R--AQTPAVGEDRAPVWP--------------AAISGSITHGDRWAAALV  120 (245)
+Q Consensus        65 kR~aEF~aGR~~Ar~AL~~-lg~-------~--~~~~~~g~~r~P~WP--------------~G~~GSISHs~~~a~A~v  120 (245)
+                      +++.+++++|+++|+++.+ +|.       .  .+.+...+.|+|++.              ..+.+|+||+++++++++
+T Consensus        38 ~~~~~~l~~~w~~KEA~~Ka~g~~~~g~~~~~~~i~i~~~~~g~p~~~~~~~~~~~~~~~~~~~~~~sish~~~~~~a~~  117 (122)
+T 2WAS_F           38 PSVQSSFAGTWSAKEAVFKSLGVKSLGGGAALKDIEIVRTNKNAPAVELHGNAKKAAEEAGVTDVKVSISHDDLQAVAVA  117 (122)
+T ss_dssp             SSHHHHHHHHHHHHHHHHHHC----------CTTEEEEEC---CEEEEECHHHHHHHHTTTCCEEEEEEEECSSEEEEEE
+T ss_pred             CCHHHHHHHHHHHHHHHHHHhCCcccCCCCccceEEEEeCCCCCeEEEEChhHHHHHHHcCCCEEEEEEEecCCeEEEEE
+Confidence            4678999999999999975 331       1  255666789999863              246899999999998766
+
+
+Q query           121 AA  122 (245)
+Q Consensus       121 a~  122 (245)
+                      ..
+T Consensus       118 ~~  119 (122)
+T 2WAS_F          118 VS  119 (122)
+T ss_dssp             EE
+T ss_pred             EE
+Confidence            53
+
+
+No 71
+>2WAT_F 3-OXOACYL-[ACYL-CARRIER-PROTEIN] SYNTHASE (E.C.2.7.8.7, 2.3.1.41); COA, FAS, PPT, NAD, NADP; HET: COA; 2.2A {SACCHAROMYCES CEREVISIAE}
+Probab=91.66  E-value=0.071  Score=42.65  Aligned_cols=58  Identities=24%  Similarity=0.241  Sum_probs=43.6  Template_Neff=9.500
+
+Q query            65 KRQAEFLAGRLCARAALFA-LDG-------R--AQTPAVGEDRAPVWP--------------AAISGSITHGDRWAAALV  120 (245)
+Q Consensus        65 kR~aEF~aGR~~Ar~AL~~-lg~-------~--~~~~~~g~~r~P~WP--------------~G~~GSISHs~~~a~A~v  120 (245)
+                      +++.+++++|+++|+++.+ +|.       .  .+.+..+++|+|++.              ..+.+||||+++++++++
+T Consensus        38 ~~~~~~l~~~w~~KEA~~Ka~g~~~~g~~~~~~~i~i~~~~~g~p~~~~~~~~~~~~~~~~~~~~~~sish~~~~~~a~~  117 (122)
+T 2WAT_F           38 PSVQSSFAGTWSAKEAVFKSLGVKSLGGGAALKDIEIVRVNKNAPAVELHGNAKKAAEEAGVTDVKVSISHDDLQAVAVA  117 (122)
+T ss_dssp             SSHHHHHHHHHHHHHHHHHHHCCC-----CCCTTEEEEESSSSCEEEEECHHHHHHHHHTTCCEEEEEEEECSSCEEEEE
+T ss_pred             CCHHHHHHHHHHHHHHHHHHhCCcccCCCCCceeEEEEECCCCCeEEEEChhHHHHHHHcCCCEEEEEEEecCCeEEEEE
+Confidence            4678999999999999965 332       1  245666788999762              246899999999998776
+
+
+Q query           121 AA  122 (245)
+Q Consensus       121 a~  122 (245)
+                      ..
+T Consensus       118 ~~  119 (122)
+T 2WAT_F          118 VS  119 (122)
+T ss_dssp             EE
+T ss_pred             EE
+Confidence            53
+
+
+No 72
+>3NFD_F Phosphopantetheine protein transferase, Ppt1p; acyl carrier protein synthase, Mycobacterium; HET: COA, MSE; 1.89A {Corynebacterium ammoniagenes}
+Probab=88.93  E-value=0.22  Score=42.55  Aligned_cols=59  Identities=24%  Similarity=0.226  Sum_probs=45.0  Template_Neff=8.100
+
+Q query            64 AKRQAEFLAGRLCARAALFA-LD--------------GR--AQTPAVGEDRAPVWP---------------AAISGSITH  111 (245)
+Q Consensus        64 ~kR~aEF~aGR~~Ar~AL~~-lg--------------~~--~~~~~~g~~r~P~WP---------------~G~~GSISH  111 (245)
+                      ..++.+++++|+++|+++.+ ++              ..  .+.+..+++|+|++.               ..+.+|+||
+T Consensus        59 ~~~~~~~l~~~w~~KEA~~Ka~g~~~~~~~~~~~~~~~~~~~i~i~~~~~Gkp~l~~~~~~~~~~~~~~~~~~~~~siSh  138 (153)
+T 3NFD_F           59 AGSRTEHLAGRWAAKEAFIKAWSQAIYGKPPVIEPDLVNFAEIEVLPDRWGRVALQLKGEVAAKLQESIGDVELALSISH  138 (153)
+T ss_dssp             CCHHHHHHHHHHHHHHHHHHHHHHHTTTSCCSSCTTTCCGGGEEEEECTTSCEEEEECHHHHHHHHHHHCSEEEEEEEEE
+T ss_pred             ccchHHHHHHHHHHHHHHHHHhhchhcCCCCCCCcccCCcceEEEEeCCCCCEEEEEcHHHHHHHHHhhCCeEEEEEEec
+Confidence            36789999999999999865 33              11  245556778999863               257899999
+
+
+Q query           112 GDRWAAALVAA  122 (245)
+Q Consensus       112 s~~~a~A~va~  122 (245)
+                      +++++++++..
+T Consensus       139 ~~~~~va~~~~  149 (153)
+T 3NFD_F          139 DGDYATALCLL  149 (153)
+T ss_dssp             ETTEEEEEEEE
+T ss_pred             CcCeEEEEEEE
+Confidence            99999887764
+
+
+No 73
+>4JM7_A Holo-[acyl-carrier-protein] synthase (E.C.2.7.8.7); holo-(acyl-carrier-protein) synthase, Structural Genomics, Infectious; 1.824A {Staphylococcus aureus}
+Probab=88.35  E-value=0.26  Score=40.95  Aligned_cols=58  Identities=26%  Similarity=0.298  Sum_probs=42.1  Template_Neff=9.100
+
+Q query            65 KRQAEFLAGRLCARAALFAL-DG------R--AQTPAVGEDRAPVWPA---AISGSITHGDRWAAALVAA  122 (245)
+Q Consensus        65 kR~aEF~aGR~~Ar~AL~~l-g~------~--~~~~~~g~~r~P~WP~---G~~GSISHs~~~a~A~va~  122 (245)
+                      +++.+++++|+++|+++.+. |.      +  .+.+..+.+|+|.+..   .+.+|++|+++++++++..
+T Consensus        69 ~~~~~~~~~~W~~KEA~~Ka~g~gl~~~~~~~~i~~~~~~~g~p~~~~~~~~~~~sis~~~~~~~ava~~  138 (143)
+T 4JM7_A           69 QRKIEFLAGRFATKEAFSKALGTGLGKHVAFNDIDCYNDELGKPKIDYEGFIVHVSISHTEHYAMSQVVL  138 (143)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHC------CCGGGCCEEEC--CCEEECCTTEEEEEEEEECSSEEEEEEEE
+T ss_pred             HHHHHHHHHHHHHHHHHHHHhCCCCccCcchhhEEEEeCCCCCEEEEeCCcEEEEEEEecCCEEEEEEEE
+Confidence            67889999999999999653 32      1  2455556788887642   5789999999999877665
+
+
+No 74
+>4JM7_B Holo-[acyl-carrier-protein] synthase (E.C.2.7.8.7); holo-(acyl-carrier-protein) synthase, Structural Genomics, Infectious; 1.824A {Staphylococcus aureus}
+Probab=88.35  E-value=0.26  Score=40.95  Aligned_cols=58  Identities=26%  Similarity=0.298  Sum_probs=42.9  Template_Neff=9.100
+
+Q query            65 KRQAEFLAGRLCARAALFAL-DG------R--AQTPAVGEDRAPVWPA---AISGSITHGDRWAAALVAA  122 (245)
+Q Consensus        65 kR~aEF~aGR~~Ar~AL~~l-g~------~--~~~~~~g~~r~P~WP~---G~~GSISHs~~~a~A~va~  122 (245)
+                      +++.+++++|+++|+++.+. |.      +  .+.+..+.+|+|.+..   .+.+|++|+++++++++..
+T Consensus        69 ~~~~~~~~~~W~~KEA~~Ka~g~gl~~~~~~~~i~~~~~~~g~p~~~~~~~~~~~sis~~~~~~~ava~~  138 (143)
+T 4JM7_B           69 QRKIEFLAGRFATKEAFSKALGTGLGKHVAFNDIDCYNDELGKPKIDYEGFIVHVSISHTEHYAMSQVVL  138 (143)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHC------CCGGGCCCEEC-CCCEECCCTTEEEEEEEEECSSEEEEEEEE
+T ss_pred             HHHHHHHHHHHHHHHHHHHHhCCCCccCcchhhEEEEeCCCCCEEEEeCCcEEEEEEEecCCEEEEEEEE
+Confidence            67889999999999999653 32      1  2455556788887642   5789999999999877665
+
+
+No 75
+>6U5V_A Fatty acid synthase subunit alpha; Fungal Fatty acid synthase, TRANSFERASE; HET: FMN; 2.8A {Candida albicans}
+Probab=21.62  E-value=90  Score=38.24  Aligned_cols=56  Identities=23%  Similarity=0.224  Sum_probs=0.0  Template_Neff=7.100
+
+Q query            65 KRQAEFLAGRLCARAALFA-LDGR---------AQTPAVGEDRAPVWP--------------AAISGSITHGDRWAAALV  120 (245)
+Q Consensus        65 kR~aEF~aGR~~Ar~AL~~-lg~~---------~~~~~~g~~r~P~WP--------------~G~~GSISHs~~~a~A~v  120 (245)
+                      .++.+++++|+++|+++-+ +|..         .+.+..+.+|+|.+-              ..+.+||||+.+++++++
+T Consensus      1802 ~~~~~~fa~~WaaKEAvlKAlG~gl~~~~~~l~~iei~~~~~g~p~v~l~g~~~~~~~~~~~~~~~~sis~~~~~a~Ava 1881 (1885)
+T 6U5V_A         1802 AHPQASFTGTWSAKEAVFKALGVESKGAGASLIDIEITRDVNGAPKVILHGEAKKAAAKAGVKNVNISISHDDFQATAVA 1881 (1885)
+T ss_dssp             --------------------------------------------------------------------------------
+T ss_pred             CChhHHHHHHHHHHHHHHHHhCCcccCCCCChhhEEEEeCCCCCeEEEEcchHHHHHHHcCCcEEEEEEEcCCCEEEEEE
+Confidence            5778999999999999854 4321         234445567777753              257899999999987654
+
+
