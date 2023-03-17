@@ -32,31 +32,7 @@ from openfold.utils.loss import (
     compute_tm,
     compute_predicted_aligned_error,
 )
-'''
-def qprint(classname, location, item):
-    print('-'*8)
-    print(classname, location)
-    #print(item)
-    if type(item) is dict: print(item.keys())
-    if torch.is_tensor(item): print(item.size())
-    # save tensor to colab
-    torch.save(item, '/content/drive/My Drive/Colab Notebooks/' + classname + location + ".pt")
 
-def #modify(second_to_last_layer):
-    print('will #modify: ', second_to_last_layer.size())
-    
-    try:
-        nudge_value = torch.load('/content/drive/My Drive/Colab Notebooks/nudge_value.pt').item()
-        print('Using nudge_value: ', nudge_value)
-    except:
-        print('File not found: /content/drive/My Drive/Colab Notebooks/nudge_value.pt')
-        print('Setting nudge_value to 1')
-        nudge_value = 1
-    
-    modified_second_to_last_layer = torch.mul(second_to_last_layer, 1)#nudge_value)
-    
-    return modified_second_to_last_layer
-'''
 
 class AuxiliaryHeads(nn.Module):
     def __init__(self, config):
@@ -179,7 +155,7 @@ class DistogramHead(nn.Module):
 
         self.linear = Linear(self.c_z, self.no_bins, init="final")
 
-    def forward(self, z):  # [*, N, N, C_z]
+    def _forward(self, z):  # [*, N, N, C_z]
         """
         Args:
             z:
@@ -202,6 +178,13 @@ class DistogramHead(nn.Module):
         #qprint("DistogramHead", "After", logits)
 
         return logits
+    
+    def forward(self, z): 
+        if(is_fp16_enabled()):
+            with torch.cuda.amp.autocast(enabled=False):
+                return self._forward(z.float())
+        else:
+            return self._forward(z)
 
 
 class TMScoreHead(nn.Module):
