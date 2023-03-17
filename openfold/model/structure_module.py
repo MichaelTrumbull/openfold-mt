@@ -663,11 +663,18 @@ class StructureModule(nn.Module):
         ** TODO: Save this at every recycle!!!!! otherwise they are overwritten each recycle.
         '''
         LATENT_SPACE_SAVE_PATH = 'predictions/tmp/' # /tmp folder should be created (then modified) in run_pretrained_openfold.py
-        torch.save(evoformer_output_dict,LATENT_SPACE_SAVE_PATH + 'evoformer_output_dict.dict')
+        name_file = 'evoformer_output_dict_recy_-_.pt'
+        torch.save(evoformer_output_dict,LATENT_SPACE_SAVE_PATH + name_file)
         ######################
+        
+        
 
         s = evoformer_output_dict["single"]
-        
+        ######## SAVE ########
+        name_file = "s_evo_block_recy_-_.pt" # - is renamed to recycle number in model.py
+        torch.save(s,LATENT_SPACE_SAVE_PATH + name_file)
+        ######################
+
         if mask is None:
             # [*, N]
             mask = s.new_ones(s.shape[:-1])
@@ -774,14 +781,18 @@ class StructureModule(nn.Module):
                 "positions": pred_xyz,
                 "states": s,
             }
+            ######### SAVE ########
+            ## here I will try to grab the backbone as a tensor out of preds['frames']
+            #name_file = "frames_iter_{}_recy_-_.pt".format(i) # - is renamed to recycle number in model.py
+            #torch.save(preds["frames"],LATENT_SPACE_SAVE_PATH + name_file)
+            #######################
+            ######### SAVE ########
+            #name_file = "sidechainframes_iter_{}_recy_-_.pt".format(i) # - is renamed to recycle number in model.py
+            #torch.save(preds["sidechain_frames"],LATENT_SPACE_SAVE_PATH + name_file)
+            #######################
             ######## SAVE ########
-            # here I will try to grab the backbone as a tensor out of preds['frames']
-            name_file = "frames_iter_{}_recy_-_.pt".format(i) # - is renamed to recycle number in model.py
-            torch.save(preds["frames"],LATENT_SPACE_SAVE_PATH + name_file)
-            ######################
-            ######## SAVE ########
-            name_file = "sidechainframes_iter_{}_recy_-_.pt".format(i) # - is renamed to recycle number in model.py
-            torch.save(preds["sidechain_frames"],LATENT_SPACE_SAVE_PATH + name_file)
+            name_file = "positions_iter_{}_recy_-_.pt".format(i) # - is renamed to recycle number in model.py
+            torch.save(preds["positions"],LATENT_SPACE_SAVE_PATH + name_file)
             ######################
 
             outputs.append(preds)

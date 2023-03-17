@@ -14,4 +14,3 @@ CUDA_VISIBLE_DEVICES=1 python3 run_pretrained_openfold.py \
     --use_precomputed_alignments /data/mjt2211/openfold-mt/struct_modu_only_experiment/alignments \
     --subtract_plddt \
     --skip_relaxation
-
