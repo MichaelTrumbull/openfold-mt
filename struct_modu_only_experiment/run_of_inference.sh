@@ -14,3 +14,10 @@ CUDA_VISIBLE_DEVICES=0 python3 run_pretrained_openfold.py \
     --use_precomputed_alignments /data/mjt2211/openfold-mt/struct_modu_only_experiment/alignments \
     --subtract_plddt \
     --skip_relaxation
+
+##
+# note: this template free run requires
+#   1. >model 3
+#   2. finetuning with no template
+#   3. removed of .hhr file from alignment data
+##
