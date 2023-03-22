@@ -22,10 +22,6 @@ MODIFIED FOR SECOND TO LAST LAYER ACTIVATION INVESTIGATION
 ## test modification line...
 ## another test mod
 
-### needed to add? ###
-is_fp16_enabled = False
-#####
-
 
 
 import torch
