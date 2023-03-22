@@ -33,7 +33,7 @@ from openfold.utils.loss import (
     compute_tm,
     compute_predicted_aligned_error,
 )
-
+from openfold.utils.precision_utils import is_fp16_enabled
 
 class AuxiliaryHeads(nn.Module):
     def __init__(self, config):
