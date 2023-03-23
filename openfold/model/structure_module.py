@@ -47,6 +47,7 @@ from openfold.utils.tensor_utils import (
 )
 import numpy as np
 import pickle
+import os.path
 
 ##################
 
@@ -634,6 +635,11 @@ class StructureModule(nn.Module):
             self.no_angles,
             self.epsilon,
         )
+        ###### NEW CODDE
+        with open('iteration_DOE_file.txt', 'r') as f: hold = f.read()
+        self.r_zeroed = hold.split('_')[1]
+        self.i_zeroed = hold.split('_')[3]
+        ##################
 
     def forward(
         self,
@@ -664,8 +670,9 @@ class StructureModule(nn.Module):
         '''
         LATENT_SPACE_SAVE_PATH = 'predictions/tmp/' # /tmp folder should be created (then modified) in run_pretrained_openfold.py
         name_file = 'evoformer_output_dict_recy_-_.pt'
-        torch.save(evoformer_output_dict,LATENT_SPACE_SAVE_PATH + name_file)
+        #torch.save(evoformer_output_dict,LATENT_SPACE_SAVE_PATH + name_file)
         ######################
+        
         
         
 
@@ -674,6 +681,18 @@ class StructureModule(nn.Module):
         name_file = "s_evo_block_recy_-_.pt" # - is renamed to recycle number in model.py
         torch.save(s,LATENT_SPACE_SAVE_PATH + name_file)
         ######################
+
+        ##### new code: get current cycle_no by reading s_evo_
+        current_r = -1
+        if os.path.isfile('predictions/tmp/s_evo_block_recy_2_.pt'):
+            current_r = 3
+        elif os.path.isfile('predictions/tmp/s_evo_block_recy_1_.pt'):
+            current_r = 2
+        elif os.path.isfile('predictions/tmp/s_evo_block_recy_0_.pt'):
+            current_r = 1
+        else:
+            current_r = 0
+        
 
         if mask is None:
             # [*, N]
@@ -729,6 +748,9 @@ class StructureModule(nn.Module):
             ###if i == (self.no_blocks - 1): s = s * 0
 
             ### TEST ###
+            if self.i_zeroed == i and self.r_zeroed == current_r:
+                print(f'zeroing s at r {current_r} i {i}')
+                s=s*0
 
 
             s = self.ipa_dropout(s)  ################### line 7 ################### 

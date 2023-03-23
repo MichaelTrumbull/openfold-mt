@@ -4,6 +4,9 @@ source ~/.bashrc
 source /data/mjt2211/openfold-mt/lib/conda/bin/activate
 conda activate openfold_venv
 
+## this is the file that will be loaded in to determine where to zero 
+python3 set_iteration_doe_file.py -r 0 -i 0
+
 CUDA_VISIBLE_DEVICES=0 python3 run_pretrained_openfold.py \
     /data/mjt2211/openfold-mt/struct_modu_only_experiment/fasta_dir \
     /data/mjt2211/openfold-mt/struct_modu_only_experiment/mmcif_files \
@@ -14,6 +17,8 @@ CUDA_VISIBLE_DEVICES=0 python3 run_pretrained_openfold.py \
     --use_precomputed_alignments /data/mjt2211/openfold-mt/struct_modu_only_experiment/alignments \
     --subtract_plddt \
     --skip_relaxation
+
+
 
 ##
 # note: this template free run requires

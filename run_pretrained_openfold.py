@@ -60,7 +60,6 @@ from scripts.utils import add_data_args
 
 TRACING_INTERVAL = 50
 
-
 def precompute_alignments(tags, seqs, alignment_dir, args):
     for tag, seq in zip(tags, seqs):
         tmp_fasta_path = os.path.join(args.output_dir, f"tmp_{os.getpid()}.fasta")
@@ -295,8 +294,12 @@ def main(args):
                     pickle.dump(out, fp, protocol=pickle.HIGHEST_PROTOCOL)
 
                 logger.info(f"Model output written to {output_dict_path}...")
+            
             ######################### rename tmp/ file to this protein name {tag}
-            os.rename('predictions/tmp/','predictions/{}_lspace/'.format(tag))
+            with open('iteration_DOE_file.txt', 'r') as f: hold = f.read()
+            r_zeroed = hold.split('_')[1]
+            i_zeroed = hold.split('_')[3]
+            os.rename('predictions/tmp/',f'predictions/{tag}_lspace_zeroedat_r_{r_zeroed}_i_{i_zeroed}/')
             #####################################
 
 
