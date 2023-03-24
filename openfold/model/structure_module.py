@@ -747,6 +747,13 @@ class StructureModule(nn.Module):
             ###if i == (self.no_blocks - 1): s = s * 0
 
             ### TEST ###
+            print(self.i_zeroed == i)
+            print(self.r_zeroed == current_r)
+            print((self.i_zeroed == i) and (self.r_zeroed == current_r))
+            print(type(i))
+            print(type(self.i_zeroed))
+            print(current_r)
+            print(self.r_zeroed)
             if (self.i_zeroed == i) and (self.r_zeroed == current_r):
                 print(f'zeroing s at r {current_r} i {i}')
                 print()
