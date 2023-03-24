@@ -747,11 +747,12 @@ class StructureModule(nn.Module):
             ###if i == (self.no_blocks - 1): s = s * 0
 
             ### TEST ###
-            if self.i_zeroed == i and self.r_zeroed == current_r:
+            if (self.i_zeroed == i) and (self.r_zeroed == current_r):
                 print(f'zeroing s at r {current_r} i {i}')
+                print()
                 s=s*0
             else:
-                print(f'NOT purturbing this step r{current_r}i{i}. looking for r{self.i_zeroed}i{self.r_zeroed}')
+                print(f'NOT purturbing this step r{current_r}i{i}. looking for r{self.r_zeroed}i{self.i_zeroed}')
 
 
             s = self.ipa_dropout(s)  ################### line 7 ################### 
