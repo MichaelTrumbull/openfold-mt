@@ -6,10 +6,10 @@
 #SBATCH -p gpu-a100          # Queue (partition) name
 #SBATCH -N 1               # Total # of nodes
 #SBATCH -n 1              # Total # of mpi tasks
-#SBATCH -t 04:00:00        # Run time (hh:mm:ss)
+#SBATCH -t 07:00:00        # Run time (hh:mm:ss)
 
 source ~/.bashrc
-    source /work/09123/mjt2211/ls6/openfold-mt/lib/conda/bin/activate
+source /work/09123/mjt2211/ls6/openfold-mt/lib/conda/bin/activate
 conda activate openfold_venv
 
 for r in 0 1 2 3
