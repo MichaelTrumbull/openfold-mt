@@ -9,8 +9,7 @@
 #SBATCH -t 04:00:00        # Run time (hh:mm:ss)
 
 source ~/.bashrc
-source /data/mjt2211/openfold-mt/lib/conda/bin/activate
-#######source /work/09123/mjt2211/ls6/openfold-mt/lib/conda/bin/activate
+    source /work/09123/mjt2211/ls6/openfold-mt/lib/conda/bin/activate
 conda activate openfold_venv
 
 for r in 0 1 2 3
@@ -21,18 +20,30 @@ do
 python3 set_iteration_doe_file.py -r $r -i $i
 
 CUDA_VISIBLE_DEVICES=0 python3 run_pretrained_openfold.py \
-    /data/mjt2211/openfold-mt/struct_modu_only_experiment/fasta_dir \
-    /data/mjt2211/openfold-mt/struct_modu_only_experiment/mmcif_files \
+    /work/09123/mjt2211/ls6/openfold-mt/fasta_dir_7bcz_A \
+    /scratch/00946/zzhang/data/openfold/ls6-tacc/pdb_mmcif/mmcif_files \
     --output_dir ./ \
     --model_device "cuda:0" \
     --config_preset "model_4_ptm" \
     --openfold_checkpoint_path openfold/resources/openfold_params/finetuning_no_templ_ptm_1.pt \
-    --use_precomputed_alignments /data/mjt2211/openfold-mt/struct_modu_only_experiment/alignments \
+    --use_precomputed_alignments /scratch/09120/sk844/validation_set_cameo/alignments \
     --subtract_plddt \
     --skip_relaxation
 done
 done
 
+python3 set_iteration_doe_file.py -r -1 -i -1
+
+CUDA_VISIBLE_DEVICES=0 python3 run_pretrained_openfold.py \
+    /work/09123/mjt2211/ls6/openfold-mt/fasta_dir_7bcz_A \
+    /scratch/00946/zzhang/data/openfold/ls6-tacc/pdb_mmcif/mmcif_files \
+    --output_dir ./ \
+    --model_device "cuda:0" \
+    --config_preset "model_4_ptm" \
+    --openfold_checkpoint_path openfold/resources/openfold_params/finetuning_no_templ_ptm_1.pt \
+    --use_precomputed_alignments /scratch/09120/sk844/validation_set_cameo/alignments \
+    --subtract_plddt \
+    --skip_relaxation
 
 ##
 # note: this template free run requires

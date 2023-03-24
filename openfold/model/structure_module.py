@@ -683,7 +683,6 @@ class StructureModule(nn.Module):
         ######################
 
         ##### new code: get current cycle_no by reading s_evo_
-        current_r = -1
         if os.path.isfile('predictions/tmp/s_evo_block_recy_2_.pt'):
             current_r = 3
         elif os.path.isfile('predictions/tmp/s_evo_block_recy_1_.pt'):
