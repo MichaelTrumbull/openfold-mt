@@ -672,15 +672,6 @@ class StructureModule(nn.Module):
         name_file = 'evoformer_output_dict_recy_-_.pt'
         #torch.save(evoformer_output_dict,LATENT_SPACE_SAVE_PATH + name_file)
         ######################
-        
-        
-        
-
-        s = evoformer_output_dict["single"]
-        ######## SAVE ########
-        name_file = "s_evo_block_recy_-_.pt" # - is renamed to recycle number in model.py
-        torch.save(s,LATENT_SPACE_SAVE_PATH + name_file)
-        ######################
 
         ##### new code: get current cycle_no by reading s_evo_
         if os.path.isfile('predictions/tmp/s_evo_block_recy_2_.pt'):
@@ -691,6 +682,21 @@ class StructureModule(nn.Module):
             current_r = 1
         else:
             current_r = 0
+        
+
+        s = evoformer_output_dict["single"]
+
+        if (int(self.i_zeroed) == -1) and (int(self.r_zeroed) == int(current_r)):
+            print(f'zeroing s at r {current_r} i {-1}')
+            s=s*0
+
+        
+        ######## SAVE ########
+        name_file = "s_evo_block_recy_-_.pt" # - is renamed to recycle number in model.py
+        torch.save(s,LATENT_SPACE_SAVE_PATH + name_file)
+        ######################
+
+        
         
 
         if mask is None:
@@ -746,17 +752,17 @@ class StructureModule(nn.Module):
             ###s = s * 0
             ###if i == (self.no_blocks - 1): s = s * 0
 
-            ### TEST ###
-            if (int(self.i_zeroed) == int(i)) and (int(self.r_zeroed) == int(current_r)):
-                print(f'zeroing s at r {current_r} i {i}')
-                s=s*0
-            else:
-                print(f'NOT purturbing this step r{current_r}i{i}. looking for r{self.r_zeroed}i{self.i_zeroed}')
+
 
 
             s = self.ipa_dropout(s)  ################### line 7 ################### 
             s = self.layer_norm_ipa(s) ################### line 7 ################### 
             s = self.transition(s) ########## line 8, 9 #############
+
+            if (int(self.i_zeroed) == int(i)) and (int(self.r_zeroed) == int(current_r)):
+                print(f'zeroing s at r {current_r} i {i}')
+                s=s*0
+            
             ######## SAVE ########
             name_file = "s_iter_{}_recy_-_.pt".format(i) # - is renamed to recycle number in model.py
             torch.save(s,LATENT_SPACE_SAVE_PATH + name_file)
