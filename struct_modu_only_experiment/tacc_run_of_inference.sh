@@ -14,7 +14,7 @@ conda activate openfold_venv
 
 for r in 0 1 2 3
 do
-for i in 0 1 2 3 4 5 6 7
+for i in -1 0 1 2 3 4 5 6 7
 do
 ## this is the file that will be loaded in to determine where to zero 
 python3 set_iteration_doe_file.py -r $r -i $i
