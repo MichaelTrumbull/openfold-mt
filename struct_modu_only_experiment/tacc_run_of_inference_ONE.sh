@@ -9,7 +9,7 @@
 #SBATCH -t 00:10:00        # Run time (hh:mm:ss)
 
 source ~/.bashrc
-    source /work/09123/mjt2211/ls6/openfold-mt/lib/conda/bin/activate
+source /work/09123/mjt2211/ls6/openfold-mt/lib/conda/bin/activate
 conda activate openfold_venv
 
 

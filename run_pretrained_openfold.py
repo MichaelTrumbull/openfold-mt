@@ -301,6 +301,8 @@ def main(args):
             i_zeroed = hold.split('_')[3]
             os.rename('predictions/tmp/',f'predictions/{tag}_lspace_zeroedat_r_{r_zeroed}_i_{i_zeroed}/')
             #####################################
+    # zip for easy download
+    os.system("tar -cf zip.tar.gz predictions")
 
 
 if __name__ == "__main__":
