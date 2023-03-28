@@ -273,7 +273,7 @@ def main(args):
             )
             ### added tmp/ so the path is saved into the corresponding purtubation folder
             unrelaxed_output_path = os.path.join(
-                output_directory +"tmp/", f'{output_name}_unrelaxed.pdb'
+                output_directory +"/tmp/", f'{output_name}_unrelaxed.pdb'
             )
 
             with open(unrelaxed_output_path, 'w') as fp:
