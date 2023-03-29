@@ -1,0 +1,285 @@
+Query         query 
+Match_columns 312
+No_of_seqs    25 out of 38
+Neff          3.59424
+Searched_HMMs 90139
+Date          Sat Jul 16 17:33:31 2022
+Command       /mnt/home/dberenberg/gustaf_stuff/openfold/lib/conda/envs/openfold_venv/bin/hhsearch -i /tmp/tmpsrw4xr9a/query.a3m -o /tmp/tmpsrw4xr9a/output.hhr -maxseq 1000000 -cpu 28 -d /mnt/home/dberenberg/gustaf_stuff/OpenFold/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4QRK_A Hypothetical protein; R  96.4 9.4E-05   1E-09   65.4   0.0  110    9-134    21-137 (220)
+  2 3PET_A Putative adhesin; RIGHT  95.3  0.0019 2.1E-08   57.5   0.0  121   10-158    19-145 (221)
+  3 4YGU_D putative adhesin; PF109  95.1  0.0027   3E-08   54.6   0.0  106    9-134    12-119 (184)
+  4 3LYC_I Putative pectinase; Str  94.8  0.0047 5.2E-08   55.6   0.0  200    8-256    12-219 (241)
+  5 4OPW_A Uncharacterized protein  94.8  0.0049 5.4E-08   55.9   0.0  196   10-256    19-220 (241)
+  6 3JX8_B Putative lipoprotein; S  94.7  0.0056 6.2E-08   55.8   0.0  127    9-158    20-154 (250)
+  7 4YGU_C putative adhesin; PF109  94.4  0.0083 9.2E-08   51.5   0.0  125    9-158    12-140 (184)
+  8 7MUD_HM Dot/Icm, Secretion, T4  92.5   0.043 4.7E-07   53.0   0.0  100   10-134    45-146 (320)
+  9 7MUY_KM Dot/Icm, Secretion, T4  92.5   0.043 4.7E-07   53.0   0.0  100   10-134    45-146 (320)
+ 10 1FI8_D NATURAL KILLER CELL PRO  29.2      53 0.00058   26.3   0.0   16   89-104    27-42  (58)
+
+No 1
+>4QRK_A Hypothetical protein; Right-handed beta-helix, PF09922 family, DUF2154; 1.95A {Clostridium sporogenes ATCC 15579}
+Probab=96.44  E-value=9.4e-05  Score=65.41  Aligned_cols=110  Identities=13%  Similarity=0.105  Sum_probs=89.1  Template_Neff=9.700
+
+Q query             9 KVNIDKLDIAVDNINVTIKKSSSEDVRVTTRGNNE----FYKYNVTLKDKTLVVKGERKYENKIKKIKNFDQLLNTSINS   84 (312)
+Q Consensus         9 ~vdI~kL~I~t~~~Nv~IkK~n~~~V~V~~~G~~~----~~~y~I~~ndk~L~Ike~~~~~~~~~kik~fddl~~~~i~~   84 (312)
+                      ..++.+|.|++..++|.|+++++..+++++.+..+    .+++++++++++|.|+...+.++         .|       
+T Consensus        21 ~~~~~~l~i~~~~~~v~i~~~~~~~v~v~~~~~~~~~~~~~~~~~~~~~~~L~I~~~~~~~~---------~~-------   84 (220)
+T 4QRK_A           21 GAEKTKLNLNFGVGKLNISGNEEKLMKGKFIYSENEWKPEIKYEVKDKDGELEISQPGLKSG---------NV-------   84 (220)
+T ss_dssp             TCSEEEEEEEEEEEEEEEEEEESSSEEEEEEESSGGGCCEEEEEEETTEEEEEEECCCCCCS---------CC-------
+T ss_pred             CccEEEEEEEecCEEEEEecCCcceEEEEEEccCccccCeEEEEEECCeEEEEEEcCCCccc---------ce-------
+Confidence            46789999999999999999998888888765431    34677777999999998876442         22       
+
+
+Q query            85 MFSHDYREIIIYVPNNV--DINASSISSHLFVY-DNVASNTITYKTSYGGFSR  134 (312)
+Q Consensus        85 ~~s~~~~~IiIYvPnnV--Dinv~T~~G~L~I~-ddi~ln~i~fkT~~G~iS~  134 (312)
+                      ++......++|+||++.  +|.+++++|++.++ +++.++++++++++|++++
+T Consensus        85 ~~~~~~~~i~I~vP~~~~~~l~i~~~~G~~~i~l~~~~~~~l~~~~~~G~i~~  137 (220)
+T 4QRK_A           85 SLNNKRNEWNINLNEKIPTEIKLSLGTGEFKADLSKINLKELNVGMGVGKVDL  137 (220)
+T ss_dssp             CCTTCCEEEEEEEESSSCEEEEEEEEEEEEEEECTTSCEEEEEEEEEEEEEEE
+T ss_pred             ecCCccceEEEEeCCCCCeEEEEeeceeecEEcCcCCeeeeEEEEEeeeEEEE
+Confidence            23457789999999987  88888989998886 6788899999999999988
+
+
+No 2
+>3PET_A Putative adhesin; RIGHT-HANDED BETA-HELIX, STRUCTURAL GENOMICS, JOINT; HET: PG4, MSE; 2.07A {Bacteroides fragilis NCTC 9343}
+Probab=95.33  E-value=0.0019  Score=57.46  Aligned_cols=121  Identities=17%  Similarity=0.252  Sum_probs=84.5  Template_Neff=9.700
+
+Q query            10 VNIDKLDIAVDNINVTIKKSS--SEDVRVTTRGNNEFYKYNVTLKDKTLVVKGERKYENKIKKIKNFDQLLNTSINSMFS   87 (312)
+Q Consensus        10 vdI~kL~I~t~~~Nv~IkK~n--~~~V~V~~~G~~~~~~y~I~~ndk~L~Ike~~~~~~~~~kik~fddl~~~~i~~~~s   87 (312)
+                      .++.+|.|.. .++|.|++++  ...++++..... .-.+++..++++|.|+...+.+           |        +.
+T Consensus        19 ~~~~~i~i~~-~~~v~i~~~~~~~~~i~v~~~~~~-~~~~~v~~~~~~L~I~~~~~~~-----------~--------~~   77 (221)
+T 3PET_A           19 KEFNKIDAGT-VGNIYYTQSTDGKTDLQIYGPDNI-VALIQVAVKDNTLFLSIDKSKK-----------V--------RN   77 (221)
+T ss_dssp             CCCSEEEECC-BSEEEEEECSSSCCEEEEEEEHHH-HTTEEEEEETTEEEEEECTTCC-----------B--------SC
+T ss_pred             CCccEEEECc-ceEEEEEeCCCCceEEEEEcCccc-cccEEEEEECCEEEEEeCCCcc-----------c--------cC
+Confidence            4688899998 9999999998  667777654321 1134555589999998775421           1        12
+
+
+Q query            88 HDYREIIIYVPNNVDINASSISSHLFVYDN-VASNTITYKT-SYGGFSRAITENKVNRLENLNL--ISNNNLHLS  158 (312)
+Q Consensus        88 ~~~~~IiIYvPnnVDinv~T~~G~L~I~dd-i~ln~i~fkT-~~G~iS~~~~pkevknL~~L~I--~S~~~I~L~  158 (312)
+                      .....++|++|.-..+.+ +++|++.+ ++ +.++++.+++ ++|++.+.   +  -..+.|.+  ..+++|.|.
+T Consensus        78 ~~~~~i~I~~p~l~~l~i-~~~g~i~~-~~~l~~~~l~i~~~~~G~i~~~---~--v~~~~l~~~~~~~G~i~~~  145 (221)
+T 3PET_A           78 FKKMKITITSPTLNGISF-KGVGDVHI-ENGLTTDNLDIESKGVGNVDIQ---S--LTCQKLNVQSMGVGDVKLE  145 (221)
+T ss_dssp             CTTCEEEEEESCCCEEEE-CSBSCEEE-CSCEECSEEEEEECSBSCEEEE---E--EECSEEEEEECSBSCEEEE
+T ss_pred             CceEEEEEEcCCcceEEE-ecceEEEE-cCCeecCeEEEEEecceEEEEE---E--eEecEEEEEEeccceEEEE
+Confidence            345677888884338888 88999999 76 8889999999 99999982   1  12234665  456666655
+
+
+No 3
+>4YGU_D putative adhesin; PF10988 family protein, DUF2807, single-strabded; HET: EDO, MSE, PGE, PEG; 2.2A {Bacteroides eggerthii DSM 20697}
+Probab=95.14  E-value=0.0027  Score=54.64  Aligned_cols=106  Identities=13%  Similarity=0.178  Sum_probs=76.7  Template_Neff=9.900
+
+Q query             9 KVNIDKLDIAVDNINVTIKKSSSEDVRVTTRGNNEFYKYNVTLKDKTLVVKGERKYENKIKKIKNFDQLLNTSINSMFSH   88 (312)
+Q Consensus         9 ~vdI~kL~I~t~~~Nv~IkK~n~~~V~V~~~G~~~~~~y~I~~ndk~L~Ike~~~~~~~~~kik~fddl~~~~i~~~~s~   88 (312)
+                      -.++.+|.|.. .++|.|++++...++++..... .-.+++..++++|.|......++.        .        .+..
+T Consensus        12 ~~~~~~i~i~~-~~~V~i~~~~~~~v~v~~~~~~-~~~~~~~~~~~~L~i~~~~~~~~~--------~--------~~~~   73 (184)
+T 4YGU_D           12 VDAFSSIEITS-VGTIHFTQSDTYSFRIEGREKY-VKNTETTVKDGRLLIGFKDKKNKS--------R--------RNQK   73 (184)
+T ss_dssp             CCCCSEEEEEE-EEEEEEEECSSCEEEEEECHHH-HHTEEEEEETTEEEEEESSCCCCC--------------------C
+T ss_pred             cCCCceEEEcc-eEEEEEEeCCCcEEEEEEehhh-cccEEEEEECCEEEEEEcCCCCCc--------c--------cccc
+Confidence            35688999998 9999999998887877654321 113455558999999877542110        0        1124
+
+
+Q query            89 DYREIIIYVPNNVDINASSISSHLFVYD-NVASNTITYKT-SYGGFSR  134 (312)
+Q Consensus        89 ~~~~IiIYvPnnVDinv~T~~G~L~I~d-di~ln~i~fkT-~~G~iS~  134 (312)
+                      ....++|++|+-..+.+ .++|.+.+ + ++.+..+.+.+ ++|++.+
+T Consensus        74 ~~~~i~I~~P~l~~l~~-~~~g~v~~-~~~l~~~~l~l~~~~~g~i~l  119 (184)
+T 4YGU_D           74 DGVTIWISAPDLKEVEF-TGVGEFNC-EKPLKLDEVSFEVKGVGEVNV  119 (184)
+T ss_dssp             CCEEEEEEESCCCEEEE-EEEEEEEE-CSCEECSEEEEEEEEEEEEEE
+T ss_pred             CCEEEEEEeCCCCeEEE-ecceEEEE-CCCeecCEEEEEEeCcceEEE
+Confidence            56789999998557888 56899998 6 78888999998 8999988
+
+
+No 4
+>3LYC_I Putative pectinase; Structural Genomics, Joint Center for; HET: MSE; 2.3A {Parabacteroides distasonis}
+Probab=94.80  E-value=0.0047  Score=55.57  Aligned_cols=200  Identities=12%  Similarity=0.186  Sum_probs=121.1  Template_Neff=9.800
+
+Q query             8 EKVNIDKLDIAVDNINVTIKKSS-SEDVRVTTRGNNEFYKYNVTLKDKTLVVKGERKYENKIKKIKNFDQLLNTSINSMF   86 (312)
+Q Consensus         8 ~~vdI~kL~I~t~~~Nv~IkK~n-~~~V~V~~~G~~~~~~y~I~~ndk~L~Ike~~~~~~~~~kik~fddl~~~~i~~~~   86 (312)
+                      +-.++.+|.|....++|.|++++ ...++++..... .-.++++.++++|.|+.....+           |       .+
+T Consensus        12 ~~~~~~~i~i~~~~~~V~i~~~~~~~~v~v~~~~~~-~~~~~v~~~~~~L~I~~~~~~~-----------~-------~~   72 (241)
+T 3LYC_I           12 PVSEYDCLELEGGGMVVNYTQSDAPEGLEIKTDRNI-FEKYEFNVENHKLKIRPKKEFR-----------K-------HT   72 (241)
+T ss_dssp             CCCCCSEEEEEEEEEEEEEEECSSCCEEEEEEEHHH-HTTEECCEETTEEEEEECGGGS-----------S-------CC
+T ss_pred             EcCCceEEEEecceEEEEEEeCCCCCeEEEEeccch-hhceEEEEECCEEEEeeCCCcc-----------c-------cc
+Confidence            34678999999999999999998 777877654221 1134455589999998764321           1       11
+
+
+Q query            87 SHDYREIIIYVPNNV--DINASSISSHLFVYD-NVASNTITYKT-SYGGFSRAITENKVNRLENLNL--ISNNNLHLSTK  160 (312)
+Q Consensus        87 s~~~~~IiIYvPnnV--Dinv~T~~G~L~I~d-di~ln~i~fkT-~~G~iS~~~~pkevknL~~L~I--~S~~~I~L~~~  160 (312)
+                      ......++|+||.+.  .+.+ +.+|++.+ + ++.+..+.+.+ ++|++.+   .. +.....|.+  ..++++.+.- 
+T Consensus        73 ~~~~~~i~i~vp~~~l~~l~~-~~~g~i~~-~~~l~~~~l~i~~~~~G~v~~---~~-~~~~~~l~i~~~~~G~i~~~~-  145 (241)
+T 3LYC_I           73 NFRPTEFMVTANSRNLKKLAA-AGSTHVNI-NSPLQAEEFEAGLAGSGIIQF---HD-TASFTNLKIEIAGSGDFVGHK-  145 (241)
+T ss_dssp             CCCCSCEEEEEEESCCSEEEE-EEEEEEEE-CSCEEEEEEEEEEEEEEEEEE---CS-CEEEEEEEEEEEEEEEEEEEE-
+T ss_pred             CCCCceEEEEEEccccceeee-ecceEEEE-CCCcccCeEEEEEecceEEEE---ec-ccccCeeEEEEEccceEEEee-
+Confidence            022225666666655  8888 58899998 6 78889999998 8999998   22 113345555  5777777652 
+
+
+Q query           161 SILGVKNVNIESESLYISSENEDVFINNIEEYIPENVNIKEKIGRNSNYESEFYLYSDMPIAKFLDIE-VPNSKVRLDIP  239 (312)
+Q Consensus       161 EilGIknVnI~s~sv~I~S~~~difiddIE~yIPenvnI~~~~~~n~~y~~~inI~sniPIAKNLnI~-~~ns~V~L~LP  239 (312)
+                        +-.+++.+.+      +...++.+...    -.++.+..      ...+.|.+. ++ .++++.+. ...+.+++.+|
+T Consensus       146 --~~~~~l~~~~------~~~g~i~~~g~----~~~~~~~~------~~~g~i~~~-~~-~~~~~~~~~~~~G~i~v~~~  205 (241)
+T 3LYC_I          146 --VYCEELNGDM------AGSNTIVLGGT----VGIAEFSI------AGSGTVRAF-DC-TMDELECKIAGSGDIEAFVV  205 (241)
+T ss_dssp             --EEEEEEEEEE------EEEEEEEEEEE----EEEEEEEE------EEEEEEEEE-EE-EEEEEEEEEEEEEEEEEEEE
+T ss_pred             --EEeeEEEEEE------ecccEEEEEEE----EeEEEEEE------ecceeEEEe-ee-EEeEEEEEEEecCeEEEEEE
+Confidence              1123343332      12333333331    23344442      123444443 23 36778884 77999999987
+
+
+Q query           240 VNKYKFNCDIKSKEAIE  256 (312)
+Q Consensus       240 i~kYKFNfDiks~e~I~  256 (312)
+                       +...+.+  ...-.|.
+T Consensus       206 -~~l~~~~--~~~G~i~  219 (241)
+T 3LYC_I          206 -NKIKAEI--AGSGSVK  219 (241)
+T ss_dssp             -EEEEEEE--EEEEEEE
+T ss_pred             -ceEEEEE--ecceEEE
+Confidence             5555543  3444444
+
+
+No 5
+>4OPW_A Uncharacterized protein; PF10988 family protein, DUF2807, Structural; HET: EDO; 1.75A {Parabacteroides merdae ATCC 43184}
+Probab=94.77  E-value=0.0049  Score=55.91  Aligned_cols=196  Identities=10%  Similarity=0.109  Sum_probs=118.7  Template_Neff=9.500
+
+Q query            10 VNIDKLDIAVDNINVTIKKSS-SEDVRVTTRGNNEFYKYNVTLKDKTLVVKGERKYENKIKKIKNFDQLLNTSINSMFSH   88 (312)
+Q Consensus        10 vdI~kL~I~t~~~Nv~IkK~n-~~~V~V~~~G~~~~~~y~I~~ndk~L~Ike~~~~~~~~~kik~fddl~~~~i~~~~s~   88 (312)
+                      ..+.+|.|.. .++|.|++++ ...++++..... .-.+.+..++++|.|+.....+                    +..
+T Consensus        19 ~~~~~i~i~~-~~~V~i~~~~~~~~i~v~~~~~~-~~~~~~~v~~~~L~I~~~~~~~--------------------~~~   76 (241)
+T 4OPW_A           19 DDFNAIKFDG-VIDFNYEQSESTPHIEITVDENL-HPYVNIDIQDRVLTVGFKGAKV--------------------DHF   76 (241)
+T ss_dssp             CCCSEEEEES-SCEEEEEECSSCCEEEEEEEGGG-GGGEEEEEETTEEEEEECSSEE--------------------EEC
+T ss_pred             CCccEEEEcc-eEEEEEEcCCCCCeEEEEecCcc-cccEEEEEECCEEEEEEcCCee--------------------ecc
+Confidence            5688999998 9999999998 677777654321 1134455588999998764311                    123
+
+
+Q query            89 DYREIIIYVPNNVDINASSISSHLFVYD-NVASNTITYKTS-YGGFSRAITENKVNRLENLNLI--SNNNLHLSTKSILG  164 (312)
+Q Consensus        89 ~~~~IiIYvPnnVDinv~T~~G~L~I~d-di~ln~i~fkT~-~G~iS~~~~pkevknL~~L~I~--S~~~I~L~~~EilG  164 (312)
+                      ....++|++|.-..+.+. .+|++.+ . ++.++.+.+.+. +|++.+.    ......+|.+.  +++++.+.-   +.
+T Consensus        77 ~~~~v~I~vP~l~~i~i~-~~g~v~~-~~~l~~~~l~i~~~~~g~i~~~----~~~~~~~~~i~~~~~G~i~~~~---~~  147 (241)
+T 4OPW_A           77 TKFIVKTNSKWLKEVKAS-GNANFIA-NSPLKGDELKINANSNCLVQLK----QKVEVGKLDLNVSGSANMVVNE---LK  147 (241)
+T ss_dssp             SCCEEEEEESCCCEEEEE-SSCEEEE-CSCEEEEEEEEEECTTCEEEEC----SCEEEEEEEEEEETTEEEEESC---EE
+T ss_pred             ceEEEEEecCCCceEEEe-cCeeEEE-cCCcccCeEEEEecCCceEEEc----ceEEeceEEEEEeccceEEEeE---EE
+Confidence            456799999943378887 8899998 6 788999999988 9999882    11223445554  456655541   11
+
+
+Q query           165 VKNVNIESESLYISSENEDVFINNIEEYIPENVNIKEKIGRNSNYESEFYLYSDMPIAKFLDIE-VPNSKVRLDIPVNKY  243 (312)
+Q Consensus       165 IknVnI~s~sv~I~S~~~difiddIE~yIPenvnI~~~~~~n~~y~~~inI~sniPIAKNLnI~-~~ns~V~L~LPi~kY  243 (312)
+                      .+++.+.+      +...++-+.+-  . -+++++...      ..+.+.+. ++. ++++.+. ...+.+.+.+| ++|
+T Consensus       148 ~~~l~~~~------~~~g~i~l~~g--~-~~~~~~~~~------~~g~i~~~-~~~-~~~~~i~~~~~g~i~v~~~-~~~  209 (241)
+T 4OPW_A          148 TDKLECSI------NGSGTINLKAG--N-AEEADYSIT------TDGEIMAF-GVA-VPEVNCKITGKGSAQIHPT-DNL  209 (241)
+T ss_dssp             CSEEEEEE------ESSEEEEECSE--E-CSEEEEEEE------ESCEEEEE-EEE-EEEEEEEEEESCEEEEEEE-EEE
+T ss_pred             eceEEEEE------ccceEEEEcee--E-EeEEEEEEe------CCceEEEc-cEE-eCeEEEEEEcCCeEEEEec-ccE
+Confidence            23333332      12333333210  0 134444421      13455553 333 5777885 67899999998 455
+
+
+Q query           244 KFNCDIKSKEAIE  256 (312)
+Q Consensus       244 KFNfDiks~e~I~  256 (312)
+                      ++.+  ...-.|.
+T Consensus       210 ~~~~--~~~g~i~  220 (241)
+T 4OPW_A          210 KATI--VGKGNIR  220 (241)
+T ss_dssp             EEEE--ESSCEEE
+T ss_pred             EEEE--EcceEEE
+Confidence            5544  4444444
+
+
+No 6
+>3JX8_B Putative lipoprotein; Structural Genomics, Joint Center for; HET: SO4, GOL, MSE; 2.16A {Parabacteroides distasonis ATCC 8503}
+Probab=94.67  E-value=0.0056  Score=55.82  Aligned_cols=127  Identities=12%  Similarity=0.045  Sum_probs=87.4  Template_Neff=9.500
+
+Q query             9 KVNIDKLDIAVDNINVTIKKSS-SEDVRVTTRGNNEFYKYNVTLKDKTLVVKGERKYENKIKKIKNFDQLLNTSINSMF-   86 (312)
+Q Consensus         9 ~vdI~kL~I~t~~~Nv~IkK~n-~~~V~V~~~G~~~~~~y~I~~ndk~L~Ike~~~~~~~~~kik~fddl~~~~i~~~~-   86 (312)
+                      -..+.+|.|.. .++|.|++++ ...+.++..... .-.+.++.++++|.|+...+...         .|+      .+ 
+T Consensus        20 ~~~~~~l~i~~-~~~V~i~~~~~~~~v~v~~~~~~-~~~~~v~~~~~~L~I~~~~~~~~---------~~~------~~~   82 (250)
+T 3JX8_B           20 ISDYDEITFVG-SADFEYEQSDKAPYLSVTIDENL-FDYLVTEVEGGTLKIYPKSIKKG---------FNN------NSY   82 (250)
+T ss_dssp             CCCCSEEEEES-SCEEEEEECSSCCEEEEEEEGGG-GGGEEEEEETTEEEEEECBCTTT---------TTS------CBC
+T ss_pred             cccccEEEEec-ceEEEEEeCCCCCEEEEEechhh-hccEEEEEECCEEEEecCCCcCc---------ccc------CCC
+Confidence            36788999998 9999999999 888877764321 11344555899999987654211         010      01 
+
+
+Q query            87 --SHDYREIIIYVPNNVDINASSISSHLFVYD-NVASNTITYKT-SYGGFSRAITENKVNRLENLNLI--SNNNLHLS  158 (312)
+Q Consensus        87 --s~~~~~IiIYvPnnVDinv~T~~G~L~I~d-di~ln~i~fkT-~~G~iS~~~~pkevknL~~L~I~--S~~~I~L~  158 (312)
+                        ......++|++|.-..|.+ .++|++.+ . .+.++.+.+.+ .+|++.+   .+ +.....|.+.  .++++.+.
+T Consensus        83 ~~~~~~~~i~I~vP~l~~l~i-~~~g~v~i-~~~l~~~~l~i~~~~~G~i~l---~~-~~~~~~l~i~~s~sG~i~~~  154 (250)
+T 3JX8_B           83 DLRPTVYKIKSNSKELKELNT-VGSGSFII-SKPTKVNRMEINMAGSGNVEL---RG-PVKGYKLECNMAGSGNIIAK  154 (250)
+T ss_dssp             EEECSCEEEEEEESCCSEEEE-ESSCEEEE-CSCEEEEEEEEEEESSCEEEE---CS-CEEEEEEEEEEESSCEEEEE
+T ss_pred             CCCCceEEEEEEcCCCCeEEE-EcceEEEE-CCCceeceEEEEEecceEEEE---eC-CcccceEEEEEeCCceEEEe
+Confidence              1126789999995337888 67899999 6 68899999998 7999998   22 1144566665  66666654
+
+
+No 7
+>4YGU_C putative adhesin; PF10988 family protein, DUF2807, single-strabded; HET: PEG, EDO, PGE, MSE; 2.2A {Bacteroides eggerthii DSM 20697}
+Probab=94.38  E-value=0.0083  Score=51.54  Aligned_cols=125  Identities=13%  Similarity=0.157  Sum_probs=82.5  Template_Neff=10.000
+
+Q query             9 KVNIDKLDIAVDNINVTIKKSSSEDVRVTTRGNNEFYKYNVTLKDKTLVVKGERKYENKIKKIKNFDQLLNTSINSMFSH   88 (312)
+Q Consensus         9 ~vdI~kL~I~t~~~Nv~IkK~n~~~V~V~~~G~~~~~~y~I~~ndk~L~Ike~~~~~~~~~kik~fddl~~~~i~~~~s~   88 (312)
+                      -.++.+|.|.. .++|.|++++...|+++..... .-.++++.++++|.|+.......         .+       ....
+T Consensus        12 ~~~~~~l~i~~-~~~V~i~~~~~~~v~v~~~~~~-~~~~~~~~~~~~L~i~~~~~~~~---------~~-------~~~~   73 (184)
+T 4YGU_C           12 VDAFSSIEITS-VGTIHFTQSDTYSFRIEGREKY-VKNTETTVKDGRLLIGFKDKKNK---------SR-------RNQK   73 (184)
+T ss_dssp             CCCCSEEEECS-EEEEEEEECSSCEEEEEECHHH-HHTEEEEEETTEEEEEECC--------------------------
+T ss_pred             CCCCcEEEEec-eeEEEEEeCCCceEEEEEehhh-cccEEEEEECCEEEEEEcCCCCC---------cc-------cccc
+Confidence            35688899988 9999999998888877764321 11234555889999987654211         00       0123
+
+
+Q query            89 DYREIIIYVPNNVDINASSISSHLFVYD-NVASNTITYKT-SYGGFSRAITENKVNRLENLNLI--SNNNLHLS  158 (312)
+Q Consensus        89 ~~~~IiIYvPnnVDinv~T~~G~L~I~d-di~ln~i~fkT-~~G~iS~~~~pkevknL~~L~I~--S~~~I~L~  158 (312)
+                      ....+.|++|.-..+.+. ++|++.+ + ++....+.+.+ ++|++.+.   .  -..+.|.+.  ..++|.|.
+T Consensus        74 ~~~~v~I~~P~l~~i~~~-~~g~i~~-~~~l~~~~~~l~~~~~G~i~~~---~--~~~~~l~i~~~~~g~i~l~  140 (184)
+T 4YGU_C           74 DGVTIWISAPDLKEVEFT-GVGEFNC-EKPLKLDEVSFEVKGVGEVNVA---D--LTCNVLKVALRGVGSADIH  140 (184)
+T ss_dssp             CCEEEEEEESCCCEEEES-SEEEEEE-CSCEECSEEEEEESSEEEEEEE---E--EECSEEEEEECSEEEEEEE
+T ss_pred             CCEEEEEECCCCCeEEEe-cceEEEe-CCCcccCeEEEEEcCccEEEEe---e--EEecEEEEEEeCeeEEEEE
+Confidence            467899999964478886 6899998 6 78888999987 59999982   1  122345554  35555553
+
+
+No 8
+>7MUD_HM Dot/Icm, Secretion, T4SS, TRANSLOCASE;{Legionella pneumophila}
+Probab=92.55  E-value=0.043  Score=52.97  Aligned_cols=100  Identities=10%  Similarity=0.046  Sum_probs=69.6  Template_Neff=8.800
+
+Q query            10 VNIDKLDIAVDNINVTIKKS-SSEDVRVTTRGNNEFYKYNVTLKDKTLVVKGERKYENKIKKIKNFDQLLNTSINSMFSH   88 (312)
+Q Consensus        10 vdI~kL~I~t~~~Nv~IkK~-n~~~V~V~~~G~~~~~~y~I~~ndk~L~Ike~~~~~~~~~kik~fddl~~~~i~~~~s~   88 (312)
+                      ..+.+|.|.. .++|.|+++ ++..++++..... .-.+.+...+++|.|+.... +                    ...
+T Consensus        45 ~~~~~I~v~~-~~~V~i~~~~~~~~v~v~~~~~~-~~~i~v~~~~g~L~I~~~~~-~--------------------~~~  101 (320)
+T 7MUD_HM          45 SSFNQIVVQG-RLNVNLHTGYNKPEVMLRGDPRD-LVQVRTIVKQNTLYVSLGQG-Y--------------------PDY  101 (320)
+T ss_pred             CCCcEEEEcc-cEEEEEEeCCCCCEEEEEeChhh-cccEEEEEECCEEEEEeCCC-C--------------------CCC
+Confidence            5588999998 999999999 7778877764321 11234445889999986642 1                    013
+
+
+Q query            89 DYREIIIYVPNNVDINASSISSHLFVYDNVASNTITYKTS-YGGFSR  134 (312)
+Q Consensus        89 ~~~~IiIYvPnnVDinv~T~~G~L~I~ddi~ln~i~fkT~-~G~iS~  134 (312)
+                      ....++|++|.-..+.+. ++|++.+ +++....+.+.+. +|++.+
+T Consensus       102 ~~~~v~I~~P~l~~l~i~-~~g~v~~-~~l~~~~l~l~~~~~g~i~~  146 (320)
+T 7MUD_HM         102 GAVTVDIKTKFLNRFRYE-GAGVVTG-NNLRTSYLDLYLANEGTTRL  146 (320)
+T ss_pred             ccEEEEEEcCCccceEEe-cccEEEE-ecceeCeEEEEEeCCCeEEE
+Confidence            456789999943378875 6899988 7777777888763 555554
+
+
+No 9
+>7MUY_KM Dot/Icm, Secretion, T4SS, TRANSLOCASE; 4.6A {Legionella pneumophila}
+Probab=92.55  E-value=0.043  Score=52.97  Aligned_cols=100  Identities=10%  Similarity=0.046  Sum_probs=69.6  Template_Neff=8.800
+
+Q query            10 VNIDKLDIAVDNINVTIKKS-SSEDVRVTTRGNNEFYKYNVTLKDKTLVVKGERKYENKIKKIKNFDQLLNTSINSMFSH   88 (312)
+Q Consensus        10 vdI~kL~I~t~~~Nv~IkK~-n~~~V~V~~~G~~~~~~y~I~~ndk~L~Ike~~~~~~~~~kik~fddl~~~~i~~~~s~   88 (312)
+                      ..+.+|.|.. .++|.|+++ ++..++++..... .-.+.+...+++|.|+.... +                    ...
+T Consensus        45 ~~~~~I~v~~-~~~V~i~~~~~~~~v~v~~~~~~-~~~i~v~~~~g~L~I~~~~~-~--------------------~~~  101 (320)
+T 7MUY_KM          45 SSFNQIVVQG-RLNVNLHTGYNKPEVMLRGDPRD-LVQVRTIVKQNTLYVSLGQG-Y--------------------PDY  101 (320)
+T ss_pred             CCCcEEEEcc-cEEEEEEeCCCCCEEEEEeChhh-cccEEEEEECCEEEEEeCCC-C--------------------CCC
+Confidence            5588999998 999999999 7778877764321 11234445889999986642 1                    013
+
+
+Q query            89 DYREIIIYVPNNVDINASSISSHLFVYDNVASNTITYKTS-YGGFSR  134 (312)
+Q Consensus        89 ~~~~IiIYvPnnVDinv~T~~G~L~I~ddi~ln~i~fkT~-~G~iS~  134 (312)
+                      ....++|++|.-..+.+. ++|++.+ +++....+.+.+. +|++.+
+T Consensus       102 ~~~~v~I~~P~l~~l~i~-~~g~v~~-~~l~~~~l~l~~~~~g~i~~  146 (320)
+T 7MUY_KM         102 GAVTVDIKTKFLNRFRYE-GAGVVTG-NNLRTSYLDLYLANEGTTRL  146 (320)
+T ss_pred             ccEEEEEEcCCccceEEe-cccEEEE-ecceeCeEEEEEeCCCeEEE
+Confidence            456789999943378875 6899988 7777777888763 555554
+
+
+No 10
+>1FI8_D NATURAL KILLER CELL PROTEASE 1; complex (serine protease-inhibitor), protease substrate; 2.2A {Rattus norvegicus}
+Probab=29.15  E-value=53  Score=26.32  Aligned_cols=16  Identities=38%  Similarity=0.818  Sum_probs=11.8  Template_Neff=5.400
+
+Q query            89 DYREIIIYVPNNVDIN  104 (312)
+Q Consensus        89 ~~~~IiIYvPnnVDin  104 (312)
+                      ..--++||+|++.++.
+T Consensus        27 SklPiVvY~P~~~evr   42 (58)
+T 1FI8_D           27 SKLPIVVYTPDNVDVK   42 (58)
+T ss_pred             CCCcEEEEecCCcEEE
+Confidence            4456999999987443
+
+

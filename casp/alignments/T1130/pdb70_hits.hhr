@@ -1,0 +1,158 @@
+Query         query 
+Match_columns 198
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90139
+Date          Thu Jun  9 02:56:00 2022
+Command       /mnt/home/dberenberg/gustaf_stuff/openfold/lib/conda/envs/openfold_venv/bin/hhsearch -i /tmp/tmp664n84xv/query.a3m -o /tmp/tmp664n84xv/output.hhr -maxseq 1000000 -cpu 64 -d /mnt/home/dberenberg/gustaf_stuff/OpenFold/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6G68_B CC-Type2-IL-Sg; de novo  20.9      95  0.0011   21.5   0.0   17  117-133     5-21  (32)
+  2 6G6D_C CC-Type2-LL-Sg; de novo  20.6      97  0.0011   21.5   0.0   17  117-133     5-21  (32)
+  3 2KTV_A TRANSLATION, eRF1, C do  19.2 1.1E+02  0.0012   24.9   0.0   24   52-75    136-159 (170)
+  4 6DNQ_C BZIP factor, Transcript  18.8 1.1E+02  0.0013   21.3   0.0   20  126-145    11-32  (32)
+  5 5IT3_A Lysine-specific histone  14.6 1.7E+02  0.0018   21.0   0.0   16   48-63     30-46  (85)
+  6 5YQG_F 14-3-3 protein eta, pNu  12.3 2.1E+02  0.0024   19.5   0.0   13  134-146    15-27  (31)
+  7 5YQG_E 14-3-3 protein eta, pNu  12.1 2.2E+02  0.0024   19.5   0.0   12  135-146    16-27  (31)
+  8 6E1F_B Lysine-specific histone  12.0 2.2E+02  0.0025   20.6   0.0   18   48-65     34-52  (89)
+  9 2DCE_A KIAA1915 protein; SWIRM  10.6 2.6E+02  0.0029   21.4   0.0   18   47-64     51-69  (111)
+ 10 2KCT_A Cytochrome c-type bioge   9.7   3E+02  0.0033   21.1   0.0   16  158-173    77-92  (94)
+
+No 1
+>6G68_B CC-Type2-IL-Sg; de novo, coiled coil, alpha-helical; HET: SO4, ACE; 1.95A {N/A}
+Probab=20.86  E-value=95  Score=21.53  Aligned_cols=17  Identities=53%  Similarity=0.561  Sum_probs=11.6  Template_Neff=1.000
+
+Q query           117 NTSCKELLRSFKELELS  133 (198)
+Q Consensus       117 ntsckellrsfkelels  133 (198)
+                      ..|.|||.+|.|||..|
+T Consensus         5 aqsikelaksikelaws   21 (32)
+T 6G68_B            5 AQSIKELAKSIKELAWS   21 (32)
+T ss_dssp             HHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHH
+Confidence            35677777777777554
+
+
+No 2
+>6G6D_C CC-Type2-LL-Sg; de novo, coiled coil, alpha-helical; 2.05A {N/A}
+Probab=20.59  E-value=97  Score=21.49  Aligned_cols=17  Identities=53%  Similarity=0.573  Sum_probs=11.8  Template_Neff=1.000
+
+Q query           117 NTSCKELLRSFKELELS  133 (198)
+Q Consensus       117 ntsckellrsfkelels  133 (198)
+                      ..|.|||.+|+|||..|
+T Consensus         5 aqslkelakslkelaws   21 (32)
+T 6G6D_C            5 AQSLKELAKSLKELAWS   21 (32)
+T ss_dssp             HHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHH
+Confidence            45677888888877543
+
+
+No 3
+>2KTV_A TRANSLATION, eRF1, C domain, termination; NMR {Homo sapiens}
+Probab=19.20  E-value=1.1e+02  Score=24.90  Aligned_cols=24  Identities=33%  Similarity=0.624  Sum_probs=20.4  Template_Neff=7.200
+
+Q query            52 GILNWRKNPEGSNDEDYVNEYFEL   75 (198)
+Q Consensus        52 gilnwrknpegsndedyvneyfel   75 (198)
+                      +||.|.....+...+++-|++|.|
+T Consensus       136 AiLRy~~~~~~~~~~~~~~~~~~~  159 (170)
+T 2KTV_A          136 GILRYRVDFQGMEYQGGDDEFFDL  159 (170)
+T ss_dssp             EEESSCCCCCCSSSHHHHCSSCTT
+T ss_pred             EEEccccccccccccCCCcccCCh
+Confidence            578999999888888888888875
+
+
+No 4
+>6DNQ_C BZIP factor, Transcriptional activator Myb; transcription coactivator, transcription factor, viral; HET: EDO; 2.35A {Human T-lymphotropic virus 1}
+Probab=18.80  E-value=1.1e+02  Score=21.28  Aligned_cols=20  Identities=50%  Similarity=0.594  Sum_probs=13.1  Template_Neff=1.500
+
+Q query           126 SFKELELSDL--SNPLRRQQSL  145 (198)
+Q Consensus       126 sfkelelsdl--snplrrqqsl  145 (198)
+                      ..|||||--+  .|.+|||+++
+T Consensus        11 rikelelllms~ene~~~q~~~   32 (32)
+T 6DNQ_C           11 RIKELELLLMSTENELKGQQAL   32 (32)
+T ss_pred             HHHHHHHHhHhhhHHhccccCC
+Confidence            4566666544  4788888764
+
+
+No 5
+>5IT3_A Lysine-specific histone demethylase 1A; Helix, OXIDOREDUCTASE; 1.4A {Homo sapiens}
+Probab=14.64  E-value=1.7e+02  Score=20.99  Aligned_cols=16  Identities=38%  Similarity=0.642  Sum_probs=12.1  Template_Neff=7.600
+
+Q query            48 CARNGILN-WRKNPEGS   63 (198)
+Q Consensus        48 carngiln-wrknpegs   63 (198)
+                      ..||.|+. |++||...
+T Consensus        30 ~iRN~Il~~w~~~~~~~   46 (85)
+T 5IT3_A           30 FIRNRTLQLWLDNPKIQ   46 (85)
+T ss_dssp             HHHHHHHHHHHHSTTSC
+T ss_pred             HHHHHHHHHHHHCCCCe
+Confidence            56898885 99988543
+
+
+No 6
+>5YQG_F 14-3-3 protein eta, pNumb peptide; Complex, Phosphorylation, non-canonical, PEPTIDE BINDING; HET: SEP; 2.1A {Mus musculus}
+Probab=12.30  E-value=2.1e+02  Score=19.51  Aligned_cols=13  Identities=38%  Similarity=0.618  Sum_probs=10.0  Template_Neff=3.200
+
+Q query           134 DLSNPLRRQQSLQ  146 (198)
+Q Consensus       134 dlsnplrrqqslq  146 (198)
+                      ..+.|.+||-||.
+T Consensus        15 ~~ssPFKr~~SLr   27 (31)
+T 5YQG_F           15 QKMSPFKRQLSLR   27 (31)
+T ss_pred             ccCCCcccccccc
+Confidence            3488999988875
+
+
+No 7
+>5YQG_E 14-3-3 protein eta, pNumb peptide; Complex, Phosphorylation, non-canonical, PEPTIDE BINDING; HET: SEP; 2.1A {Mus musculus}
+Probab=12.09  E-value=2.2e+02  Score=19.46  Aligned_cols=12  Identities=42%  Similarity=0.645  Sum_probs=9.4  Template_Neff=3.200
+
+Q query           135 LSNPLRRQQSLQ  146 (198)
+Q Consensus       135 lsnplrrqqslq  146 (198)
+                      .+.|.+||-||.
+T Consensus        16 ~ssPFKr~~SLr   27 (31)
+T 5YQG_E           16 KMSPFKRQLSLR   27 (31)
+T ss_dssp             SSSTTCCCCSCC
+T ss_pred             cCCCcccccccc
+Confidence            378999988875
+
+
+No 8
+>6E1F_B Lysine-specific histone demethylase 1A (E.C.1.-.-.-); Histone lysine specific demethylase, SWIRM; HET: SO4; 1.16A {Homo sapiens}
+Probab=12.00  E-value=2.2e+02  Score=20.62  Aligned_cols=18  Identities=33%  Similarity=0.516  Sum_probs=13.0  Template_Neff=7.500
+
+Q query            48 CARNGILN-WRKNPEGSND   65 (198)
+Q Consensus        48 carngiln-wrknpegsnd   65 (198)
+                      ..||.|+. |++||...-.
+T Consensus        34 ~iRN~il~~w~~np~~~lt   52 (89)
+T 6E1F_B           34 FIRNRTLQLWLDNPKIQLT   52 (89)
+T ss_dssp             HHHHHHHHHHHHSTTSCCC
+T ss_pred             HHHHHHHHHHHhCCCcEEe
+Confidence            56888875 9999865443
+
+
+No 9
+>2DCE_A KIAA1915 protein; SWIRM domain, KIAA1915, structural genomics; NMR {Homo sapiens}
+Probab=10.64  E-value=2.6e+02  Score=21.37  Aligned_cols=18  Identities=28%  Similarity=0.222  Sum_probs=13.0  Template_Neff=7.100
+
+Q query            47 ECARNGILN-WRKNPEGSN   64 (198)
+Q Consensus        47 ecarngiln-wrknpegsn   64 (198)
+                      -..||.|+. |++||...-
+T Consensus        51 l~iRN~Il~~w~~np~~~L   69 (111)
+T 2DCE_A           51 LKIRNYILDQWEICKPKYL   69 (111)
+T ss_dssp             HHHHHHHHHHHHHHTTSCC
+T ss_pred             HHHHHHHHHHHHHCCCcee
+Confidence            356888885 999886543
+
+
+No 10
+>2KCT_A Cytochrome c-type biogenesis protein CcmE; solution NMR structure, heme chaperone; NMR {Desulfovibrio vulgaris str. Hildenborough}
+Probab=9.68  E-value=3e+02  Score=21.07  Aligned_cols=16  Identities=13%  Similarity=0.204  Sum_probs=8.8  Template_Neff=6.300
+
+Q query           158 VSDYPLDGCASKYMTH  173 (198)
+Q Consensus       158 vsdypldgcaskymth  173 (198)
+                      +++--+-.|.|.||.|
+T Consensus        77 ~A~~il~KCpS~~~~~   92 (94)
+T 2KCT_A           77 KARTLMTKCPLEHHHH   92 (94)
+T ss_dssp             EEEEEEESSCCC----
+T ss_pred             EEEEEEecCCccccCC
+Confidence            4455678899999987
+
+

@@ -1,0 +1,352 @@
+Query         query 
+Match_columns 288
+No_of_seqs    165 out of 10000
+Neff          4.8558
+Searched_HMMs 90139
+Date          Thu May 12 17:40:44 2022
+Command       /mnt/home/dberenberg/gustaf_stuff/openfold/lib/conda/envs/openfold_venv/bin/hhsearch -i /tmp/tmp_z0yj15b/query.a3m -o /tmp/tmp_z0yj15b/output.hhr -maxseq 1000000 -cpu 64 -d /mnt/home/dberenberg/gustaf_stuff/OpenFold/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3BK6_A PH stomatin; stomatin,   99.9 1.1E-28 1.2E-33  211.5   0.0  185   86-270     1-185 (188)
+  2 4FVG_A Stomatin; mixed alpha-b  99.7 1.4E-21 1.6E-26  155.9   0.0  133   80-213     1-133 (133)
+  3 4FVF_B Stomatin; mixed alpha-b  99.7   2E-21 2.2E-26  155.3   0.0  128   86-213     1-128 (128)
+  4 1WIN_A Flotillin 2; Band 7 Dom  99.6 1.1E-19 1.2E-24  148.3   0.0  130   89-218     5-143 (143)
+  5 2RPB_A hypothetical membrane p  99.5 3.3E-17 3.7E-22  129.3   0.0  112   91-202     2-113 (113)
+  6 6IQE_A Prohibitin-2; Mitochond  88.3    0.26 2.9E-06   40.2   0.0   68  198-265     2-80  (87)
+  7 4V60_K Major vault protein; 9   72.9     2.8 3.1E-05   47.9   0.0   96  105-200   526-646 (861)
+  8 5T2A_0 eL18, uL16, uL5, eL13,   55.2      11 0.00012   37.6   0.0   89  105-194   127-220 (264)
+  9 6IAT_G Major head protein, Unc  52.4      13 0.00014   28.7   0.0   46  150-195     6-51  (60)
+ 10 6Q3G_MS ?; structural protein,  52.4      13 0.00014   28.7   0.0   46  150-195     6-51  (60)
+ 11 7ASE_W kDDX60, 40S ribosomal p  49.3      15 0.00017   36.4   0.0   90  105-194   119-212 (254)
+ 12 6XA1_SB translation terminatio  24.5      72  0.0008   31.0   0.0   90  105-194   103-196 (211)
+ 13 4BTS_B4 TRANSLATION INITIATION  22.9      81  0.0009   31.9   0.0   90  105-194   127-223 (265)
+ 14 5TBW_s1 ?; Protein translation  20.4      99  0.0011   30.2   0.0   89  105-194   105-198 (216)
+ 15 6I7O_Q uL2, uL3, uL4, uL18, eL  20.4      99  0.0011   30.2   0.0   89  105-194   105-198 (216)
+
+No 1
+>3BK6_A PH stomatin; stomatin, archaea, Pyrococcus horikoshii, trimer; 3.2A {Pyrococcus horikoshii}
+Probab=99.90  E-value=1.1e-28  Score=211.48  Aligned_cols=185  Identities=45%  Similarity=0.673  Sum_probs=165.8  Template_Neff=9.700
+
+Q query            86 PCTDSFIKVDMRTISFDIPPQEILTKDSVTISVDGVVYYRVQNATLAVANITNADSATRLLAQTTLRNVLGTKNLSQILS  165 (288)
+Q Consensus        86 P~id~~~~VDlR~~t~dvp~QevlTkDnV~V~VDAVvyyrV~dp~~av~~V~d~~~A~~~lAQTtLR~viG~~~L~elLs  165 (288)
+                      ||+++++++|++.++++++.+.+.|+||+++.++++++|+|.||.+++..+.++...+.+.+.+.+|+++++++++++++
+T Consensus         1 p~~~~v~~~~~~~~~~~~~~~~v~t~D~~~v~v~~~v~~~i~d~~~~~~~~~~~~~~~~~~~~~~lr~~~~~~~~~~i~~   80 (188)
+T 3BK6_A            1 MIFEKAVIVDLRTQVLDVPVQETITKDNVPVRVNAVVYFRVVDPVKAVTQVKNYIMATSQISQTTLRSVIGQAHLDELLS   80 (188)
+T ss_dssp             CCEEECCCCCSSCEEEEEEEEEEECTTSCEEEEEEEEEEEESCHHHHHHSSSCHHHHHHHHHHHHHHHHHHTSCHHHHHH
+T ss_pred             CceeEEEEEeCceeeeecCCceeecCCCceEEEEEEEEEEEcCHHHHHHhcCCHHHHHHHHHHHHHHHHHhhCCHHHHHh
+Confidence            89999999999999999998899999999999999999999999999999999988999999999999999999999999
+
+
+Q query           166 DREEIAHNMQSTLDDATDAWGIKVERVEIKDVKLPVQLQRAMAAEAEASREARAKVIAAEGEMNASRALKEASMVITESP  245 (288)
+Q Consensus       166 ~Re~I~~~i~~~ld~~T~~WGIkV~~VEIkdI~lP~~lqrAMA~eAeAeRe~rAkii~AegE~~Aa~~l~eAA~~~~~~p  245 (288)
+                      +|++|++.+++.+++.+..|||+++++.|+++.+|++++++|.+++.|++++++++++|++++++++++++|+++++++|
+T Consensus        81 ~r~~i~~~v~~~l~~~l~~~Gi~v~~v~i~~i~~~~~~~~ai~~~~~a~~~~~a~~~~a~a~~~~a~~~~~a~~~~~~~~  160 (188)
+T 3BK6_A           81 ERDKLNMQLQRIIDEATDPWGIKVTAVEIKDVELPAGMQKAMARQAEAERERRARITLAEAERQAAEKLREAAEIISEHP  160 (188)
+T ss_dssp             CHHHHHHHHHHHHHHHTGGGTEEEEEEEEEEEEEETTHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHCT
+T ss_pred             cHHHHHHHHHHHHHHHhhhhCcEEEEeEEeeccCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhCh
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q query           246 AALQLRYLQTLTTIAAEKNSTIVFP  270 (288)
+Q Consensus       246 ~AlqLR~LqtL~~ia~e~nstIi~P  270 (288)
+                      .+++||+|++|.+++..+++|.+.|
+T Consensus       161 ~~~~~~~ie~~~~~~~~~~~~~~~~  185 (188)
+T 3BK6_A          161 MALQLRTLQTISDVAGDKSNLEHHH  185 (188)
+T ss_dssp             THHHHHHTTC---------------
+T ss_pred             hHHHHHHHHHHHHHhcCCCccccCC
+Confidence            9999999999999999999998765
+
+
+No 2
+>4FVG_A Stomatin; mixed alpha-beta fold, membrane scaffold; 1.8A {Mus musculus}
+Probab=99.72  E-value=1.4e-21  Score=155.90  Aligned_cols=133  Identities=92%  Similarity=1.166  Sum_probs=105.8  Template_Neff=10.600
+
+Q query            80 GLFFILPCTDSFIKVDMRTISFDIPPQEILTKDSVTISVDGVVYYRVQNATLAVANITNADSATRLLAQTTLRNVLGTKN  159 (288)
+Q Consensus        80 Gl~~i~P~id~~~~VDlR~~t~dvp~QevlTkDnV~V~VDAVvyyrV~dp~~av~~V~d~~~A~~~lAQTtLR~viG~~~  159 (288)
+                      |+ |.+||+++++.+|++.+++++++..+.|+|++++.+++++.|+|.++..+..++.|+...+...+.+.+|+.+++++
+T Consensus         1 G~-~~~P~~~~v~~~~~~~~~~~~~~~~~~t~d~~~v~v~~~v~~~i~~~~~~~~~~~~~~~~i~~~~~~~l~~~~~~~~   79 (133)
+T 4FVG_A            1 GP-LGSPSTDSAAKVDMRTISFDIPPQEVLTKDSVTISVDGVVYYRVQNATLAVANITNADSATRLLAQTTLRNALGTKN   79 (133)
+T ss_dssp             --------------CCCSCEEEEEEEEEEECTTCCEEEEEEEEEEEESCHHHHHHSSSCHHHHHHHHHHHHHHHHHHTSC
+T ss_pred             CC-CcCcceeeEEEEeCceeeEecCCceEEcCCCceEEEEEEEEEEEccHHHHHhcCCCHHHHHHHHHHHHHHHHHccCC
+Confidence            66 88899999999999999999998899999999999999999999999998888889999999999999999999999
+
+
+Q query           160 LSQILSDREEIAHNMQSTLDDATDAWGIKVERVEIKDVKLPVQLQRAMAAEAEA  213 (288)
+Q Consensus       160 L~elLs~Re~I~~~i~~~ld~~T~~WGIkV~~VEIkdI~lP~~lqrAMA~eAeA  213 (288)
+                      +.+++.+|+++++++++.+.+.+.+||++|.++.|.++.+|+++.++|.++..|
+T Consensus        80 ~~~~~~~r~~i~~~i~~~l~~~~~~~Gi~v~~v~I~~i~~~~~~~~~i~~~~~a  133 (133)
+T 4FVG_A           80 LSQILSDREEIAHHMQSTLDDATDDWGIKVERVEIKDVKLPVQLQRAMAAEAEA  133 (133)
+T ss_dssp             HHHHHHCHHHHHHHHHHHHHHHHGGGTEEEEEEEEEEEECCCC-----------
+T ss_pred             HHHHHhCHHHHHHHHHHHHHHHHHhcCeEEEEEEEEeccCCHHHHHHHHHHhhC
+Confidence            999999999999999999999999999999999999999999999999887654
+
+
+No 3
+>4FVF_B Stomatin; mixed alpha-beta, scaffolding protein, MEMBRANE; HET: CD; 2.46A {Mus musculus}
+Probab=99.71  E-value=2e-21  Score=155.29  Aligned_cols=128  Identities=96%  Similarity=1.265  Sum_probs=113.7  Template_Neff=10.300
+
+Q query            86 PCTDSFIKVDMRTISFDIPPQEILTKDSVTISVDGVVYYRVQNATLAVANITNADSATRLLAQTTLRNVLGTKNLSQILS  165 (288)
+Q Consensus        86 P~id~~~~VDlR~~t~dvp~QevlTkDnV~V~VDAVvyyrV~dp~~av~~V~d~~~A~~~lAQTtLR~viG~~~L~elLs  165 (288)
+                      ||+++++++|++.+++++++..+.|+|++++.+++.+.|+|.|+..++.++.++...+...+.+.+|++++++++.++++
+T Consensus         1 P~~~~v~~~~~~~~~~~~~~~~~~t~d~~~v~~~~~~~~~i~~~~~~~~~~~~~~~~i~~~~~~~~~~~~~~~~~~~i~~   80 (128)
+T 4FVF_B            1 PCTDSLIKVDMRTISFDIPPQEVLTKDSVTISVDGVVYYRVQNATLAVANITNADSATRLLAQTTLRNALGTKNLSQILS   80 (128)
+T ss_dssp             ---CCSSCCCCSCEEEEEEEEEEECTTSCEEEEEEEEEEEESCHHHHHHTHHHHHHHHHHHHHHHHHHHHHTSCHHHHHH
+T ss_pred             CceeEEEEEeCceeeeecCCCeEEcCCCceEEEEeEEEEEEccHHHHHeeCCCHHHHHHHHHHHHHHHHHhcCCHHHHHh
+Confidence            89999999999999999998999999999999999999999999999888888988999999999999999999999999
+
+
+Q query           166 DREEIAHNMQSTLDDATDAWGIKVERVEIKDVKLPVQLQRAMAAEAEA  213 (288)
+Q Consensus       166 ~Re~I~~~i~~~ld~~T~~WGIkV~~VEIkdI~lP~~lqrAMA~eAeA  213 (288)
+                      +|+++++.+.+.+++.+.+||+++.++.|.++.+|++++++|.++++|
+T Consensus        81 ~~~~i~~~v~~~l~~~~~~~Gi~i~~~~i~~i~~~~~~~~~i~~~~~a  128 (128)
+T 4FVF_B           81 DREEIAHHMQSTLDDATDDWGIKVERVEIKDVKLPVQLQRAMAAEAEA  128 (128)
+T ss_dssp             CHHHHHHHHHHHHHHHHGGGTEEEEEEEEEEEEEEGGGCC--------
+T ss_pred             CHHHHHHHHHHHHHHHHHhcCcEEEEEEEEecCCCHHHHHHHHHHhhC
+Confidence            999999999999999999999999999999999999999999887665
+
+
+No 4
+>1WIN_A Flotillin 2; Band 7 Domain, Flotillin 2; NMR {Mus musculus} SCOP: d.43.2.1
+Probab=99.63  E-value=1.1e-19  Score=148.29  Aligned_cols=130  Identities=18%  Similarity=0.296  Sum_probs=120.0  Template_Neff=10.200
+
+Q query            89 DSFIKVDMRTISFDIPPQEILTKDSVTISVDGVVYYRVQNATLAV---------ANITNADSATRLLAQTTLRNVLGTKN  159 (288)
+Q Consensus        89 d~~~~VDlR~~t~dvp~QevlTkDnV~V~VDAVvyyrV~dp~~av---------~~V~d~~~A~~~lAQTtLR~viG~~~  159 (288)
+                      ++++.+|++.++++++...+.|+|++++.+++.+.|+|.++..++         ....++...+...+++.+|+.+++++
+T Consensus         5 ~~v~~v~~~~~~~~~~~~~~~t~d~~~v~v~~~~~~~i~~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~r~~~~~~~   84 (143)
+T 1WIN_A            5 SSGQRISLEIMTLQPRCEDVETAEGVALTVTGVAQVKIMTEKELLAVACEQFLGKNVQDIKNVVLQTLEGHLRSILGTLT   84 (143)
+T ss_dssp             CCCCSCCCSCEEECCCEEEEECSSSCEEEECCEEEEEECCCSSCCHHHHHHHSSSCHHHHHHHHHHHHHHHHHHHHHHSC
+T ss_pred             ceeEEEECcEEEecceeeecccCCCeEEEEEEEEEEEeCChHHHHHHHHHHHcCCCHHHHHHHHHHHHHHHHHHHHhcCC
+Confidence            678999999999999888999999999999999999998877765         23446678899999999999999999
+
+
+Q query           160 LSQILSDREEIAHNMQSTLDDATDAWGIKVERVEIKDVKLPVQLQRAMAAEAEASREAR  218 (288)
+Q Consensus       160 L~elLs~Re~I~~~i~~~ld~~T~~WGIkV~~VEIkdI~lP~~lqrAMA~eAeAeRe~r  218 (288)
+                      +.+++.+|+++.+.+++.+++.+.+||++|.++.|.++.+|+++.++|.++..|+++++
+T Consensus        85 ~~~l~~~r~~i~~~i~~~l~~~~~~~Gi~i~~v~I~~i~~~~~~~~a~~~~~~a~~~~~  143 (143)
+T 1WIN_A           85 VEQIYQDRDQFAKLVREVAAPDVGRMGIEILSFTIKDVYDKVDYLSSLGKTQTSGPSSG  143 (143)
+T ss_dssp             HHHHHHTHHHHHHHHHHHHHHHHTTTTEEEEEEECCCEECTTCHHHHHCCCCCCCCCCC
+T ss_pred             HHHHHhCHHHHHHHHHHHHHHHHHhcCeEEEEEEEEeeeCCccHHHhccCcccCCCCCC
+Confidence            99999999999999999999999999999999999999999999999999999988764
+
+
+No 5
+>2RPB_A hypothetical membrane protein; membrane protein, SPFH domain; NMR {Pyrococcus horikoshii}
+Probab=99.46  E-value=3.3e-17  Score=129.34  Aligned_cols=112  Identities=41%  Similarity=0.667  Sum_probs=106.7  Template_Neff=10.000
+
+Q query            91 FIKVDMRTISFDIPPQEILTKDSVTISVDGVVYYRVQNATLAVANITNADSATRLLAQTTLRNVLGTKNLSQILSDREEI  170 (288)
+Q Consensus        91 ~~~VDlR~~t~dvp~QevlTkDnV~V~VDAVvyyrV~dp~~av~~V~d~~~A~~~lAQTtLR~viG~~~L~elLs~Re~I  170 (288)
+                      ++.+|++.+++++++..+.|+|+.++.+++++.|+|.++..++.++.++...+...+.+.+|++++++++.+++++|+++
+T Consensus         2 v~~~~~~~~~~~~~~~~~~T~d~~~i~~~~~~~~~i~~~~~~~~~~~~~~~~i~~~~~~~~~~~~~~~~~~~i~~~r~~i   81 (113)
+T 2RPB_A            2 SDHVDLREHVIDVPPQEVICKDNVVVTVDAVVYYQVIDPVKAVYNVSDFLMAIVKLAQTNLRAIIGEMELDETLSGRDII   81 (113)
+T ss_dssp             CSCCCCCCEEEECCCEEEECTTSCEEEECEEEEEEESCTTTCTTTTTHHHHHHHHHHHHHHHHHHTSCCTTHHHHCHHHH
+T ss_pred             ceeeeceeeeEecCcceeEecCCcEEEEEEEEEEEEeCHHHHHhcCCCHHHHHHHHHHHHHHHHHhcCCHHHHHhCHHHH
+Confidence            57899999999999899999999999999999999998888888888998899999999999999999999999999999
+
+
+Q query           171 AHNMQSTLDDATDAWGIKVERVEIKDVKLPVQ  202 (288)
+Q Consensus       171 ~~~i~~~ld~~T~~WGIkV~~VEIkdI~lP~~  202 (288)
+                      ++.+++.+++.+.+||+++.++.|+++.+|++
+T Consensus        82 ~~~v~~~l~~~~~~~Gi~i~~v~i~~i~~p~~  113 (113)
+T 2RPB_A           82 NARLREELDKITDRWGVKITRVEIQRIDPPKD  113 (113)
+T ss_dssp             HHHHHHHHHHHHGGGTEECCCEEECCCBCCCC
+T ss_pred             HHHHHHHHHHHHHhhCcEEEEEEEEecCCCCC
+Confidence            99999999999999999999999999999874
+
+
+No 6
+>6IQE_A Prohibitin-2; Mitochondrial function and morphology, Transcriptional; 1.701A {Homo sapiens}
+Probab=88.26  E-value=0.26  Score=40.17  Aligned_cols=68  Identities=21%  Similarity=0.264  Sum_probs=22.4  Template_Neff=6.900
+
+Q query           198 KLPVQLQRAMAAEAEASREARA---KVIAAEGE----MNASRALKEASMVIT----ESPAALQLRYLQTLTTIAAEKNS  265 (288)
+Q Consensus       198 ~lP~~lqrAMA~eAeAeRe~rA---kii~AegE----~~Aa~~l~eAA~~~~----~~p~AlqLR~LqtL~~ia~e~ns  265 (288)
+                      +||+++.+++..+..|+++.+.   .+..|+++    +..|++.++|+++++    .+|..+++++++.|.+++...++
+T Consensus         2 ~f~~~~~~AIe~k~~a~Q~~~~a~~~~~~a~~ea~~~vi~Aeg~A~A~~~~~~sL~~~~~~l~~~~ie~~~~~~~~~~~   80 (87)
+T 6IQE_A            2 SFSREYTAAVEAKQVAQQEAQRAQFLVEKAKQEQRQKIVQAEGEAEAAKMLGEALSKNPGYIKLRKIRAAQNISKTIAL   80 (87)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHC---------------------
+T ss_pred             CCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhcCHhHHHHHHHHHHHHHHHHHhh
+Confidence            4677777777777666444331   12222221    112334444555444    46899999999999999877664
+
+
+No 7
+>4V60_K Major vault protein; 9 REPEAT DOMAINS, PROTEIN-PROTEIN COMPLEX; 3.5A {Rattus norvegicus}
+Probab=72.85  E-value=2.8  Score=47.85  Aligned_cols=96  Identities=11%  Similarity=0.134  Sum_probs=57.9  Template_Neff=6.200
+
+Q query           105 PQEILTKDSVTISVDGVV--YYRVQNAT-----LAVANITNADSATRLLAQTTLRNVLGTKNLSQILSDREE-IAHNMQS  176 (288)
+Q Consensus       105 ~QevlTkDnV~V~VDAVv--yyrV~dp~-----~av~~V~d~~~A~~~lAQTtLR~viG~~~L~elLs~Re~-I~~~i~~  176 (288)
+                      ...+.|+|+..+.+..++  +|.+.+..     ...+.+.||-..+-....+.+|..+...+++++..+-.. |...+..
+T Consensus       526 ~v~vet~d~arl~l~lsy~~~F~v~~~s~p~~~~~lf~vpDfvgd~~~~~asrIr~av~~~~Fd~fhk~~a~~IR~aVfg  605 (861)
+T 4V60_K          526 VITIETADHARLQLQLAYNWHFELKNRNDPAEAAKLFSVPDFVGDACKAIASRVRGAVASVTFDDFHKNSARIIRMAVFG  605 (861)
+T ss_dssp             ECCEECTTCCEEEEEEEEEEEECCSCSSCHHHHHHTTSSSCHHHHHHHHHHHHHHHHHTTSCHHHHHHHHHHHHHHHTTT
+T ss_pred             EEEEEcCCceEEEEEEEEeeeeeccCCCCHHHHHHHhcCCcHHHHHHHHHHHHHHHHHhcCCHHHHhHhhHHHhHHHhhc
+Confidence            456789999999988877  66664432     345677787554433355578988888888886543211 1111111
+
+
+Q query           177 T-----------LDD------ATDAWGIKVERVEIKDVKLP  200 (288)
+Q Consensus       177 ~-----------ld~------~T~~WGIkV~~VEIkdI~lP  200 (288)
+                      .           .+.      .+...|..|+++.+..+.+.
+T Consensus       606 ~~~~~~~~~d~~~~~~~r~~l~F~~N~l~It~idv~svE~~  646 (861)
+T 4V60_K          606 FEMSEDTGPDGTLLPKARDQAVFPQNGLVVSSVDVQSVEPV  646 (861)
+T ss_dssp             CC-------------CCCSCEECSSSCEEEEEECCCEEEES
+T ss_pred             CCCCCCCCCCCCccccccccceeecCCeEEEEEEecccCcC
+Confidence            1           001      14456777777777777653
+
+
+No 8
+>5T2A_0 eL18, uL16, uL5, eL13, uL13; ribosome, Leishmania donovani; 2.9A {Leishmania donovani}
+Probab=55.19  E-value=11  Score=37.63  Aligned_cols=89  Identities=12%  Similarity=0.153  Sum_probs=54.1  Template_Neff=6.000
+
+Q query           105 PQEILTKDSVTISVDGVVYYRVQNATLA---VANITNADSATRLLAQTTLRNVLGTKNLSQILSD--REEIAHNMQSTLD  179 (288)
+Q Consensus       105 ~QevlTkDnV~V~VDAVvyyrV~dp~~a---v~~V~d~~~A~~~lAQTtLR~viG~~~L~elLs~--Re~I~~~i~~~ld  179 (288)
+                      .+++.|+||..+.+-..++-+= .....   .+.-......++......+.+.+.+.+++++...  -+.+..+|...+.
+T Consensus       127 ~~dvkTkDG~~lRi~~i~~T~k-~~~~~kk~~Yak~Sq~k~IRk~m~e~i~~~~~~~~~~e~v~~li~~~i~~~I~k~~k  205 (264)
+T 5T2A_0          127 TVEVKTADGYTMRLFVVAFTKP-QANQQSRNCYAKQRLVKWLRMRITKMIKRRLSKVQIKEAVSLLTRNVLSDALVRRCN  205 (264)
+T ss_pred             EEEEEcCCCCEEEEEEEEEeCC-CcchHhchhchhhHHHHHHHHHHHHHHHHHHhcCCHHHHHHHHcCchHHHHHHHhhc
+Confidence            5678899999888766655332 11111   1111123356777788888888899999998763  3556666666555
+
+
+Q query           180 DATDAWGIKVERVEI  194 (288)
+Q Consensus       180 ~~T~~WGIkV~~VEI  194 (288)
+                      ....-..+.|..+.+
+T Consensus       206 kIyPl~~v~IrKvkv  220 (264)
+T 5T2A_0          206 PILPLRELRIRKVRV  220 (264)
+T ss_pred             cccccceEEEEEEEe
+Confidence            544434455554444
+
+
+No 9
+>6IAT_G Major head protein, Uncharacterized protein; structural protein, bacteriophage capsid, HK97; 3.3A {Staphylococcus phage P68}
+Probab=52.42  E-value=13  Score=28.71  Aligned_cols=46  Identities=22%  Similarity=0.492  Sum_probs=13.9  Template_Neff=1.000
+
+Q query           150 TLRNVLGTKNLSQILSDREEIAHNMQSTLDDATDAWGIKVERVEIK  195 (288)
+Q Consensus       150 tLR~viG~~~L~elLs~Re~I~~~i~~~ld~~T~~WGIkV~~VEIk  195 (288)
+                      .+|+.+|..--+.-+.+|.++++.+.-.-++.-+.||++|.++.-+
+T Consensus         6 nmrsmmgtsyedsrlnkrtelnenmsidtnksedsygvqihslskq   51 (60)
+T 6IAT_G            6 NMRSMMGTSYEDSRLNKRTELNENMSIDTNKSEDSYGVQIHSLSKQ   51 (60)
+T ss_dssp             CSCSHHHHHSSCCCCCCCCSCC------------------------
+T ss_pred             chhhhcCccHHhhhhhhcccccccccccCCCccccceeeeEEeccc
+Confidence            3556666543444567889999888877777778899999876544
+
+
+No 10
+>6Q3G_MS ?; structural protein, bacteriophage, receptor binding; 3.8A {Staphylococcus phage P68}
+Probab=52.42  E-value=13  Score=28.71  Aligned_cols=46  Identities=22%  Similarity=0.492  Sum_probs=32.7  Template_Neff=1.000
+
+Q query           150 TLRNVLGTKNLSQILSDREEIAHNMQSTLDDATDAWGIKVERVEIK  195 (288)
+Q Consensus       150 tLR~viG~~~L~elLs~Re~I~~~i~~~ld~~T~~WGIkV~~VEIk  195 (288)
+                      .+|+.+|..--+.-+.+|.++++.+.-.-++.-+.||++|.++.-+
+T Consensus         6 nmrsmmgtsyedsrlnkrtelnenmsidtnksedsygvqihslskq   51 (60)
+T 6Q3G_MS           6 NMRSMMGTSYEDSRLNKRTELNENMSIDTNKSEDSYGVQIHSLSKQ   51 (60)
+T ss_pred             chhhhcCccHHhhhhhhcccccccccccCCCccccceeeeEEeccc
+Confidence            3556666543444567889999888877777778899999876544
+
+
+No 11
+>7ASE_W kDDX60, 40S ribosomal protein S24; preinitiation, factors, kinetoplastid, helicase, TRANSLATION; HET: GNP; 3.33A {Trypanosoma cruzi}
+Probab=49.26  E-value=15  Score=36.40  Aligned_cols=90  Identities=13%  Similarity=0.162  Sum_probs=53.2  Template_Neff=5.900
+
+Q query           105 PQEILTKDSVTISVDGVVYYRVQ--NATLAVANITNADSATRLLAQTTLRNVLGTKNLSQILSD--REEIAHNMQSTLDD  180 (288)
+Q Consensus       105 ~QevlTkDnV~V~VDAVvyyrV~--dp~~av~~V~d~~~A~~~lAQTtLR~viG~~~L~elLs~--Re~I~~~i~~~ld~  180 (288)
+                      .+++.|+||..+.+-...+-+=.  ...+..+.-......++......+.+.+...+++++...  -+.+..+|...+..
+T Consensus       119 ~~dvkT~DGy~lRif~i~~T~k~~~~~kkt~Yak~Sq~k~IRk~m~e~i~~~~~~~~~~e~v~~li~~~i~~eI~k~~kk  198 (254)
+T 7ASE_W          119 AVEAKTADGYTLRLFVIAFTKKQSNQLSKNCYAKTRLVKWVRHRITNLIRQRLSKVNINEAVTLLTRNILRDRLAKRCNP  198 (254)
+T ss_pred             EEEeecCCCcEEEEEEEEEecCCchhhhhHHchhhHHHHHHHHHHHHHHHHHHhcCCHHHHHHHHccchHHHHHHHhcCC
+Confidence            56788999988887666543321  111111111123356777788888889999999998864  34555555555554
+
+
+Q query           181 ATDAWGIKVERVEI  194 (288)
+Q Consensus       181 ~T~~WGIkV~~VEI  194 (288)
+                      ...-..+.|..+.+
+T Consensus       199 IyPl~~v~IrKvkv  212 (254)
+T 7ASE_W          199 IVPLRDLRIRKVKV  212 (254)
+T ss_pred             ceecccEEEEEEEe
+Confidence            44334455544444
+
+
+No 12
+>6XA1_SB translation termination complex; Selectively stalling, translation termination, drug-like; HET: A2M, MEQ, 4AC, M2G, MLZ, OMG, OMU, PSU, B8N, 5MC, H2U, MVM, 2MG, G7M, UY1, 1MG, MA6, UXY, 6MZ, 1MA, UY4, MG, OMC, UR3; 2.8A {Homo sapiens}
+Probab=24.49  E-value=72  Score=31.01  Aligned_cols=90  Identities=10%  Similarity=0.143  Sum_probs=55.9  Template_Neff=6.100
+
+Q query           105 PQEILTKDSVTISVDGVVYYRV--QNATLAVANITNADSATRLLAQTTLRNVLGTKNLSQILSD--REEIAHNMQSTLDD  180 (288)
+Q Consensus       105 ~QevlTkDnV~V~VDAVvyyrV--~dp~~av~~V~d~~~A~~~lAQTtLR~viG~~~L~elLs~--Re~I~~~i~~~ld~  180 (288)
+                      .+++.|+||..+.|-..++=+=  ....+..+.-......++......+.+.+.+.+++++...  -+.++.+|...+..
+T Consensus       103 ~~dv~TkDg~~lRv~~i~~T~~~~~~~kk~~Yak~Sq~k~IRk~~~e~i~~~~~~~~~~~lv~~~~~~~l~~~i~~~~kk  182 (211)
+T 6XA1_SB         103 HVDVKTTDGYLLRLFCVGFTKKRNNQIRKTSYAQHQQVRQIRKKMMEIMTREVQTNDLKEVVNKLIPDSIGKDIEKACQS  182 (211)
+T ss_pred             EEEEecCCCCEEEEEEEEEecCCchhHhhHhccchHHHHHHHHHHHHHHHHHHhcCCHHHHHHHHCccchhHHHHHHhcc
+Confidence            5678999999888766654332  1111111111233457888888899999999999998864  35566666666655
+
+
+Q query           181 ATDAWGIKVERVEI  194 (288)
+Q Consensus       181 ~T~~WGIkV~~VEI  194 (288)
+                      ...-..++|..+.+
+T Consensus       183 IyPlr~veIrKvkv  196 (211)
+T 6XA1_SB         183 IYPLHDVFVRKVKM  196 (211)
+T ss_pred             ceehhheEEEEEee
+Confidence            44444455555444
+
+
+No 13
+>4BTS_B4 TRANSLATION INITIATION FACTOR EIF-1A FAMILY; RIBOSOME, TRANSLATION, TRANSLATION INITIATION, SMALL; HET: ZN, MG; 3.703A {TETRAHYMENA THERMOPHILA}
+Probab=22.89  E-value=81  Score=31.86  Aligned_cols=90  Identities=14%  Similarity=0.168  Sum_probs=54.9  Template_Neff=5.700
+
+Q query           105 PQEILTKDSVTISVDGVVYYRVQNA-----TLAVANITNADSATRLLAQTTLRNVLGTKNLSQILSD--REEIAHNMQST  177 (288)
+Q Consensus       105 ~QevlTkDnV~V~VDAVvyyrV~dp-----~~av~~V~d~~~A~~~lAQTtLR~viG~~~L~elLs~--Re~I~~~i~~~  177 (288)
+                      .+++.|+||..+.+-..++-+=...     .+-.+.-......++......+.+.+.+.+++++...  -+.+..+|...
+T Consensus       127 ~~dvkT~DGy~lRvf~v~~T~k~~~~~~~~kk~~Yak~Sq~k~IRk~m~e~i~~~~~~~~~~e~v~~li~~~i~~eI~k~  206 (265)
+T 4BTS_B4         127 RVDCKTNDGYIIRVFTLAFTKKTSAGKQSSTSTCYAKSSQVRAIRRKINTFITNEAAKLGIAEFSKNLIGEDYTKKIEKE  206 (265)
+T ss_pred             EEEeecCCCcEEEEEEEEEEccCCCCCCccccccccchHHHHHHHHHHHHHHHHHHHhcCHHHHHHHHccchhHHHHHHH
+Confidence            5678999999888877665433111     1111111123456777888888999999999998763  35566666665
+
+
+Q query           178 LDDATDAWGIKVERVEI  194 (288)
+Q Consensus       178 ld~~T~~WGIkV~~VEI  194 (288)
+                      +.....-..+.|..+.+
+T Consensus       207 ~k~IyPlr~v~IrKvkv  223 (265)
+T 4BTS_B4         207 TKNIFPLQNITIRKVKV  223 (265)
+T ss_pred             hccccccceEEEEEEEe
+Confidence            55444334445544444
+
+
+No 14
+>5TBW_s1 ?; Protein translation inhibitor, complex, ribosome; HET: MG, ZN, OHX, 7AL; 3.0A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=20.40  E-value=99  Score=30.17  Aligned_cols=89  Identities=18%  Similarity=0.217  Sum_probs=53.9  Template_Neff=6.300
+
+Q query           105 PQEILTKDSVTISVDGVVYYRVQNATLA---VANITNADSATRLLAQTTLRNVLGTKNLSQILSD--REEIAHNMQSTLD  179 (288)
+Q Consensus       105 ~QevlTkDnV~V~VDAVvyyrV~dp~~a---v~~V~d~~~A~~~lAQTtLR~viG~~~L~elLs~--Re~I~~~i~~~ld  179 (288)
+                      .+++.|+||..+.+-...+-+= .+...   .+.-......++..+...+.+.+.+.+++++...  -+.+..+|.+.+.
+T Consensus       105 ~~dvkT~DG~~lRi~~i~~T~k-~~~~~kk~~ya~~Sq~~~IRk~~~e~i~~~~~~~~~~e~v~~li~~~i~~~i~k~~k  183 (216)
+T 5TBW_s1         105 NVTVKTSDDYVLRIFAIAFTRK-QANQVKRHSYAQSSHIRAIRKVISEILTKEVQGSTLAQLTSKLIPEVINKEIENATK  183 (216)
+T ss_pred             EEEeecCCCcEEEEEEEEEEcC-CchHhhchhccchHHHHHHHHHHHHHHHHHhccCCHHHHHHhhChhHHHHHHHHHhc
+Confidence            5678899998888766554332 11111   1111223456778888889999999999998764  3455555555555
+
+
+Q query           180 DATDAWGIKVERVEI  194 (288)
+Q Consensus       180 ~~T~~WGIkV~~VEI  194 (288)
+                      ....-..+.|..+.+
+T Consensus       184 ~IyPl~~v~IrKvkv  198 (216)
+T 5TBW_s1         184 DIFPLQNIHVRKVKL  198 (216)
+T ss_pred             ceeeeceEEEEEeee
+Confidence            444334455554444
+
+
+No 15
+>6I7O_Q uL2, uL3, uL4, uL18, eL6; ribosome, disome, di-ribosome, stalling, TRANSLATION; HET: ZN; 5.3A {Saccharomyces cerevisiae}
+Probab=20.40  E-value=99  Score=30.17  Aligned_cols=89  Identities=18%  Similarity=0.217  Sum_probs=53.9  Template_Neff=6.300
+
+Q query           105 PQEILTKDSVTISVDGVVYYRVQNATLA---VANITNADSATRLLAQTTLRNVLGTKNLSQILSD--REEIAHNMQSTLD  179 (288)
+Q Consensus       105 ~QevlTkDnV~V~VDAVvyyrV~dp~~a---v~~V~d~~~A~~~lAQTtLR~viG~~~L~elLs~--Re~I~~~i~~~ld  179 (288)
+                      .+++.|+||..+.+-...+-+= .+...   .+.-......++..+...+.+.+.+.+++++...  -+.+..+|.+.+.
+T Consensus       105 ~~dvkT~DG~~lRi~~i~~T~k-~~~~~kk~~ya~~Sq~~~IRk~~~e~i~~~~~~~~~~e~v~~li~~~i~~~i~k~~k  183 (216)
+T 6I7O_Q          105 NVTVKTSDDYVLRIFAIAFTRK-QANQVKRHSYAQSSHIRAIRKVISEILTKEVQGSTLAQLTSKLIPEVINKEIENATK  183 (216)
+T ss_pred             EEEeecCCCcEEEEEEEEEEcC-CchHhhchhccchHHHHHHHHHHHHHHHHHhccCCHHHHHHhhChhHHHHHHHHHhc
+Confidence            5678899998888766554332 11111   1111223456778888889999999999998764  3455555555555
+
+
+Q query           180 DATDAWGIKVERVEI  194 (288)
+Q Consensus       180 ~~T~~WGIkV~~VEI  194 (288)
+                      ....-..+.|..+.+
+T Consensus       184 ~IyPl~~v~IrKvkv  198 (216)
+T 6I7O_Q          184 DIFPLQNIHVRKVKL  198 (216)
+T ss_pred             ceeeeceEEEEEeee
+Confidence            444334455554444
+
+

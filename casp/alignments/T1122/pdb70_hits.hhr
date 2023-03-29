@@ -1,0 +1,158 @@
+Query         query 
+Match_columns 241
+No_of_seqs    1 out of 2
+Neff          1
+Searched_HMMs 90139
+Date          Fri May 27 03:21:57 2022
+Command       /mnt/home/dberenberg/gustaf_stuff/openfold/lib/conda/envs/openfold_venv/bin/hhsearch -i /tmp/tmpg1ns20c3/query.a3m -o /tmp/tmpg1ns20c3/output.hhr -maxseq 1000000 -cpu 28 -d /mnt/home/dberenberg/gustaf_stuff/OpenFold/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1FSH_A STRUCTURAL BASIS OF THE  22.9      82 0.00091   22.6   0.0   20   44-63     46-65  (105)
+  2 2GHR_A Homoserine O-succinyltr  22.3      85 0.00094   27.1   0.0   35  140-174   115-150 (302)
+  3 1UHW_A pleckstrin; THREE-HELIX  22.3      85 0.00095   22.8   0.0   27   43-69     32-63  (109)
+  4 5SUZ_A Segment polarity protei  21.3      92   0.001   21.3   0.0   20   43-62     33-52  (95)
+  5 5SUY_B Segment polarity protei  20.6      98  0.0011   21.4   0.0   20   44-63     35-54  (97)
+  6 6MTG_B Homoserine O-succinyltr  18.1 1.2E+02  0.0013   26.4   0.0   34  140-173   114-148 (302)
+  7 7CBE_B Homoserine O-succinyltr  17.5 1.3E+02  0.0014   26.1   0.0   25  149-173   124-148 (309)
+  8 2VDJ_A HOMOSERINE O-SUCCINYLTR  16.1 1.4E+02  0.0016   25.7   0.0   16  160-175   135-150 (301)
+  9 1HRY_A HUMAN SRY/DNA Complex;   15.0 1.6E+02  0.0018   18.2   0.0   37  143-180    40-76  (76)
+ 10 6MTG_A Homoserine O-succinyltr  14.9 1.6E+02  0.0018   25.5   0.0   34  140-173   114-148 (302)
+
+No 1
+>1FSH_A STRUCTURAL BASIS OF THE RECOGNITION; three-helix bundle, beta-arm, DISHEVELLED-1, SEGMENT; NMR {Mus musculus} SCOP: a.4.5.31
+Probab=22.86  E-value=82  Score=22.59  Aligned_cols=20  Identities=20%  Similarity=0.456  Sum_probs=17.2  Template_Neff=9.100
+
+Q query            44 QFDHVFIKSDFKTWLAHNQD   63 (241)
+Q Consensus        44 qfdhvfiksdfktwlahnqd   63 (241)
+                      .+.++|.-+++-.||..+.+
+T Consensus        46 ~~~~~F~G~~~v~WL~~~~~   65 (105)
+T 1FSH_A           46 TIANAVIGADVVDWLYTHVE   65 (105)
+T ss_dssp             EESSCCHHHHHHHHHHHHCC
+T ss_pred             ecccceeHHHHHHHHHHcCC
+Confidence            57789999999999998863
+
+
+No 2
+>2GHR_A Homoserine O-succinyltransferase (E.C.2.3.1.46); NP_981826.1, HOMOSERINE O-SUCCINYLTRANSFERASE, Structural Genomics; 2.4A {Bacillus cereus} SCOP: c.23.16.8
+Probab=22.30  E-value=85  Score=27.12  Aligned_cols=35  Identities=17%  Similarity=0.297  Sum_probs=19.0  Template_Neff=8.700
+
+Q query           140 DFKNTPWIN-LSKEHKKIYELVRGIFGICYGEKDYN  174 (241)
+Q Consensus       140 dfkntpwin-lskehkkiyelvrgifgicygekdyn  174 (241)
+                      ++...||+. +.+--+...+.-.-++|||+|-.-..
+T Consensus       115 ~~~~~~~~~~~~~li~~~~~~~iPilGiC~G~Qlla  150 (302)
+T 2GHR_A          115 SFEEVDYWEELKRIMEYSKTNVTSTLHICWGAQAGL  150 (302)
+T ss_dssp             CGGGSTTHHHHHHHHHHHHHHEEEEEEETHHHHHHH
+T ss_pred             ChhhCchHHHHHHHHHHHHHcCCcEEEECHHHHHHH
+Confidence            344566644 22222223344467899999875443
+
+
+No 3
+>1UHW_A pleckstrin; THREE-HELIX BUNDLE, BETA-ARM, PLECKSTRIN, RIKEN; NMR {Mus musculus} SCOP: a.4.5.31
+Probab=22.28  E-value=85  Score=22.84  Aligned_cols=27  Identities=26%  Similarity=0.583  Sum_probs=20.8  Template_Neff=8.900
+
+Q query            43 IQFDHVFIKSDFKTWLAHN-----QDEAILLI   69 (241)
+Q Consensus        43 iqfdhvfiksdfktwlahn-----qdeailli   69 (241)
+                      -.+.++|.-+|+-.||..|     ..||+.+.
+T Consensus        32 ~~~~~~F~G~d~v~WL~~~~~~~~r~eA~~~~   63 (109)
+T 1UHW_A           32 KVFNHCLTGSGVIDWLVSNKLVRNRQEGLMIS   63 (109)
+T ss_pred             EecCCcEEHHHHHHHHHHcCCCCCHHHHHHHH
+Confidence            4678999999999999987     34555444
+
+
+No 4
+>5SUZ_A Segment polarity protein dishevelled homolog; Dishevelled, DEP domain, WNT signalling; HET: MSE; 1.84A {Homo sapiens}
+Probab=21.31  E-value=92  Score=21.35  Aligned_cols=20  Identities=35%  Similarity=0.689  Sum_probs=17.2  Template_Neff=9.700
+
+Q query            43 IQFDHVFIKSDFKTWLAHNQ   62 (241)
+Q Consensus        43 iqfdhvfiksdfktwlahnq   62 (241)
+                      -.++++|.-+++-.||..|.
+T Consensus        33 ~~~~~~F~G~~~v~WL~~~~   52 (95)
+T 5SUZ_A           33 ITIPNAFLGSDVVDWLYHHV   52 (95)
+T ss_dssp             EEEEEEEEHHHHHHHHHHHS
+T ss_pred             cccCCcEEHHHHHHHHHHhc
+Confidence            35789999999999999883
+
+
+No 5
+>5SUY_B Segment polarity protein dishevelled homolog; Dishevelled, DEP domain, WNT signalling; HET: SO4; 1.88A {Homo sapiens}
+Probab=20.56  E-value=98  Score=21.41  Aligned_cols=20  Identities=30%  Similarity=0.667  Sum_probs=17.1  Template_Neff=9.600
+
+Q query            44 QFDHVFIKSDFKTWLAHNQD   63 (241)
+Q Consensus        44 qfdhvfiksdfktwlahnqd   63 (241)
+                      .+.++|.-+|+-.||..+..
+T Consensus        35 ~~~~~F~G~~~v~WL~~~~~   54 (97)
+T 5SUY_B           35 TIPNAFLGSDVVDWLYHHVE   54 (97)
+T ss_dssp             EEEEEEEHHHHHHHHHHHSB
+T ss_pred             ccCCcEEHHHHHHHHHHccC
+Confidence            57889999999999998853
+
+
+No 6
+>6MTG_B Homoserine O-succinyltransferase (E.C.2.3.1.46); noncanonical amino acid, isothiocyanate, crosslink; HET: PEG, FMT, CSD; 1.85A {Escherichia coli (strain K12)}
+Probab=18.14  E-value=1.2e+02  Score=26.37  Aligned_cols=34  Identities=6%  Similarity=0.103  Sum_probs=18.0  Template_Neff=8.600
+
+Q query           140 DFKNTPWINL-SKEHKKIYELVRGIFGICYGEKDY  173 (241)
+Q Consensus       140 dfkntpwinl-skehkkiyelvrgifgicygekdy  173 (241)
+                      |+...||+.- .+--+...+.-.-++|||+|-.-.
+T Consensus       114 ~~~~~~~~~~~~~~i~~~~~~~~PvLGIC~G~Q~l  148 (302)
+T 6MTG_B          114 EFNDVAYWPQIKQVLEWSKDHVTSTLFVAWAVQAA  148 (302)
+T ss_pred             ccccCchHHHHHHHHHHHHHcCCCEEEeCHHHHHH
+Confidence            4555666532 111222223345689999996443
+
+
+No 7
+>7CBE_B Homoserine O-succinyltransferase (E.C.2.3.1.46); Homoserine O-succinyltransferase, TRANSFERASE; HET: SO4; 1.7A {Escherichia coli (strain K12)}
+Probab=17.50  E-value=1.3e+02  Score=26.13  Aligned_cols=25  Identities=8%  Similarity=0.153  Sum_probs=16.5  Template_Neff=8.800
+
+Q query           149 LSKEHKKIYELVRGIFGICYGEKDY  173 (241)
+Q Consensus       149 lskehkkiyelvrgifgicygekdy  173 (241)
+                      +.+..+.+.+...-++|||+|-.-.
+T Consensus       124 l~~~~~~~~~~~~PvlGIC~G~Qll  148 (309)
+T 7CBE_B          124 IKQVLEWSKDHVTSTLFVCWAVQAA  148 (309)
+T ss_dssp             HHHHHHHHHHHEEEEEEETHHHHHH
+T ss_pred             HHHHHHHHHHcChhHHHHHHHHHHH
+Confidence            4444444555568899999987543
+
+
+No 8
+>2VDJ_A HOMOSERINE O-SUCCINYLTRANSFERASE (E.C.2.3.1.46); METHIONINE BIOSYNTHESIS, AMINO-ACID BIOSYNTHESIS, HOMOSERINE; 2.0A {BACILLUS CEREUS}
+Probab=16.11  E-value=1.4e+02  Score=25.71  Aligned_cols=16  Identities=25%  Similarity=0.463  Sum_probs=11.3  Template_Neff=8.800
+
+Q query           160 VRGIFGICYGEKDYNR  175 (241)
+Q Consensus       160 vrgifgicygekdynr  175 (241)
+                      -.-++|||+|-.-..+
+T Consensus       135 ~~PilGiC~G~Qlla~  150 (301)
+T 2VDJ_A          135 VTSTLHICWGAQAGLY  150 (301)
+T ss_dssp             EEEEEEETHHHHHHHH
+T ss_pred             CCeEEEECHHHHHHHH
+Confidence            4578999998754433
+
+
+No 9
+>1HRY_A HUMAN SRY/DNA Complex; DNA, SRY, DNA-BINDING PROTEIN, DNA; NMR {Homo sapiens} SCOP: a.21.1.1
+Probab=15.02  E-value=1.6e+02  Score=18.19  Aligned_cols=37  Identities=16%  Similarity=0.318  Sum_probs=18.4  Template_Neff=10.900
+
+Q query           143 NTPWINLSKEHKKIYELVRGIFGICYGEKDYNRFEYCP  180 (241)
+Q Consensus       143 ntpwinlskehkkiyelvrgifgicygekdynrfeycp  180 (241)
+                      ...|-.||.+-+..|.-...-.- .--++++..+.|||
+T Consensus        40 ~~~W~~l~~~ek~~y~~~~~~~~-~~~~~~~~~~~~~p   76 (76)
+T 1HRY_A           40 GYQWKMLTEAEKWPFFQEAQKLQ-AMHREKYPNYKYRP   76 (76)
+T ss_dssp             HHHHHTCCHHHHHHHHHHHHHHH-HHHHHHSSSCCCC-
+T ss_pred             HHHHHhCCHHHHHHHHHHHHHHH-HHHHHHCCCcCCCC
+Confidence            34577888777776643211111 11224555566665
+
+
+No 10
+>6MTG_A Homoserine O-succinyltransferase (E.C.2.3.1.46); noncanonical amino acid, isothiocyanate, crosslink; HET: CSD, FMT, PEG; 1.85A {Escherichia coli (strain K12)}
+Probab=14.86  E-value=1.6e+02  Score=25.51  Aligned_cols=34  Identities=9%  Similarity=0.136  Sum_probs=17.9  Template_Neff=8.700
+
+Q query           140 DFKNTPWINLSKE-HKKIYELVRGIFGICYGEKDY  173 (241)
+Q Consensus       140 dfkntpwinlske-hkkiyelvrgifgicygekdy  173 (241)
+                      |+...||+.--.+ -+...+.-.-++|||+|-.-.
+T Consensus       114 ~~~~~~~~~~~~~li~~~~~~~~PvLGIC~G~Qll  148 (302)
+T 6MTG_A          114 EFNDVAYWPQIKQVLEWSKDHVTSTLFVAWAVQAA  148 (302)
+T ss_dssp             CGGGCTTHHHHHHHHHHHHHHEEEEEEETHHHHHH
+T ss_pred             ccccCcchHHHHHHHHHHHHcCCeeeecCHHHHHH
+Confidence            4555677542111 112223345689999987543
+
+

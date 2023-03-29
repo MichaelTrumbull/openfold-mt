@@ -1,0 +1,166 @@
+Query         query 
+Match_columns 261
+No_of_seqs    4 out of 6
+Neff          1.4867
+Searched_HMMs 90139
+Date          Tue Aug  2 01:58:20 2022
+Command       /mnt/home/dberenberg/gustaf_stuff/openfold/lib/conda/envs/openfold_venv/bin/hhsearch -i /tmp/tmpzl8selbt/query.a3m -o /tmp/tmpzl8selbt/output.hhr -maxseq 1000000 -cpu 64 -d /mnt/home/dberenberg/gustaf_stuff/OpenFold/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5EWO_A Structural protein; vir  50.8      14 0.00016   34.4   0.0   73  176-261   149-228 (228)
+  2 4UYT_A FLOCCULATION PROTEIN FL  18.4 1.2E+02  0.0013   27.7   0.0   36  183-218    93-131 (182)
+  3 7ASE_I kDDX60, 40S ribosomal p  17.8 1.2E+02  0.0014   31.6   0.0   15  197-211   122-138 (489)
+  4 3FCG_A F1 capsule-anchoring pr  16.6 1.4E+02  0.0015   22.8   0.0   38   64-111    31-68  (90)
+  5 4UYR_A FLOCCULATION PROTEIN FL  15.9 1.5E+02  0.0016   28.1   0.0   35  183-217   122-159 (211)
+  6 7A09_L 40S ribosomal protein S  14.9 1.6E+02  0.0018   31.5   0.0   15  197-211   179-195 (564)
+  7 6ZP4_L 40S ribosomal protein S  14.2 1.7E+02  0.0019   31.3   0.0   15  197-211   179-195 (564)
+  8 5KOV_G Capsid polyprotein VP25  12.2 2.2E+02  0.0024   27.1   0.0   30  176-205   152-185 (228)
+  9 2I6H_A Hypothetical protein At  10.2 2.8E+02  0.0031   26.0   0.0   27  173-207   176-202 (207)
+ 10 7F75_L Complex, transcription   10.2 2.8E+02  0.0031   26.1   0.0   18  230-249    69-86  (173)
+
+No 1
+>5EWO_A Structural protein; viral protein, capsid protein, icosahedral; HET: SO4; 0.95A {Human astrovirus-1}
+Probab=50.83  E-value=14  Score=34.43  Aligned_cols=73  Identities=33%  Similarity=0.457  Sum_probs=27.6  Template_Neff=5.500
+
+Q query           176 YAYRNQITAGKWYVTFWM-T---YDPDEWVWLDQ-FKLQFALH--PANWSDPIAPRWDITEDSLGTGLWSLQDLTFYPVG  248 (261)
+Q Consensus       176 ~pYRnQIe~G~WYVTFW~-q---yDPDEWVWLDe-F~LQFtLq--Pg~h~~~~~h~WDiT~d~LGTGLWgL~DL~FYPiG  248 (261)
+                      .+-+-.+..|.||+--=+ +   .-|.+|+|-++ ...--+..  .+.-....             +.--..-+.|.=--
+T Consensus       149 ~~~~~sl~~G~WYL~~s~~~~t~~~~~gwvw~~~~l~~n~~~~~~~~~~~~~~-------------~~~~~~~~~~~m~~  215 (228)
+T 5EWO_A          149 YTAGISFTQGGWYLLTNTSIVDGAMPPGWVWNNVELKTNTAYHMDKGLVHLIM-------------PLPESTQMCYEMLT  215 (228)
+T ss_dssp             EEEEEEECTTCEEEEEEEEEEESCCCSSSCCCCCCCCSSSCBCCCTTTTTSSS-------------CCCTTCC--CEEBS
+T ss_pred             cceeEEecCceEEEEEEEEEecCCCCCCceeeccccCcCceeeeccCcccccc-------------CCChhHhheeeecc
+Confidence            344457888999974322 2   45679999875 11111111  01111111             21112223344455
+
+
+Q query           249 HQPAAAELALVPR  261 (261)
+Q Consensus       249 ~QP~aaelalvpr  261 (261)
+                      ..|.+.|||||||
+T Consensus       216 ~~P~~~~~~~~~~  228 (228)
+T 5EWO_A          216 SIPAAAELALVPR  228 (228)
+T ss_dssp             CC-----------
+T ss_pred             cCCceehhccccC
+Confidence            7899999999998
+
+
+No 2
+>4UYT_A FLOCCULATION PROTEIN FLO11; CELL ADHESION, ADHESIN, FLOCCULATION, HYDROPHOBIC; 1.03A {SACCHAROMYCES CEREVISIAE}
+Probab=18.37  E-value=1.2e+02  Score=27.74  Aligned_cols=36  Identities=22%  Similarity=0.387  Sum_probs=28.8  Template_Neff=5.700
+
+Q query           183 TAGKWYVTFWMTYDPD---EWVWLDQFKLQFALHPANWS  218 (261)
+Q Consensus       183 e~G~WYVTFW~qyDPD---EWVWLDeF~LQFtLqPg~h~  218 (261)
+                      ...+|++||=++-.++   .-+|+-.|++|+.-..+...
+T Consensus        93 nP~dft~tf~v~a~~~~~~~~vc~p~FqIqYdw~~~~~~  131 (182)
+T 4UYT_A           93 NPTDFTATFEVYATQDVNSCQVWMPNFQIQFEYLQGSAA  131 (182)
+T ss_dssp             CTTEEEEEEEEECCCBSSSSEEECCCCEEEEEESCGGGG
+T ss_pred             CCCCeEEEEEEEeEeCCCCCEEEeCCeEEEEEEecCChh
+Confidence            5689999987766554   59999999999988777543
+
+
+No 3
+>7ASE_I kDDX60, 40S ribosomal protein S24; preinitiation, factors, kinetoplastid, helicase, TRANSLATION; HET: GNP; 3.33A {Trypanosoma cruzi}
+Probab=17.78  E-value=1.2e+02  Score=31.59  Aligned_cols=15  Identities=33%  Similarity=0.911  Sum_probs=12.8  Template_Neff=5.500
+
+Q query           197 PDEWVW--LDQFKLQFA  211 (261)
+Q Consensus       197 PDEWVW--LDeF~LQFt  211 (261)
+                      |+.|+|  +|||-.||.
+T Consensus       122 P~~WlWDIiDEFIYQfQ  138 (489)
+T 7ASE_I          122 PNWLLWDIFDEFLFQMT  138 (489)
+T ss_pred             ChHHHHHHHHHHHHhHH
+Confidence            778888  999998885
+
+
+No 4
+>3FCG_A F1 capsule-anchoring protein; beta barrel, beta strand swapping; 2.85A {Yersinia pestis}
+Probab=16.63  E-value=1.4e+02  Score=22.76  Aligned_cols=38  Identities=11%  Similarity=0.182  Sum_probs=28.3  Template_Neff=8.000
+
+Q query            64 FYQGAQEIDPVAAADGTFAVNHWNTTNQKLTRLGTAYGCNQHRARTTG  111 (261)
+Q Consensus        64 F~Qn~~EiDPrdvA~GTFpvNfWNv~~s~lTrLGTAYGCNQ~RvRTyG  111 (261)
+                      ++||...|+-..+.+|.|-++-          |--.+|-|.++|+.++
+T Consensus        31 v~~ng~~i~~~~v~~G~f~l~~----------lp~~~g~~~v~v~i~d   68 (90)
+T 3FCG_A           31 VLRDGYTVSNELVPSGPFELAN----------LPLGGGSGELKVIIHE   68 (90)
+T ss_dssp             EESSSCEEEEEEECSEEEEECC----------CC---CCEEEEEEEEC
+T ss_pred             EEECCEEEEEEEcCCcceEEec----------cCCCCCceEEEEEEEc
+Confidence            6899999999999999997643          3445677888887776
+
+
+No 5
+>4UYR_A FLOCCULATION PROTEIN FLO11; CELL ADHESION, SACCHAROMYCES CEREVISIAE, FLO11; 0.89A {SACCHAROMYCES CEREVISIAE}
+Probab=15.91  E-value=1.5e+02  Score=28.10  Aligned_cols=35  Identities=23%  Similarity=0.388  Sum_probs=28.3  Template_Neff=5.100
+
+Q query           183 TAGKWYVTFWMTYDPD---EWVWLDQFKLQFALHPANW  217 (261)
+Q Consensus       183 e~G~WYVTFW~qyDPD---EWVWLDeF~LQFtLqPg~h  217 (261)
+                      ...+|++||=++-.++   .-+|+-.|++||.-..+.-
+T Consensus       122 nP~dft~tf~v~a~~~~~~~~vc~P~FqIqYdw~~g~~  159 (211)
+T 4UYR_A          122 NPTDFTATFEVYATQDVNSCQVWMPNFQIQFEYLQGSA  159 (211)
+T ss_dssp             CTTEEEEEEEEECCEEEETTEEECCCCEEEEEESCGGG
+T ss_pred             CCCCeEEEEEEEeEecCCCcEEEeCCeEEEEEEecCCH
+Confidence            5689999987766554   5999999999998877754
+
+
+No 6
+>7A09_L 40S ribosomal protein SA, 40S; Translation, Initiation, Ribosome Recycling, ABC; HET: ADP, GTP, SF4, ATP;{Homo sapiens}
+Probab=14.95  E-value=1.6e+02  Score=31.50  Aligned_cols=15  Identities=47%  Similarity=1.449  Sum_probs=12.8  Template_Neff=5.200
+
+Q query           197 PDEWVW--LDQFKLQFA  211 (261)
+Q Consensus       197 PDEWVW--LDeF~LQFt  211 (261)
+                      |+.|+|  +|||-.||.
+T Consensus       179 P~~WLWDIiDEFIYQfQ  195 (564)
+T 7A09_L          179 PNQWLWDIIDEFIYQFQ  195 (564)
+T ss_pred             CcHHHHHHHHHHHHHHH
+Confidence            778888  999999885
+
+
+No 7
+>6ZP4_L 40S ribosomal protein SA, 40S; Translational Inhibition, SARS-CoV-2, Immune Evasion; HET: GTP; 2.9A {Homo sapiens}
+Probab=14.16  E-value=1.7e+02  Score=31.26  Aligned_cols=15  Identities=47%  Similarity=1.449  Sum_probs=12.6  Template_Neff=5.200
+
+Q query           197 PDEWVW--LDQFKLQFA  211 (261)
+Q Consensus       197 PDEWVW--LDeF~LQFt  211 (261)
+                      |+.|+|  +|||--||.
+T Consensus       179 P~~WLWDIiDEFIYQFQ  195 (564)
+T 6ZP4_L          179 PNQWLWDIIDEFIYQFQ  195 (564)
+T ss_pred             CcHHHHHHHHHHHHHHH
+Confidence            777888  999988885
+
+
+No 8
+>5KOV_G Capsid polyprotein VP25, PL-2 scFv; viral protein, capsid protein, icosahedral; HET: NAG; 3.245A {Human astrovirus-2}
+Probab=12.20  E-value=2.2e+02  Score=27.12  Aligned_cols=30  Identities=23%  Similarity=0.588  Sum_probs=20.4  Template_Neff=5.500
+
+Q query           176 YAYRNQITAGKWYVT--FWMT--YDPDEWVWLDQ  205 (261)
+Q Consensus       176 ~pYRnQIe~G~WYVT--FW~q--yDPDEWVWLDe  205 (261)
+                      ++-+-.+..|.||+-  |+..  .-|.+|+|-++
+T Consensus       152 ~~~~~sl~~G~WYL~~s~~~~t~~~~~gWvw~~~  185 (228)
+T 5KOV_G          152 SPETIRFQVGEWYLLTSTTLKENNLPEGWVWDRV  185 (228)
+T ss_pred             CCeEEEecCccEEEEEEEeeeeCCCCCCceeecc
+Confidence            444557889999974  3322  45679999876
+
+
+No 9
+>2I6H_A Hypothetical protein Atu0120; structural genomics, APC5905, PSI-2, Protein; 1.75A {Agrobacterium tumefaciens str.} SCOP: a.118.8.5
+Probab=10.24  E-value=2.8e+02  Score=25.99  Aligned_cols=27  Identities=22%  Similarity=0.249  Sum_probs=18.3  Template_Neff=5.700
+
+Q query           173 NTVYAYRNQITAGKWYVTFWMTYDPDEWVWLDQFK  207 (261)
+Q Consensus       173 ~~r~pYRnQIe~G~WYVTFW~qyDPDEWVWLDeF~  207 (261)
+                      -.|||+||.|-.-        .--|+|-.||++-.
+T Consensus       176 FGRfPhRN~vLGR--------~ST~eE~~~L~~~~  202 (207)
+T 2I6H_A          176 FGRFPHRNGILLR--------ETTPEERQYLEEGG  202 (207)
+T ss_dssp             HSSCGGGHHHHTC--------CCCHHHHHHHHTC-
+T ss_pred             HCCCcccccccCC--------CCCHHHHHHHHhCC
+Confidence            3689999998653        23567777777644
+
+
+No 10
+>7F75_L Complex, transcription activator, stress, oxidated; 4.2A {Bacillus subtilis}
+Probab=10.21  E-value=2.8e+02  Score=26.10  Aligned_cols=18  Identities=28%  Similarity=0.643  Sum_probs=14.8  Template_Neff=4.200
+
+Q query           230 DSLGTGLWSLQDLTFYPVGH  249 (261)
+Q Consensus       230 d~LGTGLWgL~DL~FYPiG~  249 (261)
+                      =++|-|.|+|+.-  ||++.
+T Consensus        69 V~lGen~WgLReW--yp~d~   86 (173)
+T 7F75_L           69 LALSDQTWGLRSW--YPYDQ   86 (173)
+T ss_dssp             ECCSSSCBEEGGG--SCSSH
+T ss_pred             EEecCCeEEcccc--cChhh
+Confidence            3789999999986  88764
+
+

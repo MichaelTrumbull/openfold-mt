@@ -1,0 +1,170 @@
+Query         query 
+Match_columns 306
+No_of_seqs    6 out of 7
+Neff          2.27218
+Searched_HMMs 90139
+Date          Sat Jul 16 20:32:49 2022
+Command       /mnt/home/dberenberg/gustaf_stuff/openfold/lib/conda/envs/openfold_venv/bin/hhsearch -i /tmp/tmpcaovq9k4/query.a3m -o /tmp/tmpcaovq9k4/output.hhr -maxseq 1000000 -cpu 28 -d /mnt/home/dberenberg/gustaf_stuff/OpenFold/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4YK8_A Autophagy-related prote  29.5      52 0.00057   30.7   0.0   37  265-302    29-65  (187)
+  2 5C50_A Autophagy-related prote  28.9      53 0.00059   30.9   0.0   31  272-302    47-78  (198)
+  3 2P5D_A UPF0310 protein MJECL36  18.0 1.2E+02  0.0013   25.5   0.0   17  220-236    35-51  (147)
+  4 2G2X_B hypothetical protein PP  17.6 1.2E+02  0.0014   27.1   0.0   27  222-249    40-66  (157)
+  5 6YJB_A HNH endonuclease/DNA Co  13.6 1.9E+02  0.0021   27.3   0.0   16  220-235    39-54  (309)
+  6 6YKF_A HNH endonuclease/DNA Co  13.6 1.9E+02  0.0021   27.3   0.0   16  220-235    39-54  (309)
+  7 2Q2B_B Cytosolic acyl coenzyme  11.8 2.3E+02  0.0025   24.6   0.0   78  150-231     8-91  (179)
+  8 3KZ5_A Protein sopB; partition   9.3 3.1E+02  0.0035   21.8   0.0   28  278-305    19-46  (52)
+  9 3KZ5_B Protein sopB; partition   9.3 3.1E+02  0.0035   21.8   0.0   28  278-305    19-46  (52)
+ 10 6YEX_A HNH endonuclease; PUA s   9.3 3.2E+02  0.0035   25.6   0.0   16  221-236    40-55  (309)
+
+No 1
+>4YK8_A Autophagy-related protein 101/Autophagy protein 13; Autophagy, HORMA, PROTEIN TRANSPORT; 3.0A {Schizosaccharomyces pombe (strain 972 / ATCC 24843)}
+Probab=29.47  E-value=52  Score=30.71  Aligned_cols=37  Identities=16%  Similarity=0.286  Sum_probs=29.3  Template_Neff=6.700
+
+Q query           265 IGMWYRALTSVGPRSDMLTLHFHFPTVEKDLVEQIIDQ  302 (306)
+Q Consensus       265 tGlW~raLt~VGP~tD~lt~~F~~Pt~~dDlVeql~dq  302 (306)
+                      +=|++|+|.++=|++--. +.+.+|...++.++++|++
+T Consensus        29 tIlFhR~~G~~~p~~~~~-ld~ty~~~~~~el~~~I~~   65 (187)
+T 4YK8_A           29 VILFHRQFSTVPARTIDV-LDITVPTLVGAELNEQLAT   65 (187)
+T ss_dssp             HHHHTTBCSCEECCEEEE-TTEEEECCCCHHHHHHHHH
+T ss_pred             HHHHHhccCCCCceeeee-eeceEEEecCHHHHHHHHH
+Confidence            347899999999996554 6778999888888877764
+
+
+No 2
+>5C50_A Autophagy-related protein 101, Autophagy-related protein; complex, PROTEIN BINDING, autophagy, HORMA; HET: BEN; 1.63A {Homo sapiens}
+Probab=28.91  E-value=53  Score=30.87  Aligned_cols=31  Identities=16%  Similarity=0.417  Sum_probs=18.6  Template_Neff=6.700
+
+Q query           272 LTSVGPRS-DMLTLHFHFPTVEKDLVEQIIDQ  302 (306)
+Q Consensus       272 Lt~VGP~t-D~lt~~F~~Pt~~dDlVeql~dq  302 (306)
+                      |.+|||+. |-=.+.+.+|...+..+++++++
+T Consensus        47 ~G~v~p~~v~ce~ldiTy~~~~~~el~~~I~~   78 (198)
+T 5C50_A           47 IGTVGTQDVDCDFIDFTYVRVSSEELDRALRK   78 (198)
+T ss_dssp             ECBBCEEEEECSSSSCEEEEESCHHHHHHHHH
+T ss_pred             cccccceEEeccccCcEEEEeCCHHHHHHHHH
+Confidence            77889986 22223455566666666666543
+
+
+No 3
+>2P5D_A UPF0310 protein MJECL36; Methanocaldococcus jannaschii, NPPSFA, National Project; 1.7A {Methanocaldococcus jannaschii}
+Probab=18.04  E-value=1.2e+02  Score=25.52  Aligned_cols=17  Identities=29%  Similarity=0.468  Sum_probs=14.0  Template_Neff=9.100
+
+Q query           220 STVPRQGDFAVIWQIGR  236 (306)
+Q Consensus       220 s~~~~aG~ivvlw~iG~  236 (306)
+                      -..++.||.+++|.-|.
+T Consensus        35 ~~~vk~GD~vi~Y~~~~   51 (147)
+T 2P5D_A           35 INKVKVGDKLIIYEIQR   51 (147)
+T ss_dssp             HTTCCTTCEEEEEECCB
+T ss_pred             HhhcCCCCEEEEEEecc
+Confidence            34569999999999884
+
+
+No 4
+>2G2X_B hypothetical protein PP5205; PpR72, NESG, Structural Genomics, PSI; HET: SO4, MSE; 2.3A {Pseudomonas putida} SCOP: b.122.1.8
+Probab=17.63  E-value=1.2e+02  Score=27.10  Aligned_cols=27  Identities=11%  Similarity=0.006  Sum_probs=18.2  Template_Neff=7.400
+
+Q query           222 VPRQGDFAVIWQIGRHNFDMSTGKGTPV  249 (306)
+Q Consensus       222 ~~~aG~ivvlw~iG~Htfd~sTGkGt~V  249 (306)
+                      ..+.||.|+||.-|.-. -...|-+++.
+T Consensus        40 ~m~~GD~v~iY~S~p~~-~~IvGi~~V~   66 (157)
+T 2G2X_B           40 AMSVGDEFFFYHSSCPQ-PGIAGIARIT   66 (157)
+T ss_dssp             TCCTTCEEEEEECSSSS-CEEEEEEEEE
+T ss_pred             hCCCCCEEEEEeCCCCC-CeEEEEEEEE
+Confidence            45899999999887610 2445555554
+
+
+No 5
+>6YJB_A HNH endonuclease/DNA Complex; PUA superfamily, EVE domain, DNA; HET: 5HC, GOL, SO4; 1.55A {Vibrio campbellii}
+Probab=13.58  E-value=1.9e+02  Score=27.32  Aligned_cols=16  Identities=25%  Similarity=0.405  Sum_probs=12.1  Template_Neff=9.400
+
+Q query           220 STVPRQGDFAVIWQIG  235 (306)
+Q Consensus       220 s~~~~aG~ivvlw~iG  235 (306)
+                      ...++.||+|++|.=|
+T Consensus        39 ~~~v~~GDiVf~y~~g   54 (309)
+T 6YJB_A           39 MTLVQPGDVVFSFANG   54 (309)
+T ss_dssp             GGGCCTTCEEEEEETT
+T ss_pred             HhhcCCCCEEEEeeCC
+Confidence            3556889999988765
+
+
+No 6
+>6YKF_A HNH endonuclease/DNA Complex; PUA superfamily, EVE domain, DNA; HET: SO4, GOL, 5CM; 1.48A {Vibrio campbellii}
+Probab=13.58  E-value=1.9e+02  Score=27.32  Aligned_cols=16  Identities=25%  Similarity=0.405  Sum_probs=12.1  Template_Neff=9.400
+
+Q query           220 STVPRQGDFAVIWQIG  235 (306)
+Q Consensus       220 s~~~~aG~ivvlw~iG  235 (306)
+                      ...++.||+|++|.=|
+T Consensus        39 ~~~v~~GDiVf~y~~g   54 (309)
+T 6YKF_A           39 MTLVQPGDVVFSFANG   54 (309)
+T ss_dssp             GGGCCTTCEEEEEETT
+T ss_pred             HhhcCCCCEEEEeeCC
+Confidence            3556889999988765
+
+
+No 7
+>2Q2B_B Cytosolic acyl coenzyme A thioester; Acot7, C-terminal domain, HYDROLASE; 2.5A {Mus musculus}
+Probab=11.84  E-value=2.3e+02  Score=24.63  Aligned_cols=78  Identities=10%  Similarity=0.042  Sum_probs=37.8  Template_Neff=9.300
+
+Q query           150 ERLHQPT-----LRLTYWLVKINVSSEPEDFDVVQKFPLAYLEDYTTAQSKSAIQKLNFQTFQKPEGGGTLR-AQYSTVP  223 (306)
+Q Consensus       150 ~~~~~~t-----LRlTyWLvrv~r~~~~~DFD~~qk~P~~Yi~~~~t~~~~~av~kin~~~~~kp~g~~tlr-vqys~~~  223 (306)
+                      .++|+|.     +++...-+..+..+.++|.|.....-.+.+...-..-....+....    ...---..+. ++|-.++
+T Consensus         8 ~~~~~~~~~~~~~~~~~~~~~~~~~v~~~~~d~~g~v~~g~~~~~~d~a~~~~~~~~~----~~~~v~~~~~~i~f~~~~   83 (179)
+T 2Q2B_B            8 GDIVQPVLNPEPNTVSYSQSSLIHLVGPSDCTLHGFVHGGVTMKLMDEVAGIVAARHC----KTNIVTASVDAINFHDKI   83 (179)
+T ss_dssp             ----------CTTSHHHHCEEEEEECCC------CCCCHHHHHHHHHHHHHHHHHHHH----CSCEEEEEEEEEEECSCC
+T ss_pred             cCCCCCCCCCCCCCccccEEEEEEEeCHHHcCCCCcccHHHHHHHHHHHHHHHHHHhc----CCcEEEEEeceEEecCCc
+Confidence            5778888     7888888888888999999988877777666644333222222221    0111112345 7777777
+
+
+Q query           224 RQGDFAVI  231 (306)
+Q Consensus       224 ~aG~ivvl  231 (306)
+                      .-|+.+.+
+T Consensus        84 ~~gd~i~v   91 (179)
+T 2Q2B_B           84 RKGCVITI   91 (179)
+T ss_dssp             CTTEEEEE
+T ss_pred             cCCCEEEE
+Confidence            77775554
+
+
+No 8
+>3KZ5_A Protein sopB; partition, segregation, F plasmid, DNA-binding; 1.58A {Escherichia coli}
+Probab=9.32  E-value=3.1e+02  Score=21.81  Aligned_cols=28  Identities=18%  Similarity=0.358  Sum_probs=21.3  Template_Neff=4.800
+
+Q query           278 RSDMLTLHFHFPTVEKDLVEQIIDQIQH  305 (306)
+Q Consensus       278 ~tD~lt~~F~~Pt~~dDlVeql~dqIq~  305 (306)
+                      +.|-+++.++.....++++++|.+.|++
+T Consensus        19 kG~~v~lnLd~kkv~d~~i~~Ie~~L~~   46 (52)
+T 3KZ5_A           19 KGDKMVLNLDRSRVPTECIEKIEAILKE   46 (52)
+T ss_dssp             ETTEEEEEEETTTSCHHHHHHHHHHHHH
+T ss_pred             eCCEEEEEeccCCCCHHHHHHHHHHHHH
+Confidence            4566777887788888888888877754
+
+
+No 9
+>3KZ5_B Protein sopB; partition, segregation, F plasmid, DNA-binding; 1.58A {Escherichia coli}
+Probab=9.32  E-value=3.1e+02  Score=21.81  Aligned_cols=28  Identities=18%  Similarity=0.358  Sum_probs=21.3  Template_Neff=4.800
+
+Q query           278 RSDMLTLHFHFPTVEKDLVEQIIDQIQH  305 (306)
+Q Consensus       278 ~tD~lt~~F~~Pt~~dDlVeql~dqIq~  305 (306)
+                      +.|-+++.++.....++++++|.+.|++
+T Consensus        19 kG~~v~lnLd~kkv~d~~i~~Ie~~L~~   46 (52)
+T 3KZ5_B           19 KGDKMVLNLDRSRVPTECIEKIEAILKE   46 (52)
+T ss_dssp             ETTEEEEEEETTTSCHHHHHHHHHHHHH
+T ss_pred             eCCEEEEEeccCCCCHHHHHHHHHHHHH
+Confidence            4566777887788888888888877754
+
+
+No 10
+>6YEX_A HNH endonuclease; PUA superfamily, EVE domain, DNA; HET: SO4, CL; 1.5A {Vibrio campbellii}
+Probab=9.31  E-value=3.2e+02  Score=25.64  Aligned_cols=16  Identities=25%  Similarity=0.389  Sum_probs=12.2  Template_Neff=9.700
+
+Q query           221 TVPRQGDFAVIWQIGR  236 (306)
+Q Consensus       221 ~~~~aG~ivvlw~iG~  236 (306)
+                      ..++.||+|++|.-|.
+T Consensus        40 ~~v~~GD~V~~y~~g~   55 (309)
+T 6YEX_A           40 TLVQPGDVVFSFANGL   55 (309)
+T ss_dssp             TTCCTTCEEEEEETTE
+T ss_pred             cccCCCCEEEEeeCCE
+Confidence            4458899999988665
+
+

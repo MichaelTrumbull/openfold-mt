@@ -1,0 +1,1253 @@
+Query         query 
+Match_columns 370
+No_of_seqs    236 out of 3664
+Neff          4.94275
+Searched_HMMs 90139
+Date          Wed Jun 29 03:49:15 2022
+Command       /mnt/home/dberenberg/gustaf_stuff/openfold/lib/conda/envs/openfold_venv/bin/hhsearch -i /tmp/tmp5u0nsje0/query.a3m -o /tmp/tmp5u0nsje0/output.hhr -maxseq 1000000 -cpu 64 -d /mnt/home/dberenberg/gustaf_stuff/OpenFold/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6EF6_A 3-oxoacyl-[acyl-carrier  92.4   0.046 5.1E-07   53.6   0.0   71   61-139   222-292 (354)
+  2 6FUC_A DNA-binding protein; St  92.2   0.052 5.7E-07   48.7   0.0   73   63-139   182-254 (272)
+  3 4WZY_A Maltokinase (E.C.2.7.1.  92.1   0.057 6.3E-07   56.3   0.0   74   62-140   297-395 (454)
+  4 3CSV_A Aminoglycoside phosphot  92.0   0.059 6.6E-07   51.7   0.0   72   61-140   180-251 (333)
+  5 3N4U_A APH(2'')-Id; aminoglyco  92.0    0.06 6.6E-07   48.9   0.0   66   63-139   190-255 (301)
+  6 6CD7_A APH(2'')-Id; STRUCTURAL  92.0    0.06 6.6E-07   49.2   0.0   67   62-139   190-256 (302)
+  7 4R78_A Choline kinase (E.C.2.7  91.8   0.067 7.4E-07   51.2   0.0   64   63-140   189-252 (309)
+  8 6SUM_A APH domain-containing p  91.5   0.077 8.6E-07   50.3   0.0   73   62-139   195-269 (335)
+  9 4OCV_A N-acetylhexosamine 1-ph  91.4    0.08 8.9E-07   51.7   0.0   77   61-139   219-299 (379)
+ 10 2Q83_A YtaA protein; 2635576,   90.5    0.12 1.4E-06   49.5   0.0   69   62-139   220-288 (346)
+ 11 5JY7_M Trehalose synthase/amyl  90.5    0.12 1.4E-06   53.6   0.0   74   62-140   296-395 (441)
+ 12 6SUL_D AMICOUMACIN KINASE; ANT  90.5    0.12 1.4E-06   49.2   0.0   72   63-139   195-268 (335)
+ 13 6HWJ_B Maltokinase; Glucosamin  90.4    0.13 1.4E-06   54.6   0.0   75   62-141   292-385 (451)
+ 14 5BYL_D Bifunctional AAC/APH (E  90.4    0.13 1.4E-06   47.2   0.0   65   63-138   193-257 (305)
+ 15 5IQF_D Bifunctional AAC/APH (E  90.4    0.13 1.4E-06   47.2   0.0   65   63-138   193-257 (305)
+ 16 5IWU_A Macrolide 2'-phosphotra  90.3    0.13 1.5E-06   47.7   0.0   64   62-140   192-255 (302)
+ 17 5UXA_A Macrolide 2'-phosphotra  90.3    0.13 1.5E-06   47.7   0.0   64   62-140   192-255 (302)
+ 18 3DXQ_A choline/ethanolamine ki  90.2    0.14 1.5E-06   48.1   0.0   64   62-140   171-234 (301)
+ 19 3I1A_A Spectinomycin phosphotr  89.5    0.18 1.9E-06   48.3   0.0   68   62-140   204-271 (339)
+ 20 3Q2M_A Spectinomycin phosphotr  89.5    0.18 1.9E-06   48.3   0.0   68   62-140   204-271 (339)
+ 21 4U98_A Maltokinase (E.C.2.7.1.  89.5    0.18   2E-06   53.0   0.0   74   63-141   298-396 (454)
+ 22 5C4K_B APH(2'')-Id; Aminoglyco  89.3    0.19 2.1E-06   47.4   0.0   67   62-139   209-275 (321)
+ 23 2PPQ_A Homoserine kinase (E.C.  89.1     0.2 2.3E-06   47.2   0.0   70   62-139   185-254 (322)
+ 24 3HAM_A Aminoglycoside phosphot  89.1    0.21 2.3E-06   46.3   0.0   66   62-139   184-249 (299)
+ 25 1ND4_A Aminoglycoside 3'-phosp  88.9    0.22 2.4E-06   44.7   0.0   65   63-139   183-247 (264)
+ 26 4FEV_E Aminoglycoside 3'-phosp  88.8    0.22 2.5E-06   44.7   0.0   63   63-138   192-254 (272)
+ 27 4GKH_E Aminoglycoside 3'-phosp  88.8    0.22 2.5E-06   44.7   0.0   63   63-138   192-254 (272)
+ 28 4GKI_A Aminoglycoside 3'-phosp  88.8    0.22 2.5E-06   44.7   0.0   63   63-138   192-254 (272)
+ 29 3F7W_A putative fructosamine-3  88.7    0.23 2.6E-06   45.5   0.0   59   63-140   187-245 (288)
+ 30 2B0Q_A Aminoglycoside 3'-phosp  88.6    0.23 2.6E-06   44.0   0.0   66   62-138   181-246 (263)
+ 31 4OCJ_A N-acetylhexosamine 1-ph  88.3    0.26 2.9E-06   48.3   0.0   76   62-139   220-299 (379)
+ 32 6HWJ_A Maltokinase; Glucosamin  88.2    0.27   3E-06   51.7   0.0   75   62-141   292-385 (451)
+ 33 5IGH_A Macrolide 2'-phosphotra  88.2    0.27   3E-06   46.0   0.0   64   62-140   192-255 (301)
+ 34 5IGI_A Macrolide 2'-phosphotra  88.2    0.27   3E-06   46.0   0.0   64   62-140   192-255 (301)
+ 35 6SUM_B APH domain-containing p  87.9    0.29 3.2E-06   46.6   0.0   72   63-139   196-269 (335)
+ 36 4PDY_A aminoglycoside phosphot  87.8     0.3 3.3E-06   49.7   0.0   68   62-139   217-284 (351)
+ 37 5UXC_A Macrolide 2'-phosphotra  87.6    0.32 3.5E-06   45.7   0.0   62   62-139   189-250 (299)
+ 38 6IY9_A Hygromycin-B 7''-O-kina  87.5    0.32 3.6E-06   46.7   0.0   67   62-139   215-281 (340)
+ 39 1ZYL_A Hypothetical protein yi  87.4    0.33 3.7E-06   46.3   0.0   63   62-139   193-255 (328)
+ 40 4H05_B Aminoglycoside-O-phosph  87.3    0.34 3.8E-06   45.0   0.0   73   62-140   182-254 (273)
+ 41 3TM0_A Aminoglycoside 3'-phosp  87.3    0.34 3.8E-06   43.0   0.0   64   63-137   182-245 (263)
+ 42 5JY7_L Trehalose synthase/amyl  87.0    0.37 4.1E-06   50.4   0.0   75   62-141   296-396 (441)
+ 43 3FEG_A Choline/ethanolamine ki  87.0    0.37 4.1E-06   48.2   0.0   79   63-141   219-305 (379)
+ 44 6CTZ_A Gentamicin resistance p  86.9    0.37 4.2E-06   44.1   0.0   50   62-112   184-234 (297)
+ 45 4WH3_A N-acetylhexosamine 1-ki  86.9    0.38 4.2E-06   46.2   0.0   76   62-139   200-279 (367)
+ 46 4O7O_B Maltokinase (E.C.2.7.1.  86.9    0.38 4.2E-06   50.5   0.0   74   62-140   314-408 (455)
+ 47 4O7P_B Maltokinase (E.C.2.7.1.  86.9    0.38 4.2E-06   50.5   0.0   74   62-140   314-408 (455)
+ 48 2PYW_A 5-METHYLTHIORIBOSE KINA  86.2    0.44 4.9E-06   49.0   0.0   50   62-116   230-279 (420)
+ 49 5FTG_A CHOLINE KINASE ALPHA (E  85.5    0.52 5.7E-06   46.9   0.0   80   62-141   219-308 (378)
+ 50 5FUT_A CHOLINE KINASE ALPHA (E  85.5    0.52 5.7E-06   46.9   0.0   80   62-141   219-308 (378)
+ 51 3ATS_A Putative uncharacterize  85.4    0.53 5.8E-06   45.5   0.0   74   63-140   221-298 (357)
+ 52 5IQI_D Bifunctional AAC/APH (E  84.4    0.64 7.1E-06   42.8   0.0   65   63-138   193-257 (305)
+ 53 5UXD_A Macrolide 2'-phosphotra  84.3    0.65 7.2E-06   43.9   0.0   63   62-140   190-252 (300)
+ 54 3MES_B Choline kinase; choline  81.7       1 1.1E-05   46.2   0.0   75   62-141   260-342 (424)
+ 55 4DCA_A Aminoglycoside phosphot  81.6       1 1.1E-05   42.6   0.0   67   62-140   205-271 (320)
+ 56 1NW1_A Choline kinase (49.2 kD  81.2     1.1 1.2E-05   47.3   0.0   81   61-141   246-358 (429)
+ 57 6YXS_A Choline kinase (E.C.2.7  81.0     1.1 1.2E-05   44.9   0.0   75   62-141   222-304 (382)
+ 58 4DA5_A Choline kinase alpha (E  80.5     1.2 1.3E-05   46.7   0.0   79   63-141   299-387 (457)
+ 59 6WHP_A Choline kinase; SSGCID,  78.5     1.5 1.7E-05   46.0   0.0   81   61-141   259-352 (440)
+ 60 3C5I_D Choline kinase, Cleaved  78.0     1.6 1.8E-05   43.8   0.0   75   62-141   210-292 (369)
+ 61 2PUL_A Methylthioribose kinase  76.3       2 2.2E-05   43.2   0.0   51   62-117   225-275 (397)
+ 62 3W0S_A Hygromycin-B 4-O-kinase  70.5     3.5 3.9E-05   39.5   0.0   46   63-112   191-236 (349)
+ 63 2QG7_E ethanolamine kinase Pv0  69.6     3.8 4.2E-05   44.6   0.0   78   62-140   288-398 (458)
+ 64 3DXP_A putative acyl-CoA dehyd  68.5     4.2 4.6E-05   40.0   0.0   52   62-115   214-265 (359)
+ 65 6OID_B Protein-ribulosamine 3-  67.4     4.5   5E-05   38.4   0.0   43   62-109   213-255 (317)
+ 66 2QG7_D ethanolamine kinase Pv0  62.3     6.7 7.4E-05   42.8   0.0   80   61-141   287-399 (458)
+ 67 3JR1_A Putative fructosamine-3  53.7      12 0.00013   36.2   0.0   59   62-140   205-263 (312)
+ 68 3W0O_A Hygromycin-B 4-O-kinase  52.8      12 0.00014   35.9   0.0   44   64-111   192-235 (349)
+
+No 1
+>6EF6_A 3-oxoacyl-[acyl-carrier-protein] reductase (E.C.1.1.1.100); aminopropanol kinase, TRANSFERASE; HET: BEZ, JFN; 1.35A {Mycobacterium smegmatis (strain ATCC 700084 / mc(2)155)}
+Probab=92.43  E-value=0.046  Score=53.60  Aligned_cols=71  Identities=15%  Similarity=0.017  Sum_probs=51.5  Template_Neff=10.900
+
+Q query            61 NAPTVLGVGDLHVENFGTWRDAEGRLVWGINDFDEAAHFPYTLDIIRLATSAILAIEENHLHLSADVACTAILEGYLES  139 (370)
+Q Consensus        61 ~ap~v~~~GDlHleNFGt~rd~egrlvfgvNDFDEA~~~P~~~DL~RLatS~~LA~~~~~~~~~~~~~~~a~l~gY~~~  139 (370)
+                      ..+.+++-||+|.+|+-.=.+ ++.-+..+-|||.+..+|..+||.++...+..-.       ......++++++|.+.
+T Consensus       222 ~~~~~l~HgDl~~~Nil~~~~-~~~~~~~iIDfe~a~~~~~~~Dla~~~~~~~~~~-------~~~~~~~~~l~~Y~~~  292 (354)
+T 6EF6_A          222 PDRYGLIHADLRLANLLVDSS-TPQRTITVIDFDDCGFGWYFYDFGTAVSFIEHDP-------RLGEWQESWVAGYRSR  292 (354)
+T ss_dssp             TTTEEEECSCCCGGGEEESCS-SSSSCEEECCGGGCEEEETTHHHHHHTTTCTTCT-------THHHHHHHHHHHHHTT
+T ss_pred             CCCceEEccCCCHHhEEeCCC-CCCCeEEEEeCccCCCchHHHHHHHHHHHHhcCc-------chHHHHHHHHHHHHhc
+Confidence            346677789999999964322 1123567999999999999999999988865421       1234567899999764
+
+
+No 2
+>6FUC_A DNA-binding protein; Streptomyces rimosus, aminoglycoside phosphotransferase, antibiotic; 1.17A {Streptomyces rimosus}
+Probab=92.24  E-value=0.052  Score=48.66  Aligned_cols=73  Identities=21%  Similarity=0.074  Sum_probs=52.9  Template_Neff=12.600
+
+Q query            63 PTVLGVGDLHVENFGTWRDAEGRLVWGINDFDEAAHFPYTLDIIRLATSAILAIEENHLHLSADVACTAILEGYLES  139 (370)
+Q Consensus        63 p~v~~~GDlHleNFGt~rd~egrlvfgvNDFDEA~~~P~~~DL~RLatS~~LA~~~~~~~~~~~~~~~a~l~gY~~~  139 (370)
+                      +.+++-||+|.+|+-.-.+  |.-...+-||+.+..+|..+||..+..++..-....  ..-....++.++++|.+.
+T Consensus       182 ~~~l~HgD~~~~Nil~~~~--~~~~~~liD~~~~~~~~~~~Dl~~~~~~~~~~~~~~--~~~~~~~~~~~~~~Y~~~  254 (272)
+T 6FUC_A          182 QTVVCHGDLCLPNIILDPD--TLDVAGFIDLGRLGRADPYADLALLFATARETWGDD--ERWSQSAEEEFAARYGIA  254 (272)
+T ss_pred             CCeEecCCCCHHhEEEeCC--CCeEEEEEchhcccccChHHHHHHHHHHHhcCCCCC--hhhcHHHHHHHHHhhccc
+Confidence            5567779999999976532  323578999999999999999999999986543211  111234467899999764
+
+
+No 3
+>4WZY_A Maltokinase (E.C.2.7.1.175); Maltose, Glycogen, ATP, transferase; HET: ATP; 1.71A {Mycobacterium vanbaalenii}
+Probab=92.07  E-value=0.057  Score=56.33  Aligned_cols=74  Identities=19%  Similarity=0.159  Sum_probs=53.5  Template_Neff=9.700
+
+Q query            62 APTVLGVGDLHVENFGTWRDAEGRLVWGINDFDEAAHFP---------YTLDIIRLATSAILAIEENHLH----------  122 (370)
+Q Consensus        62 ap~v~~~GDlHleNFGt~rd~egrlvfgvNDFDEA~~~P---------~~~DL~RLatS~~LA~~~~~~~----------  122 (370)
+                      .+.+++-||+|++|+=. .+  |.++  |=|||.+..+|         ..+||..++.|+..+.......          
+T Consensus       297 ~~~~~iHGDlh~~NiL~-~~--~~~~--iIDfe~~~~~~~~er~~~~~p~~DlA~~l~s~~~~~~~~~~~~~~~~~~~~~  371 (454)
+T 4WZY_A          297 ITVQRVHGDLHLGQVLR-TP--DDWL--LIDFEGEPGQPLDERRRPDSPLRDVAGVLRSFEYAAYQKLVELAPEQDADGR  371 (454)
+T ss_dssp             EEEECCCSSCSGGGEEE-CS--SCEE--ECCCCCSTTSCHHHHTSCBCHHHHHHHHHHHHHHHHHHHHHTSCGGGGTTCH
+T ss_pred             CceeEEcCCCCHHHEEE-cC--CcEE--EECCCCCCCCCHHHhcCCCChHHHHHHHHHHHHHHHHHHHHhcCccccccch
+Confidence            45667779999999954 32  5555  99999999999         9999999999987664321110          
+
+
+Q query           123 ------LSADVACTAILEGYLESL  140 (370)
+Q Consensus       123 ------~~~~~~~~a~l~gY~~~L  140 (370)
+                            .-......+|+++|.+..
+T Consensus       372 ~~~~~~~~~~~~~~~fl~~Y~~~~  395 (454)
+T 4WZY_A          372 LADRARNWVDRNSAAFCAGYAAVA  395 (454)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             hHHHHHHHHHHHHHHHHHHHHHHh
+Confidence                  012335678999998865
+
+
+No 4
+>3CSV_A Aminoglycoside phosphotransferase; YP_614837.1, Putative Aminoglycoside Phosphotransferase, Phosphotransferase; HET: EDO; 2.15A {Silicibacter sp.}
+Probab=92.00  E-value=0.059  Score=51.69  Aligned_cols=72  Identities=19%  Similarity=0.252  Sum_probs=52.2  Template_Neff=11.400
+
+Q query            61 NAPTVLGVGDLHVENFGTWRDAEGRLVWGINDFDEAAHFPYTLDIIRLATSAILAIEENHLHLSADVACTAILEGYLESL  140 (370)
+Q Consensus        61 ~ap~v~~~GDlHleNFGt~rd~egrlvfgvNDFDEA~~~P~~~DL~RLatS~~LA~~~~~~~~~~~~~~~a~l~gY~~~L  140 (370)
+                      ..+.+++.||+|.+|+=.-.+.++.-...+=||+.+..+|..+|+..+..+....        ......+.++++|.+..
+T Consensus       180 ~~~~~l~HgDl~~~Nil~~~~~~~~~~~~liD~e~a~~~~~~~Dla~~~~~~~~~--------~~~~~~~~~l~~Y~~~~  251 (333)
+T 3CSV_A          180 EGDMVFVHRDFHAQNLLWLPEREGLARVGVIDFQDAKLGHRAYDLVSLLQDARRD--------VPAQVEAQMIDHYIQAT  251 (333)
+T ss_dssp             CSCCEEECSCCSGGGEEECTTSCGGGGEEECCCTTCEEECTTHHHHHHHSCTTSC--------CCHHHHHHHHHHHHHHH
+T ss_pred             cCCcEEEeecCChhceEEecccCCCceEEEEeCCCCccccHHHHHHHHHHhccCC--------CCHHHHHHHHHHHHHHh
+Confidence            3466787899999999653332223457788999999999999999998776421        12334678999998764
+
+
+No 5
+>3N4U_A APH(2'')-Id; aminoglycoside, phosphotransferase, resistance, UNKNOWN FUNCTION; 2.2A {Enterococcus casseliflavus}
+Probab=91.99  E-value=0.06  Score=48.89  Aligned_cols=66  Identities=23%  Similarity=0.132  Sum_probs=47.7  Template_Neff=12.700
+
+Q query            63 PTVLGVGDLHVENFGTWRDAEGRLVWGINDFDEAAHFPYTLDIIRLATSAILAIEENHLHLSADVACTAILEGYLES  139 (370)
+Q Consensus        63 p~v~~~GDlHleNFGt~rd~egrlvfgvNDFDEA~~~P~~~DL~RLatS~~LA~~~~~~~~~~~~~~~a~l~gY~~~  139 (370)
+                      +.+++-||+|.+|+-.-.  ++.-+..+-||+.+..+|..+|+.++..+..         .......++++++|.+.
+T Consensus       190 ~~~l~HgD~~~~Nil~~~--~~~~~~~iiD~~~~~~~~~~~Dla~~~~~~~---------~~~~~~~~~~l~~Y~~~  255 (301)
+T 3N4U_A          190 YPCLIHNDFSSDHILFDT--EKNTICGIIDFGDAAISDPDNDFISLMEDDE---------EYGMEFVSKILNHYKHK  255 (301)
+T ss_dssp             CCEEECSSCSGGGEEEET--TTTEEEEECCCTTCEEECTTHHHHTTTCTTT---------SCCHHHHHHHHHHHTCS
+T ss_pred             CcEEecCCCCHHHeEEeC--CCCeEEEEeCccccccCCcchHHHHHHhccH---------HHcHHHHHHHHhhccCC
+Confidence            567777999999996533  2234567889999999999999999866541         11223457789999764
+
+
+No 6
+>6CD7_A APH(2'')-Id; STRUCTURAL GENOMICS, CENTER FOR STRUCTURAL; HET: EDS; 1.53A {Enterococcus casseliflavus}
+Probab=91.99  E-value=0.06  Score=49.24  Aligned_cols=67  Identities=21%  Similarity=0.140  Sum_probs=48.6  Template_Neff=12.500
+
+Q query            62 APTVLGVGDLHVENFGTWRDAEGRLVWGINDFDEAAHFPYTLDIIRLATSAILAIEENHLHLSADVACTAILEGYLES  139 (370)
+Q Consensus        62 ap~v~~~GDlHleNFGt~rd~egrlvfgvNDFDEA~~~P~~~DL~RLatS~~LA~~~~~~~~~~~~~~~a~l~gY~~~  139 (370)
+                      .+.+++.||+|..|+=.-.+  +.-...+-||+.+..+|..+|+..+.....      ..   .....++++++|.+.
+T Consensus       190 ~~~~l~HgD~~~~Nil~~~~--~~~~~~iiD~~~~~~~~~~~Dl~~~~~~~~------~~---~~~~~~~~l~~Y~~~  256 (302)
+T 6CD7_A          190 YYPCLIHNDFSSDHILFDTE--KNTICGIIDFGDAAISDPDNDFISLMEDDE------EY---GMEFVSKILNHYKHK  256 (302)
+T ss_dssp             CCCEEECSCCCGGGEEEETT--TTEEEEECCCTTCEEECTTHHHHTTCCTTT------SC---CHHHHHHHHHHHTCS
+T ss_pred             CCcEEEcCCCChhheEEeCC--CCeEEEEECcccCeeeChhHHHHHHhcccc------hh---HHHHHHHHHhhcccC
+Confidence            34667779999999954332  223577889999999999999999887751      11   123456789999865
+
+
+No 7
+>4R78_A Choline kinase (E.C.2.7.1.32); protein kinase-like fold, Transferase; HET: AMP, MES; 1.45A {Streptococcus pneumoniae}
+Probab=91.79  E-value=0.067  Score=51.18  Aligned_cols=64  Identities=20%  Similarity=0.150  Sum_probs=48.6  Template_Neff=11.100
+
+Q query            63 PTVLGVGDLHVENFGTWRDAEGRLVWGINDFDEAAHFPYTLDIIRLATSAILAIEENHLHLSADVACTAILEGYLESL  140 (370)
+Q Consensus        63 p~v~~~GDlHleNFGt~rd~egrlvfgvNDFDEA~~~P~~~DL~RLatS~~LA~~~~~~~~~~~~~~~a~l~gY~~~L  140 (370)
+                      +.+++-||+|..|+=.  +.+|++  .|=|||.+..+|..+||..++.+..+          ....+++++++|.+..
+T Consensus       189 ~~~l~HgDl~~~Nil~--~~~~~i--~liD~e~a~~g~~~~Dla~~~~~~~~----------~~~~~~~~l~~Y~~~~  252 (309)
+T 4R78_A          189 DRKSCHIDLVPENFIE--SPQGRL--YLIDWEYSSMNDPMWDLAALFLESEF----------TSQEEETFLSHYESDQ  252 (309)
+T ss_dssp             CCEEECSCCCGGGEEE--CTTSCE--EECCCTTCEEECHHHHHHHHHHHTTC----------CHHHHHHHHHHHCCSS
+T ss_pred             CceeEecCCCHHHEEE--CCCCCE--EEecccccCCCChHHHHHHHHHhcCC----------CHHHHHHHHHHHhcCC
+Confidence            5667779999999843  334555  79999999999999999999887411          1233578999998753
+
+
+No 8
+>6SUM_A APH domain-containing protein; ANTIMICROBIAL PROTEIN, KINASE, AMICOUMACIN; HET: UAM, ANP; 1.35A {Bacillus altitudinis}
+Probab=91.51  E-value=0.077  Score=50.26  Aligned_cols=73  Identities=22%  Similarity=0.175  Sum_probs=51.4  Template_Neff=11.900
+
+Q query            62 APTVLGVGDLHVENFGTWRDAEGRLVWGINDFDEAAHFPYTLDIIRLATSAILAIEENH--LHLSADVACTAILEGYLES  139 (370)
+Q Consensus        62 ap~v~~~GDlHleNFGt~rd~egrlvfgvNDFDEA~~~P~~~DL~RLatS~~LA~~~~~--~~~~~~~~~~a~l~gY~~~  139 (370)
+                      .+.+++.||+|.+|+=.  + +|++..  -|||.+..+|..+|+..+..++........  -.......+.+++++|.+.
+T Consensus       195 ~~~~l~HgDl~~~Nil~--~-~~~~~~--iD~~~~~~~~~~~Dla~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~Y~~~  269 (335)
+T 6SUM_A          195 DVYGLVHADLHHGNFHY--H-QGEIIA--FDFDDCGYHWFINDISILLYNVLWYPVIPYEDKAEFTGEFMSHFLKGYRQE  269 (335)
+T ss_dssp             TTEEEECSCCCTTSEEE--E-TTEEEE--CCCTTCEEEEHHHHHHHHHHHHHHSCSSCCSCHHHHHHHHHHHHHHHHHHH
+T ss_pred             ccceEeccccccccEEE--e-CCEEEE--EcCCCCCCChHHHHHHHHHHHHhhcCCCCcchhhhhhHHHHHHHHHHHHHh
+Confidence            34577779999999854  2 366654  899999999999999999988765422110  0011234577899999765
+
+
+No 9
+>4OCV_A N-acetylhexosamine 1-phosphate kinase (E.C.2.7.1.162); kinase, TRANSFERASE; HET: NDG, ANP, SO4; 1.472A {Bifidobacterium longum subsp. infantis}
+Probab=91.43  E-value=0.08  Score=51.67  Aligned_cols=77  Identities=16%  Similarity=0.049  Sum_probs=52.5  Template_Neff=11.500
+
+Q query            61 NAPTVLGVGDLHVENFGTWRDAEGRLVWGINDFDEAAHFPYTLDIIRLATSAILAIEENHL--H--LSADVACTAILEGY  136 (370)
+Q Consensus        61 ~ap~v~~~GDlHleNFGt~rd~egrlvfgvNDFDEA~~~P~~~DL~RLatS~~LA~~~~~~--~--~~~~~~~~a~l~gY  136 (370)
+                      ..+.+++.||+|.+|+=.-  .++.-+..+=|||.+..+|..+||.+++.....-......  .  .......++++++|
+T Consensus       219 ~~~~~l~HgDl~~~Nil~~--~~~~~~~~lID~e~a~~~~~~~Dla~~~~~~~~~~~~~~~~~~~~~~~~~~~~~fl~~Y  296 (379)
+T 4OCV_A          219 SIPLRVTHNDTKLNNILMD--ATTGKARAIIDLDTIMPGSMLFDFGDSIRFGASTALEDERDLDKVHFSTELFRAYTEGF  296 (379)
+T ss_dssp             SSCCEEECSCCCGGGEEEE--TTTCCEEEECCCTTCEEECHHHHHHHHHHHHSBSSCTTCSCGGGCCBCHHHHHHHHHHH
+T ss_pred             CCCeEEeCCCCCchhEEEe--CCCCCeeEEEeccCCccCchhHHHHHHHHHHccchhccCCCHhhcCCCHHHHHHHHHHH
+Confidence            3456777799999999553  2223357788999999999999999998876532211110  0  11234567899999
+
+
+Q query           137 LES  139 (370)
+Q Consensus       137 ~~~  139 (370)
+                      .+.
+T Consensus       297 ~~~  299 (379)
+T 4OCV_A          297 VGE  299 (379)
+T ss_dssp             HHH
+T ss_pred             HHh
+Confidence            863
+
+
+No 10
+>2Q83_A YtaA protein; 2635576, ytaA, Structural Genomics, Joint; HET: UNL, CIT, ADN, MSE, EDO, SO4; 2.5A {Bacillus subtilis}
+Probab=90.49  E-value=0.12  Score=49.46  Aligned_cols=69  Identities=13%  Similarity=0.030  Sum_probs=51.2  Template_Neff=11.700
+
+Q query            62 APTVLGVGDLHVENFGTWRDAEGRLVWGINDFDEAAHFPYTLDIIRLATSAILAIEENHLHLSADVACTAILEGYLES  139 (370)
+Q Consensus        62 ap~v~~~GDlHleNFGt~rd~egrlvfgvNDFDEA~~~P~~~DL~RLatS~~LA~~~~~~~~~~~~~~~a~l~gY~~~  139 (370)
+                      .+.+++-||+|.+|+-.-.+  |.  ..+=|||.+..+|..+|+.++..+.......     -......+++++|.+.
+T Consensus       220 ~~~~l~HgDl~~~Nil~~~~--~~--~~liD~~~~~~~~~~~Dla~~~~~~~~~~~~-----~~~~~~~~~l~~Y~~~  288 (346)
+T 2Q83_A          220 KSPNLCHQDYGTGNTLLGEN--EQ--IWVIDLDTVSFDLPIRDLRKMIIPLLDTTGV-----WDDETFNVMLNAYESR  288 (346)
+T ss_dssp             HSCCEECSSCSTTSEEECGG--GC--EEECCCTTCEECCTHHHHHHHHHHHTCCSSC-----CCHHHHHHHHHHHHHH
+T ss_pred             hCCCccCCCcchhhEEECCC--CC--EEEEeCccceecCcHHHHHHHHHHHHHhhCC-----CCHHHHHHHHHHHHHH
+Confidence            45677779999999866543  33  7788999999999999999998887543210     1233467899999874
+
+
+No 11
+>5JY7_M Trehalose synthase/amylase TreS (E.C.3.2.1.1,5.4.99.16), Maltokinase; complex, isomerase, kinase, alpha glucan; 3.6A {Mycobacterium smegmatis (strain ATCC 700084 / mc(2)155)}
+Probab=90.48  E-value=0.12  Score=53.61  Aligned_cols=74  Identities=18%  Similarity=0.172  Sum_probs=50.9  Template_Neff=9.800
+
+Q query            62 APTVLGVGDLHVENFGTWRDAEGRLVWGINDFDEAAHFP---------YTLDIIRLATSAILAIEENHLH----------  122 (370)
+Q Consensus        62 ap~v~~~GDlHleNFGt~rd~egrlvfgvNDFDEA~~~P---------~~~DL~RLatS~~LA~~~~~~~----------  122 (370)
+                      .+.+++-||+|++|+=.-.   +.+  .|=||+.+..+|         ..+||..++.|+..++......          
+T Consensus       296 ~~~~~iHGDlh~~Nil~~~---~~~--~iIDfe~~~~~~~~er~~~~~~~~Dla~~l~s~~~~~~~~~~~~~~~~~~~~~  370 (441)
+T 5JY7_M          296 MTVQRVHGDLHLGQVLRTP---KGW--LLIDFEGEPGQPLDERRRPDTPVRDVAGILRSFEYAAHQRLVDQAGDDDDRAR  370 (441)
+T ss_dssp             EEEBCCCSSCCGGGEEEET---TEE--EECCCCCCC---HHHHHSCBCTHHHHHHHHHHHHHHHHHHHHHSSSSCSTTTH
+T ss_pred             CceEEeCCCCChhhEEEeC---CeE--EEECCCCCCCCCHHHhcCCCChHHHHHHHHHhHHHHHHHHHhhccCCChHHHH
+Confidence            4567777999999986532   333  599999999999         9999999999987765432111          
+
+
+Q query           123 -------LSADVACTAILEGYLESL  140 (370)
+Q Consensus       123 -------~~~~~~~~a~l~gY~~~L  140 (370)
+                             .-......+|+++|.+..
+T Consensus       371 ~~~~~~~~w~~~~~~~fl~~Y~~~~  395 (441)
+T 5JY7_M          371 QLAARAREWVTRNCASFCDGYAAEA  395 (441)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHS
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHh
+Confidence                   002345678999998875
+
+
+No 12
+>6SUL_D AMICOUMACIN KINASE; ANTIMICROBIAL PROTEIN, KINASE, AMICOUMACIN; HET: UAM, CL, ANP; 1.35A {Bacillus pumilus}
+Probab=90.45  E-value=0.12  Score=49.17  Aligned_cols=72  Identities=25%  Similarity=0.135  Sum_probs=50.4  Template_Neff=11.700
+
+Q query            63 PTVLGVGDLHVENFGTWRDAEGRLVWGINDFDEAAHFPYTLDIIRLATSAILAIEENH--LHLSADVACTAILEGYLES  139 (370)
+Q Consensus        63 p~v~~~GDlHleNFGt~rd~egrlvfgvNDFDEA~~~P~~~DL~RLatS~~LA~~~~~--~~~~~~~~~~a~l~gY~~~  139 (370)
+                      +.+++-||+|..|+-.- +  |.  ..+=|||.+..+|..+||.++..++........  .........++++++|.+.
+T Consensus       195 ~~~l~HgDl~~~Nil~~-~--~~--~~liD~~~~~~~~~~~Dla~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~Y~~~  268 (335)
+T 6SUL_D          195 TYGLVHADLHHGNFHWD-Q--GK--ITTFDFDDIGYNWFMNDISILLYNVLWYPVIPYEDKAAFAGNFMKQFLKGYREE  268 (335)
+T ss_dssp             TEEEECSCCCTTSEEEE-T--TE--EEECCCTTCEEEEHHHHHHHHHHHHHHSCSSCCSCHHHHHHHHHHHHHHHHHHH
+T ss_pred             CeeEeCccCccccEEEe-C--Ce--EEEEeCccCCCchHHHHHHHHHHHHHhcCCCChhhhhHHHHHHHHHHHHHHHHh
+Confidence            34677799999999542 2  43  779999999999999999999988755421000  0011233567889999764
+
+
+No 13
+>6HWJ_B Maltokinase; Glucosamine kinase, TRANSFERASE; HET: BTB, PEG; 1.979A {Streptacidiphilus jiangxiensis}
+Probab=90.42  E-value=0.13  Score=54.56  Aligned_cols=75  Identities=25%  Similarity=0.314  Sum_probs=55.4  Template_Neff=8.900
+
+Q query            62 APTVLGVGDLHVENFGTWRDAEGRLVWGINDFDEA---------AHFPYTLDIIRLATSAILAIEENHL----------H  122 (370)
+Q Consensus        62 ap~v~~~GDlHleNFGt~rd~egrlvfgvNDFDEA---------~~~P~~~DL~RLatS~~LA~~~~~~----------~  122 (370)
+                      .+.+++-||+|++|+=.-.   +  .+.|=|||.+         ...|..+||..+..|+..+......          .
+T Consensus       292 ~~~~liHGDlh~~NvL~~~---~--~~~IIDfe~~p~~p~~er~~~~~p~~DlA~ll~sl~~~~~~~~~~~~~~~~~~~~  366 (451)
+T 6HWJ_B          292 TPLIDVHGDFHVGQILRAD---G--RYAVVDFDGNPVLPADQRAARQPAALDVVGMTASLDHVGRVVVFRTPDVDPAPVR  366 (451)
+T ss_dssp             CEEECCCSSCSGGGEEEET---T--EEEECCCSCCTTSCGGGSSSCEEHHHHHHHHHHHHHHHHHHHHHHSTTCCHHHHH
+T ss_pred             CCeEEECCCCCHHhEEEEC---C--eEEEECCCCCCCCCHHHHhcCCCHHHHHHHHHHcHHHHHHHHHhcCCCCCChhHH
+Confidence            4566767999999997742   3  5789999999         9999999999999998765432211          1
+
+
+Q query           123 LSADVACTAILEGYLESLA  141 (370)
+Q Consensus       123 ~~~~~~~~a~l~gY~~~L~  141 (370)
+                      .-.....++|+++|.+...
+T Consensus       367 ~~~~~~~~~fl~~Y~~~~~  385 (451)
+T 6HWJ_B          367 AWIAAAQRSFLDAYRTTLA  385 (451)
+T ss_dssp             HHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHhh
+Confidence            1123456789999998764
+
+
+No 14
+>5BYL_D Bifunctional AAC/APH (E.C.2.3.1.-,2.7.1.-); Kinase, Antibiotic, Aminoglycoside, Resistance, TRANSFERASE; HET: GOL, GCP; 2.15A {Staphylococcus aureus}
+Probab=90.37  E-value=0.13  Score=47.19  Aligned_cols=65  Identities=20%  Similarity=0.126  Sum_probs=48.1  Template_Neff=12.500
+
+Q query            63 PTVLGVGDLHVENFGTWRDAEGRLVWGINDFDEAAHFPYTLDIIRLATSAILAIEENHLHLSADVACTAILEGYLE  138 (370)
+Q Consensus        63 p~v~~~GDlHleNFGt~rd~egrlvfgvNDFDEA~~~P~~~DL~RLatS~~LA~~~~~~~~~~~~~~~a~l~gY~~  138 (370)
+                      +.+++.||+|..|+-.-.  ++ -+..+-||+.+..+|..+|+.++..+...-..        ....+.++++|..
+T Consensus       193 ~~~l~HgD~~~~Nil~~~--~~-~~~~iiD~~~~~~~~~~~Dl~~~~~~~~~~~~--------~~~~~~~l~~Y~~  257 (305)
+T 5BYL_D          193 KKCLCHNDFSCNHLLLDG--NN-RLTGIIDFGDSGIIDEYCDFIYLLEDSEEEIG--------TNFGEDILRMYGN  257 (305)
+T ss_dssp             CEEEECSCCCGGGEEECT--TS-CEEEECCCTTCEEEEGGGGGTTTTCCSTTSCC--------HHHHHHHHHHHCS
+T ss_pred             CeEEECCCCChhhEEEcC--CC-CEEEEECCccCeeechHHHHHHHHHccchhHh--------HHHHHHHHHHhCC
+Confidence            567777999999994332  33 35578999999999999999999887643311        2345678999954
+
+
+No 15
+>5IQF_D Bifunctional AAC/APH (E.C.2.3.1.-,2.7.1.-); Kinase, Antibiotic, Aminoglycoside, Resistance, TRANSFERASE; HET: GDP; 2.35A {Staphylococcus aureus}
+Probab=90.37  E-value=0.13  Score=47.19  Aligned_cols=65  Identities=20%  Similarity=0.126  Sum_probs=48.1  Template_Neff=12.500
+
+Q query            63 PTVLGVGDLHVENFGTWRDAEGRLVWGINDFDEAAHFPYTLDIIRLATSAILAIEENHLHLSADVACTAILEGYLE  138 (370)
+Q Consensus        63 p~v~~~GDlHleNFGt~rd~egrlvfgvNDFDEA~~~P~~~DL~RLatS~~LA~~~~~~~~~~~~~~~a~l~gY~~  138 (370)
+                      +.+++.||+|..|+-.-.  ++ -+..+-||+.+..+|..+|+.++..+...-..        ....+.++++|..
+T Consensus       193 ~~~l~HgD~~~~Nil~~~--~~-~~~~iiD~~~~~~~~~~~Dl~~~~~~~~~~~~--------~~~~~~~l~~Y~~  257 (305)
+T 5IQF_D          193 KKCLCHNDFSCNHLLLDG--NN-RLTGIIDFGDSGIIDEYCDFIYLLEDSEEEIG--------TNFGEDILRMYGN  257 (305)
+T ss_dssp             CEEEECSCCCGGGEEECT--TS-CEEEECCCTTCEEEEGGGGGTTTTCCSSSSCC--------HHHHHHHHHHHCS
+T ss_pred             CeEEECCCCChhhEEEcC--CC-CEEEEECCccCeeechHHHHHHHHHccchhHh--------HHHHHHHHHHhCC
+Confidence            567777999999994332  33 35578999999999999999999887643311        2345678999954
+
+
+No 16
+>5IWU_A Macrolide 2'-phosphotransferase II; macrolide phosphotransferase, kinase, TRANSFERASE, TRANSFERASE-ANTIBIOTIC; HET: GOL, ERY; 1.3A {Escherichia coli}
+Probab=90.33  E-value=0.13  Score=47.67  Aligned_cols=64  Identities=23%  Similarity=0.140  Sum_probs=46.6  Template_Neff=12.100
+
+Q query            62 APTVLGVGDLHVENFGTWRDAEGRLVWGINDFDEAAHFPYTLDIIRLATSAILAIEENHLHLSADVACTAILEGYLESL  140 (370)
+Q Consensus        62 ap~v~~~GDlHleNFGt~rd~egrlvfgvNDFDEA~~~P~~~DL~RLatS~~LA~~~~~~~~~~~~~~~a~l~gY~~~L  140 (370)
+                      .+.+++-||+|..|+=.-  .+| -+.++-|||.+..+|..+||..+....            .....+.++++|.+..
+T Consensus       192 ~~~~~~HgDl~~~Nil~~--~~~-~~~~liD~~~~~~~~~~~Dl~~~~~~~------------~~~~~~~~l~~Y~~~~  255 (302)
+T 5IWU_A          192 KKTGLIHGDVHAGHTMID--KDA-NVTGLIDWTEAKVTDVSHDFIFNYRAF------------GEEGLEALILAYKEIG  255 (302)
+T ss_dssp             SCCEEECSCCSTTTEEEC--TTC-CEEEECCCTTCEEECGGGGGHHHHHHH------------HHHHHHHHHHHHHHTT
+T ss_pred             CCeeEecCCCCcccEEEC--CCC-CeeEEeCHhhCeecChHHhHHHHHhhh------------CHHHHHHHHHHHHHhC
+Confidence            356777799999998432  234 456788999999999999999876311            1234578899998653
+
+
+No 17
+>5UXA_A Macrolide 2'-phosphotransferase II; antibiotic resistance, macrolide, phosphotransferase, kinase; 1.95A {Escherichia coli}
+Probab=90.33  E-value=0.13  Score=47.67  Aligned_cols=64  Identities=23%  Similarity=0.140  Sum_probs=46.6  Template_Neff=12.100
+
+Q query            62 APTVLGVGDLHVENFGTWRDAEGRLVWGINDFDEAAHFPYTLDIIRLATSAILAIEENHLHLSADVACTAILEGYLESL  140 (370)
+Q Consensus        62 ap~v~~~GDlHleNFGt~rd~egrlvfgvNDFDEA~~~P~~~DL~RLatS~~LA~~~~~~~~~~~~~~~a~l~gY~~~L  140 (370)
+                      .+.+++-||+|..|+=.-  .+| -+.++-|||.+..+|..+||..+....            .....+.++++|.+..
+T Consensus       192 ~~~~~~HgDl~~~Nil~~--~~~-~~~~liD~~~~~~~~~~~Dl~~~~~~~------------~~~~~~~~l~~Y~~~~  255 (302)
+T 5UXA_A          192 KKTGLIHGDVHAGHTMID--KDA-NVTGLIDWTEAKVTDVSHDFIFNYRAF------------GEEGLEALILAYKEIG  255 (302)
+T ss_dssp             SCCEEECSCCCGGGEEEC--TTC-CEEEECCCTTCEEECGGGGGHHHHHHH------------HHHHHHHHHHHHHHTT
+T ss_pred             CCeeEecCCCCcccEEEC--CCC-CeeEEeCHhhCeecChHHhHHHHHhhh------------CHHHHHHHHHHHHHhC
+Confidence            356777799999998432  234 456788999999999999999876311            1234578899998653
+
+
+No 18
+>3DXQ_A choline/ethanolamine kinase family protein; NP_106042.1, choline/ethanolamine kinase family protein; 2.55A {Mesorhizobium loti}
+Probab=90.25  E-value=0.14  Score=48.13  Aligned_cols=64  Identities=16%  Similarity=0.070  Sum_probs=48.6  Template_Neff=11.700
+
+Q query            62 APTVLGVGDLHVENFGTWRDAEGRLVWGINDFDEAAHFPYTLDIIRLATSAILAIEENHLHLSADVACTAILEGYLESL  140 (370)
+Q Consensus        62 ap~v~~~GDlHleNFGt~rd~egrlvfgvNDFDEA~~~P~~~DL~RLatS~~LA~~~~~~~~~~~~~~~a~l~gY~~~L  140 (370)
+                      .+.+++.||+|..|+=.-.   +  ...+-||+.+..+|..+||.++..+..+          ....++.++++|.+..
+T Consensus       171 ~~~~l~HgDl~~~Nil~~~---~--~~~iiD~~~~~~g~~~~Dla~~~~~~~~----------~~~~~~~~l~~Y~~~~  234 (301)
+T 3DXQ_A          171 LPLAACHCDPLCENFLDTG---E--RMWIVDWEYSGMNDPLWDLGDLSVEGKF----------NANQDEELMRAYFGGE  234 (301)
+T ss_dssp             CCCEEECSCCCGGGEEECS---S--CEEECCCTTCEEECTHHHHHHHHHHTTC----------CHHHHHHHHHHHHTSC
+T ss_pred             CCCcccCCCCChHhEEEcC---C--cEEEEcCCcCCCCCHHHHHHHHHHhCCC----------CHHHHHHHHHHHhCCC
+Confidence            4556777999999996532   3  4578999999999999999999877522          1233567899998754
+
+
+No 19
+>3I1A_A Spectinomycin phosphotransferase; protein kinase, aminoglycoside phosphotransferase, antibiotic; HET: PG4, MES; 1.7A {Legionella pneumophila}
+Probab=89.55  E-value=0.18  Score=48.28  Aligned_cols=68  Identities=24%  Similarity=0.159  Sum_probs=50.4  Template_Neff=11.700
+
+Q query            62 APTVLGVGDLHVENFGTWRDAEGRLVWGINDFDEAAHFPYTLDIIRLATSAILAIEENHLHLSADVACTAILEGYLESL  140 (370)
+Q Consensus        62 ap~v~~~GDlHleNFGt~rd~egrlvfgvNDFDEA~~~P~~~DL~RLatS~~LA~~~~~~~~~~~~~~~a~l~gY~~~L  140 (370)
+                      .+.+++-||+|.+|+-.-.  +|  +..+-||+.+..+|..+||.++..+...-     .. . ......++++|.+..
+T Consensus       204 ~~~~l~HgDl~~~Nil~~~--~~--~~~iiD~e~~~~~~~~~Dla~~~~~~~~~-----~~-~-~~~~~~~l~~Y~~~~  271 (339)
+T 3I1A_A          204 DKYVLCHSDIHAGNVLVGN--EE--SIYIIDWDEPMLAPKERDLMFIGGGVGNV-----WN-K-PHEIQYFYEGYGEIN  271 (339)
+T ss_dssp             GGCEEECSCCCGGGEEECG--GG--CEEECCCSSCEEECTHHHHTTTTCCTTSC-----SC-C-HHHHHHHHHHHCCCC
+T ss_pred             CCeeEeCCCCccccEEecC--CC--cEEEECCCCcccccHHHHHHHhhcccccc-----CC-C-HHHHHHHHHHhcccc
+Confidence            4567777999999987643  23  46788999999999999999998776431     11 1 345678999998753
+
+
+No 20
+>3Q2M_A Spectinomycin phosphotransferase; Ser/Thr/Tyr protein kinase, phosphotransferase, phosphorylation; HET: CKI; 2.9A {Legionella pneumophila 130b}
+Probab=89.55  E-value=0.18  Score=48.28  Aligned_cols=68  Identities=24%  Similarity=0.159  Sum_probs=50.4  Template_Neff=11.700
+
+Q query            62 APTVLGVGDLHVENFGTWRDAEGRLVWGINDFDEAAHFPYTLDIIRLATSAILAIEENHLHLSADVACTAILEGYLESL  140 (370)
+Q Consensus        62 ap~v~~~GDlHleNFGt~rd~egrlvfgvNDFDEA~~~P~~~DL~RLatS~~LA~~~~~~~~~~~~~~~a~l~gY~~~L  140 (370)
+                      .+.+++-||+|.+|+-.-.  +|  +..+-||+.+..+|..+||.++..+...-     .. . ......++++|.+..
+T Consensus       204 ~~~~l~HgDl~~~Nil~~~--~~--~~~iiD~e~~~~~~~~~Dla~~~~~~~~~-----~~-~-~~~~~~~l~~Y~~~~  271 (339)
+T 3Q2M_A          204 DKYVLCHSDIHAGNVLVGN--EE--SIYIIDWDEPMLAPKERDLMFIGGGVGNV-----WN-K-PHEIQYFYEGYGEIN  271 (339)
+T ss_dssp             TSEEEECTTCSGGGEEECS--SS--CEEECCCSSCEEEETHHHHTTTTTCGGGC-----SC-C-HHHHHHHHHHHCCCC
+T ss_pred             CCeeEeCCCCccccEEecC--CC--cEEEECCCCcccccHHHHHHHhhcccccc-----CC-C-HHHHHHHHHHhcccc
+Confidence            4567777999999987643  23  46788999999999999999998776431     11 1 345678999998753
+
+
+No 21
+>4U98_A Maltokinase (E.C.2.7.1.175); Maltose, Glycogen, AppCp, transferase; HET: ACP; 1.15A {Mycobacterium vanbaalenii}
+Probab=89.48  E-value=0.18  Score=52.95  Aligned_cols=74  Identities=19%  Similarity=0.137  Sum_probs=53.6  Template_Neff=9.500
+
+Q query            63 PTVLGVGDLHVENFGTWRDAEGRLVWGINDFDEAAH---------FPYTLDIIRLATSAILAIEENHL------------  121 (370)
+Q Consensus        63 p~v~~~GDlHleNFGt~rd~egrlvfgvNDFDEA~~---------~P~~~DL~RLatS~~LA~~~~~~------------  121 (370)
+                      +.+++-||+|++|+-.- +  +  .+.|=||+.+..         .+..+||..++.|+..++.....            
+T Consensus       298 ~~~~iHGDlhl~NiL~~-~--~--~~~iIDfe~~~~~p~~er~~~~~p~~Dva~~l~s~~~~~~~~~~~~~~~~~~~~~~  372 (454)
+T 4U98_A          298 TVQRVHGDLHLGQVLRT-P--D--DWLLIDFEGEPGQPLDERRRPDSPLRDVAGVLRSFEYAAYQKLVELAPEQDADGRL  372 (454)
+T ss_dssp             EEECCCSSCSGGGEEEC-S--S--CEEECCCSCCTTSCHHHHTSCBCHHHHHHHHHHHHHHHHHHHHHHSCGGGGTTCHH
+T ss_pred             ceeEEcCCCCHHhEEEe-C--C--cEEEECCCCCCCCCHHHhcCCCChHHHHHHHHHhHHHHHHHHHHHhCccccccchh
+Confidence            55666799999999542 2  2  688999999998         99999999999998665432110            
+
+
+Q query           122 ----HLSADVACTAILEGYLESLA  141 (370)
+Q Consensus       122 ----~~~~~~~~~a~l~gY~~~L~  141 (370)
+                          ..-......+|+++|.+...
+T Consensus       373 ~~~~~~~~~~~~~~fl~~Y~~~~~  396 (454)
+T 4U98_A          373 ADRARNWVDRNSAAFCAGYAAVAG  396 (454)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHS
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHhC
+Confidence                01123356789999988753
+
+
+No 22
+>5C4K_B APH(2'')-Id; Aminoglycoside phosphotransferase, antibiotic resistance, transferase; HET: GET; 3.05A {Enterococcus casseliflavus}
+Probab=89.34  E-value=0.19  Score=47.39  Aligned_cols=67  Identities=21%  Similarity=0.152  Sum_probs=47.9  Template_Neff=11.900
+
+Q query            62 APTVLGVGDLHVENFGTWRDAEGRLVWGINDFDEAAHFPYTLDIIRLATSAILAIEENHLHLSADVACTAILEGYLES  139 (370)
+Q Consensus        62 ap~v~~~GDlHleNFGt~rd~egrlvfgvNDFDEA~~~P~~~DL~RLatS~~LA~~~~~~~~~~~~~~~a~l~gY~~~  139 (370)
+                      .+.+++-||+|..|+=.-.+ ++ -...+-|||.+..+|..+|+..+.....      ..   .....+.++++|...
+T Consensus       209 ~~~~l~HgDl~~~Nil~~~~-~~-~~~~iiD~~~a~~g~~~~Dla~~~~~~~------~~---~~~~~~~~l~~Y~~~  275 (321)
+T 5C4K_B          209 YYPCLIHNDFSSDHILFDTE-KN-TICGIIDFGDAAISDPDNDFISLMEDDE------EY---GMEFVSKILNHYKHK  275 (321)
+T ss_dssp             SCCEEECSCCCGGGEEEETT-TT-EEEEECCCTTCEEECTTHHHHTTCCTTT------SC---CHHHHHHHHHHTTCS
+T ss_pred             CCcEEeCCCCChHheEEeCC-CC-eEEEEECCCCCeecChhHHHHHHHhcch------HH---hHHHHHHHHhhccCC
+Confidence            44667779999999844321 22 2457889999999999999999877751      11   223456789999864
+
+
+No 23
+>2PPQ_A Homoserine kinase (E.C.2.7.1.39); homoserine kinase, structural genomics, MCSG; 2.0A {Agrobacterium tumefaciens str.} SCOP: d.144.1.6
+Probab=89.09  E-value=0.2  Score=47.19  Aligned_cols=70  Identities=20%  Similarity=0.134  Sum_probs=51.6  Template_Neff=11.900
+
+Q query            62 APTVLGVGDLHVENFGTWRDAEGRLVWGINDFDEAAHFPYTLDIIRLATSAILAIEENHLHLSADVACTAILEGYLES  139 (370)
+Q Consensus        62 ap~v~~~GDlHleNFGt~rd~egrlvfgvNDFDEA~~~P~~~DL~RLatS~~LA~~~~~~~~~~~~~~~a~l~gY~~~  139 (370)
+                      .+.+++-||+|..|+=.-.  +  -+..+-||+.+..+|..+||..++.++......    .-.......++++|.+.
+T Consensus       185 ~~~~l~HgDl~~~Nil~~~--~--~~~~liD~~~~~~~~~~~Dla~~~~~~~~~~~~----~~~~~~~~~~l~~Y~~~  254 (322)
+T 2PPQ_A          185 LPAGVIHADLFQDNVFFLG--D--ELSGLIDFYFACNDLLAYDVSICLNAWCFEKDG----AYNVTKGKALLEGYQSV  254 (322)
+T ss_dssp             SCEEEECSCCCGGGEEEET--T--EEEEECCCTTCEEEEHHHHHHHHHHHHSBCTTS----CBCHHHHHHHHHHHHTT
+T ss_pred             CCCceEeeccccccEEEeC--C--eeEEEEehhhhcCChHHHHHHHHHHHHHhcCCC----CCCHHHHHHHHHHHHhc
+Confidence            4567777999999986542  2  367788999999999999999999887554321    11233467899999875
+
+
+No 24
+>3HAM_A Aminoglycoside phosphotransferase; aminoglycoside, gentamicin, antibiotic resistance, Transferase; HET: LLL, GOL; 2.5A {Enterococcus faecium}
+Probab=89.07  E-value=0.21  Score=46.34  Aligned_cols=66  Identities=17%  Similarity=0.160  Sum_probs=48.3  Template_Neff=12.100
+
+Q query            62 APTVLGVGDLHVENFGTWRDAEGRLVWGINDFDEAAHFPYTLDIIRLATSAILAIEENHLHLSADVACTAILEGYLES  139 (370)
+Q Consensus        62 ap~v~~~GDlHleNFGt~rd~egrlvfgvNDFDEA~~~P~~~DL~RLatS~~LA~~~~~~~~~~~~~~~a~l~gY~~~  139 (370)
+                      .+.+++-||+|..|+=.-   +++ +.+|=||+.+..+|..+|+.++..+...     ..   .....+.++++|...
+T Consensus       184 ~~~~l~HgDl~~~Nil~~---~~~-~~~iiD~e~~~~~~~~~Dl~~~~~~~~~-----~~---~~~~~~~~~~~Y~~~  249 (299)
+T 3HAM_A          184 YTPCLVHNDFSANNMIFR---NNR-LFGVIDFGDFNVGDPDNDFLCLLDCSTD-----DF---GKEFGRKVLKYYQHK  249 (299)
+T ss_dssp             CCCEEECSCCSGGGEEEE---TTE-EEEECCCTTCEEECGGGGTTTTTSSSSS-----SS---CHHHHHHHHHTTTCS
+T ss_pred             CCCeeecCCCCchheEEE---CCe-EEEEeecccCccCCchHHHHHHHHhchh-----hh---cHHHHHHHHHHhccC
+Confidence            456777799999999543   232 5567799999999999999999887532     11   123457789999865
+
+
+No 25
+>1ND4_A Aminoglycoside 3'-phosphotransferase(E.C.2.7.1.95); phosphotransferase, protein kinase, ATPase, kanamycin; HET: KAN; 2.1A {Klebsiella pneumoniae} SCOP: d.144.1.6
+Probab=88.89  E-value=0.22  Score=44.68  Aligned_cols=65  Identities=15%  Similarity=-0.010  Sum_probs=48.1  Template_Neff=12.500
+
+Q query            63 PTVLGVGDLHVENFGTWRDAEGRLVWGINDFDEAAHFPYTLDIIRLATSAILAIEENHLHLSADVACTAILEGYLES  139 (370)
+Q Consensus        63 p~v~~~GDlHleNFGt~rd~egrlvfgvNDFDEA~~~P~~~DL~RLatS~~LA~~~~~~~~~~~~~~~a~l~gY~~~  139 (370)
+                      +.+++-||+|..|+-.-.  +  -+..+-||+.+..+|..+||.++..+...-..        ....+.++++|...
+T Consensus       183 ~~~l~H~Dl~~~Nil~~~--~--~~~~iiD~~~~~~~~~~~Dl~~~~~~~~~~~~--------~~~~~~~~~~y~~~  247 (264)
+T 1ND4_A          183 DLVVTHGDACLPNIMVEN--G--RFSGFIDCGRLGVADRYQDIALATRDIAEELG--------GEWADRFLVLYGIA  247 (264)
+T ss_dssp             CEEEECSSCCGGGEEEET--T--EEEEECCCTTCEEEETHHHHHHHHHHHHHHHC--------HHHHHHHHHHHTCS
+T ss_pred             CeEEEeCCCCCccEEEEC--C--EEEEEEecccCEEeccHHHHHHHHHHHHHHhC--------chHHHHHHHHhccc
+Confidence            456777999999996632  2  36788999999999999999988776643211        13456788888754
+
+
+No 26
+>4FEV_E Aminoglycoside 3'-phosphotransferase AphA1-IAB (E.C.2.7.1.95); pyrazolopyrimidine, PP1, protein kinase inhibitor; HET: PP1, KAN; 1.89A {Acinetobacter baumannii}
+Probab=88.84  E-value=0.22  Score=44.71  Aligned_cols=63  Identities=16%  Similarity=0.084  Sum_probs=47.0  Template_Neff=12.600
+
+Q query            63 PTVLGVGDLHVENFGTWRDAEGRLVWGINDFDEAAHFPYTLDIIRLATSAILAIEENHLHLSADVACTAILEGYLE  138 (370)
+Q Consensus        63 p~v~~~GDlHleNFGt~rd~egrlvfgvNDFDEA~~~P~~~DL~RLatS~~LA~~~~~~~~~~~~~~~a~l~gY~~  138 (370)
+                      +.+++.||+|.+|+-.  +.+  -+..+-||+.+..+|..+|+..+..+...-         .....+.++++|..
+T Consensus       192 ~~~~~HgDl~~~Nil~--~~~--~~~~iiD~~~~~~~~~~~Dl~~~~~~~~~~---------~~~~~~~~~~~y~~  254 (272)
+T 4FEV_E          192 DSVVTHGDFSLDNLIF--DEG--KLIGCIDVGRVGIADRYQDLAILWNCLGEF---------SPSLQKRLFQKYGI  254 (272)
+T ss_dssp             CCEEECSCCCTTSEEE--ETT--EEEEECCCTTCEEECTHHHHHHHHHHHTTT---------CHHHHHHHHHHHTC
+T ss_pred             CeEEEcCCCCcccEEE--ECC--eEEEEechhhceeecHHHHHHHHHHHhccc---------CHHHHHHHHHHhCC
+Confidence            4567779999999954  223  356788999999999999999987776421         12346778889874
+
+
+No 27
+>4GKH_E Aminoglycoside 3'-phosphotransferase AphA1-IAB (E.C.2.7.1.95); PYRAZOLOPYRIMIDINE, 1-NA-PP1, BUMPED KINASE INHIBITOR; HET: PEG, NA, 0J9, MSE, KAN, ACT; 1.863A {Acinetobacter baumannii}
+Probab=88.84  E-value=0.22  Score=44.71  Aligned_cols=63  Identities=16%  Similarity=0.084  Sum_probs=47.0  Template_Neff=12.600
+
+Q query            63 PTVLGVGDLHVENFGTWRDAEGRLVWGINDFDEAAHFPYTLDIIRLATSAILAIEENHLHLSADVACTAILEGYLE  138 (370)
+Q Consensus        63 p~v~~~GDlHleNFGt~rd~egrlvfgvNDFDEA~~~P~~~DL~RLatS~~LA~~~~~~~~~~~~~~~a~l~gY~~  138 (370)
+                      +.+++.||+|.+|+-.  +.+  -+..+-||+.+..+|..+|+..+..+...-         .....+.++++|..
+T Consensus       192 ~~~~~HgDl~~~Nil~--~~~--~~~~iiD~~~~~~~~~~~Dl~~~~~~~~~~---------~~~~~~~~~~~y~~  254 (272)
+T 4GKH_E          192 DSVVTHGDFSLDNLIF--DEG--KLIGCIDVGRVGIADRYQDLAILWNCLGEF---------SPSLQKRLFQKYGI  254 (272)
+T ss_dssp             CEEEECSCCCTTSEEE--ETT--EEEEECCCTTCEEEETHHHHHHHHHHHTTT---------CHHHHHHHHHHHTC
+T ss_pred             CeEEEcCCCCcccEEE--ECC--eEEEEechhhceeecHHHHHHHHHHHhccc---------CHHHHHHHHHHhCC
+Confidence            4567779999999954  223  356788999999999999999987776421         12346778889874
+
+
+No 28
+>4GKI_A Aminoglycoside 3'-phosphotransferase AphA1-IAB (E.C.2.7.1.95); PYRAZOLOPYRIMIDINE, 1-NM-PP1, BUMPED KINASE INHIBITOR; HET: MSE, 0JN, PEG, KAN, ACT, NA; 1.88A {Acinetobacter baumannii}
+Probab=88.84  E-value=0.22  Score=44.71  Aligned_cols=63  Identities=16%  Similarity=0.084  Sum_probs=47.0  Template_Neff=12.600
+
+Q query            63 PTVLGVGDLHVENFGTWRDAEGRLVWGINDFDEAAHFPYTLDIIRLATSAILAIEENHLHLSADVACTAILEGYLE  138 (370)
+Q Consensus        63 p~v~~~GDlHleNFGt~rd~egrlvfgvNDFDEA~~~P~~~DL~RLatS~~LA~~~~~~~~~~~~~~~a~l~gY~~  138 (370)
+                      +.+++.||+|.+|+-.  +.+  -+..+-||+.+..+|..+|+..+..+...-         .....+.++++|..
+T Consensus       192 ~~~~~HgDl~~~Nil~--~~~--~~~~iiD~~~~~~~~~~~Dl~~~~~~~~~~---------~~~~~~~~~~~y~~  254 (272)
+T 4GKI_A          192 DSVVTHGDFSLDNLIF--DEG--KLIGCIDVGRVGIADRYQDLAILWNCLGEF---------SPSLQKRLFQKYGI  254 (272)
+T ss_dssp             CEEEECSCCCGGGEEE--ETT--EEEEECCCTTCEEEETHHHHHHHHHHHTTT---------CHHHHHHHHHHHTC
+T ss_pred             CeEEEcCCCCcccEEE--ECC--eEEEEechhhceeecHHHHHHHHHHHhccc---------CHHHHHHHHHHhCC
+Confidence            4567779999999954  223  356788999999999999999987776421         12346778889874
+
+
+No 29
+>3F7W_A putative fructosamine-3-kinase; YP_290396.1, putative fructosamine-3-kinase, Structural Genomics; HET: EDO; 1.85A {Thermobifida fusca YX}
+Probab=88.71  E-value=0.23  Score=45.47  Aligned_cols=59  Identities=22%  Similarity=0.035  Sum_probs=43.8  Template_Neff=12.300
+
+Q query            63 PTVLGVGDLHVENFGTWRDAEGRLVWGINDFDEAAHFPYTLDIIRLATSAILAIEENHLHLSADVACTAILEGYLESL  140 (370)
+Q Consensus        63 p~v~~~GDlHleNFGt~rd~egrlvfgvNDFDEA~~~P~~~DL~RLatS~~LA~~~~~~~~~~~~~~~a~l~gY~~~L  140 (370)
+                      +.+++-||+|..|+-.-.  ++   ..+-||+ +..+|..+|+..+....             ....++++++|.+..
+T Consensus       187 ~~~l~HgDl~~~Nil~~~--~~---~~liD~~-~~~~~~~~Dla~~~~~~-------------~~~~~~~~~~Y~~~~  245 (288)
+T 3F7W_A          187 PPARIHGDLWNGNVLWQD--DG---AVVIDPA-AHGGHREADLAMLALFG-------------LPYLDRVRDAYNEVA  245 (288)
+T ss_dssp             CCEEECSCCSGGGEEEET--TE---EEECSCC-CEEECHHHHHHHHHHHC-------------CTTHHHHHHHHHHHS
+T ss_pred             CCeeeCCCCCcccEEEcC--CC---cEEECCc-ccccCcHHHHHHHHHcC-------------CchHHHHHHHHHhhC
+Confidence            556777999999995532  33   3688999 99999999999988641             123567888887643
+
+
+No 30
+>2B0Q_A Aminoglycoside 3'-phosphotransferase (E.C.2.7.1.95); protein kinase-like, TRANSFERASE; HET: NMY, ADP; 2.7A {Enterococcus faecalis} SCOP: d.144.1.6
+Probab=88.65  E-value=0.23  Score=44.00  Aligned_cols=66  Identities=18%  Similarity=0.038  Sum_probs=47.6  Template_Neff=12.800
+
+Q query            62 APTVLGVGDLHVENFGTWRDAEGRLVWGINDFDEAAHFPYTLDIIRLATSAILAIEENHLHLSADVACTAILEGYLE  138 (370)
+Q Consensus        62 ap~v~~~GDlHleNFGt~rd~egrlvfgvNDFDEA~~~P~~~DL~RLatS~~LA~~~~~~~~~~~~~~~a~l~gY~~  138 (370)
+                      .+.+++.||+|.+|+-.-  .+  -+..+-||+.+..+|..+|+..+..+.....       ........++++|..
+T Consensus       181 ~~~~~~HgDl~~~Nil~~--~~--~~~~liD~~~~~~~~~~~Dl~~~~~~~~~~~-------~~~~~~~~~~~~y~~  246 (263)
+T 2B0Q_A          181 EELVFSHGDLGDSNIFVK--DG--KVSGFIDLGRSGRADKWYDIAFCVRSIREDI-------GEEQYVELFFDLLGI  246 (263)
+T ss_dssp             CCEEEECSSCSTTTEEEE--TT--EEEEECCCTTCEEEEHHHHHHHHHHHHHHHH-------CCHHHHHHHHHHHTC
+T ss_pred             CCcEEeCCCCChhhEEEE--CC--eEEEEEcCCCCeeecHHHHHHHhhHhHHhhh-------ChHHHHHHHHHHhCC
+Confidence            345677799999999653  22  3557899999999999999999998875321       112345677788843
+
+
+No 31
+>4OCJ_A N-acetylhexosamine 1-phosphate kinase (E.C.2.7.1.162); kinase, ATP binding, TRANSFERASE; HET: NDG; 1.571A {Bifidobacterium longum}
+Probab=88.33  E-value=0.26  Score=48.25  Aligned_cols=76  Identities=16%  Similarity=0.046  Sum_probs=52.3  Template_Neff=11.500
+
+Q query            62 APTVLGVGDLHVENFGTWRDAEGRLVWGINDFDEAAHFPYTLDIIRLATSAILAIEENHLH----LSADVACTAILEGYL  137 (370)
+Q Consensus        62 ap~v~~~GDlHleNFGt~rd~egrlvfgvNDFDEA~~~P~~~DL~RLatS~~LA~~~~~~~----~~~~~~~~a~l~gY~  137 (370)
+                      .+.+++-||+|.+|+=.-  .++.-+.++-|||.+..+|..+||..++.+..........+    .......+.++++|.
+T Consensus       220 ~~~~l~HgDl~~~Nil~~--~~~~~~~~lID~e~a~~g~~~~Dla~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~Y~  297 (379)
+T 4OCJ_A          220 IPLRVTHNDTKLNNILMD--ATTGKARAIIDLDTIMPGSMLFDFGDSIRFGASTALEDEKDLSKVHFSTELFRAYTEGFV  297 (379)
+T ss_dssp             SCCEEECSCCCGGGEEEE--TTTCSEEEECCCTTCEEECHHHHHHHHHHHHSBSSCTTCSCGGGCCBCHHHHHHHHHHHH
+T ss_pred             CCceEECCCCCcccEEEe--CCCCceEEEEecCCCccCchHHHHHHHHHHhcCchhccCCCHHhcccCHHHHHHHHHHHH
+Confidence            455777799999999642  22223678999999999999999999988765432211100    112345678999998
+
+
+Q query           138 ES  139 (370)
+Q Consensus       138 ~~  139 (370)
+                      +.
+T Consensus       298 ~~  299 (379)
+T 4OCJ_A          298 GE  299 (379)
+T ss_dssp             HH
+T ss_pred             HH
+Confidence            74
+
+
+No 32
+>6HWJ_A Maltokinase; Glucosamine kinase, TRANSFERASE; HET: BTB, PEG; 1.979A {Streptacidiphilus jiangxiensis}
+Probab=88.19  E-value=0.27  Score=51.65  Aligned_cols=75  Identities=25%  Similarity=0.329  Sum_probs=52.9  Template_Neff=9.500
+
+Q query            62 APTVLGVGDLHVENFGTWRDAEGRLVWGINDFDEAAH---------FPYTLDIIRLATSAILAIEENHL----------H  122 (370)
+Q Consensus        62 ap~v~~~GDlHleNFGt~rd~egrlvfgvNDFDEA~~---------~P~~~DL~RLatS~~LA~~~~~~----------~  122 (370)
+                      .+.+++-||+|.+||=. .+  +  ++.|=|||.+..         ++..+||..+..|+..+......          .
+T Consensus       292 ~~~~liHgDl~~~Nil~-~~--~--~~~IIDfe~a~~~p~~~~~~~~~~~~Dla~~~~~~~~~~~~~~~~~~~~~~~~~~  366 (451)
+T 6HWJ_A          292 TPLIDVHGDFHVGQILR-AD--G--RYAVVDFDGNPVLPADQRAARQPAALDVVGMTASLDHVGRVVVFRTPDVDPAPVR  366 (451)
+T ss_pred             CCCEEECCCCCHHHeEE-eC--C--cEEEECCCCCCCCCHHHHhCCCChHHHHHHHHHHHHHHHHHHHHHhhcCCCcHHH
+Confidence            45677779999999944 22  3  588999999998         56999999999887654321111          1
+
+
+Q query           123 LSADVACTAILEGYLESLA  141 (370)
+Q Consensus       123 ~~~~~~~~a~l~gY~~~L~  141 (370)
+                      .-......+|+++|.+...
+T Consensus       367 ~~~~~~~~~fl~~Y~~~~~  385 (451)
+T 6HWJ_A          367 AWIAAAQRSFLDAYRTTLA  385 (451)
+T ss_pred             hHHHHHHHHHHHHHHHhCC
+Confidence            1123456789999988654
+
+
+No 33
+>5IGH_A Macrolide 2'-phosphotransferase; macrolide phosphotransferase, kinase, TRANSFERASE; HET: SO4, MSE; 1.55A {Escherichia coli}
+Probab=88.16  E-value=0.27  Score=46.04  Aligned_cols=64  Identities=20%  Similarity=0.075  Sum_probs=47.7  Template_Neff=11.800
+
+Q query            62 APTVLGVGDLHVENFGTWRDAEGRLVWGINDFDEAAHFPYTLDIIRLATSAILAIEENHLHLSADVACTAILEGYLESL  140 (370)
+Q Consensus        62 ap~v~~~GDlHleNFGt~rd~egrlvfgvNDFDEA~~~P~~~DL~RLatS~~LA~~~~~~~~~~~~~~~a~l~gY~~~L  140 (370)
+                      .+.+++-||+|..|+=.-.  ++ -+..+=|||.+..+|..+||.++..+..            ......++++|.+..
+T Consensus       192 ~~~~l~HgD~~~~Nil~~~--~~-~~~~iiD~~~a~~g~~~~Dla~~~~~~~------------~~~~~~~l~~Y~~~~  255 (301)
+T 5IGH_A          192 DFSVVVHGDLYVGHVLIDN--TE-RVSGMIDWSEARVDDPAIDMAAHLMVFG------------EEGLAKLLLTYEAAG  255 (301)
+T ss_dssp             SCCEEECSSCSGGGEEECT--TS-CEEEECCCTTCEEECGGGGTHHHHHHHH------------HHHHHHHHHHHHHTT
+T ss_pred             CCeEEecCCcccccEEEcC--CC-cEEEEechhhcEecCHHHHHHHHHHhhC------------HHHHHHHHHHHHHcc
+Confidence            3456777999999994432  33 3578899999999999999999876521            234567899998753
+
+
+No 34
+>5IGI_A Macrolide 2'-phosphotransferase; macrolide phosphotransferase, kinase, TRANSFERASE-ANTIBIOTIC complex; HET: ZIT, GMP, IPA; 1.2A {Escherichia coli}
+Probab=88.16  E-value=0.27  Score=46.04  Aligned_cols=64  Identities=20%  Similarity=0.075  Sum_probs=47.7  Template_Neff=11.800
+
+Q query            62 APTVLGVGDLHVENFGTWRDAEGRLVWGINDFDEAAHFPYTLDIIRLATSAILAIEENHLHLSADVACTAILEGYLESL  140 (370)
+Q Consensus        62 ap~v~~~GDlHleNFGt~rd~egrlvfgvNDFDEA~~~P~~~DL~RLatS~~LA~~~~~~~~~~~~~~~a~l~gY~~~L  140 (370)
+                      .+.+++-||+|..|+=.-.  ++ -+..+=|||.+..+|..+||.++..+..            ......++++|.+..
+T Consensus       192 ~~~~l~HgD~~~~Nil~~~--~~-~~~~iiD~~~a~~g~~~~Dla~~~~~~~------------~~~~~~~l~~Y~~~~  255 (301)
+T 5IGI_A          192 DFSVVVHGDLYVGHVLIDN--TE-RVSGMIDWSEARVDDPAIDMAAHLMVFG------------EEGLAKLLLTYEAAG  255 (301)
+T ss_dssp             SCCEEECSSCSGGGEEECT--TS-CEEEECCCTTCEEECGGGGTHHHHHHHH------------HHHHHHHHHHHHHTT
+T ss_pred             CCeEEecCCcccccEEEcC--CC-cEEEEechhhcEecCHHHHHHHHHHhhC------------HHHHHHHHHHHHHcc
+Confidence            3456777999999994432  33 3578899999999999999999876521            234567899998753
+
+
+No 35
+>6SUM_B APH domain-containing protein; ANTIMICROBIAL PROTEIN, KINASE, AMICOUMACIN; HET: ANP, UAM; 1.35A {Bacillus altitudinis}
+Probab=87.89  E-value=0.29  Score=46.60  Aligned_cols=72  Identities=22%  Similarity=0.130  Sum_probs=49.7  Template_Neff=11.800
+
+Q query            63 PTVLGVGDLHVENFGTWRDAEGRLVWGINDFDEAAHFPYTLDIIRLATSAILAIEENHL-H-LSADVACTAILEGYLES  139 (370)
+Q Consensus        63 p~v~~~GDlHleNFGt~rd~egrlvfgvNDFDEA~~~P~~~DL~RLatS~~LA~~~~~~-~-~~~~~~~~a~l~gY~~~  139 (370)
+                      +.+++-||+|.+|+=.= +  |.  ..+-|||.+..+|..+|+.+++.++......... . .......++++++|.+.
+T Consensus       196 ~~~l~HgDl~~~Nil~~-~--~~--~~liD~~~a~~~~~~~Dla~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~Y~~~  269 (335)
+T 6SUM_B          196 VYGLVHADLHHGNFHYH-Q--GE--IIAFDFDDCGYHWFINDISILLYNVLWYPVIPYEDKAEFTGEFMSHFLKGYRQE  269 (335)
+T ss_dssp             TEEEECSCCCTTSEEES-S--SC--EEECCCTTCEEEEHHHHHHHHHHHHHHSCSSCCSCHHHHHHHHHHHHHHHHHTT
+T ss_pred             ceEEecCccccccEEEe-C--CE--EEEEeCCCCCCchHHHHHHHHHHHHHhcCCCChhhcchhHHHHHHHHHHHHhhh
+Confidence            44677799999999542 2  43  6789999999999999999998886543210000 0 11233467889999875
+
+
+No 36
+>4PDY_A aminoglycoside phosphotransferase; Structural Genomics, PSI-Biology, Midwest Center; HET: SCN, HIS, MSE; 1.35A {Alicyclobacillus acidocaldarius subsp. acidocaldarius}
+Probab=87.79  E-value=0.3  Score=49.75  Aligned_cols=68  Identities=16%  Similarity=0.107  Sum_probs=49.5  Template_Neff=9.300
+
+Q query            62 APTVLGVGDLHVENFGTWRDAEGRLVWGINDFDEAAHFPYTLDIIRLATSAILAIEENHLHLSADVACTAILEGYLES  139 (370)
+Q Consensus        62 ap~v~~~GDlHleNFGt~rd~egrlvfgvNDFDEA~~~P~~~DL~RLatS~~LA~~~~~~~~~~~~~~~a~l~gY~~~  139 (370)
+                      .+.+++-||+|..||=.  +.+|.++  +=|||.+..++...||..++.+++-   ..  .- ....+..++++|.+.
+T Consensus       217 ~~~~l~HgD~~~~Nvl~--~~~~~~~--iIDFd~~~~~~~~~DLa~~l~~~l~---~~--~w-~~~~~~~~l~~Y~~~  284 (351)
+T 4PDY_A          217 SSGGWCHLDVIPSNCLY--TPQHQVV--LIDFELARPAPRALDMAHLLRRSLE---RG--NW-DGHLAYACFLHFDAV  284 (351)
+T ss_dssp             HHBCEECCCCCGGGEEE--CTTSCEE--ECCCTTCEECCHHHHHHHHHHHHHH---HT--TT-CHHHHHHHHHHHHHH
+T ss_pred             HcCCeecCCCCHHHEEE--cCCCcEE--EeccccCCCCCchHHHHHHHHHHHh---hC--CC-ChHHHHHHHhhcccc
+Confidence            44567679999999843  3345444  8999999999999999999998853   11  11 122567889999764
+
+
+No 37
+>5UXC_A Macrolide 2'-phosphotransferase MphH; antibiotic resistance, macrolide, cave bacterium; HET: ZIT, MSE, SO4, GDP, PGE; 1.72A {Brachybacterium faecium}
+Probab=87.60  E-value=0.32  Score=45.70  Aligned_cols=62  Identities=23%  Similarity=0.170  Sum_probs=46.1  Template_Neff=11.700
+
+Q query            62 APTVLGVGDLHVENFGTWRDAEGRLVWGINDFDEAAHFPYTLDIIRLATSAILAIEENHLHLSADVACTAILEGYLES  139 (370)
+Q Consensus        62 ap~v~~~GDlHleNFGt~rd~egrlvfgvNDFDEA~~~P~~~DL~RLatS~~LA~~~~~~~~~~~~~~~a~l~gY~~~  139 (370)
+                      .+.+++-||+|..|+-.-.  +  -+.+|=|||.+..+|..+|+..+..+.            .....+.++++|...
+T Consensus       189 ~~~~l~HgD~~~~Nil~~~--~--~~~~iiD~e~a~~g~~~~Dl~~~~~~~------------~~~~~~~~l~~Y~~~  250 (299)
+T 5UXC_A          189 GHSVLTHGELYPAHTLVED--E--RITAVLDWTTAAVGDPAKDLMFHQVSA------------PSAIFEVALQAYAEG  250 (299)
+T ss_dssp             SSCEEECSSCSGGGEEEET--T--EEEEECCCTTCEEECGGGGTHHHHHHS------------CHHHHHHHHHHHHHT
+T ss_pred             CCceEecCCCCcccEEEeC--C--eEeEEEccccCeecCHHHHHHHHHHhC------------CHHHHHHHHHHHHHh
+Confidence            4567777999999995432  2  267888999999999999998886541            112346789999764
+
+
+No 38
+>6IY9_A Hygromycin-B 7''-O-kinase (E.C.2.7.1.119); Kinase, Complex, TRANSFERASE; HET: NHE, MSE, FLC, HY0; 2.4A {Streptomyces hygroscopicus}
+Probab=87.49  E-value=0.32  Score=46.67  Aligned_cols=67  Identities=22%  Similarity=0.165  Sum_probs=46.8  Template_Neff=11.600
+
+Q query            62 APTVLGVGDLHVENFGTWRDAEGRLVWGINDFDEAAHFPYTLDIIRLATSAILAIEENHLHLSADVACTAILEGYLES  139 (370)
+Q Consensus        62 ap~v~~~GDlHleNFGt~rd~egrlvfgvNDFDEA~~~P~~~DL~RLatS~~LA~~~~~~~~~~~~~~~a~l~gY~~~  139 (370)
+                      .+.+++-||+|.+|+=.-  .++.-...+-||+.+..+|..+|+..+..+..-.         ......+++++|...
+T Consensus       215 ~~~~l~HgDl~~~Nil~~--~~~~~~~~liD~~~~~~~~~~~Dl~~~~~~~~~~---------~~~~~~~~l~~y~~~  281 (340)
+T 6IY9_A          215 REPRFVHGDLHGTNIFVD--LAATEVTGIVDFTDVYAGDSRYSLVQLHLNAFRG---------DREILAALLDGAQWK  281 (340)
+T ss_pred             CCCeEecCCCCHhhEEEe--CCCCCEEEEEecCCCeEeCHHHHHHHHHHHHhcc---------CHHHHHHHHHHhCCC
+Confidence            455777799999999543  2212355688999999999999998887765421         123445677888654
+
+
+No 39
+>1ZYL_A Hypothetical protein yihE; hypothetical protein, putative protein kinase; 2.8A {Escherichia coli} SCOP: d.144.1.6
+Probab=87.40  E-value=0.33  Score=46.35  Aligned_cols=63  Identities=24%  Similarity=0.185  Sum_probs=47.2  Template_Neff=11.600
+
+Q query            62 APTVLGVGDLHVENFGTWRDAEGRLVWGINDFDEAAHFPYTLDIIRLATSAILAIEENHLHLSADVACTAILEGYLES  139 (370)
+Q Consensus        62 ap~v~~~GDlHleNFGt~rd~egrlvfgvNDFDEA~~~P~~~DL~RLatS~~LA~~~~~~~~~~~~~~~a~l~gY~~~  139 (370)
+                      .+.+++-||+|.+|+-.-.   +   ..+=|||.+..+|..+||..+..+..         .........++++|.+.
+T Consensus       193 ~~~~l~HgDl~~~Nil~~~---~---~~liD~~~~~~~~~~~Dla~~~~~~~---------~~~~~~~~~~l~~Y~~~  255 (328)
+T 1ZYL_A          193 FTVLRLHGDCHAGNILWRD---G---PMFVDLDDARNGPAVQDLWMLLNGDK---------AEQRMQLETIIEAYEEF  255 (328)
+T ss_dssp             SCCEECCSSCSGGGEEESS---S---EEECCCTTCCEECTTHHHHTTCCSSH---------HHHHHHHHHHHHHHTTT
+T ss_pred             CCEEEEecccchhhccccC---C---CEEechhhccCCHHHHHHHHHhcCCh---------HHHHHHHHHHHHHHHhc
+Confidence            4557777999999997632   3   46899999999999999988877632         01223457789999875
+
+
+No 40
+>4H05_B Aminoglycoside-O-phosphotransferase VIII (E.C.2.7.1.95); protein kinase, ATP binding, Aminoglycoside; 2.15A {Streptomyces rimosus}
+Probab=87.30  E-value=0.34  Score=44.96  Aligned_cols=73  Identities=15%  Similarity=0.045  Sum_probs=53.3  Template_Neff=11.600
+
+Q query            62 APTVLGVGDLHVENFGTWRDAEGRLVWGINDFDEAAHFPYTLDIIRLATSAILAIEENHLHLSADVACTAILEGYLESL  140 (370)
+Q Consensus        62 ap~v~~~GDlHleNFGt~rd~egrlvfgvNDFDEA~~~P~~~DL~RLatS~~LA~~~~~~~~~~~~~~~a~l~gY~~~L  140 (370)
+                      .+.+++-||+|.+|+-.-.  ++..+..+-||+.+..+|..+|+..+.........    ..-......+++++|.+..
+T Consensus       182 ~~~~~~H~D~~~~Nil~~~--~~~~~~~liD~~~~~~g~~~~Dla~~~~~~~~~~~----~~~~~~~~~~fl~~Y~~~~  254 (273)
+T 4H05_B          182 EDLAVCHGDLCPDNVLLDP--RTCEVTGLIDVGRVGRADRHSDLALVLRELAHEED----PWFGPECSAAFLREYGRGW  254 (273)
+T ss_dssp             CCEEEECSCCCGGGEEECT--TTCCEEEECCCTTCEEEETHHHHHHHHHHHTCSSS----SCCCHHHHHHHHHHHHHTC
+T ss_pred             CCceEEcCCCChhhEEEeC--CCCeEEEEEcCCCCeechhHHHHHHHHHHHcCCCC----cccChHHHHHHHHHhcCCC
+Confidence            3446777999999996554  33356789999999999999999999888765321    0112344678999998764
+
+
+No 41
+>3TM0_A Aminoglycoside 3'-phosphotransferase (E.C.2.7.1.95); protein kinase, phosphorylation, TRANSFERASE-ANTIBIOTIC complex; HET: B31, ANP; 2.1A {Enterococcus faecalis}
+Probab=87.28  E-value=0.34  Score=42.99  Aligned_cols=64  Identities=19%  Similarity=0.053  Sum_probs=46.4  Template_Neff=12.800
+
+Q query            63 PTVLGVGDLHVENFGTWRDAEGRLVWGINDFDEAAHFPYTLDIIRLATSAILAIEENHLHLSADVACTAILEGYL  137 (370)
+Q Consensus        63 p~v~~~GDlHleNFGt~rd~egrlvfgvNDFDEA~~~P~~~DL~RLatS~~LA~~~~~~~~~~~~~~~a~l~gY~  137 (370)
+                      +.+++-||+|.+|+=.-  .+  -+..+-||+.+..+|..+|+..+..+...-.       ......+.++++|.
+T Consensus       182 ~~~~~HgDl~~~Nil~~--~~--~~~~liD~~~~~~~~~~~Dl~~~~~~~~~~~-------~~~~~~~~~~~~y~  245 (263)
+T 3TM0_A          182 ELVFSHGDLGDSNIFVK--DG--KVSGFIDLGRSGRADKWYDIAFCVRSIREDI-------GEEQYVELFFDLLG  245 (263)
+T ss_dssp             CEEEECSSCCTTSEEEE--TT--EEEEECCCTTCEEEEHHHHHHHHHHHCCCCC-------CCTHHHHHHHHHHT
+T ss_pred             ceEEeCCCCChhhEEEE--CC--EEEEEEcCCCcccccchHhHHHHHHHHHccC-------ChhHHHHHHHHHhC
+Confidence            46777799999999543  22  3557899999999999999999988875211       12234566777774
+
+
+No 42
+>5JY7_L Trehalose synthase/amylase TreS (E.C.3.2.1.1,5.4.99.16), Maltokinase; complex, isomerase, kinase, alpha glucan; 3.6A {Mycobacterium smegmatis (strain ATCC 700084 / mc(2)155)}
+Probab=87.02  E-value=0.37  Score=50.44  Aligned_cols=75  Identities=17%  Similarity=0.197  Sum_probs=51.8  Template_Neff=9.600
+
+Q query            62 APTVLGVGDLHVENFGTWRDAEGRLVWGINDFDEAAH---------FPYTLDIIRLATSAILAIEENHLH----------  122 (370)
+Q Consensus        62 ap~v~~~GDlHleNFGt~rd~egrlvfgvNDFDEA~~---------~P~~~DL~RLatS~~LA~~~~~~~----------  122 (370)
+                      .+.+++-||+|++|+=.= +  +.  +.|=||+.+..         +|..+||..++.|+..++......          
+T Consensus       296 ~~~~~iHGDlhl~NiL~~-~--~~--~~iIDfe~~~~~p~~er~~~~~p~~DlA~~l~s~~~~~~~~~~~~~~~~~~~~~  370 (441)
+T 5JY7_L          296 MTVQRVHGDLHLGQVLRT-P--KG--WLLIDFEGEPGQPLDERRRPDTPVRDVAGILRSFEYAAHQRLVDQAGDDDDRAR  370 (441)
+T ss_dssp             EEEBCCCSSCCGGGEEEE-T--TE--EEECCCCCCC---HHHHHSCBCTHHHHHHHHHHHHHHHHHHHHSSSSSCSTTTH
+T ss_pred             ccceEecCCCCHhhEEEc-C--Cc--EEEECCCCCCCCCHHHhcCCCChHHHHHHHHHHHHHHHHHHHHhccCCChHHHH
+Confidence            355666799999999642 2  23  47999999999         999999999999976654321100          
+
+
+Q query           123 -------LSADVACTAILEGYLESLA  141 (370)
+Q Consensus       123 -------~~~~~~~~a~l~gY~~~L~  141 (370)
+                             .-......+|+++|.+...
+T Consensus       371 ~~~~~~~~~~~~~~~~fl~~Y~~~~~  396 (441)
+T 5JY7_L          371 QLAARAREWVTRNCASFCDGYAAEAG  396 (441)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHSS
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHhC
+Confidence                   0112346789999988653
+
+
+No 43
+>3FEG_A Choline/ethanolamine kinase (E.C.2.7.1.32, 2.7.1.82); non-protein kinase, choline kinase, Structural; HET: AMP, ADP, HC7; 1.302A {Homo sapiens}
+Probab=87.01  E-value=0.37  Score=48.22  Aligned_cols=79  Identities=14%  Similarity=0.098  Sum_probs=53.7  Template_Neff=10.700
+
+Q query            63 PTVLGVGDLHVENFGTWRDAEGRLVWGINDFDEAAHFPYTLDIIRLATSAILAIEENHLH--------LSADVACTAILE  134 (370)
+Q Consensus        63 p~v~~~GDlHleNFGt~rd~egrlvfgvNDFDEA~~~P~~~DL~RLatS~~LA~~~~~~~--------~~~~~~~~a~l~  134 (370)
+                      +.+++-||+|..|+=.-.+.++.-+..+-||+.+..+|..+||.+++.+...........        .......+.+++
+T Consensus       219 ~~~l~HgDl~~~Nil~~~~~~~~~~~~liD~e~a~~g~~~~Dla~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~  298 (379)
+T 3FEG_A          219 PVVFCHNDIQEGNILLLSEPENADSLMLVDFEYSSYNYRGFDIGNHFCEWVYDYTHEEWPFYKARPTDYPTQEQQLHFIR  298 (379)
+T ss_dssp             CEEEECSCCCGGGEEEESCC---CCEEECCCTTCEEEEHHHHHHHHHHHTTEETTCSSTTSCEECGGGSCCHHHHHHHHH
+T ss_pred             CEEEEcCCCCcCceEecCCCccCCCEEEEEcCCCCCCcHHHHHHHHHHHHHccCCCCCCCcccCChhhCCCHHHHHHHHH
+Confidence            567777999999997655421123578999999999999999999998876443211000        001234578899
+
+
+Q query           135 GYLESLA  141 (370)
+Q Consensus       135 gY~~~L~  141 (370)
+                      +|.+...
+T Consensus       299 ~Y~~~~~  305 (379)
+T 3FEG_A          299 HYLAEAK  305 (379)
+T ss_dssp             HHHHHHT
+T ss_pred             HHHHHHh
+Confidence            9988653
+
+
+No 44
+>6CTZ_A Gentamicin resistance protein; aminoglycoside resistance, kinase, kanamycin, TRANSFERASE-ANTIBIOTIC; HET: KAN, GDP; 1.34A {Enterococcus gallinarum}
+Probab=86.92  E-value=0.37  Score=44.06  Aligned_cols=50  Identities=28%  Similarity=0.250  Sum_probs=38.9  Template_Neff=12.500
+
+Q query            62 APTVLGVGDLHVENFGTWRDA-EGRLVWGINDFDEAAHFPYTLDIIRLATSA  112 (370)
+Q Consensus        62 ap~v~~~GDlHleNFGt~rd~-egrlvfgvNDFDEA~~~P~~~DL~RLatS~  112 (370)
+                      .+.+++.||+|..|+=.-.+. +| -+.++-||+.+..+|..+||.++..+.
+T Consensus       184 ~~~~l~HgDl~~~Nil~~~~~~~~-~~~~iiD~~~~~~~~~~~Dl~~~~~~~  234 (297)
+T 6CTZ_A          184 YTPRLIHGDLSPDHFLTNLNSRQT-PLTGIIDFGDAAISDPDYDYVYLLEDC  234 (297)
+T ss_pred             CCCEEEcCCCChhhEEEeCCCCCc-eEEEEEecccCeeCChhHHHHHHHHHh
+Confidence            355777799999999654322 23 456788999999999999999988754
+
+
+No 45
+>4WH3_A N-acetylhexosamine 1-kinase (E.C.2.7.1.162); NahK, anomeric kinase, APH, open; HET: GOL, MSE, ACY, ATP; 1.8A {Bifidobacterium longum subsp. longum JCM 1217}
+Probab=86.88  E-value=0.38  Score=46.24  Aligned_cols=76  Identities=14%  Similarity=0.033  Sum_probs=50.8  Template_Neff=12.000
+
+Q query            62 APTVLGVGDLHVENFGTWRDAEGRLVWGINDFDEAAHFPYTLDIIRLATSAILAIEENHLH----LSADVACTAILEGYL  137 (370)
+Q Consensus        62 ap~v~~~GDlHleNFGt~rd~egrlvfgvNDFDEA~~~P~~~DL~RLatS~~LA~~~~~~~----~~~~~~~~a~l~gY~  137 (370)
+                      .+.+++-||+|.+|+-.-.  ++.-+..+-||+.+..+|..+||..++.+...-.......    ........+++++|.
+T Consensus       200 ~~~~l~HgDl~~~Nil~~~--~~~~~~~liD~~~a~~~~~~~Dla~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~Y~  277 (367)
+T 4WH3_A          200 IPLRVTHNDTKLNNILMDA--TTGKARAIIDLDTIMPGSMLFDFGDSIRFGASTALEDEKDLSKVHFSTELFRAYTEGFV  277 (367)
+T ss_dssp             SCCEEECSCCCGGGEEEET--TTCCEEEECCCTTCEEECHHHHHHHHHHHHSBSSCTTCSCTTSCCBCHHHHHHHHHHHH
+T ss_pred             CCceEECCCCChHhEEEeC--CCCCeeEEEecccCccCcHHHHHHHHHHhhhcccccCcCCHhhcccCHHHHHHHHHHHH
+Confidence            3456777999999985422  2123568999999999999999999988765432211100    112345677889998
+
+
+Q query           138 ES  139 (370)
+Q Consensus       138 ~~  139 (370)
+                      +.
+T Consensus       278 ~~  279 (367)
+T 4WH3_A          278 GE  279 (367)
+T ss_dssp             HH
+T ss_pred             Hh
+Confidence            64
+
+
+No 46
+>4O7O_B Maltokinase (E.C.2.7.1.175); maltose kinase, kinase, ATP binding; 2.4006A {Mycobacterium tuberculosis}
+Probab=86.87  E-value=0.38  Score=50.45  Aligned_cols=74  Identities=18%  Similarity=0.109  Sum_probs=51.7  Template_Neff=9.700
+
+Q query            62 APTVLGVGDLHVENFGTWRDAEGRLVWGINDFDEAAH---------FPYTLDIIRLATSAILAIEENHLH----------  122 (370)
+Q Consensus        62 ap~v~~~GDlHleNFGt~rd~egrlvfgvNDFDEA~~---------~P~~~DL~RLatS~~LA~~~~~~~----------  122 (370)
+                      .+.+++-||+|++|+=.-.   +.  +.|=||+.+..         .+..+||..+..|+..++......          
+T Consensus       314 ~~~~~iHGDlh~~NvL~~~---~~--~~iIDfe~~~~~p~~er~~~~~p~~DlA~~l~s~~~~~~~~~~~~~~~~~~~~~  388 (455)
+T 4O7O_B          314 ITVQRVHGDLHLGQVLRTP---ES--WLLIDFEGEPGQPLDERRAPDSPLRDVAGVLRSFEYAAYGPLVDQATDKQLAAR  388 (455)
+T ss_dssp             EEEECCCSSCSGGGEEECS---SC--EEECCCSCSTTSCHHHHTCCBCHHHHHHHHHHHHHHHHHGGGSSSCCCHHHHHH
+T ss_pred             CCeEEEcCCCCHHHEEEcC---Cc--eEEECCCCCCCCCHHHhcCCCChHHHHHHHHHHHHHHHhchhccccchHHHHHH
+Confidence            4556777999999995532   33  34889998766         669999999999987665432211          
+
+
+Q query           123 --LSADVACTAILEGYLESL  140 (370)
+Q Consensus       123 --~~~~~~~~a~l~gY~~~L  140 (370)
+                        .-......+|+++|.+..
+T Consensus       389 ~~~w~~~~~~~fl~~Y~~~~  408 (455)
+T 4O7O_B          389 AREWVERNRAAFCDGYAVAS  408 (455)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHh
+Confidence              112335678999998865
+
+
+No 47
+>4O7P_B Maltokinase (E.C.2.7.1.175); maltose, kinase, maltose kinase, ATP; HET: BTB, GLC; 2.9A {Mycobacterium tuberculosis}
+Probab=86.87  E-value=0.38  Score=50.45  Aligned_cols=74  Identities=18%  Similarity=0.109  Sum_probs=51.7  Template_Neff=9.700
+
+Q query            62 APTVLGVGDLHVENFGTWRDAEGRLVWGINDFDEAAH---------FPYTLDIIRLATSAILAIEENHLH----------  122 (370)
+Q Consensus        62 ap~v~~~GDlHleNFGt~rd~egrlvfgvNDFDEA~~---------~P~~~DL~RLatS~~LA~~~~~~~----------  122 (370)
+                      .+.+++-||+|++|+=.-.   +.  +.|=||+.+..         .+..+||..+..|+..++......          
+T Consensus       314 ~~~~~iHGDlh~~NvL~~~---~~--~~iIDfe~~~~~p~~er~~~~~p~~DlA~~l~s~~~~~~~~~~~~~~~~~~~~~  388 (455)
+T 4O7P_B          314 ITVQRVHGDLHLGQVLRTP---ES--WLLIDFEGEPGQPLDERRAPDSPLRDVAGVLRSFEYAAYGPLVDQATDKQLAAR  388 (455)
+T ss_dssp             EEEECCCCSCSGGGEEECS---SC--EEECCTTCSTTSCHHHHSCCBCHHHHHHHHHHHHHHHHHSTTSSSCCCHHHHHH
+T ss_pred             CCeEEEcCCCCHHHEEEcC---Cc--eEEECCCCCCCCCHHHhcCCCChHHHHHHHHHHHHHHHhchhccccchHHHHHH
+Confidence            4556777999999995532   33  34889998766         669999999999987665432211          
+
+
+Q query           123 --LSADVACTAILEGYLESL  140 (370)
+Q Consensus       123 --~~~~~~~~a~l~gY~~~L  140 (370)
+                        .-......+|+++|.+..
+T Consensus       389 ~~~w~~~~~~~fl~~Y~~~~  408 (455)
+T 4O7P_B          389 AREWVERNRAAFCDGYAVAS  408 (455)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHh
+Confidence              112335678999998865
+
+
+No 48
+>2PYW_A 5-METHYLTHIORIBOSE KINASE (E.C.2.7.1.100); 5-methylthioribose kinase, plant methionine recycling; HET: EDO, SR1, ADP; 1.9A {Arabidopsis thaliana}
+Probab=86.24  E-value=0.44  Score=49.05  Aligned_cols=50  Identities=24%  Similarity=0.141  Sum_probs=41.2  Template_Neff=10.100
+
+Q query            62 APTVLGVGDLHVENFGTWRDAEGRLVWGINDFDEAAHFPYTLDIIRLATSAILAI  116 (370)
+Q Consensus        62 ap~v~~~GDlHleNFGt~rd~egrlvfgvNDFDEA~~~P~~~DL~RLatS~~LA~  116 (370)
+                      .+.+++.||+|..|+=.=.   +.  ..|=|||.+..+|..+||..++.++++..
+T Consensus       230 ~~~~l~HGDl~~~Nilv~~---~~--~~iIDfe~a~~g~~~~Dl~~~l~~~~~~~  279 (420)
+T 2PYW_A          230 RAQALIHGDLHTGSVMVTQ---DS--TQVIDPEFSFYGPMGFDIGAYLGNLILAF  279 (420)
+T ss_dssp             BCCEEECSCCSGGGEEECS---SC--EEECCCTTCEEECHHHHHHHHHHHHHHHH
+T ss_pred             CCCEEEcCCCCCccEEecC---CC--eEEECccccccCCcHHHHHHHHHHHHHHH
+Confidence            4667878999999996433   22  67899999999999999999999987654
+
+
+No 49
+>5FTG_A CHOLINE KINASE ALPHA (E.C.2.7.1.32, 2.7.1.82); TRANSFERASE, BISCATIONIC INHIBITOR, DOCKING STUDIES; HET: NBR, EDO; 1.45A {HOMO SAPIENS}
+Probab=85.47  E-value=0.52  Score=46.93  Aligned_cols=80  Identities=14%  Similarity=0.099  Sum_probs=53.6  Template_Neff=10.900
+
+Q query            62 APTVLGVGDLHVENFGTWRDAE--GRLVWGINDFDEAAHFPYTLDIIRLATSAILAIEEN-------HLHLS-ADVACTA  131 (370)
+Q Consensus        62 ap~v~~~GDlHleNFGt~rd~e--grlvfgvNDFDEA~~~P~~~DL~RLatS~~LA~~~~-------~~~~~-~~~~~~a  131 (370)
+                      .+.+++.||+|..|+=.=.+.+  ..-+..|-||+.+..+|..+||.+++.+........       ..... .....+.
+T Consensus       219 ~~~~l~HgDl~~~Nil~~~~~~~~~~~~~~lID~e~a~~g~~~~Dla~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  298 (378)
+T 5FTG_A          219 SPVVFCHNDCQEGNILLLEGRENSEKQKLMLIDFEYSSYNYRGFDIGNHFCEWMYDYSYEKYPFFRANIRKYPTKKQQLH  298 (378)
+T ss_dssp             CCEEEECSCCSGGGEEEETTCTTCSSCCEEECCCTTCEEEEHHHHHHHHHHHTTEETTCCSTTSCEECGGGSCCHHHHHH
+T ss_pred             CCeEEEcCCCCccceEEecCcccccCCcEEEEecCCCCCCcHHHHHHHHHHHHhccCCCCCCCCcccCHHHCCCHHHHHH
+Confidence            4557777999999995433210  012568999999999999999999998876542100       00001 1334678
+
+
+Q query           132 ILEGYLESLA  141 (370)
+Q Consensus       132 ~l~gY~~~L~  141 (370)
+                      ++++|.+.+.
+T Consensus       299 ~l~~Y~~~~~  308 (378)
+T 5FTG_A          299 FISSYLPAFQ  308 (378)
+T ss_dssp             HHHHHHHHHS
+T ss_pred             HHHHHHHHhh
+Confidence            9999988764
+
+
+No 50
+>5FUT_A CHOLINE KINASE ALPHA (E.C.2.7.1.32, 2.7.1.82); TRANSFERASE, CHOLINE KINASE, PHOSPHATIDYLETANOLAMINE, INHIBITORS; HET: PQ7, EDO; 1.6A {HOMO SAPIENS}
+Probab=85.47  E-value=0.52  Score=46.93  Aligned_cols=80  Identities=14%  Similarity=0.099  Sum_probs=53.6  Template_Neff=10.900
+
+Q query            62 APTVLGVGDLHVENFGTWRDAE--GRLVWGINDFDEAAHFPYTLDIIRLATSAILAIEEN-------HLHLS-ADVACTA  131 (370)
+Q Consensus        62 ap~v~~~GDlHleNFGt~rd~e--grlvfgvNDFDEA~~~P~~~DL~RLatS~~LA~~~~-------~~~~~-~~~~~~a  131 (370)
+                      .+.+++.||+|..|+=.=.+.+  ..-+..|-||+.+..+|..+||.+++.+........       ..... .....+.
+T Consensus       219 ~~~~l~HgDl~~~Nil~~~~~~~~~~~~~~lID~e~a~~g~~~~Dla~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  298 (378)
+T 5FUT_A          219 SPVVFCHNDCQEGNILLLEGRENSEKQKLMLIDFEYSSYNYRGFDIGNHFCEWMYDYSYEKYPFFRANIRKYPTKKQQLH  298 (378)
+T ss_dssp             CCEEEECSCCCGGGEEEETTCTTCSSSCEEECCCTTCEEEEHHHHHHHHHHHTTEETTCCSTTSCEECGGGSCCHHHHHH
+T ss_pred             CCeEEEcCCCCccceEEecCcccccCCcEEEEecCCCCCCcHHHHHHHHHHHHhccCCCCCCCCcccCHHHCCCHHHHHH
+Confidence            4557777999999995433210  012568999999999999999999998876542100       00001 1334678
+
+
+Q query           132 ILEGYLESLA  141 (370)
+Q Consensus       132 ~l~gY~~~L~  141 (370)
+                      ++++|.+.+.
+T Consensus       299 ~l~~Y~~~~~  308 (378)
+T 5FUT_A          299 FISSYLPAFQ  308 (378)
+T ss_dssp             HHHHHHHHHS
+T ss_pred             HHHHHHHHhh
+Confidence            9999988764
+
+
+No 51
+>3ATS_A Putative uncharacterized protein; hypothetical protein, putative aminoglycoside phosphortransferase; 1.67A {Mycobacterium tuberculosis}
+Probab=85.38  E-value=0.53  Score=45.49  Aligned_cols=74  Identities=19%  Similarity=0.060  Sum_probs=50.5  Template_Neff=11.700
+
+Q query            63 PTVLGVGDLHVENFGTWRDAEGRLVWGINDFDEAAHFPYTLDIIRLATSAILAIEENHLHL--SA--DVACTAILEGYLE  138 (370)
+Q Consensus        63 p~v~~~GDlHleNFGt~rd~egrlvfgvNDFDEA~~~P~~~DL~RLatS~~LA~~~~~~~~--~~--~~~~~a~l~gY~~  138 (370)
+                      +.+++-||+|..||=.-  .++  ...+-||+.+..+|..+||..+..+............  ..  ....+.++++|.+
+T Consensus       221 ~~~l~HgDl~~~Nil~~--~~~--~~~liD~~~~~~g~~~~Dla~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~Y~~  296 (357)
+T 3ATS_A          221 EPVLLWGDARVGNVLYR--DFQ--PVAVLDWEMVALGPRELDVAWMIFAHRVFQELAGLATLPGLPEVMREDDVRATYQA  296 (357)
+T ss_dssp             CCEEECSSCSGGGEEEE--TTE--EEEECCGGGCEEECHHHHHHHHHHHHHHHHHHHHHTTCCCCTTSSCHHHHHHHHHH
+T ss_pred             CCEEEcCCCCcccEEEe--CCe--eeEEEcccccccCChHHHHHHHHHHHHHHHHHcCCCCCCCCCCCCCHHHHHHHHHH
+Confidence            55677799999999543  233  5678899999999999999999988654432211110  00  0124678999988
+
+
+Q query           139 SL  140 (370)
+Q Consensus       139 ~L  140 (370)
+                      ..
+T Consensus       297 ~~  298 (357)
+T 3ATS_A          297 LT  298 (357)
+T ss_dssp             HH
+T ss_pred             HH
+Confidence            64
+
+
+No 52
+>5IQI_D Bifunctional AAC/APH (E.C.2.3.1.-,2.7.1.-); Kinase, Antibiotic, Aminoglycoside, Resistance, Transferase; HET: GNP; 2.15A {Staphylococcus aureus}
+Probab=84.39  E-value=0.64  Score=42.77  Aligned_cols=65  Identities=20%  Similarity=0.132  Sum_probs=47.8  Template_Neff=12.500
+
+Q query            63 PTVLGVGDLHVENFGTWRDAEGRLVWGINDFDEAAHFPYTLDIIRLATSAILAIEENHLHLSADVACTAILEGYLE  138 (370)
+Q Consensus        63 p~v~~~GDlHleNFGt~rd~egrlvfgvNDFDEA~~~P~~~DL~RLatS~~LA~~~~~~~~~~~~~~~a~l~gY~~  138 (370)
+                      +.+++-||+|..|+-.-.  +| -+..+-||+.+..+|..+|+.++..+...-.        .......++++|..
+T Consensus       193 ~~~l~HgD~~~~Nil~~~--~~-~~~~liD~~~a~~~~~~~Dl~~~~~~~~~~~--------~~~~~~~~l~~Y~~  257 (305)
+T 5IQI_D          193 KKCLCHNDFSCNHLLLDG--NN-RLTGIIDFGDSGIIDEYCDFIYLLEDSEEEI--------GTNFGEDILRMYGN  257 (305)
+T ss_dssp             CEEEECSCCCGGGEEECT--TS-CEEEECCCTTCEEEEGGGGGTTTTCCSSSSC--------CHHHHHHHHHHHCS
+T ss_pred             CeeEECCCCCcccEEEcC--CC-CEEEEECcccCeeeccHHHHHHHHhccchhh--------cHHHHHHHHHHhCC
+Confidence            667777999999996533  23 2457889999999999999999987654321        12345678889954
+
+
+No 53
+>5UXD_A Macrolide 2'-phosphotransferase MphH; antibiotic resistance, macrolide, cave bacterium; HET: ZIT, SO4; 1.7A {Brachybacterium faecium (strain ATCC 43885 / DSM 4810 / NCIB 9860)}
+Probab=84.29  E-value=0.65  Score=43.93  Aligned_cols=63  Identities=19%  Similarity=0.102  Sum_probs=47.5  Template_Neff=11.500
+
+Q query            62 APTVLGVGDLHVENFGTWRDAEGRLVWGINDFDEAAHFPYTLDIIRLATSAILAIEENHLHLSADVACTAILEGYLESL  140 (370)
+Q Consensus        62 ap~v~~~GDlHleNFGt~rd~egrlvfgvNDFDEA~~~P~~~DL~RLatS~~LA~~~~~~~~~~~~~~~a~l~gY~~~L  140 (370)
+                      .+.+++-||+|..|+=.-.   + -+.+|=|||.+..+|..+|+..+...         .   .....+.++++|.+..
+T Consensus       190 ~~~~l~HgDl~~~Nil~~~---~-~~~~iiDwe~a~~g~~~~Dla~~~~~---------~---~~~~~~~~~~~Y~~~~  252 (300)
+T 5UXD_A          190 GHSVLTHGELYPAHTLVED---E-RITAVLDWTTAAVGDPAKDLMFHQVS---------A---PSAIFEVALQAYAEGG  252 (300)
+T ss_dssp             SSCEEECSCCSGGGEEEET---T-EEEEECCCTTCEEECGGGGTHHHHHH---------S---CHHHHHHHHHHHHHTT
+T ss_pred             CCcEEEcCCCChhHEEEEC---C-EEEEEEecccceecCHHHHHHHHHhh---------C---CHHHHHHHHHHHHHhC
+Confidence            4567777999999997742   2 37788899999999999999888642         0   1123567899998764
+
+
+No 54
+>3MES_B Choline kinase; choline kinase, malaria, Structural Genomics; HET: ADP, PT3, DME; 2.35A {Cryptosporidium parvum}
+Probab=81.71  E-value=1  Score=46.17  Aligned_cols=75  Identities=15%  Similarity=0.079  Sum_probs=52.3  Template_Neff=10.500
+
+Q query            62 APTVLGVGDLHVENFGTWRDAEGRLVWGINDFDEAAHFPYTLDIIRLATSAILAIEEN-------HLH-LSADVACTAIL  133 (370)
+Q Consensus        62 ap~v~~~GDlHleNFGt~rd~egrlvfgvNDFDEA~~~P~~~DL~RLatS~~LA~~~~-------~~~-~~~~~~~~a~l  133 (370)
+                      .+.+++.||+|..|+=.-.   |  ..++=||+.+..+|..+||.+++.+........       ... .........++
+T Consensus       260 ~~~~l~HgDl~~~Nil~~~---~--~~~lID~e~a~~g~~~~Dla~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l  334 (424)
+T 3MES_B          260 FSLVFAHNDLQENNLLQTQ---N--NIRMIDYEYSAINFAGADIANYFCEYIYDYCSEKQPYFKFKYEDYPCEELRKLFI  334 (424)
+T ss_dssp             GCEEEECSCCCGGGEEECS---S--CEEECCCTTCEEEEHHHHHHHHHHTTSEECCCSSTTSCEECGGGSCCHHHHHHHH
+T ss_pred             CcEEEecccccccCeeecC---C--CeEEeeccccCCChhHHHHHHHHHHHhhhcCCCCCCCccCCHHHCCCHHHHHHHH
+Confidence            4567778999999997532   3  348999999999999999999998875532110       000 00133457789
+
+
+Q query           134 EGYLESLA  141 (370)
+Q Consensus       134 ~gY~~~L~  141 (370)
+                      ++|.+...
+T Consensus       335 ~~Y~~~~~  342 (424)
+T 3MES_B          335 SVYLSQTL  342 (424)
+T ss_dssp             HHHHHHHH
+T ss_pred             HHHHHHHh
+Confidence            99987654
+
+
+No 55
+>4DCA_A Aminoglycoside phosphotransferase; STRUCTURAL GENOMICS, CENTER FOR STRUCTURAL; HET: ADP; 1.8A {Escherichia coli}
+Probab=81.62  E-value=1  Score=42.61  Aligned_cols=67  Identities=15%  Similarity=0.090  Sum_probs=47.7  Template_Neff=11.900
+
+Q query            62 APTVLGVGDLHVENFGTWRDAEGRLVWGINDFDEAAHFPYTLDIIRLATSAILAIEENHLHLSADVACTAILEGYLESL  140 (370)
+Q Consensus        62 ap~v~~~GDlHleNFGt~rd~egrlvfgvNDFDEA~~~P~~~DL~RLatS~~LA~~~~~~~~~~~~~~~a~l~gY~~~L  140 (370)
+                      .+.+++-||+|..|+=.=  .+  -+..+-||+.+..+|..+|+..+..+...     .   -.......++++|.+..
+T Consensus       205 ~~~~l~HgD~~~~Nil~~--~~--~~~~iiD~~~a~~~~~~~Dl~~~~~~~~~-----~---~~~~~~~~~l~~Y~~~~  271 (320)
+T 4DCA_A          205 YTPCLVHNDFSANNMIFR--NN--RLFGVIDFGDFNVGDPDNDFLCLLDCSTD-----D---FGKEFGRKVLKYYQHKA  271 (320)
+T ss_dssp             CCCEEECSCCSGGGEEEE--TT--EEEEECCCTTCEEECGGGGGHHHHSCCTT-----S---CCHHHHHHHHHHTTCSC
+T ss_pred             CCCeEEcCCCCcccEEEe--CC--EEEEEEeccCceecChhHHHHHHHccCcc-----h---hcHHHHHHHHHHhhhcC
+Confidence            356777799999998542  22  25678999999999999999998874310     1   11234567889997653
+
+
+No 56
+>1NW1_A Choline kinase (49.2 kD) (E.C.2.7.1.32); choline kinase, phospholipid synthesis, protein; 2.02A {Caenorhabditis elegans} SCOP: d.144.1.8
+Probab=81.21  E-value=1.1  Score=47.26  Aligned_cols=81  Identities=14%  Similarity=0.106  Sum_probs=54.6  Template_Neff=9.200
+
+Q query            61 NAPTVLGVGDLHVENFGTWRDAEGR------------------------LVWGINDFDEAAHFPYTLDIIRLATSAILAI  116 (370)
+Q Consensus        61 ~ap~v~~~GDlHleNFGt~rd~egr------------------------lvfgvNDFDEA~~~P~~~DL~RLatS~~LA~  116 (370)
+                      ..|.+++-||+|..|+=.-.+.+|.                        -...+=||+.+..+|..+||..++.......
+T Consensus       246 ~~~~~l~HgDl~~~NIL~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~lIDfe~a~~~~~~~Dla~~~~~~~~~~  325 (429)
+T 1NW1_A          246 KSPVTFCHNDLQEGNILLPKASSGNIRMPSLSDETQALGNSLSAFNPADPRLVLIDFEYASYNYRAFDFANHFIEWTIDY  325 (429)
+T ss_dssp             CCCEEEECSCCCGGGEEEEC------------------------------CCEECCCTTCEEEEHHHHHHHHHHHTTEEC
+T ss_pred             CCCEEEeccccCcCCeeeccccCCCCCCCccchhhhhcccccccCCCCCCCEEEeecccCCCchHHHHHHHHHHHHHhcC
+Confidence            3567787899999999876653332                        3678899999999999999999988876543
+
+
+Q query           117 EENHL-------HL-SADVACTAILEGYLESLA  141 (370)
+Q Consensus       117 ~~~~~-------~~-~~~~~~~a~l~gY~~~L~  141 (370)
+                      .....       .. ........++++|.+.+.
+T Consensus       326 ~~~~~p~~~~~~~~~~~~~~~~~fl~~Y~~~~~  358 (429)
+T 1NW1_A          326 DIDEAPFYKIQTENFPENDQMLEFFLNYLREQG  358 (429)
+T ss_dssp             CCSSTTSCEECGGGSCCHHHHHHHHHHHHHHHT
+T ss_pred             CCCCCCCceechhhCCCHHHHHHHHHHHHHHcc
+Confidence            21100       00 122345678999988764
+
+
+No 57
+>6YXS_A Choline kinase (E.C.2.7.1.32); Choline Kinase, Apo form, Plasmodium; HET: 1PE, GOL; 2.0A {Plasmodium falciparum (isolate 3D7)}
+Probab=81.02  E-value=1.1  Score=44.85  Aligned_cols=75  Identities=15%  Similarity=0.108  Sum_probs=52.3  Template_Neff=10.800
+
+Q query            62 APTVLGVGDLHVENFGTWRDAEGRLVWGINDFDEAAHFPYTLDIIRLATSAILAIEENH-------LH-LSADVACTAIL  133 (370)
+Q Consensus        62 ap~v~~~GDlHleNFGt~rd~egrlvfgvNDFDEA~~~P~~~DL~RLatS~~LA~~~~~-------~~-~~~~~~~~a~l  133 (370)
+                      .+.+++.||+|.+|+-.- +  +  ...+=||+.+..+|..+||..++.+.........       .. ....+..+.++
+T Consensus       222 ~~~~l~HgDl~~~Nil~~-~--~--~~~iiD~e~a~~~~~~~Dla~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l  296 (382)
+T 6YXS_A          222 NDIVFCHNDLQENNIMNT-N--K--CLRLIDFEYSGYNFLSADIANFFIETTIDYSYNAYPFFIINKKNYISYESRILFV  296 (382)
+T ss_dssp             GCEEEECSCCCGGGEEES-S--S--CEEECCCTTCEEEEHHHHHHHHHHGGGEECCCCSTTSCEECGGGSCCHHHHHHHH
+T ss_pred             CCEEEEcCcccccceecC-C--C--CeEEeecCcCCCCcHHHHHHHHHHHHhccCCCCCCCcceecHHHCCCHHHHHHHH
+Confidence            455777899999999752 2  3  3579999999999999999999988765422100       00 00123457899
+
+
+Q query           134 EGYLESLA  141 (370)
+Q Consensus       134 ~gY~~~L~  141 (370)
+                      ++|.+...
+T Consensus       297 ~~Y~~~~~  304 (382)
+T 6YXS_A          297 TTYLSKYL  304 (382)
+T ss_dssp             HHHHHHHS
+T ss_pred             HHHHHHhc
+Confidence            99988654
+
+
+No 58
+>4DA5_A Choline kinase alpha (E.C.2.7.1.32, 2.7.1.82); kinase, signal transduction, cytoplasmic, Transferase-Transferase; HET: SO4, 0H7; 2.4A {Homo sapiens}
+Probab=80.47  E-value=1.2  Score=46.72  Aligned_cols=79  Identities=14%  Similarity=0.093  Sum_probs=53.6  Template_Neff=9.900
+
+Q query            63 PTVLGVGDLHVENFGTWRDAE--GRLVWGINDFDEAAHFPYTLDIIRLATSAILAIEENH-------LHLS-ADVACTAI  132 (370)
+Q Consensus        63 p~v~~~GDlHleNFGt~rd~e--grlvfgvNDFDEA~~~P~~~DL~RLatS~~LA~~~~~-------~~~~-~~~~~~a~  132 (370)
+                      +.+++.||+|..|+=.-.+.+  ..-+..|=||+.+..+|..+||.+++.+.........       .... .......+
+T Consensus       299 ~~~l~HgDl~~~Nil~~~~~~~~~~~~~~iIDfe~a~~g~~~~Dla~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~f  378 (457)
+T 4DA5_A          299 PVVFCHNDCQEGNILLLEGRENSEKQKLMLIDFEYSSYNYRGFDIGNHFCEWMYDYSYEKYPFFRANIRKYPTKKQQLHF  378 (457)
+T ss_pred             CCEEeCCCCChhcceecCCCCCCCCCcEEEEeccccCcCcHHHHHHHHHHHHhccCCCCCCCcccCCHHHCCCHHHHHHH
+Confidence            567778999999997654321  0125688999999999999999999988766421100       0000 13346788
+
+
+Q query           133 LEGYLESLA  141 (370)
+Q Consensus       133 l~gY~~~L~  141 (370)
+                      +++|.+...
+T Consensus       379 l~~Y~~~~~  387 (457)
+T 4DA5_A          379 ISSYLPAFQ  387 (457)
+T ss_pred             HHHHHHHcc
+Confidence            999987653
+
+
+No 59
+>6WHP_A Choline kinase; SSGCID, Choline kinase, Cryptococcus neoformans; HET: EDO; 2.25A {Cryptococcus neoformans var. grubii serotype A (strain H99 / ATCC 208821 / CBS 10515 / FGSC 9487)}
+Probab=78.51  E-value=1.5  Score=45.96  Aligned_cols=81  Identities=14%  Similarity=0.064  Sum_probs=53.8  Template_Neff=9.600
+
+Q query            61 NAPTVLGVGDLHVENFGTWRDAE-----GRLVWGINDFDEAAHFPYTLDIIRLATSAILAIEEN-------HLH-LSADV  127 (370)
+Q Consensus        61 ~ap~v~~~GDlHleNFGt~rd~e-----grlvfgvNDFDEA~~~P~~~DL~RLatS~~LA~~~~-------~~~-~~~~~  127 (370)
+                      ..+.+++-||+|..|+-.-.+.+     ..-+.+|=|||.+..+|..+||.+++..........       ... .....
+T Consensus       259 ~~~~~l~HgDl~~~NILv~~~~~~~~~~~~~~~~iIDwe~a~~g~~~~Dla~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  338 (440)
+T 6WHP_A          259 GNGVVFAHNDTQYGNLLRLDVELPPNTPEHCRYIVIDFEYASPNPRGYDIANHFHEWRANYHHPTHSHSLIPHFPYPTPI  338 (440)
+T ss_dssp             CSSCEEECSCCCGGGEEEECSCCCTTCCGGGGEEECCCTTCEEECHHHHHHHHHHHTTSSSSSCCBTTSCCCCCCCCCHH
+T ss_pred             CCCEEEEcCCCCCCcceecCCCCCCCCCccCeEEEEeCCCCCCChHHHHHHHHHHHHHccCCCCCCCcccCCCCCCCCHH
+Confidence            34567777999999998754311     112567899999999999999999998765321110       000 01123
+
+
+Q query           128 ACTAILEGYLESLA  141 (370)
+Q Consensus       128 ~~~a~l~gY~~~L~  141 (370)
+                      ....++++|.+...
+T Consensus       339 ~~~~fl~~Y~~~~~  352 (440)
+T 6WHP_A          339 QREDFYRSYLSVEV  352 (440)
+T ss_dssp             HHHHHHHHHHTEEE
+T ss_pred             HHHHHHHHHHHhhc
+Confidence            35689999987654
+
+
+No 60
+>3C5I_D Choline kinase, Cleaved fragment of; choline, kinase, malaria, Plasmodium knowlesi; HET: GOL, CHT; 2.2A {Plasmodium knowlesi}
+Probab=78.01  E-value=1.6  Score=43.77  Aligned_cols=75  Identities=13%  Similarity=0.112  Sum_probs=51.8  Template_Neff=10.500
+
+Q query            62 APTVLGVGDLHVENFGTWRDAEGRLVWGINDFDEAAHFPYTLDIIRLATSAILAIEEN--------HLHLSADVACTAIL  133 (370)
+Q Consensus        62 ap~v~~~GDlHleNFGt~rd~egrlvfgvNDFDEA~~~P~~~DL~RLatS~~LA~~~~--------~~~~~~~~~~~a~l  133 (370)
+                      .+.+++-||+|.+|+= +.+  +  ...+=|||.+..+|..+||.+++.+...-....        .......+....++
+T Consensus       210 ~~~~l~HgDl~~~Nil-~~~--~--~~~lID~e~a~~g~~~~Dla~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~fl  284 (369)
+T 3C5I_D          210 NTIVFCHNDLQENNII-NTN--K--CLRLIDFEYSGFNFLATDIANFFIETSIDYSVSSYPFFEIDKKKYISYENRKLFI  284 (369)
+T ss_dssp             GCEEEECSCCSGGGEE-ECS--S--CEEECCCTTCEEEEHHHHHHHHHHHTTEECCCCSTTSCEECGGGSCCHHHHHHHH
+T ss_pred             CCEEEeCcccccccEE-ecC--C--CEEEeeccccCCCcHHHHHHHHHHHHhccCCCCCCCccccCHHHCCCHHHHHHHH
+Confidence            4567777999999984 433  3  356889999999999999999988775421100        00011233467899
+
+
+Q query           134 EGYLESLA  141 (370)
+Q Consensus       134 ~gY~~~L~  141 (370)
+                      ++|.+...
+T Consensus       285 ~~Y~~~~~  292 (369)
+T 3C5I_D          285 TAYLSNYL  292 (369)
+T ss_dssp             HHHHHHHS
+T ss_pred             HHHHHHhh
+Confidence            99998764
+
+
+No 61
+>2PUL_A Methylthioribose kinase (E.C.2.7.1.100); 5-methylthioribose kinase, methionine recycling pathway; HET: ACP, CPS; 2.0A {Bacillus subtilis} SCOP: d.144.1.6
+Probab=76.31  E-value=2  Score=43.23  Aligned_cols=51  Identities=20%  Similarity=0.092  Sum_probs=41.8  Template_Neff=10.900
+
+Q query            62 APTVLGVGDLHVENFGTWRDAEGRLVWGINDFDEAAHFPYTLDIIRLATSAILAIE  117 (370)
+Q Consensus        62 ap~v~~~GDlHleNFGt~rd~egrlvfgvNDFDEA~~~P~~~DL~RLatS~~LA~~  117 (370)
+                      .+.+++-||+|.+|+=.-.   +  ...|=||+.+..+|..+||..++.+++....
+T Consensus       225 ~~~~liHgDl~~~Nil~~~---~--~~~iiD~e~a~~g~~~~Dl~~~l~~~~~~~~  275 (397)
+T 2PUL_A          225 SAETLIHGDLHTGSIFASE---H--ETKVIDPEFAFYGPIGFDVGQFIANLFLNAL  275 (397)
+T ss_dssp             BCCEEECSCCCGGGEEECS---S--CEEECCCTTCEEECTHHHHHHHHHHHHHHHH
+T ss_pred             CCCEEEccCCCcccEEecC---C--ccEEECcccccccchHHHHHHHHHHHHHHHH
+Confidence            4667778999999996543   2  5678999999999999999999998877543
+
+
+No 62
+>3W0S_A Hygromycin-B 4-O-kinase (E.C.2.7.1.163); phosphotransferase, TRANSFERASE-ANTIBIOTIC complex; HET: HY0, ANP; 1.77A {Escherichia coli}
+Probab=70.54  E-value=3.5  Score=39.52  Aligned_cols=46  Identities=15%  Similarity=0.013  Sum_probs=35.8  Template_Neff=12.000
+
+Q query            63 PTVLGVGDLHVENFGTWRDAEGRLVWGINDFDEAAHFPYTLDIIRLATSA  112 (370)
+Q Consensus        63 p~v~~~GDlHleNFGt~rd~egrlvfgvNDFDEA~~~P~~~DL~RLatS~  112 (370)
+                      +.+++-||+|.+|+-.-  .++  +..+-||+.+..+|..+|+..+..+.
+T Consensus       191 ~~~l~HgDl~~~Nil~~--~~~--~~~liD~~~~~~~~~~~Dl~~~~~~~  236 (349)
+T 3W0S_A          191 VRHLVHADFGSNNVLTD--NGR--ITAVIDWSEAMFGDSQYEVANIFFWR  236 (349)
+T ss_dssp             CCEEECSSCSSTTEEEE--TTE--EEEECCGGGCEEECHHHHHHHHHHHT
+T ss_pred             CcEEECCCCCcccEEEe--CCe--ecEEecchhceecChHHHHHHHHhhC
+Confidence            44676799999999653  222  56788999999999999998876553
+
+
+No 63
+>2QG7_E ethanolamine kinase Pv091845; malaria, ethanolamine kinase, Pv091845, SGC; 2.407A {Plasmodium vivax}
+Probab=69.58  E-value=3.8  Score=44.59  Aligned_cols=78  Identities=17%  Similarity=0.038  Sum_probs=53.1  Template_Neff=7.900
+
+Q query            62 APTVLGVGDLHVENFGTWRDAE---------------------------------GRLVWGINDFDEAAHFPYTLDIIRL  108 (370)
+Q Consensus        62 ap~v~~~GDlHleNFGt~rd~e---------------------------------grlvfgvNDFDEA~~~P~~~DL~RL  108 (370)
+                      .+.+++-||+|..|+-.-.+.+                                 ..-+.+|=||+-+..+|..+||..+
+T Consensus       288 ~~~~l~HgDl~~~NILv~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~IID~E~a~~g~~~~Dia~~  367 (458)
+T 2QG7_E          288 SPIVLCHCDLLSSNIINTVGGGEAGELGEAGETGEGGETGEGGETGEGGETGEGGEGDSISFIDFEYSCPMERAYDIANH  367 (458)
+T ss_dssp             CCEEEECSCCCGGGEEECCCC------------------------------------CCEEECCCSSCEEEEHHHHHHHH
+T ss_pred             CCEEEEcCCCChhceEEccCCCcccccccccCCCCCCCCCCCCccCCCCCCCCCCCCCcEEEEecCCCCCCcHHHHHHHH
+Confidence            5667878999999998765311                                 1236789999999999999999999
+
+
+Q query           109 ATSAILAIEENHLHLSADVACTAILEGYLESL  140 (370)
+Q Consensus       109 atS~~LA~~~~~~~~~~~~~~~a~l~gY~~~L  140 (370)
+                      +.....-....... ........|+++|.+..
+T Consensus       368 ~~~~~~~~~~~~~~-~~~~~~~~fl~~Y~~~~  398 (458)
+T 2QG7_E          368 FNEYAGFNCDWDLT-PSKEEEYHFIMHYLGTD  398 (458)
+T ss_dssp             HHTTSTTTTCGGGS-CCHHHHHHHHHHHHTCC
+T ss_pred             HHHHhcccCChhhC-CCHHHHHHHHHHHhcCC
+Confidence            87754321111001 12344678999998765
+
+
+No 64
+>3DXP_A putative acyl-CoA dehydrogenase; Protein kinase-like fold, structural genomics; HET: MSE; 2.32A {Ralstonia eutropha JMP134}
+Probab=68.48  E-value=4.2  Score=39.99  Aligned_cols=52  Identities=17%  Similarity=0.022  Sum_probs=40.9  Template_Neff=11.300
+
+Q query            62 APTVLGVGDLHVENFGTWRDAEGRLVWGINDFDEAAHFPYTLDIIRLATSAILA  115 (370)
+Q Consensus        62 ap~v~~~GDlHleNFGt~rd~egrlvfgvNDFDEA~~~P~~~DL~RLatS~~LA  115 (370)
+                      .+.+++-||+|.+||=.-.  ++.-+..+-||+.+..+|..+|+..+..+..++
+T Consensus       214 ~~~~l~HgDl~~~Nil~~~--~~~~~~~liD~e~a~~g~~~~Dl~~~~~~~~~~  265 (359)
+T 3DXP_A          214 DLTSIVHGDYRLDNLMFHP--TEPRVLAVLDWELSTLGHPMGDFGYHCMSWHIA  265 (359)
+T ss_dssp             SCCEEECSSCSGGGEEECS--SSSCEEEECCCTTCEEECHHHHHHHHGGGGTSC
+T ss_pred             CCceEEccCCCchhEEEcC--CCCeEEEEECCCccccCChHHHHHHHHhhcccC
+Confidence            3456777999999996543  234577889999999999999999888875543
+
+
+No 65
+>6OID_B Protein-ribulosamine 3-kinase, chloroplastic (E.C.2.7.1.172); Kinase, Fructosamine-3-Kinase, Small Molecule Kinase; HET: SO4, EDO, ADP; 2.365A {Arabidopsis thaliana}
+Probab=67.44  E-value=4.5  Score=38.42  Aligned_cols=43  Identities=19%  Similarity=-0.130  Sum_probs=34.0  Template_Neff=11.800
+
+Q query            62 APTVLGVGDLHVENFGTWRDAEGRLVWGINDFDEAAHFPYTLDIIRLA  109 (370)
+Q Consensus        62 ap~v~~~GDlHleNFGt~rd~egrlvfgvNDFDEA~~~P~~~DL~RLa  109 (370)
+                      .+.+++-||+|..|+=.-  .+|.  ..+-||+ +..+|..+||..+.
+T Consensus       213 ~~~~l~HgDl~~~Nil~~--~~~~--~~liD~~-~~~~~~~~Dl~~~~  255 (317)
+T 6OID_B          213 IEPCLLHGDLWSGNIAYD--KNNE--PVILDPA-CYYGHNEADFGMSW  255 (317)
+T ss_dssp             CCCEEECSCCSGGGEEEC--TTSC--EEECSCC-CEEECGGGGGTTGG
+T ss_pred             CCCEEEccCCCcccEEEC--CCCC--eEEEccc-cccCChHHHHHhhh
+Confidence            345677799999999653  3454  4678999 99999999999886
+
+
+No 66
+>2QG7_D ethanolamine kinase Pv091845; malaria, ethanolamine kinase, Pv091845, SGC; 2.407A {Plasmodium vivax}
+Probab=62.33  E-value=6.7  Score=42.81  Aligned_cols=80  Identities=19%  Similarity=0.084  Sum_probs=53.5  Template_Neff=7.900
+
+Q query            61 NAPTVLGVGDLHVENFGTWRDAE-------------------------------G-R-LVWGINDFDEAAHFPYTLDIIR  107 (370)
+Q Consensus        61 ~ap~v~~~GDlHleNFGt~rd~e-------------------------------g-r-lvfgvNDFDEA~~~P~~~DL~R  107 (370)
+                      ..+.+++-||+|..|+=.-.+..                               + . -...+=||+.+..+|..+||..
+T Consensus       287 ~~~~vl~HgDl~~~NIl~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~lIDfE~a~~g~~~~Dla~  366 (458)
+T 2QG7_D          287 NSPIVLCHCDLLSSNIINTVGGGEAGELGEAGETGEGGETGEGGETGEGGETGEGGEGDSISFIDFEYSCPMERAYDIAN  366 (458)
+T ss_dssp             CCCEEEECSCCCGGGEEECCCC------------------------------------CCEEECCCSSCEEEEHHHHHHH
+T ss_pred             CCCEEEeCCCCCccceEEcCCCCccccccccccCCCCCCCCCCCCcCCCCCCCCCCCCCcEEEEeCCCCCCCHHHHHHHH
+Confidence            35677878999999986654310                               0 0 3578899999999999999999
+
+
+Q query           108 LATSAILAIEENHLHLSADVACTAILEGYLESLA  141 (370)
+Q Consensus       108 LatS~~LA~~~~~~~~~~~~~~~a~l~gY~~~L~  141 (370)
+                      +......-...... .........|+++|.+...
+T Consensus       367 ~~~~~~~~~~~~~~-~~~~~~~~~fl~~Y~~~~~  399 (458)
+T 2QG7_D          367 HFNEYAGFNCDWDL-TPSKEEEYHFIMHYLGTDD  399 (458)
+T ss_dssp             HHHTTSTTTTCGGG-SCCHHHHHHHHHHHHTCCC
+T ss_pred             HHHHHhcccCChhh-CCCHHHHHHHHHHHhhCCC
+Confidence            98876542100000 0112345788999987653
+
+
+No 67
+>3JR1_A Putative fructosamine-3-kinase; YP_719053.1, Putative fructosamine-3-kinase, Structural Genomics; HET: UNL, EDO; 2.32A {Haemophilus somnus 129PT}
+Probab=53.73  E-value=12  Score=36.25  Aligned_cols=59  Identities=15%  Similarity=0.096  Sum_probs=40.7  Template_Neff=11.200
+
+Q query            62 APTVLGVGDLHVENFGTWRDAEGRLVWGINDFDEAAHFPYTLDIIRLATSAILAIEENHLHLSADVACTAILEGYLESL  140 (370)
+Q Consensus        62 ap~v~~~GDlHleNFGt~rd~egrlvfgvNDFDEA~~~P~~~DL~RLatS~~LA~~~~~~~~~~~~~~~a~l~gY~~~L  140 (370)
+                      .+.+++-||+|.+|+=.  + +|+++  +=| +++..+|..+||..+..   ..           .....++++|.+..
+T Consensus       205 ~~~~liHgDl~~~Nil~--~-~~~~~--iID-~~~~~g~~~~Dla~~~~---~~-----------~~~~~~~~~Y~~~~  263 (312)
+T 3JR1_A          205 PKPSILHGNLWIENCIQ--V-DDKIF--VCN-PACYWGDRECDIAFSSL---FE-----------PFPTNFYQRYNEIY  263 (312)
+T ss_dssp             CCCEEECSSCSGGGEEE--E-TTEEE--ECS-CCCEEECTHHHHHHHTT---SS-----------CCCHHHHHHHHHHS
+T ss_pred             CCCEEEeecCCccceEE--e-CCeeE--EEC-chhhccCHHHHHHHHhc---cC-----------CCChhHHHHHHHHC
+Confidence            45567779999999964  3 35554  556 57999999999996532   00           12356888998754
+
+
+No 68
+>3W0O_A Hygromycin-B 4-O-kinase (E.C.2.7.1.163); phosphotransferase, TRANSFERASE-ANTIBIOTIC complex; HET: ADP, HY0; 1.5A {Escherichia coli}
+Probab=52.82  E-value=12  Score=35.89  Aligned_cols=44  Identities=16%  Similarity=0.012  Sum_probs=34.7  Template_Neff=12.000
+
+Q query            64 TVLGVGDLHVENFGTWRDAEGRLVWGINDFDEAAHFPYTLDIIRLATS  111 (370)
+Q Consensus        64 ~v~~~GDlHleNFGt~rd~egrlvfgvNDFDEA~~~P~~~DL~RLatS  111 (370)
+                      .+++-||+|..|+-.-  .++  ...+-||+.+..+|..+|+.++..+
+T Consensus       192 ~~l~HgDl~~~Nil~~--~~~--~~~liD~~~~~~~~~~~D~~~~~~~  235 (349)
+T 3W0O_A          192 RHLVHADFGSNNVLTD--NGR--ITAVIDWSEAMFGDPLYEVANIFFW  235 (349)
+T ss_dssp             CEEECSSCSSTTEEEE--TTE--EEEECCCTTCEEECTHHHHHHHHHH
+T ss_pred             cEEEcCCCCCcCEEEe--CCe--EeEEeccccccccChHHHHHHHHHh
+Confidence            5676799999999653  233  4567899999999999999877654
+
+

@@ -1,0 +1,497 @@
+Query         query 
+Match_columns 381
+No_of_seqs    169 out of 1484
+Neff          6.35064
+Searched_HMMs 90139
+Date          Fri May 27 02:50:14 2022
+Command       /mnt/home/dberenberg/gustaf_stuff/openfold/lib/conda/envs/openfold_venv/bin/hhsearch -i /tmp/tmp2mt2e4ew/query.a3m -o /tmp/tmp2mt2e4ew/output.hhr -maxseq 1000000 -cpu 28 -d /mnt/home/dberenberg/gustaf_stuff/OpenFold/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1D3Y_B DNA TOPOISOMERASE VI (E  97.9 2.9E-08 3.2E-13   98.7   0.0   86  239-324   120-227 (301)
+  2 2ZBK_E Type II DNA topoisomera  97.9 4.1E-08 4.6E-13  101.7   0.0   87  238-324   199-306 (389)
+  3 1D3Y_A DNA TOPOISOMERASE VI (E  97.9 5.4E-08   6E-13   96.8   0.0   86  239-324   120-227 (301)
+  4 2Q2E_A Type II DNA topoisomera  97.5   7E-07 7.7E-12   92.1   0.0   86  239-324   193-299 (369)
+  5 2I5R_C Hypothetical conserved   84.2    0.67 7.4E-06   40.7   0.0   70  241-310     7-80  (122)
+  6 6TPQ_B 50S ribosomal protein L  77.3     1.8   2E-05   41.5   0.0   72  241-314     3-79  (187)
+  7 2FCJ_C small TOPRIM domain pro  76.3       2 2.2E-05   37.7   0.0   70  241-310     4-77  (119)
+  8 2FCJ_B small TOPRIM domain pro  75.8     2.1 2.3E-05   37.2   0.0   67  241-310     4-77  (119)
+  9 1NUI_A DNA primase/helicase (E  70.2     3.6   4E-05   39.8   0.0   67  241-307   150-223 (255)
+ 10 5GUJ_A DNA primase (E.C.2.7.7.  68.1     4.3 4.8E-05   41.7   0.0   64  240-305   149-215 (324)
+ 11 6TG6_A Ribonuclease M5 (E.C.3.  65.3     5.4   6E-05   34.6   0.0   69  241-311     6-79  (116)
+ 12 1T6T_2 putative protein; struc  61.4     7.1 7.9E-05   34.6   0.0   65  241-309    20-88  (118)
+ 13 3B39_A DNA primase/DNA Complex  60.3     7.7 8.5E-05   39.9   0.0   62  240-303   150-214 (322)
+ 14 1DD9_A DNA PRIMASE (2.7.7.-);   56.8     9.6 0.00011   39.7   0.0   62  240-303   162-226 (338)
+ 15 5IKN_F DNA-directed DNA polyme  50.1      15 0.00016   39.0   0.0   67  241-308    87-161 (486)
+ 16 5VAZ_B DNA primase (E.C.2.7.7.  49.1      16 0.00017   39.1   0.0   63  240-304   163-228 (389)
+ 17 4EDG_A DNA primase (E.C.2.7.7.  44.6      20 0.00023   37.0   0.0   64  240-305   151-217 (329)
+ 18 4EDK_A DNA primase (E.C.2.7.7.  44.6      20 0.00023   37.0   0.0   64  240-305   151-217 (329)
+ 19 5VAZ_A DNA primase (E.C.2.7.7.  44.4      21 0.00023   38.1   0.0   62  240-303   163-227 (389)
+ 20 4EDR_A DNA primase (E.C.2.7.7.  43.7      22 0.00024   36.6   0.0   62  241-304   152-216 (329)
+ 21 1Q57_F DNA primase/helicase (E  39.5      28 0.00031   37.5   0.0   67  241-307    87-160 (503)
+ 22 2AU3_A DNA primase (E.C.2.7.7.  35.7      35 0.00039   36.0   0.0   63  240-304   243-308 (407)
+ 23 5W36_A DNA primase/DNA Complex  34.2      38 0.00042   34.8   0.0   63  240-304   153-225 (325)
+ 24 5W36_B DNA primase/DNA Complex  34.2      38 0.00042   34.8   0.0   63  240-304   153-225 (325)
+ 25 6N9X_B DNA-directed DNA polyme  31.5      45  0.0005   36.2   0.0   66  240-305   149-221 (566)
+ 26 6N7I_D DNA primase/helicase/DN  30.0      50 0.00055   36.2   0.0   65  241-305   150-221 (566)
+ 27 7AGV_B K(+)/H(+) antiporter su  29.2      52 0.00058   30.5   0.0   30  156-185     1-33  (168)
+ 28 7AHM_B K(+)/H(+) antiporter su  29.2      52 0.00058   30.5   0.0   30  156-185     1-33  (168)
+ 29 7AGW_B K(+)/H(+) antiporter su  26.0      65 0.00072   26.7   0.0   19  156-174     1-19  (71)
+ 30 7AGY_A K(+)/H(+) antiporter su  26.0      65 0.00072   26.7   0.0   19  156-174     1-19  (71)
+
+No 1
+>1D3Y_B DNA TOPOISOMERASE VI (E.C.5.99.1.3) A; TOPOISOMERASE VI, DNA BINDING PROTEIN; 2.0A {Methanocaldococcus jannaschii} SCOP: e.12.1.1
+Probab=97.94  E-value=2.9e-08  Score=98.74  Aligned_cols=86  Identities=14%  Similarity=0.128  Sum_probs=71.8  Template_Neff=8.800
+
+Q query           239 LPGSRLLVVENEQCVHLLPET----LPDTLAVLGAGLDLHWLAS--AHLA---GKQIGYWGDMDTWG-LLMLARARL---  305 (381)
+Q Consensus       239 ~~~~~VlIvEN~~t~l~lP~~----lp~tvai~G~G~~v~~L~~--~wL~---~~~v~YWGDiDthG-f~IL~rlR~---  305 (381)
+                      .....|+||||.++|..+.+.    ..++++|+|+||++.+...  .+|.   +.+|+||||+||+| +.|+.+++.   
+T Consensus       120 ~~~~~ilvVEk~~~f~~l~~~~~~~~~~~ili~~~G~p~~atr~~l~~L~~~~~~~i~~~gD~Dp~G~l~I~~~~~~gs~  199 (301)
+T 1D3Y_B          120 TDADFILAIETSGMFARLNAERFWDKHNCILVSLKGVPARATRRFIKRLHEEHDLPVLVFTDGDPYGYLNIYRTLKVGSG  199 (301)
+T ss_dssp             CCCSEEEEESCHHHHHHHHHTTHHHHTTEEEEECCSSCCHHHHHHHHHHHHHHTCCEEEECCBSHHCCCCCCHHHHHC--
+T ss_pred             CCCcEEEEECCHHHHHHHHHcchHhhcCEEEEECCCCchHHHHHHHHHHHHHCCCCEEEEECCCCchHHHHHhhhhcCCc
+Confidence            467899999999999999853    3578999999999987755  4554   58999999999999 799999874   
+
+
+Q query           306 ---------HQPAVEALLMEQELFEQHS  324 (381)
+Q Consensus       306 ---------~~P~~~S~LMD~~Tl~~h~  324 (381)
+                               ..|.+++++|+++++.++.
+T Consensus       200 ~~~~~~~~~~~~~i~~~g~~~~~~~~~~  227 (301)
+T 1D3Y_B          200 KAIHLADKLSIPAARLIGVTPQDIIDYD  227 (301)
+T ss_dssp             -------CCCCTTCEEEESCHHHHHHTT
+T ss_pred             cHHHHhhccCCCcchhcCCCHHHHHhcC
+Confidence                     2477999999999988664
+
+
+No 2
+>2ZBK_E Type II DNA topoisomerase VI; DNA topoisomerase, DNA binding protein; HET: RDC; 3.56A {Sulfolobus shibatae}
+Probab=97.90  E-value=4.1e-08  Score=101.72  Aligned_cols=87  Identities=17%  Similarity=0.174  Sum_probs=74.2  Template_Neff=7.900
+
+Q query           238 PLPGSRLLVVENEQCVHLLPET----LPDTLAVLGAGLDLHWLAS--AHLA---GKQIGYWGDMDTWGLLMLARARL---  305 (381)
+Q Consensus       238 ~~~~~~VlIvEN~~t~l~lP~~----lp~tvai~G~G~~v~~L~~--~wL~---~~~v~YWGDiDthGf~IL~rlR~---  305 (381)
+                      ....+.|+||||+++|..+.+.    ..++++|+|+||++.+++.  .+|.   +.+|+||||+||+|+.|+.+++.   
+T Consensus       199 ~~~~~~VlvVEk~avF~~l~~~~~~~~~~~ilItgkG~pd~atr~~l~~L~~~~~~~i~~l~D~DP~Gl~I~~~~~~gs~  278 (389)
+T 2ZBK_E          199 DVDAEFVLVVEKDAVFQQLHRAGFWKQYKSILITSAGQPDRATRRFVRRLNEELKLPVYILTDADPYGWYIFSVFRIGSI  278 (389)
+T ss_dssp             EECCSCEEEESCHHHHHHHHTTTHHHHTTCEEEECCSSCCSSHHHHHHHHHHHSCCCEEEECCSSHHHHHHHHHHTSCSC
+T ss_pred             cCCCcEEEEEccHHHHHHHHHcCcchhCCeEEEECCCCCCHHHHHHHHHHHHhcCCCEEEEEcCChHHHHHHHHHHHhhh
+Confidence            4467899999999999999863    3578999999999988765  4555   58999999999999999999985   
+
+
+Q query           306 ---------HQPAVEALLMEQELFEQHS  324 (381)
+Q Consensus       306 ---------~~P~~~S~LMD~~Tl~~h~  324 (381)
+                               ..|++++++|+++++..+.
+T Consensus       279 ~~~~~~~~~~~p~i~~lg~~~~d~~~~~  306 (389)
+T 2ZBK_E          279 SLSYESERLATPDAKFLGVSMGDIFGNS  306 (389)
+T ss_dssp             C-----CCCSCSSCEECCCCHHHHHCCS
+T ss_pred             HhhHhchhccCCCcEEcCCCHHHHhhcC
+Confidence                     2588999999999998764
+
+
+No 3
+>1D3Y_A DNA TOPOISOMERASE VI (E.C.5.99.1.3) A; TOPOISOMERASE VI, DNA BINDING PROTEIN; 2.0A {Methanocaldococcus jannaschii} SCOP: e.12.1.1
+Probab=97.86  E-value=5.4e-08  Score=96.83  Aligned_cols=86  Identities=13%  Similarity=0.112  Sum_probs=72.1  Template_Neff=8.800
+
+Q query           239 LPGSRLLVVENEQCVHLLPET----LPDTLAVLGAGLDLHWLAS--AHLA---GKQIGYWGDMDTWGL-LMLARARL---  305 (381)
+Q Consensus       239 ~~~~~VlIvEN~~t~l~lP~~----lp~tvai~G~G~~v~~L~~--~wL~---~~~v~YWGDiDthGf-~IL~rlR~---  305 (381)
+                      .....|+||||.++|..+...    ..++++|+|+||++.++..  .+|.   +.+|+||||+||+|+ +|+.+++.   
+T Consensus       120 ~~~~~ilvVEk~a~f~~l~~~~~~~~~~~ili~g~G~p~~~tr~~l~~L~~~~~~~v~~lgD~Dp~Gl~~I~~~~~~gs~  199 (301)
+T 1D3Y_A          120 TDADFILAIETSGMFARLNAERFWDKHNCILVSLKGVPARATRRFIKRLHEEHDLPVLVFTDGDPYGYLNIYRTLKVGSG  199 (301)
+T ss_dssp             CCCSEEEEESCHHHHHHHHHTTHHHHTTEEEEECCSSCCHHHHHHHHHHHHHHTCCEEEECCBSHHCCCCCCHHHHC---
+T ss_pred             CCCcEEEEECChhHHHHHHHcchHhhcCEEEEECCCCCcHHHHHHHHHHHHhCCCCEEEEECCChhHHHHHHHHHHhchh
+Confidence            456899999999999999863    3579999999999988755  4554   589999999999999 99998764   
+
+
+Q query           306 ---------HQPAVEALLMEQELFEQHS  324 (381)
+Q Consensus       306 ---------~~P~~~S~LMD~~Tl~~h~  324 (381)
+                               ..|++++++|+++++.++.
+T Consensus       200 ~~~~~~~~~~~~~i~~~g~~~~~~~~~~  227 (301)
+T 1D3Y_A          200 KAIHLADKLSIPAARLIGVTPQDIIDYD  227 (301)
+T ss_dssp             ------CTTCCTTCEEEESCHHHHHHTT
+T ss_pred             hHHHHhhhccCCCcEEcCCCHHHHhccC
+Confidence                     1578999999999987654
+
+
+No 4
+>2Q2E_A Type II DNA topoisomerase VI; topoisomerase, DNA-binding, Spo11, ATPase, ISOMERASE; 4.0A {Methanosarcina mazei}
+Probab=97.47  E-value=7e-07  Score=92.14  Aligned_cols=86  Identities=16%  Similarity=0.184  Sum_probs=73.6  Template_Neff=7.900
+
+Q query           239 LPGSRLLVVENEQCVHLLPET----LPDTLAVLGAGLDLHWLAS--AHLA---GKQIGYWGDMDTWGLLMLARARL----  305 (381)
+Q Consensus       239 ~~~~~VlIvEN~~t~l~lP~~----lp~tvai~G~G~~v~~L~~--~wL~---~~~v~YWGDiDthGf~IL~rlR~----  305 (381)
+                      ...+.|+||||+++|..+.+.    ..++++|+|+||++.+++.  .+|.   +.+|+||||+||+|+.|+..++.    
+T Consensus       193 ~~~~~VlvVEk~avF~~l~~~~~~~~~~~ilit~~G~pd~atr~fl~~L~~~~~~pv~~l~D~DP~Gl~I~~~y~~Gs~~  272 (369)
+T 2Q2E_A          193 HDASMIIAIETGGMYARLMENGFDEAYNAILVHLKGQPARSTRRIIKRMNEELGIPVAVFTDGDPWSYRIYASVAYGAIK  272 (369)
+T ss_dssp             CCCCCEEEECCTTHHHHHHHSCCTTTTCCCEEECCSSCCHHHHHHHHHHTTSSCCCEEEECCSSHHHHTTTHHHHSCC--
+T ss_pred             CCCcEEEEEcChHHHHHHHHCCCchhcCEEEEEcCCCCCHHHHHHHHHHHHHhCCCEEEEECCCchHHHHHHHHHhcchH
+Confidence            456899999999999999853    2478999999999988766  4554   58999999999999999999986    
+
+
+Q query           306 --------HQPAVEALLMEQELFEQHS  324 (381)
+Q Consensus       306 --------~~P~~~S~LMD~~Tl~~h~  324 (381)
+                              .+|++++++|+++++..+.
+T Consensus       273 ~~~~~~~~~~~~i~~lG~~~~d~~~~~  299 (369)
+T 2Q2E_A          273 SAHLSEFMATPAAKFLGLQPSDIVEYE  299 (369)
+T ss_dssp             ------CCCCTTCBCCSSCTTTTTSSC
+T ss_pred             HHHhchhccCCceEECCCCHHHHHHcC
+Confidence                    3589999999999987654
+
+
+No 5
+>2I5R_C Hypothetical conserved protein; Toprim domain, Structural Genomics, PSI-2; HET: SO4, GOL, MES; 1.65A {Geobacillus stearothermophilus} SCOP: c.136.1.1
+Probab=84.17  E-value=0.67  Score=40.70  Aligned_cols=70  Identities=19%  Similarity=0.182  Sum_probs=42.2  Template_Neff=8.500
+
+Q query           241 GSRLLVVENEQCVHLLPETLPD-TLAVLGAGL-DLHWLAS-AHLA-GKQIGYWGDMDTWGLLMLARARLHQPAV  310 (381)
+Q Consensus       241 ~~~VlIvEN~~t~l~lP~~lp~-tvai~G~G~-~v~~L~~-~wL~-~~~v~YWGDiDthGf~IL~rlR~~~P~~  310 (381)
+                      ...++|||......++...... ..+|...|. +...... ..+. ...|+.+.|-|..|..+...+...++++
+T Consensus         7 ~~~viIvEG~~Da~~l~~~g~~~~~~va~~G~~~~~~~~~l~~~~~~~~vii~~D~D~aG~~~~~~~~~~l~~v   80 (122)
+T 2I5R_C            7 VEKVIIVEGRSDKQKVAAVLNEPVVIVCTNGTISDARLEELADELEGYDVYLLADADEAGEKLRRQFRRMFPEA   80 (122)
+T ss_dssp             CCEEEEESSHHHHHHHHHHBCSCCEEEECCSCCCHHHHHHHHHHTTTSEEEEECCSSHHHHHHHHHHHHHCTTS
+T ss_pred             CCEEEEEcCHHHHHHHHHhcCCCcEEEEeCCCCCHHHHHHHHHHhCCCCeEEEecCCHHHHHHHHHHHHHCCCc
+Confidence            4689999998877677653111 123333333 2111111 1121 4689999999999999988887655433
+
+
+No 6
+>6TPQ_B 50S ribosomal protein L10, Mini-ribonuclease; RNase M5, M5, complex, ribosome; HET: MG; 3.07A {Bacillus subtilis subsp. subtilis str. 168}
+Probab=77.30  E-value=1.8  Score=41.46  Aligned_cols=72  Identities=13%  Similarity=0.119  Sum_probs=45.6  Template_Neff=7.600
+
+Q query           241 GSRLLVVENEQCVHLLPETL-PDTLAVLGAGLDLHWLASAHLA----GKQIGYWGDMDTWGLLMLARARLHQPAVEALL  314 (381)
+Q Consensus       241 ~~~VlIvEN~~t~l~lP~~l-p~tvai~G~G~~v~~L~~~wL~----~~~v~YWGDiDthGf~IL~rlR~~~P~~~S~L  314 (381)
+                      .+.|+|||...-..++.+.. .+++.+  .|...+......+.    ...|+.+.|-|..|-.+...+...++.++.+.
+T Consensus         3 ~~~viIVEG~~D~~~l~~~g~~~~ia~--~G~~l~~~~~~~l~~~~~~~~Iil~~D~D~aG~~~~~~l~~~l~~~~~~~   79 (187)
+T 6TPQ_B            3 IKEVIVVEGKDDTAAIRRAVDADTIET--NGAAVGAEVIERIKLAKERRGVIIFTDPAFPGEKIRRTIAEQVPGCKHAF   79 (187)
+T ss_pred             CCeEEEECCHHHHHHHHHhcCCCEEEe--CCCcCCHHHHHHHHHHhcCCcEEEEcCCChhHHHHHHHHHHhCCCCEEEE
+Confidence            46789999988776666531 234444  44433221112232    36899999999999999888877666554433
+
+
+No 7
+>2FCJ_C small TOPRIM domain protein; TOPRIM domain, Structural Genomics, PSI; HET: SO4, GOL, MES; 1.3A {Geobacillus stearothermophilus} SCOP: c.136.1.1
+Probab=76.30  E-value=2  Score=37.70  Aligned_cols=70  Identities=17%  Similarity=0.135  Sum_probs=43.0  Template_Neff=8.300
+
+Q query           241 GSRLLVVENEQCVHLLPET-LPDTLAVLGAGL-DLHWLAS-AHLA-GKQIGYWGDMDTWGLLMLARARLHQPAV  310 (381)
+Q Consensus       241 ~~~VlIvEN~~t~l~lP~~-lp~tvai~G~G~-~v~~L~~-~wL~-~~~v~YWGDiDthGf~IL~rlR~~~P~~  310 (381)
+                      ...|+|||...-..++.+. .+++.+|...|. ....... .... ...|+.+.|-|..|..+..++...++.+
+T Consensus         4 ~~~viivEG~~D~lsl~~~g~~~~~~va~~G~~~~~~~~~l~~~~~~~~vil~~DnD~~G~~~~~~~~~~l~~~   77 (119)
+T 2FCJ_C            4 VEKVIIVEGRSDKQKVAAVLNEPVVIVCTNGTISDARLEELADELEGYDVYLLADADEAGEKLRRQFRRMFPEA   77 (119)
+T ss_dssp             CCEEEEESSHHHHHHHHHHBCSCCEEEECCSCCCHHHHHHHHHHTTTSEEEEECCSSHHHHHHHHHHHHHCTTS
+T ss_pred             CCEEEEECCHHHHHHHHHhhCCCceEEEeCCcCCHHHHHHHHHHHcCCcEEEEeCCCHHHHHHHHHHHHhCCCc
+Confidence            4678999998887777653 121133333333 1111111 1111 3589999999999999999888766543
+
+
+No 8
+>2FCJ_B small TOPRIM domain protein; TOPRIM domain, Structural Genomics, PSI; HET: MES, SO4, GOL; 1.3A {Geobacillus stearothermophilus} SCOP: c.136.1.1
+Probab=75.76  E-value=2.1  Score=37.19  Aligned_cols=67  Identities=18%  Similarity=0.171  Sum_probs=42.4  Template_Neff=8.900
+
+Q query           241 GSRLLVVENEQCVHLLPET-L--PDTLAVLGAGLDLHWLASAHLA----GKQIGYWGDMDTWGLLMLARARLHQPAV  310 (381)
+Q Consensus       241 ~~~VlIvEN~~t~l~lP~~-l--p~tvai~G~G~~v~~L~~~wL~----~~~v~YWGDiDthGf~IL~rlR~~~P~~  310 (381)
+                      ...|+|||......++... .  ..++.+.|. ......  ..+.    ..+|+.+.|-|..|-.+...+...++.+
+T Consensus         4 ~~~viIvEG~~D~ls~~~~~g~~~~~v~~~G~-~~~~~~--~~l~~~~~~~~v~l~~DnD~aG~~~~~~~~~~l~~~   77 (119)
+T 2FCJ_B            4 VEKVIIVEGRSDKQKVAAVLNEPVVIVCTNGT-ISDARL--EELADELEGYDVYLLADADEAGEKLRRQFRRMFPEA   77 (119)
+T ss_dssp             CCEEEEESSHHHHHHHHHHBSSCCEEEECCSC-CCHHHH--HHHHHHTTTSEEEEECCSSHHHHHHHHHHHHHCTTS
+T ss_pred             CCeEEEEcCHHHHHHHHHHcCCCcEEEEcCCC-CCHHHH--HHHHHHhcCCCeEEEeCCCHHHHHHHHHHHHhCCCC
+Confidence            4688999998877766642 1  133333332 211111  2222    4789999999999999988887666543
+
+
+No 9
+>1NUI_A DNA primase/helicase (E.C.2.7.7.-); zinc-biding domain, TOPRIM fold, DNA; 2.9A {Enterobacteria phage T7} SCOP: g.41.3.2, e.13.1.2
+Probab=70.25  E-value=3.6  Score=39.78  Aligned_cols=67  Identities=22%  Similarity=0.127  Sum_probs=40.7  Template_Neff=10.400
+
+Q query           241 GSRLLVVENEQCVHLLPET-L-PDTLAVLGAGLDLHWLA---S-AHLA-GKQIGYWGDMDTWGLLMLARARLHQ  307 (381)
+Q Consensus       241 ~~~VlIvEN~~t~l~lP~~-l-p~tvai~G~G~~v~~L~---~-~wL~-~~~v~YWGDiDthGf~IL~rlR~~~  307 (381)
+                      ...|+|||......++... . ..+++..+.|.......   . ..+. ..+|+.|.|-|..|..-...+...+
+T Consensus       150 ~~~v~i~EG~~Dals~~~~~g~~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~v~i~~D~D~~G~~~a~~~~~~l  223 (255)
+T 1NUI_A          150 GKKIVVTEGEIDMLTVMELQDCKYPVVSLGHGASAAKKTCAANYEYFDQFEQIILMFDMDEAGRKAVEEAAQVL  223 (255)
+T ss_pred             CCEEEEECChHHHHHHHHHcCCCcEEEeeCCCCCHHHHHHHHHHHHHhcCCEEEEECCCCHHHHHHHHHHHHhc
+Confidence            4789999999887666541 1 23333444443322111   1 2332 4789999999999977666665443
+
+
+No 10
+>5GUJ_A DNA primase (E.C.2.7.7.-); TRANSFERASE; 2.5A {Bacillus subtilis (strain 168)}
+Probab=68.10  E-value=4.3  Score=41.68  Aligned_cols=64  Identities=19%  Similarity=0.131  Sum_probs=39.7  Template_Neff=9.100
+
+Q query           240 PGSRLLVVENEQCVHLLPET-LPDTLAVLGAGLDLHWLASAHLA--GKQIGYWGDMDTWGLLMLARARL  305 (381)
+Q Consensus       240 ~~~~VlIvEN~~t~l~lP~~-lp~tvai~G~G~~v~~L~~~wL~--~~~v~YWGDiDthGf~IL~rlR~  305 (381)
+                      ....|+|||......++... ..++++.+|.+......  ..+.  ..+|+.+.|-|..|.....++..
+T Consensus       149 ~~~~viivEG~~D~lsl~~~g~~~~va~~G~~~~~~~~--~~l~~~~~~vii~~D~D~aG~~a~~~~~~  215 (324)
+T 5GUJ_A          149 KQERAVLFEGFADVISAVSSDVKESIATMGTSLTDDHV--KILRRNVEEIILCYDSDKAGYEATLKASE  215 (324)
+T ss_dssp             HHTEEEEEESHHHHHHHHHTTCCSEEEESSSCCCHHHH--HHHHHHCSEEEECCCSSHHHHHHHHHHHH
+T ss_pred             cCCeEEEEcCHHHHHHHHHCCCCcEEEEcCCCCCHHHH--HHHHhcCCEEEEEcCCCHHHHHHHHHHHH
+Confidence            35689999998877776642 23444444443221111  2232  57899999999999765555543
+
+
+No 11
+>6TG6_A Ribonuclease M5 (E.C.3.1.26.8); RNase M5, RNase, rRNA, 5S; 1.3A {Geobacillus stearothermophilus}
+Probab=65.28  E-value=5.4  Score=34.61  Aligned_cols=69  Identities=16%  Similarity=0.200  Sum_probs=43.4  Template_Neff=8.800
+
+Q query           241 GSRLLVVENEQCVHLLPETL-PDTLAVLGAGLDLHWLASAHLA----GKQIGYWGDMDTWGLLMLARARLHQPAVE  311 (381)
+Q Consensus       241 ~~~VlIvEN~~t~l~lP~~l-p~tvai~G~G~~v~~L~~~wL~----~~~v~YWGDiDthGf~IL~rlR~~~P~~~  311 (381)
+                      ...++|||...-..++.... .+++.+.|.+......  ..+.    ..+|+.+.|-|..|......+...++++.
+T Consensus         6 ~~~iiivEG~~D~~sl~~~g~~~~v~~~G~~~~~~~~--~~l~~~~~~~~vvi~~D~D~aG~~~~~~l~~~l~~~~   79 (116)
+T 6TG6_A            6 IKEVIVVEGKDDTAAIRRAVDADTIETNGAAVGAEVI--ERIKLAKERRGVIIFTDPDFPGEKIRRTIAEQVPGCK   79 (116)
+T ss_dssp             CCSEEEESSHHHHHHHHTTCBCCEEECSSSCCCHHHH--HHHHHHHHHHCEEECCCSSHHHHHHHHHHHHHSTTCE
+T ss_pred             CCEEEEECCHHHHHHHHHhhcCCEEEeCCCccCHHHH--HHHHHHhhcCCEEEEeCCChhHHHHHHHHHHhCCCCE
+Confidence            46889999987776665421 2344444433211111  2222    36999999999999998888876655443
+
+
+No 12
+>1T6T_2 putative protein; structural genomics, Aquifex aeolicus, PSI; 1.8A {Aquifex aeolicus} SCOP: c.136.1.1
+Probab=61.44  E-value=7.1  Score=34.56  Aligned_cols=65  Identities=14%  Similarity=0.151  Sum_probs=42.5  Template_Neff=7.700
+
+Q query           241 GSRLLVVENEQCVHLLPET-LPDTLAVLGAGLDLHWLAS-AHLA--GKQIGYWGDMDTWGLLMLARARLHQPA  309 (381)
+Q Consensus       241 ~~~VlIvEN~~t~l~lP~~-lp~tvai~G~G~~v~~L~~-~wL~--~~~v~YWGDiDthGf~IL~rlR~~~P~  309 (381)
+                      ...+++||...-..++.+. .++++.+.  |.+.  ... .++.  ..+|+.+.|.|..|..+...+...++.
+T Consensus        20 ~~~iilvEG~~D~~sl~~~G~~~vv~~~--g~~~--~~~~~~l~~~~~~vii~~D~D~aG~~~~~~l~~~L~~   88 (118)
+T 1T6T_2           20 REAVILVEGKNDKKALSKFSIKNVIDLS--GKRY--ADVVDMLEGKWEKVILLFDLDTHGERINQKMKELLSS   88 (118)
+T ss_dssp             TTSEEEESCHHHHHHHHTTTCCCEEECT--TSCH--HHHHHHHTTTCSEEEECCCSSHHHHHHHHHHHHHHHH
+T ss_pred             CCeEEEECCHHHHHHHHhCCCCeEEEcC--CccH--HHHHHHHhccCCEEEEECCCCHHHHHHHHHHHHHHHh
+Confidence            5789999998777777653 23333332  3222  111 3443  479999999999999998888764443
+
+
+No 13
+>3B39_A DNA primase/DNA Complex; Protein-DNA complex, TOPRIM fold, DNA; 2.35A {Escherichia coli}
+Probab=60.27  E-value=7.7  Score=39.86  Aligned_cols=62  Identities=26%  Similarity=0.133  Sum_probs=38.6  Template_Neff=9.100
+
+Q query           240 PGSRLLVVENEQCVHLLPET-LPDTLAVLGAGLDLHWLASAHLA--GKQIGYWGDMDTWGLLMLARA  303 (381)
+Q Consensus       240 ~~~~VlIvEN~~t~l~lP~~-lp~tvai~G~G~~v~~L~~~wL~--~~~v~YWGDiDthGf~IL~rl  303 (381)
+                      ....|+|||......++... .+++++++|.+......  ..+.  ..+|+.+.|-|..|.....++
+T Consensus       150 ~~~~viivEG~~Dals~~~~g~~~~va~~G~~~~~~~~--~~l~~~~~~vii~~D~D~aG~~a~~~~  214 (322)
+T 3B39_A          150 EPNRLLVVEGYMDVVALAQYGINYAVASLGTSTTADHI--QLLFRATNNVICCYDGDRAGRDAAWCA  214 (322)
+T ss_dssp             SCSCEEEESSHHHHHHHHHTTCCCEEEECSSSCCHHHH--HHHHHHCSEEEEEEESSHHHHHHHHHH
+T ss_pred             CCCcEEEECcHHHHHHHHHCCCCeEEEecCcCCCHHHH--HHHHhcCCEEEEeCCCCHHHHHHHHHH
+Confidence            45689999998877666543 23455555443322111  2222  568999999999997654443
+
+
+No 14
+>1DD9_A DNA PRIMASE (2.7.7.-); TOPRIM, 3-HELIX BUNDLE, DNA-BINDING PROTEIN; 1.6A {Escherichia coli} SCOP: e.13.1.1
+Probab=56.83  E-value=9.6  Score=39.66  Aligned_cols=62  Identities=27%  Similarity=0.170  Sum_probs=37.5  Template_Neff=8.700
+
+Q query           240 PGSRLLVVENEQCVHLLPET-LPDTLAVLGAGLDLHWLASAHLA--GKQIGYWGDMDTWGLLMLARA  303 (381)
+Q Consensus       240 ~~~~VlIvEN~~t~l~lP~~-lp~tvai~G~G~~v~~L~~~wL~--~~~v~YWGDiDthGf~IL~rl  303 (381)
+                      ....|+|||......++... .+++++..|.+......  ..+.  ..+|+.+.|-|..|.....++
+T Consensus       162 ~~~~viIvEG~~Dalsl~~~g~~~~va~~Gt~~~~~~l--~~l~~~~~~vii~~D~D~aG~~aa~~~  226 (338)
+T 1DD9_A          162 EPNRLLVVEGYMDVVALAQYGINYAVASLGTSTTADHI--QLLFRATNNVICCYDGDRAGRDAAWRA  226 (338)
+T ss_dssp             SCSCEEEESSHHHHHHHHHTTCCCEEECCC-CCCHHHH--HHHHHHCSEEEEEEESSHHHHHHHHHH
+T ss_pred             CCCcEEEECcHHHHHHHHHCCCCeEEEecCcCCCHHHH--HHHHhcCCEEEEECCCCHHHHHHHHHH
+Confidence            45689999998876666542 23344444433221111  2232  578999999999997654443
+
+
+No 15
+>5IKN_F DNA-directed DNA polymerase (E.C.2.7.7.7,3.1.11.-), DNA; Replisome, TRANSFERASE; 4.802A {Enterobacteria phage T7}
+Probab=50.05  E-value=15  Score=38.97  Aligned_cols=67  Identities=24%  Similarity=0.193  Sum_probs=41.9  Template_Neff=11.000
+
+Q query           241 GSRLLVVENEQCVHLLPETL---PDTLAVLGAGLDL-HW-LAS--AHLA-GKQIGYWGDMDTWGLLMLARARLHQP  308 (381)
+Q Consensus       241 ~~~VlIvEN~~t~l~lP~~l---p~tvai~G~G~~v-~~-L~~--~wL~-~~~v~YWGDiDthGf~IL~rlR~~~P  308 (381)
+                      ...|+|||.+....++....   ..++.+ +.|... .. ...  ..+. ...|+.|.|-|..|..-...+...++
+T Consensus        87 ~~~i~i~Eg~~da~s~~~~~~~~~~~~~~-~~g~~~~~~~~~~~~~~~~~~~~vii~~D~D~~g~~~~~~~~~~~~  161 (486)
+T 5IKN_F           87 GKKIVVTEGEIDMLTVMELQDCKYPVVSL-GHGASAAKKTCAANYEYFDQFEQIILMFDMDEAGRKAVEEAAQVLP  161 (486)
+T ss_dssp             EEEEEEESSHHHHTTHHHHTTTCSCEEEE-TTTTTTHHHHHHHTHHHHTTEEEEEEECCSSHHHHHHHHTHHHHSC
+T ss_pred             CCEEEEEeCHHHHHHHHHhcCCCCCEEEE-CCchHHHHHHHHHHHHHHhhCCEEEEEcCCCHHHHHHHHHHHHhCC
+Confidence            46899999999888886532   222333 223322 11 111  3344 37899999999999887777765433
+
+
+No 16
+>5VAZ_B DNA primase (E.C.2.7.7.-); structural genomics, DNA-binding, primase, truncation; HET: SO4; 2.4A {Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1)}
+Probab=49.06  E-value=16  Score=39.15  Aligned_cols=63  Identities=24%  Similarity=0.168  Sum_probs=39.0  Template_Neff=8.300
+
+Q query           240 PGSRLLVVENEQCVHLLPET-LPDTLAVLGAGLDLHWLASAHLA--GKQIGYWGDMDTWGLLMLARAR  304 (381)
+Q Consensus       240 ~~~~VlIvEN~~t~l~lP~~-lp~tvai~G~G~~v~~L~~~wL~--~~~v~YWGDiDthGf~IL~rlR  304 (381)
+                      ....|+|||......++... ..++++++|.+......  ..+.  ..+|+.+.|-|..|.....++.
+T Consensus       163 ~~~~viIvEG~~Dalal~q~G~~~~va~~Gt~~~~~~~--~~l~~~~~~Vil~~D~D~aG~~aa~~~~  228 (389)
+T 5VAZ_B          163 DLDEIMVVEGYMDVIALAQQGIRNAVATLGTATSEEHI--KRLFRLVPSILFCFDGDQAGRKAAWRAL  228 (389)
+T ss_dssp             SCSCEEEESCHHHHHHHHHTTCCCEEECSSSCCCHHHH--HHHHHHCSEEEEEEEESHHHHHHHHHHH
+T ss_pred             cCCeEEEEcChHHHHHHHHCCCCeEEEecCCCCCHHHH--HHHHhhCCEEEEEcCCCHHHHHHHHHHH
+Confidence            35789999998877776542 23444444433221111  2232  4689999999999987655544
+
+
+No 17
+>4EDG_A DNA primase (E.C.2.7.7.-); Catalytic Domain, nucleoside triphosphate, nucleoside; HET: BEN, ATP; 2.003A {Staphylococcus aureus}
+Probab=44.56  E-value=20  Score=37.03  Aligned_cols=64  Identities=16%  Similarity=0.040  Sum_probs=39.6  Template_Neff=9.000
+
+Q query           240 PGSRLLVVENEQCVHLLPET-LPDTLAVLGAGLDLHWLASAHLA--GKQIGYWGDMDTWGLLMLARARL  305 (381)
+Q Consensus       240 ~~~~VlIvEN~~t~l~lP~~-lp~tvai~G~G~~v~~L~~~wL~--~~~v~YWGDiDthGf~IL~rlR~  305 (381)
+                      ....|+|||......++... ..+++.+.  |.+........|.  ..+|+.+.|-|..|.....++..
+T Consensus       151 ~~~~viivEG~~Dals~~~~g~~~~va~~--G~~~~~~~~~~l~~~~~~vii~~D~D~aG~~aa~~~~~  217 (329)
+T 4EDG_A          151 KLDEIVLLEGFMDVIKSDTAGLKNVVATM--GTQLSDEHITFIRKLTSNITLMFDGDFAGSEATLKTGQ  217 (329)
+T ss_dssp             HHTCEEEESCHHHHHHHHHHTCCSEEECS--SSCCCHHHHHHHHHHCSEEEECCCSSHHHHHHHHHHHH
+T ss_pred             cCCeEEEECCHHHHHHHHHCCCCcEEEec--ccCCCHHHHHHHHHHCCcEEEEcCCCHHHHHHHHHHHH
+Confidence            34789999998877776642 12344333  3332111113343  46899999999999876655543
+
+
+No 18
+>4EDK_A DNA primase (E.C.2.7.7.-); Catalytic Domain, nucleoside triphosphate, nucleoside; HET: BEN, GTP; 2.0A {Staphylococcus aureus}
+Probab=44.56  E-value=20  Score=37.03  Aligned_cols=64  Identities=16%  Similarity=0.040  Sum_probs=39.6  Template_Neff=9.000
+
+Q query           240 PGSRLLVVENEQCVHLLPET-LPDTLAVLGAGLDLHWLASAHLA--GKQIGYWGDMDTWGLLMLARARL  305 (381)
+Q Consensus       240 ~~~~VlIvEN~~t~l~lP~~-lp~tvai~G~G~~v~~L~~~wL~--~~~v~YWGDiDthGf~IL~rlR~  305 (381)
+                      ....|+|||......++... ..+++.+.  |.+........|.  ..+|+.+.|-|..|.....++..
+T Consensus       151 ~~~~viivEG~~Dals~~~~g~~~~va~~--G~~~~~~~~~~l~~~~~~vii~~D~D~aG~~aa~~~~~  217 (329)
+T 4EDK_A          151 KLDEIVLLEGFMDVIKSDTAGLKNVVATM--GTQLSDEHITFIRKLTSNITLMFDGDFAGSEATLKTGQ  217 (329)
+T ss_dssp             HHTCEEEESCHHHHHHHHHHTCCSEEECS--SSCCCHHHHHHHHTTCSEEEEECCSSHHHHHHHHHHHH
+T ss_pred             cCCeEEEECCHHHHHHHHHCCCCcEEEec--ccCCCHHHHHHHHHHCCcEEEEcCCCHHHHHHHHHHHH
+Confidence            34789999998877776642 12344333  3332111113343  46899999999999876655543
+
+
+No 19
+>5VAZ_A DNA primase (E.C.2.7.7.-); structural genomics, DNA-binding, primase, truncation; HET: SO4; 2.4A {Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1)}
+Probab=44.40  E-value=21  Score=38.14  Aligned_cols=62  Identities=24%  Similarity=0.183  Sum_probs=38.0  Template_Neff=8.600
+
+Q query           240 PGSRLLVVENEQCVHLLPET-LPDTLAVLGAGLDLHWLASAHLA--GKQIGYWGDMDTWGLLMLARA  303 (381)
+Q Consensus       240 ~~~~VlIvEN~~t~l~lP~~-lp~tvai~G~G~~v~~L~~~wL~--~~~v~YWGDiDthGf~IL~rl  303 (381)
+                      ....|+|||......++... .++++.++|.+......  ..+.  ..+|+.+.|-|..|.....++
+T Consensus       163 ~~~~viIvEG~~Dalsl~q~g~~~~va~~G~~~~~~~~--~~l~~~~~~Vii~~DnD~aG~~aa~~~  227 (389)
+T 5VAZ_A          163 DLDEIMVVEGYMDVIALAQQGIRNAVATLGTATSEEHI--KRLFRLVPSILFCFDGDQAGRKAAWRA  227 (389)
+T ss_dssp             SCSEEEEESSHHHHHHHHHTTCCCEEECSSSCCCHHHH--HHHHTTCSEEEEEEEESHHHHHHHHHH
+T ss_pred             cCCeEEEECCHHHHHHHHHCCCCeEEEeCCCCCCHHHH--HHHHhhCCEEEEECCCCHHHHHHHHHH
+Confidence            34689999998877776542 12344444443221111  2232  468999999999997655444
+
+
+No 20
+>4EDR_A DNA primase (E.C.2.7.7.-); Catalytic Domain, nucleoside triphosphate, nucleoside; HET: UTP, BEN; 2.01A {Staphylococcus aureus}
+Probab=43.68  E-value=22  Score=36.65  Aligned_cols=62  Identities=16%  Similarity=0.105  Sum_probs=37.6  Template_Neff=9.400
+
+Q query           241 GSRLLVVENEQCVHLLPET-LPDTLAVLGAGLDLHWLASAHLA--GKQIGYWGDMDTWGLLMLARAR  304 (381)
+Q Consensus       241 ~~~VlIvEN~~t~l~lP~~-lp~tvai~G~G~~v~~L~~~wL~--~~~v~YWGDiDthGf~IL~rlR  304 (381)
+                      ...|+|||......++... .++++.+.|.+......  ..|.  ...|+.+.|-|..|-....++.
+T Consensus       152 ~~~v~ivEG~~D~ls~~~~g~~~~va~~G~~~~~~~~--~~l~~~~~~vii~~D~D~aG~~aa~~~~  216 (329)
+T 4EDR_A          152 LDEIVLLEGFMDVIKSDTAGLKNVVATMGTQLSDEHI--TFIRKLTSNITLMFDGDFAGSEATLKTG  216 (329)
+T ss_dssp             HTCEEEESCHHHHHHHHHHTCCSEEECSSSCCCHHHH--HHHHHHCSEEEECCCSSHHHHHHHHHHH
+T ss_pred             CCEEEEECCHHHHHHHHHCCCCcEEEecCCCCCHHHH--HHHHHHCCcEEEECCCCHHHHHHHHHHH
+Confidence            4689999998776666542 22344444432211111  2233  4689999999999976554443
+
+
+No 21
+>1Q57_F DNA primase/helicase (E.C.2.7.7.-); primase, helicase, dNTPase, DNA replication; 3.45A {Enterobacteria phage T7} SCOP: e.13.1.2, c.37.1.11
+Probab=39.51  E-value=28  Score=37.46  Aligned_cols=67  Identities=24%  Similarity=0.159  Sum_probs=41.6  Template_Neff=10.600
+
+Q query           241 GSRLLVVENEQCVHLLPETL--PDTLAVLGAGLDL--HWLAS--AHLA-GKQIGYWGDMDTWGLLMLARARLHQ  307 (381)
+Q Consensus       241 ~~~VlIvEN~~t~l~lP~~l--p~tvai~G~G~~v--~~L~~--~wL~-~~~v~YWGDiDthGf~IL~rlR~~~  307 (381)
+                      ...|+|||......++.+..  ...++..+.|...  .....  ..+. ..+|+.+.|-|..|.....++...+
+T Consensus        87 ~~~i~i~EG~~da~~l~~~~~~~~~~v~~~~g~~~~~~~~~~~~~~l~~~~~v~i~~D~D~~G~~~~~~~~~~l  160 (503)
+T 1Q57_F           87 GKKIVVTEGEIDMLTVMELQDCKYPVVSLGHGASAAKKTCAANYEYFDQFEQIILMFDMDEAGRKAVEEAAQVL  160 (503)
+T ss_dssp             EEEEEEESSHHHHHHHHHHTTTCSCEEEESSTTTTHHHHHHTTHHHHHTEEEEEEECCSSHHHHHHHHHHHHHS
+T ss_pred             CCEEEEEcCHHHHHHHHHhcCCCCCEEEeCCchhhhHHHHHHHHHHhhcCCEEEEECCCCHHHHHHHHHHHHhC
+Confidence            46899999998888876532  1222223233322  11222  3344 4789999999999988777665533
+
+
+No 22
+>2AU3_A DNA primase (E.C.2.7.7.-); Zinc Ribbon, TOPRIM, RNA POLYMERASE; 2.0A {Aquifex aeolicus}
+Probab=35.67  E-value=35  Score=35.97  Aligned_cols=63  Identities=19%  Similarity=0.064  Sum_probs=37.4  Template_Neff=10.000
+
+Q query           240 PGSRLLVVENEQCVHLLPET-LPDTLAVLGAGLDLHWLASAHLA--GKQIGYWGDMDTWGLLMLARAR  304 (381)
+Q Consensus       240 ~~~~VlIvEN~~t~l~lP~~-lp~tvai~G~G~~v~~L~~~wL~--~~~v~YWGDiDthGf~IL~rlR  304 (381)
+                      ....|+|||......++... .+++++.  .|.+...-....+.  ..+|+.|.|-|..|-.-..++.
+T Consensus       243 ~~~~v~i~EG~~D~ls~~~~g~~~~v~~--~g~~~~~~~~~~l~~~~~~vii~~D~D~aG~~~a~~~~  308 (407)
+T 2AU3_A          243 EEGFAILVEGYFDLLRLFSEGIRNVVAP--LGTALTQNQANLLSKFTKKVYILYDGDDAGRKAMKSAI  308 (407)
+T ss_dssp             HHTCEEECSSHHHHHHHHHTTCCSEEEE--SSSSCCHHHHHHHHTTCSEEEEECCSSHHHHHHHHHHH
+T ss_pred             hcCeEEEECCHHHHHHHHHCCCccEEec--cccCCCHHHHHHHhccCCeEEEEcCCCHHHHHHHHHHH
+Confidence            45799999999887777652 1223322  23221111112333  4689999999999976555443
+
+
+No 23
+>5W36_A DNA primase/DNA Complex; DNA replication, replisome, TOPRIM fold; 2.46A {Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)}
+Probab=34.24  E-value=38  Score=34.78  Aligned_cols=63  Identities=24%  Similarity=0.163  Sum_probs=37.1  Template_Neff=9.500
+
+Q query           240 PGSRLLVVENEQCVHLLPET-LPDTLAVLGAGLDLHWLASAHLA---G------KQIGYWGDMDTWGLLMLARAR  304 (381)
+Q Consensus       240 ~~~~VlIvEN~~t~l~lP~~-lp~tvai~G~G~~v~~L~~~wL~---~------~~v~YWGDiDthGf~IL~rlR  304 (381)
+                      ....|+|||......++... .++++.+.|.+......  ..+.   .      .+|+.+.|-|..|.....++.
+T Consensus       153 ~~~~vii~EG~~Dals~~~~g~~~~va~~G~~~~~~~~--~~l~~~~~~~~~~~~~v~i~~D~D~aG~~~~~~~~  225 (325)
+T 5W36_A          153 KGHQAVVVEGYTDVMAMHLAGVTTAVASCGTAFGGEHL--AMLRRLMMDDSFFRGELIYVFDGDEAGRAAALKAF  225 (325)
+T ss_dssp             HHTEEEEESSHHHHHHHHHTTCTTEEEESSSCCCHHHH--HHHHHHHTTTTTBCCEEEEEESSSHHHHHHHHHTT
+T ss_pred             cCCcEEEeCCHHHHHHHHHCCCCeEEEccCccCCHHHH--HHHHHHhcCccccCCEEEEEeCCCHHHHHHHHHHH
+Confidence            35689999998776666542 12344444432211111  2222   1      289999999999977655544
+
+
+No 24
+>5W36_B DNA primase/DNA Complex; DNA replication, replisome, TOPRIM fold; 2.46A {Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)}
+Probab=34.24  E-value=38  Score=34.78  Aligned_cols=63  Identities=24%  Similarity=0.163  Sum_probs=37.1  Template_Neff=9.500
+
+Q query           240 PGSRLLVVENEQCVHLLPET-LPDTLAVLGAGLDLHWLASAHLA---G------KQIGYWGDMDTWGLLMLARAR  304 (381)
+Q Consensus       240 ~~~~VlIvEN~~t~l~lP~~-lp~tvai~G~G~~v~~L~~~wL~---~------~~v~YWGDiDthGf~IL~rlR  304 (381)
+                      ....|+|||......++... .++++.+.|.+......  ..+.   .      .+|+.+.|-|..|.....++.
+T Consensus       153 ~~~~vii~EG~~Dals~~~~g~~~~va~~G~~~~~~~~--~~l~~~~~~~~~~~~~v~i~~D~D~aG~~~~~~~~  225 (325)
+T 5W36_B          153 KGHQAVVVEGYTDVMAMHLAGVTTAVASCGTAFGGEHL--AMLRRLMMDDSFFRGELIYVFDGDEAGRAAALKAF  225 (325)
+T ss_dssp             HHTEEEECSSHHHHHHHHHTTCTTEEEESSSCCCHHHH--HHHHHHTEETTEECSEEEEEESSHHHHHHHHHTTT
+T ss_pred             cCCcEEEeCCHHHHHHHHHCCCCeEEEccCccCCHHHH--HHHHHHhcCccccCCEEEEEeCCCHHHHHHHHHHH
+Confidence            35689999998776666542 12344444432211111  2222   1      289999999999977655544
+
+
+No 25
+>6N9X_B DNA-directed DNA polymerase, TrxA/DNA Complex; DNA polymerase, primase, helicase, DNA; HET: DOC, TTP;{Enterobacteria phage T7}
+Probab=31.48  E-value=45  Score=36.24  Aligned_cols=66  Identities=23%  Similarity=0.156  Sum_probs=39.0  Template_Neff=11.000
+
+Q query           240 PGSRLLVVENEQCVHLLPETL-PD-TLAVLGAGLDLHWLA--S--AHLA-GKQIGYWGDMDTWGLLMLARARL  305 (381)
+Q Consensus       240 ~~~~VlIvEN~~t~l~lP~~l-p~-tvai~G~G~~v~~L~--~--~wL~-~~~v~YWGDiDthGf~IL~rlR~  305 (381)
+                      ....|+|||......++.... .+ .++..+.|.......  .  ..+. ...|+.+.|-|..|..-...+..
+T Consensus       149 ~~~~v~i~EG~~Dal~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~v~i~~D~D~aG~~~~~~~~~  221 (566)
+T 6N9X_B          149 GGKKIVVTEGEIDMLTVMELQDCKYPVVSLGHGASAAKKTCAANYEYFDQFEQIILMFDMDEAGRKAVEEAAQ  221 (566)
+T ss_pred             CCCeEEEEcCHHHHHHHHHHcCCCCEEEEeCCCCCHHHHHHHHHHHHHccCCEEEEECCCCHHHHHHHHHHHH
+Confidence            357999999988777766411 12 222333333221111  1  2232 47899999999999776655544
+
+
+No 26
+>6N7I_D DNA primase/helicase/DNA Complex; helicase, ATPase, hexamer, DNA replication; HET: TTP; 3.2A {Enterobacteria phage T7}
+Probab=30.03  E-value=50  Score=36.15  Aligned_cols=65  Identities=25%  Similarity=0.169  Sum_probs=0.0  Template_Neff=10.700
+
+Q query           241 GSRLLVVENEQCVHLLPETL-P-DTLAVLGAGLDL--HWLAS--AHLA-GKQIGYWGDMDTWGLLMLARARL  305 (381)
+Q Consensus       241 ~~~VlIvEN~~t~l~lP~~l-p-~tvai~G~G~~v--~~L~~--~wL~-~~~v~YWGDiDthGf~IL~rlR~  305 (381)
+                      ...|+|||......++.... . ..++..+.|.+.  .....  ..+. ..+|+.+.|-|..|-.-...+..
+T Consensus       150 ~~~v~i~EG~~da~~l~~~~~~~~~~~~~~~g~~~~~~~~~~~~~~l~~~~~v~i~~D~D~~G~~~~~~~~~  221 (566)
+T 6N7I_D          150 GKKIVVTEGEIDMLTVMELQDCKYPVVSLGHGASAAKKTCAANYEYFDQFEQIILMFDMDEAGRKAVEEAAQ  221 (566)
+T ss_dssp             ------------------------------------------------------------------------
+T ss_pred             CCEEEEEcCHHHHHHHHHhcCCCCCEEEeCCchhhhHHHHHHHHHHHhhCCEEEEEeCCCHHHHHHHHHHHH
+Confidence            46899999999887776522 0 222223233332  11111  3444 47999999999999776655554
+
+
+No 27
+>7AGV_B K(+)/H(+) antiporter subunit KhtT; Regulatory protein of K+/H+ antiporter; HET: 2BA, ACT; 1.85A {Bacillus subtilis (strain 168)}
+Probab=29.23  E-value=52  Score=30.46  Aligned_cols=30  Identities=13%  Similarity=0.192  Sum_probs=21.1  Template_Neff=9.100
+
+Q query           156 AQGRPLRLLAEHGVDTKFF---ERNATLLTKLL  185 (381)
+Q Consensus       156 ~~g~ylRql~i~GVdTKfi---E~h~~ll~~LL  185 (381)
+                      +||+-+|+.++|||-+||=   +.+..++..+.
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~ii~~v~   33 (168)
+T 7AGV_B            1 GSGLNIKENDLPGIGKKFEIETRSHEKMTIIIH   33 (168)
+T ss_dssp             -CCCEEEEEEETTTEEEEEEECTTCCEEEEEEE
+T ss_pred             CCCceeEEEeCCCCcEEEEEEcCCCCEEEEEEe
+Confidence            4788899999999999983   33444444443
+
+
+No 28
+>7AHM_B K(+)/H(+) antiporter subunit KhtT; Regulatory protein of K+/H+ antiporter; HET: 2BA; 3.14A {Bacillus subtilis}
+Probab=29.23  E-value=52  Score=30.46  Aligned_cols=30  Identities=13%  Similarity=0.192  Sum_probs=21.1  Template_Neff=9.100
+
+Q query           156 AQGRPLRLLAEHGVDTKFF---ERNATLLTKLL  185 (381)
+Q Consensus       156 ~~g~ylRql~i~GVdTKfi---E~h~~ll~~LL  185 (381)
+                      +||+-+|+.++|||-+||=   +.+..++..+.
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~ii~~v~   33 (168)
+T 7AHM_B            1 GSGLNIKENDLPGIGKKFEIETRSHEKMTIIIH   33 (168)
+T ss_dssp             -CCSEEEEEEETTTEEEEEEECTTCCEEEEEEE
+T ss_pred             CCCceeEEEeCCCCcEEEEEEcCCCCEEEEEEe
+Confidence            4788899999999999983   33444444443
+
+
+No 29
+>7AGW_B K(+)/H(+) antiporter subunit KhtT; Regulatory protein of K+/H+ antiporter; 1.511A {Bacillus subtilis (strain 168)}
+Probab=25.96  E-value=65  Score=26.70  Aligned_cols=19  Identities=21%  Similarity=0.281  Sum_probs=15.8  Template_Neff=5.000
+
+Q query           156 AQGRPLRLLAEHGVDTKFF  174 (381)
+Q Consensus       156 ~~g~ylRql~i~GVdTKfi  174 (381)
+                      +|++-+|+.++|||-+||=
+T Consensus         1 ~~~M~i~et~LPGiG~k~~   19 (71)
+T 7AGW_B            1 GSGLNIKENDLPGIGKKFE   19 (71)
+T ss_dssp             CCSCEEEEEEETTTEEEEE
+T ss_pred             CCCceeEEecCCCCcEEEE
+Confidence            3667789999999999983
+
+
+No 30
+>7AGY_A K(+)/H(+) antiporter subunit KhtT; Regulatory protein of K+/H+ antiporter; 1.54A {Bacillus subtilis (strain 168)}
+Probab=25.96  E-value=65  Score=26.70  Aligned_cols=19  Identities=21%  Similarity=0.281  Sum_probs=14.8  Template_Neff=5.000
+
+Q query           156 AQGRPLRLLAEHGVDTKFF  174 (381)
+Q Consensus       156 ~~g~ylRql~i~GVdTKfi  174 (381)
+                      +|++-+|+.++|||-+||=
+T Consensus         1 ~~~M~i~et~LPGiG~k~~   19 (71)
+T 7AGY_A            1 GSGLNIKENDLPGIGKKFE   19 (71)
+T ss_dssp             --CCEEEEEEETTTEEEEE
+T ss_pred             CCCceeEEecCCCCcEEEE
+Confidence            3667789999999999983
+
+

@@ -1,0 +1,233 @@
+Query         query 
+Match_columns 25
+No_of_seqs    14 out of 208
+Neff          1.61833
+Searched_HMMs 90139
+Date          Thu Jun 16 17:07:43 2022
+Command       /mnt/home/dberenberg/gustaf_stuff/openfold/lib/conda/envs/openfold_venv/bin/hhsearch -i /tmp/tmp3ep70pk7/query.a3m -o /tmp/tmp3ep70pk7/output.hhr -maxseq 1000000 -cpu 64 -d /mnt/home/dberenberg/gustaf_stuff/OpenFold/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6R15_B SUN domain-containing p  79.9     1.3 1.4E-05   21.5   0.0   10   16-25     22-32  (32)
+  2 6WME_B SUN domain-containing p  70.7     3.5 3.8E-05   20.5   0.0   14   10-25     21-34  (34)
+  3 6R16_J SUN domain-containing p  54.1      12 0.00013   19.0   0.0    7   19-25     26-32  (32)
+  4 6WMD_B SUN domain-containing p  46.1      19 0.00021   18.4   0.0    7   19-25     28-34  (34)
+  5 5JTR_D Protein-export protein   33.9      39 0.00043   18.6   0.0   10    8-17    103-112 (155)
+  6 1QYN_C Protein-export protein   30.5      48 0.00053   18.1   0.0   10    8-17    103-112 (153)
+  7 3EGW_C Respiratory nitrate red  30.3      49 0.00054   19.5   0.0   11   10-20    196-206 (225)
+  8 1FX3_A SECB; protein trasnport  29.0      53 0.00059   18.6   0.0   10    8-17    112-121 (169)
+  9 1OZB_G Protein-export protein   29.0      53 0.00059   18.6   0.0   10    8-17    112-121 (169)
+ 10 4E8U_C Putative uncharacterize  28.0      57 0.00063   19.6   0.0   15    8-22      7-21  (172)
+ 11 4E8U_A Putative uncharacterize  25.3      68 0.00076   19.3   0.0   15    8-22      7-21  (172)
+ 12 5MTW_B SecB-like chaperone Rv1  23.6      77 0.00086   18.5   0.0   10    8-17    137-146 (184)
+ 13 6BPH_A AT-rich interactive dom  23.4      79 0.00087   15.4   0.0   12    2-13     54-65  (69)
+ 14 1FX3_B SECB; protein trasnport  23.4      79 0.00087   18.0   0.0   11    7-17    111-121 (169)
+ 15 6IF4_A Histone acetyltransfera  23.0      81  0.0009   15.8   0.0   18    2-19     49-66  (71)
+
+No 1
+>6R15_B SUN domain-containing protein 1, Nesprin-1; SUN1 KASH1 NESPRIN-1 SYNE1 LINC; HET: EPE, PGE; 1.82A {Homo sapiens}
+Probab=79.87  E-value=1.3  Score=21.50  Aligned_cols=10  Identities=70%  Similarity=1.325  Sum_probs=7.4  Template_Neff=3.800
+
+Q query            16 RLRH-NGPPPV   25 (25)
+Q Consensus        16 rL~h-ngpPpv   25 (25)
+                      .|+. +|||||
+T Consensus        22 mLrY~~GPPPv   32 (32)
+T 6R15_B           22 MLRYTNGPPPL   32 (32)
+T ss_dssp             CCCCCSSCCCC
+T ss_pred             cccCCCCCCCC
+Confidence            3556 799996
+
+
+No 2
+>6WME_B SUN domain-containing protein 2, Nesprin-3; LINC Complex, STRUCTURAL PROTEIN; 1.53A {Homo sapiens}
+Probab=70.70  E-value=3.5  Score=20.51  Aligned_cols=14  Identities=43%  Similarity=0.724  Sum_probs=8.9  Template_Neff=3.300
+
+Q query            10 ILWPFTRLRHNGPPPV   25 (25)
+Q Consensus        10 ilWPftrL~hngpPpv   25 (25)
+                      -+-|..|  .+||||+
+T Consensus        21 Sf~pmLr--Y~GPPP~   34 (34)
+T 6WME_B           21 SFTLMLR--YNGPPPT   34 (34)
+T ss_pred             hhHHHhh--cCCCCCC
+Confidence            3445444  4899986
+
+
+No 3
+>6R16_J SUN domain-containing protein 1, Nesprin-4; SUN1 KASH4 NESPRIN-4 SYNE4 LINC; HET: EDO; 2.75A {Homo sapiens}
+Probab=54.05  E-value=12  Score=18.95  Aligned_cols=7  Identities=71%  Similarity=1.175  Sum_probs=5.6  Template_Neff=1.500
+
+Q query            19 HNGPPPV   25 (25)
+Q Consensus        19 hngpPpv   25 (25)
+                      -||||||
+T Consensus        26 VNG~PPi   32 (32)
+T 6R16_J           26 VNGLPPV   32 (32)
+T ss_dssp             SSSCCCC
+T ss_pred             ccCCCCC
+Confidence            4899986
+
+
+No 4
+>6WMD_B SUN domain-containing protein 2, Nesprin-4; LINC Complex, STRUCTURAL PROTEIN; 1.5A {Homo sapiens}
+Probab=46.06  E-value=19  Score=18.41  Aligned_cols=7  Identities=71%  Similarity=1.175  Sum_probs=5.5  Template_Neff=1.500
+
+Q query            19 HNGPPPV   25 (25)
+Q Consensus        19 hngpPpv   25 (25)
+                      -||||||
+T Consensus        28 VNG~PPi   34 (34)
+T 6WMD_B           28 VNGLPPV   34 (34)
+T ss_dssp             CSSCCCC
+T ss_pred             ccCCCCC
+Confidence            4888886
+
+
+No 5
+>5JTR_D Protein-export protein SecB, Maltose-binding periplasmic; Molecular Chaperone, CHAPERONE-PROTEIN BINDING complex; NMR {Escherichia coli O157:H7}
+Probab=33.94  E-value=39  Score=18.57  Aligned_cols=10  Identities=40%  Similarity=0.916  Sum_probs=7.6  Template_Neff=8.400
+
+Q query             8 EHILWPFTRL   17 (25)
+Q Consensus         8 ehilWPftrL   17 (25)
+                      -.+||||.|-
+T Consensus       103 ~~iL~Py~R~  112 (155)
+T 5JTR_D          103 PNILFPYARE  112 (155)
+T ss_dssp             HHHHHHHHHH
+T ss_pred             HHHHHHHHHH
+Confidence            4689999873
+
+
+No 6
+>1QYN_C Protein-export protein secB; tetramer, Greek key beta sheet; 2.35A {Escherichia coli} SCOP: d.33.1.1
+Probab=30.52  E-value=48  Score=18.10  Aligned_cols=10  Identities=40%  Similarity=0.916  Sum_probs=7.4  Template_Neff=8.500
+
+Q query             8 EHILWPFTRL   17 (25)
+Q Consensus         8 ehilWPftrL   17 (25)
+                      -.+||||.|-
+T Consensus       103 ~~~L~Py~R~  112 (153)
+T 1QYN_C          103 PNILFPYARE  112 (153)
+T ss_dssp             HHHHHHHHHH
+T ss_pred             HHHHHHHHHH
+Confidence            4578999873
+
+
+No 7
+>3EGW_C Respiratory nitrate reductase 1 alpha; OXIDOREDUCTASE, nitrate reduction, electron transfer; HET: 3PH, MD1, F3S, AGA, MGD, SF4, HEM; 1.9A {Escherichia coli}
+Probab=30.29  E-value=49  Score=19.55  Aligned_cols=11  Identities=55%  Similarity=1.090  Sum_probs=8.4  Template_Neff=8.000
+
+Q query            10 ILWPFTRLRHN   20 (25)
+Q Consensus        10 ilWPftrL~hn   20 (25)
+                      +..||||+.|-
+T Consensus       196 ~~iPfsKl~H~  206 (225)
+T 3EGW_C          196 LLFPFSRLIHI  206 (225)
+T ss_pred             HHHhHHhHHHH
+Confidence            45799999883
+
+
+No 8
+>1FX3_A SECB; protein trasnport, translocation, TRANSPORT PROTEIN; 2.5A {Haemophilus influenzae} SCOP: d.33.1.1
+Probab=28.98  E-value=53  Score=18.57  Aligned_cols=10  Identities=30%  Similarity=0.866  Sum_probs=7.5  Template_Neff=8.000
+
+Q query             8 EHILWPFTRL   17 (25)
+Q Consensus         8 ehilWPftrL   17 (25)
+                      -.+||||.|-
+T Consensus       112 ~~iL~PY~R~  121 (169)
+T 1FX3_A          112 PNMLFPYARE  121 (169)
+T ss_dssp             HHHHHHHHHH
+T ss_pred             HHHHHHHHHH
+Confidence            4689999874
+
+
+No 9
+>1OZB_G Protein-export protein secB, Preprotein translocase; ZINC BINDING MOTIF, PROTEIN-PROTEIN COMPLEX; 2.8A {Haemophilus influenzae} SCOP: d.33.1.1
+Probab=28.98  E-value=53  Score=18.57  Aligned_cols=10  Identities=30%  Similarity=0.866  Sum_probs=7.5  Template_Neff=8.000
+
+Q query             8 EHILWPFTRL   17 (25)
+Q Consensus         8 ehilWPftrL   17 (25)
+                      -.+||||.|-
+T Consensus       112 ~~iL~PY~R~  121 (169)
+T 1OZB_G          112 PNMLFPYARE  121 (169)
+T ss_dssp             HHHHHHHHHH
+T ss_pred             HHHHHHHHHH
+Confidence            4689999874
+
+
+No 10
+>4E8U_C Putative uncharacterized protein T8P19.180; XS domain, RNA Binding protein; HET: SO4; 2.701A {Arabidopsis thaliana}
+Probab=28.01  E-value=57  Score=19.61  Aligned_cols=15  Identities=27%  Similarity=0.643  Sum_probs=12.2  Template_Neff=6.300
+
+Q query             8 EHILWPFTRLRHNGP   22 (25)
+Q Consensus         8 ehilWPftrL~hngp   22 (25)
+                      +.|+||.+..-+|-|
+T Consensus         7 e~~VWPw~gIi~N~~   21 (172)
+T 4E8U_C            7 EKLVYPWKGIVVNIP   21 (172)
+T ss_dssp             CEEEESCEEEEECCC
+T ss_pred             cceecCCEEEEEecc
+Confidence            578999998888765
+
+
+No 11
+>4E8U_A Putative uncharacterized protein T8P19.180; XS domain, RNA Binding protein; HET: SO4; 2.701A {Arabidopsis thaliana}
+Probab=25.31  E-value=68  Score=19.29  Aligned_cols=15  Identities=27%  Similarity=0.643  Sum_probs=12.1  Template_Neff=6.300
+
+Q query             8 EHILWPFTRLRHNGP   22 (25)
+Q Consensus         8 ehilWPftrL~hngp   22 (25)
+                      +.|+||.+..-+|-|
+T Consensus         7 e~~VWPw~gIi~N~~   21 (172)
+T 4E8U_A            7 EKLVYPWKGIVVNIP   21 (172)
+T ss_dssp             CEEEESCEEEEECCC
+T ss_pred             cceecCCEEEEEEcc
+Confidence            578999998888765
+
+
+No 12
+>5MTW_B SecB-like chaperone Rv1957, Antitoxin HigA1; Toxin-antitoxin-chaperone system, Complex, Chaperone; 1.84A {Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)}
+Probab=23.63  E-value=77  Score=18.51  Aligned_cols=10  Identities=30%  Similarity=0.720  Sum_probs=7.2  Template_Neff=7.500
+
+Q query             8 EHILWPFTRL   17 (25)
+Q Consensus         8 ehilWPftrL   17 (25)
+                      -.+||||.|-
+T Consensus       137 ~~~L~PY~Re  146 (184)
+T 5MTW_B          137 RFALYPYIRE  146 (184)
+T ss_dssp             HHHHHHHHHH
+T ss_pred             HHHHHHHHHH
+Confidence            3578999773
+
+
+No 13
+>6BPH_A AT-rich interactive domain-containing protein 4A; Crystal structure of the chromodomain; HET: UNX; 1.85A {Homo sapiens}
+Probab=23.37  E-value=79  Score=15.37  Aligned_cols=12  Identities=42%  Similarity=1.384  Sum_probs=8.9  Template_Neff=8.000
+
+Q query             2 DSWTSLEHILWP   13 (25)
+Q Consensus         2 DsW~slehilWP   13 (25)
+                      |.|++.++|+-+
+T Consensus        54 DeWv~~~~i~~~   65 (69)
+T 6BPH_A           54 DEWVKADRIIWP   65 (69)
+T ss_dssp             CEEEEGGGEECC
+T ss_pred             eEEEeHHHeecC
+Confidence            778888877643
+
+
+No 14
+>1FX3_B SECB; protein trasnport, translocation, TRANSPORT PROTEIN; 2.5A {Haemophilus influenzae} SCOP: d.33.1.1
+Probab=23.36  E-value=79  Score=18.04  Aligned_cols=11  Identities=27%  Similarity=0.742  Sum_probs=7.9  Template_Neff=7.800
+
+Q query             7 LEHILWPFTRL   17 (25)
+Q Consensus         7 lehilWPftrL   17 (25)
+                      .-.+||||.|-
+T Consensus       111 ~~~iL~Py~R~  121 (169)
+T 1FX3_B          111 CPNMLFPYARE  121 (169)
+T ss_dssp             HHHHHHHHHHH
+T ss_pred             HHHHHHHHHHH
+Confidence            34689999873
+
+
+No 15
+>6IF4_A Histone acetyltransferase (E.C.2.3.1.48); Tudor, DNA, transcription, methylation, DNA; 1.934A {Trypanosoma brucei brucei (strain 927/4 GUTat10.1)}
+Probab=22.96  E-value=81  Score=15.79  Aligned_cols=18  Identities=22%  Similarity=0.269  Sum_probs=10.0  Template_Neff=7.400
+
+Q query             2 DSWTSLEHILWPFTRLRH   19 (25)
+Q Consensus         2 DsW~slehilWPftrL~h   19 (25)
+                      |.|++.+.|+-.-..|.|
+T Consensus        49 DEWV~~~rl~~~~~~~~~   66 (71)
+T 6IF4_A           49 DRWLPGSALRERRQGLEH   66 (71)
+T ss_dssp             CEEEEGGGEEECC-----
+T ss_pred             ceEEeHHHeecccccccc
+Confidence            788888887765555544
+
+

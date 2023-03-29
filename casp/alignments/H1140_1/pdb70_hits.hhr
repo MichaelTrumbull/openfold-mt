@@ -1,0 +1,355 @@
+Query         query 
+Match_columns 219
+No_of_seqs    163 out of 469
+Neff          5.58873
+Searched_HMMs 90139
+Date          Mon Jun 27 10:39:02 2022
+Command       /mnt/home/dberenberg/gustaf_stuff/openfold/lib/conda/envs/openfold_venv/bin/hhsearch -i /tmp/tmp7w0zrykl/query.a3m -o /tmp/tmp7w0zrykl/output.hhr -maxseq 1000000 -cpu 64 -d /mnt/home/dberenberg/gustaf_stuff/OpenFold/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5AE0_A 2', 3'-CYCLIC-NUCLEOTID 100.0 1.1E-80 1.3E-85  538.5   0.0  219    1-219     2-221 (221)
+  2 2ILX_A 2',3'-cyclic-nucleotide 100.0 4.3E-80 4.8E-85  533.9   0.0  216    4-219     3-219 (219)
+  3 2I3E_A G-RICH; RICH protein, C 100.0 3.5E-77 3.9E-82  516.4   0.0  211    4-219     3-221 (222)
+  4 6U05_A tRNA ligase (E.C.6.5.1.  99.3 5.6E-16 6.2E-21  146.2   0.0  142   66-219   276-432 (432)
+  5 6TZO_A tRNA ligase (E.C.6.5.1.  99.3   2E-15 2.2E-20  142.4   0.0  142   66-219   276-432 (432)
+  6 3BEI_A Prothrombin (E.C.3.4.21  30.4      48 0.00054   23.2   0.0   10  109-118     3-12  (44)
+  7 1JMO_L THROMBIN (E.C.3.4.21.5)  28.0      57 0.00063   23.3   0.0   10  109-118     8-17  (48)
+  8 3B9F_L Prothrombin (E.C.3.4.21  26.9      61 0.00068   23.2   0.0   11  108-118     7-17  (49)
+  9 1TBR_J THROMBIN, RHODNIIN; COM  26.2      64 0.00071   23.1   0.0   10  109-118     8-17  (49)
+ 10 7A0D_LLL Prothrombin (E.C.3.4.  26.2      64 0.00071   23.1   0.0   10  109-118     8-17  (49)
+ 11 4RKO_A Thrombin heavy chain (E  24.9      70 0.00078   22.2   0.0    9  110-118     2-10  (42)
+ 12 2KD2_A PROTEIN, BETA SANDWICH,  23.7      76 0.00085   25.7   0.0   40  116-155    22-61  (94)
+ 13 1AVG_L THROMBIN, TRIABIN; BOVI  22.9      81  0.0009   21.9   0.0    9  110-118     1-9   (41)
+ 14 5JPW_B Dynein light chain Tcte  22.7      83 0.00092   27.0   0.0   56   99-158    60-132 (143)
+ 15 2Y4L_A MANNOSYLGLYCERATE SYNTH  22.3      85 0.00095   29.6   0.0   21    3-23    337-357 (382)
+ 16 4H7W_A UPF0406 protein C16orf5  21.7      89 0.00099   26.9   0.0   95   67-163    43-149 (193)
+
+No 1
+>5AE0_A 2', 3'-CYCLIC-NUCLEOTIDE 3'-PHOSPHODIESTERASE (E.C.3.1.4.37); HYDROLASE; HET: CIT; 1.04A {MUS MUSCULUS}
+Probab=100.00  E-value=1.1e-80  Score=538.47  Aligned_cols=219  Identities=100%  Similarity=1.514  Sum_probs=209.2  Template_Neff=4.600
+
+Q query             1 GLEKDFLPLYFGWFLTKKSSETLRKAGQVFLEELGNHKAFKKELRHFISGDEPKEKLELVSYFGKRPPGVLHCTTKFCDY   80 (219)
+Q Consensus         1 ~le~~~lPlYyGWFLn~~ds~~L~~~~~~~L~~l~~~~~F~~~~~~~~~~~~~~~~~~l~~yf~~~~~~~LHCTakf~~~   80 (219)
+                      +|||+++|||||||||+.+|+.|+++++.||++|.++++|+++|++++..+++++.+||.+||.++++++||||||||++
+T Consensus         2 ~lee~~lPlyfGWFL~~~~Se~l~~~~~~fl~~l~~~~~Fkk~~~~f~~~~~~~~~~dL~~yf~~~~~~~lHCTtkf~~~   81 (221)
+T 5AE0_A            2 GLEKDFLPLYFGWFLTKKSSETLRKAGQVFLEELGNHKAFKKELRHFISGDEPKEKLELVSYFGKRPPGVLHCTTKFCDY   81 (221)
+T ss_dssp             ---CCCCCSEEEEEECHHHHHHHHHHHHHHHHHHHHSHHHHHTGGGTCCSCCCSSCCCHHHHTCBCCSSSCEEEEEECGG
+T ss_pred             CccccchhheeeeccCHHHHHHHHHHHHHHHHHHccCHHHHHHHHHHhCCCCcchhccHHHhhccCCCCcceeEeeeccc
+Confidence            47899999999999999999999999999999999999999999999866677778899999998888999999999998
+
+
+Q query            81 -KAAGAEEYAQQEVVKRSYGKAFKLSISALFVTPKTAGAQVVLTDQELQLWPSDLDKPSASEGLPPGSRAHVTLGCAADV  159 (219)
+Q Consensus        81 -k~~ga~eY~~~~~V~~~~G~~f~l~i~gl~iTpRT~GaRV~L~~~ql~Lw~~d~~~~~~s~~lP~gsraHiTl~~a~gv  159 (219)
+                       |++|+++|+++++|+++|||+|+|+|+|+||||||+||||+||++|++||++|++++.+++++|+|||||||||||+||
+T Consensus        82 Gka~ga~eYa~~~~Vk~s~gk~f~L~v~gl~vTprTvGARV~Lt~~ql~LW~~d~~~~~~~~~~p~GsrAHiTLGca~gv  161 (221)
+T 5AE0_A           82 GKAAGAEEYAQQEVVKRSYGKAFKLSISALFVTPKTAGAQVVLTDQELQLWPSDLDKPSASEGLPPGSRAHVTLGCAADV  161 (221)
+T ss_dssp             GTSTTHHHHHHCHHHHHHTTCEEEEEEEEEEECSSEEEEEEECCHHHHTTSCCCSCCCGGGTTCCTTTTCEEEEEECTTC
+T ss_pred             cccCChHHHHhHHHHHHHhcceEEEEEEEEEecCCcceEEEEcCHHHHhhCCCCCCCCccCCCCCCCCeeEEEEecCCCC
+Confidence             9999999999999999999999999999999999999999999999999999988877788999999999999999999
+
+
+Q query           160 QPVQTGLDLLDILQQVKGGSQGEAVGELPRGKLYSLGKGRWMLSLTKKMEVKAIFTGYYG  219 (219)
+Q Consensus       160 ~~vqtg~Dll~i~~~e~~~~~~~~~~~~~~G~l~~yg~g~w~l~l~~~i~v~~lFsg~Yg  219 (219)
+                      +|||||+|||+|+++|+++++++.+.++++|+|+|||+|+|||||+|||+|+||||||||
+T Consensus       162 ~avqTG~DlLeiv~~E~~~~~g~~~~~~~~G~l~~yg~g~W~l~l~k~i~v~a~FsgyY~  221 (221)
+T 5AE0_A          162 QPVQTGLDLLDILQQVKGGSQGEAVGELPRGKLYSLGKGRWMLSLTKKMEVKAIFTGYYG  221 (221)
+T ss_dssp             CTTHHHHHHHHHHHHHTTCCTTCCCEEETTEEEEEEETTEEEEEEEEEEEEEEEEEEECC
+T ss_pred             CccccCHhHHHHHHHHhcCCCCceEEEecCeEEEEeeCCEEEEEeCCceeeeEEEeecCC
+Confidence            999999999999999999999999999999999999999999999999999999999997
+
+
+No 2
+>2ILX_A 2',3'-cyclic-nucleotide 3'-phosphodiesterase (E.C.3.1.4.37); CNP, CNPase, nervous system, HYDROLASE; NMR {Rattus norvegicus} SCOP: d.61.1.3
+Probab=100.00  E-value=4.3e-80  Score=533.91  Aligned_cols=216  Identities=94%  Similarity=1.464  Sum_probs=208.7  Template_Neff=4.500
+
+Q query             4 KDFLPLYFGWFLTKKSSETLRKAGQVFLEELGNHKAFKKELRHFISGDEPKEKLELVSYFGKRPPGVLHCTTKFCDY-KA   82 (219)
+Q Consensus         4 ~~~lPlYyGWFLn~~ds~~L~~~~~~~L~~l~~~~~F~~~~~~~~~~~~~~~~~~l~~yf~~~~~~~LHCTakf~~~-k~   82 (219)
+                      |+++|||||||||+.||+.|+++++.||++|.++++|+++|++|+...++++.+||.+||.++++++||||||||++ |+
+T Consensus         3 e~~lPlyfGWFL~~~~Se~l~~~~~~fl~~l~~~~~Fkk~~~~f~~~~~~~~~~dL~~yf~~~~~~~lHCTtkf~~~Gka   82 (219)
+T 2ILX_A            3 HMFLPLYFGWFLTKKSSETLRKAGQVFLEELGNHKAFKKELRHFISGDEPKEKLDLVSYFGKRPPGVLHCTTKFCDYGKA   82 (219)
+T ss_dssp             CCCCCSEEEEEECHHHHHHHHHHHHHHHHHHHTCHHHHTTHHHHCCCSSSCSCCCHHHHSCCSCTTCCEEEEEECTTTTS
+T ss_pred             CCccceEEEEecCHHHHHHHHHHHHHHHHHHccCHHHHHHHHHHhCCCCCccccChHHhcccCCCCcceeEeeecccccc
+Confidence            78999999999999999999999999999999999999999999866677778899999998888999999999998 99
+
+
+Q query            83 AGAEEYAQQEVVKRSYGKAFKLSISALFVTPKTAGAQVVLTDQELQLWPSDLDKPSASEGLPPGSRAHVTLGCAADVQPV  162 (219)
+Q Consensus        83 ~ga~eY~~~~~V~~~~G~~f~l~i~gl~iTpRT~GaRV~L~~~ql~Lw~~d~~~~~~s~~lP~gsraHiTl~~a~gv~~v  162 (219)
+                      +|+++|+++++|+++|||+|+|+|+|+||||||+||||+||++|++||+.|+++..+++++|+|||||||||||+||+||
+T Consensus        83 ~ga~eYa~~~~Vk~s~gk~f~L~v~gl~vTprTvGARV~Lt~~ql~LW~~d~~~~~~~~~~p~GsRAHiTLGcA~gv~av  162 (219)
+T 2ILX_A           83 TGAEEYAQQDVVRRSYGKAFKLSISALFVTPKTAGAQVVLNEQELQLWPSDLDKPSSSESLPPGSRAHVTLGCAADVQPV  162 (219)
+T ss_dssp             SSHHHHHTCHHHHHHTTCEEEEEEEEEEECSSCEEEEECCCHHHHHTCCTTSSSCSSSSCCCCCSSSEEECCCCTTCCHH
+T ss_pred             CChhHHHcHHHHHHHhcceEEEEEEEEEecCCcceEEEEeCHHHHhhCCCCCCCCCCCCCCCCCceeEEEEEcCCCCCcc
+Confidence            99999999999999999999999999999999999999999999999999988877788999999999999999999999
+
+
+Q query           163 QTGLDLLDILQQVKGGSQGEAVGELPRGKLYSLGKGRWMLSLTKKMEVKAIFTGYYG  219 (219)
+Q Consensus       163 qtg~Dll~i~~~e~~~~~~~~~~~~~~G~l~~yg~g~w~l~l~~~i~v~~lFsg~Yg  219 (219)
+                      |||+|||+|+++|+++++++.+.++++|+|+|||+|+|||||+|||+|+||||||||
+T Consensus       163 qTG~DlLeiv~~E~~~~~g~~~~e~~~G~l~~yg~g~W~l~l~k~i~v~a~FsgyY~  219 (219)
+T 2ILX_A          163 QTGLDLLEILQQVKGGSQGEEVGELPRGKLYSLGKGRWMLSLAKKMEVKAIFTGYYG  219 (219)
+T ss_dssp             HHHHHHHHHHHHHHTTCSCEEEEEETTEEEEECSTTCEEEEEEEEEEEEEEEEEECC
+T ss_pred             ccCHhHHHHHHHHhcCCCCceEEEeCCeEEEEeeCCEEEEEeCceeeeeEEEeecCC
+Confidence            999999999999999999999989999999999999999999999999999999997
+
+
+No 3
+>2I3E_A G-RICH; RICH protein, CNP, 2',3'-cyclic-nucleotide 3'-phosphodiesterase; NMR {Carassius auratus}
+Probab=100.00  E-value=3.5e-77  Score=516.42  Aligned_cols=211  Identities=48%  Similarity=0.850  Sum_probs=198.9  Template_Neff=4.400
+
+Q query             4 KDFLPLYFGWFLTKKSSETLRKAGQVFLEELGNHKAFKKELRHFISGDEPKEKLELVSYFGKRPPGVLHCTTKFCDY-KA   82 (219)
+Q Consensus         4 ~~~lPlYyGWFLn~~ds~~L~~~~~~~L~~l~~~~~F~~~~~~~~~~~~~~~~~~l~~yf~~~~~~~LHCTakf~~~-k~   82 (219)
+                      .+++|||||||||+++|+.|+++++.||++|.++++|+++|++|+  .++++.+||.+||  +++++||||||||++ |+
+T Consensus         3 ~~~lPlyfGWFL~~~~Se~l~~~~~~fL~~l~~~~~Fkk~~~~f~--~~~~~~~dL~~yf--~~~~~lHCTtkF~~~Gka   78 (222)
+T 2I3E_A            3 HMELPLFFGWFLLPEEEERIKCATMDFLKTLDTLEAFKEHISEFT--GEAEKEVDLEQYF--QNPLQLHCTTKFCDYGKA   78 (222)
+T ss_dssp             CCCCCCEEEEEECHHHHHHHHHHHHHHHHHHHHSHHHHHTHHHHH--TTCSSSSTHHHHS--BCCSSCEEEEEECCSSSC
+T ss_pred             CCcccceEeEecCHHHHHHHHHHHHHHHHHhhccHHHHHHHHHhh--cccccccCHHHHc--CCCCcceeEhhhcccccc
+Confidence            578999999999999999999999999999999999999999987  4567788999999  467899999999998 99
+
+
+Q query            83 AGAEEYAQQEVVKRSYGKAFKLSISALFVTPKTAGAQVVLTDQELQLWPSDLDKP--SAS-----EGLPPGSRAHVTLGC  155 (219)
+Q Consensus        83 ~ga~eY~~~~~V~~~~G~~f~l~i~gl~iTpRT~GaRV~L~~~ql~Lw~~d~~~~--~~s-----~~lP~gsraHiTl~~  155 (219)
+                      +|++||+++++|+++|||+|+|+|+||||||||+||||+||++|++||+.|++++  .++     +++|+||||||||||
+T Consensus        79 ~ga~eYa~~~~Vk~s~gk~f~L~v~glfvTprTvGARV~Lt~~qL~LW~~d~d~~~~~~~~~~~~~~lp~GsRAHiTLGc  158 (222)
+T 2I3E_A           79 EGAKEYAELQVVKESLTKSYELSVTALIVTPRTFGARVALTEAQVKLWPEGADKEGVAPALLPSVEALPAGSRAHVTLGC  158 (222)
+T ss_dssp             HHHHHHHTCHHHHHGGGCEEEEEEEEEEECSSEEEEEEECCHHHHHTSCTGGGGSSSCGGGHHHHTTSCCCSSEEEEEEE
+T ss_pred             cChHHHHhhHHHHHHccccEEEEEEEEEEcCCcceEEEecCHHHHhhCCCCcccCCCCCCcCCccccCCCCceEEEEEec
+Confidence            9999999999999999999999999999999999999999999999999876655  333     679999999999999
+
+
+Q query           156 AADVQPVQTGLDLLDILQQVKGGSQGEAVGELPRGKLYSLGKGRWMLSLTKKMEVKAIFTGYYG  219 (219)
+Q Consensus       156 a~gv~~vqtg~Dll~i~~~e~~~~~~~~~~~~~~G~l~~yg~g~w~l~l~~~i~v~~lFsg~Yg  219 (219)
+                      |+||+|||||+|||+|+++|+++++++.+. +++|+|+|||+|+|+|||+|||+|+|||||||+
+T Consensus       159 A~gv~avqTG~DlLeiv~~E~~~~~g~~~~-~~~G~l~~~g~g~W~l~L~k~i~v~aiFsgyY~  221 (222)
+T 2I3E_A          159 SAGVETVQTGLDLLEILALQKEGKEGTQVE-MDLGTLTYLSEGRWFLALREPINADTTFTSFSE  221 (222)
+T ss_dssp             CSSCCTHHHHHHHHHHHHHHHTTCCCEEEE-CSSEEEEECSSCCEEEEEEEEEEEEEEEEEECC
+T ss_pred             CCCcchhhcCHHHHHHHHHHHhCCCCceEE-eeCeEEEEEeCCEEEEEeCCceeeeeeeeeccC
+Confidence            999999999999999999999999988875 999999999999999999999999999999996
+
+
+No 4
+>6U05_A tRNA ligase (E.C.6.5.1.3); RNA ligase, RNA repair, polynucleotide; HET: GDP; 1.948A {Candida albicans (strain SC5314 / ATCC MYA-2876)}
+Probab=99.35  E-value=5.6e-16  Score=146.19  Aligned_cols=142  Identities=15%  Similarity=0.116  Sum_probs=113.3  Template_Neff=8.500
+
+Q query            66 RPPGVLHCTTKFCDY-KAAG-----AEEYAQQEV--V----KRSYGKAFKLSISALFV-TPKTAGAQVVLTDQELQLWPS  132 (219)
+Q Consensus        66 ~~~~~LHCTakf~~~-k~~g-----a~eY~~~~~--V----~~~~G~~f~l~i~gl~i-TpRT~GaRV~L~~~ql~Lw~~  132 (219)
+                      +....+|||..+++. +...     ..+|.+...  |    +..++..++++++++++ ++|+++++|+|.+.+      
+T Consensus       276 r~~~~~HvTl~h~~~~~~~~~~~~~w~~y~~~~~~~~~~~~~~~~~~~~~v~l~~lv~~~~~~~a~~V~~~~~~------  349 (432)
+T 6U05_A          276 HIQTEFHVTLGHIASSKQDKAGRVKWKKLVKTLGKGDPNKPKSALKFFADVKLLQIVINTDKLACIKVEILKIY------  349 (432)
+T ss_dssp             TBCSSEEEEEEEGGGGGTCHHHHHHHHHHHHHSCCCCSSSSEEEEEEEEEEEEEEEEEETTTEEEEEEEEEEEE------
+T ss_pred             hcccCceeEEEEhhcccCChhHHHHHHHHHHHHcCCCCCCCccCCceeEEEEEEEEEEcCCcEEEEEEEEcccc------
+Confidence            345799999999997 4322     457876543  4    56688899999999999 999999999998755      
+
+
+Q query           133 DLDKPSASEGLPPGSRAHVTLGCAADVQPVQTGLDLLDILQQVKGGSQGEAVGELPRGKLYSLGKGRWMLSLTKK--MEV  210 (219)
+Q Consensus       133 d~~~~~~s~~lP~gsraHiTl~~a~gv~~vqtg~Dll~i~~~e~~~~~~~~~~~~~~G~l~~yg~g~w~l~l~~~--i~v  210 (219)
+                      +.+........+.++.+||||||++++.|+++| ||++.+..+..+..+.     +.|+++++++|.|+++|+++  +.+
+T Consensus       350 ~~~~~~~~~~~~~n~~pHITigt~~~i~p~~sn-~Ll~~~~~~~~~~~~~-----~~~~~~~~~~~~~~~~~~~~~~~~~  423 (432)
+T 6U05_A          350 DTNDVLQSEIEPINKQLHITIGCIPPATAVESN-ITLEELYDNPDEQELK-----PDGTYKCGDDTLHVFNFDNPDLKLF  423 (432)
+T ss_dssp             ETTCCBCTTCCCSCSSCEEEEEECTTSCTTHHH-HHHHHHTCCTTCCSCC-----CSEEEEETTEEEEEEECSCTTCEEE
+T ss_pred             CCCcccccCCccccCceeEEEEeCCCCChHHHH-HHHHHHhcCCCccccC-----CCCccccCCCceEEEEeCCCCcceE
+Confidence            111111112346799999999999999999999 9999998776654433     77899999999999999998  899
+
+
+Q query           211 KAIFTGYYG  219 (219)
+Q Consensus       211 ~~lFsg~Yg  219 (219)
+                      ++.|+||||
+T Consensus       424 ~~~~~~~y~  432 (432)
+T 6U05_A          424 SQQLFVAYQ  432 (432)
+T ss_dssp             EEEEEEECC
+T ss_pred             EEEEEEEeC
+Confidence            999999997
+
+
+No 5
+>6TZO_A tRNA ligase (E.C.6.5.1.3); RNA ligase, RNA repair, polynucleotide; HET: DGI; 1.69A {Candida albicans (strain SC5314 / ATCC MYA-2876)}
+Probab=99.29  E-value=2e-15  Score=142.38  Aligned_cols=142  Identities=15%  Similarity=0.116  Sum_probs=0.0  Template_Neff=8.600
+
+Q query            66 RPPGVLHCTTKFCDY-KAAG-----AEEYAQQEV--V----KRSYGKAFKLSISALFV-TPKTAGAQVVLTDQELQLWPS  132 (219)
+Q Consensus        66 ~~~~~LHCTakf~~~-k~~g-----a~eY~~~~~--V----~~~~G~~f~l~i~gl~i-TpRT~GaRV~L~~~ql~Lw~~  132 (219)
+                      +....+|||..|++. +...     -.+|.+...  |    +..++..++++|+++++ ++|+++++|++.+.+      
+T Consensus       276 r~~~~~HvTl~h~~~~~~~~~~~~~w~~y~~~~~~~~~~~~~~~~~~~~~v~l~~lv~~~~~~~a~~V~~~~~~------  349 (432)
+T 6TZO_A          276 HIQTEFHVTLGHIASSKQDKAGRVKWKKLVKTLGKGDPNKPKSALKFFADVKLLQIVINTDKLACIKVEILKIY------  349 (432)
+T ss_dssp             --------------------------------------------------------------------------------
+T ss_pred             hhccCceeEeEEhhcccCChhHHHHHHHHHHHHcCCCCCCCccCCceeEEEEEEEEEEcCCcEEEEEEEEcccc------
+Confidence            345799999999997 4322     357776433  3    45678889999999999 999999999998755      
+
+
+Q query           133 DLDKPSASEGLPPGSRAHVTLGCAADVQPVQTGLDLLDILQQVKGGSQGEAVGELPRGKLYSLGKGRWMLSLTKK--MEV  210 (219)
+Q Consensus       133 d~~~~~~s~~lP~gsraHiTl~~a~gv~~vqtg~Dll~i~~~e~~~~~~~~~~~~~~G~l~~yg~g~w~l~l~~~--i~v  210 (219)
+                      +.+........+.+..+||||||++++.|+++| ||++.+..+..+.++.     +.|+++++++|.|+++|+++  +.+
+T Consensus       350 ~~~~~~~~~~~~~n~~pHITigt~~~i~p~~sn-~Ll~~~~~~~~~~~~~-----~~~~~~~~~~~~~~~~~~~~~~~~~  423 (432)
+T 6TZO_A          350 DTNDVLQSEIEPINKQLHITIGCIPPATAVESN-ITLEELYDNPDEQELK-----PDGTYKCGDDTLHVFNFDNPDLKLF  423 (432)
+T ss_dssp             --------------------------------------------------------------------------------
+T ss_pred             CCCcccccCCccccCceeEEEEeCCCCChHHHH-HHHHHHhcCCCccccC-----CCCccccCCCceEEEEeCCCCcceE
+Confidence            111111122345789999999999999999999 9999988766554433     77899999999999999998  899
+
+
+Q query           211 KAIFTGYYG  219 (219)
+Q Consensus       211 ~~lFsg~Yg  219 (219)
+                      ++.|.||||
+T Consensus       424 ~~~~~~~~~  432 (432)
+T 6TZO_A          424 SQQLFVAYQ  432 (432)
+T ss_dssp             ---------
+T ss_pred             EEEEEEEeC
+Confidence            999999997
+
+
+No 6
+>3BEI_A Prothrombin (E.C.3.4.21.5); Serine protease, Acute phase, Blood; HET: NAG, GOL; 1.55A {Homo sapiens}
+Probab=30.44  E-value=48  Score=23.21  Aligned_cols=10  Identities=40%  Similarity=0.816  Sum_probs=8.2  Template_Neff=1.600
+
+Q query           109 LFVTPKTAGA  118 (219)
+Q Consensus       109 l~iTpRT~Ga  118 (219)
+                      +|+.|||+|+
+T Consensus         3 ~FF~prTFG~   12 (44)
+T 3BEI_A            3 TFFNPRTFGS   12 (44)
+T ss_pred             cccCccccCC
+Confidence            5788999986
+
+
+No 7
+>1JMO_L THROMBIN (E.C.3.4.21.5), LIGHT AND HEAVY; serpin, thrombin, protease, inhibition, inhibitor; HET: MPD, NAG, NDG; 2.2A {Homo sapiens} SCOP: b.47.1.2
+Probab=27.97  E-value=57  Score=23.27  Aligned_cols=10  Identities=40%  Similarity=0.816  Sum_probs=8.5  Template_Neff=1.600
+
+Q query           109 LFVTPKTAGA  118 (219)
+Q Consensus       109 l~iTpRT~Ga  118 (219)
+                      +|+.|||+|+
+T Consensus         8 ~FF~prTFG~   17 (48)
+T 1JMO_L            8 TFFNPRTFGS   17 (48)
+T ss_pred             hccCccccCC
+Confidence            6889999986
+
+
+No 8
+>3B9F_L Prothrombin (E.C.3.4.21.5), protein C inhibitor; Michaelis complex, Acute phase, Blood; HET: FUC, NAG, IDS, SGN, SO4, GOL; 1.6A {Homo sapiens}
+Probab=26.94  E-value=61  Score=23.22  Aligned_cols=11  Identities=36%  Similarity=0.736  Sum_probs=8.9  Template_Neff=1.600
+
+Q query           108 ALFVTPKTAGA  118 (219)
+Q Consensus       108 gl~iTpRT~Ga  118 (219)
+                      -+|+.|||+|+
+T Consensus         7 k~FF~prTFG~   17 (49)
+T 3B9F_L            7 QTFFNPRTFGS   17 (49)
+T ss_pred             hhccCccccCC
+Confidence            36889999986
+
+
+No 9
+>1TBR_J THROMBIN, RHODNIIN; COMPLEX (SERINE PROTEASE-INHIBITOR), KAZAL-TYPE INHIBITOR; 2.6A {Bos taurus} SCOP: b.47.1.2
+Probab=26.19  E-value=64  Score=23.12  Aligned_cols=10  Identities=50%  Similarity=0.574  Sum_probs=8.5  Template_Neff=1.600
+
+Q query           109 LFVTPKTAGA  118 (219)
+Q Consensus       109 l~iTpRT~Ga  118 (219)
+                      +|+.|||+|+
+T Consensus         8 ~FF~pkTFG~   17 (49)
+T 1TBR_J            8 PFFNEKTFGA   17 (49)
+T ss_dssp             CCSCHHHHCS
+T ss_pred             cccCccccCC
+Confidence            6889999986
+
+
+No 10
+>7A0D_LLL Prothrombin (E.C.3.4.21.5), Hirudin variant-1; Hydrolase, Inhibitor, Hirudin, Thrombin, Selenocysteine; HET: NAG; 1.6A {Bos taurus}
+Probab=26.19  E-value=64  Score=23.12  Aligned_cols=10  Identities=50%  Similarity=0.574  Sum_probs=8.5  Template_Neff=1.600
+
+Q query           109 LFVTPKTAGA  118 (219)
+Q Consensus       109 l~iTpRT~Ga  118 (219)
+                      +|+.|||+|+
+T Consensus         8 ~FF~pkTFG~   17 (49)
+T 7A0D_LLL          8 PFFNEKTFGA   17 (49)
+T ss_pred             cccCccccCC
+Confidence            6889999986
+
+
+No 11
+>4RKO_A Thrombin heavy chain (E.C.3.4.21.5), Thrombin; Trypsin-like proteases, catalysis, allosteric regulation; HET: MES, GOL, 0G6, NAG; 1.84A {Homo sapiens}
+Probab=24.88  E-value=70  Score=22.25  Aligned_cols=9  Identities=44%  Similarity=0.955  Sum_probs=7.0  Template_Neff=1.600
+
+Q query           110 FVTPKTAGA  118 (219)
+Q Consensus       110 ~iTpRT~Ga  118 (219)
+                      |+.|||+|+
+T Consensus         2 FF~prTFG~   10 (42)
+T 4RKO_A            2 FFNPRTFGS   10 (42)
+T ss_pred             CCCccccCC
+Confidence            677888875
+
+
+No 12
+>2KD2_A PROTEIN, BETA SANDWICH, Apoptosis; NMR {Mus musculus}
+Probab=23.74  E-value=76  Score=25.69  Aligned_cols=40  Identities=23%  Similarity=0.446  Sum_probs=28.4  Template_Neff=5.600
+
+Q query           116 AGAQVVLTDQELQLWPSDLDKPSASEGLPPGSRAHVTLGC  155 (219)
+Q Consensus       116 ~GaRV~L~~~ql~Lw~~d~~~~~~s~~lP~gsraHiTl~~  155 (219)
+                      .-.||-|..+.+.+|-++..-+........|...|.+|+-
+T Consensus        22 ~~~rIvL~K~TmdvW~nG~ki~t~~eF~d~Gtet~F~i~~   61 (94)
+T 2KD2_A           22 EDLRVVLEKDTMDVWCNGQKMETAGEFVDDGTETHFSVGN   61 (94)
+T ss_dssp             EEEEEEEETTTTEEEESSSBCCCCCEECSSSEEEEEEETT
+T ss_pred             cEEEEEEEcCCcEEEECCEEeecceEEcCCccEEEEEECC
+Confidence            3469999999999998764333333444567788888873
+
+
+No 13
+>1AVG_L THROMBIN, TRIABIN; BOVINE THROMBIN, THROMBIN INHIBITOR, COMPLEX; 2.6A {Bos taurus} SCOP: b.47.1.2
+Probab=22.91  E-value=81  Score=21.85  Aligned_cols=9  Identities=56%  Similarity=0.722  Sum_probs=6.2  Template_Neff=1.600
+
+Q query           110 FVTPKTAGA  118 (219)
+Q Consensus       110 ~iTpRT~Ga  118 (219)
+                      |+.|||+|+
+T Consensus         1 FF~prTFG~    9 (41)
+T 1AVG_L            1 FFNEKTFGA    9 (41)
+T ss_dssp             CCCSTTTCS
+T ss_pred             CCCccccCC
+Confidence            456777775
+
+
+No 14
+>5JPW_B Dynein light chain Tctex-type 1; DNYLT1/Tctex-1  Dynein Intermediate Chain; NMR {Homo sapiens}
+Probab=22.72  E-value=83  Score=27.04  Aligned_cols=56  Identities=27%  Similarity=0.457  Sum_probs=32.6  Template_Neff=6.800
+
+Q query            99 GKAFKLSISALFVTPKTAGAQVVLTDQELQLWPSDLDKPS----ASE-------------GLPPGSRAHVTLGCAAD  158 (219)
+Q Consensus        99 G~~f~l~i~gl~iTpRT~GaRV~L~~~ql~Lw~~d~~~~~----~s~-------------~lP~gsraHiTl~~a~g  158 (219)
+                      +..|++.|...++-.+  |+-  +.-....||+.+.|.-.    ..+             +...++|||||||.|.-
+T Consensus        60 ~~rYK~VV~v~I~q~~--~qg--i~~~s~clWD~~~D~~~s~~~~n~~l~~vvtVf~vy~~~~~~~~~~~~~~~~~~  132 (143)
+T 5JPW_B           60 GKPFKYIVTCVIMQKN--GAG--LHTASSCFWDSSTDGSCTVRWENKTMYCIVSAFGLSIGGGSGQSGPIKLGMAKI  132 (143)
+T ss_dssp             SCCCEEEEEEEEEETT--TBC--CEEEECCCCCSSSSEEEEEEEECSSEEEEEEEEEECCSCCCCCSSCCCCCCCCC
+T ss_pred             CCCEEEEEEEEEEecC--CCc--EEEEEEEEEeCCCCcEEEEEEeCCCEEEEEEEEEEEcCCCCCCCcceEecccee
+Confidence            3557777766665433  222  22344688987654320    000             22468999999998753
+
+
+No 15
+>2Y4L_A MANNOSYLGLYCERATE SYNTHASE (E.C.2.4.1.217); TRANSFERASE, GLYCOSYLTRANSFERASE; HET: MLI, GDP, EDO; 2.8A {RHODOTHERMUS MARINUS}
+Probab=22.27  E-value=85  Score=29.56  Aligned_cols=21  Identities=19%  Similarity=0.205  Sum_probs=15.5  Template_Neff=10.300
+
+Q query             3 EKDFLPLYFGWFLTKKSSETL   23 (219)
+Q Consensus         3 e~~~lPlYyGWFLn~~ds~~L   23 (219)
+                      .+.+.|+||||..|.-.....
+T Consensus       337 ~~~l~p~y~~r~~~~~~~~~~  357 (382)
+T 2Y4L_A          337 EELLFKLWTTRVLNYTMTVAL  357 (382)
+T ss_dssp             HHHHHHHHHHHHHHHHHHTGG
+T ss_pred             HHHHHHHHHHHHHHHHHHhhc
+Confidence            366899999998887655444
+
+
+No 16
+>4H7W_A UPF0406 protein C16orf57; 2H Phosphoesterase, UNKNOWN FUNCTION; 1.1A {Homo sapiens}
+Probab=21.71  E-value=89  Score=26.95  Aligned_cols=95  Identities=13%  Similarity=0.069  Sum_probs=51.1  Template_Neff=9.300
+
+Q query            67 PPGVLHCTTKFCDY-KAAGAEEYAQQEVVKRSY--GKAFKLSISALFVTP-----KTA-GAQVVLTDQE-LQLWPSDLDK  136 (219)
+Q Consensus        67 ~~~~LHCTakf~~~-k~~ga~eY~~~~~V~~~~--G~~f~l~i~gl~iTp-----RT~-GaRV~L~~~q-l~Lw~~d~~~  136 (219)
+                      ++..+|.|-.+.+. ....-..+.  +.+++.+  .+.|.+++.++.+=|     |++ .+.+.-..++ .+|...=.+.
+T Consensus        43 ~~~~lHITL~~~~~~~~~~~~~~~--~~l~~~~~~~~pf~l~~~~~~~f~~~~~~~~~~~l~~~~~~~~l~~L~~~l~~~  120 (193)
+T 4H7W_A           43 RMKVFHLSLSQSVVLRHHWILPFV--QALKARMTSFHRFFFTANQVKIYTNQEKTRTFIGLEVTSGHAQFLDLVSEVDRV  120 (193)
+T ss_dssp             ECSSEEEECSCCEEEEGGGHHHHH--HHHHHHHTTSCCCEECEEEEEEEECTTSSEEEEEEEECTTHHHHHHHHHHHHHH
+T ss_pred             cccccEEEeccceeecHHhhHHHH--HHHHHHHhhCcceEEEecceEEEECCCCceeEEEEEEcCCcHHHHHHHHHHHHH
+Confidence            35689999888864 211111111  2233332  356888888777644     455 4666642233 2444331110
+
+
+Q query           137 --PSASEGLPPGSRAHVTLGCAADVQPVQ  163 (219)
+Q Consensus       137 --~~~s~~lP~gsraHiTl~~a~gv~~vq  163 (219)
+                        .......+..-..|||||......+.+
+T Consensus       121 l~~~~~~~~~~~~~PHiTLa~~~~~~~~~  149 (193)
+T 4H7W_A          121 MEEFNLTTFYQDPSFHLSLAWCVGDARLQ  149 (193)
+T ss_dssp             HHHTTCCCCCSSCCCEEEEEEEESCCHHH
+T ss_pred             HHHcCCCcccCCCCceEEEEEecCChHHH
+Confidence              011112345667999999988877764
+
+

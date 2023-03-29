@@ -1,0 +1,160 @@
+Query         query 
+Match_columns 122
+No_of_seqs    39 out of 48
+Neff          3.35093
+Searched_HMMs 90139
+Date          Sat May 21 16:36:30 2022
+Command       /mnt/home/dberenberg/gustaf_stuff/openfold/lib/conda/envs/openfold_venv/bin/hhsearch -i /tmp/tmp30hmpnc4/query.a3m -o /tmp/tmp30hmpnc4/output.hhr -maxseq 1000000 -cpu 64 -d /mnt/home/dberenberg/gustaf_stuff/OpenFold/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4WLQ_B mouse UCH37, human RPN1  28.7      54  0.0006   23.8   0.0   34   61-94     36-69  (99)
+  2 4WLR_B mouse UCH37 (isoform II  23.5      78 0.00086   23.2   0.0   34   61-94     37-70  (102)
+  3 4UEL_C UBIQUITIN CARBOXYL-TERM  19.7   1E+02  0.0012   23.4   0.0   46   45-93     47-92  (127)
+  4 2L5V_A Proteasomal ubiquitin r  17.5 1.3E+02  0.0014   23.9   0.0   32   62-93     65-96  (150)
+  5 1O8X_A TRYPAREDOXIN; TRYPAREDO   9.9 2.9E+02  0.0032   18.6   0.0   32   26-57    108-140 (146)
+  6 2KR0_A Proteasomal ubiquitin r   8.0 3.8E+02  0.0043   25.3   0.0   29   64-92    328-356 (411)
+  7 4BGD_C PRE-MRNA-SPLICING HELIC   8.0 3.9E+02  0.0043   23.0   0.0   25   54-78    223-247 (248)
+  8 5O6U_D CRISPR-associated prote   7.5 4.2E+02  0.0047   24.7   0.0   19    5-23    172-190 (315)
+  9 5O7H_C CRISPR-associated prote   7.5 4.2E+02  0.0047   24.7   0.0   19    5-23    172-190 (315)
+ 10 1Y71_B Kinase-associated prote   7.4 4.3E+02  0.0047   21.9   0.0   31   78-108    97-127 (130)
+
+No 1
+>4WLQ_B mouse UCH37, human RPN13 (285-386); UCH37 RPN13 Proteasome INO80 DUB; 2.85A {Mus musculus}
+Probab=28.69  E-value=54  Score=23.84  Aligned_cols=34  Identities=9%  Similarity=0.197  Sum_probs=27.4  Template_Neff=7.400
+
+Q query            61 ASPGYTFHGLHRAQDYRRELDTLQSLLTTSQSSE   94 (122)
+Q Consensus        61 A~P~~~~~~LlRP~~frq~l~~L~~~l~~~~s~~   94 (122)
+                      .+.+....+.+|--+|+++++.+...|..++...
+T Consensus        36 ~~~~e~l~~~l~SpqF~qal~~l~~AL~~g~~~~   69 (99)
+T 4WLQ_B           36 PQTADEIQNTLTSPQFQQALGMFSAALASGQLGP   69 (99)
+T ss_dssp             CCCTTHHHHHHHSHHHHHHHHHHHHHHTTTCCSH
+T ss_pred             CCCHHHHHHHHcCHHHHHHHHHHHHHHHcCCcHH
+Confidence            4566778999999999999999988887665443
+
+
+No 2
+>4WLR_B mouse UCH37 (isoform II), human; UCH37 RPN13 Proteasome INO80 DUB; 1.997A {Mus musculus}
+Probab=23.51  E-value=78  Score=23.18  Aligned_cols=34  Identities=9%  Similarity=0.197  Sum_probs=26.8  Template_Neff=7.400
+
+Q query            61 ASPGYTFHGLHRAQDYRRELDTLQSLLTTSQSSE   94 (122)
+Q Consensus        61 A~P~~~~~~LlRP~~frq~l~~L~~~l~~~~s~~   94 (122)
+                      ........+.+|--+|+++++.+...|..++...
+T Consensus        37 ~~~~~~l~~~v~Spqf~qal~~l~~AL~~g~l~~   70 (102)
+T 4WLR_B           37 PQTADEIQNTLTSPQFQQALGMFSAALASGQLGP   70 (102)
+T ss_dssp             CCCGGGHHHHHHCHHHHHHHHHHHHHHHTTCCHH
+T ss_pred             CCCHHHHHHHHcCHHHHHHHHHHHHHHHcCCcHH
+Confidence            3456678899999999999999988887665443
+
+
+No 3
+>4UEL_C UBIQUITIN CARBOXYL-TERMINAL HYDROLASE ISOZYME L5; HYDROLASE, DEUBIQUITINATING ENZYME, DUB, UCH37; 2.3A {HOMO SAPIENS}
+Probab=19.73  E-value=1e+02  Score=23.41  Aligned_cols=46  Identities=22%  Similarity=0.325  Sum_probs=31.9  Template_Neff=7.400
+
+Q query            45 ERLYPTAQSKRSLWDFASPGYTFHGLHRAQDYRRELDTLQSLLTTSQSS   93 (122)
+Q Consensus        45 ~~LYp~~~aer~Ll~~A~P~~~~~~LlRP~~frq~l~~L~~~l~~~~s~   93 (122)
+                      ++|+|.=|.+...   ........+.+|--+|+++++.|...|..++..
+T Consensus        47 ~~L~~~LP~~~~~---~~~~e~l~~~v~SpqF~qal~~l~~AL~~g~l~   92 (127)
+T 4UEL_C           47 ERLLPYLPSGESL---PQTADEIQNTLTSPQFQQALGMFSAALASGQLG   92 (127)
+T ss_dssp             HHHGGGSCCBTTB---CCCGGGHHHHHTCHHHHHHHHHHHHHHHTTCCH
+T ss_pred             HHHHHhCCCCCCC---CCCHHHHHHHhcCHHHHHHHHHHHHHHHcCCcH
+Confidence            4444444443321   245667899999999999999998888766544
+
+
+No 4
+>2L5V_A Proteasomal ubiquitin receptor ADRM1; Rpn13, Protein Binding; NMR {Homo sapiens}
+Probab=17.50  E-value=1.3e+02  Score=23.88  Aligned_cols=32  Identities=9%  Similarity=0.211  Sum_probs=25.6  Template_Neff=7.000
+
+Q query            62 SPGYTFHGLHRAQDYRRELDTLQSLLTTSQSS   93 (122)
+Q Consensus        62 ~P~~~~~~LlRP~~frq~l~~L~~~l~~~~s~   93 (122)
+                      .+.....+.+|--+|+++++.|...|..++..
+T Consensus        65 ~~~e~l~~~l~SPQF~qal~~l~~AL~sg~l~   96 (150)
+T 2L5V_A           65 QTADEIQNTLTSPQFQQALGMFSAALASGQLG   96 (150)
+T ss_dssp             CSHHHHHHHTTSHHHHHHHHHHHHCCCCCCCT
+T ss_pred             CCHHHHHHHhcCHHHHHHHHHHHHHHHcCChH
+Confidence            45667899999999999999988888765433
+
+
+No 5
+>1O8X_A TRYPAREDOXIN; TRYPAREDOXIN-I, SYNCHROTRON RADIATION, DISULFIDE BONDS; 1.3A {CRITHIDIA FASCICULATA} SCOP: c.47.1.10
+Probab=9.89  E-value=2.9e+02  Score=18.56  Aligned_cols=32  Identities=13%  Similarity=0.215  Sum_probs=25.6  Template_Neff=11.700
+
+Q query            26 GLPDRYALPPD-GHPVEPHLERLYPTAQSKRSL   57 (122)
+Q Consensus        26 ~lP~R~~LpPd-Gq~Ie~HL~~LYp~~~aer~L   57 (122)
+                      ..|.-+.+.++ |..|..|....|...+..+..
+T Consensus       108 ~~P~~~~~~~~~g~v~~~~~~~~~~~~~~~~~~  140 (146)
+T 1O8X_A          108 SIPTLIGVDADSGDVVTTRARATLVKDPEGEQF  140 (146)
+T ss_dssp             SSSEEEEEETTTCCEEESCHHHHHTTCTTCTTT
+T ss_pred             cCCEEEEEcCCCCcEEecCchhhhhcCCCCCCC
+Confidence            57888888888 999999988888877776643
+
+
+No 6
+>2KR0_A Proteasomal ubiquitin receptor ADRM1; Proteasome, ubiquitin, 19S regulator, PROTEIN; NMR {Homo sapiens}
+Probab=8.04  E-value=3.8e+02  Score=25.27  Aligned_cols=29  Identities=10%  Similarity=0.225  Sum_probs=22.5  Template_Neff=6.100
+
+Q query            64 GYTFHGLHRAQDYRRELDTLQSLLTTSQS   92 (122)
+Q Consensus        64 ~~~~~~LlRP~~frq~l~~L~~~l~~~~s   92 (122)
+                      +....+.+|--+|+++++.|-..|..++-
+T Consensus       328 ~e~L~~~lrSPQF~Qal~sLs~AL~sG~l  356 (411)
+T 2KR0_A          328 ADEIQNTLTSPQFQQALGMFSAALASGQL  356 (411)
+T ss_dssp             HHHHTTSCCSHHHHHHHHHHHHHHHHTSS
+T ss_pred             HHHHHHHhcCHHHHHHHHHHHHHHHcCCh
+Confidence            34568889999999999988887765543
+
+
+No 7
+>4BGD_C PRE-MRNA-SPLICING HELICASE BRR2 (E.C.3.6.4.13), PRE-MRNA-SPLICING; TRANSCRIPTION, SPLICEOSOME, RNA HELICASE, U5; HET: PE5, ADP; 3.1A {SACCHAROMYCES CEREVISIAE}
+Probab=7.95  E-value=3.9e+02  Score=22.98  Aligned_cols=25  Identities=12%  Similarity=0.301  Sum_probs=20.2  Template_Neff=7.100
+
+Q query            54 KRSLWDFASPGYTFHGLHRAQDYRR   78 (122)
+Q Consensus        54 er~Ll~~A~P~~~~~~LlRP~~frq   78 (122)
+                      ..+=+.+..|+.-+++..||..|.+
+T Consensus       223 ~~y~~~~~~p~~fy~~~hr~~hf~~  247 (248)
+T 4BGD_C          223 GDYNFKYGIPLEFYNEMHRPVHFLQ  247 (248)
+T ss_dssp             CCCCEEECCCCCTTCGGGCTTHHHH
+T ss_pred             cceEEecCCChhhcccccChhHhhc
+Confidence            4555677899999999999998864
+
+
+No 8
+>5O6U_D CRISPR-associated protein, Csy4 family, Uncharacterized; RNA SURVEILLANCE, ADAPTIVE IMMUNITY, CRISPR; 3.25A {Shewanella putrefaciens CN-32}
+Probab=7.52  E-value=4.2e+02  Score=24.75  Aligned_cols=19  Identities=42%  Similarity=0.508  Sum_probs=15.2  Template_Neff=1.700
+
+Q query             5 ITAPHIGIEKLSAISLEEL   23 (122)
+Q Consensus         5 ita~hIGIE~ls~v~~~e~   23 (122)
+                      |+--.|.||||.+||+|..
+T Consensus       172 ~syGSIsIEqlqFISLDkK  190 (315)
+T 5O6U_D          172 ISYGSISIEQLQFISLDKK  190 (315)
+T ss_dssp             EEEEEEEHHHHHEEECCTT
+T ss_pred             EEEeeEEhheeEEeecCCC
+Confidence            4445799999999999853
+
+
+No 9
+>5O7H_C CRISPR-associated protein, Csy4 family, Uncharacterized; RNA SURVEILLANCE, ADAPTIVE IMMUNITY, CRISPR; HET: MSE; 3.0A {Shewanella putrefaciens CN-32}
+Probab=7.52  E-value=4.2e+02  Score=24.75  Aligned_cols=19  Identities=42%  Similarity=0.508  Sum_probs=15.2  Template_Neff=1.700
+
+Q query             5 ITAPHIGIEKLSAISLEEL   23 (122)
+Q Consensus         5 ita~hIGIE~ls~v~~~e~   23 (122)
+                      |+--.|.||||.+||+|..
+T Consensus       172 ~syGSIsIEqlqFISLDkK  190 (315)
+T 5O7H_C          172 ISYGSISIEQLQFISLDKK  190 (315)
+T ss_dssp             EEEEEEEHHHHHEEECCTT
+T ss_pred             EEEeeEEhheeEEeecCCC
+Confidence            4445799999999999853
+
+
+No 10
+>1Y71_B Kinase-associated protein B; structural genomics, kinase-associated protein B; 1.95A {Bacillus cereus} SCOP: b.34.16.1
+Probab=7.44  E-value=4.3e+02  Score=21.95  Aligned_cols=31  Identities=16%  Similarity=0.146  Sum_probs=17.6  Template_Neff=3.600
+
+Q query            78 RELDTLQSLLTTSQSSELQAAAALLKCQQDD  108 (122)
+Q Consensus        78 q~l~~L~~~l~~~~s~~l~~Aa~lLq~~~~D  108 (122)
+                      +|++.+.+.|.+.+++=-++++..|++++.|
+T Consensus        97 ~Al~~~~~kL~~~~s~~a~~sL~~L~~L~ke  127 (130)
+T 1Y71_B           97 LALETQMNSFSEDDSPFAERSLETLQQLKKD  127 (130)
+T ss_dssp             HHHHHHHHTTTTCCSHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHhccCCCHHHHHHHHHHHHHHHH
+Confidence            4445555556555566566666666655544
+
+

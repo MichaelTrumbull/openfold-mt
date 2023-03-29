@@ -1,0 +1,170 @@
+Query         query 
+Match_columns 103
+No_of_seqs    119 out of 1545
+Neff          4.59303
+Searched_HMMs 90139
+Date          Wed Jun 29 03:49:17 2022
+Command       /mnt/home/dberenberg/gustaf_stuff/openfold/lib/conda/envs/openfold_venv/bin/hhsearch -i /tmp/tmpumsxxnon/query.a3m -o /tmp/tmpumsxxnon/output.hhr -maxseq 1000000 -cpu 64 -d /mnt/home/dberenberg/gustaf_stuff/OpenFold/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2LW3_A Putative membrane prote  99.8 5.5E-23 6.1E-28  137.2   0.0   89   15-103     2-90  (90)
+  2 1MW7_A hypothetical protein HP  23.7      77 0.00085   25.9   0.0   23   12-34     77-99  (240)
+  3 1LFP_A Hypothetical protein AQ  22.9      81  0.0009   25.8   0.0   23   11-33     80-102 (249)
+  4 4EMO_C Sharpin; Pleckstrin hom  21.4      91   0.001   24.4   0.0   15    9-23     72-86  (129)
+  5 4F3Q_A Transcriptional regulat  20.8      96  0.0011   25.4   0.0   22   12-33     84-105 (247)
+  6 4EMO_A Sharpin; Pleckstrin hom  19.5 1.1E+02  0.0012   24.0   0.0   15    9-23     72-86  (129)
+  7 1KON_A Protein yebC; alpha/bet  18.7 1.1E+02  0.0013   25.0   0.0   21   12-32     84-104 (249)
+  8 5EKZ_A Translational activator  17.5 1.3E+02  0.0014   25.8   0.0   13   14-26    131-143 (294)
+  9 2YXY_A Hypothetical conserved   16.1 1.4E+02  0.0016   22.8   0.0   29    7-36     58-86  (115)
+ 10 5CAI_B Putative lipoprotein fr  14.8 1.6E+02  0.0018   19.5   0.0   12   28-39     29-40  (56)
+
+No 1
+>2LW3_A Putative membrane protein mmpS4; MmpS4, soluble domain, Mycobacterium tuberculosis; NMR {Mycobacterium tuberculosis}
+Probab=99.77  E-value=5.5e-23  Score=137.19  Aligned_cols=89  Identities=55%  Similarity=0.989  Sum_probs=80.9  Template_Neff=7.900
+
+Q query            15 VVTYEIFGTPGAVVDINYLDLDARTQRVNDVTLPWSITLSTTAPSALAHIVAQGNADHIGCRIIVDGELRVESVSTGVNA   94 (103)
+Q Consensus        15 ~V~YEV~G~~Gt~~~vsYlD~~~~p~~~~~~~LPWs~tv~tt~~~v~~~vvAQg~~~~IgCRI~VdG~VkdE~~~~g~~A   94 (103)
+                      +|+|||+++++..+.|.|.+.+++.+...++.|||++++++..+..++.|++++.++.++|+|+||||+|++++++|++.
+T Consensus         2 ~V~YeVtg~~~~~~~i~Y~~~~~~~~~~~~~~lPW~~t~~~~~~~~~~~l~a~~~~~~~tC~I~VdGk~v~~~t~~g~~~   81 (90)
+T 2LW3_A            2 HLTYEIFGPPGTVADISYFDVNSEPQRVDGAVLPWSLHITTNDAAVMGNIVAQGNSDSIGCRITVDGKVRAERVSNEVNA   81 (90)
+T ss_dssp             EEBCBCCCCTTCCCCCBCCCTTSCCCCCCSCSSCCBCCEECSSSCCCCCCBCCSSCSCCCCCCBBTTBCCCCCCCCCSCT
+T ss_pred             eEEEEEEeCCCCeEEEEEEcCCCCceEEeCcccCEEEEEEeCCCceeEEEEEEcCCCeEEEEEEECCEEEEEEEccCccc
+Confidence            69999999966557999999887677778999999999999998766899999889999999999999999999999999
+
+
+Q query            95 QTYCIEKSA  103 (103)
+Q Consensus        95 ~~~C~vKsA  103 (103)
+                      .++|.+++|
+T Consensus        82 ~~~C~~~~~   90 (90)
+T 2LW3_A           82 YTYCLVKSA   90 (90)
+T ss_dssp             TSSSCCSCC
+T ss_pred             eEEEEEeeC
+Confidence            999999875
+
+
+No 2
+>1MW7_A hypothetical protein HP0162; structural genomics, PSI, Protein Structure; 2.0A {Helicobacter pylori} SCOP: e.39.1.1
+Probab=23.68  E-value=77  Score=25.89  Aligned_cols=23  Identities=17%  Similarity=0.262  Sum_probs=15.5  Template_Neff=7.200
+
+Q query            12 DPKVVTYEIFGTPGAVVDINYLD   34 (103)
+Q Consensus        12 ~pK~V~YEV~G~~Gt~~~vsYlD   34 (103)
+                      +-..++||..|.+|...-|....
+T Consensus        77 ~~~~~~yE~~gp~gv~liie~~T   99 (240)
+T 1MW7_A           77 NLSEITYEGKANFGVLIIMECMT   99 (240)
+T ss_dssp             CCEEEEEEEEETTTEEEEEEEEE
+T ss_pred             CceEEEEEEEecCceEEEEEEEe
+Confidence            45789999999977433444433
+
+
+No 3
+>1LFP_A Hypothetical protein AQ_1575; Hypothetical, New fold, thermostability, Structural; 1.72A {Aquifex aeolicus} SCOP: e.39.1.1
+Probab=22.90  E-value=81  Score=25.79  Aligned_cols=23  Identities=22%  Similarity=0.148  Sum_probs=15.1  Template_Neff=7.400
+
+Q query            11 FDPKVVTYEIFGTPGAVVDINYL   33 (103)
+Q Consensus        11 ~~pK~V~YEV~G~~Gt~~~vsYl   33 (103)
+                      .+-..++||+.|.+|...-|...
+T Consensus        80 ~~~~~~~yE~~gP~gv~liie~~  102 (249)
+T 1LFP_A           80 EQFEEVIYEGYAPGGVAVMVLAT  102 (249)
+T ss_dssp             CCCEEEEEEEEETTTEEEEEEEE
+T ss_pred             CccEEEEEEEEcCCceEEEEEEE
+Confidence            34578999999987743333333
+
+
+No 4
+>4EMO_C Sharpin; Pleckstrin homology (PH) domain, LUBAC; 2.0A {Homo sapiens}
+Probab=21.39  E-value=91  Score=24.39  Aligned_cols=15  Identities=27%  Similarity=0.392  Sum_probs=10.9  Template_Neff=2.800
+
+Q query             9 EPFDPKVVTYEIFGT   23 (103)
+Q Consensus         9 ~~~~pK~V~YEV~G~   23 (103)
+                      .+++=+.|.|||.+.
+T Consensus        72 ~E~~L~sV~Yevk~P   86 (129)
+T 4EMO_C           72 LEWPLESVSYTIRGP   86 (129)
+T ss_dssp             EEEEGGGCEEEEEET
+T ss_pred             eEEeceEEEEEEecC
+Confidence            456667888888865
+
+
+No 5
+>4F3Q_A Transcriptional regulatory protein CBU_1566; YebC family, TRANSCRIPTION; HET: MSE; 2.15A {Coxiella burnetii}
+Probab=20.80  E-value=96  Score=25.43  Aligned_cols=22  Identities=32%  Similarity=0.525  Sum_probs=14.5  Template_Neff=7.300
+
+Q query            12 DPKVVTYEIFGTPGAVVDINYL   33 (103)
+Q Consensus        12 ~pK~V~YEV~G~~Gt~~~vsYl   33 (103)
+                      +-..++||..|.+|...-|...
+T Consensus        84 ~~~~~~yE~~gp~gv~lIie~~  105 (247)
+T 4F3Q_A           84 NLVEVRYEGYGPSGVAVMVDCL  105 (247)
+T ss_dssp             CCEEEEEEEECGGGCEEEEEEE
+T ss_pred             ceEEEEEEEecCCceEEEEEEE
+Confidence            3457999999997743334433
+
+
+No 6
+>4EMO_A Sharpin; Pleckstrin homology (PH) domain, LUBAC; HET: MSE; 2.0A {Homo sapiens}
+Probab=19.51  E-value=1.1e+02  Score=24.05  Aligned_cols=15  Identities=27%  Similarity=0.392  Sum_probs=10.8  Template_Neff=2.900
+
+Q query             9 EPFDPKVVTYEIFGT   23 (103)
+Q Consensus         9 ~~~~pK~V~YEV~G~   23 (103)
+                      .+++=+.|.|||.+.
+T Consensus        72 ~E~~L~sV~Yevk~P   86 (129)
+T 4EMO_A           72 LEWPLESVSYTIRGP   86 (129)
+T ss_dssp             EEEEGGGSEEEEEET
+T ss_pred             eEEeceEEEEEEecC
+Confidence            456667888888865
+
+
+No 7
+>1KON_A Protein yebC; alpha/beta, two-domains, Montreal-Kingston Bacterial Structural; 2.2A {Escherichia coli} SCOP: e.39.1.1
+Probab=18.69  E-value=1.1e+02  Score=25.04  Aligned_cols=21  Identities=24%  Similarity=0.515  Sum_probs=14.3  Template_Neff=7.300
+
+Q query            12 DPKVVTYEIFGTPGAVVDINY   32 (103)
+Q Consensus        12 ~pK~V~YEV~G~~Gt~~~vsY   32 (103)
+                      +-..++||..|.+|...-|..
+T Consensus        84 ~~~~~~yE~~gP~gv~liie~  104 (249)
+T 1KON_A           84 NMETIIYEGYGPGGTAIMIEC  104 (249)
+T ss_dssp             CCEEEEEEEEETTTEEEEEEE
+T ss_pred             ceeEEEEEEecCCceeEEEEE
+Confidence            457899999998664333333
+
+
+No 8
+>5EKZ_A Translational activator of cytochrome c; OXIDOREDUCTASE, Mitochondria, RNA binding; 2.0A {Mus musculus}
+Probab=17.53  E-value=1.3e+02  Score=25.79  Aligned_cols=13  Identities=31%  Similarity=0.355  Sum_probs=10.7  Template_Neff=6.500
+
+Q query            14 KVVTYEIFGTPGA   26 (103)
+Q Consensus        14 K~V~YEV~G~~Gt   26 (103)
+                      ..++||..|.+|.
+T Consensus       131 ~~~~yE~~gP~Gv  143 (294)
+T 5EKZ_A          131 IYLLYEGRGPGGS  143 (294)
+T ss_dssp             EEEEEEEECTTSC
+T ss_pred             eEEEEEEEcCccc
+Confidence            5789999998664
+
+
+No 9
+>2YXY_A Hypothetical conserved protein, GK0453; GK0453, alpha and beta proteins; 2.2A {Geobacillus kaustophilus}
+Probab=16.06  E-value=1.4e+02  Score=22.84  Aligned_cols=29  Identities=38%  Similarity=0.705  Sum_probs=19.5  Template_Neff=3.800
+
+Q query             7 DPEPFDPKVVTYEIFGTPGAVVDINYLDLD   36 (103)
+Q Consensus         7 ~~~~~~pK~V~YEV~G~~Gt~~~vsYlD~~   36 (103)
+                      +|..+.|.. +|+|.++.+..+.|.|.++-
+T Consensus        58 dp~~f~~G~-~Y~i~g~~~~~F~V~ylnGV   86 (115)
+T 2YXY_A           58 NPADFHPGE-IYEIEGAPGEYFKVRYLKGV   86 (115)
+T ss_dssp             CGGGCCTTC-EEEETTEEEEEEEEEEEETT
+T ss_pred             CHHHCCCCC-EEEEcCCCCceEEEEEEEce
+Confidence            344444433 69999996656899998643
+
+
+No 10
+>5CAI_B Putative lipoprotein from the DUF903; lipoprotein, Structural Genomics, Joint Center; HET: MSE; 2.3A {Klebsiella pneumoniae subsp. pneumoniae}
+Probab=14.85  E-value=1.6e+02  Score=19.51  Aligned_cols=12  Identities=25%  Similarity=0.100  Sum_probs=7.6  Template_Neff=5.000
+
+Q query            28 VDINYLDLDART   39 (103)
+Q Consensus        28 ~~vsYlD~~~~p   39 (103)
+                      ..+.|.+.+|..
+T Consensus        29 G~~~y~D~~G~~   40 (56)
+T 5CAI_B           29 GMISYKDAWGNK   40 (56)
+T ss_dssp             CSEEEEBTTSCE
+T ss_pred             CcEEEEcCCCCE
+Confidence            457777766643
+
+

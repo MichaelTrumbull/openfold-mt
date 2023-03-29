@@ -1,0 +1,176 @@
+Query         query 
+Match_columns 235
+No_of_seqs    58 out of 64
+Neff          3.18732
+Searched_HMMs 90139
+Date          Fri May 27 02:50:12 2022
+Command       /mnt/home/dberenberg/gustaf_stuff/openfold/lib/conda/envs/openfold_venv/bin/hhsearch -i /tmp/tmpdelaf11t/query.a3m -o /tmp/tmpdelaf11t/output.hhr -maxseq 1000000 -cpu 28 -d /mnt/home/dberenberg/gustaf_stuff/OpenFold/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2K3M_A Rv1761c; PROTEIN, integ  21.9      88 0.00098   28.8   0.0   33    6-38     71-103 (151)
+  2 1JI8_A dissimilatory siroheme-  19.6 1.1E+02  0.0012   26.5   0.0   28    3-31      1-28  (111)
+  3 2N5D_A fusion protein of two P  12.8   2E+02  0.0022   24.5   0.0   41   65-105    27-67  (84)
+  4 6FRK_r Ribosomal protein eL28,  11.4 2.4E+02  0.0027   26.4   0.0   18  112-131   571-588 (605)
+  5 4PBY_C human RbAp48, human MTA  10.5 2.7E+02  0.0029   19.5   0.0   22  167-188     4-25  (31)
+  6 4PBY_D human RbAp48, human MTA  10.5 2.7E+02  0.0029   19.5   0.0   22  167-188     4-25  (31)
+  7 4AKX_B SPCU, EXOU; TRANSPORT P   8.9 3.3E+02  0.0037   29.6   0.0   96   45-140   438-555 (660)
+  8 1K8R_B Transforming protein P2   8.2 3.8E+02  0.0042   23.5   0.0   66   31-113    27-99  (110)
+  9 6QW6_X Small nuclear ribonucle   7.9 3.9E+02  0.0043   24.8   0.0   55  179-233    95-149 (155)
+ 10 6VGA_A De novo designed protei   7.9 3.9E+02  0.0044   23.8   0.0   56   61-116    13-74  (125)
+
+No 1
+>2K3M_A Rv1761c; PROTEIN, integral membrane protein, MEMBRANE; HET: MTN; NMR {Mycobacterium tuberculosis}
+Probab=21.89  E-value=88  Score=28.76  Aligned_cols=33  Identities=24%  Similarity=0.360  Sum_probs=26.7  Template_Neff=1.600
+
+Q query             6 KNAPLTLNFGSVRLPVSADGLLHAPTAQQQLGL   38 (235)
+Q Consensus         6 k~~p~~l~~g~~~~~~s~dg~l~a~~al~~lg~   38 (235)
+                      ...|-.+++|+-|..+..||||.|.--..-.=|
+T Consensus        71 Rs~PErvqIGdWRYEvt~DgRl~AaH~VnGIVl  103 (151)
+T 2K3M_A           71 RCNPERIQIGDWRYEVAHDGRLLAAHMVNGIVI  103 (151)
+T ss_dssp             SCCSSCCSCCCCSSHHHHHGGGSSSTTTTHHHH
+T ss_pred             cCCcceeEecceeeEEccCCceeehheeCcEEE
+Confidence            467889999999999999999998765544333
+
+
+No 2
+>1JI8_A dissimilatory siroheme-sulfite reductase; orthogonal helical bundle, Structural Genomics; NMR {Pyrobaculum aerophilum} SCOP: d.203.1.1
+Probab=19.56  E-value=1.1e+02  Score=26.52  Aligned_cols=28  Identities=18%  Similarity=0.368  Sum_probs=23.3  Template_Neff=5.500
+
+Q query             3 MGMKNAPLTLNFGSVRLPVSADGLLHAPT   31 (235)
+Q Consensus         3 ~~mk~~p~~l~~g~~~~~~s~dg~l~a~~   31 (235)
+                      |.|| .|.++++++..+.++.+|.|.-+.
+T Consensus         1 ~~~~-~~~~~~~~g~~i~~D~eGfL~~~~   28 (111)
+T 1JI8_A            1 MPVK-CPGEYQVDGKKVILDEDCFMQNPE   28 (111)
+T ss_dssp             CCSC-SSEEEECSSCEEEEEGGGEECCGG
+T ss_pred             CCcc-CCceEEECCEEeEeCCCCccCCHH
+Confidence            4555 589999999999999999997653
+
+
+No 3
+>2N5D_A fusion protein of two PKS; docking domain, polyketide synthase, PROTEIN; NMR {Streptomyces virginiae}
+Probab=12.85  E-value=2e+02  Score=24.52  Aligned_cols=41  Identities=22%  Similarity=0.195  Sum_probs=24.5  Template_Neff=1.900
+
+Q query            65 AVSVPDFVALAFALDTPEARRWQKRARELLARAMQGDVRVA  105 (235)
+Q Consensus        65 tls~~~f~~La~~~~tp~arr~r~~a~~l~~R~l~GDV~LA  105 (235)
+                      .||+++.+.|.-.-..--.----+-.+++|.||+.|+..-+
+T Consensus        27 ~LSVDeAlaLL~~R~~~~~~~~~MD~rEiLTRfK~G~LdR~   67 (84)
+T 2N5D_A           27 RLSIEQAVTLLTPRRGGGSGGGSMDAKEILTRFKDGGLDRA   67 (84)
+T ss_dssp             SSCHHHHHHTTCCCSCCSSSSSCCCHHHHHHHHHHTSSCHH
+T ss_pred             CccHHHHHHHhccccCCCCCCccccHHHHHHHhhcCCCCHH
+Confidence            46666665555432211111123567899999999987643
+
+
+No 4
+>6FRK_r Ribosomal protein eL28, Ribosomal protein; ER membrane targeting ribosome Signal; HET: GTP, GNP, MG; 3.7A {Canis lupus familiaris}
+Probab=11.35  E-value=2.4e+02  Score=26.35  Aligned_cols=18  Identities=33%  Similarity=0.893  Sum_probs=12.7  Template_Neff=12.500
+
+Q query           112 NPEPDARRWLAARLESTGAR  131 (235)
+Q Consensus       112 n~dPe~~rWLaaRlesk~AR  131 (235)
+                      .||||  |||-+|-.|.-..
+T Consensus       571 ~pdpe--rwlp~~~rs~~~~  588 (605)
+T 6FRK_r          571 TPDPE--RWLPMRXXXXXXX  588 (605)
+T ss_pred             CCChh--hcCCHHhccccCC
+Confidence            47777  8999887665433
+
+
+No 5
+>4PBY_C human RbAp48, human MTA1; RbAp48, MTA1, NuRD, sub-complex, CELL; 2.5A {Homo sapiens}
+Probab=10.54  E-value=2.7e+02  Score=19.46  Aligned_cols=22  Identities=23%  Similarity=0.176  Sum_probs=16.4  Template_Neff=4.400
+
+Q query           167 VRQERGVKATRDGLTSAELLRL  188 (235)
+Q Consensus       167 ir~~RGvk~TRDgm~~~EL~r~  188 (235)
+                      |+...+.|..|..|++.||.+.
+T Consensus         4 F~aTk~tk~~rk~l~~~~~rr~   25 (31)
+T 4PBY_C            4 YMATEETRKIRKLLSSSETKRA   25 (31)
+T ss_pred             eecchhhHHHHHhcCHHHHHHH
+Confidence            4556667788889999888764
+
+
+No 6
+>4PBY_D human RbAp48, human MTA1; RbAp48, MTA1, NuRD, sub-complex, CELL; 2.5A {Homo sapiens}
+Probab=10.54  E-value=2.7e+02  Score=19.46  Aligned_cols=22  Identities=23%  Similarity=0.176  Sum_probs=16.4  Template_Neff=4.400
+
+Q query           167 VRQERGVKATRDGLTSAELLRL  188 (235)
+Q Consensus       167 ir~~RGvk~TRDgm~~~EL~r~  188 (235)
+                      |+...+.|..|..|++.||.+.
+T Consensus         4 F~aTk~tk~~rk~l~~~~~rr~   25 (31)
+T 4PBY_D            4 YMATEETRKIRKLLSSSETKRA   25 (31)
+T ss_pred             eecchhhHHHHHhcCHHHHHHH
+Confidence            4556667788889999888764
+
+
+No 7
+>4AKX_B SPCU, EXOU; TRANSPORT PROTEIN, PHOSPHOLIPASE, CHAPERONE, TOXIN; 2.94A {PSEUDOMONAS AERUGINOSA}
+Probab=8.92  E-value=3.3e+02  Score=29.56  Aligned_cols=96  Identities=22%  Similarity=0.292  Sum_probs=52.5  Template_Neff=7.500
+
+Q query            45 ALVEHGLPETYRDFGAGPEAAVSVPD--FVALAF--ALDTPEARRWQKRARELLARAMQG---------------DVRVA  105 (235)
+Q Consensus        45 ~~~~h~l~~~~~dfG~G~e~tls~~~--f~~La~--~~~tp~arr~r~~a~~l~~R~l~G---------------DV~LA  105 (235)
+                      ++.++.......+|..=.+..+..++  |-.+.-  -....+..++|+.+++.+..+..+               .+..|
+T Consensus       438 ~L~~~~~~~~~~~~~~~~~~~~~~d~~~~~~~~~~~~~~~~~~~~~r~~~~~~~~~l~~~i~~~~~~~~~l~~~~~~~~~  517 (660)
+T 4AKX_B          438 HLEKRLQASERHTFASLDEALLALDDSMLTSVAQQNPEITDGAVAFRQKARDAFTELTVAIVSANGLAGRLKLDEAMRSA  517 (660)
+T ss_dssp             HHHHGGGCEEEEEESSHHHHHHTSCHHHHHHHHHHCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTC---CCCCHHHHHH
+T ss_pred             HHHHHhHhhhcCCcccHHHHHHHCCHHHHHHHHhcChHHHHHHHHHHHHHHHHHHHHHHHHHHhhhccccCCCCHHHHHH
+Confidence            44555555566666654555555554  211111  112556777888887665544322               22222
+
+
+Q query           106 AQ-IAERNPEPDARRWLAARLESTGAR--RELLATVAR  140 (235)
+Q Consensus       106 aE-IAeRn~dPe~~rWLaaRlesk~AR--~~lmStlar  140 (235)
+                      .+ +-.-...||+.+||++|+....-+  .+|..++++
+T Consensus       518 l~~Ld~l~~~p~~~~~~~~~~~~~~~~~~~~~~~~~~~  555 (660)
+T 4AKX_B          518 LQRLDALADTPERLAWLAAELNHADNVDHQQLLDAMRG  555 (660)
+T ss_dssp             HHHHHHHCCSHHHHHHHHHHTTCTTCHHHHHHHHHSTT
+T ss_pred             HHHHHHHccCHHHHHHHHHHhcCCCChhHHHHHHHhcc
+Confidence            22 122234699999999999876544  355555555
+
+
+No 8
+>1K8R_B Transforming protein P21/H-RAS-1, Protein kinase; signal transduction, cancer, GTPase, ubiquitin; HET: GNP; 3.0A {Homo sapiens} SCOP: d.15.1.5
+Probab=8.18  E-value=3.8e+02  Score=23.55  Aligned_cols=66  Identities=17%  Similarity=0.332  Sum_probs=30.0  Template_Neff=5.000
+
+Q query            31 TAQQQLGLTQ--SWEAALVEHGLPETYRDFGAGPEAAVSVPDFVALAFALDTPEARRWQKRARELLARAMQG-----DVR  103 (235)
+Q Consensus        31 ~al~~lg~~~--~~~~~~~~h~l~~~~~dfG~G~e~tls~~~f~~La~~~~tp~arr~r~~a~~l~~R~l~G-----DV~  103 (235)
+                      .+|..+|+..  .|.-+...           .+....||-.||+.++...+.|+    |.+  -+|.+.-+|     +.+
+T Consensus        27 kvLKKfg~~~~~~w~vy~~~-----------~~~~r~Lsd~ELl~IC~~~~rpe----R~R--LiLr~~~~g~P~~~~l~   89 (110)
+T 1K8R_B           27 IALKKFSLEDASKFIVCVSQ-----------SSRIKLITEEEFKQICFNSSSPE----RDR--LIIVPKEKPCPSFEDLR   89 (110)
+T ss_dssp             HHHHHHTCCCTTSEEEEEEC-----------SSSEEECCCC-----------------CCC--EEEEESSSCCCCHHHHH
+T ss_pred             HHHHhcCCcchhccEEEEcc-----------ccceEEcCHHHHHHHHhCCCCcc----ccc--eEEEECCCCCCCHHHHH
+Confidence            5777888775  34433322           23337899999999999866664    233  455555554     677
+
+
+Q query           104 VAAQIAERNP  113 (235)
+Q Consensus       104 LAaEIAeRn~  113 (235)
+                      .|++|+...+
+T Consensus        90 ~a~~i~~~~~   99 (110)
+T 1K8R_B           90 RSWEIELAQP   99 (110)
+T ss_dssp             HTTCCC----
+T ss_pred             HHHHHHHhcc
+Confidence            8888887653
+
+
+No 9
+>6QW6_X Small nuclear ribonucleoprotein Sm D1; RNP complex, splicing, RNA, protein; HET: M7M, IHP, GTP; 2.92A {Homo sapiens}
+Probab=7.93  E-value=3.9e+02  Score=24.81  Aligned_cols=55  Identities=18%  Similarity=0.266  Sum_probs=34.6  Template_Neff=4.900
+
+Q query           179 GLTSAELLRLAYIDTVTARAIQESEARGNAAILTLHEQVARSERQSWERAGQVQR  233 (235)
+Q Consensus       179 gm~~~EL~r~aylE~ata~~Ie~~~a~GN~~il~~h~~va~~er~~W~~~~~~~~  233 (235)
+                      +++.+|+..+.+|=.+.-..-....+.||.++-.++....+.-||.|.-.++..|
+T Consensus        95 ~~~eee~~M~k~mGf~~F~STKgK~v~g~~~~~a~~~~~kr~yRQYMNr~gGfnr  149 (155)
+T 6QW6_X           95 GKTEEEIEMMKLMGFASFDSTKGKKVDGSVNAYAINVSQKRKYRQYMNRKGGFNR  149 (155)
+T ss_pred             CCcHHHHHHHHHhccceEeeCCCcccCCCccccceeCccCCcchhhcCCCCCCCC
+Confidence            3445554444444444333345556788876667777778889999987776554
+
+
+No 10
+>6VGA_A De novo designed protein ROS2_835; Rossmann fold, DE NOVO PROTEIN; NMR {synthetic construct}
+Probab=7.92  E-value=3.9e+02  Score=23.84  Aligned_cols=56  Identities=30%  Similarity=0.357  Sum_probs=27.9  Template_Neff=1.000
+
+Q query            61 GPEAAVSVPDFVALAFALD---TPEARRWQKRARELLAR---AMQGDVRVAAQIAERNPEPD  116 (235)
+Q Consensus        61 G~e~tls~~~f~~La~~~~---tp~arr~r~~a~~l~~R---~l~GDV~LAaEIAeRn~dPe  116 (235)
+                      |.-|.=|+-.++-|+...+   -.++|+..+.++--|.-   --.--|+||-||+++.|-|-
+T Consensus        13 glvprgshmrlvvlivsndkklieearkmaekanlelitvpgspeeairlaqeiaekapgpv   74 (125)
+T 6VGA_A           13 GLVPRGSHMRLVVLIVSNDKKLIEEARKMAEKANLELITVPGSPEEAIRLAQEIAEKAPGPV   74 (125)
+T ss_dssp             --------CEEEEEEECCCSHHHHHHHHHHHHTTCEEEEECSCHHHHHHHHHHHHHTCSSCE
+T ss_pred             CCccCCCceEEEEEEEeCCHHHHHHHHHHHHHCCcEEEeCCCCHHHHHHHHHHHHHhCCCCe
+Confidence            4334444444444444433   34566655555533322   22446899999999988764
+
+

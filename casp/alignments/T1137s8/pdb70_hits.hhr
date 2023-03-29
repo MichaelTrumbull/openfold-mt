@@ -1,0 +1,340 @@
+Query         query 
+Match_columns 266
+No_of_seqs    164 out of 10000
+Neff          5.61863
+Searched_HMMs 90139
+Date          Thu Jun  9 08:02:23 2022
+Command       /mnt/home/dberenberg/gustaf_stuff/openfold/lib/conda/envs/openfold_venv/bin/hhsearch -i /tmp/tmppsouex32/query.a3m -o /tmp/tmppsouex32/output.hhr -maxseq 1000000 -cpu 64 -d /mnt/home/dberenberg/gustaf_stuff/OpenFold/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6ZY4_H YrbD protein, ABC trans 100.0 1.8E-62   2E-67  449.3   0.0  252    8-260     5-258 (260)
+  2 7CGE_A Lipid asymmetry mainten 100.0 1.8E-62   2E-67  449.3   0.0  252    8-260     5-258 (260)
+  3 7D06_D Lipid asymmetry mainten 100.0 3.1E-61 3.4E-66  440.3   0.0  251    8-260     3-255 (258)
+  4 7CH8_H Mla complex, Lipid tran 100.0 1.5E-60 1.7E-65  437.6   0.0  258    4-262     5-264 (265)
+  5 6IC4_H Toluene tolerance efflu 100.0 1.8E-60   2E-65  435.2   0.0  251    8-260     3-255 (257)
+  6 6MJP_G ABC transporter ATP-bin  24.0      75 0.00083   31.2   0.0   89   64-154    20-109 (356)
+  7 6MIT_F Lipopolysaccharide expo  17.5 1.3E+02  0.0014   29.9   0.0   96   64-160    18-113 (366)
+  8 6S8N_F Lipopolysaccharide ABC   16.6 1.4E+02  0.0015   29.8   0.0   93   65-158    19-111 (366)
+  9 1ABZ_A ALPHA-T-ALPHA, AMINO GR  15.6 1.5E+02  0.0017   20.7   0.0   18  127-144     7-24  (40)
+ 10 5X5Y_G Probable ATP-binding co  15.3 1.6E+02  0.0017   28.9   0.0   84   64-149    19-102 (355)
+
+No 1
+>6ZY4_H YrbD protein, ABC transporter maintaining; phospholipid, phospholipid transport, ABC transporter; HET: ADP; 4.1A {Escherichia coli B185}
+Probab=100.00  E-value=1.8e-62  Score=449.28  Aligned_cols=252  Identities=21%  Similarity=0.327  Sum_probs=244.7  Template_Neff=6.700
+
+Q query             8 FVDYLRGQLEKPLATVGGFFKMSVMTGKALFTRPFQWKEFVLQSWFLIRVAFLPTL-AVSIPLTVLIIFTLNILLAEFGA   86 (266)
+Q Consensus         8 f~~~l~~~~~~~l~~~G~~~~l~~~~~~~~~~~p~~~~~~i~q~~~~~~v~~lpi~-~~~~~~~~~i~~q~~~~l~~fGa   86 (266)
+                      ..+++|++..+.+++++++..+..+++++.++++.+|+++.+|+| ++|++++|++ ++++++|++++.|.+++++++|+
+T Consensus         5 ~~~~~g~~~~~~~~~~g~~~~~~~~~l~~~~~~~~~~~~~~~q~~-~~g~~slpiv~~~s~~~G~v~~~q~~~~l~~~g~   83 (260)
+T 6ZY4_H            5 ALASLGHKGIKTLRTFGRAGLMLFNALVGKPEFRKHAPLLVRQLY-NVGVLSMLIIVVSGVFIGMVLGLQGYLVLTTYSA   83 (260)
+T ss_pred             HHHHhhHHHHHHHHHHHHHHHHHHHHHhcCCchhhcHHHHHHHHH-HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcCc
+Confidence            456788899999999999999999999888777779999999998 9999999999 99999999999999999999999
+
+
+Q query            87 ADVSGAGAALGAVTQLGPLVTVLVVAGAGSTAICADLGARTVREEIDALEVLGIDPIERLVVPRVVASTFVAFMLNGAVI  166 (266)
+Q Consensus        87 ~~~~g~~v~~~~vRElgPvltal~vagRvGsaiaAELGtMrVtEqIDAL~vmgidPv~~LVvPRvlA~~i~~P~Lt~~~~  166 (266)
+                      ++++|.+++.+++||++|++|+++++||+|++++||||+||++||+||||+||+||.+|+++||++|+++++|+|+++++
+T Consensus        84 ~~~~g~~~~~~~vrElgPlltal~vagR~Gsai~aElG~M~v~eeidAL~~mgi~p~~~Lv~PRvlA~~i~~p~Lt~~~~  163 (260)
+T 6ZY4_H           84 ETSLGMLVALSLLRELGPVVAALLFAGRAGSALTAEIGLMRATEQLSSMEMMAVDPLRRVISPRFWAGVISLPLLTVIFV  163 (260)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcchhhhHhHHHHcCCChhHHhHHHHHHHHHHHHHHHHHHHH
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q query           167 TIGLVGGFFFGVYIQNVSAGAYVSTLTLLTGF-PEVLISVVKATLFGMIAGLVGCYRGLTVAGGSKGVGTAVNETLVLCV  245 (266)
+Q Consensus       167 ~~gi~gG~~v~~~~~~i~~~~y~~~~~~~~~~-~D~~~gliKa~vFG~iI~~i~Cy~Gl~~~gGa~GVG~att~aVV~s~  245 (266)
+                      .+++++||+++++..+.|+..|++++.+.+++ .|+..+++|+.+||++|++++||+|+++++|++|||+|+||++|.|+
+T Consensus       164 ~~~~~gg~~~~~~~~~~~~~~f~~~~~~~~~~~~d~~~~l~K~~~fg~~i~~i~cy~Gl~~~~g~~gVg~att~avV~s~  243 (260)
+T 6ZY4_H          164 AVGIWGGSLVGVSWKGIDSGFFWSAMQNAVDWRMDLVNCLIKSVVFAITVTWISLFNGYDAIPTSAGISRATTRTVVHSS  243 (260)
+T ss_pred             HHHHHHHHHHHHHhcCCCHHHHHHHHHHHhccchhHHHHHHHHHHHHHHHHHHHHHHHHhcCCCchhHHHHHHHHHHHHH
+Confidence            99999999999999999999999999999998 89999999999999999999999999999999999999999999999
+
+
+Q query           246 VALFAVNVVLTTIGV  260 (266)
+Q Consensus       246 v~I~i~d~~lt~i~~  260 (266)
+                      ++|+++|++++.+++
+T Consensus       244 v~i~v~d~~~s~~~~  258 (260)
+T 6ZY4_H          244 LAVLGLDFVLTALMF  258 (260)
+T ss_pred             HHHHHHHHHHHHHhh
+Confidence            999999999999765
+
+
+No 2
+>7CGE_A Lipid asymmetry maintenance ABC transporter; MEMBRANE PROTEIN; HET: PGW; 2.9A {Escherichia coli (strain K12)}
+Probab=100.00  E-value=1.8e-62  Score=449.28  Aligned_cols=252  Identities=21%  Similarity=0.327  Sum_probs=244.7  Template_Neff=6.700
+
+Q query             8 FVDYLRGQLEKPLATVGGFFKMSVMTGKALFTRPFQWKEFVLQSWFLIRVAFLPTL-AVSIPLTVLIIFTLNILLAEFGA   86 (266)
+Q Consensus         8 f~~~l~~~~~~~l~~~G~~~~l~~~~~~~~~~~p~~~~~~i~q~~~~~~v~~lpi~-~~~~~~~~~i~~q~~~~l~~fGa   86 (266)
+                      ..+++|++..+.+++++++..+..+++++.++++.+|+++.+|+| ++|++++|++ ++++++|++++.|.+++++++|+
+T Consensus         5 ~~~~~g~~~~~~~~~~g~~~~~~~~~l~~~~~~~~~~~~~~~q~~-~~g~~slpiv~~~s~~~G~v~~~q~~~~l~~~g~   83 (260)
+T 7CGE_A            5 ALASLGHKGIKTLRTFGRAGLMLFNALVGKPEFRKHAPLLVRQLY-NVGVLSMLIIVVSGVFIGMVLGLQGYLVLTTYSA   83 (260)
+T ss_dssp             THHHHHHHHHHHHHHHHHHHHHHHHHHSSCCCTTTSHHHHHHHHH-HTTGGGHHHHHHHHHHHHHHHHHHHHHHHTTTTC
+T ss_pred             HHHHhhHHHHHHHHHHHHHHHHHHHHHhcCCchhhcHHHHHHHHH-HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcCc
+Confidence            456788899999999999999999999888777779999999998 9999999999 99999999999999999999999
+
+
+Q query            87 ADVSGAGAALGAVTQLGPLVTVLVVAGAGSTAICADLGARTVREEIDALEVLGIDPIERLVVPRVVASTFVAFMLNGAVI  166 (266)
+Q Consensus        87 ~~~~g~~v~~~~vRElgPvltal~vagRvGsaiaAELGtMrVtEqIDAL~vmgidPv~~LVvPRvlA~~i~~P~Lt~~~~  166 (266)
+                      ++++|.+++.+++||++|++|+++++||+|++++||||+||++||+||||+||+||.+|+++||++|+++++|+|+++++
+T Consensus        84 ~~~~g~~~~~~~vrElgPlltal~vagR~Gsai~aElG~M~v~eeidAL~~mgi~p~~~Lv~PRvlA~~i~~p~Lt~~~~  163 (260)
+T 7CGE_A           84 ETSLGMLVALSLLRELGPVVAALLFAGRAGSALTAEIGLMRATEQLSSMEMMAVDPLRRVISPRFWAGVISLPLLTVIFV  163 (260)
+T ss_dssp             GGGHHHHHHHHHHTTTHHHHHHHHHHHHHHHHHHHHHHHHHHTTHHHHHHTTTCCHCCCCCHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcchhhhHhHHHHcCCChhHHhHHHHHHHHHHHHHHHHHHHH
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q query           167 TIGLVGGFFFGVYIQNVSAGAYVSTLTLLTGF-PEVLISVVKATLFGMIAGLVGCYRGLTVAGGSKGVGTAVNETLVLCV  245 (266)
+Q Consensus       167 ~~gi~gG~~v~~~~~~i~~~~y~~~~~~~~~~-~D~~~gliKa~vFG~iI~~i~Cy~Gl~~~gGa~GVG~att~aVV~s~  245 (266)
+                      .+++++||+++++..+.|+..|++++.+.+++ .|+..+++|+.+||++|++++||+|+++++|++|||+|+||++|.|+
+T Consensus       164 ~~~~~gg~~~~~~~~~~~~~~f~~~~~~~~~~~~d~~~~l~K~~~fg~~i~~i~cy~Gl~~~~g~~gVg~att~avV~s~  243 (260)
+T 7CGE_A          164 AVGIWGGSLVGVSWKGIDSGFFWSAMQNAVDWRMDLVNCLIKSVVFAITVTWISLFNGYDAIPTSAGISRATTRTVVHSS  243 (260)
+T ss_dssp             HHHHHHHHHHHTTTTCCCHHHHHHHHHTTCCCCCCCCHHHHHHHHHHHHHHHHHHHHHHTSCSSHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHhcCCCHHHHHHHHHHHhccchhHHHHHHHHHHHHHHHHHHHHHHHHhcCCCchhHHHHHHHHHHHHH
+Confidence            99999999999999999999999999999998 89999999999999999999999999999999999999999999999
+
+
+Q query           246 VALFAVNVVLTTIGV  260 (266)
+Q Consensus       246 v~I~i~d~~lt~i~~  260 (266)
+                      ++|+++|++++.+++
+T Consensus       244 v~i~v~d~~~s~~~~  258 (260)
+T 7CGE_A          244 LAVLGLDFVLTALMF  258 (260)
+T ss_dssp             HHHHHHHHHHHHHHC
+T ss_pred             HHHHHHHHHHHHHhh
+Confidence            999999999999765
+
+
+No 3
+>7D06_D Lipid asymmetry maintenance ABC transporter; MEMBRANE PROTEIN; HET: PGV; 3.1A {Acinetobacter baumannii}
+Probab=100.00  E-value=3.1e-61  Score=440.34  Aligned_cols=251  Identities=22%  Similarity=0.392  Sum_probs=245.3  Template_Neff=7.000
+
+Q query             8 FVDYLRGQLEKPLATVGGFFKMSVMTGKALFTRPFQWKEFVLQSWFLIRVAFLPTL-AVSIPLTVLIIFTLNILLAEFGA   86 (266)
+Q Consensus         8 f~~~l~~~~~~~l~~~G~~~~l~~~~~~~~~~~p~~~~~~i~q~~~~~~v~~lpi~-~~~~~~~~~i~~q~~~~l~~fGa   86 (266)
+                      ..+++|++..+.++++++++.|..+++++..+ |.+|+++.+|+| ++|++++|++ ++++++|++++.|.+++++++|+
+T Consensus         3 ~~~~~g~~~~~~~~~~g~~~~~~~~~~~~~~~-~~~~~~~~~q~~-~~g~~~lpiv~~~~~~~G~v~~~q~~~~l~~~g~   80 (258)
+T 7D06_D            3 TIAWLGRLVIERIRGIGVAALMLLQIIFSLPS-AGGFGRFVYQMH-RVGVMSLLIITVSGLFIGLVLGLQGYSILVNVGS   80 (258)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHHHSSCCC-TTHHHHHHHHHC-CCCCTTHHHHHHHHHHHHHHHHHHHHHHHTTTTC
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHhCcc-cccHHHHHHHHH-HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcCC
+Confidence            46788999999999999999999999988887 889999999999 9999999999 99999999999999999999999
+
+
+Q query            87 ADVSGAGAALGAVTQLGPLVTVLVVAGAGSTAICADLGARTVREEIDALEVLGIDPIERLVVPRVVASTFVAFMLNGAVI  166 (266)
+Q Consensus        87 ~~~~g~~v~~~~vRElgPvltal~vagRvGsaiaAELGtMrVtEqIDAL~vmgidPv~~LVvPRvlA~~i~~P~Lt~~~~  166 (266)
+                      ++++|.+++..++||++|++|++++|||+|++++||||+||++||+||||+||+||.+|+++||++|+++++|+|+++++
+T Consensus        81 ~~~~g~~~~~~~~rElgPlltalivagr~Gsai~aeLG~M~v~eeidAL~~mGidP~~ylv~PRvlA~~i~~p~L~~~~~  160 (258)
+T 7D06_D           81 ESMLGTMVSLTLLRELAPVVAALLFAGRAGSALTAEIGSMKQSEQLASMEMIGVDPLKQIVSPRLWAGIVSLPMLTVIFA  160 (258)
+T ss_dssp             GGGHHHHHHHHCCCCCHHHHHHHHHTTTTTTTHHHHHHHHHHTTHHHHHHHHTCCHCCCCCHHHHHHHHHHHHHHHHHHH
+T ss_pred             hhhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcchhHHHHHHHHcCCChHHHhHHHHHHHHHHHHHHHHHHHH
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q query           167 TIGLVGGFFFGVYIQNVSAGAYVSTLTLLTGF-PEVLISVVKATLFGMIAGLVGCYRGLTVAGGSKGVGTAVNETLVLCV  245 (266)
+Q Consensus       167 ~~gi~gG~~v~~~~~~i~~~~y~~~~~~~~~~-~D~~~gliKa~vFG~iI~~i~Cy~Gl~~~gGa~GVG~att~aVV~s~  245 (266)
+                      .+++++||+++++.++.|+..|++++.+.+++ .|+..+++|+.+||++|++++||+|+++++++++||+|++|+++.|+
+T Consensus       161 ~~~i~~g~~~~~~~~~~~~~~f~~~~~~~~~~~~d~~~~l~K~~~fg~~i~~iac~~Gl~~~~g~~~Vg~a~t~avv~s~  240 (258)
+T 7D06_D          161 AIGIVGGKLVGVDFLGVDEGSFWSGMQNNVQFGHDVVNGIIKSIVFALLCTWIAVFQGYACDPTPEGIATAMTRTVVYSS  240 (258)
+T ss_dssp             HHHHHHHHHHCCCCCCCCHHHHHHHHHHHCCCCCCCHHHHHHHHHHHHHHHHHHHHHHHTCCSSHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHhhcCCCHHHHHHHHHHhhcccccHHHHHHHHHHHHHHHHHHHHHHHHhcCCCcchHHHHHHHHHHHHH
+Confidence            99999999999999999999999999999999 99999999999999999999999999999999999999999999999
+
+
+Q query           246 VALFAVNVVLTTIGV  260 (266)
+Q Consensus       246 v~I~i~d~~lt~i~~  260 (266)
+                      ++|+++|++++.+++
+T Consensus       241 ~~ilv~d~~~s~~~~  255 (258)
+T 7D06_D          241 LCVLGFDFVLTAVMF  255 (258)
+T ss_dssp             HHHHHHHHHHHHHHC
+T ss_pred             HHHHHHHHHHHHHHh
+Confidence            999999999999765
+
+
+No 4
+>7CH8_H Mla complex, Lipid transporter, MEMBRANE; HET: AD9, LPP;{Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1)}
+Probab=100.00  E-value=1.5e-60  Score=437.62  Aligned_cols=258  Identities=22%  Similarity=0.336  Sum_probs=249.9  Template_Neff=6.700
+
+Q query             4 STDGFVDYLRGQLEKPLATVGGFFKMSVMTGKALFTRPFQWKEFVLQSWFLIRVAFLPTL-AVSIPLTVLIIFTLNILLA   82 (266)
+Q Consensus         4 ~~~~f~~~l~~~~~~~l~~~G~~~~l~~~~~~~~~~~p~~~~~~i~q~~~~~~v~~lpi~-~~~~~~~~~i~~q~~~~l~   82 (266)
+                      ++....+++|++..+.++++++++.|..+++++..+++.+|+++.+|+| ++|++++|++ ++++++|++++.|.+++++
+T Consensus         5 ~~~~~~~~~g~~~~~~l~~~g~~~~f~~~~~~~~~~~~~~~~~~~~Qi~-~~g~~sl~iv~~~s~~~G~v~~~q~~~~l~   83 (265)
+T 7CH8_H            5 SPLERIRLFGRAGLDVVAALGRSTLFLGHALLGRRTPGTGLHLLVKQLY-SVGVLSLAIIVVSGLFIGMVLALQGYNILI   83 (265)
+T ss_dssp             CHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSCCCTTCCHHHHHHHHC-CCCCTTHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             CHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhccCCCccHHHHHHHHH-HHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            4456778999999999999999999999999998888889999999999 9999999999 9999999999999999999
+
+
+Q query            83 EFGAADVSGAGAALGAVTQLGPLVTVLVVAGAGSTAICADLGARTVREEIDALEVLGIDPIERLVVPRVVASTFVAFMLN  162 (266)
+Q Consensus        83 ~fGa~~~~g~~v~~~~vRElgPvltal~vagRvGsaiaAELGtMrVtEqIDAL~vmgidPv~~LVvPRvlA~~i~~P~Lt  162 (266)
+                      ++|+++++|.+++..++||++|++|++++++|+|++++||||+||+|||+||||+||+||.+|+++||++|+++++|+|+
+T Consensus        84 ~~g~~~~vg~~~~~~~vrElgPlltallla~R~Gsai~aElg~M~v~eeidAL~~mgidP~~yLv~PR~lA~~i~~p~L~  163 (265)
+T 7CH8_H           84 SYGSEQAVGQMVALTLLRELGPVVTGLLFAGRAGSALTAEIGNMKATEQLSSLEMIGVDPLKYIVAPRLWAGFISMPLLA  163 (265)
+T ss_dssp             HHTCCTTHHHHHHHHCCCCCHHHHHHHHHHHSTTHHHHHHHHHHHHTTTTHHHHTTTCCHCCCCCHHHHHHHHTTHHHHH
+T ss_pred             hcCChhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcchhHHHHHHHHcCCCHHHHhHHHHHHHHHHHHHHHH
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q query           163 GAVITIGLVGGFFFGVYIQNVSAGAYVSTLTLLTGF-PEVLISVVKATLFGMIAGLVGCYRGLTVAGGSKGVGTAVNETL  241 (266)
+Q Consensus       163 ~~~~~~gi~gG~~v~~~~~~i~~~~y~~~~~~~~~~-~D~~~gliKa~vFG~iI~~i~Cy~Gl~~~gGa~GVG~att~aV  241 (266)
+                      ++++.+++++||+++++..+.|+..|++++.+.+++ .|+..+++|+.+||++|++++||+|+++++++++||+|++|++
+T Consensus       164 ~~~~~~~~~~g~~~~~~~~~~~~~~f~~~~~~~~~~~~d~~~~~~K~~~fg~~i~~iac~~G~~~~~g~~~Vg~att~av  243 (265)
+T 7CH8_H          164 AIFSVVGIWGGAMVAVDWLGVYEGSFWANMQNSVQFTEDVLNGVIKSIVFAFVVTWIAVYQGYDCEPTSEGISRATTRTV  243 (265)
+T ss_dssp             HHHHHHHHHHHHHHHTTTTCCCHHHHHHHHHHTCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHTSCSSHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHhhcCCCHHHHHHHHHHHcccchhHHHHHHHHHHHHHHHHHHHHHHHHhCCCCCcchhHHHHHHH
+Confidence            999999999999999999999999999999999999 9999999999999999999999999999999999999999999
+
+
+Q query           242 VLCVVALFAVNVVLTTIGVRF  262 (266)
+Q Consensus       242 V~s~v~I~i~d~~lt~i~~~~  262 (266)
+                      |.|+++|+++|.+++.+++..
+T Consensus       244 v~s~~~ilv~~~~~s~l~~~~  264 (265)
+T 7CH8_H          244 VYASLAVLGLDFILTALMFGD  264 (265)
+T ss_dssp             HHHHHHHHHHHHHHHHHCC--
+T ss_pred             HHHHHHHHHHHHHHHHHHhcc
+Confidence            999999999999999987654
+
+
+No 5
+>6IC4_H Toluene tolerance efflux transporter (ABC; Membrane protein Antibiotic resistance ABC; 8.7A {Acinetobacter baumannii}
+Probab=100.00  E-value=1.8e-60  Score=435.22  Aligned_cols=251  Identities=22%  Similarity=0.392  Sum_probs=244.8  Template_Neff=6.900
+
+Q query             8 FVDYLRGQLEKPLATVGGFFKMSVMTGKALFTRPFQWKEFVLQSWFLIRVAFLPTL-AVSIPLTVLIIFTLNILLAEFGA   86 (266)
+Q Consensus         8 f~~~l~~~~~~~l~~~G~~~~l~~~~~~~~~~~p~~~~~~i~q~~~~~~v~~lpi~-~~~~~~~~~i~~q~~~~l~~fGa   86 (266)
+                      ..+++|++..+.++++++++.|..+++++..+ |.+|+|+.+|++ ++|++++|++ ++++++|++++.|.+++++++|+
+T Consensus         3 ~~~~~g~~~~~~~~~~g~~~~~~~~~~~~~~~-~~~~~~~~~q~~-~~gv~slpiv~~~s~~~G~vi~~q~~~~l~~~g~   80 (257)
+T 6IC4_H            3 TIAWLGRLVIERIRGIGVAALMLLQIIFSLPS-AGGFGRFVYQMH-RVGVMSLLIITVSGLFIGLVLGLQGYSILVNVGS   80 (257)
+T ss_dssp             HHHHHCCCTTTCCSSGGGCSHHHHTTSTTCCC-CSCCTTHHHHHC-CCCCTHHHHHHHHHHHHHHHHHHHHHHHHHHTCT
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHhCcC-cccHHHHHHHHH-HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcCC
+Confidence            45688999999999999999999999988877 789999999999 9999999999 99999999999999999999999
+
+
+Q query            87 ADVSGAGAALGAVTQLGPLVTVLVVAGAGSTAICADLGARTVREEIDALEVLGIDPIERLVVPRVVASTFVAFMLNGAVI  166 (266)
+Q Consensus        87 ~~~~g~~v~~~~vRElgPvltal~vagRvGsaiaAELGtMrVtEqIDAL~vmgidPv~~LVvPRvlA~~i~~P~Lt~~~~  166 (266)
+                      ++++|.+++..++||++|++|++++++|+|++++||||+||+|||+||||+||+||++|+++||++|+++++|+|+++++
+T Consensus        81 ~~~~g~~~~~~~vrEl~P~ltali~agr~gsai~aelg~M~v~eeidAL~~~GidP~~~lv~PR~~A~~i~~p~L~~~~~  160 (257)
+T 6IC4_H           81 ESMLGTMVSLTLLRELAPVVAALLFAGRAGSALTAEIGSMKQSEQLASMEMIGVDPLKQIVSPRLWAGIVSLPMLTVIFA  160 (257)
+T ss_dssp             TSTTTTSSHHHCCCCCHHHHHHCCCCCHHHHHHHHHHHHCCCCCSHHHHHHHTCCHCCCCCHHHHGGGTSSHHHHHHHHH
+T ss_pred             hhhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcchhHHHHHHHHcCCCHHHHhHHHHHHHHHHHHHHHHHHHH
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q query           167 TIGLVGGFFFGVYIQNVSAGAYVSTLTLLTGF-PEVLISVVKATLFGMIAGLVGCYRGLTVAGGSKGVGTAVNETLVLCV  245 (266)
+Q Consensus       167 ~~gi~gG~~v~~~~~~i~~~~y~~~~~~~~~~-~D~~~gliKa~vFG~iI~~i~Cy~Gl~~~gGa~GVG~att~aVV~s~  245 (266)
+                      .+++++||+++++.++.++..|++++.+.+++ .|+..+++|+.+||++|++++||+|+++++++++||+|++|++|.|+
+T Consensus       161 ~~~~~~g~~~~~~~~~~~~~~f~~~~~~~~~~~~d~~~~~~K~~~fg~~i~liacy~G~~~~~~~~~Vg~a~t~avv~s~  240 (257)
+T 6IC4_H          161 AIGIVGGKLVGVDFLGVDEGSFWSGMQNNVQFGHDVVNGIIKSIVFALLCTWIAVFQGYACDPTPEGIATAMTRTVVYSS  240 (257)
+T ss_dssp             HHHHHTHHHHHHHHTCCCHHHHHHHHHHHHTHHHHHHHHHHHHHHHHHHHHHHHHHHHHTCCSSHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHhcCCCCHHHHHHHHHhhhcccccHHHHHHHHHHHHHHHHHHHHHHHHhcCCCcchHHHHHHHHHHHHH
+Confidence            99999999999999999999999999999999 99999999999999999999999999999999999999999999999
+
+
+Q query           246 VALFAVNVVLTTIGV  260 (266)
+Q Consensus       246 v~I~i~d~~lt~i~~  260 (266)
+                      ++++++|.+++.+++
+T Consensus       241 ~~i~v~~~~~s~l~~  255 (257)
+T 6IC4_H          241 LCVLGFDFVLTAVMF  255 (257)
+T ss_dssp             HHHHHHHHHHCCCCC
+T ss_pred             HHHHHHHHHHHHHHh
+Confidence            999999999999765
+
+
+No 6
+>6MJP_G ABC transporter ATP-binding protein (E.C.3.6.3.-); lipopolysaccharide transport, ABC-transporter, LIPID TRANSPORT; HET: AE3, MA4, JU7, GOL, LMT, PG4; 2.85A {Vibrio cholerae}
+Probab=23.98  E-value=75  Score=31.20  Aligned_cols=89  Identities=13%  Similarity=-0.004  Sum_probs=49.4  Template_Neff=9.500
+
+Q query            64 AVSIPLTVLIIFTLNILLAEFGAAD-VSGAGAALGAVTQLGPLVTVLVVAGAGSTAICADLGARTVREEIDALEVLGIDP  142 (266)
+Q Consensus        64 ~~~~~~~~~i~~q~~~~l~~fGa~~-~~g~~v~~~~vRElgPvltal~vagRvGsaiaAELGtMrVtEqIDAL~vmgidP  142 (266)
+                      ....+.++....+....+..+...+ ....+.  ...--.-|-..-.++---.--|..--++.|+-++|+.++++.|+++
+T Consensus        20 ~l~~l~~i~~~~~l~~~l~~~~~~~~~~~~~~--~~~~~~~P~~~~~~lP~a~lia~~~~~~~l~~~~El~al~a~GiS~   97 (356)
+T 6MJP_G           20 VLVTFVGLSGIIKYVEQLRKVGEGSYDLLQAL--LFVVLSIPRDVEMFFPMAALLGALIGLGALASSSELVVMQAAGFSK   97 (356)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHcCCCCHHHHH--HHHHhHHHHHHHHHHHHHHHHHHHHHHHHhccCccHHHHHHCCCCH
+Confidence            3344566666667766555543222 111121  1122222333333333333345666789999999999999999999
+
+
+Q query           143 IERLVVPRVVAS  154 (266)
+Q Consensus       143 v~~LVvPRvlA~  154 (266)
+                      .+.+.-+=+.+.
+T Consensus        98 ~~i~~p~l~~~i  109 (356)
+T 6MJP_G           98 LDIGLSVLKTAI  109 (356)
+T ss_pred             HHHHHHHHHHHH
+Confidence            776544433333
+
+
+No 7
+>6MIT_F Lipopolysaccharide export system ATP-binding protein; lipopolysaccharide transport, ABC-transporter, LIPID TRANSPORT; HET: NOV, SO4; 3.2A {Enterobacter cloacae subsp. cloacae (strain ATCC 13047 / DSM 30054 / NBRC 13535 / NCDC 279-56)}
+Probab=17.53  E-value=1.3e+02  Score=29.95  Aligned_cols=96  Identities=13%  Similarity=0.029  Sum_probs=52.8  Template_Neff=9.300
+
+Q query            64 AVSIPLTVLIIFTLNILLAEFGAADVSGAGAALGAVTQLGPLVTVLVVAGAGSTAICADLGARTVREEIDALEVLGIDPI  143 (266)
+Q Consensus        64 ~~~~~~~~~i~~q~~~~l~~fGa~~~~g~~v~~~~vRElgPvltal~vagRvGsaiaAELGtMrVtEqIDAL~vmgidPv  143 (266)
+                      ....+++..+..+....++.+...+.-...+.....-. -|-..-.++---.--+..--+|.|+-++|+.++++.|++|.
+T Consensus        18 ~l~~~~~i~~~~~~~~~l~~~~~~~~~~~~i~~~~~~~-~P~~l~~~lPia~lla~l~~l~~l~~~~El~al~a~GiS~~   96 (366)
+T 6MIT_F           18 ILFILLLIFFCQKLVKILGAAVDGEIPTNLVLSLLGLG-IPEMAQLILPLSLFLGLLMTLGKLYTESEITVMHACGLSKA   96 (366)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHcCCCCHHHHHHHHHHH-HhHHHHHHHHHHHHHHHHHHHHHhccccHHHHHHHCCCCHH
+Confidence            34455666677777666665533222211121211111 12222222222222244556899999999999999999998
+
+
+Q query           144 ERLVVPRVVASTFVAFM  160 (266)
+Q Consensus       144 ~~LVvPRvlA~~i~~P~  160 (266)
+                      +.+.-+=+.|..++...
+T Consensus        97 ~l~~p~l~~~~~~~~~~  113 (366)
+T 6MIT_F           97 VLVKAAMILALFTGIVA  113 (366)
+T ss_pred             HHHHHHHHHHHHHHHHH
+Confidence            77666655555554433
+
+
+No 8
+>6S8N_F Lipopolysaccharide ABC transporter, ATP-binding protein; lipopolysaccharide transporter, LPS, LptB2FGC, LptB; HET: DCQ, LMN, L0W, LMT; 3.1A {Shigella flexneri}
+Probab=16.64  E-value=1.4e+02  Score=29.77  Aligned_cols=93  Identities=14%  Similarity=0.054  Sum_probs=49.4  Template_Neff=9.200
+
+Q query            65 VSIPLTVLIIFTLNILLAEFGAADVSGAGAALGAVTQLGPLVTVLVVAGAGSTAICADLGARTVREEIDALEVLGIDPIE  144 (266)
+Q Consensus        65 ~~~~~~~~i~~q~~~~l~~fGa~~~~g~~v~~~~vRElgPvltal~vagRvGsaiaAELGtMrVtEqIDAL~vmgidPv~  144 (266)
+                      ...++++.+..+....+..+-..+.-...+..... -.-|...-.++-.-.--|...-+|.|.-++|+.++++.|++|.+
+T Consensus        19 ll~~~~l~~~~~~~~~l~~~~~~~~~~~~il~~~~-~~lP~~l~~~lPia~lla~~~~~~~l~~~~El~a~~a~GiS~~~   97 (366)
+T 6S8N_F           19 LFILLLIFFCQKLVRILGAAVDGDIPANLVLSLLG-LGVPEMAQLILPLSLFLGLLMTLGKLYTESEITVMHACGLSKAV   97 (366)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHcCCCCHHHHHHHHH-HHHHHHHHHHHHHHHHHHHHHHHHHHcccchHHHHHHCCCCHHH
+Confidence            34445666667766666554222221111111111 11222222222222233556678999999999999999999977
+
+
+Q query           145 RLVVPRVVASTFVA  158 (266)
+Q Consensus       145 ~LVvPRvlA~~i~~  158 (266)
+                      .+.-+=+.+..++.
+T Consensus        98 l~~p~l~~~~~~s~  111 (366)
+T 6S8N_F           98 LVKAAMILAVFTAI  111 (366)
+T ss_pred             HHHHHHHHHHHHHH
+Confidence            65544444444433
+
+
+No 9
+>1ABZ_A ALPHA-T-ALPHA, AMINO GROUP; DE NOVO DESIGN, HELIX-TURN-HELIX; NMR {N/A} SCOP: k.15.1.1
+Probab=15.60  E-value=1.5e+02  Score=20.73  Aligned_cols=18  Identities=39%  Similarity=0.534  Sum_probs=14.1  Template_Neff=1.000
+
+Q query           127 TVREEIDALEVLGIDPIE  144 (266)
+Q Consensus       127 rVtEqIDAL~vmgidPv~  144 (266)
+                      ++.+|+.|||+-|-|.-.
+T Consensus         7 rveqelqaleargtdsna   24 (40)
+T 1ABZ_A            7 RVEQELQALEARGTDSNA   24 (40)
+T ss_dssp             HHHHHHHHHHHTCSSCSS
+T ss_pred             HHHHHHHHHHHhCCCcHH
+Confidence            577888999988887643
+
+
+No 10
+>5X5Y_G Probable ATP-binding component of ABC; membrane protein, transporter; 3.465A {Pseudomonas aeruginosa PAO1}
+Probab=15.25  E-value=1.6e+02  Score=28.95  Aligned_cols=84  Identities=17%  Similarity=0.204  Sum_probs=47.2  Template_Neff=9.700
+
+Q query            64 AVSIPLTVLIIFTLNILLAEFGAADVSGAGAALGAVTQLGPLVTVLVVAGAGSTAICADLGARTVREEIDALEVLGIDPI  143 (266)
+Q Consensus        64 ~~~~~~~~~i~~q~~~~l~~fGa~~~~g~~v~~~~vRElgPvltal~vagRvGsaiaAELGtMrVtEqIDAL~vmgidPv  143 (266)
+                      ....+++.....+....+.++...  .+.....-..--.-|......+=--.--+...-++.|+-++|+.|+++.|++|.
+T Consensus        19 ~l~~l~~l~~~~~~~~~l~~~~~~--~~~~~i~~~~~~~~P~~l~~~lP~a~lla~l~~~~~l~~~~Ei~al~s~GiS~~   96 (355)
+T 5X5Y_G           19 VLGVILGLALLFAFIDELNDISAS--YGIGDALRFIFLTAPRRAYDMLPMAALIGCLVGLGTLASNSELTIMRAAGVSLS   96 (355)
+T ss_dssp             HHHHHHHHHHHHHHHHGGGCCCSS--SCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTTHHHHHHTTTCCHH
+T ss_pred             HHHHHHHHHHHHHHHHHHhhhcCC--CCHHHHHHHHHHHHHHHHHHHHhHHHHHHHHHHHHHHHhcCcHHHHHHcCCCHH
+Confidence            334456666667776666555211  111111122222233333333333333355667899999999999999999997
+
+
+Q query           144 ERLVVP  149 (266)
+Q Consensus       144 ~~LVvP  149 (266)
+                      +...-+
+T Consensus        97 rl~~p~  102 (355)
+T 5X5Y_G           97 RIVWAV  102 (355)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            755433
+
+

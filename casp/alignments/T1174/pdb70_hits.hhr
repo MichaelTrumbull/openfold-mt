@@ -1,0 +1,160 @@
+Query         query 
+Match_columns 338
+No_of_seqs    345 out of 1536
+Neff          6.2082
+Searched_HMMs 90139
+Date          Sun Jul 31 23:28:44 2022
+Command       /mnt/home/dberenberg/gustaf_stuff/openfold/lib/conda/envs/openfold_venv/bin/hhsearch -i /tmp/tmp9p4_jupu/query.a3m -o /tmp/tmp9p4_jupu/output.hhr -maxseq 1000000 -cpu 64 -d /mnt/home/dberenberg/gustaf_stuff/OpenFold/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7DC3_A auto-catalytic protease  68.8     4.1 4.5E-05   36.8   0.0   27  172-198    16-42  (179)
+  2 7DC3_C auto-catalytic protease  68.8     4.1 4.5E-05   36.8   0.0   27  172-198    16-42  (179)
+  3 5YHU_A Myelin regulatory facto  54.1      11 0.00013   37.7   0.0   25  172-196   231-255 (255)
+  4 5YHU_B Myelin regulatory facto  52.5      13 0.00014   37.4   0.0   25  172-196   231-255 (255)
+  5 7DC3_A auto-catalytic protease  37.2      32 0.00035   31.2   0.0   23   99-121    15-37  (179)
+  6 7DC3_C auto-catalytic protease  37.2      32 0.00035   31.2   0.0   23   99-121    15-37  (179)
+  7 4UFQ_B HYALURONIDASE (E.C.3.2.  24.8      71 0.00079   31.2   0.0   28   94-121   131-161 (217)
+  8 4UFQ_B HYALURONIDASE (E.C.3.2.  21.1      94   0.001   30.4   0.0   28  166-193   131-161 (217)
+  9 4UFQ_A HYALURONIDASE (E.C.3.2.  17.5 1.3E+02  0.0014   29.6   0.0   28   94-121   131-161 (217)
+ 10 4UFQ_A HYALURONIDASE (E.C.3.2.  14.8 1.6E+02  0.0018   28.9   0.0   28  166-193   131-161 (217)
+
+No 1
+>7DC3_A auto-catalytic protease, protein chaperone. trimeric; HET: MSE; 2.4A {Mus musculus}
+Probab=68.78  E-value=4.1  Score=36.82  Aligned_cols=27  Identities=30%  Similarity=0.533  Sum_probs=19.8  Template_Neff=9.800
+
+Q query           172 ISQAGNVGIGATAPTAKLEVAGTIHST  198 (338)
+Q Consensus       172 i~~~GNVGIGTTsP~~kL~V~G~i~~t  198 (338)
+                      |...|+||||+..|..+|+|.|.+...
+T Consensus        16 ~~~~g~~gi~t~~~~~~l~~~g~~~~~   42 (179)
+T 7DC3_A           16 VFHHGRVGINTDRPDEALVVHGNVKVM   42 (179)
+T ss_dssp             -----CEEESCSCCCSSEEESSCCCCS
+T ss_pred             eeEcCeEEecCCCCCceEEEcceEEEc
+Confidence            678899999999999999999987643
+
+
+No 2
+>7DC3_C auto-catalytic protease, protein chaperone. trimeric; HET: MSE; 2.4A {Mus musculus}
+Probab=68.78  E-value=4.1  Score=36.82  Aligned_cols=27  Identities=30%  Similarity=0.533  Sum_probs=14.8  Template_Neff=9.800
+
+Q query           172 ISQAGNVGIGATAPTAKLEVAGTIHST  198 (338)
+Q Consensus       172 i~~~GNVGIGTTsP~~kL~V~G~i~~t  198 (338)
+                      |...|+||||+..|..+|+|.|.+...
+T Consensus        16 ~~~~g~~gi~t~~~~~~l~~~g~~~~~   42 (179)
+T 7DC3_C           16 VFHHGRVGINTDRPDEALVVHGNVKVM   42 (179)
+T ss_dssp             ----------CCBTTBSCCCSSCCCCS
+T ss_pred             eeEcCeEEecCCCCCceEEEcceEEEc
+Confidence            678899999999999999999987643
+
+
+No 3
+>5YHU_A Myelin regulatory factor (E.C.3.4.-.-); myelingene regulatory factor, DNA-binding domain; 1.85A {Homo sapiens}
+Probab=54.08  E-value=11  Score=37.70  Aligned_cols=25  Identities=32%  Similarity=0.597  Sum_probs=0.0  Template_Neff=6.100
+
+Q query           172 ISQAGNVGIGATAPTAKLEVAGTIH  196 (338)
+Q Consensus       172 i~~~GNVGIGTTsP~~kL~V~G~i~  196 (338)
+                      +.-.|.|||++..|.+.|.|.|+|+
+T Consensus       231 ~~~~g~v~i~~~~p~~~l~v~g~~~  255 (255)
+T 5YHU_A          231 VFHHGRVGINTDRPDEALVVHGNVK  255 (255)
+T ss_dssp             -------------------------
+T ss_pred             EEEeCceeeCCCCCCccceeccCCC
+Confidence            4467999999999999999999874
+
+
+No 4
+>5YHU_B Myelin regulatory factor (E.C.3.4.-.-); myelingene regulatory factor, DNA-binding domain; 1.85A {Homo sapiens}
+Probab=52.46  E-value=13  Score=37.40  Aligned_cols=25  Identities=32%  Similarity=0.597  Sum_probs=0.0  Template_Neff=6.100
+
+Q query           172 ISQAGNVGIGATAPTAKLEVAGTIH  196 (338)
+Q Consensus       172 i~~~GNVGIGTTsP~~kL~V~G~i~  196 (338)
+                      +.-.|.|||+|..|.+.|.|.|+|+
+T Consensus       231 ~~~~g~vgi~t~~p~~~l~v~g~~~  255 (255)
+T 5YHU_B          231 VFHHGRVGINTDRPDEALVVHGNVK  255 (255)
+T ss_dssp             -------------------------
+T ss_pred             EEEcCceeeCCCCCCcccccccCCC
+Confidence            3456999999999999999999874
+
+
+No 5
+>7DC3_A auto-catalytic protease, protein chaperone. trimeric; HET: MSE; 2.4A {Mus musculus}
+Probab=37.20  E-value=32  Score=31.16  Aligned_cols=23  Identities=43%  Similarity=0.569  Sum_probs=15.7  Template_Neff=9.800
+
+Q query            99 TITNTGLVGINTAAPLQKLHVEN  121 (338)
+Q Consensus        99 ~I~~~GnVGIGTtsP~~kLhV~~  121 (338)
+                      .|...|+||||+..|..+|+|.+
+T Consensus        15 ~~~~~g~~gi~t~~~~~~l~~~g   37 (179)
+T 7DC3_A           15 TVFHHGRVGINTDRPDEALVVHG   37 (179)
+T ss_dssp             ------CEEESCSCCCSSEEESS
+T ss_pred             ceeEcCeEEecCCCCCceEEEcc
+Confidence            37788999999999999999864
+
+
+No 6
+>7DC3_C auto-catalytic protease, protein chaperone. trimeric; HET: MSE; 2.4A {Mus musculus}
+Probab=37.20  E-value=32  Score=31.16  Aligned_cols=23  Identities=43%  Similarity=0.569  Sum_probs=10.7  Template_Neff=9.800
+
+Q query            99 TITNTGLVGINTAAPLQKLHVEN  121 (338)
+Q Consensus        99 ~I~~~GnVGIGTtsP~~kLhV~~  121 (338)
+                      .|...|+||||+..|..+|+|.+
+T Consensus        15 ~~~~~g~~gi~t~~~~~~l~~~g   37 (179)
+T 7DC3_C           15 TVFHHGRVGINTDRPDEALVVHG   37 (179)
+T ss_dssp             -----------CCBTTBSCCCSS
+T ss_pred             ceeEcCeEEecCCCCCceEEEcc
+Confidence            37788999999999999999864
+
+
+No 7
+>4UFQ_B HYALURONIDASE (E.C.3.2.1.35); HYDROLASE; HET: SO4, GOL, PEG, MSE; 1.45A {Streptomyces koganeiensis}
+Probab=24.77  E-value=71  Score=31.19  Aligned_cols=28  Identities=21%  Similarity=0.545  Sum_probs=23.1  Template_Neff=2.300
+
+Q query            94 GTPRMTITNTGLVGINTA---APLQKLHVEN  121 (338)
+Q Consensus        94 gt~~m~I~~~GnVGIGTt---sP~~kLhV~~  121 (338)
+                      +..+|++..+|+||||..   .|..+|||..
+T Consensus       131 ~~D~F~V~gdGrvgiG~~~g~~prs~~~vvQ  161 (217)
+T 4UFQ_B          131 GLDDFVVKGTGRIGVGIDRAATPRAQVHIVQ  161 (217)
+T ss_dssp             TEESEEECTTSCEEESEETTCCCSSSEEECC
+T ss_pred             CCCcEEEeCCCeeeeecccCCCccceeeEEe
+Confidence            456788999999999974   6999999953
+
+
+No 8
+>4UFQ_B HYALURONIDASE (E.C.3.2.1.35); HYDROLASE; HET: SO4, GOL, PEG, MSE; 1.45A {Streptomyces koganeiensis}
+Probab=21.07  E-value=94  Score=30.43  Aligned_cols=28  Identities=25%  Similarity=0.622  Sum_probs=23.4  Template_Neff=2.300
+
+Q query           166 SSDKVVISQAGNVGIGA---TAPTAKLEVAG  193 (338)
+Q Consensus       166 ~~~~~~i~~~GNVGIGT---TsP~~kL~V~G  193 (338)
+                      .-+++.+..+|.||||.   ..|..+|||.-
+T Consensus       131 ~~D~F~V~gdGrvgiG~~~g~~prs~~~vvQ  161 (217)
+T 4UFQ_B          131 GLDDFVVKGTGRIGVGIDRAATPRAQVHIVQ  161 (217)
+T ss_dssp             TEESEEECTTSCEEESEETTCCCSSSEEECC
+T ss_pred             CCCcEEEeCCCeeeeecccCCCccceeeEEe
+Confidence            45789999999999996   46999999954
+
+
+No 9
+>4UFQ_A HYALURONIDASE (E.C.3.2.1.35); HYDROLASE; HET: PEG, SO4, MSE, GOL; 1.45A {STREPTOMYCES KOYANGENSIS}
+Probab=17.51  E-value=1.3e+02  Score=29.61  Aligned_cols=28  Identities=25%  Similarity=0.577  Sum_probs=22.7  Template_Neff=2.300
+
+Q query            94 GTPRMTITNTGLVGINT---AAPLQKLHVEN  121 (338)
+Q Consensus        94 gt~~m~I~~~GnVGIGT---tsP~~kLhV~~  121 (338)
+                      +-.+|++..+|.||||.   ..|..+|||..
+T Consensus       131 ~~D~F~VkgdG~vgiG~~~g~~pRs~~~VvQ  161 (217)
+T 4UFQ_A          131 GLDDFVVKGTGRIGVGIDRAATPRAQVHIVQ  161 (217)
+T ss_dssp             TEESEEECTTSCEEESEETTCCCSSSEEECC
+T ss_pred             CCCcEEEecCCcceeeccccCCchhheeEee
+Confidence            45678899999999997   46889999853
+
+
+No 10
+>4UFQ_A HYALURONIDASE (E.C.3.2.1.35); HYDROLASE; HET: PEG, SO4, MSE, GOL; 1.45A {STREPTOMYCES KOYANGENSIS}
+Probab=14.81  E-value=1.6e+02  Score=28.91  Aligned_cols=28  Identities=25%  Similarity=0.622  Sum_probs=23.2  Template_Neff=2.300
+
+Q query           166 SSDKVVISQAGNVGIGA---TAPTAKLEVAG  193 (338)
+Q Consensus       166 ~~~~~~i~~~GNVGIGT---TsP~~kL~V~G  193 (338)
+                      .-+++++..+|.||||.   ..|..+|||.=
+T Consensus       131 ~~D~F~VkgdG~vgiG~~~g~~pRs~~~VvQ  161 (217)
+T 4UFQ_A          131 GLDDFVVKGTGRIGVGIDRAATPRAQVHIVQ  161 (217)
+T ss_dssp             TEESEEECTTSCEEESEETTCCCSSSEEECC
+T ss_pred             CCCcEEEecCCcceeeccccCCchhheeEee
+Confidence            45789999999999996   56889999853
+
+

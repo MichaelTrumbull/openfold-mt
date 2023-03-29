@@ -1,0 +1,220 @@
+Query         query 
+Match_columns 418
+No_of_seqs    288 out of 2038
+Neff          5.967
+Searched_HMMs 90139
+Date          Sun Aug  7 20:04:26 2022
+Command       /mnt/home/dberenberg/gustaf_stuff/openfold/lib/conda/envs/openfold_venv/bin/hhsearch -i /tmp/tmp07398rpw/query.a3m -o /tmp/tmp07398rpw/output.hhr -maxseq 1000000 -cpu 28 -d /mnt/home/dberenberg/gustaf_stuff/OpenFold/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5JRB_B DNA repair protein RAD5 100.0 9.3E-50   1E-54  380.6   0.0  211    1-211     4-214 (215)
+  2 1H2I_C DNA REPAIR PROTEIN RAD5 100.0   1E-48 1.1E-53  372.1   0.0  209    1-209     1-209 (209)
+  3 5XS0_K DNA repair protein RAD5 100.0 1.1E-48 1.3E-53  373.3   0.0  211    1-211     4-214 (215)
+  4 6YJL_A Nucleoprotein; STRUCTUR  41.9      24 0.00027   25.3   0.0   22   23-44      4-25  (33)
+  5 4NZR_M PGT135 heavy chain, PGT  16.2 1.4E+02  0.0016   33.5   0.0   48  110-157    20-67  (416)
+  6 4XB6_E PhnG, PhnH, PhnI, PhnJ;  13.3 1.9E+02  0.0021   28.0   0.0   44  101-153    58-103 (150)
+  7 4KZY_C 40S Ribosomal Protein S  13.1   2E+02  0.0022   30.9   0.0   10   73-82     61-70  (278)
+  8 4KZZ_C 40S Ribosomal Protein S  13.1   2E+02  0.0022   30.9   0.0   10   73-82     61-70  (278)
+  9 3OAK_C Transcription factor IW  12.6 2.1E+02  0.0023   20.2   0.0   13   70-82      8-20  (31)
+ 10 3OAK_D Transcription factor IW  11.4 2.4E+02  0.0026   19.9   0.0   13   70-82      8-20  (31)
+
+No 1
+>5JRB_B DNA repair protein RAD52 homolog; DNA annealing protein, ssDNA binding; 2.405A {Homo sapiens}
+Probab=100.00  E-value=9.3e-50  Score=380.61  Aligned_cols=211  Identities=99%  Similarity=1.499  Sum_probs=177.4  Template_Neff=6.500
+
+Q query             1 MSGTEEAILGGRDSHPAAGGGSVLCFGQCQYTAEEYQAIQKALRQRLGPEYISSRMAGGGQKVCYIEGHRVINLANEMFG   80 (418)
+Q Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~~~fg~~~~t~ee~~~i~~~L~~~l~pe~is~R~~~gg~~~~Yi~g~~~i~lAN~iFG   80 (418)
+                      |||++||++||+++|++++.|++.+||..+|+++++++|++.|+++|++++|++|++++|..+.||++++||++||++||
+T Consensus         4 ~~~~~~~~~~~~~~~~~~~~~~~~~~g~~~~s~e~~~~i~~~L~~~l~pe~i~~R~~~~g~~~~Yl~~~~vielaN~vFG   83 (215)
+T 5JRB_B            4 MSGTEEAILGGRDSHPAAGGGSVLCFGQCQYTAEEYQAIQKALRQRLGPEYISSRMAGGGQKVCYIEGHRVINLANEMFG   83 (215)
+T ss_dssp             ------------------------CTTSCCCCHHHHHHHHHHHHCCBCGGGCEEEECTTSSEEEECCHHHHHHHHHHHHC
+T ss_pred             CCcccccccCCCCCCCCCCCCcccccccCCCCHHHHHHHHHHHHcccCHHHeEeccCCCCCceeeecHHHHHHHHHHHhC
+Confidence            89999999999999999999999999999999999999999999999999999999988889999999999999999999
+
+
+Q query            81 YNGWAHSITQQNVDFVDLNNGKFYVGVCAFVRVQLKDGSYHEDVGYGVSEGLKSKALSLEKARKEAVTDGLKRALRSFGN  160 (418)
+Q Consensus        81 ~~gWs~~i~~~~~d~~d~~~g~~~vg~~a~vrv~l~dG~~hedvG~g~~~~~~~k~~a~~~a~K~AvtDalKRalr~FG~  160 (418)
+                      |+|||++|+.+++++.+...++|.|+|+|+|+|+|+||++|+++|+|..++..++++|+++|+|+|+||||||||++||+
+T Consensus        84 f~GWS~eI~~~~~~~~~~~~~~~~v~v~~~VrItlkdG~~~e~~G~g~~~~~~~k~~a~~~A~K~AvtdAlKRA~~~FG~  163 (215)
+T 5JRB_B           84 YNGWAHSITQQNVDFVDLNNGAFYVGVCAFVRVQLKDGSYHEDVGYGVSEGLASKALSLEKARKEAVTDGLKRALRSFGN  163 (215)
+T ss_dssp             TTTEEEEEEEEEEEEEEEETTEEEEEEEEEEEEEETTSCEEEEEEEEEEEEESCHHHHHHHHHHHHHHHHHHHHHHTTCG
+T ss_pred             CCCceeEEEeeeeeeEecCCCeEEEEEEEEEEEEECCCcEEcceeEeecccccchhhhHHHHHHHHHHHHHHHHHHHHHH
+Confidence            99999999999988887778999999999999999999999999999988777899999999999999999999999999
+
+
+Q query           161 ALGNCILDKDYLRSLNKLPRQLPLEVDLTKAKRQDLEPSVEEARYNSCRPN  211 (418)
+Q Consensus       161 ~lGn~lydk~~~~~~~k~~~~~p~~~~~~~~~r~~~~p~~~~~r~~s~~~~  211 (418)
+                      +||+||||+++++.+++++++++..+|.++++|.+++|.++++|++||.++
+T Consensus       164 ~lG~~Lyd~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  214 (215)
+T 5JRB_B          164 ALGNCILDKDYLRSLNKLPRQLPLEVDLTKAKRQDLEPSVEAARYNSCRPN  214 (215)
+T ss_dssp             GGTGGGGCHHHHHHHHTSCCCCCCCCCCTTCBCSSCCHHHHHHHHHTC---
+T ss_pred             HHHhhhcCHHHHHHHhcCCCCCCCCCChhHhccCCCChhHHHHHHhhcccC
+Confidence            999999999999999999987778899999999999999999999999875
+
+
+No 2
+>1H2I_C DNA REPAIR PROTEIN RAD52 HOMOLOG; DNA-BINDING PROTEIN, DNA REPAIR, DNA; 2.7A {HOMO SAPIENS} SCOP: d.50.1.3
+Probab=100.00  E-value=1e-48  Score=372.12  Aligned_cols=209  Identities=100%  Similarity=1.512  Sum_probs=177.6  Template_Neff=6.700
+
+Q query             1 MSGTEEAILGGRDSHPAAGGGSVLCFGQCQYTAEEYQAIQKALRQRLGPEYISSRMAGGGQKVCYIEGHRVINLANEMFG   80 (418)
+Q Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~~~fg~~~~t~ee~~~i~~~L~~~l~pe~is~R~~~gg~~~~Yi~g~~~i~lAN~iFG   80 (418)
+                      |||++||++||+++||+++..+...||+++|+++++++|++.|+++|++++|++|++++|..+.||+++++|++||++||
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~~~~g~~~~s~~~~~~i~~~L~~pl~~~~I~~R~~~gg~~~~Yl~~~~vi~~aN~vFG   80 (209)
+T 1H2I_C            1 MSGTEEAILGGRDSHPAAGGGSVLCFGQCQYTAEEYQAIQKALRQRLGPEYISSRMAGGGQKVCYIEGHRVINLANEMFG   80 (209)
+T ss_dssp             -----------------------CCTTCCCCCHHHHHHHHHHHHCCBCTTTEEEEECTTSCEEEEECHHHHHHHHHHHHC
+T ss_pred             CCcchhcccCCCCCCCCCCCCCCcccccCCCCHHHHHHHHHHHhcccCHHHeEEccCCCCCceeecCHHHHHHHHHHHhC
+Confidence            89999999999999999999999999999999999999999999999999999999988889999999999999999999
+
+
+Q query            81 YNGWAHSITQQNVDFVDLNNGKFYVGVCAFVRVQLKDGSYHEDVGYGVSEGLKSKALSLEKARKEAVTDGLKRALRSFGN  160 (418)
+Q Consensus        81 ~~gWs~~i~~~~~d~~d~~~g~~~vg~~a~vrv~l~dG~~hedvG~g~~~~~~~k~~a~~~a~K~AvtDalKRalr~FG~  160 (418)
+                      |+|||++|+.+.+++.+...++|.|+|+|+|+|+++||++++++|+|..++..+++.|+++|+|.|+||||||||++||+
+T Consensus        81 f~GWS~eI~~~~~~~~~~~~~~~~v~v~~~VrVtlkdG~~~e~~G~g~~~~~~~k~~a~~~A~K~A~tdAlKRA~~~fG~  160 (209)
+T 1H2I_C           81 YNGWAHSITQQNVDFVDLNNGKFYVGVCAFVRVQLKDGSYHEDVGYGVSEGLKSKALSLEKARKEAVTDGLKRALRSFGN  160 (209)
+T ss_dssp             TTSEEEEEEEEEEEEEEESSSSEEEEEEEEEEEEETTSCEEEEEEEEEEESCSCHHHHHHHHHHHHHHHHHHHHHHTTCG
+T ss_pred             CCCceeEEEEeEeeeEeCCCCeEEEEEEEEEEEEECCCcEEecEEEEeccccccccccHHHHHHHHHHHHHHHHHHHHHH
+Confidence            99999999999988877777899999999999999999999999999988767899999999999999999999999999
+
+
+Q query           161 ALGNCILDKDYLRSLNKLPRQLPLEVDLTKAKRQDLEPSVEEARYNSCR  209 (418)
+Q Consensus       161 ~lGn~lydk~~~~~~~k~~~~~p~~~~~~~~~r~~~~p~~~~~r~~s~~  209 (418)
+                      +||+||||++|++.++++++..+..+|.+++.|.+.+|.++++|++||.
+T Consensus       161 ~lG~~Lyd~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  209 (209)
+T 1H2I_C          161 ALGNCILDKDYLRSLNKLPRQLPLEVDLTKAKRQDLEPSVEEARYNSCR  209 (209)
+T ss_dssp             GGTGGGGCHHHHHHHHSSCCCCCCCCCCTTCBCSSCCHHHHHHHHTTCC
+T ss_pred             HHHHhhcCHHHHHHHhcCCCCCCCCCCHHHhccCCCCcchhHHhhhhcC
+Confidence            9999999999999999998876778999999999999999999999873
+
+
+No 3
+>5XS0_K DNA repair protein RAD52 homolog/DNA; Protein-DNA complex, ssDNA annealing protein; 3.0A {Homo sapiens}
+Probab=100.00  E-value=1.1e-48  Score=373.25  Aligned_cols=211  Identities=100%  Similarity=1.516  Sum_probs=176.9  Template_Neff=6.700
+
+Q query             1 MSGTEEAILGGRDSHPAAGGGSVLCFGQCQYTAEEYQAIQKALRQRLGPEYISSRMAGGGQKVCYIEGHRVINLANEMFG   80 (418)
+Q Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~~~fg~~~~t~ee~~~i~~~L~~~l~pe~is~R~~~gg~~~~Yi~g~~~i~lAN~iFG   80 (418)
+                      |||++||++||+++||+++..+...||+++|+++++++|++.|+++|++++|++|++.+|..+.||+++++|++||+|||
+T Consensus         4 ~~~~~~~~~~~~~~~~~~~~~~~~~~g~~~fs~~~~~~i~~~L~~~l~~~~I~~R~~~gg~~~~Yl~~~~vi~laN~vFG   83 (215)
+T 5XS0_K            4 MSGTEEAILGGRDSHPAAGGGSVLCFGQCQYTAEEYQAIQKALRQRLGPEYISSRMAGGGQKVCYIEGHRVINLANEMFG   83 (215)
+T ss_dssp             ------------------------CTTTCCCCHHHHHHHHHHTTCCBCTTTEEEEECTTSCEEEEECHHHHHHHHHHHHC
+T ss_pred             CCcccccccCCCCCCCCCCCCCCccccCCCCCHHHHHHHHHHHhcccCHHHeEEccCCCCCceeecCHHHHHHHHHHHhC
+Confidence            89999999999999999999999999999999999999999999999999999999988889999999999999999999
+
+
+Q query            81 YNGWAHSITQQNVDFVDLNNGKFYVGVCAFVRVQLKDGSYHEDVGYGVSEGLKSKALSLEKARKEAVTDGLKRALRSFGN  160 (418)
+Q Consensus        81 ~~gWs~~i~~~~~d~~d~~~g~~~vg~~a~vrv~l~dG~~hedvG~g~~~~~~~k~~a~~~a~K~AvtDalKRalr~FG~  160 (418)
+                      |+|||++|+.+.+++.+...++|.|+|+|+|+|+++||++++++|+|..++..++++|+++|+|.|+||||||||++||+
+T Consensus        84 f~GWS~eI~~~~~~~~~~~~~~~~v~v~~~VrItl~dG~~~e~~G~g~~~~~~~k~~a~~~A~K~A~TDAlKRA~~~fG~  163 (215)
+T 5XS0_K           84 YNGWAHSITQQNVDFVDLNNGKFYVGVCAFVRVQLKDGSYHEDVGYGVSEGLKSKALSLEKARKEAVTDGLKRALRSFGN  163 (215)
+T ss_dssp             TTTEEEEEEEEEEEEEEEETTEEEEEEEEEEEEEETTSCEEEEEEEEEEEEESCHHHHHHHHHHHHHHHHHHHHHHTTCG
+T ss_pred             CCCceeEEEEeeeeeEeCCCCeEEEEEEEEEEEEECCCcEEccEEEEeeccccchhccHHHHHHHHHHHHHHHHHHHHHH
+Confidence            99999999999988877777899999999999999999999999999988777899999999999999999999999999
+
+
+Q query           161 ALGNCILDKDYLRSLNKLPRQLPLEVDLTKAKRQDLEPSVEEARYNSCRPN  211 (418)
+Q Consensus       161 ~lGn~lydk~~~~~~~k~~~~~p~~~~~~~~~r~~~~p~~~~~r~~s~~~~  211 (418)
+                      +||+||||++|++.+++++++.+..+|.+++.|.+.+|.++++|++||.++
+T Consensus       164 ~lG~~Lyd~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  214 (215)
+T 5XS0_K          164 ALGNCILDKDYLRSLNKLPRQLPLEVDLTKAKRQDLEPSVEEARYNSCRPN  214 (215)
+T ss_dssp             GGTSGGGCHHHHHHHHTSCCCCCCCCCGGGCBCSSCCHHHHHHHHTTC---
+T ss_pred             HHHHhhcCHHHHHHHhcCCCCCCCCCCHHHcccCCCCcchHHHHHhhcccc
+Confidence            999999999999999999887777899999999999999999999999875
+
+
+No 4
+>6YJL_A Nucleoprotein; STRUCTURE FROM CYANA Nuclear Magnetic; NMR {Human respiratory syncytial virus A (strain A2)}
+Probab=41.88  E-value=24  Score=25.29  Aligned_cols=22  Identities=36%  Similarity=0.519  Sum_probs=16.4  Template_Neff=2.000
+
+Q query            23 VLCFGQCQYTAEEYQAIQKALR   44 (418)
+Q Consensus        23 ~~~fg~~~~t~ee~~~i~~~L~   44 (418)
+                      ...|....+|+||.++|...|+
+T Consensus         4 ~IN~saL~LT~eErEa~~~~Ln   25 (33)
+T 6YJL_A            4 VINYSVLDLTAEELEAIKHQLN   25 (33)
+T ss_dssp             CCCCCCCSCCHHHHHHHHHTCS
+T ss_pred             ccchhhcCCCHHHHHHHHHHhC
+Confidence            4456667789999988877765
+
+
+No 5
+>4NZR_M PGT135 heavy chain, PGT135 light; Leucine-rich repeat, broad antibody-binding, block; HET: GOL; 1.65A {Homo sapiens}
+Probab=16.16  E-value=1.4e+02  Score=33.52  Aligned_cols=48  Identities=23%  Similarity=0.375  Sum_probs=29.1  Template_Neff=3.300
+
+Q query           110 FVRVQLKDGSYHEDVGYGVSEGLKSKALSLEKARKEAVTDGLKRALRS  157 (418)
+Q Consensus       110 ~vrv~l~dG~~hedvG~g~~~~~~~k~~a~~~a~K~AvtDalKRalr~  157 (418)
+                      ...|.|.||.|...+..|...+...+-..+.+-.-+|+|||-|..++-
+T Consensus        20 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   67 (416)
+T 4NZR_M           20 HMSLSLNDGSYQSEIDLSGGANFREKFRNFANELSEAITNSPKGLDRP   67 (416)
+T ss_dssp             --GGGTCCSCEEEEEECTTCSCCHHHHHHHHHHHHHHHHHSCBCSSSC
+T ss_pred             cceEEecCCceeeeEeCCCCchhHHHHHHHHHHHHHHHhcCCCCCCCC
+Confidence            355667788887655555444444444455566677888877766554
+
+
+No 6
+>4XB6_E PhnG, PhnH, PhnI, PhnJ; protein complex, transferase; HET: SO4, CME; 1.7A {Escherichia coli str. K-12 substr. MG1655}
+Probab=13.31  E-value=1.9e+02  Score=27.97  Aligned_cols=44  Identities=30%  Similarity=0.533  Sum_probs=23.6  Template_Neff=6.300
+
+Q query           101 GKFYVGV--CAFVRVQLKDGSYHEDVGYGVSEGLKSKALSLEKARKEAVTDGLKR  153 (418)
+Q Consensus       101 g~~~vg~--~a~vrv~l~dG~~hedvG~g~~~~~~~k~~a~~~a~K~AvtDalKR  153 (418)
+                      ..|++|=  .+.+.|.+.+|.    .|||..-+     ....+|.-.|+-||+-.
+T Consensus        58 ~~F~lGEv~VT~~~V~l~~g~----~G~g~v~G-----~d~~~A~~~Av~DA~l~  103 (150)
+T 4XB6_E           58 ERFFAGDATLTRAAVRLTDGT----LGYSWVQG-----RDKQHAERCALIDALMQ  103 (150)
+T ss_dssp             SEEEEEEEEEEEEEEEETTSC----EEEEEEES-----SCHHHHHHHHHHHHHTT
+T ss_pred             CeEEEEEEEEEEEEEEeCCCC----ceeEEEEc-----CCHHHHHHHHHHHHHHc
+Confidence            3455542  334455554554    67776543     23345666677776655
+
+
+No 7
+>4KZY_C 40S Ribosomal Protein SA, 40S; ribosome, 40S, translation initiation; 7.01A {Oryctolagus cuniculus}
+Probab=13.07  E-value=2e+02  Score=30.94  Aligned_cols=10  Identities=10%  Similarity=0.374  Sum_probs=5.0  Template_Neff=5.600
+
+Q query            73 NLANEMFGYN   82 (418)
+Q Consensus        73 ~lAN~iFG~~   82 (418)
+                      .-+++||.|+
+T Consensus        61 ~sl~ei~~~~   70 (278)
+T 4KZY_C           61 KSLEEIYLFS   70 (278)
+T ss_dssp             CCHHHHHHHT
+T ss_pred             ccHHHHHhcC
+Confidence            3455666443
+
+
+No 8
+>4KZZ_C 40S Ribosomal Protein SA, 40S; ribosome, translation initiation; 7.0305A {Oryctolagus cuniculus}
+Probab=13.07  E-value=2e+02  Score=30.94  Aligned_cols=10  Identities=10%  Similarity=0.374  Sum_probs=5.0  Template_Neff=5.600
+
+Q query            73 NLANEMFGYN   82 (418)
+Q Consensus        73 ~lAN~iFG~~   82 (418)
+                      .-+++||.|+
+T Consensus        61 ~sl~ei~~~~   70 (278)
+T 4KZZ_C           61 KSLEEIYLFS   70 (278)
+T ss_dssp             CCHHHHHHHT
+T ss_pred             ccHHHHHhcC
+Confidence            3455666443
+
+
+No 9
+>3OAK_C Transcription factor IWS1, Transcription elongation; Transcription factor complex, Nucleus, TRANSCRIPTION; 2.15A {Saccharomyces cerevisiae}
+Probab=12.57  E-value=2.1e+02  Score=20.20  Aligned_cols=13  Identities=23%  Similarity=0.404  Sum_probs=4.2  Template_Neff=5.700
+
+Q query            70 RVINLANEMFGYN   82 (418)
+Q Consensus        70 ~~i~lAN~iFG~~   82 (418)
+                      ..++-+++|||..
+T Consensus         8 ~al~ea~eIFGd~   20 (31)
+T 3OAK_C            8 DKIDEMYDIFGDG   20 (31)
+T ss_dssp             --------HHCCS
+T ss_pred             HHHHHHHHHHCCc
+Confidence            4567789999976
+
+
+No 10
+>3OAK_D Transcription factor IWS1, Transcription elongation; Transcription factor complex, Nucleus, TRANSCRIPTION; 2.15A {Saccharomyces cerevisiae}
+Probab=11.39  E-value=2.4e+02  Score=19.94  Aligned_cols=13  Identities=23%  Similarity=0.404  Sum_probs=9.9  Template_Neff=5.600
+
+Q query            70 RVINLANEMFGYN   82 (418)
+Q Consensus        70 ~~i~lAN~iFG~~   82 (418)
+                      ..++-+++|||..
+T Consensus         8 ~a~~e~~eIFGd~   20 (31)
+T 3OAK_D            8 DKIDEMYDIFGDG   20 (31)
+T ss_dssp             GHHHHHHHHHTTS
+T ss_pred             HHHHHHHHHHCCc
+Confidence            3567789999975
+
+

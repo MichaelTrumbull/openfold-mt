@@ -1,0 +1,58 @@
+>query 
+QLEDSEVEAVAKGLEEMYANGVTEDNFKNYVKNNFAQQEISSVEEELNVNISDSCVANKIKDEFFAMISISAIVKAAQKKAWKELAVTVLRFAKANGLKTNAIIVAGQLALWAVQCG
+>UniRef90_D4EWB0/22-77 [subseq from] Streptococcin A-M57 n=56 Tax=Bacilli TaxID=91061 RepID=D4EWB0_ENTFL
+QLEDSEVEAVAKGLEEMYANGVTEDNFKNYVKNNFAQQEISSVEKELNVNISDAST-------------------------------------------------------------
+>UniRef90_D4EWB0/79-153 [subseq from] Streptococcin A-M57 n=56 Tax=Bacilli TaxID=91061 RepID=D4EWB0_ENTFL
+------------------------------------------VQARFNWNALGSCVANKIKDEFFAMISISAIVKAAQKKAWKELAVTVLRFAKANGLKTNAIIVAGQLALWAVQCG
+>UniRef90_A0A455TWS1/37-90 [subseq from] Uncharacterized protein n=2 Tax=Enterococcus TaxID=1350 RepID=A0A455TWS1_ENTFC
+QIKNSEVDTVAQGLEQMFSNGVSEENFKNYVNANFSSEEITKSEKELDVNLSNT---------------------------------------------------------------
+>UniRef90_A0A455TWS1/92-168 [subseq from] Uncharacterized protein n=2 Tax=Enterococcus TaxID=1350 RepID=A0A455TWS1_ENTFC
+----------------------------------------SPIQARVNWNGLGQCMANKIKDEFFAMINVGAIVAAAQKKAWKELAMTVLIFAKANGLKTNALIVAGQLAVWAVQCG
+>UniRef90_A0A2X3SLP5/47-173 [subseq from] Uncharacterized protein n=4 Tax=Streptococcus equi TaxID=1336 RepID=A0A2X3SLP5_STRSZ
+---SQEVDQVAQALELMFDNNVSTSNFKKYVNNNFSDSEIAIAELELESRISNSrsefrvawnemggCIAGKIRDEFFAMISVGTIVKYAQKKAWKELALVVLKFVKANGLKTNAIIVAGQLALWAVQCG
+>UniRef90_A0A0B7L564/46-171 [subseq from] Uncharacterized protein n=3 Tax=Streptococcus TaxID=1301 RepID=A0A0B7L564_STREE
+--EQKQIDDVANVLEQMFRNGVNEKNFTEYVYKNFSQKDIALAENELETNINNpydrvpwdemgGCIAGKIRDEFFAMINVSLIVKYAQKKAWSELAKVVLRFVKANGLKTNIYIIAGQLAIWAVQCG
+>UniRef90_N2AN04/43-105 [subseq from] Uncharacterized protein n=6 Tax=Bacteria TaxID=2 RepID=N2AN04_9LACO
+---DPEVAVVAQELEKIFANGVSQENLNRYVLKNFSNKELTVAEKELDVNYNPFSLQSKNDNDSLH---------------------------------------------------
+>UniRef90_N2AN04/116-180 [subseq from] Uncharacterized protein n=6 Tax=Bacteria TaxID=2 RepID=N2AN04_9LACO
+----------------------------------------------------GQCMYNKIKDEFFAMVNIGVIVKYAKKKAWKELAKVVIRFAKGAGVRTNAAIVAAQLAVWAVQCG
+>UniRef90_G0IAM1/3-122 [subseq from] Uncharacterized protein n=14 Tax=Streptococcus TaxID=1301 RepID=G0IAM1_STRES
+--------DVANVLDQMFRNGVNEKNFTEYVYKNFSQKDIALAENKLETNINNlydrvpwdemgGCIARKIREEFFAMTNVSLIVKYAQKKAWLELAKVVLRFVKANGLKTNIYIIAGQLAIWAVQCG
+>UniRef90_UPI001AE362FD/1-38 [subseq from] hypothetical protein n=1 Tax=Lactobacillus colini TaxID=1819254 RepID=UPI001AE362FD
+----------------MFSNGVTENNLKNYVNENYDSRDISTAEKELNTSLKKT---------------------------------------------------------------
+>UniRef90_UPI001AE362FD/51-118 [subseq from] hypothetical protein n=1 Tax=Lactobacillus colini TaxID=1819254 RepID=UPI001AE362FD
+-------------------------------------------------NKFGNCMVNEIKDEFFAMINVATIVKYAKKKSWKKLAGVVLKFAKANGLKTNVAIIAGQLAVWAIKCG
+>UniRef90_A0A556UDB4/39-91 [subseq from] Streptococcin A-M57 n=1 Tax=Lactobacillus sp. LL6 TaxID=2596827 RepID=A0A556UDB4_9LACO
+--QSQDVDTVATELQKMFAHGVSQENLNKYAKENFSKQELQAASRELDVNYLANT--------------------------------------------------------------
+>UniRef90_A0A556UDB4/106-173 [subseq from] Streptococcin A-M57 n=1 Tax=Lactobacillus sp. LL6 TaxID=2596827 RepID=A0A556UDB4_9LACO
+-------------------------------------------------NSMGKCMYNKIKDELFAMVNVGVIVKYAKKKAWKELAKVVIRVAKGAGVKTNAILVAGQLAVWAVACG
+>UniRef90_Q6DRR6/45-97 [subseq from] Streptococcin A-M57 n=2 Tax=Streptococcus pyogenes TaxID=1314 RepID=Q6DRR6_STRPY
+--EQRQIDEVAAVLEKMFADGVTEENLKQYAQANYSEEELIIADNELNTNLSQIQ--------------------------------------------------------------
+>UniRef90_Q6DRR6/111-176 [subseq from] Streptococcin A-M57 n=2 Tax=Streptococcus pyogenes TaxID=1314 RepID=Q6DRR6_STRPY
+---------------------------------------------------LGNCMANKIKDELLAMISVGTIIKYAQKKAWKELAKIVIKYVAKAGVKTNAALIAGQLAIWGLQCG
+>UniRef90_A0A7T9MD32/3-49 [subseq from] Uncharacterized protein n=2 Tax=Streptococcus dysgalactiae TaxID=1334 RepID=A0A7T9MD32_STRDY
+--------EVAAVLEKMFADGVTEENLKQYAQANYSEEELIIADNELNTNLSQIQ--------------------------------------------------------------
+>UniRef90_A0A7T9MD32/64-128 [subseq from] Uncharacterized protein n=2 Tax=Streptococcus dysgalactiae TaxID=1334 RepID=A0A7T9MD32_STRDY
+----------------------------------------------------GNCMANKIKDELLAMISVGTIIKYAQKKAWKELAKIVIKYVAKAGVKTNAALIAGQLAIWGLQCG
+>UniRef90_UPI0013568C51/5-47 [subseq from] streptococcin A-M57 n=1 Tax=Streptococcus halichoeri TaxID=254785 RepID=UPI0013568C51
+----------AAVLEKMFAKGVTEENFKQYAQANYSEEELMIADREMNTNLSQ----------------------------------------------------------------
+>UniRef90_UPI0013568C51/57-128 [subseq from] streptococcin A-M57 n=1 Tax=Streptococcus halichoeri TaxID=254785 RepID=UPI0013568C51
+---------------------------------------------KMDWNALGSYMANKIKDELLAMISIGTIITYAKRKAWKELATIVIKYVAKAWVRTNVAFIAGQLAIWGLQCG
+>UniRef90_A0A2W5AUB7/35-105 [subseq from] Uncharacterized protein n=1 Tax=Streptococcus pyogenes TaxID=1314 RepID=A0A2W5AUB7_STRPY
+----------------------------------------------TDWNALGSCMANKIKDELLAMISIGTIITYAKRKAWKELATIVIKYVAKAGVRTHAAFIAGQLAIWGLQCG
+>UniRef90_UPI001ADFB72F/23-77 [subseq from] hypothetical protein n=1 Tax=Lactobacillus johnsonii TaxID=33959 RepID=UPI001ADFB72F
+--------------------------------------------------------------EFFAMVNIGLIVKYAKKKAWKELAKVVIRFAKGAGVRTNAAIVAAQLAVWAVQCG
+>UniRef90_A0A0T8BK14/1-49 [subseq from] Uncharacterized protein n=1 Tax=Streptococcus pneumoniae TaxID=1313 RepID=A0A0T8BK14_STREE
+------------------------------------------------------------------MINVLLIVKYAQKKAWSELAKVVLRFVKANGLKTNIYIISAQLAIWAVQ--
+>UniRef90_A0A081PZB4/76-160 [subseq from] Streptococcin A-M57 n=1 Tax=Streptococcus mitis TaxID=28037 RepID=A0A081PZB4_STRMT
+--EQKQIDDVANVLEQMFRNGVNEKNFTEYVYKNFSQKDIALSENELETNINNpydrvpwdemgGCIAGKIRDEFFAMINVSLIVKY-----------------------------------------
+>UniRef90_A0A508Z6A3/54-101 [subseq from] Uncharacterized protein n=9 Tax=Lactobacillaceae TaxID=33958 RepID=A0A508Z6A3_LACRH
+------EQAVAKELEKMFVDGDIENLNIDYLIAKYGKDEIQATERFIGISENES---------------------------------------------------------------
+>UniRef90_A0A508Z6A3/119-183 [subseq from] Uncharacterized protein n=9 Tax=Lactobacillaceae TaxID=33958 RepID=A0A508Z6A3_LACRH
+----------------------------------------------------GNCMLGKLGEEIRSMVNVNTIVAYIDKKLWLEAAKAIVAKVAAQGIKRNAAVMATVLAWYAVQCG
+>UniRef90_A0A2N8LAA9/38-171 [subseq from] Uncharacterized protein n=1 Tax=Streptococcus penaeicida TaxID=1765960 RepID=A0A2N8LAA9_9STRE
+--SQSEVDAVAIEFEKLFSNGIiiSGNNYSinyDYLNNNYTSEEIQAfinlmASSELSPissgrrkrSISSfvVCMKDKAVSDIADMFKVSAFVSFVQRKAWKEAAKFAVSWLAKNGIKRNVAATAALLSWYGIQC-
+>UniRef90_A0A6G0I736/257-304 [subseq from] Ubiquitin carboxyl-terminal hydrolase 37 n=1 Tax=Larimichthys crocea TaxID=215358 RepID=A0A6G0I736_LARCR
+------------------------------------LKEHTNPKEERFPNINQSCYMNSILQSLFAMVNLITDIM-CQKPVWSSV--------------------------------
+>UniRef90_A0A133S201/1-70 [subseq from] Uncharacterized protein n=1 Tax=Streptococcus mitis TaxID=28037 RepID=A0A133S201_STRMT
+----------------MFRNGVNEKNFTECVYKNFSQKDIALAENKLETNINNlydrvpwdemgGCIARKIREEFFAMTNVSLTVR------------------------------------------

@@ -1,0 +1,159 @@
+Query         query 
+Match_columns 1424
+No_of_seqs    31 out of 41
+Neff          3.06204
+Searched_HMMs 90139
+Date          Wed Jun 29 04:37:24 2022
+Command       /mnt/home/dberenberg/gustaf_stuff/openfold/lib/conda/envs/openfold_venv/bin/hhsearch -i /tmp/tmp76vgn87g/query.a3m -o /tmp/tmp76vgn87g/output.hhr -maxseq 1000000 -cpu 64 -d /mnt/home/dberenberg/gustaf_stuff/OpenFold/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3JAJ_2 Ribosomal protein uL2,    4.9 7.3E+02  0.0081   22.3   0.0   12    7-18     20-31  (31)
+  2 4XPM_A Meh1, Ycr075w, SLM4; EG   4.7 7.8E+02  0.0086   23.2   0.0   15  292-306    25-39  (39)
+  3 1WJ4_A KIAA0794 protein; UBX d   3.1 1.3E+03   0.014   24.9   0.0   33  978-1010   41-74  (124)
+  4 4E1P_B Protein lsr2; anti-para   2.9 1.4E+03   0.015   23.2   0.0   27  980-1007   20-46  (61)
+  5 7C5Z_A Phosphoprotein; SVCV, P   2.9 1.4E+03   0.015   24.7   0.0   20 1365-1393   11-30  (86)
+  6 4JDO_B Virulence plasmid prote   2.8 1.5E+03   0.016   28.0   0.0   39  983-1024   55-93  (219)
+  7 4JDO_F Virulence plasmid prote   2.8 1.5E+03   0.016   28.0   0.0   39  983-1024   55-93  (219)
+  8 2KXJ_A UBX domain-containing p   2.4 1.8E+03   0.019   22.4   0.0   22  979-1000   11-32  (90)
+  9 5V77_A Uncharacterized protein   2.4 1.8E+03    0.02   24.9   0.0   20 1041-1060   26-45  (113)
+ 10 6Z3X_B DesAb-anti-HSA-P1; prot   2.3 1.9E+03   0.021   22.2   0.0   17  627-643   115-131 (137)
+
+No 1
+>3JAJ_2 Ribosomal protein uL2, Ribosomal protein; mammalian, SRP, translocation, translation, RIBOSOME; HET: MG;{Oryctolagus cuniculus}
+Probab=4.90  E-value=7.3e+02  Score=22.31  Aligned_cols=12  Identities=50%  Similarity=0.838  Sum_probs=8.3  Template_Neff=1.100
+
+Q query             7 LLVSSLFLASIL   18 (1424)
+Q Consensus         7 L~l~slFl~si~   18 (1424)
+                      |+.+.+||+||+
+T Consensus        20 lvmsl~fias~v   31 (31)
+T 3JAJ_2           20 LVMSLLFIASMV   31 (31)
+T ss_pred             HHHHHHHHHhcC
+Confidence            456777888764
+
+
+No 2
+>4XPM_A Meh1, Ycr075w, SLM4; EGO complex, Ego1, Ego2, Ego3; 2.4A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=4.67  E-value=7.8e+02  Score=23.18  Aligned_cols=15  Identities=40%  Similarity=0.638  Sum_probs=11.8  Template_Neff=4.600
+
+Q query           292 FQLNYSVPGPLTINM  306 (1424)
+Q Consensus       292 FqLNys~PGPltvnf  306 (1424)
+                      =||.-..||||+|+|
+T Consensus        25 ~ql~v~~~g~L~vtl   39 (39)
+T 4XPM_A           25 SQSQVNKPGPLTVPF   39 (39)
+T ss_dssp             HHTCCCCSSCSEECC
+T ss_pred             HhccccCCCCceecC
+Confidence            366678899999875
+
+
+No 3
+>1WJ4_A KIAA0794 protein; UBX domain, beta-Grasp fold, Structural; NMR {Homo sapiens} SCOP: d.15.1.2
+Probab=3.11  E-value=1.3e+03  Score=24.95  Aligned_cols=33  Identities=15%  Similarity=0.244  Sum_probs=23.9  Template_Neff=8.200
+
+Q query           978 GFIKSISVTLSNGTTVVIPLTTSN-MQTLFPQLV 1010 (1424)
+Q Consensus       978 G~itsItVt~~NGtte~I~Ls~~N-vstLf~s~~ 1010 (1424)
+                      .....|.|+|+||......+..+- |..|+.-+.
+T Consensus        41 ~~~~~I~iRlpdG~~i~~~f~~~~tl~~L~~~i~   74 (124)
+T 1WJ4_A           41 GPKAQLMLRYPDGKREQITLPEQAKLLALVKHVQ   74 (124)
+T ss_dssp             SCEEEEEEECTTSCEEEEEEETTSCHHHHHHHHH
+T ss_pred             CCEEEEEEECCCCCEEEEEECCCCcHHHHHHHHH
+Confidence            578899999999998777665543 556655544
+
+
+No 4
+>4E1P_B Protein lsr2; anti-parallel beta sheet, dimer, DNA; 1.728A {Mycobacterium tuberculosis}
+Probab=2.94  E-value=1.4e+03  Score=23.23  Aligned_cols=27  Identities=30%  Similarity=0.338  Sum_probs=21.6  Template_Neff=5.500
+
+Q query           980 IKSISVTLSNGTTVVIPLTTSNMQTLFP 1007 (1424)
+Q Consensus       980 itsItVt~~NGtte~I~Ls~~NvstLf~ 1007 (1424)
+                      ...|...+ ||..+.|.|+.-|..+|-.
+T Consensus        20 ~~tv~F~~-dG~~YeIDLs~~na~~l~~   46 (61)
+T 4E1P_B           20 DETVEFGL-DGVTYEIDLSTKNATKLRG   46 (61)
+T ss_dssp             SEEEEEEE-TTEEEEEEECHHHHHHHHH
+T ss_pred             ceEEEEEE-cCceEEEeCCHHHHHHHHH
+Confidence            34566666 9999999999999988744
+
+
+No 5
+>7C5Z_A Phosphoprotein; SVCV, P protein, Central domain; HET: MSE; 1.5A {Spring viremia of carp virus}
+Probab=2.93  E-value=1.4e+03  Score=24.72  Aligned_cols=20  Identities=35%  Similarity=0.675  Sum_probs=14.0  Template_Neff=1.400
+
+Q query          1365 PALGIGTSVPNLLVYVQLQGISNLPAGKY 1393 (1424)
+Q Consensus      1365 P~lgpGv~l~~~~v~~q~~gis~lpsg~y 1393 (1424)
+                      -.+|||+++|         +||....|.|
+T Consensus        11 lgfgpgvvvp---------sisn~~ggty   30 (86)
+T 7C5Z_A           11 LGFGPGIVMP---------SVSNHEGGTY   30 (86)
+T ss_dssp             SSSSTTCCCC---------EEEEETTEEE
+T ss_pred             ccCCCceeec---------ceecCCCCee
+Confidence            3579999998         5666666655
+
+
+No 6
+>4JDO_B Virulence plasmid protein pGP3-D; virulence factor, secreted protein, chlamydia; 2.3A {Chlamydia trachomatis}
+Probab=2.79  E-value=1.5e+03  Score=27.96  Aligned_cols=39  Identities=21%  Similarity=0.354  Sum_probs=31.8  Template_Neff=1.700
+
+Q query           983 ISVTLSNGTTVVIPLTTSNMQTLFPQLVGQELQACNGTFQFG 1024 (1424)
+Q Consensus       983 ItVt~~NGtte~I~Ls~~NvstLf~s~~~~e~~~C~g~f~~~ 1024 (1424)
+                      |+++-.+++.-+|.+   -+++-|......|.-+|+|+|.-+
+T Consensus        55 ~~it~~~~~~asi~~---~~~kAFk~f~i~~kIqCnGLFTk~   93 (219)
+T 4JDO_B           55 LTVSNNSSTNASITI---GLLKAFNNFPITNKIQCNGLFTPS   93 (219)
+T ss_dssp             EEEECSCSSSEEEEE---EECCCEEEEEECSCEEECCCBCTT
+T ss_pred             EEEEcCCCcceEEEE---EechhhcccccCcceEeCCccccc
+Confidence            555556667777777   689999999999999999999765
+
+
+No 7
+>4JDO_F Virulence plasmid protein pGP3-D; virulence factor, secreted protein, chlamydia; HET: MSE; 2.3A {Chlamydia trachomatis}
+Probab=2.79  E-value=1.5e+03  Score=27.96  Aligned_cols=39  Identities=21%  Similarity=0.354  Sum_probs=31.8  Template_Neff=1.700
+
+Q query           983 ISVTLSNGTTVVIPLTTSNMQTLFPQLVGQELQACNGTFQFG 1024 (1424)
+Q Consensus       983 ItVt~~NGtte~I~Ls~~NvstLf~s~~~~e~~~C~g~f~~~ 1024 (1424)
+                      |+++-.+++.-+|.+   -+++-|......|.-+|+|+|.-+
+T Consensus        55 ~~it~~~~~~asi~~---~~~kAFk~f~i~~kIqCnGLFTk~   93 (219)
+T 4JDO_F           55 LTVSNNSSTNASITI---GLLKAFNNFPITNKIQCNGLFTPS   93 (219)
+T ss_dssp             EEEECSSTTCEEEEE---EECCCEEEEEECCCEEECCEECTT
+T ss_pred             EEEecCCCCceEEEE---EeehhhccccCCCceEeCCccCcc
+Confidence            555556667777777   689999999999999999999765
+
+
+No 8
+>2KXJ_A UBX domain-containing protein 4; UBXD2, UBX, VCP, p97, PROTEIN; NMR {Homo sapiens}
+Probab=2.40  E-value=1.8e+03  Score=22.40  Aligned_cols=22  Identities=14%  Similarity=0.332  Sum_probs=16.3  Template_Neff=8.600
+
+Q query           979 FIKSISVTLSNGTTVVIPLTTS 1000 (1424)
+Q Consensus       979 ~itsItVt~~NGtte~I~Ls~~ 1000 (1424)
+                      ..+.|.|+|+||......+..+
+T Consensus        11 ~~~~I~vRlpdG~~i~~~F~~~   32 (90)
+T 2KXJ_A           11 TVARIQFRLPDGSSFTNQFPSD   32 (90)
+T ss_dssp             SEEEEEEECTTSCEEEEEEESS
+T ss_pred             CEEEEEEECCCCCeEEEEeCCC
+Confidence            4678999999998766655443
+
+
+No 9
+>5V77_A Uncharacterized protein; SSGCID, Neisseria gonorrhoeae, uncharacterized protein; 1.85A {Neisseria gonorrhoeae}
+Probab=2.38  E-value=1.8e+03  Score=24.91  Aligned_cols=20  Identities=20%  Similarity=0.441  Sum_probs=17.4  Template_Neff=1.400
+
+Q query          1041 LNNSILSVTYHDYVTGETLT 1060 (1424)
+Q Consensus      1041 LNgS~LtItY~D~ITG~Tvt 1060 (1424)
+                      =||..|..++.|.|+|+.+-
+T Consensus        26 ~~G~~~~L~FTDTI~G~~~G   45 (113)
+T 5V77_A           26 DNGNTLTLSFTDTIEGNYFG   45 (113)
+T ss_dssp             TTTTEEEEEEEESSSCCEEE
+T ss_pred             CCCCEEEEEEEceeccceeE
+Confidence            37889999999999999764
+
+
+No 10
+>6Z3X_B DesAb-anti-HSA-P1; protein design, artificial antibody, specific; HET: CAC; 1.74A {synthetic construct}
+Probab=2.29  E-value=1.9e+03  Score=22.21  Aligned_cols=17  Identities=47%  Similarity=0.735  Sum_probs=14.0  Template_Neff=11.000
+
+Q query           627 DFGLWGNLTSVTVSAYD  643 (1424)
+Q Consensus       627 dFgiW~n~TtVtVtG~d  643 (1424)
+                      ++..|++.|.++|.++-
+T Consensus       115 ~~~~~~~~t~~~~~~~~  131 (137)
+T 6Z3X_B          115 EFDYWGQGTLVTVSSDH  131 (137)
+T ss_dssp             CCSEECCCEEEEECCCC
+T ss_pred             EEEEeccceEEEecCCC
+Confidence            57789999999998863
+
+

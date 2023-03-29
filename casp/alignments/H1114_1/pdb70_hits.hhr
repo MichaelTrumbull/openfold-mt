@@ -1,0 +1,157 @@
+Query         query 
+Match_columns 189
+No_of_seqs    113 out of 127
+Neff          4.35549
+Searched_HMMs 90139
+Date          Sat May 21 17:00:38 2022
+Command       /mnt/home/dberenberg/gustaf_stuff/openfold/lib/conda/envs/openfold_venv/bin/hhsearch -i /tmp/tmprcqst9vu/query.a3m -o /tmp/tmprcqst9vu/output.hhr -maxseq 1000000 -cpu 64 -d /mnt/home/dberenberg/gustaf_stuff/OpenFold/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7NRC_A 40S ribosomal protein S  35.7      35 0.00039   36.4   0.0   19   22-40    153-171 (1209)
+  2 2LO0_B Uncharacterized protein  17.0 1.3E+02  0.0015   23.9   0.0   21   25-45     50-70  (75)
+  3 2KOG_A Vesicle-associated memb  10.7 2.6E+02  0.0029   22.9   0.0   48   30-78     27-75  (119)
+  4 2N85_A Spiderine-1a; Spider ve   9.8 2.9E+02  0.0032   19.7   0.0   20  165-184    21-40  (41)
+  5 7JZW_J CRISPR type I-F/YPEST-a   9.4 3.1E+02  0.0034   22.4   0.0   43  136-179    34-76  (100)
+  6 4V98_BV Small nuclear ribonucl   7.7 4.1E+02  0.0045   23.8   0.0   50  123-188   191-241 (247)
+  7 4O8W_D Spore germination prote   6.5   5E+02  0.0056   22.5   0.0   15  161-175    56-70  (125)
+  8 4LN0_C Transcriptional enhance   6.3 5.3E+02  0.0058   19.8   0.0    7  180-186    39-45  (58)
+  9 2LNM_A Protein TIC 40, chlorop   6.3 5.3E+02  0.0059   17.6   0.0   21   24-44     13-33  (62)
+ 10 1Y74_A lin 7 homolog b, Periph   6.1 5.5E+02  0.0061   19.7   0.0   16  168-183     4-19  (57)
+
+No 1
+>7NRC_A 40S ribosomal protein S0-A, 40S; Ribosome, Disome, GCN1, Translation, GAAC; HET: 5CT; 3.9A {Saccharomyces cerevisiae S288C}
+Probab=35.72  E-value=35  Score=36.35  Aligned_cols=19  Identities=21%  Similarity=0.382  Sum_probs=15.2  Template_Neff=1.000
+
+Q query            22 VDGIRRRLDDPQVAEALNS   40 (189)
+Q Consensus        22 ~d~L~~RLdDP~vAaaL~~   40 (189)
+                      +.-|.++|-+|.|..++..
+T Consensus       153 lgilmekllnptvassmrk  171 (1209)
+T 7NRC_A          153 LGILMEKLLNPTVASSMRK  171 (1209)
+T ss_pred             HHHHHHHhhCHhhHhhhhh
+Confidence            3457899999999988764
+
+
+No 2
+>2LO0_B Uncharacterized protein; dimerization, homodimerization, PROTEIN BINDING; NMR {Aspergillus fumigatus}
+Probab=17.04  E-value=1.3e+02  Score=23.85  Aligned_cols=21  Identities=33%  Similarity=0.477  Sum_probs=17.7  Template_Neff=3.700
+
+Q query            25 IRRRLDDPQVAEALNSLLDHA   45 (189)
+Q Consensus        25 L~~RLdDP~vAaaL~~LLDha   45 (189)
+                      |.+||.|+..++-|..|..++
+T Consensus        50 L~QRlkDe~eA~~L~~lFr~A   70 (75)
+T 2LO0_B           50 LEQRLKDYDEANKLRVLFKEA   70 (75)
+T ss_dssp             HHHHHCCHHHHHHHHHHHHHH
+T ss_pred             HHHHcCCHHHHHHHHHHHHHH
+Confidence            678999999999998887654
+
+
+No 3
+>2KOG_A Vesicle-associated membrane protein 2; synaptobrevin, VAMP2, DPC micelle, SNARE; NMR {Rattus norvegicus}
+Probab=10.71  E-value=2.6e+02  Score=22.86  Aligned_cols=48  Identities=15%  Similarity=0.255  Sum_probs=37.3  Template_Neff=7.200
+
+Q query            30 DDPQVAEALNSLLDHADLL-AVLVKGLDGFVRRGDDIANNLTSAIGELKA   78 (189)
+Q Consensus        30 dDP~vAaaL~~LLDhaDLL-A~Lv~gLDGllrRgD~I~dslas~v~ElR~   78 (189)
+                      .||+....+..+-.+.|=+ ..+..-++.++.|++.+-+ +..-.++|..
+T Consensus        27 ~~~~~~dkl~~l~~ev~evk~im~~Ni~kll~RgekLe~-L~~kse~L~~   75 (119)
+T 2KOG_A           27 PNLTSNRRLQQTQAQVDEVVDIMRVNVDKVLERDQKLSE-LDDRADALQA   75 (119)
+T ss_pred             CChHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH-HHHHHHHHHH
+Confidence            7888888888888887766 6677789999999999854 5555556654
+
+
+No 4
+>2N85_A Spiderine-1a; Spider venom, N-terminal end, DPC; NMR {N/A}
+Probab=9.84  E-value=2.9e+02  Score=19.75  Aligned_cols=20  Identities=10%  Similarity=0.268  Sum_probs=17.2  Template_Neff=2.100
+
+Q query           165 AAKDPDVGRGVSYLIEVARV  184 (189)
+Q Consensus       165 ~lKDPDV~RgLgfli~vAra  184 (189)
+                      +.|..+|+.++.|-.++++-
+T Consensus        21 lakNknvkka~K~Gkqla~n   40 (41)
+T 2N85_A           21 LSKNKNFKKALKFGKQLAKN   40 (41)
+T ss_dssp             HHHTTHHHHHHHHHHHHHHT
+T ss_pred             HHcChhHHHHHHHHHHHHhc
+Confidence            57899999999999888763
+
+
+No 5
+>7JZW_J CRISPR type I-F/YPEST-associated protein Csy1; CRISPR, HYDROLASE;{Pseudomonas aeruginosa}
+Probab=9.43  E-value=3.1e+02  Score=22.42  Aligned_cols=43  Identities=19%  Similarity=0.313  Sum_probs=29.4  Template_Neff=1.000
+
+Q query           136 ALGDALVAARTSAPPAPRGVRGMWKTLRAAAKDPDVGRGVSYLI  179 (189)
+Q Consensus       136 ~lg~alveg~~aa~~~p~~~~Glf~llR~~lKDPDV~RgLgfli  179 (189)
+                      .+|.+|-.|+.+......+-+|+.|...- +......-+||||-
+T Consensus        34 gvggalhhgrvemvegengyfglrgathp-tekeamaaalgylw   76 (100)
+T 7JZW_J           34 GVGGALHHGRVEMVEGENGYFGLRGATHP-TEKEAMAAALGYLW   76 (100)
+T ss_dssp             SSSSCSSSCCEEEEECSSSCEEESSCEES-SHHHHHHHHHHHHH
+T ss_pred             CCcccceeceEEEEecCCceeeecCCCCC-cHHHHHHHHHHHHH
+Confidence            34778888887776666666676665553 55566777888864
+
+
+No 6
+>4V98_BV Small nuclear ribonucleoprotein Sm D1; Complex, Assembly Machinery, SPLICING; HET: SO4; 3.1A {Homo sapiens}
+Probab=7.72  E-value=4.1e+02  Score=23.80  Aligned_cols=50  Identities=10%  Similarity=0.123  Sum_probs=31.3  Template_Neff=8.700
+
+Q query           123 DSLTDQRGAEVLSALGDALVAARTSAPPAPRGVRGMWKTLRAAAKDPDVGRGVSYLIE-VARVFGSK  188 (189)
+Q Consensus       123 ~sl~dp~~v~vl~~lg~alveg~~aa~~~p~~~~Glf~llR~~lKDPDV~RgLgfli~-vArafGr~  188 (189)
+                      +..+++++...|..+++....-+......                +++....+..+|. |++.||++
+T Consensus       191 d~pL~~d~~s~LR~L~r~c~~~r~~~~~~----------------~~~~~~~l~~ii~Ii~~~FgQ~  241 (247)
+T 4V98_BV         191 HLPLEPHVFSTLRYIARTCIHLRNQLKED----------------EVQRAAPYNLLLTLTVQVFAQN  241 (247)
+T ss_pred             CCCCCHHHHHHHHHHHHHHHHHHHHcchh----------------hhHHHHHHHHHHHHHHHHHcCc
+Confidence            34567777888888888776554433211                3445566665555 78888874
+
+
+No 7
+>4O8W_D Spore germination protein; superhelical rope fold, scaffold, spore; 2.293A {Geobacillus kaustophilus}
+Probab=6.54  E-value=5e+02  Score=22.53  Aligned_cols=15  Identities=40%  Similarity=0.492  Sum_probs=10.4  Template_Neff=4.400
+
+Q query           161 TLRAAAKDPDVGRGV  175 (189)
+Q Consensus       161 llR~~lKDPDV~RgL  175 (189)
+                      +++.+.|||++|.-+
+T Consensus        56 l~K~LMKDPeYQk~M   70 (125)
+T 4O8W_D           56 MMRALMKDPDYQALM   70 (125)
+T ss_dssp             HHHHHTTSHHHHHHH
+T ss_pred             HHHHHHhCHHHHHHH
+Confidence            344468888888765
+
+
+No 8
+>4LN0_C Transcriptional enhancer factor TEF-3, Transcription; TEA/ATTS domain family, Vestigial/Tondu family; HET: PEG, GOL; 2.896A {Mus musculus}
+Probab=6.33  E-value=5.3e+02  Score=19.83  Aligned_cols=7  Identities=29%  Similarity=0.681  Sum_probs=3.4  Template_Neff=2.900
+
+Q query           180 EVARVFG  186 (189)
+Q Consensus       180 ~vArafG  186 (189)
+                      +|||++|
+T Consensus        39 HFAKALG   45 (58)
+T 4LN0_C           39 HFAKALG   45 (58)
+T ss_dssp             HHHHHHT
+T ss_pred             HHHHHhh
+Confidence            4455554
+
+
+No 9
+>2LNM_A Protein TIC 40, chloroplastic; translocon, import, chloroplast, Tic40-NP, PROTEIN; NMR {Arabidopsis thaliana}
+Probab=6.29  E-value=5.3e+02  Score=17.56  Aligned_cols=21  Identities=19%  Similarity=0.357  Sum_probs=13.7  Template_Neff=9.000
+
+Q query            24 GIRRRLDDPQVAEALNSLLDH   44 (189)
+Q Consensus        24 ~L~~RLdDP~vAaaL~~LLDh   44 (189)
+                      .+.+.+.||++.+.++.+..+
+T Consensus        13 ~~~~~~~dP~~~~~~~~~~~~   33 (62)
+T 2LNM_A           13 DVAMAFQNPRVQAALMECSEN   33 (62)
+T ss_dssp             HHHHHTTSHHHHHHHHHHTTC
+T ss_pred             HHHHHHcCHHHHHHHHHHHhC
+Confidence            445567788887777765544
+
+
+No 10
+>1Y74_A lin 7 homolog b, Peripheral; L27 domain, scaffold protein, protein; NMR {Mus musculus} SCOP: a.194.1.1
+Probab=6.13  E-value=5.5e+02  Score=19.66  Aligned_cols=16  Identities=38%  Similarity=0.565  Sum_probs=13.3  Template_Neff=3.100
+
+Q query           168 DPDVGRGVSYLIEVAR  183 (189)
+Q Consensus       168 DPDV~RgLgfli~vAr  183 (189)
+                      ++||+|++..|-.+-|
+T Consensus         4 ~~Di~RaieLLe~lq~   19 (57)
+T 1Y74_A            4 ERDVSRAVELLERLQR   19 (57)
+T ss_dssp             HHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHH
+Confidence            7899999998877655
+
+

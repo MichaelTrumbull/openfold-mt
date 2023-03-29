@@ -1,0 +1,68 @@
+>query
+EDSWTSLEHILWPFTRLRHNGPPPV
+>tr|I3N865|I3N865_ICTTR Lymphoid restricted membrane protein OS=Ictidomys tridecemlineatus OX=43179 GN=LRMP PE=4 SV=2
+GDSWLSLEHILWPFTSLCHNGPPPV
+>tr|F1N4X8|F1N4X8_BOVIN Lymphoid restricted membrane protein OS=Bos taurus OX=9913 GN=LRMP PE=4 SV=1
+GDPWMSLEHILWPFTRLRHNGPPPV
+>tr|Q3U560|Q3U560_MOUSE Uncharacterized protein OS=Mus musculus OX=10090 GN=Lrmp PE=2 SV=1
+GDSWLSLEHILWPFTRLGHDGPPPV
+>tr|F1M1R8|F1M1R8_RAT Uncharacterized protein OS=Rattus norvegicus OX=10116 PE=1 SV=3
+GDSWMSLEHIFWPLTRLGHDGPPPV
+>tr|A0A2Y9KWF7|A0A2Y9KWF7_ENHLU lymphoid-restricted membrane protein isoform X1 OS=Enhydra lutris kenyoni OX=391180 GN=LOC111159949 PE=4 SV=1
+GDSWMSLEQILWPFTRLQHNGPPPV
+>tr|H0V623|H0V623_CAVPO Lymphoid restricted membrane protein OS=Cavia porcellus OX=10141 GN=LRMP PE=4 SV=2
+GDSWISLEHILWPFTGLQHNGPPPV
+>tr|G1TAL7|G1TAL7_RABIT Lymphoid restricted membrane protein OS=Oryctolagus cuniculus OX=9986 GN=LRMP PE=4 SV=2
+GDSWGALEHLLWPFTRLRHNGPPPV
+>tr|G3VPK4|G3VPK4_SARHA Uncharacterized protein OS=Sarcophilus harrisii OX=9305 PE=4 SV=1
+GGSWTSLQQTLWPYSKFQHKGPPPI
+>tr|F1SFJ4|F1SFJ4_PIG Lymphoid restricted membrane protein OS=Sus scrofa OX=9823 GN=LRMP PE=4 SV=3
+GDSWMTLERILWPFARLRHNGPPPV
+>tr|H0XBY5|H0XBY5_OTOGA Lymphoid restricted membrane protein OS=Otolemur garnettii OX=30611 GN=LRMP PE=4 SV=1
+EDSWISLEHILWPFAKLRHNGPPPV
+>tr|A0A091U7I8|A0A091U7I8_PHORB Lymphoid-restricted membrane protein (Fragment) OS=Phoenicopterus ruber ruber OX=9218 GN=N337_01287 PE=4 SV=1
+GDSWTSLQQLLWPYTGLQHNGPPPV
+>tr|A0A093IIY2|A0A093IIY2_DRYPU Lymphoid-restricted membrane protein (Fragment) OS=Dryobates pubescens OX=118200 GN=N307_10651 PE=4 SV=1
+GDSWTLLQQLLWPYVGLQHYGPPPI
+>tr|A0A091GR45|A0A091GR45_BUCRH Lymphoid-restricted membrane protein (Fragment) OS=Buceros rhinoceros silvestris OX=175836 GN=N320_11829 PE=4 SV=1
+GDSWTLLQQLLWPYIRLQHYGPPPV
+>tr|A0A1A8F178|A0A1A8F178_9TELE Lymphoid-restricted membrane protein (Fragment) OS=Nothobranchius korthausae OX=1143690 GN=LRMP PE=4 SV=1
+-RFFADGVYVHWSGDKETHHS----
+>tr|A0A2D0T4M7|A0A2D0T4M7_ICTPU lymphoid-restricted membrane protein-like OS=Ictalurus punctatus GN=LOC108279843 PE=4 SV=1
+GDSWMAIQQILWPYTGLRHNGQPPV
+>tr|A0A1A6G1B4|A0A1A6G1B4_NEOLE Uncharacterized protein (Fragment) OS=Neotoma lepida GN=A6R68_08885 PE=4 SV=1
+GNSWMSLEHILWPFSRLRHNGPPP-
+>tr|G1KP39|G1KP39_ANOCA Uncharacterized protein OS=Anolis carolinensis PE=4 SV=1
+GDAWTSVQQLLWPYTGLQHQGPPPV
+>tr|A0A2G9S6Z1|A0A2G9S6Z1_LITCT Uncharacterized protein OS=Lithobates catesbeiana GN=AB205_0152980 PE=4 SV=1
+GVSWTSIQQLLWPYTGLRHNGPPPV
+>tr|A0A1A8FBE0|A0A1A8FBE0_9TELE Lymphoid-restricted membrane protein OS=Nothobranchius korthausae GN=LRMP PE=4 SV=1
+GDDVSRSVGssgqpgdaassgrcsggdrrllDDHPAAAVALHGAPAQ
+>tr|H3BCJ5|H3BCJ5_LATCH Lymphoid restricted membrane protein OS=Latimeria chalumnae GN=LRMP PE=4 SV=1
+GDSWTAVQQLLWPYTGLRHNGQPPV
+>tr|A0A1A7XMN8|A0A1A7XMN8_9TELE Lymphoid-restricted membrane protein (Fragment) OS=Aphyosemion striatum GN=LRMP PE=4 SV=1
+GDSWVTIQQLLWPYTGLRHNGQPPV
+>tr|A0A1U7RQA0|A0A1U7RQA0_ALLSI lymphoid-restricted membrane protein-like isoform X1 OS=Alligator sinensis GN=LOC102374321 PE=4 SV=1
+GNSWTSLQKLLWPYTGLRHNGPPPT
+>tr|A0A091NCM0|A0A091NCM0_APAVI Lymphoid-restricted membrane protein (Fragment) OS=Apaloderma vittatum GN=N311_08162 PE=4 SV=1
+WDYWTLLQQLLSPYTRLQHYGPPPV
+>tr|A0A091DZP0|A0A091DZP0_FUKDA Lymphoid-restricted membrane protein OS=Fukomys damarensis GN=H920_02011 PE=4 SV=1
+GDSWLSLEHVLWPFTALQHNGPPPV
+>tr|A0A1S2ZE29|A0A1S2ZE29_ERIEU lymphoid-restricted membrane protein OS=Erinaceus europaeus GN=LRMP PE=4 SV=1
+GGLWLSLERLLRPLAGLH-DGPPA-
+>tr|F7FF53|F7FF53_MONDO Lymphoid restricted membrane protein OS=Monodelphis domestica GN=LRMP PE=4 SV=2
+GGSWTSLQQVLWPYTKLQHKGPPPV
+>tr|V9KA27|V9KA27_CALMI Lymphoid-restricted membrane protein OS=Callorhinchus milii PE=2 SV=1
+GDSWTSVQQFLWPYTGLQHNAQPPV
+>tr|G3H3D2|G3H3D2_CRIGR Lymphoid-restricted membrane protein OS=Cricetulus griseus GN=I79_004747 PE=4 SV=1
+GTSWMSLEHVLWPLTRLRHNGPPPV
+>tr|G3T9D7|G3T9D7_LOXAF Lymphoid restricted membrane protein OS=Loxodonta africana GN=LRMP PE=4 SV=1
+GDSWMSLEHALWPFTKLQHNGPPPV
+>tr|A0A250YMM0|A0A250YMM0_CASCN Lymphoid-restricted membrane protein OS=Castor canadensis GN=LRMP PE=4 SV=1
+GDSWVSLEHILWPLTRLQHNGPPPV
+>tr|A0A1L8GVZ4|A0A1L8GVZ4_XENLA Uncharacterized protein OS=Xenopus laevis OX=8355 GN=XELAEV_18016618mg PE=4 SV=1
+GDSWTSLQQFLWPYTGLHHNGQPPV
+>tr|A0A1A8JS01|A0A1A8JS01_NOTKU Lymphoid-restricted membrane protein OS=Nothobranchius kuhntae OX=321403 GN=LRMP PE=4 SV=1
+GDRRLLG---DHPAAAVALHGAPAQ
+>tr|F7ET18|F7ET18_ORNAN Uncharacterized protein OS=Ornithorhynchus anatinus OX=9258 PE=4 SV=1 
+GCPWPPLQRGLWPYVGVRHRDPPPV

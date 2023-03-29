@@ -1,0 +1,262 @@
+Query         query 
+Match_columns 266
+No_of_seqs    3 out of 6
+Neff          1.33691
+Searched_HMMs 90139
+Date          Fri May 27 05:24:32 2022
+Command       /mnt/home/dberenberg/gustaf_stuff/openfold/lib/conda/envs/openfold_venv/bin/hhsearch -i /tmp/tmpbh0_22in/query.a3m -o /tmp/tmpbh0_22in/output.hhr -maxseq 1000000 -cpu 28 -d /mnt/home/dberenberg/gustaf_stuff/OpenFold/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3QSQ_A Capsid polyprotein; rec  99.3 1.8E-15   2E-20  133.2   0.0  192   17-236     7-223 (241)
+  2 5KOV_G Capsid polyprotein VP25  99.2 2.2E-14 2.4E-19  125.3   0.0  175   34-233    16-209 (228)
+  3 5W1N_D Capsid polyprotein VP90  99.1 1.2E-13 1.3E-18  121.9   0.0  174   34-232    16-209 (243)
+  4 5EWO_A Structural protein; vir  99.0 2.2E-13 2.4E-18  119.1   0.0  167   50-229    17-202 (228)
+  5 7RK1_B viral protein, capsid p  98.8 7.9E-12 8.7E-17  110.0   0.0  170   34-231    17-205 (230)
+  6 5H9V_A Ribonuclease ZC3H12A(E.  34.0      39 0.00043   30.5   0.0    8  213-220   108-115 (210)
+  7 5H9W_B Ribonuclease ZC3H12A(E.  34.0      39 0.00043   30.5   0.0    8  213-220   108-115 (210)
+  8 4IAB_A hypothetical protein; L  28.8      54  0.0006   27.2   0.0   18  248-265   121-138 (142)
+  9 3PGW_Q U1-A , U1-70K , Sm-D3;   23.5      78 0.00086   29.5   0.0    8   67-74     14-21  (231)
+ 10 6ID1_b Pre-mRNA-processing-spl  23.5      78 0.00086   29.5   0.0    8   67-74     14-21  (231)
+
+No 1
+>3QSQ_A Capsid polyprotein; receptor binding domain, astrovirus capsid; 1.8A {Human astrovirus 8}
+Probab=99.30  E-value=1.8e-15  Score=133.20  Aligned_cols=192  Identities=16%  Similarity=0.172  Sum_probs=172.6  Template_Neff=5.300
+
+Q query            17 TGPRSIVTPETPIGPSSYP---MT---PSSLVLMAGYFSGPEISDNFGKYMPLLFQQNTSKVTF-RSGSHTIKIVSMVLV   89 (266)
+Q Consensus        17 tGPrs~~~P~sPigPssyP---mt---psSlvLmagyFs~PEI~~nfg~ymp~~fqq~~~~i~f-~sg~h~~~iv~~~~v   89 (266)
+                      ....|||+|++|++|++++   ++   +++++||+++++|+               +++++||| +|++||++|+||+||
+T Consensus         7 t~~~sip~p~~p~~p~~~~~~~~~~~~~~~~~~~~~~~~~~---------------~~~~~VKi~~~~~hy~~i~~~~~I   71 (241)
+T 3QSQ_A            7 TFGRSIPEPGEQFRVLLTVGPPMAPNTANSQNWVNKTIVPP---------------ENQYTVKIGIDLEHYTTMQGFTPV   71 (241)
+T ss_dssp             ----------CEEEEEEEECSCCTTCCTTSCCCEECCSSCS---------------TTCCCEEEEEETTEEEECCEEEEE
+T ss_pred             cccccCCCCCCCccceecCCCCCCCCCCCCcceeeeeecCC---------------CCeeEEEEEecCCceeEEEEEEEe
+Confidence            4457888889999999876   76   99999999997655               57999999 999999999999999
+
+
+Q query            90 DRLMWLDKHFNQYTNEPDGVFGDVGNVFV--DNDNVAKVITMS----GSSAPANRGATLMLCRATKNIQTFNFAATVYIP  163 (266)
+Q Consensus        90 dr~mwldkhfn~~tnepdgvfg~vgni~i--~~dnvakvitms----gssa~~~rgatlmlc~~tk~iqtf~~~a~v~ip  163 (266)
+                      ++|+||+.+     ++|+|+|+||+||+|  |++|+|||||++    .++|+++|++||||||+|+++++++++++|   
+T Consensus        72 ~s~~w~~~~-----~~p~p~p~pi~~l~V~~~~tk~gdV~a~~Q~~~~~t~~~~~itt~fLvk~T~~~~~t~~~s~~---  143 (241)
+T 3QSQ_A           72 ESVSWYTAD-----FQPSDEPSPIPGLYARVNNTKKADVYGVQQFKSSHTNNRHQITSVFLVRVTTSFQVINYTSYF---  143 (241)
+T ss_dssp             EEEEEEETT-----SCBCCCCCCCTTCEEEETTEEEEEEEEEEEEEEEEETTEEEEEEEEEEEESSCEEEEEEEECE---
+T ss_pred             cccceecCC-----CCCCCCCCCCCceEEEeCCceEEEEEEEEEEEEecCCCceEEEEEEEEEecCCeeeEeccceE---
+Confidence            999999999     999999999999999  999999999999    777789999999999999999999999999   
+
+
+Q query           164 AYKVKDGAGGKDVVLNVAQWEANKTLTYPAIPKDTYFMVVTMGGAS-FTIQRYVVYNE-----------GIGDGLELPAF  231 (266)
+Q Consensus       164 ay~v~dg~~~kdi~~~i~~we~nk~l~~~~~p~~tyfmv~tmgg~~-f~i~~yvvyne-----------~i~~gl~lpaf  231 (266)
+                        ++++++|+ +++ ++++|+++++++| +|++|+||||+|+++++ +++++|+|+++           +++++++++|+
+T Consensus       144 --~~~~~~g~-~~~-~~~~~~~t~~~~~-sl~~G~WYL~~s~~~~t~~~~~gwvw~~~~l~~n~~~~~d~~~~~~~~p~p  218 (241)
+T 3QSQ_A          144 --IRGAESGS-NVS-NLKIRDQTYHTPL-QFTQGKWYLLTSTVMHDGPTSSGWVWMNQELTNNIAYRVDPGMMYLITPPP  218 (241)
+T ss_dssp             --ECCCCSTT-CCC-CBEECSSCEEEEE-EECTTCEEEEEEEEEEESSCCCSCCCCCCCCCTTCCBCCCTTTTTSSSCCC
+T ss_pred             --EEEeccCC-ceE-EeeeccCccceeE-EecCccEEEEEEEeeecCCCCCCceeecCcCCCCceeecCCCccccccCCh
+Confidence              99999999 999 9999999999999 99999999999999999 99999999999           78899999999
+
+
+Q query           232 WGKYL  236 (266)
+Q Consensus       232 wgkyl  236 (266)
+                      ++.-|
+T Consensus       219 ~~~~~  223 (241)
+T 3QSQ_A          219 AASQL  223 (241)
+T ss_dssp             TTCEE
+T ss_pred             HHHHH
+Confidence            98654
+
+
+No 2
+>5KOV_G Capsid polyprotein VP25, PL-2 scFv; viral protein, capsid protein, icosahedral; HET: NAG; 3.245A {Human astrovirus-2}
+Probab=99.17  E-value=2.2e-14  Score=125.29  Aligned_cols=175  Identities=11%  Similarity=0.128  Sum_probs=164.2  Template_Neff=5.500
+
+Q query            34 YPMTPSSLVLMAGYFSGPEISDNFGKYMPLLFQQNTSKVTF-RSGSHTIKIVSMVLVDRLMWLDKHFNQYTNEPDGVFGD  112 (266)
+Q Consensus        34 yPmtpsSlvLmagyFs~PEI~~nfg~ymp~~fqq~~~~i~f-~sg~h~~~iv~~~~vdr~mwldkhfn~~tnepdgvfg~  112 (266)
+                      .|+++++++||+++++++...            +++++||| +|++||++|+||+||++|+||+.|     ++|+|+|+|
+T Consensus        16 ~~~~~~~~~~v~~~~~~p~~~------------~~~l~VKi~~~~th~~~i~~~~rI~sp~wyt~~-----~~p~p~p~p   78 (228)
+T 5KOV_G           16 SPNSADRQVWLNKTLTAPGTN------------SNDNLVKIAHDLGHYLIMQGFMHIKTVEWYTPD-----FQPSRDPTP   78 (228)
+T ss_pred             CCCCCCcceeeeeecCCCCCC------------CCccEEEEEecCCceeeEEEEEEeccccccCCC-----CCCCCCCCC
+Confidence            457799999999998744211            57999999 999999999999999999999999     999999999
+
+
+Q query           113 VGNVFV--DNDNVAKVITMS----GSSAPANRGATLMLCRATKNIQTFNFAATVYIPAYKVKDGAGGKDVVLNVAQWEAN  186 (266)
+Q Consensus       113 vgni~i--~~dnvakvitms----gssa~~~rgatlmlc~~tk~iqtf~~~a~v~ipay~v~dg~~~kdi~~~i~~we~n  186 (266)
+                      |+||+|  |++|+|||||++    .++|+++|++||||||+|++++++++++++     ++++++|+ +++ +++.|+++
+T Consensus        79 i~~l~V~~n~tk~gdV~a~~Q~~~~~t~~~~~i~t~yLvk~T~~~~~t~~~s~~-----~~~~~~g~-~~~-~~~~~~~T  151 (228)
+T 5KOV_G           79 IAGMSVMVNITKKADVYFMKQFKNSYTNNRHQITSIFLIKPLADFKVQCYMSYF-----KRESHDND-GVA-NLTVRSMT  151 (228)
+T ss_pred             CCceEEEeCCceEEEEEEEEEEEecccCCceEEEEEEEEEecCCcceeeeecEE-----EEEecCCC-CeE-Eeeeeccc
+Confidence            999999  999999999999    777789999999999999999999999999     99999999 999 99999999
+
+
+Q query           187 KTLTYPAIPKDTYFMVVTMGGAS-FTIQRYVVYNE-----------GIGDGLELPAFWG  233 (266)
+Q Consensus       187 k~l~~~~~p~~tyfmv~tmgg~~-f~i~~yvvyne-----------~i~~gl~lpafwg  233 (266)
+                      ++++| +|++|+||||+|+++++ +++++|+|+++           ++++++++|.+..
+T Consensus       152 ~~~~~-sl~~G~WYL~~s~~~~t~~~~~gWvw~~~~ls~n~~~~~d~~~~~~~~p~~~~  209 (228)
+T 5KOV_G          152 SPETI-RFQVGEWYLLTSTTLKENNLPEGWVWDRVELKSDTPYYADQALTYFITPPPVD  209 (228)
+T ss_pred             CCeEE-EecCccEEEEEEEeeeeCCCCCCceeecccCCCCCceeccccccCcccCCCCC
+Confidence            99999 99999999999999999 99999999999           7889999999887
+
+
+No 3
+>5W1N_D Capsid polyprotein VP90; viral protein, capsid protein, icosahedral; 1.348A {Human astrovirus 2}
+Probab=99.08  E-value=1.2e-13  Score=121.93  Aligned_cols=174  Identities=11%  Similarity=0.135  Sum_probs=160.3  Template_Neff=5.400
+
+Q query            34 YPMTPSSLVLMAGYFSGPEISDNFGKYMPLLFQQNTSKVTF-RSGSHTIKIVSMVLVDRLMWLDKHFNQYTNEPDGVFGD  112 (266)
+Q Consensus        34 yPmtpsSlvLmagyFs~PEI~~nfg~ymp~~fqq~~~~i~f-~sg~h~~~iv~~~~vdr~mwldkhfn~~tnepdgvfg~  112 (266)
+                      .|+++|+++||++++++++..            +++++||| +|++||++|+||+||++|+||+.+     ++|+|+|+|
+T Consensus        16 ~~~~~~~~~~v~~~~~~~~~~------------~~~l~VKi~~~~thy~~i~~f~rI~sp~wyt~~-----~~p~p~p~p   78 (243)
+T 5W1N_D           16 SPNSADRQVWLNKTLTAPGTN------------PNDNLVKIAHDLGHYLIMQGFMHIKTVEWYTPD-----FQPSRDPTP   78 (243)
+T ss_dssp             TTCCTTSCCCEECCSSCCSSS------------GGGGCCEEEETTSCEEECCEEEEEEEEEEECTT-----SCBCCCCCC
+T ss_pred             CCCCCCcceeeeeecCCCCCC------------CCccEEEEEeeCCceeeEEEEEEeccccccCCC-----CCCCCCCCC
+Confidence            446799999999998765432            56999999 999999999999999999999999     999999999
+
+
+Q query           113 VGNVFV--DNDNVAKVITMS----GSSAPANRGATLMLCRATKNIQTFNFAATVYIPAYKVKDGA-GGKDVVLNVAQWEA  185 (266)
+Q Consensus       113 vgni~i--~~dnvakvitms----gssa~~~rgatlmlc~~tk~iqtf~~~a~v~ipay~v~dg~-~~kdi~~~i~~we~  185 (266)
+                      |+||+|  |++|+||||||+    .++|++++++||||||+|+++++++++++|     ++++++ |+ +++ +++.|++
+T Consensus        79 i~~l~V~~n~tk~gdV~a~~Q~~~~~tn~~~~itt~fLvk~T~~~~~t~~~s~~-----~~~~~~~g~-~~~-~~~~~~~  151 (243)
+T 5W1N_D           79 IAGMSVMVNITKKADVYFMKQFKNSHTNNRHQITSIFLIKPLADFKVQCYMSYF-----KRESHDNND-GVA-NLTVRSM  151 (243)
+T ss_dssp             CTTEEEEETTEEEEEEEEEEEEEEECSTTEEEEEEEEEEEESSCEEEEEEEECE-----EECCCSSSS-CCC-CEEECSS
+T ss_pred             CCceEEEeCCceEEEEEEEEEEEeccCCCceEEEEEEEEEecCCcceeeeeceE-----EEEecCCCC-CeE-Eeeeecc
+Confidence            999999  999999999999    777789999999999999999999999999     999999 99 999 9999999
+
+
+Q query           186 NKTLTYPAIPKDTYFMVVTMGGAS-FTIQRYVVYNE-----------GIGDGLELPAFW  232 (266)
+Q Consensus       186 nk~l~~~~~p~~tyfmv~tmgg~~-f~i~~yvvyne-----------~i~~gl~lpafw  232 (266)
+                      +++++| +|++|+||||+|+++++ +++++|+|+++           +++++++++.++
+T Consensus       152 t~~~~~-~l~~G~WYL~~s~~~~t~~~~~gwvw~~~~l~~n~~~~~d~~~~~~~~~~~~  209 (243)
+T 5W1N_D          152 TSPKTI-RFQAGEWYLLTSTTLKENNLPEGWVWDRVELKSDTPYYADQALTYFITPPPV  209 (243)
+T ss_dssp             CEEEEE-EECTTCEEEEEEEEEEESSCCSSCCCCCCCCCBTCCBCCCTTGGGSSSCCCT
+T ss_pred             cCCeEE-EeCCccEEEEEEEeeecCCCCCCceeecccCCCCCceecccccccccCCCCc
+Confidence            999999 99999999999999999 99999999999           666777764433
+
+
+No 4
+>5EWO_A Structural protein; viral protein, capsid protein, icosahedral; HET: SO4; 0.95A {Human astrovirus-1}
+Probab=99.04  E-value=2.2e-13  Score=119.10  Aligned_cols=167  Identities=13%  Similarity=0.135  Sum_probs=157.8  Template_Neff=5.500
+
+Q query            50 GPEISDNFGKYMPLLFQQNTSKVTF-RSGSHTIKIVSMVLVDRLMWLDKHFNQYTNEPDGVFGDVGNVFV--DNDNVAKV  126 (266)
+Q Consensus        50 ~PEI~~nfg~ymp~~fqq~~~~i~f-~sg~h~~~iv~~~~vdr~mwldkhfn~~tnepdgvfg~vgni~i--~~dnvakv  126 (266)
+                      |++.+.+.|..+++++++++++||| +|++||++|+||+||++|+||+.|     ++|+|+|+||+||+|  |++|+|||
+T Consensus        17 p~~~~~~~~~~~~~~~~~~~~~VKi~~~~thy~~i~~~~rI~sp~w~t~~-----~~p~p~p~pi~~l~V~~n~tk~gdV   91 (228)
+T 5EWO_A           17 PNANNKQTWVNKPLDAPSGHYNVKIAKDVDHYLTMQGFTSIASVDWYTID-----FQPSEAPAPIKGLQVLVNISKKADV   91 (228)
+T ss_dssp             TCCTTSCCCEECSSCCSTTCCCEEEEEETTEEEECCCEEEEEEEEEECTT-----SCEECCCCCCTTCEEEETTEEEEEE
+T ss_pred             CCccccceeecCCCCCCCCeeEEEEeeCCCceeEEEEEEEecccceecCC-----CCcCCCCCCcCceEEEeCCceEEEE
+Confidence            4677777788889999999999999 999999999999999999999999     999999999999999  99999999
+
+
+Q query           127 ITMS----GSSAPANRGATLMLCRATKNIQTFNFAATVYIPAYKVKDGAGGKDVVLNVAQWEANKTLTYPAIPKDTYFMV  202 (266)
+Q Consensus       127 itms----gssa~~~rgatlmlc~~tk~iqtf~~~a~v~ipay~v~dg~~~kdi~~~i~~we~nk~l~~~~~p~~tyfmv  202 (266)
+                      ||++    .++|+++|++||||||+|++++++++++++     ++++++|+ +++ +++.|+++++++| +|++|+||||
+T Consensus        92 ~a~~Q~~~~~t~~~~~i~t~fLvk~T~~~~~t~~~s~~-----~~~~~~g~-~~~-~~~~~~~t~~~~~-sl~~G~WYL~  163 (228)
+T 5EWO_A           92 YAVKQFVTAQTNNKHQVTSLFLVKVTTGFQVNNYLSYF-----YRASATGD-ATT-NLLVRGDTYTAGI-SFTQGGWYLL  163 (228)
+T ss_dssp             EEEEEEEEEEETTEEEEEEEEEEEESSCEEEEEEEECE-----ECCCCSTT-CCC-CBEECSSCEEEEE-EECTTCEEEE
+T ss_pred             EEEEEEEEeecCCceEEEEEEEEEecCCeeeeecceEE-----EEEeccCC-ceE-EEEeeccccceeE-EecCceEEEE
+Confidence            9999    777789999999999999999999999999     99999999 999 9999999999999 9999999999
+
+
+Q query           203 VTMGGAS-FTIQRYVVYNE-----------GIGDGLELP  229 (266)
+Q Consensus       203 ~tmgg~~-f~i~~yvvyne-----------~i~~gl~lp  229 (266)
+                      +|+++++ +++++|+|+++           +++++++++
+T Consensus       164 ~s~~~~t~~~~~gwvw~~~~l~~n~~~~~~~~~~~~~~~  202 (228)
+T 5EWO_A          164 TNTSIVDGAMPPGWVWNNVELKTNTAYHMDKGLVHLIMP  202 (228)
+T ss_dssp             EEEEEEESCCCSSSCCCCCCCCSSSCBCCCTTTTTSSSC
+T ss_pred             EEEEEecCCCCCCceeeccccCcCceeeeccCccccccC
+Confidence            9999999 99999999999           566777663
+
+
+No 5
+>7RK1_B viral protein, capsid protein, icosahedral; 2.05A {Human astrovirus-8}
+Probab=98.79  E-value=7.9e-12  Score=110.01  Aligned_cols=170  Identities=15%  Similarity=0.194  Sum_probs=157.9  Template_Neff=5.300
+
+Q query            34 YPMTPSSLVLMAGYFSGPEISDNFGKYMPLLFQQNTSKVTF-RSGSHTIKIVSMVLVDRLMWLDKHFNQYTNEPDGVFGD  112 (266)
+Q Consensus        34 yPmtpsSlvLmagyFs~PEI~~nfg~ymp~~fqq~~~~i~f-~sg~h~~~iv~~~~vdr~mwldkhfn~~tnepdgvfg~  112 (266)
+                      .|++.+++.|+++..+|+               +++++||| +|++||++|+||+||++|+||+.|     ++|+|+|+|
+T Consensus        17 ~~~~~~~~~~~~~~~~~~---------------~~~l~VKi~~~~thy~~i~~f~rI~sp~w~t~~-----~~p~p~p~p   76 (230)
+T 7RK1_B           17 APNTANSQNWVNKTIVPP---------------ENQYTVKIGIDLEHYTTMQGFTPVESVSWYTAD-----FQPSDEPSP   76 (230)
+T ss_pred             CCCCccccceecCCCCCC---------------CCceEEEEeecCCceeEEEEEEEecccceecCC-----CCCCCCCCC
+Confidence            346688899999987766               57999999 999999999999999999999999     999999999
+
+
+Q query           113 VGNVFV--DNDNVAKVITMS----GSSAPANRGATLMLCRATKNIQTFNFAATVYIPAYKVKDGAGGKDVVLNVAQWEAN  186 (266)
+Q Consensus       113 vgni~i--~~dnvakvitms----gssa~~~rgatlmlc~~tk~iqtf~~~a~v~ipay~v~dg~~~kdi~~~i~~we~n  186 (266)
+                      |+||+|  |++|+|||||++    .++|+++|++||||||+|+++++++++++|     ++++++|+ +++ +++.|+++
+T Consensus        77 i~~l~V~~~~tk~gdV~a~~Q~~~~~tn~~~~itt~fLVk~T~~~~~t~~~s~~-----~~~~~~g~-~~~-~~~~~~~t  149 (230)
+T 7RK1_B           77 IPGLYARVNNTKKADVYGVQQFKSSHTNNRHQITSVFLVRVTTSFQVINYTSYF-----IRGAESGS-NVS-NLKIRDQT  149 (230)
+T ss_pred             CCceEEEeCCceEEEEEEEEEEEEecCCCceEEEEEEEEEecCCeeeEeceeeE-----EEEeccCC-ceE-EeeeccCc
+Confidence            999999  999999999999    777789999999999999999999999999     99999999 999 99999999
+
+
+Q query           187 KTLTYPAIPKDTYFMVVTMGGAS-FTIQRYVVYNE-----------GIGDGLELPAF  231 (266)
+Q Consensus       187 k~l~~~~~p~~tyfmv~tmgg~~-f~i~~yvvyne-----------~i~~gl~lpaf  231 (266)
+                      ++++| +|++|+||||+|+++++ +++++|+|+++           +++++++++.+
+T Consensus       150 ~~~~~-sl~~G~WYL~~s~~~~t~~~~~gwvw~~~~l~~n~~~~~d~~~~~~~~~~~  205 (230)
+T 7RK1_B          150 YHTPL-QFTQGKWYLLTSTVMHDGPTSSGWVWMNQELTNNIAYRVDPGMMYLITPPP  205 (230)
+T ss_pred             cceeE-EecCccEEEEEEEeeecCCCCCCceeecCcCCCCeeeecCCCCccccCCCC
+Confidence            99999 99999999999999999 99999999999           56677766333
+
+
+No 6
+>5H9V_A Ribonuclease ZC3H12A(E.C.3.1.-.-); RNase, HYDROLASE; HET: MSE; 2.75A {Mus musculus}
+Probab=34.05  E-value=39  Score=30.45  Aligned_cols=8  Identities=38%  Similarity=0.426  Sum_probs=4.0  Template_Neff=6.600
+
+Q query           213 QRYVVYNE  220 (266)
+Q Consensus       213 ~~yvvyne  220 (266)
+                      .+.++.|.
+T Consensus       108 dg~IVSND  115 (210)
+T 5H9V_A          108 DGVVVSND  115 (210)
+T ss_dssp             TCEEECSC
+T ss_pred             CCEEEECc
+Confidence            35555555
+
+
+No 7
+>5H9W_B Ribonuclease ZC3H12A(E.C.3.1.-.-); RNase, HYDROLASE; 2.6A {Mus musculus}
+Probab=34.05  E-value=39  Score=30.45  Aligned_cols=8  Identities=38%  Similarity=0.426  Sum_probs=4.0  Template_Neff=6.600
+
+Q query           213 QRYVVYNE  220 (266)
+Q Consensus       213 ~~yvvyne  220 (266)
+                      .+.++.|.
+T Consensus       108 dg~IVSND  115 (210)
+T 5H9W_B          108 DGVVVSND  115 (210)
+T ss_dssp             TCEEECSC
+T ss_pred             CCEEEECc
+Confidence            35555555
+
+
+No 8
+>4IAB_A hypothetical protein; Lipocalin-like fold protein, Structural Genomics; HET: UNL, PEG; 1.66A {Bacteroides uniformis}
+Probab=28.82  E-value=54  Score=27.16  Aligned_cols=18  Identities=22%  Similarity=0.444  Sum_probs=12.8  Template_Neff=7.500
+
+Q query           248 TYACVTWEPIYAEEGIPH  265 (266)
+Q Consensus       248 tyacvtwepiy~~e~~ph  265 (266)
+                      .....+|..|-..+.+|.
+T Consensus       121 ~~~~e~W~Ri~~~~~~~~  138 (142)
+T 4IAB_A          121 TWFHETWKRVGMPAKFPE  138 (142)
+T ss_dssp             EEEEEEEEECBCCSSCCT
+T ss_pred             ceEEEEEEECCCcccCcc
+Confidence            456678888887777663
+
+
+No 9
+>3PGW_Q U1-A , U1-70K , Sm-D3; PROTEIN-RNA COMPLEX, U1 snRNA, Sm; 4.4A {Homo sapiens}
+Probab=23.51  E-value=78  Score=29.53  Aligned_cols=8  Identities=0%  Similarity=0.086  Sum_probs=4.1  Template_Neff=5.900
+
+Q query            67 QNTSKVTF   74 (266)
+Q Consensus        67 q~~~~i~f   74 (266)
+                      +..++|++
+T Consensus        14 n~rVrV~L   21 (231)
+T 3PGW_Q           14 DYRMRCIL   21 (231)
+T ss_pred             CCEEEEEE
+Confidence            34555555
+
+
+No 10
+>6ID1_b Pre-mRNA-processing-splicing factor 8, 116 kDa; Human Intron Lariat Spliceosome, SPLICING; HET: GTP, IHP, SEP; 2.86A {Homo sapiens}
+Probab=23.51  E-value=78  Score=29.53  Aligned_cols=8  Identities=0%  Similarity=0.086  Sum_probs=4.1  Template_Neff=5.900
+
+Q query            67 QNTSKVTF   74 (266)
+Q Consensus        67 q~~~~i~f   74 (266)
+                      +..++|++
+T Consensus        14 n~rVrV~L   21 (231)
+T 6ID1_b           14 DYRMRCIL   21 (231)
+T ss_pred             CCEEEEEE
+Confidence            34555555
+
+

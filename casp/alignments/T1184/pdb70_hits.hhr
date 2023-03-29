@@ -1,0 +1,156 @@
+Query         query 
+Match_columns 171
+No_of_seqs    6 out of 7
+Neff          1.34619
+Searched_HMMs 90139
+Date          Sat Jul 16 17:33:31 2022
+Command       /mnt/home/dberenberg/gustaf_stuff/openfold/lib/conda/envs/openfold_venv/bin/hhsearch -i /tmp/tmpfnykl57z/query.a3m -o /tmp/tmpfnykl57z/output.hhr -maxseq 1000000 -cpu 28 -d /mnt/home/dberenberg/gustaf_stuff/OpenFold/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5LQP_FA Coat protein; RNA bact  38.1      30 0.00033   29.2   0.0   63   41-104    38-100 (129)
+  2 5FS4_B AP205 BACTERIOPHAGE COA  37.4      31 0.00035   29.2   0.0   63   41-104    41-103 (133)
+  3 4ORY_F Prostaglandin-H2 D-isom  22.9      81  0.0009   23.1   0.0   47   12-61      5-51  (190)
+  4 1R4G_A RNA polymerase alpha su  19.8   1E+02  0.0012   23.1   0.0   10    1-10      4-13  (53)
+  5 3BMA_B STRUCTURAL GENOMICS, D-  18.5 1.2E+02  0.0013   28.8   0.0   22  108-133   100-121 (407)
+  6 6PFX_A D-alanyl transferase Dl  17.2 1.3E+02  0.0014   28.2   0.0   22  108-133    96-117 (397)
+  7 3BMA_C D-alanyl-lipoteichoic a  17.1 1.3E+02  0.0014   28.4   0.0   22  108-133   100-121 (407)
+  8 1FCQ_A HYALURONIDASE (E.C. 3.2  16.3 1.4E+02  0.0016   27.8   0.0   30   40-69     37-66  (350)
+  9 2J5D_B BCL2/ADENOVIRUS E1B 19   15.8 1.5E+02  0.0016   20.4   0.0   15    6-20     20-34  (45)
+ 10 6AMA_H DNA binding domain-cont  15.0 1.6E+02  0.0018   17.1   0.0   65   91-162     3-67  (71)
+
+No 1
+>5LQP_FA Coat protein; RNA bacteriophage, Leviviridae, coat protein; 6.0A {Acinetobacter phage AP205}
+Probab=38.15  E-value=30  Score=29.15  Aligned_cols=63  Identities=25%  Similarity=0.369  Sum_probs=46.1  Template_Neff=1.000
+
+Q query            41 LQVNKLGNYRGQYLTVLYAVGSRPFISTENSSISISQVKEARTVYISADSMSLPSVQVEKEGFR  104 (171)
+Q Consensus        41 iqvn~lgn~rgqyltvlyavgsrpfistdasqi~isqvkesrtvyit~d~~tlp~vqvekegfr  104 (171)
+                      .-+-.|.|..|||..|.---...|--..|+--|--..-..-||| |+|..-.|.....|-|-.+
+T Consensus        38 vgiaelnnvsgqyvsvykrpapkpegcadacvimpnenqsirtv-isgsaenlatlkaewethk  100 (129)
+T 5LQP_FA          38 VGIAELNNVSGQYVSVYKRPAPKPEGCADACVIMPNENQSIRTV-ISGSAENLATLKAEWETHK  100 (129)
+T ss_pred             eeeeeeccccceeEEEEecCCCCCCCccceEEECCCCCcceeEE-eeccHHHHHHHHHHHHHhh
+Confidence            34557889999999998777777777777776655555555665 8898888888877766543
+
+
+No 2
+>5FS4_B AP205 BACTERIOPHAGE COAT PROTEIN; VIRAL PROTEIN, SMALL RNA PHAGE; 1.73A {ACINETOBACTER PHAGE AP205}
+Probab=37.39  E-value=31  Score=29.16  Aligned_cols=63  Identities=25%  Similarity=0.372  Sum_probs=44.3  Template_Neff=1.000
+
+Q query            41 LQVNKLGNYRGQYLTVLYAVGSRPFISTENSSISISQVKEARTVYISADSMSLPSVQVEKEGFR  104 (171)
+Q Consensus        41 iqvn~lgn~rgqyltvlyavgsrpfistdasqi~isqvkesrtvyit~d~~tlp~vqvekegfr  104 (171)
+                      .-+-.|.|..|||..|.---...|--..|+.-|--..-..-||| |+|..-.|.....|-|-.+
+T Consensus        41 vgiaelnnvsgqyvsvykrpapkpeggadagvimpnenqsirtv-isgsaenlatlkaewethk  103 (133)
+T 5FS4_B           41 VGIAELNNVSGQYVSVYKRPAPKPEGGADAGVIMPNENQSIRTV-ISGSAENLATLKAEWETHK  103 (133)
+T ss_dssp             ----CCEEEEEEEEEEEEEECCCCTTTTTTTCCCCEEEEEEEEE-EEEESTTHHHHHHHHHHHH
+T ss_pred             eeeeeeccccceeEEEEeeCCCCCCCCCCceeeCCCCCcceeEE-eeccHHHHHHHHHHHHHhh
+Confidence            34557889999999998776677777777776665555555665 8898888888877766543
+
+
+No 3
+>4ORY_F Prostaglandin-H2 D-isomerase (E.C.5.3.99.2); LIPOCALIN-TYPE PROSTAGLANDIN-D SYNTHASE, ISOMERASE; HET: PEU; 1.8A {Homo sapiens}
+Probab=22.92  E-value=81  Score=23.05  Aligned_cols=47  Identities=26%  Similarity=0.383  Sum_probs=23.3  Template_Neff=10.400
+
+Q query            12 LTLIIGLGLMSGSVSQRSAEAARFETIPSLQVNKLGNYRGQYLTVLYAVG   61 (171)
+Q Consensus        12 ltliiglglmsgs~s~rsa~aar~e~ipsiqvn~lgn~rgqyltvlyavg   61 (171)
+                      ++|.++|.|++.-.+...+.-+.....|.+..++   +.|.+..|..+..
+T Consensus         5 ~~l~~~l~ll~~~~~~~~~~~~~~~~~~~~d~~k---~~G~Wy~ia~~~~   51 (190)
+T 4ORY_F            5 HTLWMGLALLGVLGDLQAAPEAQVSVQPNFQQDK---FLGRWFSAGLASN   51 (190)
+T ss_pred             HHHHHHHHHHHHHHhCCCCCCCCCCCCCCCChhh---ccEEEEEeEeecC
+Confidence            4556677777643222111112223334455554   4788877765544
+
+
+No 4
+>1R4G_A RNA polymerase alpha subunit (E.C.2.7.7.48); three helix-bundle, Viral protein, transferase; NMR {Sendai virus (strain Harris)} SCOP: a.8.5.1
+Probab=19.76  E-value=1e+02  Score=23.13  Aligned_cols=10  Identities=50%  Similarity=0.770  Sum_probs=7.7  Template_Neff=1.900
+
+Q query             1 MRSLKLIIIN   10 (171)
+Q Consensus         1 m~slkliiin   10 (171)
+                      |+|||+||=|
+T Consensus         4 m~SL~lvI~n   13 (53)
+T 1R4G_A            4 MHSLRLVIES   13 (53)
+T ss_dssp             HHHHHHHHTT
+T ss_pred             cceeeehhhc
+Confidence            7888887755
+
+
+No 5
+>3BMA_B STRUCTURAL GENOMICS, D-ALANYL-LIPOTEICHOIC ACID BIOSYNTHESIS; HET: SO4, GOL; 2.24A {Streptococcus pneumoniae}
+Probab=18.50  E-value=1.2e+02  Score=28.75  Aligned_cols=22  Identities=41%  Similarity=0.880  Sum_probs=16.4  Template_Neff=6.200
+
+Q query           108 NIVVFVVSPQANYSWVNADGSVPQGM  133 (171)
+Q Consensus       108 nivvfvvspq~nyswvnadgs~pqgm  133 (171)
+                      .=|||++|||    |.-.+|..|+..
+T Consensus       100 kKvV~iiSPQ----WF~~~G~~~~~F  121 (407)
+T 3BMA_B          100 KQVVYVISPQ----WFSKNGYDPAAF  121 (407)
+T ss_dssp             CEEEEECCGG----GCCTTCSCHHHH
+T ss_pred             CEEEEEECcH----HHccCCCCHHHH
+Confidence            4589999998    777777766544
+
+
+No 6
+>6PFX_A D-alanyl transferase DltD; D-alanine, D-alanylation, lipoteichoic acid, LTA; HET: GOL; 1.5A {Enterococcus faecium TX0133A04}
+Probab=17.17  E-value=1.3e+02  Score=28.21  Aligned_cols=22  Identities=36%  Similarity=0.721  Sum_probs=16.5  Template_Neff=6.400
+
+Q query           108 NIVVFVVSPQANYSWVNADGSVPQGM  133 (171)
+Q Consensus       108 nivvfvvspq~nyswvnadgs~pqgm  133 (171)
+                      .=|||++|||    |.-.+|..|+..
+T Consensus        96 kKvV~iiSPQ----WF~~~G~~~~~F  117 (397)
+T 6PFX_A           96 KKVVFIISPQ----WFVKNGVKTDYF  117 (397)
+T ss_dssp             CEEEEECCGG----GCCTTCSCHHHH
+T ss_pred             CeEEEEECcH----HHccCCCCHHHH
+Confidence            4589999998    777777766543
+
+
+No 7
+>3BMA_C D-alanyl-lipoteichoic acid synthetase; STRUCTURAL GENOMICS, D-ALANYL-LIPOTEICHOIC ACID BIOSYNTHESIS; HET: SO4, GOL; 2.24A {Streptococcus pneumoniae}
+Probab=17.14  E-value=1.3e+02  Score=28.36  Aligned_cols=22  Identities=41%  Similarity=0.880  Sum_probs=16.4  Template_Neff=6.300
+
+Q query           108 NIVVFVVSPQANYSWVNADGSVPQGM  133 (171)
+Q Consensus       108 nivvfvvspq~nyswvnadgs~pqgm  133 (171)
+                      .=|||++|||    |.-.+|..|+..
+T Consensus       100 kKvV~iiSPQ----WF~k~G~~~~~F  121 (407)
+T 3BMA_C          100 KQVVYVISPQ----WFSKNGYDPAAF  121 (407)
+T ss_dssp             CEEEEECCGG----GCCSSCSCHHHH
+T ss_pred             CEEEEEECcH----HHccCCCChHHH
+Confidence            4589999998    777777766543
+
+
+No 8
+>1FCQ_A HYALURONIDASE (E.C. 3.2.1.35); 7-stranded (beta/alpha) TIM barrel, glycosidase; 1.6A {Apis mellifera} SCOP: c.1.8.9
+Probab=16.33  E-value=1.4e+02  Score=27.81  Aligned_cols=30  Identities=23%  Similarity=0.518  Sum_probs=25.7  Template_Neff=6.000
+
+Q query            40 SLQVNKLGNYRGQYLTVLYAVGSRPFISTE   69 (171)
+Q Consensus        40 siqvn~lgn~rgqyltvlyavgsrpfistd   69 (171)
+                      .|..|+-.+.+|+.++++|..|--|++..+
+T Consensus        37 ~I~~N~~~~f~G~~i~ifY~~GlyPy~~~~   66 (350)
+T 1FCQ_A           37 GILQNWMDKFRGEEIAILYDPGMFPALLKD   66 (350)
+T ss_dssp             CCBCCGGGCSSSSSEEEEESCSCCCEEC--
+T ss_pred             CCcccccccccCCeEEEeeCCCCCceeeeC
+Confidence            467889999999999999999999999753
+
+
+No 9
+>2J5D_B BCL2/ADENOVIRUS E1B 19 KDA PROTEIN-INTERACTING; MEMBRANE PROTEIN, MITOCHONDRION, TRANSMEMBRANE, TRANSMEMBRANE; NMR {HOMO SAPIENS}
+Probab=15.78  E-value=1.5e+02  Score=20.44  Aligned_cols=15  Identities=20%  Similarity=0.430  Sum_probs=0.0  Template_Neff=5.200
+
+Q query             6 LIIINALTLIIGLGL   20 (171)
+Q Consensus         6 liiinaltliiglgl   20 (171)
+                      ++..|++|.++|+|+
+T Consensus        20 ~~~s~l~s~llg~G~   34 (45)
+T 2J5D_B           20 FLPSLLLSHLLAIGL   34 (45)
+T ss_dssp             THHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHH
+
+
+No 10
+>6AMA_H DNA binding domain-containing protein, excisionase; BldC, S. coelicolor, developmental switch; 3.09A {Streptomyces venezuelae}
+Probab=14.98  E-value=1.6e+02  Score=17.08  Aligned_cols=65  Identities=12%  Similarity=0.156  Sum_probs=0.0  Template_Neff=11.300
+
+Q query            91 MSLPSVQVEKEGFRPSYNIVVFVVSPQANYSWVNADGSVPQGMTATGNRLSSLINAINKTDVDGFISAQGET  162 (171)
+Q Consensus        91 ~tlp~vqvekegfrpsynivvfvvspq~nyswvnadgs~pqgm~~t~n~~ss~inainktdvd~fv~aqge~  162 (171)
+                      +.......+++.+.+.--.-.+-+|++.-+.|.+...-.|.       +.....-.+...|++.|+......
+T Consensus         3 ~~~~~~~~~~~~~t~~~~a~~~g~s~~~i~~~~~~~~~~~~-------~~~~~~~~~~~~~~~~~~~~~~~~   67 (71)
+T 6AMA_H            3 HMTARTPDAEPLLTPAEVATMFRVDPKTVTRWAKAGKLTSI-------RTLGGHRRYREAEVRALLAGIPQQ   67 (71)
+T ss_dssp             ---------CCEECHHHHHHHHTCCHHHHHHHHHTTSSCCC-------CCTTSCCCEEHHHHHHHHTTCC--
+T ss_pred             CCCCCCCCCCCCCCHHHHHHHhCCCHHHHHHHHHcCCCCcc-------ccCCCeEEecHHHHHHHHhcChhh
+
+

@@ -1,0 +1,169 @@
+Query         query 
+Match_columns 331
+No_of_seqs    154 out of 2170
+Neff          6.7694
+Searched_HMMs 90139
+Date          Thu May 12 16:28:17 2022
+Command       /mnt/home/dberenberg/gustaf_stuff/openfold/lib/conda/envs/openfold_venv/bin/hhsearch -i /tmp/tmpnmlxh43h/query.a3m -o /tmp/tmpnmlxh43h/output.hhr -maxseq 1000000 -cpu 64 -d /mnt/home/dberenberg/gustaf_stuff/OpenFold/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1XQO_A 8-oxoguanine DNA glycos  68.6     4.1 4.6E-05   40.3   0.0  106  169-309   121-229 (256)
+  2 7NRC_A 40S ribosomal protein S  42.8      23 0.00025   38.6   0.0    8   69-76    212-219 (1209)
+  3 5BY1_B Non-structural protein   26.9      61 0.00068   26.1   0.0   19  290-308    15-33  (84)
+  4 2NN4_A Hypothetical protein yq  21.1      94   0.001   25.1   0.0   16  232-247     6-21  (72)
+  5 2OHD_F Probable molybdenum cof  20.6      97  0.0011   28.6   0.0   61  239-301    20-81  (151)
+  6 5H5N_A Non-structural protein   16.4 1.4E+02  0.0016   23.7   0.0   18  291-308     6-23  (74)
+  7 2IIH_A Molybdenum cofactor bio  14.5 1.7E+02  0.0019   27.3   0.0   63  239-303    27-90  (157)
+  8 3M8A_C Nonstructural protein 1  14.2 1.7E+02  0.0019   23.2   0.0   18  291-308     8-25  (76)
+  9 1NS1_A NONSTRUCTURAL PROTEIN 1  13.6 1.8E+02   0.002   23.0   0.0   18  291-308     5-22  (73)
+ 10 2ZKO_B Non-structural protein   13.6 1.9E+02  0.0021   22.9   0.0   18  291-308     8-25  (73)
+
+No 1
+>1XQO_A 8-oxoguanine DNA glycosylase; Helix-hairpin-Helix, 8-oxoguanine DNA glycosylase, Archaea; 1.03A {Pyrobaculum aerophilum} SCOP: a.96.1.6
+Probab=68.60  E-value=4.1  Score=40.29  Aligned_cols=106  Identities=15%  Similarity=0.203  Sum_probs=68.7  Template_Neff=5.400
+
+Q query           169 SAVALVDIVTNAFPSFRDVATYRGEQVRFYKRAQILVSDLY-GAF--DGSDLGAFDDLGELTAFADYKVPQVLHHLGILR  245 (331)
+Q Consensus       169 ~a~~lv~~l~~~fp~F~D~~~~~g~~v~F~KrAQllv~~l~-~~~--~~~~~~~f~d~~~Lt~fADy~vPqvLr~~GvL~  245 (331)
+                      +...+.+.|.+.+++=.+.     ++|.|-      +-|++ ..+  .+..   +....++.+--||+|-.+....|++.
+T Consensus       121 dl~~l~~~La~~l~~~~~~-----KTiVFa------vKMl~Ya~~i~~g~~---~~~p~~ipIPVD~RI~rit~r~Giv~  186 (256)
+T 1XQO_A          121 DLGLTLRQLSHIVGARREQ-----KTLVFT------IKILNYAYMCSRGVN---RVLPFDIPIPVDYRVARLTWCAGLID  186 (256)
+T ss_dssp             CHHHHHHHHHHHHTSCTTS-----HHHHHH------HHHHHHHHHHHHTCC---CCCCTTSCCCCCHHHHHHHHHTTSCS
+T ss_pred             CHHHHHHHHHHHHCCCCcc-----hHHHHH------HHHHHHHHHHhcCCC---CCCCCCCCCCccHHHHHHHHHhCCcc
+Confidence            4556667777766543332     345553      22333 221  1211   12223458899999999999999998
+
+
+Q query           246 YAPALHDRLARREEIPAGSPEEVEIRAATIWGVEELRRALASRGHALDAYQVDWLLWDEGQRLP  309 (331)
+Q Consensus       246 ys~~L~~~id~~~~i~~gs~~EveIRAatv~A~e~l~~~l~~~~~~i~~~~lD~~LW~~~~~~~  309 (331)
+                      ..                ..+.+++|-..+.|...+.+..     .+...+||..||..|+..-
+T Consensus       187 ~~----------------~~~~~~~r~~v~~aW~~Va~~s-----gIpplhLDslLW~~gr~~c  229 (256)
+T 1XQO_A          187 FP----------------PEEALRRYEAVQKIWDAVARET-----GIPPLHLDTLLWLAGRAVL  229 (256)
+T ss_dssp             SC----------------HHHHHHTHHHHHHHHHHHHHHH-----TCCHHHHHHHHHHHHHHHT
+T ss_pred             CC----------------HHHHHHHHHHHHHHHHHHHHHH-----CCCHHHHHHHHHHHhhhhh
+Confidence            73                2344677888888888876643     4889999999999887543
+
+
+No 2
+>7NRC_A 40S ribosomal protein S0-A, 40S; Ribosome, Disome, GCN1, Translation, GAAC; HET: 5CT; 3.9A {Saccharomyces cerevisiae S288C}
+Probab=42.79  E-value=23  Score=38.63  Aligned_cols=8  Identities=50%  Similarity=1.265  Sum_probs=5.1  Template_Neff=1.000
+
+Q query            69 DAVNFCFW   76 (331)
+Q Consensus        69 ~aiNF~fW   76 (331)
+                      .++.|||-
+T Consensus       212 esvgfcfq  219 (1209)
+T 7NRC_A          212 ESVGFCFQ  219 (1209)
+T ss_pred             HhHHHHHH
+Confidence            46677774
+
+
+No 3
+>5BY1_B Non-structural protein 1; Viral Protein, Immune Antagonist; HET: 1PE; 1.751A {Influenza A virus (A/flat-faced bat/Peru/033/2010(H18N11))}
+Probab=26.89  E-value=61  Score=26.11  Aligned_cols=19  Identities=37%  Similarity=0.531  Sum_probs=15.2  Template_Neff=1.500
+
+Q query           290 HALDAYQVDWLLWDEGQRL  308 (331)
+Q Consensus       290 ~~i~~~~lD~~LW~~~~~~  308 (331)
+                      ..+++-++|.+||...+..
+T Consensus        15 nTv~sFQVDCfLWHvrK~~   33 (84)
+T 5BY1_B           15 PTTIAFQVDCYLWHLKKML   33 (84)
+T ss_dssp             HHHHHHHHHHHHHHHHHHH
+T ss_pred             CcchhHHHHHHHHHHHHHH
+Confidence            4578899999999976654
+
+
+No 4
+>2NN4_A Hypothetical protein yqgQ; Novel fold, pfam:DUF910, 10278a, Structural; 2.1A {Bacillus subtilis} SCOP: a.272.1.1
+Probab=21.06  E-value=94  Score=25.14  Aligned_cols=16  Identities=38%  Similarity=0.688  Sum_probs=15.0  Template_Neff=4.200
+
+Q query           232 YKVPQVLHHLGILRYA  247 (331)
+Q Consensus       232 y~vPqvLr~~GvL~ys  247 (331)
+                      |.|.|+|..+|++.|.
+T Consensus         6 yDVqqLLKrfG~~IY~   21 (72)
+T 2NN4_A            6 YDVQQLLKTFGHIVYF   21 (72)
+T ss_dssp             HHHHHHHHTTTCCCCC
+T ss_pred             HHHHHHHHHhCeeeee
+Confidence            7799999999999997
+
+
+No 5
+>2OHD_F Probable molybdenum cofactor biosynthesis protein; alpha + beta, BIOSYNTHETIC PROTEIN; 2.2A {Sulfolobus tokodaii str. 7}
+Probab=20.58  E-value=97  Score=28.65  Aligned_cols=61  Identities=13%  Similarity=0.197  Sum_probs=44.6  Template_Neff=4.900
+
+Q query           239 HHLGILRYAPALHDRLARREEIPAGSPEEVEIRAATIWGVEELRRALASRG-HALDAYQVDWLL  301 (331)
+Q Consensus       239 r~~GvL~ys~~L~~~id~~~~i~~gs~~EveIRAatv~A~e~l~~~l~~~~-~~i~~~~lD~~L  301 (331)
+                      ...|.|..++++-+.|.++. ++.|..-++. |.|.|.|+.+-.+.|---. -+++.+++++.+
+T Consensus        20 ~A~g~I~l~~~~~~~i~~~~-~~KGdvl~~A-riAgi~aaK~Ts~lIPlcHpi~i~~v~v~~~~   81 (151)
+T 2OHD_F           20 VVEGYIKLRKETIEKIKNKE-VEKGDVITVA-KTAGILAAKKTPELIPMCHPIPLEFVDVEIKI   81 (151)
+T ss_dssp             EEEEEEECCHHHHHHHHTTC-CTTCCHHHHH-HHHHHHHHHHHHHHSTTCCCCCCCEEEEEEEE
+T ss_pred             EEEEEEEecHHHHHHHHcCC-CCCCcHHHHH-HHHHHHHHHhchhcCCCCCCCccceeEEEEEE
+Confidence            46789999999998888554 8999988887 9999999987766653221 135666666654
+
+
+No 6
+>5H5N_A Non-structural protein 1; influenza virus, RNA-binding domain, RNA; 2.0A {Influenza A virus (A/little yellow-shouldered bat/Guatemala/060/2010(H17N10))}
+Probab=16.38  E-value=1.4e+02  Score=23.74  Aligned_cols=18  Identities=39%  Similarity=0.608  Sum_probs=14.6  Template_Neff=1.600
+
+Q query           291 ALDAYQVDWLLWDEGQRL  308 (331)
+Q Consensus       291 ~i~~~~lD~~LW~~~~~~  308 (331)
+                      .+++.++|.+||...+..
+T Consensus         6 Tv~sFQVDCfLWHvrK~~   23 (74)
+T 5H5N_A            6 TTIAFQVDCYLWHLKKTL   23 (74)
+T ss_dssp             HHHHHHHHHHHHHHHHHH
+T ss_pred             cchhhhHHHHHHHHHHHH
+Confidence            477889999999976654
+
+
+No 7
+>2IIH_A Molybdenum cofactor biosynthesis protein C; MOAC, MOLYBDENUM COFACTOR (MOCO), MOCO; 1.75A {Thermus thermophilus}
+Probab=14.47  E-value=1.7e+02  Score=27.33  Aligned_cols=63  Identities=14%  Similarity=0.124  Sum_probs=45.6  Template_Neff=5.200
+
+Q query           239 HHLGILRYAPALHDRLARREEIPAGSPEEVEIRAATIWGVEELRRALASR-GHALDAYQVDWLLWD  303 (331)
+Q Consensus       239 r~~GvL~ys~~L~~~id~~~~i~~gs~~EveIRAatv~A~e~l~~~l~~~-~~~i~~~~lD~~LW~  303 (331)
+                      ...|.|..++++-+.|.+ ..++.|..-++. |.|+|.|+.+-.+.|.-- .-+++.+++|+.+..
+T Consensus        27 ~A~g~i~~~~~~~~~i~~-~~~~KGdvl~~A-riAgi~aaK~T~~lIPlCHpi~i~~v~v~~~~~~   90 (157)
+T 2IIH_A           27 TAEAFVELTEEALSALEK-GGVGKGDPLVVA-QLAGILAAKKTADLIPLCHPLPLTGVEVRVELLK   90 (157)
+T ss_dssp             EEEEEEECCHHHHHHHTT-TCSSSCCHHHHH-HHHHHHHHHHHHHHSTTCCCCCCSEEEEEEEEET
+T ss_pred             EEEEEEEeCHHHHHHHHc-CCCCCCCHHHHH-HHHHHHHHHhhhhccCCCCCCCCcceEEEEEEcC
+Confidence            357889999988888885 448889888887 999999998776665321 124666777776643
+
+
+No 8
+>3M8A_C Nonstructural protein 1; NS1, N-terminal RNA binding Domain; HET: MLI, ACT; 2.1A {Influenza A virus}
+Probab=14.24  E-value=1.7e+02  Score=23.23  Aligned_cols=18  Identities=33%  Similarity=0.833  Sum_probs=14.7  Template_Neff=1.400
+
+Q query           291 ALDAYQVDWLLWDEGQRL  308 (331)
+Q Consensus       291 ~i~~~~lD~~LW~~~~~~  308 (331)
+                      .+++.++|.+||...+..
+T Consensus         8 tvssfqvdcflwhirkrf   25 (76)
+T 3M8A_C            8 TMSSFQVDCFLWHIRKRF   25 (76)
+T ss_dssp             HHHHHHHHHHHHHHHHHH
+T ss_pred             cchhHHHHHHHHHHHHHH
+Confidence            478899999999976654
+
+
+No 9
+>1NS1_A NONSTRUCTURAL PROTEIN 1; NONSTRUCTURAL PROTEIN, RNA-BINDING, SSRNA-BINDING, DSRNA-BINDING; NMR {Influenza A virus} SCOP: a.16.1.1
+Probab=13.61  E-value=1.8e+02  Score=22.99  Aligned_cols=18  Identities=28%  Similarity=0.767  Sum_probs=14.5  Template_Neff=1.500
+
+Q query           291 ALDAYQVDWLLWDEGQRL  308 (331)
+Q Consensus       291 ~i~~~~lD~~LW~~~~~~  308 (331)
+                      .+++.++|.+||...+..
+T Consensus         5 tvssfqvdcflwhvrkrf   22 (73)
+T 1NS1_A            5 TVSSFQVDCFLWHVRKQV   22 (73)
+T ss_dssp             HHHHHHHHHHHHHHHHHH
+T ss_pred             cchhHhHHHHHHHHHHHH
+Confidence            477889999999976654
+
+
+No 10
+>2ZKO_B Non-structural protein 1/RNA Complex; dsRNA, protein-RNA interaction, Host-virus interaction; HET: GOL; 1.7A {Influenza A virus}
+Probab=13.58  E-value=1.9e+02  Score=22.90  Aligned_cols=18  Identities=33%  Similarity=0.826  Sum_probs=14.7  Template_Neff=1.400
+
+Q query           291 ALDAYQVDWLLWDEGQRL  308 (331)
+Q Consensus       291 ~i~~~~lD~~LW~~~~~~  308 (331)
+                      .+++.++|.+||...+..
+T Consensus         8 tvssfqvdcflwhvrk~~   25 (73)
+T 2ZKO_B            8 TVSSFQVDCFLWHVRKRV   25 (73)
+T ss_dssp             HHHHHHHHHHHHHHHHHH
+T ss_pred             cchhHHHHHHHHHHHHHH
+Confidence            478889999999976654
+
+

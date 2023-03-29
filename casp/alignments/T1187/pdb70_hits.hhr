@@ -1,0 +1,158 @@
+Query         query 
+Match_columns 166
+No_of_seqs    190 out of 3959
+Neff          7.60205
+Searched_HMMs 90139
+Date          Sun Aug  7 20:04:25 2022
+Command       /mnt/home/dberenberg/gustaf_stuff/openfold/lib/conda/envs/openfold_venv/bin/hhsearch -i /tmp/tmpr4emjbmk/query.a3m -o /tmp/tmpr4emjbmk/output.hhr -maxseq 1000000 -cpu 28 -d /mnt/home/dberenberg/gustaf_stuff/OpenFold/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3N3F_A Collagen alpha-1(XV) ch  34.8      37 0.00041   22.0   0.0   14  119-132    38-51  (54)
+  2 3N3F_B Collagen alpha-1(XV) ch  30.7      48 0.00053   21.5   0.0   13  119-131    38-50  (54)
+  3 3HSH_A collagen, extracellular  30.3      49 0.00054   21.6   0.0   13  119-131    40-52  (56)
+  4 1NIG_A hypothetical protein; S  26.2      64 0.00071   25.6   0.0   24   40-68     81-104 (152)
+  5 5CWC_A Designed helical repeat  20.2   1E+02  0.0011   24.5   0.0   10  116-125   196-205 (210)
+  6 5CWG_A Designed helical repeat  20.0   1E+02  0.0011   24.5   0.0   10  116-125   196-205 (210)
+  7 1Z65_A Prion-like protein dopp  15.5 1.5E+02  0.0017   17.1   0.0   19   38-56      5-23  (30)
+  8 4JO6_Z Streptavidin, SBP-Tag;   15.5 1.5E+02  0.0017   17.4   0.0   13  149-161     5-17  (38)
+  9 6J5K_Ci ATP synthase F1 subuni  15.1 1.6E+02  0.0018   18.4   0.0   26   45-70     16-41  (42)
+ 10 2M1J_A Prion-like protein dopp  15.0 1.6E+02  0.0018   17.0   0.0   19   38-56      5-23  (30)
+
+No 1
+>3N3F_A Collagen alpha-1(XV) chain; collagen, extracellular matrix, basement membrane; 2.005A {Homo sapiens}
+Probab=34.76  E-value=37  Score=22.00  Aligned_cols=14  Identities=43%  Similarity=1.070  Sum_probs=11.9  Template_Neff=5.700
+
+Q query           119 SDGWLEIKLGEFFN  132 (166)
+Q Consensus       119 ~DgWmEielGEF~~  132 (166)
+                      .+||-+|.+|+|..
+T Consensus        38 ~~GWr~i~Lg~~~~   51 (54)
+T 3N3F_A           38 RDGWKKLQLGELIP   51 (54)
+T ss_dssp             TTEEEECCCCCCCC
+T ss_pred             CCcceEeecCCccc
+Confidence            37999999999863
+
+
+No 2
+>3N3F_B Collagen alpha-1(XV) chain; collagen, extracellular matrix, basement membrane; 2.005A {Homo sapiens}
+Probab=30.70  E-value=48  Score=21.52  Aligned_cols=13  Identities=46%  Similarity=1.176  Sum_probs=11.5  Template_Neff=5.600
+
+Q query           119 SDGWLEIKLGEFF  131 (166)
+Q Consensus       119 ~DgWmEielGEF~  131 (166)
+                      .+||-+|.+|+|.
+T Consensus        38 ~~Gwr~v~Lg~~~   50 (54)
+T 3N3F_B           38 RDGWKKLQLGELI   50 (54)
+T ss_dssp             TTEEEECCCCCCC
+T ss_pred             CCcceEeecCCcc
+Confidence            3799999999985
+
+
+No 3
+>3HSH_A collagen, extracellular matrix, basement membrane; HET: SO4, GOL; 1.8A {Homo sapiens}
+Probab=30.27  E-value=49  Score=21.64  Aligned_cols=13  Identities=15%  Similarity=0.360  Sum_probs=11.5  Template_Neff=5.600
+
+Q query           119 SDGWLEIKLGEFF  131 (166)
+Q Consensus       119 ~DgWmEielGEF~  131 (166)
+                      .+||-+|.||+|.
+T Consensus        40 ~~GWr~i~Lg~~~   52 (56)
+T 3HSH_A           40 QNGFRKVQLEART   52 (56)
+T ss_dssp             TTEEEEECEEEEE
+T ss_pred             cccceEEeccccc
+Confidence            3799999999985
+
+
+No 4
+>1NIG_A hypothetical protein; STRUCTURAL GENOMICS, four helixbundle, PSI; 2.0A {Thermoplasma acidophilum} SCOP: a.25.2.1
+Probab=26.22  E-value=64  Score=25.58  Aligned_cols=24  Identities=21%  Similarity=0.473  Sum_probs=19.1  Template_Neff=2.700
+
+Q query            40 VAWLDIYGKIETKNLIRKTSYAVYLVFKL   68 (166)
+Q Consensus        40 V~wLeI~Gki~t~~LSp~T~Y~aylVfkl   68 (166)
+                      -.|+||+-|+     |.+..|+|||+.--
+T Consensus        81 e~WlDikeKm-----~~Gd~~tayL~~A~  104 (152)
+T 1NIG_A           81 EDWYDIKEKA-----NNGNRWSLYMFLAR  104 (152)
+T ss_dssp             CCCCCHHHHH-----HHTCHHHHHHHHHH
+T ss_pred             chhhcHHHHH-----hcCCHHHHHHHHHH
+Confidence            3699999775     78889999997654
+
+
+No 5
+>5CWC_A Designed helical repeat protein; helical repeat protein, DE NOVO; HET: EDO; 1.25A {synthetic construct}
+Probab=20.22  E-value=1e+02  Score=24.54  Aligned_cols=10  Identities=60%  Similarity=1.146  Sum_probs=1.9  Template_Neff=1.000
+
+Q query           116 HLRSDGWLEI  125 (166)
+Q Consensus       116 ~~R~DgWmEi  125 (166)
+                      +.|+|||+|-
+T Consensus       196 krrgdgwleh  205 (210)
+T 5CWC_A          196 KRRGDGWLEH  205 (210)
+T ss_dssp             HHC-------
+T ss_pred             HHccCccccc
+Confidence            4689999983
+
+
+No 6
+>5CWG_A Designed helical repeat protein; helical repeat protein, DE NOVO; HET: EDO, UNL; 1.2A {synthetic construct}
+Probab=20.02  E-value=1e+02  Score=24.50  Aligned_cols=10  Identities=60%  Similarity=1.146  Sum_probs=0.5  Template_Neff=1.000
+
+Q query           116 HLRSDGWLEI  125 (166)
+Q Consensus       116 ~~R~DgWmEi  125 (166)
+                      +.|+|||+|-
+T Consensus       196 krrgdgwleh  205 (210)
+T 5CWG_A          196 KRRGDGWLEH  205 (210)
+T ss_dssp             C---------
+T ss_pred             HHccCccccc
+Confidence            4689999973
+
+
+No 7
+>1Z65_A Prion-like protein doppel; transmembrane helix  DHPC ; NMR {N/A}
+Probab=15.55  E-value=1.5e+02  Score=17.10  Aligned_cols=19  Identities=16%  Similarity=0.237  Sum_probs=12.0  Template_Neff=2.400
+
+Q query            38 RRVAWLDIYGKIETKNLIR   56 (166)
+Q Consensus        38 ~~V~wLeI~Gki~t~~LSp   56 (166)
+                      +..|||-|-.-+--+.||.
+T Consensus         5 Lg~w~lai~c~ll~shLS~   23 (30)
+T 1Z65_A            5 LGTWWVAILCMLLASHLST   23 (30)
+T ss_dssp             CSSHHHHHHHHHHHHHTTT
+T ss_pred             hHHHHHHHHHHHHHHhHHh
+Confidence            4678887776655555553
+
+
+No 8
+>4JO6_Z Streptavidin, SBP-Tag; Homotetramer bound to peptides, Biotechnological; 1.75A {Streptomyces avidinii}
+Probab=15.45  E-value=1.5e+02  Score=17.41  Aligned_cols=13  Identities=31%  Similarity=0.948  Sum_probs=10.6  Template_Neff=1.000
+
+Q query           149 DKTWKSGIIVKGF  161 (166)
+Q Consensus       149 ~~~~K~GLiv~GI  161 (166)
+                      ...|++|-+|+|.
+T Consensus         5 ttgwrgghvvegl   17 (38)
+T 4JO6_Z            5 TTGWRGGHVVEGL   17 (38)
+T ss_pred             cccccchhHHhhh
+Confidence            3469999999986
+
+
+No 9
+>6J5K_Ci ATP synthase F1 subunit alpha; membrane protein; HET: ADP, MG, ATP; 6.2A {Sus scrofa}
+Probab=15.06  E-value=1.6e+02  Score=18.41  Aligned_cols=26  Identities=19%  Similarity=0.201  Sum_probs=16.5  Template_Neff=3.700
+
+Q query            45 IYGKIETKNLIRKTSYAVYLVFKLTD   70 (166)
+Q Consensus        45 I~Gki~t~~LSp~T~Y~aylVfkl~~   70 (166)
+                      ++|+.+....+=.+.-.+|++||+.+
+T Consensus        16 ~~GR~N~v~ATya~i~l~~l~~klkp   41 (42)
+T 6J5K_Ci          16 LTGRMNCVLATYGGIALLVLYFKLRS   41 (42)
+T ss_pred             cCCcchhHHHHHHHHHHHHHHHhccC
+Confidence            56777766655555556677777653
+
+
+No 10
+>2M1J_A Prion-like protein doppel; Prion-like protein, UNKNOWN FUNCTION; NMR {N/A}
+Probab=15.04  E-value=1.6e+02  Score=17.01  Aligned_cols=19  Identities=21%  Similarity=0.207  Sum_probs=11.9  Template_Neff=2.400
+
+Q query            38 RRVAWLDIYGKIETKNLIR   56 (166)
+Q Consensus        38 ~~V~wLeI~Gki~t~~LSp   56 (166)
+                      +..|||.|-.-+--+.||.
+T Consensus         5 Lg~w~lai~c~ll~shLS~   23 (30)
+T 2M1J_A            5 LGGCWLAIVCVLLFSQLSS   23 (30)
+T ss_dssp             CSSTTHHHHHHHHHHHHHT
+T ss_pred             hhHHHHHHHHHHHHHhHHh
+Confidence            4677887766655555553
+
+

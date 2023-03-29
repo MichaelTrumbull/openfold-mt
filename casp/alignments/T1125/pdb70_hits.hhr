@@ -1,0 +1,929 @@
+Query         query 
+Match_columns 1200
+No_of_seqs    3 out of 4
+Neff          1.30833
+Searched_HMMs 90139
+Date          Wed Jun  8 15:24:49 2022
+Command       /mnt/home/dberenberg/gustaf_stuff/openfold/lib/conda/envs/openfold_venv/bin/hhsearch -i /tmp/tmphvgpfwl9/query.a3m -o /tmp/tmphvgpfwl9/output.hhr -maxseq 1000000 -cpu 64 -d /mnt/home/dberenberg/gustaf_stuff/OpenFold/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7OGP_A UNK helices - register   90.8    0.11 1.2E-06   58.6   0.0   83  731-817   388-472 (508)
+  2 7OGR_A UNK helices - register   90.8    0.11 1.2E-06   58.6   0.0   83  731-817   388-472 (508)
+  3 3J0K_A DNA-directed RNA polyme  90.5    0.12 1.4E-06   64.7   0.0   55  731-788   436-490 (1455)
+  4 3J1N_A DNA-directed RNA polyme  90.3    0.13 1.5E-06   64.4   0.0   55  731-788   436-490 (1455)
+  5 6KF4_A DNA-directed RNA polyme  89.7    0.17 1.8E-06   60.6   0.0   56  730-788   415-470 (906)
+  6 4QIW_A DNA-directed RNA polyme  89.0    0.21 2.4E-06   60.0   0.0   55  731-788   416-470 (906)
+  7 7OQ4_A viral inhibitor, transc  87.6    0.32 3.5E-06   58.2   0.0   55  731-788   411-465 (880)
+  8 7AOE_A DNA-directed RNA polyme  86.6     0.4 4.5E-06   61.7   0.0   55  731-787   597-651 (1689)
+  9 1HQM_D DNA-DIRECTED RNA POLYME  86.5    0.41 4.6E-06   59.9   0.0   55  731-788   434-488 (1265)
+ 10 4YFK_D Escherichia coli RNA po  86.0    0.47 5.2E-06   59.9   0.0   55  731-788   415-469 (1407)
+ 11 2GHO_D DNA-directed RNA polyme  85.4    0.52 5.8E-06   59.3   0.0   57  730-789   402-458 (1233)
+ 12 7NVU_A RPB1, DNA-directed RNA   85.0    0.57 6.3E-06   61.3   0.0   54  731-787   450-503 (1970)
+ 13 4AYB_A DNA-DIRECTED RNA POLYME  84.9    0.58 6.4E-06   56.0   0.0   56  730-788   410-465 (880)
+ 14 6EU1_A DNA-directed RNA polyme  84.2    0.66 7.3E-06   58.9   0.0   54  731-787   466-519 (1460)
+ 15 6TUT_A DNA-directed RNA polyme  84.2    0.66 7.3E-06   58.9   0.0   54  731-787   466-519 (1460)
+ 16 6O9L_A DNA-directed RNA polyme  83.3    0.77 8.6E-06   60.1   0.0   54  731-787   450-503 (1970)
+ 17 6RQL_A RNA polymerase I-specif  82.8    0.84 9.3E-06   59.0   0.0   55  731-787   581-635 (1664)
+ 18 6RUI_A RNA polymerase I-specif  82.8    0.84 9.3E-06   59.0   0.0   55  731-787   581-635 (1664)
+ 19 7EGA_o Integrator complex subu  82.8    0.85 9.4E-06   57.7   0.0   48  731-787   450-503 (1487)
+ 20 6OY6_D DNA-directed RNA polyme  82.6    0.87 9.6E-06   59.2   0.0   54  731-787   694-747 (1502)
+ 21 6J9E_D DNA-directed RNA polyme  82.6    0.87 9.6E-06   57.9   0.0   55  731-788   415-469 (1405)
+ 22 6J9F_D DNA-directed RNA polyme  82.6    0.87 9.6E-06   57.9   0.0   55  731-788   415-469 (1405)
+ 23 6WOY_D DNA-directed RNA polyme  82.2    0.93   1E-05   59.0   0.0   54  731-787   694-747 (1505)
+ 24 6WVJ_D DNA-directed RNA polyme  82.0    0.96 1.1E-05   56.6   0.0   55  731-788   404-458 (1199)
+ 25 6WVK_D DNA-directed RNA polyme  82.0    0.96 1.1E-05   56.6   0.0   55  731-788   404-458 (1199)
+ 26 6N4C_D RNA polymerase sigma fa  81.2     1.1 1.2E-05   56.6   0.0   48  732-788   402-455 (1358)
+ 27 5ZX3_D DNA-directed RNA polyme  81.1     1.1 1.2E-05   57.1   0.0   56  731-789   491-546 (1317)
+ 28 6DV9_D DNA-directed RNA polyme  80.9     1.1 1.2E-05   57.0   0.0   56  731-789   490-545 (1316)
+ 29 6RIE_A DNA-dependent RNA polym  80.7     1.2 1.3E-05   56.5   0.0   55  731-788   370-424 (1286)
+ 30 6WMR_D RNA polymerase/DNA comp  80.7     1.2 1.3E-05   57.2   0.0   56  731-789   413-468 (1417)
+ 31 7AE1_A DNA-directed RNA polyme  80.5     1.2 1.3E-05   56.3   0.0   56  730-788   453-508 (1390)
+ 32 7D58_A DNA-directed RNA polyme  80.5     1.2 1.3E-05   56.3   0.0   56  730-788   453-508 (1390)
+ 33 7AOH_A Vaccinia, Virus, RNA po  79.3     1.4 1.5E-05   55.6   0.0   54  731-787   370-423 (1286)
+ 34 6WMP_D RNA polymerase/DNA/RNA   78.8     1.5 1.7E-05   57.2   0.0   54  731-787   413-466 (1604)
+ 35 6PST_J DNA-directed RNA polyme  78.2     1.6 1.8E-05   56.2   0.0   55  731-788   415-469 (1430)
+ 36 2BE5_D DNA-directed RNA polyme  77.9     1.7 1.8E-05   57.0   0.0   54  731-787   694-747 (1524)
+ 37 4C2M_A DNA-DIRECTED RNA POLYME  75.9     2.1 2.3E-05   55.8   0.0   55  731-787   581-635 (1664)
+ 38 6YYS_D DNA-directed RNA polyme  75.7     2.1 2.4E-05   54.8   0.0   55  731-788   490-544 (1317)
+ 39 3H0G_A DNA-directed RNA polyme  60.1     7.7 8.6E-05   51.1   0.0   54  731-787   442-495 (1752)
+ 40 3PO2_A DNA-directed RNA polyme  58.2     8.8 9.8E-05   50.5   0.0   54  731-787   436-489 (1733)
+ 41 1TWF_A DNA-directed RNA polyme  57.5     9.3  0.0001   50.2   0.0   54  731-787   436-489 (1733)
+ 42 5VVS_A DNA-directed RNA polyme  57.3     9.3  0.0001   50.2   0.0   54  731-787   436-489 (1733)
+ 43 2J7N_A RNA-DEPENDENT RNA POLYM  56.8     9.7 0.00011   48.0   0.0   61  734-796   576-644 (1022)
+ 44 2J7N_B RNA-DEPENDENT RNA POLYM  56.8     9.7 0.00011   48.0   0.0   61  734-796   576-644 (1022)
+ 45 5ITM_D AbrB family transcripti  42.7      23 0.00025   27.4   0.0   26  707-736     7-32  (48)
+ 46 5ITM_F AbrB family transcripti  42.7      23 0.00025   27.4   0.0   26  707-736     7-32  (48)
+ 47 1YFB_B Transition state regula  38.5      29 0.00033   29.6   0.0   30  705-738    14-43  (59)
+ 48 7NRC_A 40S ribosomal protein S  38.2      30 0.00033   43.0   0.0   16  575-590   363-378 (1209)
+ 49 5FSW_A RNA DEPENDENT RNA POLYM  38.1      30 0.00033   44.4   0.0   62  733-796   576-645 (1034)
+ 50 5ITJ_A AbrB family transcripti  36.0      34 0.00038   27.6   0.0   29  707-739     7-35  (54)
+ 51 2L66_B Transcriptional regulat  34.0      39 0.00043   27.4   0.0   28  707-738     6-33  (53)
+ 52 6F3Z_A Lipoprotein-releasing s  29.9      50 0.00056   31.6   0.0   19  719-737    97-115 (230)
+ 53 2RO5_A Stage V sporulation pro  29.6      51 0.00057   26.1   0.0   29  707-739     8-37  (55)
+ 54 3DDV_A Transcriptional regulat  29.4      52 0.00057   29.4   0.0   60  698-757    71-132 (145)
+ 55 2W1T_A STAGE V SPORULATION PRO  24.6      72  0.0008   31.0   0.0   30  707-740     8-37  (178)
+ 56 3LHE_A GntR family Transcripti  24.6      72  0.0008   28.4   0.0   57  698-754    74-132 (143)
+ 57 3L5Z_A Transcriptional regulat  24.0      75 0.00083   29.1   0.0   58  697-754    73-132 (156)
+ 58 2OOI_A SA0254 protein; Staphyl  22.7      83 0.00092   29.1   0.0   61  696-756    84-146 (162)
+ 59 7NRC_A 40S ribosomal protein S  21.9      88 0.00097   39.4   0.0  120  145-280   330-465 (1209)
+ 60 5NAA_B Lipoprotein-releasing s  21.8      88 0.00098   29.9   0.0   19  719-737    97-115 (230)
+ 61 2OXL_A Hypothetical protein ym  21.0      94   0.001   28.5   0.0   34  381-415    27-63  (64)
+
+No 1
+>7OGP_A UNK helices - register could; RNA polymerase, PhiKZ, non-virion, TRANSCRIPTION; 3.3A {Pseudomonas phage phiKZ}
+Probab=90.78  E-value=0.11  Score=58.58  Aligned_cols=83  Identities=18%  Similarity=0.135  Sum_probs=55.7  Template_Neff=8.000
+
+Q query           731 LKEGDIAFTFRNPVMGHGGALLQARVAAIR--DRLNAVVVNQEYAKSTGVDFDGDTLVVLPKGLPVDPHRLEVFQTLMAH  808 (1200)
+Q Consensus       731 LK~G~iA~t~RNP~MGH~G~Llq~~Va~i~--D~L~~~V~Nq~~~~sTG~DFDGD~~~~~~k~~~V~P~~~EV~~~LMA~  808 (1200)
+                      ++.||.++-.|+|.. |..++...+|..|.  ..-+.+-+|.-..+.-+||||||.|.+..-...  -...|... ||..
+T Consensus       388 ~~~gd~vl~nR~PtL-h~~si~~~~~~~i~~~~~~~ti~i~p~~c~~~naDFDGDem~~~~~~s~--~a~~E~~~-l~~~  463 (508)
+T 7OGP_A          388 PYKGMGCTFHRNPTL-QRGSTQQFFITKVKDDINDNSISMSVLCLKAPNADFDGDQLNLTLMPDV--YLTKATER-IAPH  463 (508)
+T ss_dssp             SSSSEEEEEECSSCC-SGGGEEEEEEEEECSCSSCCCEEECSGGGTTTTCCSSSCCEEEEECCBH--HHHHHGGG-SCTT
+T ss_pred             ccCCCeeEEeCCCCC-CCCcccccEEEEeccCCCCCceecchhcCCCCCCCCChhHhheeeCCCH--HHHHHHHH-hcch
+Confidence            456999999999987 44444444443442  456789999999999999999999987532221  12344444 6666
+
+
+Q query           809 AGLAGGRKG  817 (1200)
+Q Consensus       809 aGL~GGRKG  817 (1200)
+                      ..++-...|
+T Consensus       464 ~~~~~~~~~  472 (508)
+T 7OGP_A          464 TWVLSIDEP  472 (508)
+T ss_dssp             TTSBCSSSS
+T ss_pred             hceeccCCC
+Confidence            666544333
+
+
+No 2
+>7OGR_A UNK helices - register could; RNA polymerase, PhiKZ, non-virion, TRANSCRIPTION; 3.0A {Pseudomonas virus phiKZ}
+Probab=90.78  E-value=0.11  Score=58.58  Aligned_cols=83  Identities=18%  Similarity=0.135  Sum_probs=55.7  Template_Neff=8.000
+
+Q query           731 LKEGDIAFTFRNPVMGHGGALLQARVAAIR--DRLNAVVVNQEYAKSTGVDFDGDTLVVLPKGLPVDPHRLEVFQTLMAH  808 (1200)
+Q Consensus       731 LK~G~iA~t~RNP~MGH~G~Llq~~Va~i~--D~L~~~V~Nq~~~~sTG~DFDGD~~~~~~k~~~V~P~~~EV~~~LMA~  808 (1200)
+                      ++.||.++-.|+|.. |..++...+|..|.  ..-+.+-+|.-..+.-+||||||.|.+..-...  -...|... ||..
+T Consensus       388 ~~~gd~vl~nR~PtL-h~~si~~~~~~~i~~~~~~~ti~i~p~~c~~~naDFDGDem~~~~~~s~--~a~~E~~~-l~~~  463 (508)
+T 7OGR_A          388 PYKGMGCTFHRNPTL-QRGSTQQFFITKVKDDINDNSISMSVLCLKAPNADFDGDQLNLTLMPDV--YLTKATER-IAPH  463 (508)
+T ss_pred             ccCCCeeEEeCCCCC-CCCcccccEEEEeccCCCCCceecchhcCCCCCCCCChhHhheeeCCCH--HHHHHHHH-hcch
+Confidence            456999999999987 44444444443442  456789999999999999999999987532221  12344444 6666
+
+
+Q query           809 AGLAGGRKG  817 (1200)
+Q Consensus       809 aGL~GGRKG  817 (1200)
+                      ..++-...|
+T Consensus       464 ~~~~~~~~~  472 (508)
+T 7OGR_A          464 TWVLSIDEP  472 (508)
+T ss_pred             hceeccCCC
+Confidence            666544333
+
+
+No 3
+>3J0K_A DNA-directed RNA polymerase II largest; TRANSFERASE-TRANSCRIPTION complex; 36.0A {Homo sapiens}
+Probab=90.49  E-value=0.12  Score=64.67  Aligned_cols=55  Identities=22%  Similarity=0.375  Sum_probs=46.9  Template_Neff=8.300
+
+Q query           731 LKEGDIAFTFRNPVMGHGGALLQARVAAIRDRLNAVVVNQEYAKSTGVDFDGDTLVVL  788 (1200)
+Q Consensus       731 LK~G~iA~t~RNP~MGH~G~Llq~~Va~i~D~L~~~V~Nq~~~~sTG~DFDGD~~~~~  788 (1200)
+                      +..||+++-.|+|.. |.+++..-+| +|.+. +.+=+|.-...+-+||||||.|-+.
+T Consensus       436 l~~gd~vl~nRqPsL-hk~si~~~~v-~v~~~-~ti~in~~~c~~~NADFDGDemn~~  490 (1455)
+T 3J0K_A          436 IMDNDPVLFNRQPSL-HKMSMMAHRV-KVIPY-STFRLNLSVTSPYNADFDGDEMNLH  490 (1455)
+T ss_dssp             CCTTCEEEEECSSCC-SGGGEEEEEE-EEESS-SCEEECGGGSTTTTCCTTTCEEEEE
+T ss_pred             eeCCCcEEEcCCCcc-cccccccceE-EEcCC-CeeEecccccCCCCCCCCCCceeee
+Confidence            689999999999986 6777776666 56666 8899999999999999999999764
+
+
+No 4
+>3J1N_A DNA-directed RNA polymerase II subunit; transcription, mediator head module, preinitiation; 16.0A {Saccharomyces cerevisiae}
+Probab=90.30  E-value=0.13  Score=64.40  Aligned_cols=55  Identities=22%  Similarity=0.375  Sum_probs=46.7  Template_Neff=8.300
+
+Q query           731 LKEGDIAFTFRNPVMGHGGALLQARVAAIRDRLNAVVVNQEYAKSTGVDFDGDTLVVL  788 (1200)
+Q Consensus       731 LK~G~iA~t~RNP~MGH~G~Llq~~Va~i~D~L~~~V~Nq~~~~sTG~DFDGD~~~~~  788 (1200)
+                      +..||++|-.|+|.. |++++.--+| +|.+. +.+=+|.-...+-+||||||.|-+.
+T Consensus       436 l~~gd~vl~nRqPsL-hk~si~a~~v-~v~~~-~tir~n~~~c~~~NADFDGDemn~~  490 (1455)
+T 3J1N_A          436 IMDNDPVLFNRQPSL-HKMSMMAHRV-KVIPY-STFRLNLSVTSPYNADFDGDEMNLH  490 (1455)
+T ss_dssp             CCTTCEEEEECSSCC-SGGGEEEEEE-EEESS-SSEEECSTTHHHHCCCSSSCEEEEE
+T ss_pred             ccCCCcEEEcCCCCc-ccccccCcEE-EEcCC-CeEEeccccCCCCCCCCCCCceeee
+Confidence            689999999999976 6777766666 56666 8899999999999999999999764
+
+
+No 5
+>6KF4_A DNA-directed RNA polymerase subunit (E.C.2.7.7.6); apo-RNA polymerase, TRANSCRIPTION; 3.97A {Thermococcus kodakarensis (strain ATCC BAA-918 / JCM 12380 / KOD1)}
+Probab=89.71  E-value=0.17  Score=60.62  Aligned_cols=56  Identities=25%  Similarity=0.444  Sum_probs=44.4  Template_Neff=8.300
+
+Q query           730 GLKEGDIAFTFRNPVMGHGGALLQARVAAIRDRLNAVVVNQEYAKSTGVDFDGDTLVVL  788 (1200)
+Q Consensus       730 GLK~G~iA~t~RNP~MGH~G~Llq~~Va~i~D~L~~~V~Nq~~~~sTG~DFDGD~~~~~  788 (1200)
+                      .+..||.++-.|.|.. |.+++.-.+| .+.+. +.+-+|.-....-+||||||.|.+.
+T Consensus       415 ~l~~gd~vl~nR~PsL-h~~si~a~~v-~~~~~-~t~~~~~~~c~~~naDFDGD~m~~~  470 (906)
+T 6KF4_A          415 HLEDGDVVLFNRQPSL-HRMSIMAHRV-RVMPY-RTFRLNLPVCPPYNADFDGDEMNLH  470 (906)
+T ss_dssp             ECCTTCEECCBCSSCC-SGGGBCBEEE-EEESS-SSEEECTTSSSSSCCCSSSCEEECC
+T ss_pred             eccCCCEEEECCCccc-ccccccCcEE-EECCC-CeeeecCCCCCCCCCCCCCceeeee
+Confidence            4689999999999986 5555544444 34455 8899999999999999999998764
+
+
+No 6
+>4QIW_A DNA-directed RNA polymerase (E.C.2.7.7.6), DNA-directed; Transcription, DNA-directed RNA polymerase; HET: ZN; 3.5A {Thermococcus kodakarensis}
+Probab=88.97  E-value=0.21  Score=60.00  Aligned_cols=55  Identities=25%  Similarity=0.461  Sum_probs=43.1  Template_Neff=8.100
+
+Q query           731 LKEGDIAFTFRNPVMGHGGALLQARVAAIRDRLNAVVVNQEYAKSTGVDFDGDTLVVL  788 (1200)
+Q Consensus       731 LK~G~iA~t~RNP~MGH~G~Llq~~Va~i~D~L~~~V~Nq~~~~sTG~DFDGD~~~~~  788 (1200)
+                      |..||+++-.|+|-. |..++.-.+| .+.+. +.+-+|.-..++-+||||||.|.+.
+T Consensus       416 l~~~d~vl~nRqPsL-h~~si~~~~~-~~~~~-~t~~~~~~~c~~~naDFDGDem~~~  470 (906)
+T 4QIW_A          416 LEDGDVVLFNRQPSL-HRMSIMAHRV-RVMPY-RTFRLNLPVCPPYNADFDGDEMNLH  470 (906)
+T ss_dssp             CCTTCEEEEECSSCC-SGGGEEEEEE-EEESS-SSEEECGGGHHHHTCCSSSCEEEEE
+T ss_pred             ccCCCEEEEeCCccc-ccccccceEE-EECCC-CeeeecCCCCCCCCCCCCccceeee
+Confidence            579999999999975 5555544444 33344 7888999999999999999999874
+
+
+No 7
+>7OQ4_A viral inhibitor, transcription inhibition, ATV;{Sulfolobus acidocaldarius DSM 639}
+Probab=87.55  E-value=0.32  Score=58.18  Aligned_cols=55  Identities=24%  Similarity=0.403  Sum_probs=43.6  Template_Neff=8.300
+
+Q query           731 LKEGDIAFTFRNPVMGHGGALLQARVAAIRDRLNAVVVNQEYAKSTGVDFDGDTLVVL  788 (1200)
+Q Consensus       731 LK~G~iA~t~RNP~MGH~G~Llq~~Va~i~D~L~~~V~Nq~~~~sTG~DFDGD~~~~~  788 (1200)
+                      ++.||.++-.|+|.. |..++.-.+| .+.+. +.+-+|.-...+-+||||||.|.+.
+T Consensus       411 ~~~~d~vl~nR~PtL-h~~si~~~~~-~~~~~-~t~~~~~~~c~~~naDFDGDem~~~  465 (880)
+T 7OQ4_A          411 LVDGDVVLFNRQPSL-HRISMMAHKV-RVLPG-RTFRLNLLDCPPYNADFDGDEMNLH  465 (880)
+T ss_dssp             CCTTCEEEEECTTCC-SGGGEEEEEE-EECSS-SSEEECGGGHHHHTCCSSSCEEEEE
+T ss_pred             eeCCCEEEEcCCccc-chhcccCcEe-EECCC-CeeEeccCCCCCCCCCCCccccccc
+Confidence            579999999999975 5555555555 33333 7888999999999999999999875
+
+
+No 8
+>7AOE_A DNA-directed RNA polymerase I subunit; TRANSCRIPTION;{Schizosaccharomyces pombe (strain 972 / ATCC 24843)}
+Probab=86.61  E-value=0.4  Score=61.74  Aligned_cols=55  Identities=22%  Similarity=0.443  Sum_probs=0.0  Template_Neff=7.800
+
+Q query           731 LKEGDIAFTFRNPVMGHGGALLQARVAAIRDRLNAVVVNQEYAKSTGVDFDGDTLVV  787 (1200)
+Q Consensus       731 LK~G~iA~t~RNP~MGH~G~Llq~~Va~i~D~L~~~V~Nq~~~~sTG~DFDGD~~~~  787 (1200)
+                      |..||+++-.|+|-. |+.++...+| +|...-+.+=+|.-...+-+||||||.|.+
+T Consensus       597 l~~gd~vl~nRqPsL-hk~si~a~~v-~v~~~~~t~~~~~~~c~~~NaDFDGDemn~  651 (1689)
+T 7AOE_A          597 VRNGDMLILNRQPTL-HKPSMMAHKA-RILPGEKTIRMHYANCNSYNADFDGDEMNM  651 (1689)
+T ss_dssp             CCTTCEEEEECSSCC-SGGGSEEEEE-EECSSCSSCEECHHHHHHHTCCCSSCEEEE
+T ss_pred             ccCCCEEEEcCCccC-CCCcccCeEE-EEcCCCceeecccccccCCCCCCCCCceee
+
+
+No 9
+>1HQM_D DNA-DIRECTED RNA POLYMERASE (E.C.2.7.7.6); Transferase, DNA-directed RNA polymerase; 3.3A {Thermus aquaticus} SCOP: i.8.1.1
+Probab=86.50  E-value=0.41  Score=59.90  Aligned_cols=55  Identities=18%  Similarity=0.367  Sum_probs=44.4  Template_Neff=7.900
+
+Q query           731 LKEGDIAFTFRNPVMGHGGALLQARVAAIRDRLNAVVVNQEYAKSTGVDFDGDTLVVL  788 (1200)
+Q Consensus       731 LK~G~iA~t~RNP~MGH~G~Llq~~Va~i~D~L~~~V~Nq~~~~sTG~DFDGD~~~~~  788 (1200)
+                      +..||+++-.|+|.. |.+++.-.+| .+.+. +.+=+|+-....-+||||||.|.+.
+T Consensus       434 l~~gd~vl~nR~PtL-h~~si~a~~v-~~~~~-~ti~~~p~~c~~~naDFDGDem~~~  488 (1265)
+T 1HQM_D          434 VIHGKVVLLNRAPTL-HRLGIQAFQP-VLVEG-QSIQLHPLVCEAFNADFDGDQMAVH  488 (1265)
+T ss_dssp             TTTTCCEECCCSSCC-SGGGSCEEBC-CCBSS-SSEEECGGGHHHHCCCSSSCBCCCC
+T ss_pred             eeCCcEEEEeCCCCC-ccccccCeEe-EEeCC-CeEEeChhhHcccCCCCCcccceEE
+Confidence            589999999999987 5555555555 44454 7899999999999999999999875
+
+
+No 10
+>4YFK_D Escherichia coli RNA polymerase alpha; switch region, squaramide, transcription-inhibitor complex; HET: 4C6; 3.571A {Escherichia coli O139:H28 (strain E24377A / ETEC)}
+Probab=85.95  E-value=0.47  Score=59.89  Aligned_cols=55  Identities=18%  Similarity=0.279  Sum_probs=45.5  Template_Neff=8.100
+
+Q query           731 LKEGDIAFTFRNPVMGHGGALLQARVAAIRDRLNAVVVNQEYAKSTGVDFDGDTLVVL  788 (1200)
+Q Consensus       731 LK~G~iA~t~RNP~MGH~G~Llq~~Va~i~D~L~~~V~Nq~~~~sTG~DFDGD~~~~~  788 (1200)
+                      +..||.++..|+|.. |.+++.-.+| .+.+. +.+-+|+-....-+||||||.|.+.
+T Consensus       415 l~~~~~vl~nR~PtL-h~~si~a~~v-~~~~~-~ti~~~p~~c~~~naDFDGD~m~~~  469 (1407)
+T 4YFK_D          415 VIREHPVLLNRAPTL-HRLGIQAFEP-VLIEG-KAIQLHPLVCAAYNADFDGDQMAVH  469 (1407)
+T ss_dssp             HHTTCCEEEECSSCC-SGGGEEEEEE-EEESS-SSEEECTTGGGTTTCCSSSCEEEEE
+T ss_pred             HhcCCcEEEccCCcc-ccccccceee-EEeCC-CEEEeChhhHhhcCCCCCCccceee
+Confidence            788999999999986 6666655555 44555 8999999999999999999999875
+
+
+No 11
+>2GHO_D DNA-directed RNA polymerase alpha chain; Thermus aquaticus RNA polymerase, recombinant; 5.0A {Thermus aquaticus} SCOP: e.29.1.2
+Probab=85.42  E-value=0.52  Score=59.26  Aligned_cols=57  Identities=18%  Similarity=0.339  Sum_probs=44.5  Template_Neff=7.500
+
+Q query           730 GLKEGDIAFTFRNPVMGHGGALLQARVAAIRDRLNAVVVNQEYAKSTGVDFDGDTLVVLP  789 (1200)
+Q Consensus       730 GLK~G~iA~t~RNP~MGH~G~Llq~~Va~i~D~L~~~V~Nq~~~~sTG~DFDGD~~~~~~  789 (1200)
+                      .+..||+++..|+|.. |..++.-.+| .+.+. +.+-+|+-....-+||||||.|.+..
+T Consensus       402 ~l~~gd~Vl~nR~PtL-hr~si~a~~v-~~~~~-~ti~i~p~~c~~~NADFDGDem~~~~  458 (1233)
+T 2GHO_D          402 EVIHGKVVLLNRAPTL-HRLGIQAFQP-VLVEG-QSIQLHPLVCEAFNADFDGDQMAVHV  458 (1233)
+T ss_dssp             HHHTTCCEEEECSSCC-SGGGSCEEEC-CCS-S-SSEEECTGGGGTTTCCCSSCEEEEEC
+T ss_pred             HhcCCCeEEEeCCCcC-ccccccceEE-EECCC-CeeEecccccCcCCCCCCCCccceeC
+Confidence            3578999999999987 4444444444 45555 89999999999999999999998753
+
+
+No 12
+>7NVU_A RPB1, DNA-directed RNA polymerase subunit; Initiation, TRANSCRIPTION; HET: ZN; 2.5A {Sus scrofa}
+Probab=85.00  E-value=0.57  Score=61.26  Aligned_cols=54  Identities=28%  Similarity=0.466  Sum_probs=0.0  Template_Neff=7.900
+
+Q query           731 LKEGDIAFTFRNPVMGHGGALLQARVAAIRDRLNAVVVNQEYAKSTGVDFDGDTLVV  787 (1200)
+Q Consensus       731 LK~G~iA~t~RNP~MGH~G~Llq~~Va~i~D~L~~~V~Nq~~~~sTG~DFDGD~~~~  787 (1200)
+                      |..||+++-.|+|-. |+.++.-.+| +|.+. +.+-+|.-..+.-+||||||.|.+
+T Consensus       450 l~~gd~vl~nR~PsL-h~~si~~~~v-~~~~~-~t~~~~~~~c~~~nADFDGDemn~  503 (1970)
+T 7NVU_A          450 MCDGDIVIFNRQPTL-HKMSMMGHRV-RILPW-STFRLNLSVTTPYNADFDGDEMNL  503 (1970)
+T ss_dssp             CCTTCEEEEECSSCC-SGGGEEEEEE-EECSS-SSEEECSTTHHHHTCCSSSCEEEE
+T ss_pred             ecCCCEEEEeCCccc-chhhhhCceE-EECCC-CeEEEcCcccCCCCCCCCCCceee
+
+
+No 13
+>4AYB_A DNA-DIRECTED RNA POLYMERASE (E.C.2.7.7.6); TRANSFERASE, MULTI-SUBUNIT, TRANSCRIPTION; HET: ZN; 3.202A {SULFOLOBUS SHIBATAE}
+Probab=84.92  E-value=0.58  Score=56.04  Aligned_cols=56  Identities=25%  Similarity=0.390  Sum_probs=40.1  Template_Neff=8.400
+
+Q query           730 GLKEGDIAFTFRNPVMGHGGALLQARVAAIRDRLNAVVVNQEYAKSTGVDFDGDTLVVL  788 (1200)
+Q Consensus       730 GLK~G~iA~t~RNP~MGH~G~Llq~~Va~i~D~L~~~V~Nq~~~~sTG~DFDGD~~~~~  788 (1200)
+                      -|..||+++-.|-|-. |+.+++--+|.- ... +.+-+|.--..+-+||||||.|.+.
+T Consensus       410 ~l~~gd~vl~NRqPsL-Hk~si~a~~v~v-~~~-~t~~~n~~~c~~~naDFDGDem~~~  465 (880)
+T 4AYB_A          410 HLTDGDVVLFNRQPSL-HRISMMAHRVRV-LKG-LTFRLNLLVCPPYNADFDGDEMNLH  465 (880)
+T ss_dssp             ECCTTCEEEEECSSCC-SGGGEEEEEEEE-CSS-SSEEECGGGHHHHTCCSSSCEEEEE
+T ss_pred             eccCCCEEEEcCCccc-cccccccCEEEE-cCC-CeEEEccccCCCCCCCCCcceeeee
+Confidence            3688999999998853 444443333322 222 5777899899999999999999774
+
+
+No 14
+>6EU1_A DNA-directed RNA polymerase III subunit; RNA Pol III, promoter opening;{Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=84.21  E-value=0.66  Score=58.86  Aligned_cols=54  Identities=24%  Similarity=0.385  Sum_probs=0.0  Template_Neff=8.100
+
+Q query           731 LKEGDIAFTFRNPVMGHGGALLQARVAAIRDRLNAVVVNQEYAKSTGVDFDGDTLVV  787 (1200)
+Q Consensus       731 LK~G~iA~t~RNP~MGH~G~Llq~~Va~i~D~L~~~V~Nq~~~~sTG~DFDGD~~~~  787 (1200)
+                      |+.||++|-.|-|.. |+.+++-.+|.-+-.  +.+=+|.--..+-+||||||.|.+
+T Consensus       466 l~dgd~vl~NRqPsL-Hk~si~a~~v~v~~~--~t~r~n~~~c~~~nADFDGDemn~  519 (1460)
+T 6EU1_A          466 LEDGDVVLFNRQPSL-HRLSILSHYAKIRPW--RTFRLNECVCTPYNADFDGDEMNL  519 (1460)
+T ss_dssp             CCTTCCCEEECSSCC-SGGGEEECBCCEESS--SSEEECSSTTTTTTCCSSSCEEEC
+T ss_pred             cCCCCEEEEeCCccc-ccccHhcceeEEcCC--CeEEecCcccCCCCCCCCCCceee
+
+
+No 15
+>6TUT_A DNA-directed RNA polymerase III subunit; Transcription, RNA Polymerase III, Pol; 3.25A {Saccharomyces cerevisiae S288C}
+Probab=84.21  E-value=0.66  Score=58.86  Aligned_cols=54  Identities=24%  Similarity=0.385  Sum_probs=0.0  Template_Neff=8.100
+
+Q query           731 LKEGDIAFTFRNPVMGHGGALLQARVAAIRDRLNAVVVNQEYAKSTGVDFDGDTLVV  787 (1200)
+Q Consensus       731 LK~G~iA~t~RNP~MGH~G~Llq~~Va~i~D~L~~~V~Nq~~~~sTG~DFDGD~~~~  787 (1200)
+                      |+.||++|-.|-|.. |+.+++-.+|.-+-.  +.+=+|.--..+-+||||||.|.+
+T Consensus       466 l~dgd~vl~NRqPsL-Hk~si~a~~v~v~~~--~t~r~n~~~c~~~nADFDGDemn~  519 (1460)
+T 6TUT_A          466 LEDGDVVLFNRQPSL-HRLSILSHYAKIRPW--RTFRLNECVCTPYNADFDGDEMNL  519 (1460)
+T ss_dssp             CCTTCEEEEECSSCC-SGGGEEEEEEEEESS--SSEEECTTSTTTTTCCSSSCEEEE
+T ss_pred             cCCCCEEEEeCCccc-ccccHhcceeEEcCC--CeEEecCcccCCCCCCCCCCceee
+
+
+No 16
+>6O9L_A DNA-directed RNA polymerase II, Transcription; Transcription initiation, Molecular dynamics, Gene; HET: ZN; 7.2A {Homo sapiens}
+Probab=83.33  E-value=0.77  Score=60.14  Aligned_cols=54  Identities=28%  Similarity=0.466  Sum_probs=0.0  Template_Neff=7.900
+
+Q query           731 LKEGDIAFTFRNPVMGHGGALLQARVAAIRDRLNAVVVNQEYAKSTGVDFDGDTLVV  787 (1200)
+Q Consensus       731 LK~G~iA~t~RNP~MGH~G~Llq~~Va~i~D~L~~~V~Nq~~~~sTG~DFDGD~~~~  787 (1200)
+                      |..||+++-.|+|-. |+.++.-.+| +|.+. +.+-+|.-..+.-+||||||.|.+
+T Consensus       450 l~~gd~vl~nR~PsL-h~~si~~~~v-~~~~~-~t~~~~~~~c~~~naDFDGDemn~  503 (1970)
+T 6O9L_A          450 MCDGDIVIFNRQPTL-HKMSMMGHRV-RILPW-STFRLNLSVTTPYNADFDGDEMNL  503 (1970)
+T ss_dssp             CCSSCEEEEECSSCC-SSTTEEEEEC-CBCSS-SEEEECHHHHHHHTCCTTTCEEEE
+T ss_pred             ccCCCEEEEcCCccc-chhhhhCceE-EECCC-CeEEEcccccCCCCCCCCCCceee
+
+
+No 17
+>6RQL_A RNA polymerase I-specific transcription initiation; RNA Polymerase I, Pre-initiation complex; 2.9A {synthetic construct}
+Probab=82.83  E-value=0.84  Score=58.98  Aligned_cols=55  Identities=20%  Similarity=0.447  Sum_probs=0.0  Template_Neff=7.800
+
+Q query           731 LKEGDIAFTFRNPVMGHGGALLQARVAAIRDRLNAVVVNQEYAKSTGVDFDGDTLVV  787 (1200)
+Q Consensus       731 LK~G~iA~t~RNP~MGH~G~Llq~~Va~i~D~L~~~V~Nq~~~~sTG~DFDGD~~~~  787 (1200)
+                      |+.||+++-+|+|-. |+.++.-.+|.-+ ..-+.+-+|.-..++-+||||||.|-+
+T Consensus       581 l~~gd~vl~nRqPsL-hk~si~~~~v~v~-~~~~t~~~~~~~c~~~naDFDGDemn~  635 (1664)
+T 6RQL_A          581 IKNRDVVLMNRQPTL-HKASMMGHKVRVL-PNEKTLRLHYANTGAYNADFDGDEMNM  635 (1664)
+T ss_dssp             CCTTCEEEEEESSCC-SGGGEEEEEEEEC-SSCCSEEECGGGTTTTTCCSSSCEEEE
+T ss_pred             CcCCCEEEEcCCCCc-hhhhhccceeEeC-CCccccccccccccccCCCCCCCceee
+
+
+No 18
+>6RUI_A RNA polymerase I-specific transcription initiation; RNA Polymerase I, Pre-initiation complex; 2.7A {synthetic construct}
+Probab=82.83  E-value=0.84  Score=58.98  Aligned_cols=55  Identities=20%  Similarity=0.447  Sum_probs=0.0  Template_Neff=7.800
+
+Q query           731 LKEGDIAFTFRNPVMGHGGALLQARVAAIRDRLNAVVVNQEYAKSTGVDFDGDTLVV  787 (1200)
+Q Consensus       731 LK~G~iA~t~RNP~MGH~G~Llq~~Va~i~D~L~~~V~Nq~~~~sTG~DFDGD~~~~  787 (1200)
+                      |+.||+++-+|+|-. |+.++.-.+|.-+ ..-+.+-+|.-..++-+||||||.|-+
+T Consensus       581 l~~gd~vl~nRqPsL-hk~si~~~~v~v~-~~~~t~~~~~~~c~~~naDFDGDemn~  635 (1664)
+T 6RUI_A          581 IKNRDVVLMNRQPTL-HKASMMGHKVRVL-PNEKTLRLHYANTGAYNADFDGDEMNM  635 (1664)
+T ss_dssp             CCTTCEEEEEESSCC-SGGGEEEEEEEEC-TTCCSEEECGGGTTTTTCCSSSCEEEE
+T ss_pred             CcCCCEEEEcCCCCc-hhhhhccceeEeC-CCccccccccccccccCCCCCCCceee
+
+
+No 19
+>7EGA_o Integrator complex subunit 1, Integrator; TFIID, preinitiation complex, core promoter; HET: ZN; 4.1A {Sus scrofa}
+Probab=82.76  E-value=0.85  Score=57.67  Aligned_cols=48  Identities=31%  Similarity=0.503  Sum_probs=0.0  Template_Neff=8.500
+
+Q query           731 LKEGDIAFTFRNP------VMGHGGALLQARVAAIRDRLNAVVVNQEYAKSTGVDFDGDTLVV  787 (1200)
+Q Consensus       731 LK~G~iA~t~RNP------~MGH~G~Llq~~Va~i~D~L~~~V~Nq~~~~sTG~DFDGD~~~~  787 (1200)
+                      +..||.++-.|+|      +|+|.-        .+.+. +.+-+|.-...+-+||||||.|.+
+T Consensus       450 ~~~~d~vl~nR~Ptlh~~s~~~~~v--------~~~~~-~t~~~~~~~c~~~naDFDGDem~~  503 (1487)
+T 7EGA_o          450 MCDGDIVIFNRQPTLHKMSMMGHRV--------RILPW-STFRLNLSVTTPYNADFDGDEMNL  503 (1487)
+T ss_dssp             CCTTCEEEEEESSCCSGGGEEEEEE--------EECSS-SSEEECSTTHHHHTCCSSSCEEEE
+T ss_pred             ecCCCEEEEccCcccccchhcCcee--------EECCC-CeEEEcceeccCCCCCCCCCceee
+
+
+No 20
+>6OY6_D DNA-directed RNA polymerase subunit alpha; RNA polymerase, pyrG, reiterative transcription; HET: GTP; 3.096A {Thermus thermophilus}
+Probab=82.63  E-value=0.87  Score=59.17  Aligned_cols=54  Identities=19%  Similarity=0.386  Sum_probs=0.0  Template_Neff=6.500
+
+Q query           731 LKEGDIAFTFRNPVMGHGGALLQARVAAIRDRLNAVVVNQEYAKSTGVDFDGDTLVV  787 (1200)
+Q Consensus       731 LK~G~iA~t~RNP~MGH~G~Llq~~Va~i~D~L~~~V~Nq~~~~sTG~DFDGD~~~~  787 (1200)
+                      +..||+++-.|+|-. |..++.-.+| .+.++ +++-+|+-.+..-+||||||.|.+
+T Consensus       694 l~~gd~VllNR~PTL-Hr~siqa~~~-~~~~~-~tirl~p~vc~~fNADFDGDeM~v  747 (1502)
+T 6OY6_D          694 VIHGKVVLLNRAPTL-HRLGIQAFQP-VLVEG-QSIQLHPLVCEAFNADFDGDQMAV  747 (1502)
+T ss_dssp             HTTTCCEEEECSSCC-SGGGEEEEEE-EEESS-SCEEECSTTHHHHTCCSSSCEEEE
+T ss_pred             HhCCCeEEEcCCCCc-ccccccceEE-EECCC-CeeecCCcccCCCCCCCCCCeeeE
+
+
+No 21
+>6J9E_D DNA-directed RNA polymerase subunit alpha; RNA polymerase, transcription termination, anti-termination; 3.41A {Xanthomonas oryzae pv. oryzae (strain PXO99A)}
+Probab=82.61  E-value=0.87  Score=57.92  Aligned_cols=55  Identities=18%  Similarity=0.280  Sum_probs=44.9  Template_Neff=7.800
+
+Q query           731 LKEGDIAFTFRNPVMGHGGALLQARVAAIRDRLNAVVVNQEYAKSTGVDFDGDTLVVL  788 (1200)
+Q Consensus       731 LK~G~iA~t~RNP~MGH~G~Llq~~Va~i~D~L~~~V~Nq~~~~sTG~DFDGD~~~~~  788 (1200)
+                      +..||.+|..|+|.. |.+++.-.+| .+.+. +.+-+|+-....-+||||||.|.+.
+T Consensus       415 l~~~d~vl~nR~PtL-h~~si~a~~v-~~~~~-~ti~~~p~~c~~~naDFDGD~m~~~  469 (1405)
+T 6J9E_D          415 VIREHPVLLNRAPTL-HRLGIQAFEP-VLIEG-KAIQLHPLVCTAFNADFDGDQMAVH  469 (1405)
+T ss_dssp             HGGGCCEEEEESSCC-SGGGEEEEEE-EEESS-SSEEECTTTHHHHTCCSSSCEEEEE
+T ss_pred             HhcCCeEEEecCCcc-ccccccceee-EEeCC-ceEEeCcchhccccCCCCCCcceEe
+Confidence            788999999999987 4555544444 55566 8999999999999999999999875
+
+
+No 22
+>6J9F_D DNA-directed RNA polymerase subunit alpha; RNA polymerase, transcription termination, anti-termination; 3.95A {Xanthomonas oryzae pv. oryzae PXO99A}
+Probab=82.61  E-value=0.87  Score=57.92  Aligned_cols=55  Identities=18%  Similarity=0.280  Sum_probs=44.9  Template_Neff=7.800
+
+Q query           731 LKEGDIAFTFRNPVMGHGGALLQARVAAIRDRLNAVVVNQEYAKSTGVDFDGDTLVVL  788 (1200)
+Q Consensus       731 LK~G~iA~t~RNP~MGH~G~Llq~~Va~i~D~L~~~V~Nq~~~~sTG~DFDGD~~~~~  788 (1200)
+                      +..||.+|..|+|.. |.+++.-.+| .+.+. +.+-+|+-....-+||||||.|.+.
+T Consensus       415 l~~~d~vl~nR~PtL-h~~si~a~~v-~~~~~-~ti~~~p~~c~~~naDFDGD~m~~~  469 (1405)
+T 6J9F_D          415 VIREHPVLLNRAPTL-HRLGIQAFEP-VLIEG-KAIQLHPLVCTAFNADFDGDQMAVH  469 (1405)
+T ss_dssp             HCSSCCEEEEESSCC-SGGGEEEEEE-EEESS-SSEEECTTTHHHHTCCSSSCEEEEE
+T ss_pred             HhcCCeEEEecCCcc-ccccccceee-EEeCC-ceEEeCcchhccccCCCCCCcceEe
+Confidence            788999999999987 4555544444 55566 8999999999999999999999875
+
+
+No 23
+>6WOY_D DNA-directed RNA polymerase subunit alpha; Initially transcribing complex, TRANSCRIPTION, TRANSCRIPTION-DNA-RNA; HET: CH1; 3.0A {Thermus thermophilus}
+Probab=82.19  E-value=0.93  Score=58.97  Aligned_cols=54  Identities=19%  Similarity=0.386  Sum_probs=0.0  Template_Neff=6.400
+
+Q query           731 LKEGDIAFTFRNPVMGHGGALLQARVAAIRDRLNAVVVNQEYAKSTGVDFDGDTLVV  787 (1200)
+Q Consensus       731 LK~G~iA~t~RNP~MGH~G~Llq~~Va~i~D~L~~~V~Nq~~~~sTG~DFDGD~~~~  787 (1200)
+                      +..||.++-.|.|-. |..++.-.+| .+.++ +++-+|+-.+..-+||||||.|.+
+T Consensus       694 l~~gd~VllNR~PTL-Hr~si~a~~~-~~~~~-~ti~l~p~vc~~fNADFDGDeM~v  747 (1505)
+T 6WOY_D          694 VIHGKVVLLNRAPTL-HRLGIQAFQP-VLVEG-QSIQLHPLVCEAFNADFDGDQMAV  747 (1505)
+T ss_dssp             HTTTCCEEEEESCCC-SSCSEEEEEE-EEESS-SCEEECGGGHHHHTCCSSSCEEEE
+T ss_pred             HcCCCEEEEeCCCCc-cccceeceEE-EEcCC-CceecCchhhcccCCCCCCCeeeE
+
+
+No 24
+>6WVJ_D DNA-directed RNA polymerase subunit alpha; DNA-DEPENDENT RNA POLYMERASE, TRANSCRIPTION, TRANSCRIPTION-DNA-RNA; 3.36A {Escherichia coli BL21(DE3)}
+Probab=81.97  E-value=0.96  Score=56.58  Aligned_cols=55  Identities=16%  Similarity=0.242  Sum_probs=43.0  Template_Neff=7.900
+
+Q query           731 LKEGDIAFTFRNPVMGHGGALLQARVAAIRDRLNAVVVNQEYAKSTGVDFDGDTLVVL  788 (1200)
+Q Consensus       731 LK~G~iA~t~RNP~MGH~G~Llq~~Va~i~D~L~~~V~Nq~~~~sTG~DFDGD~~~~~  788 (1200)
+                      +..||.++..|+|... .+++...+| .+.+. +.+-+|+-....-+||||||.|.+.
+T Consensus       404 ~~~~~~vl~nR~PtLh-~~si~a~~~-~~~~~-~ti~~~p~~c~~~naDFDGDem~~~  458 (1199)
+T 6WVJ_D          404 VIKEHPVLLNRAPTLH-RLGIQAFEP-TLVEG-RAIRLHPLVCTAYNADFDGDQMAVH  458 (1199)
+T ss_dssp             HSTTCCEEEECSSCCS-GGGEEEEEE-EEESS-SSEEECGGGHHHHTCCTTTCEEEEE
+T ss_pred             HhcCCcEEEecCCCCc-cCcccceEe-EEeCC-ceeEeccceecccCCCCCCCeeeee
+Confidence            4678999999999874 444444444 34455 8999999999999999999999875
+
+
+No 25
+>6WVK_D DNA-directed RNA polymerase subunit alpha; RNA POLYMERASE, TRANSFERASE-HELD COMPLEX, TRANSCRIPTION;{Bacillus subtilis (strain 168)}
+Probab=81.97  E-value=0.96  Score=56.58  Aligned_cols=55  Identities=16%  Similarity=0.242  Sum_probs=43.0  Template_Neff=7.900
+
+Q query           731 LKEGDIAFTFRNPVMGHGGALLQARVAAIRDRLNAVVVNQEYAKSTGVDFDGDTLVVL  788 (1200)
+Q Consensus       731 LK~G~iA~t~RNP~MGH~G~Llq~~Va~i~D~L~~~V~Nq~~~~sTG~DFDGD~~~~~  788 (1200)
+                      +..||.++..|+|... .+++...+| .+.+. +.+-+|+-....-+||||||.|.+.
+T Consensus       404 ~~~~~~vl~nR~PtLh-~~si~a~~~-~~~~~-~ti~~~p~~c~~~naDFDGDem~~~  458 (1199)
+T 6WVK_D          404 VIKEHPVLLNRAPTLH-RLGIQAFEP-TLVEG-RAIRLHPLVCTAYNADFDGDQMAVH  458 (1199)
+T ss_dssp             HSSSCCEEEECSSCCS-GGGEEEEEE-EEESS-SSEEECGGGGTTTTCCTTTCEEEEE
+T ss_pred             HhcCCcEEEecCCCCc-cCcccceEe-EEeCC-ceeEeccceecccCCCCCCCeeeee
+Confidence            4678999999999874 444444444 34455 8999999999999999999999875
+
+
+No 26
+>6N4C_D RNA polymerase sigma factor RpoD; DNA wrapping, bacterial transcription initiation; 17.0A {Escherichia coli K-12}
+Probab=81.21  E-value=1.1  Score=56.60  Aligned_cols=48  Identities=19%  Similarity=0.299  Sum_probs=39.1  Template_Neff=8.200
+
+Q query           732 KEGDIAFTFRNP------VMGHGGALLQARVAAIRDRLNAVVVNQEYAKSTGVDFDGDTLVVL  788 (1200)
+Q Consensus       732 K~G~iA~t~RNP------~MGH~G~Llq~~Va~i~D~L~~~V~Nq~~~~sTG~DFDGD~~~~~  788 (1200)
+                      ..||+++-.|+|      +|+|.-        .+.+. +.+=+|+-....-+||||||.|.+.
+T Consensus       402 ~~~d~Vl~nR~PtLh~~si~a~~~--------~~~~~-~ti~~~p~~c~~~naDFDGD~m~~~  455 (1358)
+T 6N4C_D          402 IREHPVLLNRAPTLHRLGIQAFEP--------VLIEG-KAIQLHPLVCAAYNADFDGDQMAVH  455 (1358)
+T ss_pred             eCCCcEEecCCCcccccceeeeee--------EEcCC-CeEEeCcchHhhcCCCCCCCcceee
+Confidence            468999999999      666643        33355 8888999999999999999999864
+
+
+No 27
+>5ZX3_D DNA-directed RNA polymerase subunit alpha; Mycobacterium tuberculosis, RNA polymerase, holoenzyme; 2.751A {Mycobacterium tuberculosis H37Rv}
+Probab=81.08  E-value=1.1  Score=57.12  Aligned_cols=56  Identities=18%  Similarity=0.264  Sum_probs=44.5  Template_Neff=7.300
+
+Q query           731 LKEGDIAFTFRNPVMGHGGALLQARVAAIRDRLNAVVVNQEYAKSTGVDFDGDTLVVLP  789 (1200)
+Q Consensus       731 LK~G~iA~t~RNP~MGH~G~Llq~~Va~i~D~L~~~V~Nq~~~~sTG~DFDGD~~~~~~  789 (1200)
+                      +..||.++-.|+|-. |..++.-.+| .+.++ +++-+|+-.+..-+||||||.|.+..
+T Consensus       491 ~~~~~~Vl~nR~PtL-hr~si~a~~~-~~~~~-~ti~l~p~vc~~~NADFDGDem~v~~  546 (1317)
+T 5ZX3_D          491 VIAEHPVLLNRAPTL-HRLGIQAFEP-MLVEG-KAIQLHPLVCEAFNADFDGDQMAVHL  546 (1317)
+T ss_dssp             HHTTCCEEEECSSCC-SGGGEEEEEE-EEESS-SSEEECTTSHHHHTCCTTTCEEEEEC
+T ss_pred             hhCCCcEEEcCCCCC-cccCccceEE-EECCC-CeeeecccccccCCCCCCCcccceeC
+Confidence            467899999999986 5555555454 44555 89999999999999999999998753
+
+
+No 28
+>6DV9_D DNA-directed RNA polymerase/ECF RNA polymerase; Mycobacterium tuberculosis, RNA polymerase, ECF; 3.8A {Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)}
+Probab=80.93  E-value=1.1  Score=57.05  Aligned_cols=56  Identities=18%  Similarity=0.264  Sum_probs=44.4  Template_Neff=7.300
+
+Q query           731 LKEGDIAFTFRNPVMGHGGALLQARVAAIRDRLNAVVVNQEYAKSTGVDFDGDTLVVLP  789 (1200)
+Q Consensus       731 LK~G~iA~t~RNP~MGH~G~Llq~~Va~i~D~L~~~V~Nq~~~~sTG~DFDGD~~~~~~  789 (1200)
+                      +..||.++-.|+|-. |..++.-.+| .+.++ +++-+|+-....-+||||||.|.+..
+T Consensus       490 ~~~~~~Vl~nR~PtL-hr~si~a~~~-~~~~~-~ti~l~p~vc~~fNADFDGDem~v~~  545 (1316)
+T 6DV9_D          490 VIAEHPVLLNRAPTL-HRLGIQAFEP-MLVEG-KAIQLHPLVCEAFNADFDGDQMAVHL  545 (1316)
+T ss_dssp             HSTTCCEEEECSSCC-SGGGEEEEEE-EEESS-SSEEECTTTHHHHTCCSSSCEEEEEC
+T ss_pred             HHcCCCEEEecCCCc-cccCccceEE-EEcCC-CeeecccccccccCCCCCCcccceeC
+Confidence            467899999999986 5555554454 44555 89999999999999999999998753
+
+
+No 29
+>6RIE_A DNA-dependent RNA polymerase subunit rpo147; Vaccinia, RNA polymerase, Transcription, Gene; HET: SAM, GDP; 3.1A {Vaccinia virus}
+Probab=80.66  E-value=1.2  Score=56.47  Aligned_cols=55  Identities=20%  Similarity=0.346  Sum_probs=40.3  Template_Neff=7.700
+
+Q query           731 LKEGDIAFTFRNPVMGHGGALLQARVAAIRDRLNAVVVNQEYAKSTGVDFDGDTLVVL  788 (1200)
+Q Consensus       731 LK~G~iA~t~RNP~MGH~G~Llq~~Va~i~D~L~~~V~Nq~~~~sTG~DFDGD~~~~~  788 (1200)
+                      |+.||+++-.|.|-. |+.++.--+| +|.+. +.+-+|+-....-+||||||.|.+.
+T Consensus       370 l~dgD~vl~nRqPsL-hk~si~ah~v-~i~~~-~t~~~n~~~c~~~naDFDGDem~~~  424 (1286)
+T 6RIE_A          370 VQEYTSIIFGRQPSL-HRYNVIASSI-RATEG-DTIKISPGIANSQNADFDGDEEWMI  424 (1286)
+T ss_dssp             CCTTCEEEEECSSCC-STTTSEEEEE-EECSS-SSEEECGGGTTTTTCCTTTCEEEEE
+T ss_pred             ccCCCEEEEecCCcc-ccccccceEE-EeCCC-CceecCccccccCCCCCCCCcccee
+Confidence            568999999999853 3333332222 23345 7899999999999999999999764
+
+
+No 30
+>6WMR_D RNA polymerase/DNA complex; RNA polymerase complex, TRANSCRIPTION;{Francisella tularensis subsp. holarctica LVS}
+Probab=80.66  E-value=1.2  Score=57.23  Aligned_cols=56  Identities=18%  Similarity=0.261  Sum_probs=44.8  Template_Neff=7.400
+
+Q query           731 LKEGDIAFTFRNPVMGHGGALLQARVAAIRDRLNAVVVNQEYAKSTGVDFDGDTLVVLP  789 (1200)
+Q Consensus       731 LK~G~iA~t~RNP~MGH~G~Llq~~Va~i~D~L~~~V~Nq~~~~sTG~DFDGD~~~~~~  789 (1200)
+                      +..||.++-.|+|-. |..++.-.+| .+.++ +.+-+|+-....-+||||||.|.+..
+T Consensus       413 ~~~~~~Vl~nR~PtL-h~~si~a~~~-~~~~~-~ti~~~p~~c~~~NADFDGDem~v~~  468 (1417)
+T 6WMR_D          413 VINEHPVLLNRAPTL-HRLGIQAFEP-RLIEG-KAIQLHPLVCAAFNADFDGDQMAVHV  468 (1417)
+T ss_dssp             HTTTCCEEEEESSCC-SGGGEEEEEE-EEESS-SSEEBCGGGTTTTTCCTTTCEEEEEC
+T ss_pred             hhCCCcEEEeCCccc-ccccccCeEE-EEeCC-CeeeccccchhcccCCCCCceeeEeC
+Confidence            358999999999976 6666655555 44555 88999999999999999999998753
+
+
+No 31
+>7AE1_A DNA-directed RNA polymerase III subunit; HUMAN, TRANSCRIPTION, SHORT RNAs; 2.8A {Homo sapiens}
+Probab=80.51  E-value=1.2  Score=56.28  Aligned_cols=56  Identities=21%  Similarity=0.398  Sum_probs=41.3  Template_Neff=8.300
+
+Q query           730 GLKEGDIAFTFRNPVMGHGGALLQARVAAIRDRLNAVVVNQEYAKSTGVDFDGDTLVVL  788 (1200)
+Q Consensus       730 GLK~G~iA~t~RNP~MGH~G~Llq~~Va~i~D~L~~~V~Nq~~~~sTG~DFDGD~~~~~  788 (1200)
+                      .|..||+++-.|-|-. |+.++.--+|. |.+. +.+=+|.--..+-+||||||.|.+.
+T Consensus       453 ~l~~gd~vl~NRqPtL-Hk~si~a~~v~-v~~~-~t~r~n~~~c~~~NADFDGDemn~~  508 (1390)
+T 7AE1_A          453 HLIDGDVVLFNRQPSL-HKLSIMAHLAR-VKPH-RTFRFNECVCTPYNADFDGDEMNLH  508 (1390)
+T ss_dssp             ECCTTCEEEEEESSCS-SGGGEEEEEEE-EESS-SSEEECGGGHHHHTCCCSSCEEEEE
+T ss_pred             eccCCCEEEEeCCCCc-ccccHhcceeE-ECCC-CeEEEcCccCCcCCCCCCcccceee
+Confidence            4789999999999963 44444333332 2233 6788898899999999999999875
+
+
+No 32
+>7D58_A DNA-directed RNA polymerase III subunit; RNA Polymerase III, TRANSCRIPTION; 2.9A {Homo sapiens}
+Probab=80.51  E-value=1.2  Score=56.28  Aligned_cols=56  Identities=21%  Similarity=0.398  Sum_probs=41.3  Template_Neff=8.300
+
+Q query           730 GLKEGDIAFTFRNPVMGHGGALLQARVAAIRDRLNAVVVNQEYAKSTGVDFDGDTLVVL  788 (1200)
+Q Consensus       730 GLK~G~iA~t~RNP~MGH~G~Llq~~Va~i~D~L~~~V~Nq~~~~sTG~DFDGD~~~~~  788 (1200)
+                      .|..||+++-.|-|-. |+.++.--+|. |.+. +.+=+|.--..+-+||||||.|.+.
+T Consensus       453 ~l~~gd~vl~NRqPtL-Hk~si~a~~v~-v~~~-~t~r~n~~~c~~~NADFDGDemn~~  508 (1390)
+T 7D58_A          453 HLIDGDVVLFNRQPSL-HKLSIMAHLAR-VKPH-RTFRFNECVCTPYNADFDGDEMNLH  508 (1390)
+T ss_dssp             ECCSSCEEEEECSSCC-SGGGEEEEEEE-ECTT-SSEEECSTTHHHHTCCSSSCEEEEE
+T ss_pred             eccCCCEEEEeCCCCc-ccccHhcceeE-ECCC-CeEEEcCccCCcCCCCCCcccceee
+Confidence            4789999999999963 44444333332 2233 6788898899999999999999875
+
+
+No 33
+>7AOH_A Vaccinia, Virus, RNA polymerase, DNA-dependent; 2.7A {Vaccinia virus GLV-1h68}
+Probab=79.31  E-value=1.4  Score=55.65  Aligned_cols=54  Identities=20%  Similarity=0.335  Sum_probs=39.9  Template_Neff=7.900
+
+Q query           731 LKEGDIAFTFRNPVMGHGGALLQARVAAIRDRLNAVVVNQEYAKSTGVDFDGDTLVV  787 (1200)
+Q Consensus       731 LK~G~iA~t~RNP~MGH~G~Llq~~Va~i~D~L~~~V~Nq~~~~sTG~DFDGD~~~~  787 (1200)
+                      +..||+++-.|.|.. |..++.-.+| ++.+. +.+-+|+-....-+||||||.|.+
+T Consensus       370 l~~gd~vl~nRqPsL-h~~si~~~~v-~~~~~-~t~~~n~~~c~~~naDFDGDemn~  423 (1286)
+T 7AOH_A          370 VQEYTSIIFGRQPSL-HRYNVIASSI-RATEG-DTIKISPGIANSQNADFDGDEEWM  423 (1286)
+T ss_dssp             CCTTCEEEEECSSCC-SGGGEEEEEE-EECSS-SSEEECGGGHHHHTCCSSSCEEEE
+T ss_pred             ecCCcEEEEecCCcc-ccccccceEE-EECCC-CeeeeccccccCCCCCCCCCcccc
+Confidence            578899999998864 3333332222 23444 799999999999999999999975
+
+
+No 34
+>6WMP_D RNA polymerase/DNA/RNA complex; RNA polymerase complex, TRANSCRIPTION; 2.98A {Francisella tularensis subsp. holarctica (strain LVS)}
+Probab=78.80  E-value=1.5  Score=57.19  Aligned_cols=54  Identities=19%  Similarity=0.293  Sum_probs=0.0  Template_Neff=7.100
+
+Q query           731 LKEGDIAFTFRNPVMGHGGALLQARVAAIRDRLNAVVVNQEYAKSTGVDFDGDTLVV  787 (1200)
+Q Consensus       731 LK~G~iA~t~RNP~MGH~G~Llq~~Va~i~D~L~~~V~Nq~~~~sTG~DFDGD~~~~  787 (1200)
+                      +..||.++-.|+|-. |..++.-.+| .+.++ +.+-+|+-.+..-+||||||.|.+
+T Consensus       413 ~~~~d~Vl~NR~PtL-hr~si~a~~v-~~~~~-~ti~l~p~vc~~~NADFDGDeM~v  466 (1604)
+T 6WMP_D          413 VINEHPVLLNRAPTL-HRLGIQAFEP-RLIEG-KAIQLHPLVCAAFNADFDGDQMAV  466 (1604)
+T ss_dssp             HTTTCCEEEECSSCC-SGGGEEEEEE-EEESS-SSEEECTTSHHHHTCCSSSCEEEE
+T ss_pred             hhcCCcEEEeCCccc-ccccccCeEE-EEeCC-CeeeccccchhccCCCCCCcccee
+
+
+No 35
+>6PST_J DNA-directed RNA polymerase subunit alpha; TRANSCRIPTION, transcription-dna complex; HET: 1N7; 3.0A {Escherichia coli}
+Probab=78.19  E-value=1.6  Score=56.19  Aligned_cols=55  Identities=18%  Similarity=0.279  Sum_probs=43.8  Template_Neff=7.300
+
+Q query           731 LKEGDIAFTFRNPVMGHGGALLQARVAAIRDRLNAVVVNQEYAKSTGVDFDGDTLVVL  788 (1200)
+Q Consensus       731 LK~G~iA~t~RNP~MGH~G~Llq~~Va~i~D~L~~~V~Nq~~~~sTG~DFDGD~~~~~  788 (1200)
+                      +..||++|-.|+|.. |.+++.-.+| .+.+. +++-+|+-.+..-+||||||.|.+.
+T Consensus       415 ~~~~d~Vl~NR~PtL-hr~si~a~~v-~~~~~-~~i~~~p~~c~~~naDFDGD~m~~~  469 (1430)
+T 6PST_J          415 VIREHPVLLNRAPTL-HRLGIQAFEP-VLIEG-KAIQLHPLVCAAYNADFDGDQMAVH  469 (1430)
+T ss_pred             hhCCCcEEEcCCCcc-ccccccceee-EEcCC-CeeEeccccccccCCCCCCCcceeE
+Confidence            347899999999987 4555444444 55565 8999999999999999999999865
+
+
+No 36
+>2BE5_D DNA-directed RNA polymerase alpha chain; RNA POLYMERASE HOLOENZYME, TAGETITOXIN, ANTIBIOTIC; HET: TGT; 2.4A {Thermus thermophilus} SCOP: e.29.1.2
+Probab=77.88  E-value=1.7  Score=56.99  Aligned_cols=54  Identities=19%  Similarity=0.386  Sum_probs=0.0  Template_Neff=6.200
+
+Q query           731 LKEGDIAFTFRNPVMGHGGALLQARVAAIRDRLNAVVVNQEYAKSTGVDFDGDTLVV  787 (1200)
+Q Consensus       731 LK~G~iA~t~RNP~MGH~G~Llq~~Va~i~D~L~~~V~Nq~~~~sTG~DFDGD~~~~  787 (1200)
+                      +..||.++-.|+|-. |..++.-.+| .+.++ +++-+|+-.+..-+||||||.|.+
+T Consensus       694 l~~gd~VllNR~PTL-Hr~siqa~~v-~~~~~-~tirl~p~vc~~fNADFDGDeM~v  747 (1524)
+T 2BE5_D          694 VIHGKVVLLNRAPTL-HRLGIQAFQP-VLVEG-QSIQLHPLVCEAFNADFDGDQMAV  747 (1524)
+T ss_dssp             HSTTCCEEEECSSCC-SGGGEEEEEE-EEESS-SCEEECSGGGTTTTCCSSSCEEEE
+T ss_pred             HhCCCEEEEeCCCCC-chhceeceEE-EEeCC-ceEEcccccccccCCCCCcccceE
+
+
+No 37
+>4C2M_A DNA-DIRECTED RNA POLYMERASES I, II; TRANSCRIPTION, RIBOSOME BIOGENESIS; HET: SO4, ZN; 2.8A {SACCHAROMYCES CEREVISIAE}
+Probab=75.85  E-value=2.1  Score=55.80  Aligned_cols=55  Identities=16%  Similarity=0.344  Sum_probs=0.0  Template_Neff=7.600
+
+Q query           731 LKEGDIAFTFRNPVMGHGGALLQARVAAIRDRLNAVVVNQEYAKSTGVDFDGDTLVV  787 (1200)
+Q Consensus       731 LK~G~iA~t~RNP~MGH~G~Llq~~Va~i~D~L~~~V~Nq~~~~sTG~DFDGD~~~~  787 (1200)
+                      +..||+++..|.|.....+  +++.-..|.+.-+.+-+|.-...+-+||||||.|-+
+T Consensus       581 l~~gd~vl~nRqPtLhk~s--i~~~~v~v~~~~~ti~~~~~~c~~~NADFDGDemn~  635 (1664)
+T 4C2M_A          581 IKNRDVVLMNRQPTLHKAS--MMGHKVRVLPNEKTLRLHYANTGAYNADFDGDEMNM  635 (1664)
+T ss_pred             eeCCCEEEEeCCCcCchhh--hcccEEEEcCCCccccccccccCcccCCCCCCccee
+
+
+No 38
+>6YYS_D DNA-directed RNA polymerase subunit alpha; transcription cycle helicase-like protein RNA;{Mycolicibacterium smegmatis MC2 155}
+Probab=75.74  E-value=2.1  Score=54.83  Aligned_cols=55  Identities=18%  Similarity=0.285  Sum_probs=43.6  Template_Neff=7.200
+
+Q query           731 LKEGDIAFTFRNPVMGHGGALLQARVAAIRDRLNAVVVNQEYAKSTGVDFDGDTLVVL  788 (1200)
+Q Consensus       731 LK~G~iA~t~RNP~MGH~G~Llq~~Va~i~D~L~~~V~Nq~~~~sTG~DFDGD~~~~~  788 (1200)
+                      +-.||+++-.|+|.. |..++.--+| .+.+. +++-+|+-....-+||||||.|.+.
+T Consensus       490 ~~~~d~Vl~NRqPtL-Hr~Si~af~v-~~~~~-~tirl~p~vc~~~NADFDGDem~vh  544 (1317)
+T 6YYS_D          490 VIAEHPVLLNRAPTL-HRLGIQAFEP-QLVEG-KAIQLHPLVCEAFNADFDGDQMAVH  544 (1317)
+T ss_dssp             SSTTCCEEEECSSCC-SGGGEEEEEE-EEESS-SEEEECTTSTTTTTCCSSSCEEEEE
+T ss_pred             HHccCCEEEccCCcC-cccCccceEe-EEcCC-ceeEeccccccccCCCCCCCeeeEE
+Confidence            357899999999986 5555444444 55565 8999999999999999999999874
+
+
+No 39
+>3H0G_A DNA-directed RNA polymerase II subunit; Transcription, Multi-protein complex, Polymerase, DNA-binding; HET: ZN; 3.65A {Schizosaccharomyces pombe}
+Probab=60.14  E-value=7.7  Score=51.13  Aligned_cols=54  Identities=22%  Similarity=0.481  Sum_probs=0.0  Template_Neff=7.800
+
+Q query           731 LKEGDIAFTFRNPVMGHGGALLQARVAAIRDRLNAVVVNQEYAKSTGVDFDGDTLVV  787 (1200)
+Q Consensus       731 LK~G~iA~t~RNP~MGH~G~Llq~~Va~i~D~L~~~V~Nq~~~~sTG~DFDGD~~~~  787 (1200)
+                      |..||++|-=|-|-. |+.+++--+|.-+-.  +.+=+|.--...-.||||||.|.+
+T Consensus       442 l~dgD~Vl~NRQPSL-Hk~Simah~vkv~~~--~t~rln~~vc~pyNADFDGDEMn~  495 (1752)
+T 3H0G_A          442 IRDGDVVIFNRQPSL-HKMSMMGHRIRVMPY--STFRLNLSVTSPYNADFDGDEMNM  495 (1752)
+T ss_dssp             CCSCCEEEEECSSCC-SGGGEEEEECCCCSS--SSEEEEGGGSGGGTCCSSSCEEEE
+T ss_pred             eeCCCEEEEcCCccc-chhhHhCceEEECCC--CeeeeccccCCCCCCCCCCcceee
+
+
+No 40
+>3PO2_A DNA-directed RNA polymerase II subunit; RNA Polymerase II, mRNA, Transcription; HET: EPE; 3.3A {Saccharomyces cerevisiae}
+Probab=58.18  E-value=8.8  Score=50.45  Aligned_cols=54  Identities=24%  Similarity=0.407  Sum_probs=0.0  Template_Neff=8.000
+
+Q query           731 LKEGDIAFTFRNPVMGHGGALLQARVAAIRDRLNAVVVNQEYAKSTGVDFDGDTLVV  787 (1200)
+Q Consensus       731 LK~G~iA~t~RNP~MGH~G~Llq~~Va~i~D~L~~~V~Nq~~~~sTG~DFDGD~~~~  787 (1200)
+                      |..||++|-=|-|-. |+-+++--+|.-+-.  +.+=+|.-....-.||||||.|.+
+T Consensus       436 l~dgD~Vl~NRQPsL-Hk~Simah~vkv~~~--~t~rln~~~c~~yNADFDGDEMn~  489 (1733)
+T 3PO2_A          436 IMDNDPVLFNRQPSL-HKMSMMAHRVKVIPY--STFRLNLSVTSPYNADFDGDEMNL  489 (1733)
+T ss_dssp             CCTTCEEEEECSSCC-SGGGEEEEEEEEESS--SSEEECGGGHHHHTCCSSSCEEEE
+T ss_pred             ccCCCcEEEcCCCcc-cccccccceEEEcCC--ceeeeccccCCCCCCCCCCCceee
+
+
+No 41
+>1TWF_A DNA-directed RNA polymerase II largest; TRANSCRIPTION, MRNA, MULTIPROTEIN COMPLEX, MOLECULAR; HET: UTP; 2.3A {Saccharomyces cerevisiae} SCOP: e.29.1.2
+Probab=57.46  E-value=9.3  Score=50.20  Aligned_cols=54  Identities=24%  Similarity=0.407  Sum_probs=0.0  Template_Neff=8.100
+
+Q query           731 LKEGDIAFTFRNPVMGHGGALLQARVAAIRDRLNAVVVNQEYAKSTGVDFDGDTLVV  787 (1200)
+Q Consensus       731 LK~G~iA~t~RNP~MGH~G~Llq~~Va~i~D~L~~~V~Nq~~~~sTG~DFDGD~~~~  787 (1200)
+                      |..||++|-=|-|-. |+-+++--+|.-+-.  +.+=+|.-....-.||||||.|.+
+T Consensus       436 l~dgD~Vl~NRQPsL-Hk~Simah~vkv~~~--~t~rln~~~c~~yNADFDGDEMn~  489 (1733)
+T 1TWF_A          436 IMDNDPVLFNRQPSL-HKMSMMAHRVKVIPY--STFRLNLSVTSPYNADFDGDEMNL  489 (1733)
+T ss_dssp             CCTTCEEEEECSSCC-SGGGEEEEEEEEESS--SSEEECGGGHHHHTCCSSSCEEEE
+T ss_pred             ccCCCcEEEcCCCcc-cccccccceEEEcCC--ceeeeccccCCCCCCCCCCCceee
+
+
+No 42
+>5VVS_A DNA-directed RNA polymerase II subunit; complex, RNA polymerase, CSB, transcription; 6.4A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=57.34  E-value=9.3  Score=50.17  Aligned_cols=54  Identities=24%  Similarity=0.407  Sum_probs=0.0  Template_Neff=8.100
+
+Q query           731 LKEGDIAFTFRNPVMGHGGALLQARVAAIRDRLNAVVVNQEYAKSTGVDFDGDTLVV  787 (1200)
+Q Consensus       731 LK~G~iA~t~RNP~MGH~G~Llq~~Va~i~D~L~~~V~Nq~~~~sTG~DFDGD~~~~  787 (1200)
+                      |..||++|-=|-|-. |+-+++--+|.-+-.  +.+=+|.-....-.||||||.|.+
+T Consensus       436 l~dgD~Vl~NRQPsL-Hk~Simah~vkv~~~--~t~rln~~~c~~yNADFDGDEMn~  489 (1733)
+T 5VVS_A          436 IMDNDPVLFNRQPSL-HKMSMMAHRVKVIPY--STFRLNLSVTSPYNADFDGDEMNL  489 (1733)
+T ss_dssp             CCTTCCEEEECSSCS-SSTTEEEEEEEEESS--CSEEECGGGHHHHTCCCSSCEEEE
+T ss_pred             ccCCCeEEEcCCCCc-cccchhcceeEEcCC--CeeeeCCccCCCCCCCCCCCceee
+
+
+No 43
+>2J7N_A RNA-DEPENDENT RNA POLYMERASE; RNAI RESPONSE, RNA-DIRECTED RNA POLYMERASE; 2.3A {NEUROSPORA CRASSA}
+Probab=56.81  E-value=9.7  Score=48.00  Aligned_cols=61  Identities=21%  Similarity=0.280  Sum_probs=38.9  Template_Neff=7.400
+
+Q query           734 GDIAFTFRNPVMGHGGALLQARV---AAIRDRLNAVVVNQEYA-----KSTGVDFDGDTLVVLPKGLPVDP  796 (1200)
+Q Consensus       734 G~iA~t~RNP~MGH~G~Llq~~V---a~i~D~L~~~V~Nq~~~-----~sTG~DFDGD~~~~~~k~~~V~P  796 (1200)
+                      |+|++ +|||.+ |.|-.-++..   -.+..--+.+||+..+.     ...|.|+|||+..|.-.-.-|+|
+T Consensus       576 g~VlV-~RnP~~-~psDiqkv~aV~~p~L~~l~dVIVFs~~G~rpla~~LsGgDyDGD~~~viwd~~LV~~  644 (1022)
+T 2J7N_A          576 CDVLV-ARSPAH-FPSDIQRVRAVFKPELHSLKDVIIFSTKGDVPLAKKLSGGDYDGDMAWVCWDPEIVDG  644 (1022)
+T ss_dssp             EEEEE-ECSSCC-SGGGEEEEEECCCGGGTTCCSEEEECSCSSSCHHHHTTTCCSSSCEEEEECCHHHHHT
+T ss_pred             CeEEE-eCCCcc-CccceeEEEEeCCHHHhcCCCEEEEcCCCCCcHHHHhcCCCCCCCeEEEEeCHHHcCC
+Confidence            57666 788876 4444433322   23444445678888773     34599999999998876555554
+
+
+No 44
+>2J7N_B RNA-DEPENDENT RNA POLYMERASE; RNAI RESPONSE, RNA-DIRECTED RNA POLYMERASE; 2.3A {NEUROSPORA CRASSA}
+Probab=56.81  E-value=9.7  Score=48.00  Aligned_cols=61  Identities=21%  Similarity=0.280  Sum_probs=38.9  Template_Neff=7.400
+
+Q query           734 GDIAFTFRNPVMGHGGALLQARV---AAIRDRLNAVVVNQEYA-----KSTGVDFDGDTLVVLPKGLPVDP  796 (1200)
+Q Consensus       734 G~iA~t~RNP~MGH~G~Llq~~V---a~i~D~L~~~V~Nq~~~-----~sTG~DFDGD~~~~~~k~~~V~P  796 (1200)
+                      |+|++ +|||.+ |.|-.-++..   -.+..--+.+||+..+.     ...|.|+|||+..|.-.-.-|+|
+T Consensus       576 g~VlV-~RnP~~-~psDiqkv~aV~~p~L~~l~dVIVFs~~G~rpla~~LsGgDyDGD~~~viwd~~LV~~  644 (1022)
+T 2J7N_B          576 CDVLV-ARSPAH-FPSDIQRVRAVFKPELHSLKDVIIFSTKGDVPLAKKLSGGDYDGDMAWVCWDPEIVDG  644 (1022)
+T ss_dssp             EEEEE-ECSSCC-SGGGEEEEEECCCGGGTTCCSEEEECSCSSSCHHHHTTSCCSSSCEEEEECCHHHHTT
+T ss_pred             CeEEE-eCCCcc-CccceeEEEEeCCHHHhcCCCEEEEcCCCCCcHHHHhcCCCCCCCeEEEEeCHHHcCC
+Confidence            57666 788876 4444433322   23444445678888773     34599999999998876555554
+
+
+No 45
+>5ITM_D AbrB family transcriptional regulator; Histone-like protein, Complex, DNA-binding fold; 1.4A {Sulfolobus solfataricus}
+Probab=42.72  E-value=23  Score=27.38  Aligned_cols=26  Identities=27%  Similarity=0.546  Sum_probs=20.1  Template_Neff=9.200
+
+Q query           707 VELDAEGRPIVPIVIGKEMAAKLGLKEGDI  736 (1200)
+Q Consensus       707 V~~D~EG~~iVP~~IGkeMA~kLGLK~G~i  736 (1200)
+                      +.+|+.|+..+|    +++.+++|+++||.
+T Consensus         7 ~~i~~~~~v~iP----~~~~~~lgl~~g~~   32 (48)
+T 5ITM_D            7 VKVSRNYQVTIP----AKVRQKFQIKEGDL   32 (48)
+T ss_dssp             EECBGGGEEECC----HHHHTTSCCCTTCE
+T ss_pred             EEEcCCCeEEec----HHHHHHcCCCCCCE
+Confidence            356788887666    56788999999983
+
+
+No 46
+>5ITM_F AbrB family transcriptional regulator; Histone-like protein, Complex, DNA-binding fold; 1.4A {Sulfolobus solfataricus}
+Probab=42.72  E-value=23  Score=27.38  Aligned_cols=26  Identities=27%  Similarity=0.546  Sum_probs=20.1  Template_Neff=9.200
+
+Q query           707 VELDAEGRPIVPIVIGKEMAAKLGLKEGDI  736 (1200)
+Q Consensus       707 V~~D~EG~~iVP~~IGkeMA~kLGLK~G~i  736 (1200)
+                      +.+|+.|+..+|    +++.+++|+++||.
+T Consensus         7 ~~i~~~~~v~iP----~~~~~~lgl~~g~~   32 (48)
+T 5ITM_F            7 VKVSRNYQVTIP----AKVRQKFQIKEGDL   32 (48)
+T ss_dssp             EECBGGGEEECC----HHHHTTSCCCTTCE
+T ss_pred             EEEcCCCeEEec----HHHHHHcCCCCCCE
+Confidence            356788887666    56788999999983
+
+
+No 47
+>1YFB_B Transition state regulatory protein abrB; NMR  HOMODIMER  BIOINFORMATICS; NMR {Bacillus subtilis} SCOP: b.129.1.3
+Probab=38.48  E-value=29  Score=29.60  Aligned_cols=30  Identities=30%  Similarity=0.420  Sum_probs=23.2  Template_Neff=7.600
+
+Q query           705 EGVELDAEGRPIVPIVIGKEMAAKLGLKEGDIAF  738 (1200)
+Q Consensus       705 ~GV~~D~EG~~iVP~~IGkeMA~kLGLK~G~iA~  738 (1200)
+                      .=+.++..|+..+|    +++.+++|+++||.+.
+T Consensus        14 ~~~ki~~~~~vtIP----~~i~~~lgl~~Gd~v~   43 (59)
+T 1YFB_B           14 IVRKVDELGRVVIP----IELRRTLGIAEKDALE   43 (59)
+T ss_dssp             EEEECCTTCEEECC----HHHHHHTTCCTTCEEE
+T ss_pred             eEEEECCCCeEEcC----HHHHHHhCCCCCCEEE
+Confidence            34567788887777    7889999999998543
+
+
+No 48
+>7NRC_A 40S ribosomal protein S0-A, 40S; Ribosome, Disome, GCN1, Translation, GAAC; HET: 5CT; 3.9A {Saccharomyces cerevisiae S288C}
+Probab=38.23  E-value=30  Score=42.99  Aligned_cols=16  Identities=50%  Similarity=0.802  Sum_probs=13.1  Template_Neff=1.000
+
+Q query           575 DGKKYTKEEVDALIRE  590 (1200)
+Q Consensus       575 dgkkYtkEE~dalir~  590 (1200)
+                      |..|||+|-||.||..
+T Consensus       363 dptkyteealdsliqt  378 (1209)
+T 7NRC_A          363 DPTKYTEEALDSLIQT  378 (1209)
+T ss_pred             CcccccHHHHHHHHHH
+Confidence            5668999999999843
+
+
+No 49
+>5FSW_A RNA DEPENDENT RNA POLYMERASE QDE-1; TRANSFERASE, SMALL RNAS, QDE-1 ORTHOLOGUES; 3.19A {THIELAVIA TERRESTRIS}
+Probab=38.05  E-value=30  Score=44.37  Aligned_cols=62  Identities=21%  Similarity=0.235  Sum_probs=37.8  Template_Neff=6.900
+
+Q query           733 EGDIAFTFRNPVMGHGGALLQARV---AAIRDRLNAVVVNQEYA-----KSTGVDFDGDTLVVLPKGLPVDP  796 (1200)
+Q Consensus       733 ~G~iA~t~RNP~MGH~G~Llq~~V---a~i~D~L~~~V~Nq~~~-----~sTG~DFDGD~~~~~~k~~~V~P  796 (1200)
+                      .|||++ +|||..- .|-.-+++.   -.++.--+.+||+..|-     ...|.|+|||+..|.-.-.-|+|
+T Consensus       576 ~gdVLV-~RnP~~~-psDIqkv~AV~~peL~~l~dVIVFs~kG~rpla~~LsGGDyDGD~~~ViWDp~iV~~  645 (1034)
+T 5FSW_A          576 DCDVLV-ARSPAHF-PSDIQKVRAVFKPQLHALKDVIVFPAKGDIPLADKLSGGDYDGDMAWVCWDPDIVEN  645 (1034)
+T ss_dssp             SEEEEE-ECSSCCS-GGGEEEEEECCCGGGTTCCSSEEECSCSSSCHHHHTTTCCSSSCEEEEECCHHHHTT
+T ss_pred             cceEEE-ecCCCCC-ccceeEEEEcCCHHHhcCCCEEEeCCCCCCcHHHHhcCCCCCCCeEEEecCHHHhcc
+Confidence            466655 6888653 333333221   23344445678888774     34699999999998865444443
+
+
+No 50
+>5ITJ_A AbrB family transcriptional regulator; Histone-like protein, Complex, DNA-binding fold; HET: SO4, PG4; 1.63A {Sulfolobus solfataricus}
+Probab=35.98  E-value=34  Score=27.62  Aligned_cols=29  Identities=24%  Similarity=0.453  Sum_probs=21.8  Template_Neff=8.700
+
+Q query           707 VELDAEGRPIVPIVIGKEMAAKLGLKEGDIAFT  739 (1200)
+Q Consensus       707 V~~D~EG~~iVP~~IGkeMA~kLGLK~G~iA~t  739 (1200)
+                      +.++..|+..+|    +++.+++|+++||.+.-
+T Consensus         7 ~~i~~~~~i~iP----~~~~~~l~l~~g~~v~~   35 (54)
+T 5ITJ_A            7 VKVSRNYQVTIP----AKVRQKFQIKEGDLVKV   35 (54)
+T ss_dssp             EECBGGGEEECC----HHHHTTSCCCTTCEEEE
+T ss_pred             EEECCCCeEEeC----HHHHHHcCCCCCCEEEE
+Confidence            346677776666    78889999999987543
+
+
+No 51
+>2L66_B Transcriptional regulator, AbrB family; DNA binding protein, TRANSCRIPTION REGULATOR; NMR {Sulfolobus solfataricus}
+Probab=33.99  E-value=39  Score=27.45  Aligned_cols=28  Identities=25%  Similarity=0.469  Sum_probs=21.2  Template_Neff=8.500
+
+Q query           707 VELDAEGRPIVPIVIGKEMAAKLGLKEGDIAF  738 (1200)
+Q Consensus       707 V~~D~EG~~iVP~~IGkeMA~kLGLK~G~iA~  738 (1200)
+                      +.++..|+..+|    +++.++|||++||.+.
+T Consensus         6 ~~i~~~~~i~iP----~~~~~~lgl~~gd~v~   33 (53)
+T 2L66_B            6 VKVSRNYQVTIP----AKVRQKFQIKEGDLVK   33 (53)
+T ss_dssp             EECCSSSCBCCC----HHHHHHSCCCTTCEEE
+T ss_pred             EEECCCCeEEeC----HHHHHHcCCCCCCEEE
+Confidence            346677776666    6788899999998654
+
+
+No 52
+>6F3Z_A Lipoprotein-releasing system transmembrane protein LolC; Lipoprotein trafficking, PROTEIN TRANSPORT; 2.0A {Escherichia coli K-12}
+Probab=29.88  E-value=50  Score=31.62  Aligned_cols=19  Identities=32%  Similarity=0.851  Sum_probs=17.2  Template_Neff=10.800
+
+Q query           719 IVIGKEMAAKLGLKEGDIA  737 (1200)
+Q Consensus       719 ~~IGkeMA~kLGLK~G~iA  737 (1200)
+                      |+||+.+|+++|+++||-+
+T Consensus        97 vvI~~~~a~~l~~~~Gd~i  115 (230)
+T 6F3Z_A           97 VILGEQLASQLGVNRGDQI  115 (230)
+T ss_dssp             EEEEHHHHHHHTCCTTCEE
+T ss_pred             EEeeHHHHHHhCCCCCCeE
+Confidence            6899999999999999954
+
+
+No 53
+>2RO5_A Stage V sporulation protein T; Transcription, Activator, DNA-binding, Repressor, Sporulation; NMR {Bacillus subtilis}
+Probab=29.61  E-value=51  Score=26.12  Aligned_cols=29  Identities=34%  Similarity=0.682  Sum_probs=21.9  Template_Neff=9.300
+
+Q query           707 VELDAEGRPIVPIVIGKEMAAKLGLKEGD-IAFT  739 (1200)
+Q Consensus       707 V~~D~EG~~iVP~~IGkeMA~kLGLK~G~-iA~t  739 (1200)
+                      +.+|..|+..+|    +++.+++|+++|| |.+.
+T Consensus         8 ~~i~~~~~i~iP----~~~~~~l~l~~g~~v~~~   37 (55)
+T 2RO5_A            8 RRIDDLGRVVIP----KEIRRTLRIREGDPLEIF   37 (55)
+T ss_dssp             EECCSSCEEECC----HHHHHHHTCCTTCEEEEE
+T ss_pred             EEECCCCcEEcC----HHHHHHcCCCCCCeEEEE
+Confidence            457788887776    5778899999998 4443
+
+
+No 54
+>3DDV_A Transcriptional regulator (GntR family); Transcriptional regulator (GntR family, Structure; 2.65A {Enterococcus faecalis} SCOP: d.190.1.2
+Probab=29.42  E-value=52  Score=29.36  Aligned_cols=60  Identities=20%  Similarity=0.328  Sum_probs=36.4  Template_Neff=10.700
+
+Q query           698 EIYRLLEE--GVELDAEGRPIVPIVIGKEMAAKLGLKEGDIAFTFRNPVMGHGGALLQARVA  757 (1200)
+Q Consensus       698 EiY~LLe~--GV~~D~EG~~iVP~~IGkeMA~kLGLK~G~iA~t~RNP~MGH~G~Llq~~Va  757 (1200)
+                      .+|+.|++  |..+..--.-+-+....++.|+.|++.+|+-+|.++.-...+.|-.+.....
+T Consensus        71 sl~~~l~~~~g~~~~~~~~~i~~~~~~~~~~~~L~~~~~~p~l~~~~~~~~~~g~~i~~~~~  132 (145)
+T 3DDV_A           71 SFYKTLEAKSGHKIGHSNQTISAVQASEQIAEYLEIKRGDAILRVRQVSYFENGLPFEYVRT  132 (145)
+T ss_dssp             ------------CCCCEEEEEEEEECCHHHHHHTTSCTTCEEEEEEEEEECTTSCEEEEEEE
+T ss_pred             cHHHHHHHHhCCCceEEeEEEEeEeCCHHHHHHhCCCCCCEEEEEEEEEEcCCCcEEEEEEE
+Confidence            35555543  4444333344455566789999999999999999998888887766655443
+
+
+No 55
+>2W1T_A STAGE V SPORULATION PROTEIN T; TRANSCRIPTION, TRANSCRIPTION REGULATION, REPRESSOR, ACTIVATOR; 2.6A {BACILLUS SUBTILIS}
+Probab=24.61  E-value=72  Score=30.99  Aligned_cols=30  Identities=37%  Similarity=0.627  Sum_probs=23.7  Template_Neff=9.400
+
+Q query           707 VELDAEGRPIVPIVIGKEMAAKLGLKEGDIAFTF  740 (1200)
+Q Consensus       707 V~~D~EG~~iVP~~IGkeMA~kLGLK~G~iA~t~  740 (1200)
+                      +.++..|+.++|    +++.++|||++||.+.-.
+T Consensus         8 ~~~~~~g~i~iP----~~~~~~l~l~~g~~~~~~   37 (178)
+T 2W1T_A            8 RRIDDLGRVVIP----KEIRRTLRIREGDPLEIF   37 (178)
+T ss_pred             EEECCCCcEEeC----HHHHHHcCCCCCCEEEEE
+Confidence            457888888888    688899999999865433
+
+
+No 56
+>3LHE_A GntR family Transcriptional regulator; structural genomics, PSI-2, protein structure; HET: GOL; 1.62A {Bacillus anthracis}
+Probab=24.56  E-value=72  Score=28.42  Aligned_cols=57  Identities=12%  Similarity=0.183  Sum_probs=36.6  Template_Neff=10.700
+
+Q query           698 EIYRLLEE--GVELDAEGRPIVPIVIGKEMAAKLGLKEGDIAFTFRNPVMGHGGALLQA  754 (1200)
+Q Consensus       698 EiY~LLe~--GV~~D~EG~~iVP~~IGkeMA~kLGLK~G~iA~t~RNP~MGH~G~Llq~  754 (1200)
+                      .+|+.|.+  |+.+...-.-+.++...++.++.||+.+|+-+|.++.=.....|-.+..
+T Consensus        74 sl~~~l~~~~~~~~~~~~~~i~~~~~~~~~~~~L~~~~~~p~l~~~~~~~~~~~~~i~~  132 (143)
+T 3LHE_A           74 SIYSHIQNKLGLQVGTSVVRVKGIRPDDKEKQFMNLTNQDFLMRVEQVAYLTDGRTFEY  132 (143)
+T ss_dssp             ---------CCCCEEEEEEEEEEECCCHHHHHHHTCCTTCCEEEEEEEEEETTSCEEEE
+T ss_pred             hHHHHHHHHhCCCceeeEEEEEEECCCHHHHHHcCCCCCCEEEEEEEEEECCCCCEEEE
+Confidence            45666643  5555555556667778899999999999999998887777666655543
+
+
+No 57
+>3L5Z_A Transcriptional regulator, GntR family; transcriptional regulator, GntR family, Structural; HET: PG5, MSE; 2.9A {Bacillus cereus}
+Probab=24.00  E-value=75  Score=29.10  Aligned_cols=58  Identities=12%  Similarity=0.185  Sum_probs=42.7  Template_Neff=10.400
+
+Q query           697 PEIYRLLEE--GVELDAEGRPIVPIVIGKEMAAKLGLKEGDIAFTFRNPVMGHGGALLQA  754 (1200)
+Q Consensus       697 ~EiY~LLe~--GV~~D~EG~~iVP~~IGkeMA~kLGLK~G~iA~t~RNP~MGH~G~Llq~  754 (1200)
+                      ..+|+.|.+  |..+...-.-+-.+....++|+.|++.+|+-+|.++.-...+.|-.+..
+T Consensus        73 ~s~~~~l~~~~~~~~~~~~~~i~~~~a~~~~a~~L~i~~~~pvl~~~~~~~~~~~~~i~~  132 (156)
+T 3L5Z_A           73 ESIYSYIQNKLGLKVGTSVVRVKGIRPDDKEKQFMNLTNQDFLMRVEQVAYLTDGRTFEY  132 (156)
+T ss_dssp             TCHHHHHHHTSCCCEEEEEEEEEEECCCHHHHHHTTCCTTCCEEEEEEEEEETTSCEEEE
+T ss_pred             cCHHHHHHHHhCCceEEEEEEEEEeCCCHHHHHHcCCCCCCEEEEEEEEEEcCCCcEEEE
+Confidence            456776653  6666655556666777899999999999999998888777776655443
+
+
+No 58
+>2OOI_A SA0254 protein; Staphylocococcus aureus, Structural Genomics, PSI-2; 2.6A {Staphylococcus aureus subsp. aureus} SCOP: d.190.1.2
+Probab=22.70  E-value=83  Score=29.14  Aligned_cols=61  Identities=13%  Similarity=0.156  Sum_probs=42.4  Template_Neff=10.300
+
+Q query           696 DPEIYRLLEE--GVELDAEGRPIVPIVIGKEMAAKLGLKEGDIAFTFRNPVMGHGGALLQARV  756 (1200)
+Q Consensus       696 D~EiY~LLe~--GV~~D~EG~~iVP~~IGkeMA~kLGLK~G~iA~t~RNP~MGH~G~Llq~~V  756 (1200)
+                      ...+|..|.+  |+.+...-.-+-+.....+.|+.||+++|.-++.|+.=.....|-.+...+
+T Consensus        84 ~~sl~~~l~~~~~~~~~~~~~~i~~~~~~~~~a~~L~~~~~~p~l~~~~~~~~~~g~~v~~~~  146 (162)
+T 2OOI_A           84 KGSIFDYLESNMKLRIGFSDIFFNVDKLTSSEASLLQLSTGEPCLRYHQTFYTMTGKPFDSSD  146 (162)
+T ss_dssp             TSCHHHCCCCCSCCCEEEEEEEEEEEECCHHHHHHTTCCTTCEEEEEEEEEEETTSCEEEEEE
+T ss_pred             cCCHHHHHHHhhCCceEEeeEEEEEEeCCHHHHHHhCCCCCCeEEEEEEEEEcCCCcEEEEEE
+Confidence            3456666653  555555444566666788999999999999988888777766665554433
+
+
+No 59
+>7NRC_A 40S ribosomal protein S0-A, 40S; Ribosome, Disome, GCN1, Translation, GAAC; HET: 5CT; 3.9A {Saccharomyces cerevisiae S288C}
+Probab=21.90  E-value=88  Score=39.35  Aligned_cols=120  Identities=28%  Similarity=0.315  Sum_probs=64.4  Template_Neff=1.000
+
+Q query           145 ALLTAERLADAYLNRIREALKQDKSSPLYQAFSALAKGTGEKLSPDEAKFRAGLFADVRDRFLALLKQDLQSYIADQLKR  224 (1200)
+Q Consensus       145 ~~~~A~~~AdA~~~r~REalkqdkssplyqafsalakgtgeklspdeakfraglfadvrdrflallkqdlqsyiadqlkr  224 (1200)
+                      +...+..--.-|-+-||..--|.--.-|.|.+..-.|-|.|.|+.-           +...|...+...-...|...+.|
+T Consensus       330 vrkaadeslkrfgevirnaaiqklvpvllqaigdptkyteealdsl-----------iqtqfvhyidgpslaliihiihr  398 (1209)
+T 7NRC_A          330 VRKAADESLKRFGEVIRNAAIQKLVPVLLQAIGDPTKYTEEALDSL-----------IQTQFVHYIDGPSLALIIHIIHR  398 (1209)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhCCcccccHHHHHHH-----------HHHhhhhhccchHHHHHHHHHHc
+Confidence            3333333334455566666666666667787776666666655421           22233333333222333333444
+
+
+Q query           225 GH-------------AVGDIK-LPDTQAILSEAGLPTLKQALLL--SRAVDLDANNRAKLAKDLGQFMPEVA  280 (1200)
+Q Consensus       225 gh-------------avgdik-lpdtqailseaglptlkqalll--sravdldannraklakdlgqfmpeva  280 (1200)
+                      |.             -||++. |-||..     -+|.|.|.|--  --.||.-+|.|..-.+.||.+...+.
+T Consensus       399 gmhdrsanikrkackivgnmailvdtkd-----lipylqqlldeveiamvdpvpntrataaralgalverla  465 (1209)
+T 7NRC_A          399 GMHDRSANIKRKACKIVGNMAILVDTKD-----LIPYLQQLLDEVEIAMVDPVPNTRATAARALGALVERLA  465 (1209)
+T ss_pred             cccccchhhhHHhhHhhhceeeeechhh-----HHHHHHHHHhhcchhhcCCCCChHHHHHHHHHHHHHHHH
+Confidence            42             234332 223332     24666665432  23578888999999999998776554
+
+
+No 60
+>5NAA_B Lipoprotein-releasing system transmembrane protein LolC; Periplasmic domain, Protein transport; 1.88A {Escherichia coli}
+Probab=21.81  E-value=88  Score=29.94  Aligned_cols=19  Identities=32%  Similarity=0.851  Sum_probs=17.3  Template_Neff=10.900
+
+Q query           719 IVIGKEMAAKLGLKEGDIA  737 (1200)
+Q Consensus       719 ~~IGkeMA~kLGLK~G~iA  737 (1200)
+                      ++||+.+|+++|++.||-+
+T Consensus        97 ivi~~~~a~~l~~~~Gd~i  115 (230)
+T 5NAA_B           97 VILGEQLASQLGVNRGDQI  115 (230)
+T ss_dssp             EEEEHHHHHHHTCCTTCEE
+T ss_pred             EEEeHHHHHHHCCCCCCEE
+Confidence            6799999999999999965
+
+
+No 61
+>2OXL_A Hypothetical protein ymgB; bacterial protein, biofilm, acid resistance; HET: BOG, MSE; 1.8A {Escherichia coli}
+Probab=21.04  E-value=94  Score=28.51  Aligned_cols=34  Identities=38%  Similarity=0.384  Sum_probs=24.5  Template_Neff=5.900
+
+Q query           381 KAILKKL---LETADRPEEQAVWRAAIERLVIGNTAYD  415 (1200)
+Q Consensus       381 kailkkl---letadrpeeqavwraaierlvigntayd  415 (1200)
+                      |+|+.+|   +|+...|..+.++|.+++- |+|+|.-|
+T Consensus        27 KaIi~~Li~~le~e~d~~~~~~~r~~Le~-Vv~~t~dd   63 (64)
+T 2OXL_A           27 KNIILSLIHSLETTSDILKADVIRKTLEI-VLRYTADD   63 (64)
+T ss_dssp             HHHHHHHHHHHHTCCCHHHHHHHHHHHHH-HHHHHHC-
+T ss_pred             HHHHHHHHHHHhcCCCHHHHHHHHHHHHH-HHhcCCCC
+Confidence            4555544   6788899999999999985 55666543
+
+

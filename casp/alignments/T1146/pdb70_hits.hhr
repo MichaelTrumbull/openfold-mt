@@ -1,0 +1,715 @@
+Query         query 
+Match_columns 310
+No_of_seqs    197 out of 1955
+Neff          5.92992
+Searched_HMMs 90139
+Date          Thu Jun  9 07:33:04 2022
+Command       /mnt/home/dberenberg/gustaf_stuff/openfold/lib/conda/envs/openfold_venv/bin/hhsearch -i /tmp/tmpqw3u1ray/query.a3m -o /tmp/tmpqw3u1ray/output.hhr -maxseq 1000000 -cpu 64 -d /mnt/home/dberenberg/gustaf_stuff/OpenFold/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2IM9_A Hypothetical protein; s 100.0   3E-60 3.4E-65  457.3   0.0  284   21-308    24-319 (333)
+  2 2P1G_B Putative xylanase; STRU 100.0 6.2E-52 6.9E-57  386.2   0.0  231   50-308     3-241 (249)
+  3 4H4J_A hypothetical protein; P 100.0   8E-52 8.8E-57  383.7   0.0  229   51-307     2-239 (240)
+  4 2P1G_A Putative xylanase; STRU 100.0 1.6E-51 1.8E-56  383.5   0.0  231   50-308     3-241 (249)
+  5 4Q68_A Uncharacterized protein 100.0 2.3E-51 2.5E-56  380.7   0.0  229   51-307     2-239 (240)
+  6 3KW0_C Cysteine peptidase, Wat  82.0    0.95 1.1E-05   42.5   0.0   80  224-307    36-119 (214)
+  7 2IF6_A Hypothetical protein yi  76.6     1.9 2.2E-05   38.9   0.0   73  226-308     3-77  (186)
+  8 4EQ8_A Putative uncharacterize  64.9     5.5 6.1E-05   35.4   0.0   38   51-104     3-40  (162)
+  9 7BK8_A alpha-2-macroglobulin,   59.0     8.4 9.3E-05   36.4   0.0   34  226-274   136-169 (212)
+ 10 3VPI_A type VI secretion expor  56.0      10 0.00011   34.7   0.0   39   50-104    22-60  (174)
+ 11 2K1G_A Lipoprotein spr; soluti  48.8      16 0.00018   30.8   0.0   38   53-104     6-43  (135)
+ 12 4EQA_A Putative uncharacterize  39.8      27  0.0003   30.5   0.0   38  227-274    71-109 (146)
+ 13 4EYZ_B Cellulosome-related pro  39.7      27  0.0003   34.6   0.0   49  225-273   162-211 (246)
+ 14 1JB0_F PHOTOSYSTEM I SUBUNIT P  39.1      28 0.00031   32.6   0.0   23    1-23      1-23  (164)
+ 15 4F0V_A Putative uncharacterize  36.5      33 0.00037   31.9   0.0   38   51-104    37-74  (188)
+ 16 2LKT_A Retinoic acid receptor   36.3      34 0.00037   29.0   0.0   52  225-291     5-71  (125)
+ 17 7NRC_A 40S ribosomal protein S  34.3      38 0.00042   37.5   0.0   11  114-124   279-289 (1209)
+ 18 2KYT_A Group XVI phospholipase  32.0      44 0.00049   28.2   0.0   52  225-291     5-71  (125)
+ 19 7COY_aF Photosystem I P700 chl  31.6      45  0.0005   31.4   0.0   23    1-23      1-23  (167)
+ 20 4KT0_F Photosystem I P700 chlo  30.9      47 0.00052   31.3   0.0   23    1-23      1-23  (165)
+ 21 6PNJ_f Photosystem I; trimeric  30.6      48 0.00053   31.0   0.0   23    1-23      1-23  (159)
+ 22 7LX0_F Photosystem I, Photosyn  30.6      48 0.00053   31.0   0.0   23    1-23      1-23  (159)
+ 23 7LX0_Q Photosystem I, Photosyn  30.6      48 0.00053   31.0   0.0   23    1-23      1-23  (159)
+ 24 4UU4_A PERIPLASMIC LIPOPOLYSAC  29.8      51 0.00056   30.0   0.0   24    1-24      1-25  (175)
+ 25 6BIO_A Clan CA, family C40, Nl  27.1      61 0.00067   30.9   0.0   49  227-287   216-264 (278)
+ 26 6BIM_A Clan CA, family C40, Nl  26.4      63  0.0007   30.7   0.0   43  227-279   216-258 (278)
+ 27 6K61_f Photosystem I P700 chlo  24.8      71 0.00079   30.1   0.0   23    1-23      1-23  (164)
+ 28 3NPF_A putative dipeptidyl-pep  24.7      71 0.00079   31.0   0.0   39   52-104   155-193 (306)
+ 29 4DPZ_X HRAS-like suppressor 2   23.1      80 0.00089   27.5   0.0   36  225-275     5-40  (137)
+ 30 5ZF0_F2 Photosystem I P700 chl  22.8      82 0.00091   29.8   0.0   23    1-23      1-23  (164)
+ 31 6QWJ_O Photosystem I P700 chlo  22.2      86 0.00095   29.6   0.0   23    1-23      1-23  (164)
+ 32 6KIG_R Photosystem I P700 chlo  21.2      92   0.001   29.3   0.0   23    1-23      1-23  (159)
+ 33 6UZV_6 Photosystem I/IsiA comp  21.2      93   0.001   29.5   0.0   23    1-23      1-23  (165)
+ 34 4HPE_D Putative cell wall hydr  21.0      94   0.001   30.6   0.0   37  227-273   248-284 (308)
+ 35 4F0W_A Putative uncharacterize  20.8      96  0.0011   29.3   0.0   37   51-103    37-73  (188)
+
+No 1
+>2IM9_A Hypothetical protein; structural genomics, hypothetical protein, PSI-2; 1.67A {Legionella pneumophila subsp. pneumophila} SCOP: d.3.1.13
+Probab=100.00  E-value=3e-60  Score=457.32  Aligned_cols=284  Identities=32%  Similarity=0.603  Sum_probs=238.8  Template_Neff=5.800
+
+Q query            21 IFATQSHKDQAYLYLQNIYSRDNVSKLHVLSLQQRLEYFSRIFLGKPYLGGALGEGANSAYDNDPLYRFDAFDCTTYVET  100 (310)
+Q Consensus        21 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~eri~~~s~~flG~PY~~~~Lgeg~~~~~d~~pv~~ld~fDC~TfVE~  100 (310)
+                      .+++++.++++...+..+|+.  ++..+..++++||.++|+.|||+||+++|||+++.+.+||.|+|||++|||+||||+
+T Consensus        24 ~~~~~~~~~~~~~~~~~~~~~--~~~~~~~~~~~ri~~is~~FLGtPY~a~tL~~~~~e~~~e~lvvnl~~~DC~TfVE~  101 (333)
+T 2IM9_A           24 TTNSAAIEEQANSSIRKLYHT--LNTMPNTSMADRISQISAYFKGTKYILGSLGEGPNARYDQFPRYRVDGFDCDTYVNT  101 (333)
+T ss_dssp             --CHHHHHHHHHHHHHHHHHH--HTC---CCHHHHHHHHHHHTTTCBBCTTCCCSCTTCSSBCSCSSCSSCBCHHHHHHH
+T ss_pred             CCCchHHHHHHHHHHHHHHHH--hccCCCCCHHHHHHHHHHHhCCCCCCcccCCCCCCCCcccCCeEEcCccCccHHHHH
+Confidence            345566667787788899877  777777899999999999999999999999999888788999999999999999999
+
+
+Q query           101 VAALTLSYGEAEFQKNMNVIRYQDGVVSLITRNHFTSVDWNPNVEKLGILRDVTAEIGLAD----VSTLQTLIDKKEWYK  176 (310)
+Q Consensus       101 vlALa~s~~~~~f~~~L~~iRY~~G~i~y~~R~Hf~s~dW~~~n~~~g~l~DiT~~ig~~~----~~~~~~~i~~~~~~~  176 (310)
+                      |||||+|.+.++|+++|+++||++|+++|.+|+||||+||+++|+++|+++|||+++|+..    ...+++|+++++||+
+T Consensus       102 VlALa~s~~~~~F~~~L~~iRYr~G~v~Y~sR~HYfs~DWi~~N~~~G~v~DIT~~i~~~~~~~~~~~~~~ms~~~~~Y~  181 (333)
+T 2IM9_A          102 VLSLALANSLESFQECLKHTRYKNGKRSYINRNHFTSIDWNNYNQKRGLLKDITFSIRNEKKQPVALYANALINKPQWYN  181 (333)
+T ss_dssp             HHHHHHCSSHHHHHHHHHHHHBGGGCCSTTTBCCSCCCCCCHHHHHTTSEEECGGGCBCTTSCBCCEEECCEEEHHHHHH
+T ss_pred             HHHHHHCCCHHHHHHHHHHHhcccCccCcccccccchHHHHHHhhhcCCeEEcccccCCCCCCcceeeeeecccChhhhc
+Confidence            9999999999999999999999999999999999998899999999999999999998752    345789999999999
+
+
+Q query           177 KQASAMVKVKD----NEAKKVGGIIARTQAIRPQISALNFLSKEILTA----KPDLLLRFPKAGIVNIVRKNWNVRDAIG  248 (310)
+Q Consensus       177 ~~~~~~~~l~~----~~~~~~~~i~~~~~~i~~~~~~~~yipk~~l~~----~~~~~~~ip~g~Ii~iV~~n~~i~~~iG  248 (310)
+                      +++.+.+++..    +..+.++++.+.++.+.+....++|||++.+..    ......+|++|||||++++.+.+..+|+
+T Consensus       182 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~i~~~~~~i~YIP~~~l~~~~~~~~~~~~~L~~GDIIfi~t~~~~l~~aI~  261 (333)
+T 2IM9_A          182 HKTIDTIRLQKQDKNEQEKRLVELKAKGKTLETSLSNVPYIPFTALFSENKPNLHLFSQIPNGAVIEIIRPNWDLRQQIG  261 (333)
+T ss_dssp             TCCGGGCBCSSCCHHHHHHHHHHHHHHHTTCCEEECCEEEEEHHHHTGGGSCCHHHHTTSCTTCEEEEEEEEECCHHHHS
+T ss_pred             ccCchhhcccccChhHHHHHHHHHHHccCcccccceeeeeecHHHhcccCCCChHHHhhCCCCCEEEEEcCchHHHHHhh
+Confidence            98877665432    223345556666766655567899999998852    1134789999999999998777888887
+
+
+Q query           249 TNLDVSHQGIIFERDGEIIFRHASYKKSSQYVVEVPLLEYVKKNFGDQTFAGLNVLSFVG  308 (310)
+Q Consensus       249 tgLdVSH~Gfai~~~G~l~~rHASs~~~~v~V~d~pL~~YL~~~~~~~t~~Gi~i~~~~~  308 (310)
+                      +|++++||||+++++|+++|+||++.++  +|+++||.+|+++..++++.+||.|+|++.
+T Consensus       262 ~gldvsHvGI~~~~~g~~~vlhASs~~~--~Vv~~pL~~yl~~~~~~~g~~gI~V~Rl~~  319 (333)
+T 2IM9_A          262 TELDISHLGFAIWINNELFFRQASSQYG--KVVDVSLIDYLDKARSSPTIKGINIQVVLP  319 (333)
+T ss_dssp             SCEEEEEEEEEEEETTEEEEEEEETTTT--EEEEEEHHHHHHHHTTCSSCCEEEEEEECC
+T ss_pred             cCCCCCEEEEEEEECCEEEEEEEecCCC--eeEEeCHHHHHHHhcCCCCCceEEEEEeCC
+Confidence            7899999999998778899999998665  455899999999986566788999999975
+
+
+No 2
+>2P1G_B Putative xylanase; STRUCTURAL GENOMICS, UNKNOWN FUNCTION, PSI-2; 1.8A {Bacteroides fragilis}
+Probab=100.00  E-value=6.2e-52  Score=386.21  Aligned_cols=231  Identities=29%  Similarity=0.435  Sum_probs=183.4  Template_Neff=6.200
+
+Q query            50 LSLQQRLEYFSRIFLGKPYLGGALGEGANSAYDNDPLYRFDAFDCTTYVETVAALTLSYG------EAEFQKNMNVIRYQ  123 (310)
+Q Consensus        50 ~~~~eri~~~s~~flG~PY~~~~Lgeg~~~~~d~~pv~~ld~fDC~TfVE~vlALa~s~~------~~~f~~~L~~iRY~  123 (310)
+                      .|.++||.++|+.|||+||+++|||+++    +|.|++||++|||+||||+|||||+|.+      +++|+++|+++||+
+T Consensus         3 ~~~~~~i~~~~~~FlGtPY~a~tL~~~~----~E~lvvnl~~~DC~TfvE~vlALa~s~~~~~~~~~~~f~~~L~~iRYr   78 (249)
+T 2P1G_B            3 LQESSLVLSNGLGFVDTPYKAGTLEVDD----TEDLIINCDEVDCTTFVEYALAMALCPQQGDEMQEGDFARNLQRIRYR   78 (249)
+T ss_dssp             CHHH----------HTCBBCSCGGGSSS----SCCCCCCTTSBCHHHHHHHHHHHHTSCCSGG----GHHHHHHHHHHBG
+T ss_pred             CCHHHHHHHHHHHhCCCCCCCCCCCCCC----ccceEEECCcccchHHHHHHHHHHHhhccCCCCCHHHHHHHHHHHHcc
+Confidence            5789999999999999999999999864    6889999999999999999999999864      48999999999999
+
+
+Q query           124 DGVV-SLITRNHFTSVDWNPNVEKLGILRDVTAEIGLAD-VSTLQTLIDKKEWYKKQASAMVKVKDNEAKKVGGIIARTQ  201 (310)
+Q Consensus       124 ~G~i-~y~~R~Hf~s~dW~~~n~~~g~l~DiT~~ig~~~-~~~~~~~i~~~~~~~~~~~~~~~l~~~~~~~~~~i~~~~~  201 (310)
+                      +|++ +|.+|+|||| ||+++|+++|+++|||+++++.. ...+++|+.+++||+.++.+        +..+++|...++
+T Consensus        79 ~G~v~~Y~sR~Hyfs-DWi~~n~~~g~v~diT~~l~~~~~~~~~~~ms~~~~~y~~l~~~--------~~~~~~i~~~e~  149 (249)
+T 2P1G_B           79 DGKIDGYTSRLHYIS-DWINNAVRQGLLEDVTAAYSPFKQKLSLSYMSTHPELYKSLKNS--------PENVAQMAKYEK  149 (249)
+T ss_dssp             GGCCCSGGGBCCSHH-HHHHHHHHTTSCEEHHHHHCCCEEECCCCHHHHCGGGCTTTTTC--------HHHHHHHHHHHH
+T ss_pred             CCccCCccccCcchH-HhchhhhhccceEECccccCCCCceecceeeecChHHHHHHccC--------HhHHHHHHHHhh
+Confidence            9997 7999999998 99999999999999999998665 56778999999999887543        334556777777
+
+
+Q query           202 AIRPQISALNFLSKEILTAKPDLLLRFPKAGIVNIVRKNWNVRDAIGTNLDVSHQGIIFERDGEIIFRHASYKKSSQYVV  281 (310)
+Q Consensus       202 ~i~~~~~~~~yipk~~l~~~~~~~~~ip~g~Ii~iV~~n~~i~~~iGtgLdVSH~Gfai~~~G~l~~rHASs~~~~v~V~  281 (310)
+                      .+.  ...++|||++.+.+  ....++++|||||+.++.        .+++++|+||+++++++++++|||+.+++|.+.
+T Consensus       150 ~~~--~~~~~yIP~~~i~~--~~~~~l~~GDIIf~~~~~--------~gldvsHvGI~i~~~g~l~~ihASs~~~~V~~~  217 (249)
+T 2P1G_B          150 ALS--GKEVHYLPKDKLEP--DGLPWIKNGDIIALTTNT--------PGLDVSHMGIAIYIKGQLHLLHASSKEGKVVVG  217 (249)
+T ss_dssp             HHT--TCEEECEEGGG----------CCTTCEEEEEECS--------TTCSEEEEEEEEEETTEEEEEEEETTTTEEEEC
+T ss_pred             hhC--CCeeeeccHHHHhH--HHHHhCCCCCEEEEEcCC--------CCCcccEEEEEEEeCCeEEEEEecCCCCceEEe
+Confidence            775  56799999999875  336899999999999864        478999999999866789999999877666665
+
+
+Q query           282 EVPLLEYVKKNFGDQTFAGLNVLSFVG  308 (310)
+Q Consensus       282 d~pL~~YL~~~~~~~t~~Gi~i~~~~~  308 (310)
+                      ++||.+|+++.+   +.+||.|.|+..
+T Consensus       218 ~~~L~~yl~~~~---~~~GI~V~R~~~  241 (249)
+T 2P1G_B          218 KTALSQMLKDRK---SLTGIRVLRMKK  241 (249)
+T ss_dssp             SSCHHHHHHHCT---TEEEEEEEEC--
+T ss_pred             CCCHHHHHHhCC---CcceEEEEcCCC
+Confidence            689999998866   678999999975
+
+
+No 3
+>4H4J_A hypothetical protein; PF07313 family protein, DUF 1460; HET: MSE; 1.15A {Bacteroides uniformis}
+Probab=100.00  E-value=8e-52  Score=383.75  Aligned_cols=229  Identities=29%  Similarity=0.445  Sum_probs=200.1  Template_Neff=6.600
+
+Q query            51 SLQQRLEYFSRIFLGKPYLGGALGEGANSAYDNDPLYRFDAFDCTTYVETVAALTLSYG-------EAEFQKNMNVIRYQ  123 (310)
+Q Consensus        51 ~~~eri~~~s~~flG~PY~~~~Lgeg~~~~~d~~pv~~ld~fDC~TfVE~vlALa~s~~-------~~~f~~~L~~iRY~  123 (310)
+                      ++++||.++|+.|||+||+++|||++.    +|.|++||++|||+||||+|||||+|.+       +++|.++|+++||+
+T Consensus         2 ~~~~~i~~~s~~flGtPY~~~tL~~~~----~e~lvv~l~~~DC~TfvE~vlAla~s~~~~~~~~~~~~f~~~L~~iRY~   77 (240)
+T 4H4J_A            2 QGGKDMLSNGIKYLDVPYVAHTLEADG----PEELVINCDEVDCTTLVEYVLAETLTPKLADGDISESAFADNLQKIRYR   77 (240)
+T ss_dssp             HHHHHHHHHHHTTTTCBBCTTTTCCSS----SCCCCCCTTSBCHHHHHHHHHHHHTSCCC----CCHHHHHHHHHHHHBG
+T ss_pred             chhhHHHHHHHHhCCCCcCccccCCCC----CcceeEecCcccchHHHHHHHHHHhCccccCCCCCHHHHHHHHHHHHcc
+Confidence            568999999999999999999999874    6899999999999999999999999973       69999999999999
+
+
+Q query           124 DGVV-SLITRNHFTSVDWNPNVEKLGILRDVTAEIGLAD-VSTLQTLIDKKEWYKKQASAMVKVKDNEAKKVGGIIARTQ  201 (310)
+Q Consensus       124 ~G~i-~y~~R~Hf~s~dW~~~n~~~g~l~DiT~~ig~~~-~~~~~~~i~~~~~~~~~~~~~~~l~~~~~~~~~~i~~~~~  201 (310)
+                      +|++ +|.+|+|||| ||+++|+++|+++|||+++|+.. ...+++|+++++||+.++.+        +..+++|...|+
+T Consensus        78 ~G~i~~y~sR~Hyfs-DW~~~n~~~g~v~diT~~~~~~~~~~~~~~ms~~~~~y~~l~~~--------~~~~~~i~~~e~  148 (240)
+T 4H4J_A           78 DGKIDGYTSRLHYIA-DWINNGVRNGFLQDVTGAMSPDTERLSISYMSSHPQLYKQLANS--------PENVAKMKKIEQ  148 (240)
+T ss_dssp             GGCCCSGGGBCCSHH-HHHHHHHHTTSEEEHHHHHCCCEEECCCCHHHHCGGGCHHHHTC--------HHHHHHHHHHHH
+T ss_pred             CCccCCcccccccHH-HHHHhchhcCceEeccccCCCCeeEeeeeeeccCHHHHHHHhcC--------HHHHHHHHHHHH
+Confidence            9998 7999999998 99999999999999999998776 46778999999999888644        345667777777
+
+
+Q query           202 AIRPQISALNFLSKEILTAKPDLLLRFPKAGIVNIVRKNWNVRDAIGTNLDVSHQGIIFERDGEIIFRHASYKKSSQYVV  281 (310)
+Q Consensus       202 ~i~~~~~~~~yipk~~l~~~~~~~~~ip~g~Ii~iV~~n~~i~~~iGtgLdVSH~Gfai~~~G~l~~rHASs~~~~v~V~  281 (310)
+                      .+.  ...++|||++.+.+  ....++++|||||+.++.        .+++++|+||+++++++++++|||+.+++|+++
+T Consensus       149 ~~~--~~~~~yIP~~~i~~--~~~~~lq~GDIIf~~~~~--------~g~dvsHvGI~i~~~g~l~~ihASs~~g~V~i~  216 (240)
+T 4H4J_A          149 SLS--GKEVHYLPKAKLPA--DGLPWIKDGDIIAITTNT--------PGLDVAHMGIAFYADNKLLLVHASSTDKKVVVS  216 (240)
+T ss_dssp             HHT--TCEEECEEGGGCCT--TCCTTSCTTCEEEEEECS--------TTCSEEEEEEEEEETTEEEEEEEETTTTEEEEC
+T ss_pred             hhc--CCeeeeccHHHccc--cChhhCCCCCEEEEEcCC--------CCCCccEEEEEEEeCCcEEEEEecCCCCceEEE
+Confidence            665  56799999999875  237899999999999864        578999999999866789999999877656666
+
+
+Q query           282 EVPLLEYVKKNFGDQTFAGLNVLSFV  307 (310)
+Q Consensus       282 d~pL~~YL~~~~~~~t~~Gi~i~~~~  307 (310)
+                      ++||.+|+++..   +.+||.|+|++
+T Consensus       217 ~~~l~~yl~~~~---~~~gi~V~R~~  239 (240)
+T 4H4J_A          217 KVPLSQMLKDNN---KWTGIRVLRMK  239 (240)
+T ss_dssp             SSCHHHHHHHCT---TEEEEEEEEEC
+T ss_pred             eccHHHHHHhCC---CCceEEEEEeC
+Confidence            789999999865   45799999986
+
+
+No 4
+>2P1G_A Putative xylanase; STRUCTURAL GENOMICS, UNKNOWN FUNCTION, PSI-2; 1.8A {Bacteroides fragilis}
+Probab=100.00  E-value=1.6e-51  Score=383.53  Aligned_cols=231  Identities=29%  Similarity=0.435  Sum_probs=195.8  Template_Neff=6.400
+
+Q query            50 LSLQQRLEYFSRIFLGKPYLGGALGEGANSAYDNDPLYRFDAFDCTTYVETVAALTLSYG------EAEFQKNMNVIRYQ  123 (310)
+Q Consensus        50 ~~~~eri~~~s~~flG~PY~~~~Lgeg~~~~~d~~pv~~ld~fDC~TfVE~vlALa~s~~------~~~f~~~L~~iRY~  123 (310)
+                      .++++||.++|+.|||+||+++|||+++    +|.|++||++|||+||||+|||||+|.+      +++|.++|+++||+
+T Consensus         3 ~~~~~~i~~~s~~FlGtPY~a~tL~~~~----~E~lvv~l~~~DC~TfvE~vlALa~s~~~~~~~~~~~f~~~L~~iRYr   78 (249)
+T 2P1G_A            3 LQESSLVLSNGLGFVDTPYKAGTLEVDD----TEDLIINCDEVDCTTFVEYALAMALCPQQGDEMQEGDFARNLQRIRYR   78 (249)
+T ss_dssp             ------CHHHHHTTTTCBBCTTTTSCSS----SCCCCCCTTSBCHHHHHHHHHHHHTSSCC--CCCHHHHHHHHHHHHBG
+T ss_pred             ccHHHHHHHHHHHhCCCCCCCCCCCCCC----CCceeEecCccCcchHHHHHHHHHhCcccCCcccHHHHHHHHHHHHcc
+Confidence            4789999999999999999999999874    6899999999999999999999999863      58999999999999
+
+
+Q query           124 DGVV-SLITRNHFTSVDWNPNVEKLGILRDVTAEIGLAD-VSTLQTLIDKKEWYKKQASAMVKVKDNEAKKVGGIIARTQ  201 (310)
+Q Consensus       124 ~G~i-~y~~R~Hf~s~dW~~~n~~~g~l~DiT~~ig~~~-~~~~~~~i~~~~~~~~~~~~~~~l~~~~~~~~~~i~~~~~  201 (310)
+                      +|++ +|.+|+|||| ||+++|+++|+++|||+++|+.. ..++++|+++++||+.++.+        +..+++|.+.|+
+T Consensus        79 ~G~v~~y~sR~Hyfs-DWi~~n~~~g~v~diT~~i~~~~~~~~~~fms~~~~~y~~l~~~--------~~~~~~i~~~e~  149 (249)
+T 2P1G_A           79 DGKIDGYTSRLHYIS-DWINNAVRQGLLEDVTAAYSPFKQKLSLSYMSTHPELYKSLKNS--------PENVAQMAKYEK  149 (249)
+T ss_dssp             GGCCCSGGGBCCSHH-HHHHHHHHTTSSEEHHHHHCCCEEECCCCHHHHCGGGCTTTTTC--------HHHHHHHHHHHH
+T ss_pred             CCccCCccccCccHH-HHHHHHHhcCceEeccccCCCCceeeeeeecccCHHHHHHHhcC--------HHhHHHHHHHHH
+Confidence            9998 7999999998 99999999999999999998776 46788999999999988644        345667777777
+
+
+Q query           202 AIRPQISALNFLSKEILTAKPDLLLRFPKAGIVNIVRKNWNVRDAIGTNLDVSHQGIIFERDGEIIFRHASYKKSSQYVV  281 (310)
+Q Consensus       202 ~i~~~~~~~~yipk~~l~~~~~~~~~ip~g~Ii~iV~~n~~i~~~iGtgLdVSH~Gfai~~~G~l~~rHASs~~~~v~V~  281 (310)
+                      .+.  ...++|||++.+.+  ....++++|||||+.++.        .+++++|+||+++++|+++++||++.+++|++.
+T Consensus       150 ~~~--~~~~~yIP~~~i~~--~~~~~lq~GDLIff~~~~--------~g~~vsHVGI~i~~~g~~~~iHAss~~g~V~i~  217 (249)
+T 2P1G_A          150 ALS--GKEVHYLPKDKLEP--DGLPWIKNGDIIALTTNT--------PGLDVSHMGIAIYIKGQLHLLHASSKEGKVVVG  217 (249)
+T ss_dssp             HHT--TCEEECEEGGGCCT--TCCTTSCTTCEEEEEECS--------TTCSEEEEEEEEEETTEEEEEEEETTTTEEEEC
+T ss_pred             Hhc--CCeeecccHHHcCc--cCHhhCCCCcEEEEEcCC--------CCCcccEEEEEEEeCCeEEEEEecCCCCceEEe
+Confidence            775  56799999999875  237899999999999853        467899999999865779999999877667776
+
+
+Q query           282 EVPLLEYVKKNFGDQTFAGLNVLSFVG  308 (310)
+Q Consensus       282 d~pL~~YL~~~~~~~t~~Gi~i~~~~~  308 (310)
+                      +++|.+|+++..   +..||.|+|+..
+T Consensus       218 ~~~l~~Y~~~~~---~~~GI~V~r~~~  241 (249)
+T 2P1G_A          218 KTALSQMLKDRK---SLTGIRVLRMKK  241 (249)
+T ss_dssp             SSCHHHHHHTCT---TEEEEEEEEC--
+T ss_pred             cCCHHHHHhhCC---CceeEEEEecCC
+Confidence            789999999875   678999999875
+
+
+No 5
+>4Q68_A Uncharacterized protein; PF07313 family protein, DUF 1460; HET: NAG; 1.07A {Bacteroides uniformis ATCC 8492}
+Probab=100.00  E-value=2.3e-51  Score=380.70  Aligned_cols=229  Identities=29%  Similarity=0.447  Sum_probs=197.2  Template_Neff=6.600
+
+Q query            51 SLQQRLEYFSRIFLGKPYLGGALGEGANSAYDNDPLYRFDAFDCTTYVETVAALTLSY-------GEAEFQKNMNVIRYQ  123 (310)
+Q Consensus        51 ~~~eri~~~s~~flG~PY~~~~Lgeg~~~~~d~~pv~~ld~fDC~TfVE~vlALa~s~-------~~~~f~~~L~~iRY~  123 (310)
+                      +.++||..+|+.|||+||+++|||++.    +|.|++||++|||+||||+|||||++.       ++++|.++|++|||+
+T Consensus         2 ~~~~~i~~~~~~flG~PY~~~tL~~~~----~E~lvv~l~~~DC~TfvE~vlAla~~~~~~~~~~~~~~f~~~L~~iRYr   77 (240)
+T 4Q68_A            2 QGGKDMLSNGIKYLDVPYVAHTLEADG----PEELVINCDEVDCTTLVEYVLAETLTPKLADGDISESAFADNLQKIRYR   77 (240)
+T ss_dssp             HHHHHHHHHHHTTTTCBBCTTTTCCSS----SCCCCCCTTSBCHHHHHHHHHHHHHSCCC-----CHHHHHHHHHHHHBG
+T ss_pred             cchhhhHHHHHHhcCCCcCcccCCCCC----CceeeEecCcccchHHHHHHHHHHhCchhcCCCCCHHHHHHHHHHHHcc
+Confidence            468999999999999999999999764    689999999999999999999999964       469999999999999
+
+
+Q query           124 DGVV-SLITRNHFTSVDWNPNVEKLGILRDVTAEIGLAD-VSTLQTLIDKKEWYKKQASAMVKVKDNEAKKVGGIIARTQ  201 (310)
+Q Consensus       124 ~G~i-~y~~R~Hf~s~dW~~~n~~~g~l~DiT~~ig~~~-~~~~~~~i~~~~~~~~~~~~~~~l~~~~~~~~~~i~~~~~  201 (310)
+                      +|++ +|.+|+|||+ ||+++|+++|+++|||+++++.. ...+++|+++++||+.++.+        +..++.|...++
+T Consensus        78 ~G~i~~y~sR~Hyfs-DW~~~n~~~g~~~diT~~l~~~~~~~~~~fms~~~~~y~~l~~~--------~~~~~~i~~~e~  148 (240)
+T 4Q68_A           78 DGKIDGYTSRLHYIA-DWINNGVRNGFLQDVTGAMSPDTERLSISYMSSHPQLYKQLANS--------PENVAKMKKIEQ  148 (240)
+T ss_dssp             GGCCCSGGGBCCSHH-HHHHHHHHTTSEEEHHHHHCCCEEECCCCHHHHCGGGCHHHHTC--------HHHHHHHHHHHH
+T ss_pred             CCccCCccccCccHH-HHHHhhhhcCceEeCcccCCCCeeeeeceeeccCHHHHHHHhcC--------HHHHHHHHHHHH
+Confidence            9997 7999999997 99999999999999999997765 45678999999999887644        334556666666
+
+
+Q query           202 AIRPQISALNFLSKEILTAKPDLLLRFPKAGIVNIVRKNWNVRDAIGTNLDVSHQGIIFERDGEIIFRHASYKKSSQYVV  281 (310)
+Q Consensus       202 ~i~~~~~~~~yipk~~l~~~~~~~~~ip~g~Ii~iV~~n~~i~~~iGtgLdVSH~Gfai~~~G~l~~rHASs~~~~v~V~  281 (310)
+                      .+.  ...++|||++.+.+  ....++++|||||+.++.        .+++++|+||+++++++++++||++.+++|+++
+T Consensus       149 ~~~--~~~~~yIP~~~l~~--~~~~~l~~GDIIf~~~~~--------~gldvsHvGI~i~~~~~~~~ihASs~~~~V~i~  216 (240)
+T 4Q68_A          149 SLS--GKEVHYLPKAKLPA--DGLPWIKDGDIIAITTNT--------PGLDVAHMGIAFYADNKLLLVHASSTDKKVVVS  216 (240)
+T ss_dssp             HHT--TCEEECEEGGGCCT--TCCTTSCTTCEEEEEECS--------TTCSEEEEEEEEEETTEEEEEEEETTTTEEEEC
+T ss_pred             hhc--CCeeeecCHHHccc--ccchhcCCCCEEEEEcCC--------CCCCccEEEEEEEeCCcEEEEEecCCCCceEEE
+Confidence            664  56799999999875  236899999999999864        578999999999866789999999877656666
+
+
+Q query           282 EVPLLEYVKKNFGDQTFAGLNVLSFV  307 (310)
+Q Consensus       282 d~pL~~YL~~~~~~~t~~Gi~i~~~~  307 (310)
+                      ++||.+|+++.+   +..||.|+|++
+T Consensus       217 ~~~l~~yl~~~~---~~~gi~V~R~~  239 (240)
+T 4Q68_A          217 KVPLSQMLKDNN---KWTGIRVLRMK  239 (240)
+T ss_dssp             SSCHHHHHHTCT---TEEEEEEEEEC
+T ss_pred             eccHHHHHHhCC---CCceEEEEEeC
+Confidence            789999999865   44699999986
+
+
+No 6
+>3KW0_C Cysteine peptidase, Water; Cysteine peptidase, Structural Genomics, Joint; HET: LYS, MSE; 2.5A {Bacillus cereus}
+Probab=82.03  E-value=0.95  Score=42.52  Aligned_cols=80  Identities=19%  Similarity=0.172  Sum_probs=54.5  Template_Neff=8.300
+
+Q query           224 LLLRFPKAGIVNIVRKNWNVRDAIG--TNLDVSHQGIIFERDGEIIFRHASYKKSSQYVVEVPLLEYVKKNFG--DQTFA  299 (310)
+Q Consensus       224 ~~~~ip~g~Ii~iV~~n~~i~~~iG--tgLdVSH~Gfai~~~G~l~~rHASs~~~~v~V~d~pL~~YL~~~~~--~~t~~  299 (310)
+                      ....+++||||++.+.. .....|.  ++..++|+||+++.+++++++||....| |.  ..++.+|+....+  .....
+T Consensus        36 ~~~~l~~GDIil~~~~~-~~s~~I~~~t~s~~sHvai~~~~~~~~~viea~~~~G-V~--~~~l~~~l~~~~~~~~~~~~  111 (214)
+T 3KW0_C           36 LINVLKTGDIFLCSGNY-LVSKLIKKVSESMFSHTGIIVKWGEHTLIMESVEDDG-VR--IVPLEHYIKNYENSNNRYNG  111 (214)
+T ss_dssp             HTTTCCTTCEEEEEECS-HHHHHHHHHHTSSCCEEEEEEEETTEEEEEEEETTTE-EE--EEETHHHHHCGGGSSSCCSE
+T ss_pred             HHHHccCCCEEEEeCCc-hHHHHHHHHhCCCCCEEEEEEEeCCeEEEEEEecCCc-eE--EEeHHHHHHHccccccccCC
+Confidence            45789999999998763 2333332  4678999999998767789999997443 33  4789899876420  00012
+
+
+Q query           300 GLNVLSFV  307 (310)
+Q Consensus       300 Gi~i~~~~  307 (310)
+                      .+.|.|++
+T Consensus       112 ~i~v~r~~  119 (214)
+T 3KW0_C          112 SLFIARHE  119 (214)
+T ss_dssp             EEEEEEES
+T ss_pred             eEEEEEcc
+Confidence            56777765
+
+
+No 7
+>2IF6_A Hypothetical protein yiiX; structural genomics, metalloprotein, hypothetical, PSI-2; 1.8A {Escherichia coli} SCOP: d.3.1.21
+Probab=76.56  E-value=1.9  Score=38.87  Aligned_cols=73  Identities=19%  Similarity=0.210  Sum_probs=52.0  Template_Neff=9.400
+
+Q query           226 LRFPKAGIVNIVRKNWNVRDAI--GTNLDVSHQGIIFERDGEIIFRHASYKKSSQYVVEVPLLEYVKKNFGDQTFAGLNV  303 (310)
+Q Consensus       226 ~~ip~g~Ii~iV~~n~~i~~~i--GtgLdVSH~Gfai~~~G~l~~rHASs~~~~v~V~d~pL~~YL~~~~~~~t~~Gi~i  303 (310)
+                      .++++||||++.+.+ .....|  .++..++|+||+++.+++.+++||..  | |.  ..++.+|+.+...    ..+.|
+T Consensus         3 ~~l~~GDIi~~~~~~-~~s~~I~~~t~~~~sHvaI~~~~~~~~~viea~~--G-v~--~~~l~~~~~~~~~----~~~~v   72 (186)
+T 2IF6_A            3 WQPQTGDIIFQISRS-SQSKAIQLATHSDYSHTGMLVMRNKKPYVFEAVG--P-VK--YTPLKQWIAHGEK----GKYVV   72 (186)
+T ss_dssp             CCCCTTCEEEECCCS-TTHHHHHHHHTSSCCEEEEEEEETTEEEEEEESS--S-EE--EEEHHHHHHTSGG----GCEEE
+T ss_pred             CCCCCCCEEEEeCCC-hHHHHHHHHhCCCCCEEEEEEEeCCceEEEEEeC--C-eE--EEEHHHHHHcCCC----CeEEE
+Confidence            468999999998753 223333  25678999999998667778999982  2 44  4688888877531    25788
+
+
+Q query           304 LSFVG  308 (310)
+Q Consensus       304 ~~~~~  308 (310)
+                      +|++.
+T Consensus        73 ~r~~~   77 (186)
+T 2IF6_A           73 RRVEG   77 (186)
+T ss_dssp             EEETT
+T ss_pred             EEcCC
+Confidence            88864
+
+
+No 8
+>4EQ8_A Putative uncharacterized protein; Effector PROTEIN, TYPE VI SECRETION; HET: GOL; 1.392A {Pseudomonas aeruginosa}
+Probab=64.85  E-value=5.5  Score=35.42  Aligned_cols=38  Identities=32%  Similarity=0.418  Sum_probs=29.0  Template_Neff=9.000
+
+Q query            51 SLQQRLEYFSRIFLGKPYLGGALGEGANSAYDNDPLYRFDAFDCTTYVETVAAL  104 (310)
+Q Consensus        51 ~~~eri~~~s~~flG~PY~~~~Lgeg~~~~~d~~pv~~ld~fDC~TfVE~vlAL  104 (310)
+                      +..+.+...++.++|+||..+    +            ..++||..||-.++.-
+T Consensus         3 ~~~~~~v~~a~~~~G~py~~~----~------------~~g~DCsglV~~v~~~   40 (162)
+T 4EQ8_A            3 SLDQCIVNACKNSWDKSYLAG----T------------PNKDNCSGFVQSVAAE   40 (162)
+T ss_dssp             CTTHHHHHHHHHHTTCCSSTT----S------------CGGGCHHHHHHHHHHH
+T ss_pred             hHHHHHHHHHHHhcCCCccCC----C------------CCCCCHHHHHHHHHHH
+Confidence            346678888999999999821    1            1479999999887764
+
+
+No 9
+>7BK8_A alpha-2-macroglobulin, peptidoglycan, NlpC/P60, endopeptidase, HYDROLASE; 1.74A {Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1)}
+Probab=59.01  E-value=8.4  Score=36.43  Aligned_cols=34  Identities=18%  Similarity=0.063  Sum_probs=27.6  Template_Neff=8.100
+
+Q query           226 LRFPKAGIVNIVRKNWNVRDAIGTNLDVSHQGIIFERDGEIIFRHASYK  274 (310)
+Q Consensus       226 ~~ip~g~Ii~iV~~n~~i~~~iGtgLdVSH~Gfai~~~G~l~~rHASs~  274 (310)
+                      .++++||++++..            ....|+||++++ +  .++||+..
+T Consensus       136 ~~~~~GDlv~f~~------------~~~~HvgIy~g~-~--~~Iha~~~  169 (212)
+T 7BK8_A          136 NQARPGDLMFYDQ------------GDDQHLMIWMGR-S--IAYHTGSS  169 (212)
+T ss_dssp             GGCCTTCEEEEEC------------SSCEEEEEECSS-S--EEEECSCC
+T ss_pred             HHCCCCcEEEEeC------------CCCeEEEEEEcC-C--EEEEcCCC
+Confidence            5688999999975            247899999974 5  69999976
+
+
+No 10
+>3VPI_A type VI secretion exported 1; Hydrolase; HET: FMT; 1.5A {Pseudomonas aeruginosa}
+Probab=56.04  E-value=10  Score=34.68  Aligned_cols=39  Identities=31%  Similarity=0.373  Sum_probs=29.7  Template_Neff=8.200
+
+Q query            50 LSLQQRLEYFSRIFLGKPYLGGALGEGANSAYDNDPLYRFDAFDCTTYVETVAAL  104 (310)
+Q Consensus        50 ~~~~eri~~~s~~flG~PY~~~~Lgeg~~~~~d~~pv~~ld~fDC~TfVE~vlAL  104 (310)
+                      ....+.+..+++.++|+||..+    +            -.++||..||-.++..
+T Consensus        22 ~~~~~~ii~~a~~~~G~py~~~----~------------~~g~DCsgfV~~v~~~   60 (174)
+T 3VPI_A           22 DSLDQCIVNACKNSWDKSYLAG----T------------PNKDNCSGFVQSVAAE   60 (174)
+T ss_pred             ChHHHHHHHHHHHHhCCCcccC----C------------CCCccHHHHHHHHHHH
+Confidence            3456788888999999999831    1            1479999999887664
+
+
+No 11
+>2K1G_A Lipoprotein spr; solution NMR structure, bacterial lipoprotein; NMR {Escherichia coli}
+Probab=48.81  E-value=16  Score=30.83  Aligned_cols=38  Identities=18%  Similarity=0.251  Sum_probs=28.4  Template_Neff=10.000
+
+Q query            53 QQRLEYFSRIFLGKPYLGGALGEGANSAYDNDPLYRFDAFDCTTYVETVAAL  104 (310)
+Q Consensus        53 ~eri~~~s~~flG~PY~~~~Lgeg~~~~~d~~pv~~ld~fDC~TfVE~vlAL  104 (310)
+                      .+.+...+..++|+||..+..+          |    +.+||..||..++..
+T Consensus         6 ~~~~~~~a~~~~g~py~~~~~~----------~----~~~dC~g~v~~~~~~   43 (135)
+T 2K1G_A            6 KSRIMDQYADWKGVRYRLGGST----------K----KGIDCSGFVQRTFRE   43 (135)
+T ss_dssp             HHHHHHHHHHHTTCCCCSSCCB----------T----TBCCHHHHHHHHCCC
+T ss_pred             HHHHHHHHHHhCCCCcccCCCC----------C----CCccHHHHHHHHHHH
+Confidence            4566777888999999854332          1    579999999888764
+
+
+No 12
+>4EQA_A Putative uncharacterized protein; TYPE VI SECRETION, T6S, ANTITOXIN-TOXIN; 1.6A {Pseudomonas aeruginosa}
+Probab=39.84  E-value=27  Score=30.49  Aligned_cols=38  Identities=8%  Similarity=-0.054  Sum_probs=27.9  Template_Neff=9.100
+
+Q query           227 RFPKAGIVNIVRKNWNVRDAIGTNLDVSHQGIIFER-DGEIIFRHASYK  274 (310)
+Q Consensus       227 ~ip~g~Ii~iV~~n~~i~~~iGtgLdVSH~Gfai~~-~G~l~~rHASs~  274 (310)
+                      .+++|||+|+...          +....|+||+++. ++...++||+..
+T Consensus        71 ~~~~GDlv~~~~~----------~~~~~Hvgi~~g~~~~~~~~i~~~~~  109 (146)
+T 4EQA_A           71 KAAQGFLVIAGLK----------GRTYGHVAVVISGPLYRQKYPMCWCG  109 (146)
+T ss_dssp             HHHTTCCEEEEEC----------CSSCCEEEEECSSCCBTTTBCEEEEC
+T ss_pred             cCCCCcEEEEECC----------CCcceEEEEEEcCCcccceeeEEEcC
+Confidence            5678999998742          2457899999963 233478899875
+
+
+No 13
+>4EYZ_B Cellulosome-related protein module from Ruminococcus; Putative protease, hydrolase; HET: CCS, EDO, MSE; 1.383A {Ruminococcus flavefaciens}
+Probab=39.73  E-value=27  Score=34.61  Aligned_cols=49  Identities=18%  Similarity=0.018  Sum_probs=32.2  Template_Neff=3.200
+
+Q query           225 LLRFPKAGIVNIVRKNWNVRDAI-GTNLDVSHQGIIFERDGEIIFRHASY  273 (310)
+Q Consensus       225 ~~~ip~g~Ii~iV~~n~~i~~~i-GtgLdVSH~Gfai~~~G~l~~rHASs  273 (310)
+                      ..+||+||||||....+...... .....++||||++++...-.++|+++
+T Consensus       162 sg~LqkGDLIFF~t~s~~~~~~~~~~~~~~~HVGIY~Gn~~~nKfwHS~s  211 (246)
+T 4EYZ_B          162 SGVLQKGDIIWCVDGSVGLGMAGLRTIADNHHIGIYTGNGTSDSWWQSGP  211 (246)
+T ss_dssp             TCCCCTTCEEEEEETTTCSHHHHHTSCCSCCEEEEECSSSSSCCEEEEEE
+T ss_pred             cCCCCCCcEEEEEcCCcccccccccccCCccEEEEEecCCCCCceeecCC
+Confidence            36899999999986532111111 13457999999998511125889997
+
+
+No 14
+>1JB0_F PHOTOSYSTEM I SUBUNIT PSAA, PHOTOSYSTEM; MEMBRANE PROTEIN, MULTIPROTEIN-PIGMENT COMPLEX, PHOTOSYNTHESIS; HET: LHG, PQN, BCR, LMG, SF4, CLA; 2.5A {Synechococcus elongatus} SCOP: f.23.16.1
+Probab=39.13  E-value=28  Score=32.59  Aligned_cols=23  Identities=22%  Similarity=0.242  Sum_probs=0.0  Template_Neff=3.500
+
+Q query             1 MRFLWSATMLSVSLMLFAPAIFA   23 (310)
+Q Consensus         1 ~~~~~~~~~~~~~l~l~~~~~~~   23 (310)
+                      ||-+++++|+.++.+-|++.+.+
+T Consensus         1 m~rl~al~l~~~l~~~~~~~a~A   23 (164)
+T 1JB0_F            1 MRRFLALLLVLTLWLGFTPLASA   23 (164)
+T ss_dssp             -----------------------
+T ss_pred             CHHHHHHHHHHHHHhcccccccc
+Confidence            77788777776666666676665
+
+
+No 15
+>4F0V_A Putative uncharacterized protein; NlpC/P60 domain, type VI amidase; 1.6A {Pseudomonas aeruginosa}
+Probab=36.49  E-value=33  Score=31.89  Aligned_cols=38  Identities=32%  Similarity=0.426  Sum_probs=29.0  Template_Neff=8.100
+
+Q query            51 SLQQRLEYFSRIFLGKPYLGGALGEGANSAYDNDPLYRFDAFDCTTYVETVAAL  104 (310)
+Q Consensus        51 ~~~eri~~~s~~flG~PY~~~~Lgeg~~~~~d~~pv~~ld~fDC~TfVE~vlAL  104 (310)
+                      +..+.+...++.++|+||.-+                .-..+||..||-.++..
+T Consensus        37 ~~~~~ii~~a~~~~G~py~~g----------------~~~~~DCSgfV~~~~~~   74 (188)
+T 4F0V_A           37 SLDQCIVNACKNSWDKSYLAG----------------TPNKDNCSGFVQSVAAE   74 (188)
+T ss_dssp             CTTHHHHHHHHHHHTCCSBTT----------------BCGGGCHHHHHHHHHHH
+T ss_pred             hHHHHHHHHHHHhCCCCcccC----------------CCCCCcHHHHHHHHHHH
+Confidence            346677778899999999865                12589999998777664
+
+
+No 16
+>2LKT_A Retinoic acid receptor responder protein; TIG3, human tumor suppressor II; NMR {Homo sapiens}
+Probab=36.28  E-value=34  Score=29.01  Aligned_cols=52  Identities=17%  Similarity=0.128  Sum_probs=38.1  Template_Neff=9.200
+
+Q query           225 LLRFPKAGIVNIVRKNWNVRDAIGTNLDVSHQGIIFERDGEIIFRHASYKKS---------------SQYVVEVPLLEYV  289 (310)
+Q Consensus       225 ~~~ip~g~Ii~iV~~n~~i~~~iGtgLdVSH~Gfai~~~G~l~~rHASs~~~---------------~v~V~d~pL~~YL  289 (310)
+                      ...+++||+|++...            .+.|.||++++ +  .++|++...+               +..|..++|.+++
+T Consensus         5 ~~~~~~GDii~~~~~------------~~~H~gIyvG~-~--~vih~~~~~~~~~~~~~~~~~~~~~~~~V~~~~l~~~~   69 (125)
+T 2LKT_A            5 HQEPKPGDLIEIFRL------------GYEHWALYIGD-G--YVIHLAPPSEYPGAGSSSVFSVLSNSAEVKRERLEDVV   69 (125)
+T ss_dssp             SCCCCTTCEEEEECS------------SSCEEEEEEET-T--EEEEEECSBCCSCCCBTTBSSCCBCCEEEEEEEHHHHH
+T ss_pred             CCCCCCCCEEEEECC------------CeeEEEEEECC-e--EEEEeCCCCCCCCCCcccccccccCCCeEEEEEHHHHh
+Confidence            467899999999752            59999999984 5  6899997532               1144457888876
+
+
+Q query           290 KK  291 (310)
+Q Consensus       290 ~~  291 (310)
+                      ..
+T Consensus        70 ~~   71 (125)
+T 2LKT_A           70 GG   71 (125)
+T ss_dssp             TT
+T ss_pred             CC
+Confidence            55
+
+
+No 17
+>7NRC_A 40S ribosomal protein S0-A, 40S; Ribosome, Disome, GCN1, Translation, GAAC; HET: 5CT; 3.9A {Saccharomyces cerevisiae S288C}
+Probab=34.34  E-value=38  Score=37.46  Aligned_cols=11  Identities=18%  Similarity=0.440  Sum_probs=7.0  Template_Neff=1.000
+
+Q query           114 QKNMNVIRYQD  124 (310)
+Q Consensus       114 ~~~L~~iRY~~  124 (310)
+                      ..||..|-+|.
+T Consensus       279 vsnldeiawrt  289 (1209)
+T 7NRC_A          279 VSNLDEIAWRT  289 (1209)
+T ss_pred             ccChhHhhhhc
+Confidence            35777776654
+
+
+No 18
+>2KYT_A Group XVI phospholipase A2 (E.C.3.1.1.4); H-REV107, tumor suppressor, phospholipase, N-terminal; NMR {Homo sapiens}
+Probab=31.97  E-value=44  Score=28.19  Aligned_cols=52  Identities=15%  Similarity=0.118  Sum_probs=37.6  Template_Neff=9.400
+
+Q query           225 LLRFPKAGIVNIVRKNWNVRDAIGTNLDVSHQGIIFERDGEIIFRHASYKKSS---------------QYVVEVPLLEYV  289 (310)
+Q Consensus       225 ~~~ip~g~Ii~iV~~n~~i~~~iGtgLdVSH~Gfai~~~G~l~~rHASs~~~~---------------v~V~d~pL~~YL  289 (310)
+                      ...+++||+|++..            ..++|.||++++ +  .|+|+++..+.               ..|..++|.+|+
+T Consensus         5 ~~~l~~GDii~~~~------------~~y~H~gIy~g~-~--~Vih~~~~~~~~~~~~~~~~~~~~~~~~V~~~~l~~~~   69 (125)
+T 2KYT_A            5 IPEPKPGDLIEIFR------------PFYRHWAIYVGD-G--YVVHLAPPSEVAGAGAASVMSALTDKAIVKKELLYDVA   69 (125)
+T ss_dssp             CCSCCTTCEEEEEC------------SSSEEEEEECSS-S--EEEEEECSCSSSCSSSSGGGGTCCSCEEEEEEEHHHHG
+T ss_pred             CccCCCCcEEEEeC------------CCeeEEEEEEcC-c--EEEEeCCccccCCCccccccccccCCcEEeceEEeEec
+Confidence            45789999999875            259999999984 5  78999965421               134456777776
+
+
+Q query           290 KK  291 (310)
+Q Consensus       290 ~~  291 (310)
+                      ..
+T Consensus        70 ~~   71 (125)
+T 2KYT_A           70 GS   71 (125)
+T ss_dssp             GG
+T ss_pred             CC
+Confidence            54
+
+
+No 19
+>7COY_aF Photosystem I P700 chlorophyll a; Photosynthesis, Photosystem I, Acaryochloris marina; HET: UNL, LHG, G9R, PQN, SF4, PHO, LMG, CL7; 2.5A {Acaryochloris marina MBIC11017}
+Probab=31.60  E-value=45  Score=31.44  Aligned_cols=23  Identities=22%  Similarity=0.316  Sum_probs=14.7  Template_Neff=3.500
+
+Q query             1 MRFLWSATMLSVSLMLFAPAIFA   23 (310)
+Q Consensus         1 ~~~~~~~~~~~~~l~l~~~~~~~   23 (310)
+                      ||-+++.+|+.++.+.|++.+.+
+T Consensus         1 m~rlfal~l~~~l~~~~~~~a~A   23 (167)
+T 7COY_aF           1 MRRLFAVLLVMTLFLGVVPPASA   23 (167)
+T ss_pred             ChHHHHHHHHHHHHhccCCCccc
+Confidence            77777777666555555565554
+
+
+No 20
+>4KT0_F Photosystem I P700 chlorophyll a; photosynthetic reaction center, membrane complex; HET: CL0, LMG, BCR, LMU, SF4, CLA, PQN, LHG; 2.8A {Synechocystis sp. PCC 6803}
+Probab=30.94  E-value=47  Score=31.28  Aligned_cols=23  Identities=26%  Similarity=0.296  Sum_probs=0.0  Template_Neff=3.600
+
+Q query             1 MRFLWSATMLSVSLMLFAPAIFA   23 (310)
+Q Consensus         1 ~~~~~~~~~~~~~l~l~~~~~~~   23 (310)
+                      ||-+++++|+.++.+.|+|.+.+
+T Consensus         1 m~rlfal~l~~~l~~~~a~~a~a   23 (165)
+T 4KT0_F            1 MKHLLALLLAFTLWFNFAPSASA   23 (165)
+T ss_dssp             -----------------------
+T ss_pred             CHHHHHHHHHHHHHhhcCCCccc
+Confidence            77788777776656666666554
+
+
+No 21
+>6PNJ_f Photosystem I; trimeric alpha helical complex, PHOTOSYNTHESIS; HET: PQN, BCR, LHG, CL0, LMT, SF4, CLA, LMG, F6C; 3.2A {Fischerella thermalis PCC 7521}
+Probab=30.61  E-value=48  Score=31.03  Aligned_cols=23  Identities=9%  Similarity=0.130  Sum_probs=14.8  Template_Neff=3.500
+
+Q query             1 MRFLWSATMLSVSLMLFAPAIFA   23 (310)
+Q Consensus         1 ~~~~~~~~~~~~~l~l~~~~~~~   23 (310)
+                      ||-+++++|+.++.+.|++.+.+
+T Consensus         1 m~rlfal~l~~~l~~~~~~~a~A   23 (159)
+T 6PNJ_f            1 MKRIFALILAIFIWFSAVSTALA   23 (159)
+T ss_pred             CHHHHHHHHHHHHHHHhcchhhh
+Confidence            77777777666555555566555
+
+
+No 22
+>7LX0_F Photosystem I, Photosynthesis, Far-red light; HET: SF4, LMT, CL0, LHG, PQN, CLA, LMG, BCR, F6C; 2.96A {Fischerella thermalis PCC 7521}
+Probab=30.61  E-value=48  Score=31.03  Aligned_cols=23  Identities=9%  Similarity=0.130  Sum_probs=0.0  Template_Neff=3.500
+
+Q query             1 MRFLWSATMLSVSLMLFAPAIFA   23 (310)
+Q Consensus         1 ~~~~~~~~~~~~~l~l~~~~~~~   23 (310)
+                      ||-+++++|+.++.+.|++.+.+
+T Consensus         1 m~rlfal~l~~~l~~~~~~~a~A   23 (159)
+T 7LX0_F            1 MKRIFALILAIFIWFSAVSTALA   23 (159)
+T ss_dssp             -----------------------
+T ss_pred             CHHHHHHHHHHHHHHHhcchhhh
+Confidence            77777777666555555566555
+
+
+No 23
+>7LX0_Q Photosystem I, Photosynthesis, Far-red light; HET: BCR, SF4, PQN, LMT, LMG, CL0, LHG, F6C, CLA; 2.96A {Fischerella thermalis PCC 7521}
+Probab=30.61  E-value=48  Score=31.03  Aligned_cols=23  Identities=9%  Similarity=0.130  Sum_probs=14.8  Template_Neff=3.500
+
+Q query             1 MRFLWSATMLSVSLMLFAPAIFA   23 (310)
+Q Consensus         1 ~~~~~~~~~~~~~l~l~~~~~~~   23 (310)
+                      ||-+++++|+.++.+.|++.+.+
+T Consensus         1 m~rlfal~l~~~l~~~~~~~a~A   23 (159)
+T 7LX0_Q            1 MKRIFALILAIFIWFSAVSTALA   23 (159)
+T ss_pred             CHHHHHHHHHHHHHHHhcchhhh
+Confidence            77777777666555555566555
+
+
+No 24
+>4UU4_A PERIPLASMIC LIPOPOLYSACCHARIDE TRANSPORT PROTEIN LPTH; TRANSPORT PROTEIN, LPTH, LPTA, LPS; 2.751A {PSEUDOMONAS AERUGINOSA}
+Probab=29.76  E-value=51  Score=30.03  Aligned_cols=24  Identities=21%  Similarity=0.167  Sum_probs=0.0  Template_Neff=8.700
+
+Q query             1 MRFLWSATMLSVSLM-LFAPAIFAT   24 (310)
+Q Consensus         1 ~~~~~~~~~~~~~l~-l~~~~~~~~   24 (310)
+                      |||+|+++++.++++ +++..+.+-
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~~~   25 (175)
+T 4UU4_A            1 MRFVNTLPLIFGLTAALGSSMALAL   25 (175)
+T ss_dssp             -------------------------
+T ss_pred             CcchhHHHHHHHHHHHHHHHHHhcC
+Confidence            899999888765444 444443333
+
+
+No 25
+>6BIO_A Clan CA, family C40, NlpC/P60; peptidase, NlpC protein, HYDROLASE; 1.2A {Trichomonas vaginalis}
+Probab=27.05  E-value=61  Score=30.90  Aligned_cols=49  Identities=18%  Similarity=0.192  Sum_probs=32.0  Template_Neff=10.300
+
+Q query           227 RFPKAGIVNIVRKNWNVRDAIGTNLDVSHQGIIFERDGEIIFRHASYKKSSQYVVEVPLLE  287 (310)
+Q Consensus       227 ~ip~g~Ii~iV~~n~~i~~~iGtgLdVSH~Gfai~~~G~l~~rHASs~~~~v~V~d~pL~~  287 (310)
+                      ++++|||+|+.....       ......||||+++. +  .++|++...+.|.+  .++..
+T Consensus       216 ~~~~GDi~~~~~~~~-------~~~~~~Hv~i~~g~-~--~~i~~~~~~~~v~~--~~~~~  264 (278)
+T 6BIO_A          216 DILPGDIITFRTDSD-------NPMLVTHVGMYVGN-G--QFIHASTNGYVVKY--QDFYK  264 (278)
+T ss_dssp             GCCTTCEEEECCCTT-------STTSCCEEEEEEET-T--EEEEEETTTTEEEE--EETTT
+T ss_pred             HCCCCCEEEEeCCCC-------CCcceeeEEEEEeC-C--EEEEeCCCCCeeEE--EeCCC
+Confidence            456899999976420       11248999999984 5  68999875543433  45443
+
+
+No 26
+>6BIM_A Clan CA, family C40, NlpC/P60; peptidoglycan, peptidase, NlpC protein, HYDROLASE; HET: MSE; 1.547A {Trichomonas vaginalis}
+Probab=26.40  E-value=63  Score=30.71  Aligned_cols=43  Identities=21%  Similarity=0.219  Sum_probs=29.2  Template_Neff=10.400
+
+Q query           227 RFPKAGIVNIVRKNWNVRDAIGTNLDVSHQGIIFERDGEIIFRHASYKKSSQY  279 (310)
+Q Consensus       227 ~ip~g~Ii~iV~~n~~i~~~iGtgLdVSH~Gfai~~~G~l~~rHASs~~~~v~  279 (310)
+                      .+++|||+++.....       ......|+||+++. +  .++|+...++.|.
+T Consensus       216 ~~~~Gdl~~~~~~~~-------~~~~~~Hvgi~~g~-~--~~i~~~~~~~~v~  258 (278)
+T 6BIM_A          216 DILPGDIITFRTDSD-------NPMLVTHVGMYVGN-G--QFIHASTNGYVVK  258 (278)
+T ss_dssp             GCCTTCEEEECCCTT-------STTSCCEEEEEEET-T--EEEEEETTTTEEE
+T ss_pred             hCCCCCEEEEeCCCC-------CCcceeeEEEEEeC-C--EEEEeCCCCCeeE
+Confidence            456899999875320       11248999999974 5  6899986554333
+
+
+No 27
+>6K61_f Photosystem I P700 chlorophyll a; Photosystem I, PSI, PCC7120, PHOTOSYNTHESIS; HET: PQN, BCR, LHG, CL0, SQD, SF4, CLA, LMG; 2.37A {Nostoc sp. PCC 7120}
+Probab=24.77  E-value=71  Score=30.13  Aligned_cols=23  Identities=30%  Similarity=0.384  Sum_probs=14.6  Template_Neff=3.600
+
+Q query             1 MRFLWSATMLSVSLMLFAPAIFA   23 (310)
+Q Consensus         1 ~~~~~~~~~~~~~l~l~~~~~~~   23 (310)
+                      ||-+++.+|+.++.+.|++.+.+
+T Consensus         1 m~rlfa~~l~~~l~~~~~~~a~A   23 (164)
+T 6K61_f            1 MRRLFALILVICLSFSFAPPAKA   23 (164)
+T ss_pred             CHHHHHHHHHHHHHhhcCCchhc
+Confidence            67777777665555555565554
+
+
+No 28
+>3NPF_A putative dipeptidyl-peptidase VI; Structural Genomics, Joint Center for; HET: GOL; 1.72A {Bacteroides ovatus}
+Probab=24.71  E-value=71  Score=30.99  Aligned_cols=39  Identities=21%  Similarity=0.220  Sum_probs=28.4  Template_Neff=10.200
+
+Q query            52 LQQRLEYFSRIFLGKPYLGGALGEGANSAYDNDPLYRFDAFDCTTYVETVAAL  104 (310)
+Q Consensus        52 ~~eri~~~s~~flG~PY~~~~Lgeg~~~~~d~~pv~~ld~fDC~TfVE~vlAL  104 (310)
+                      ..+.+...+..++|+||.-+.-.              ..++||.-||-.++..
+T Consensus       155 ~~~~~~~~a~~~~g~~y~~gg~~--------------~~g~DCsg~v~~~~~~  193 (306)
+T 3NPF_A          155 DVESIIETAYSMMGIPYLWAGTS--------------SKGVDXSGLVRTVLFM  193 (306)
+T ss_dssp             SHHHHHHHHHTTTTCBBCTTCEE--------------TTEECHHHHHHHHHHT
+T ss_pred             HHHHHHHHHHHHcCCCcccCCCC--------------CCccChhHHHHHHHHh
+Confidence            45667788999999999853211              1589999998877663
+
+
+No 29
+>4DPZ_X HRAS-like suppressor 2 (E.C.2.3.1.-, 3.1.1.-); alpha/beta fold, enzyme phospholipid acyltransferase; 1.25A {Homo sapiens}
+Probab=23.14  E-value=80  Score=27.47  Aligned_cols=36  Identities=19%  Similarity=0.217  Sum_probs=28.9  Template_Neff=8.800
+
+Q query           225 LLRFPKAGIVNIVRKNWNVRDAIGTNLDVSHQGIIFERDGEIIFRHASYKK  275 (310)
+Q Consensus       225 ~~~ip~g~Ii~iV~~n~~i~~~iGtgLdVSH~Gfai~~~G~l~~rHASs~~  275 (310)
+                      ..++++||||++..            ..++|+||++++ +  .|+|+++..
+T Consensus         5 ~~~l~~GDii~~~~------------~~~~H~gi~~g~-~--~Vih~~~~~   40 (137)
+T 4DPZ_X            5 RPRPRLGDLIEISR------------FGYAHWAIYVGD-G--YVVHLAPAS   40 (137)
+T ss_dssp             CCCCCTTCEEEEEC------------SSSEEEEEEEET-T--EEEEEEECC
+T ss_pred             ccCCCCCcEEEEEC------------CCceEEEEEEcC-C--EEEEECCcc
+Confidence            45789999999874            259999999974 5  789999754
+
+
+No 30
+>5ZF0_F2 Photosystem I P700 chlorophyll a; Photosystem I, Ferredoxin, PHOTOSYNTHESIS-ELECTRON TRANSPORT; HET: PQN, BCR, LHG, FES, SF4, CLA, LMG; 4.2A {Thermosynechococcus elongatus BP-1}
+Probab=22.85  E-value=82  Score=29.76  Aligned_cols=23  Identities=22%  Similarity=0.242  Sum_probs=14.3  Template_Neff=3.600
+
+Q query             1 MRFLWSATMLSVSLMLFAPAIFA   23 (310)
+Q Consensus         1 ~~~~~~~~~~~~~l~l~~~~~~~   23 (310)
+                      ||-+++.+|+.++.+.|++.+.+
+T Consensus         1 m~rlfal~l~~~l~~~~~~~a~A   23 (164)
+T 5ZF0_F2           1 MRRFLALLLVLTLWLGFTPLASA   23 (164)
+T ss_pred             ChHHHHHHHHHHHHhcccccccc
+Confidence            67777776665555555555554
+
+
+No 31
+>6QWJ_O Photosystem I P700 chlorophyll a; Photosystem I, photosynthesis, cyanobacterium Chroococcidiopsis; HET: CLA, SF4, PQN;{Chroococcidiopsis sp. TS-821}
+Probab=22.21  E-value=86  Score=29.63  Aligned_cols=23  Identities=30%  Similarity=0.468  Sum_probs=14.5  Template_Neff=3.600
+
+Q query             1 MRFLWSATMLSVSLMLFAPAIFA   23 (310)
+Q Consensus         1 ~~~~~~~~~~~~~l~l~~~~~~~   23 (310)
+                      ||-+++++|+.++.+.|++.+.+
+T Consensus         1 m~rlfa~~L~~~l~~~~~~~a~A   23 (164)
+T 6QWJ_O            1 MRRLFALVLVISLWFSFAPQALA   23 (164)
+T ss_pred             CHHHHHHHHHHHHHhhccchhhh
+Confidence            67777776665555555555554
+
+
+No 32
+>6KIG_R Photosystem I P700 chlorophyll a; Photosystem, Antenna, Chlorophyll-binding protein, Membrane; HET: BCR, SF4, PQN, LMU, LMG, SQD, LHG, CLA; 2.9A {Synechococcus elongatus (strain PCC 7942)}
+Probab=21.23  E-value=92  Score=29.27  Aligned_cols=23  Identities=30%  Similarity=0.414  Sum_probs=15.2  Template_Neff=3.500
+
+Q query             1 MRFLWSATMLSVSLMLFAPAIFA   23 (310)
+Q Consensus         1 ~~~~~~~~~~~~~l~l~~~~~~~   23 (310)
+                      ||-+++++|+.++.+.|++.+.+
+T Consensus         1 m~rlfa~~l~~~l~~~~~~~a~A   23 (159)
+T 6KIG_R            1 MRRLFAVVLAACLWLGFAPQASA   23 (159)
+T ss_pred             CHHHHHHHHHHHHHhhccccccc
+Confidence            77778777666655666666555
+
+
+No 33
+>6UZV_6 Photosystem I/IsiA complex; Photosystem, Antenna, Chlorophyll, Membrane, PHOTOSYNTHESIS; HET: BCR, SF4, PQN, LMT, LMG, CL0, LHG, CLA;{Synechocystis sp. (strain PCC 6803 / Kazusa)}
+Probab=21.21  E-value=93  Score=29.45  Aligned_cols=23  Identities=26%  Similarity=0.296  Sum_probs=14.2  Template_Neff=3.700
+
+Q query             1 MRFLWSATMLSVSLMLFAPAIFA   23 (310)
+Q Consensus         1 ~~~~~~~~~~~~~l~l~~~~~~~   23 (310)
+                      ||-+++++|+.++.+.+++.+.+
+T Consensus         1 m~rlfa~~L~~~l~~~~~~~a~A   23 (165)
+T 6UZV_6            1 MKHLLALLLAFTLWFNFAPSASA   23 (165)
+T ss_pred             CHHHHHHHHHHHHHhhcCCCCCC
+Confidence            67777776665545555555554
+
+
+No 34
+>4HPE_D Putative cell wall hydrolase Tn916-like,CTn1-Orf17; Two domains protein, Slt/lysozyme-like muramidase; HET: GOL; 2.38A {Clostridium difficile}
+Probab=21.01  E-value=94  Score=30.60  Aligned_cols=37  Identities=19%  Similarity=0.138  Sum_probs=26.7  Template_Neff=9.600
+
+Q query           227 RFPKAGIVNIVRKNWNVRDAIGTNLDVSHQGIIFERDGEIIFRHASY  273 (310)
+Q Consensus       227 ~ip~g~Ii~iV~~n~~i~~~iGtgLdVSH~Gfai~~~G~l~~rHASs  273 (310)
+                      .+++|||||+.....       .+....|+||+++. +  .++|+..
+T Consensus       248 ~~~~GDlv~~~~~~~-------~~~~~~Hvgi~~g~-~--~~i~~~~  284 (308)
+T 4HPE_D          248 QAKAGDLVFFHSTYN-------AGSYVTHVGIYVGN-N--QMYHAGD  284 (308)
+T ss_dssp             GCCTTCEEEEECSSS-------CSSSEEEEEEECST-T--EEEECCS
+T ss_pred             hCCCCCEEEEeCCCC-------CCCcccEEEEEEcC-C--EEEEcCC
+Confidence            466899999986320       13458999999974 5  6889964
+
+
+No 35
+>4F0W_A Putative uncharacterized protein; NlpC/P60 domain, HYDROLASE; 1.24A {Pseudomonas aeruginosa}
+Probab=20.82  E-value=96  Score=29.30  Aligned_cols=37  Identities=30%  Similarity=0.407  Sum_probs=28.2  Template_Neff=7.300
+
+Q query            51 SLQQRLEYFSRIFLGKPYLGGALGEGANSAYDNDPLYRFDAFDCTTYVETVAA  103 (310)
+Q Consensus        51 ~~~eri~~~s~~flG~PY~~~~Lgeg~~~~~d~~pv~~ld~fDC~TfVE~vlA  103 (310)
+                      ...+.+...+..++|+||..+.    .            .++||.-||-.++.
+T Consensus        37 ~~~~~lv~~a~~~~G~pY~~gg----~------------~g~DCSGfV~~vy~   73 (188)
+T 4F0W_A           37 SLDQCIVNACKNSWDKSYLAGT----P------------NKDNASGFVQSVAA   73 (188)
+T ss_dssp             CTTHHHHHHHHHHHTCCSBTTB----C------------GGGCHHHHHHHHHH
+T ss_pred             hHHHHHHHHHHhcCCCCcccCC----C------------CCCchHHHHHHHHH
+Confidence            4567788889999999998632    1            28899999876665
+
+

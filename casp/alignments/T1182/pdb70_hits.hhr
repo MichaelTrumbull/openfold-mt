@@ -1,0 +1,310 @@
+Query         query 
+Match_columns 544
+No_of_seqs    227 out of 550
+Neff          4.97173
+Searched_HMMs 90139
+Date          Sat Jul 16 20:55:06 2022
+Command       /mnt/home/dberenberg/gustaf_stuff/openfold/lib/conda/envs/openfold_venv/bin/hhsearch -i /tmp/tmpg89sk7hr/query.a3m -o /tmp/tmpg89sk7hr/output.hhr -maxseq 1000000 -cpu 28 -d /mnt/home/dberenberg/gustaf_stuff/OpenFold/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2LRJ_A Staphyloxanthin biosynt  65.1     5.4   6E-05   36.6   0.0   26  197-222    65-90  (113)
+  2 4CSH_A LYSK; HYDROLASE, ENDOLY  55.2      11 0.00012   36.9   0.0   29  196-224   113-141 (165)
+  3 4CT3_C ORF30/ORF32; VIRAL PROT  55.2      11 0.00012   36.9   0.0   29  196-224   113-141 (165)
+  4 2VPS_A TRYPANOTHIONE SYNTHETAS  51.1      14 0.00015   44.7   0.0   28  195-223   125-152 (652)
+  5 2K3A_A CHAP domain protein; Pr  47.5      17 0.00019   36.0   0.0   26  197-222   106-131 (155)
+  6 3A2Z_A Bifunctional glutathion  45.4      19 0.00022   37.2   0.0   27  195-222   126-152 (197)
+  7 2VOB_B TRYPANOTHIONE SYNTHETAS  43.2      22 0.00025   43.1   0.0   29  195-224   125-153 (652)
+  8 5T1Q_A Adenosylhomocysteinase   39.3      28 0.00031   38.7   0.0   37  186-222   291-336 (359)
+  9 5UDN_B Phage-associated cell w  38.3      30 0.00033   36.8   0.0   27  196-222    86-112 (261)
+ 10 5T1Q_B Adenosylhomocysteinase   38.0      30 0.00034   38.6   0.0   37  186-222   291-336 (359)
+ 11 2IO8_B Bifunctional glutathion  35.8      35 0.00038   41.0   0.0   28  195-223   126-153 (619)
+ 12 2IO9_B Bifunctional glutathion  35.8      35 0.00038   41.0   0.0   28  195-223   126-153 (619)
+ 13 6IST_C AimR transcriptional re  33.2      41 0.00045   35.8   0.0   29  195-223    85-114 (237)
+ 14 6WIN_A Type 6 secretion amidas  26.9      61 0.00068   32.7   0.0   32  186-218    49-90  (140)
+ 15 2KT6_A Outer membrane usher pr  23.4      78 0.00087   27.7   0.0   39  186-226    17-55  (85)
+ 16 6RIQ_F MinC, Site-determining   23.2      80 0.00088   31.8   0.0   40  176-215    33-72  (144)
+ 17 4EQA_A Putative uncharacterize  23.0      81  0.0009   30.2   0.0   35  186-221    70-109 (146)
+ 18 4CGK_A SECRETED 45 KDA PROTEIN  22.9      81  0.0009   34.8   0.0   42  188-229   328-372 (392)
+ 19 3M7O_A Lymphocyte antigen 86;   22.2      86 0.00095   30.9   0.0   36    1-39      1-36  (162)
+ 20 1OEY_A NEUTROPHIL CYTOSOL FACT  20.1   1E+02  0.0011   26.9   0.0   45  418-462    27-71  (83)
+
+No 1
+>2LRJ_A Staphyloxanthin biosynthesis protein, putative; BIOSYNTHETIC PROTEIN; NMR {Staphylococcus aureus}
+Probab=65.10  E-value=5.4  Score=36.59  Aligned_cols=26  Identities=31%  Similarity=0.520  Sum_probs=22.2  Template_Neff=8.600
+
+Q query           197 PAGHVAIIHRVTDDGRIFYIDSHPDN  222 (544)
+Q Consensus       197 P~GHvlvV~rV~~~G~l~~iDAhPD~  222 (544)
+                      .+|||.||.+|.++|.|..++...++
+T Consensus        65 ~~GHVaiV~~v~~~~~i~~~e~N~~~   90 (113)
+T 2LRJ_A           65 PFGHVAYVESVNSDGSVTISEMNYSG   90 (113)
+T ss_dssp             SSCEEEEEEEECTTSEEEEEEESTTT
+T ss_pred             CCCeEEEEEEeCCCCcEEEEEeccCC
+Confidence            68999999999888888888877654
+
+
+No 2
+>4CSH_A LYSK; HYDROLASE, ENDOLYSIN, PEPTIDOGLYCAN, PROTEASE; HET: MES; 1.79A {STAPHYLOCOCCUS PHAGE K}
+Probab=55.20  E-value=11  Score=36.90  Aligned_cols=29  Identities=10%  Similarity=0.200  Sum_probs=24.4  Template_Neff=8.900
+
+Q query           196 DPAGHVAIIHRVTDDGRIFYIDSHPDNTL  224 (544)
+Q Consensus       196 DP~GHvlvV~rV~~~G~l~~iDAhPD~Sv  224 (544)
+                      .++|||+||..+.+++.|..++...++..
+T Consensus       113 ~~~GHVgiv~~~~~~~~v~~~eqN~~~~~  141 (165)
+T 4CSH_A          113 EQWGHIGIVYDGGNTSTFTILEQNWNGYA  141 (165)
+T ss_dssp             TTTCEEEEEEECCCSSCEEEEESCTTSSC
+T ss_pred             CCCcEEEEEEEcCCCCeEEEEEeccCCCC
+Confidence            57899999999987888999998877654
+
+
+No 3
+>4CT3_C ORF30/ORF32; VIRAL PROTEIN, PEPTIDOGLYCAN, PROTEASE; HET: EPE, CMH, GOL, MMC; 1.69A {STAPHYLOCOCCUS PHAGE K}
+Probab=55.20  E-value=11  Score=36.90  Aligned_cols=29  Identities=10%  Similarity=0.200  Sum_probs=24.4  Template_Neff=8.900
+
+Q query           196 DPAGHVAIIHRVTDDGRIFYIDSHPDNTL  224 (544)
+Q Consensus       196 DP~GHvlvV~rV~~~G~l~~iDAhPD~Sv  224 (544)
+                      .++|||+||..+.+++.|..++...++..
+T Consensus       113 ~~~GHVgiv~~~~~~~~v~~~eqN~~~~~  141 (165)
+T 4CT3_C          113 EQWGHIGIVYDGGNTSTFTILEQNWNGYA  141 (165)
+T ss_dssp             TTTCEEEEEEECCCSSCEEEEESCTTSSS
+T ss_pred             CCCcEEEEEEEcCCCCeEEEEEeccCCCC
+Confidence            57899999999987888999998877654
+
+
+No 4
+>2VPS_A TRYPANOTHIONE SYNTHETASE (E.C.6.3.1.9); LIGASE; 2.75A {LEISHMANIA MAJOR}
+Probab=51.05  E-value=14  Score=44.71  Aligned_cols=28  Identities=29%  Similarity=0.390  Sum_probs=23.4  Template_Neff=8.100
+
+Q query           195 YDPAGHVAIIHRVTDDGRIFYIDSHPDNT  223 (544)
+Q Consensus       195 yDP~GHvlvV~rV~~~G~l~~iDAhPD~S  223 (544)
+                      ..|+|||+||.+|. ++.|..++-..+++
+T Consensus       125 ~~~~GHVAVV~~v~-~~~v~i~eQN~~~~  152 (652)
+T 2VPS_A          125 ANPVGHVGTITEVG-DDYVCVADQNYRFH  152 (652)
+T ss_dssp             TBSSCEEEEEEEEC-SSEEEEECSSSCCS
+T ss_pred             CCCCcEEEEEEEEC-CCEEEEEEcccCCC
+Confidence            68999999999997 56788888777765
+
+
+No 5
+>2K3A_A CHAP domain protein; Protein, monomer, CHAP domain, putative; NMR {Staphylococcus saprophyticus subsp. saprophyticus ATCC 15305}
+Probab=47.49  E-value=17  Score=36.02  Aligned_cols=26  Identities=27%  Similarity=0.405  Sum_probs=22.3  Template_Neff=7.500
+
+Q query           197 PAGHVAIIHRVTDDGRIFYIDSHPDN  222 (544)
+Q Consensus       197 P~GHvlvV~rV~~~G~l~~iDAhPD~  222 (544)
+                      ++|||+||.+|..+|.|...+...++
+T Consensus       106 ~~GHVaiV~~v~~~g~i~i~e~N~~g  131 (155)
+T 2K3A_A          106 GYGHVAYVENVNSDGSVEVSEMNYNG  131 (155)
+T ss_dssp             SSCCEEEEEEECTTCCEEEEEECCTT
+T ss_pred             CCcEEEEEEEECCCCcEEEEEcccCC
+Confidence            68999999999988988888877654
+
+
+No 6
+>3A2Z_A Bifunctional glutathionylspermidine synthetase/amidase (E.C.6.3.1.8, 3.5.1.78); Gsp amidase, ATP-binding, Hydrolase, Ligase; 1.5A {Escherichia coli}
+Probab=45.40  E-value=19  Score=37.18  Aligned_cols=27  Identities=22%  Similarity=0.444  Sum_probs=19.8  Template_Neff=7.300
+
+Q query           195 YDPAGHVAIIHRVTDDGRIFYIDSHPDN  222 (544)
+Q Consensus       195 yDP~GHvlvV~rV~~~G~l~~iDAhPD~  222 (544)
+                      ..|+|||+||.+|. ++.|..++..-++
+T Consensus       126 ~~~~GHVAVV~~V~-~~~v~i~EQN~~~  152 (197)
+T 3A2Z_A          126 FKDTGHVAIITQLH-GNKVRIAEQNVIH  152 (197)
+T ss_dssp             GTTTCEEEEEEEEC-SSEEEEECSSSCC
+T ss_pred             CCCCcEEEEEEEEe-CCEEEEEECCcCC
+Confidence            45899999999996 5666666655444
+
+
+No 7
+>2VOB_B TRYPANOTHIONE SYNTHETASE (E.C.6.3.1.9); LIGASE; 2.3A {LEISHMANIA MAJOR}
+Probab=43.24  E-value=22  Score=43.13  Aligned_cols=29  Identities=28%  Similarity=0.353  Sum_probs=24.2  Template_Neff=8.000
+
+Q query           195 YDPAGHVAIIHRVTDDGRIFYIDSHPDNTL  224 (544)
+Q Consensus       195 yDP~GHvlvV~rV~~~G~l~~iDAhPD~Sv  224 (544)
+                      ..|+|||+||.+|+ ++.|..++-.-+|+.
+T Consensus       125 ~~~~GHVAVV~~V~-~~~v~i~EQN~~~~~  153 (652)
+T 2VOB_B          125 ANPVGHVGTITEVG-DDYVCVADQNYRFHK  153 (652)
+T ss_dssp             SSTTCEEEEEEEEC-SSEEEEECSSSCCSC
+T ss_pred             CCCCceEEEEEEec-CCEEEEEecccCCCC
+Confidence            67999999999995 578888888877763
+
+
+No 8
+>5T1Q_A Adenosylhomocysteinase (E.C.3.3.1.1); N-acetylmuramoyl-L-alanine Amidase, CSGID, Structural Genomics; HET: PGE, MSE; 2.15A {Staphylococcus aureus (strain NCTC 8325)}
+Probab=39.34  E-value=28  Score=38.70  Aligned_cols=37  Identities=24%  Similarity=0.409  Sum_probs=28.9  Template_Neff=8.700
+
+Q query           186 EGIRPGTVIY---------DPAGHVAIIHRVTDDGRIFYIDSHPDN  222 (544)
+Q Consensus       186 ~alrPGTV~y---------DP~GHvlvV~rV~~~G~l~~iDAhPD~  222 (544)
+                      ...+||.|+.         ..+|||.||.+|..+|.|..++....+
+T Consensus       291 ~~p~~Gdivv~~~~~~~~~~~~GHVaiV~~v~~~g~i~~~e~N~~~  336 (359)
+T 5T1Q_A          291 HTPKRHAAVVFEAGQFGADQHYGHVAFVEKVNSDGSIVISESNVKG  336 (359)
+T ss_dssp             SSCCTTCEEEECTTGGGCCTTTCEEEEEEEECTTSCEEEEEESSSS
+T ss_pred             cCCCCCcEEEEcCCCCCCCCCCceEEEEEEeCCCCcEEEEECCccC
+Confidence            4577888864         248999999999888988888876553
+
+
+No 9
+>5UDN_B Phage-associated cell wall hydrolase; lysin, d-alanyl-l-alanine endopeptidase, CHAP domain; HET: GOL; 1.971A {Streptococcus pyogenes MGAS5005}
+Probab=38.32  E-value=30  Score=36.78  Aligned_cols=27  Identities=33%  Similarity=0.423  Sum_probs=20.1  Template_Neff=8.600
+
+Q query           196 DPAGHVAIIHRVTDDGRIFYIDSHPDN  222 (544)
+Q Consensus       196 DP~GHvlvV~rV~~~G~l~~iDAhPD~  222 (544)
+                      .++|||+||.++.+.+.|..++...++
+T Consensus        86 ~~~gHVgiv~~~~~~~~i~~~e~N~~~  112 (261)
+T 5UDN_B           86 HPYGHTGIIIADSDGYTIQTIEQNVDG  112 (261)
+T ss_dssp             STTCEEEEECSCCCSSCEEEEEC----
+T ss_pred             CCCcEEEEEEEeCCCCEEEEEEeecCC
+Confidence            578999999998777888888887665
+
+
+No 10
+>5T1Q_B Adenosylhomocysteinase (E.C.3.3.1.1); N-acetylmuramoyl-L-alanine Amidase, CSGID, Structural Genomics; HET: PGE, MSE; 2.15A {Staphylococcus aureus (strain NCTC 8325)}
+Probab=38.02  E-value=30  Score=38.57  Aligned_cols=37  Identities=24%  Similarity=0.425  Sum_probs=27.6  Template_Neff=8.500
+
+Q query           186 EGIRPGTVIY-D--------PAGHVAIIHRVTDDGRIFYIDSHPDN  222 (544)
+Q Consensus       186 ~alrPGTV~y-D--------P~GHvlvV~rV~~~G~l~~iDAhPD~  222 (544)
+                      ..-+||.|+. .        ++|||+||.+|..+|.|..++....|
+T Consensus       291 ~~p~~Gdi~v~~~~~~~~~~~~GHVaiV~~v~~~g~i~i~e~N~~g  336 (359)
+T 5T1Q_B          291 HTPKRHAAVVFEAGQFGADQHYGHVAFVEKVNSDGSIVISESNVKG  336 (359)
+T ss_dssp             SSCCTTCEEEECTTGGGCCTTTCEEEEEEEECTTSCEEEEEESSSS
+T ss_pred             CCCCCCcEEEEcCCcCCCCCCCceEEEEEEeCCCCcEEEEEcCccC
+Confidence            4556777654 2        58999999999888888877776543
+
+
+No 11
+>2IO8_B Bifunctional glutathionylspermidine synthetase/amidase (E.C.6.3.1.8, 3.5.1.78); Bifunctional glutathionylspermidine synthetase/amidase, LIGASE, HYDROLASE; HET: ADP, CYS; 2.1A {Escherichia coli} SCOP: d.142.1.8, d.3.1.15, c.30.1.7
+Probab=35.83  E-value=35  Score=41.02  Aligned_cols=28  Identities=21%  Similarity=0.446  Sum_probs=22.5  Template_Neff=8.600
+
+Q query           195 YDPAGHVAIIHRVTDDGRIFYIDSHPDNT  223 (544)
+Q Consensus       195 yDP~GHvlvV~rV~~~G~l~~iDAhPD~S  223 (544)
+                      ..|+|||+||.+|+ ++.|..++-..+++
+T Consensus       126 ~~~~GHVavV~~v~-~~~v~i~eQN~~~~  153 (619)
+T 2IO8_B          126 FKDTGHVAIITQLH-GNKVRIAEQNVIHS  153 (619)
+T ss_dssp             BTTTCEEEEEEEEC-SSEEEEECSSSCCS
+T ss_pred             cCCCcEEEEEEEEe-CCEEEEEecCCCCC
+Confidence            57899999999994 57788888776655
+
+
+No 12
+>2IO9_B Bifunctional glutathionylspermidine synthetase/amidase (E.C.6.3.1.8, 3.5.1.78); Bifunctional glutathionylspermidine synthetase/amidase, LIGASE, HYDROLASE; HET: GSH, ADP; 2.2A {Escherichia coli} SCOP: d.3.1.15, d.142.1.8, c.30.1.7
+Probab=35.83  E-value=35  Score=41.02  Aligned_cols=28  Identities=21%  Similarity=0.446  Sum_probs=22.5  Template_Neff=8.600
+
+Q query           195 YDPAGHVAIIHRVTDDGRIFYIDSHPDNT  223 (544)
+Q Consensus       195 yDP~GHvlvV~rV~~~G~l~~iDAhPD~S  223 (544)
+                      ..|+|||+||.+|+ ++.|..++-..+++
+T Consensus       126 ~~~~GHVavV~~v~-~~~v~i~eQN~~~~  153 (619)
+T 2IO9_B          126 FKDTGHVAIITQLH-GNKVRIAEQNVIHS  153 (619)
+T ss_dssp             BTTTCEEEEEEEEC-SSEEEEECSSSCCS
+T ss_pred             cCCCcEEEEEEEEe-CCEEEEEecCCCCC
+Confidence            57899999999994 57788888776655
+
+
+No 13
+>6IST_C AimR transcriptional regulator; Lysin, HYDROLASE; 1.75A {Enterococcus phage IMEEF1}
+Probab=33.18  E-value=41  Score=35.78  Aligned_cols=29  Identities=28%  Similarity=0.377  Sum_probs=23.2  Template_Neff=7.700
+
+Q query           195 YDPAGHVAIIHRV-TDDGRIFYIDSHPDNT  223 (544)
+Q Consensus       195 yDP~GHvlvV~rV-~~~G~l~~iDAhPD~S  223 (544)
+                      ..++|||+||.++ ..+|.|..++...++.
+T Consensus        85 ~~~~GHVgIV~~~~~~~~~i~~iEqN~~~~  114 (237)
+T 6IST_C           85 YAQYGHTGIATEDGRADGTFVSVDQNWINP  114 (237)
+T ss_dssp             GGTTCEEEEECSCCCTTSEEEEEESSSSSC
+T ss_pred             CCCCcEEEEEEeccCCCCeEEEEECCCCCC
+Confidence            3678999999998 4568888888887653
+
+
+No 14
+>6WIN_A Type 6 secretion amidase effector; amidase, toxin, peptidoglycan hydrolase, ANTIMICROBIAL; HET: MSE; 2.05A {Salmonella typhi}
+Probab=26.90  E-value=61  Score=32.74  Aligned_cols=32  Identities=28%  Similarity=0.419  Sum_probs=22.9  Template_Neff=4.300
+
+Q query           186 EGIRPGTVIYD----------PAGHVAIIHRVTDDGRIFYIDS  218 (544)
+Q Consensus       186 ~alrPGTV~yD----------P~GHvlvV~rV~~~G~l~~iDA  218 (544)
+                      ..|+|||+|+.          .-+|++|....+.+|. ..+|-
+T Consensus        49 ~~I~~GT~IATF~nG~Y~~~~~g~HaAIy~~qd~~GI-~V~DQ   90 (140)
+T 6WIN_A           49 KNIEVGTVIATFVNGRYPNHNSGNHAAFFLGQDTGGI-WVMDQ   90 (140)
+T ss_dssp             TTCCTTBEEEECBTTBCCTTSTTCCEEEEEEEETTEE-EEEEC
+T ss_pred             CCCCCCcEEEEEeCCCCCCCCCCCeEEEEEeeCCCeE-EEEEc
+Confidence            47999999987          2288888888776665 44443
+
+
+No 15
+>2KT6_A Outer membrane usher protein papC; Pilus, chaperone-usher, Gram-negative, Cell membrane; NMR {Escherichia coli}
+Probab=23.44  E-value=78  Score=27.69  Aligned_cols=39  Identities=21%  Similarity=0.302  Sum_probs=29.3  Template_Neff=8.600
+
+Q query           186 EGIRPGTVIYDPAGHVAIIHRVTDDGRIFYIDSHPDNTLTS  226 (544)
+Q Consensus       186 ~alrPGTV~yDP~GHvlvV~rV~~~G~l~~iDAhPD~Svtr  226 (544)
+                      +.|.+|+.++|..|+.  +.-|..+|+++.-+..+.++++-
+T Consensus        17 ~~lp~Ga~v~~~~~~~--~~~Vg~~G~v~l~~~~~~~~l~v   55 (85)
+T 2KT6_A           17 SQPPFGASVTSEKGRE--LGMVADEGLAWLSGVTPGETLSV   55 (85)
+T ss_dssp             CCCCTTCEEECTTCCE--EEEBCSTTEEEESCCCTTEECCE
+T ss_pred             CcCCCceEEEeCCCCe--EEEEecCcEEEEEcCCCCCEEEE
+Confidence            4789999999987752  25567889988887777666544
+
+
+No 16
+>6RIQ_F MinC, Site-determining protein; Bacterial cell division, PROTEIN FIBRIL; HET: ATP, MG; 3.1A {Pseudomonas aeruginosa}
+Probab=23.20  E-value=80  Score=31.85  Aligned_cols=40  Identities=20%  Similarity=0.395  Sum_probs=30.9  Template_Neff=5.800
+
+Q query           176 TDFYPVKLNREGIRPGTVIYDPAGHVAIIHRVTDDGRIFY  215 (544)
+Q Consensus       176 tD~YPv~l~R~alrPGTV~yDP~GHvlvV~rV~~~G~l~~  215 (544)
+                      ..-.++.|-+..||.|-+++=.+|||+|+-.|.+.++|.+
+T Consensus        33 ~~~~~~~ii~~~IRSGQ~I~~~~gdvvIlGdVn~GA~V~A   72 (144)
+T 6RIQ_F           33 PVSRPTKVVKTPVRGGMQIYAAGGDLIVLAAVSPGAELLA   72 (144)
+T ss_dssp             ----CCEEECSCBCTTCEEEESSSCEEECSCBCTTCEEEE
+T ss_pred             CCCCCcEEEeeccCCCcEEEECCCCEEEEcCCCCCCEEEe
+Confidence            3446778889999999999767999999999988777664
+
+
+No 17
+>4EQA_A Putative uncharacterized protein; TYPE VI SECRETION, T6S, ANTITOXIN-TOXIN; 1.6A {Pseudomonas aeruginosa}
+Probab=22.97  E-value=81  Score=30.22  Aligned_cols=35  Identities=20%  Similarity=0.130  Sum_probs=24.1  Template_Neff=9.100
+
+Q query           186 EGIRPGTVIY-----DPAGHVAIIHRVTDDGRIFYIDSHPD  221 (544)
+Q Consensus       186 ~alrPGTV~y-----DP~GHvlvV~rV~~~G~l~~iDAhPD  221 (544)
+                      ..++||-+++     ...+||.|+... ++|...+|.++..
+T Consensus        70 ~~~~~GDlv~~~~~~~~~~Hvgi~~g~-~~~~~~~i~~~~~  109 (146)
+T 4EQA_A           70 QKAAQGFLVIAGLKGRTYGHVAVVISG-PLYRQKYPMCWCG  109 (146)
+T ss_dssp             HHHHTTCCEEEEECCSSCCEEEEECSS-CCBTTTBCEEEEC
+T ss_pred             hcCCCCcEEEEECCCCcceEEEEEEcC-CcccceeeEEEcC
+Confidence            5677887655     357899998876 5555566666655
+
+
+No 18
+>4CGK_A SECRETED 45 KDA PROTEIN; CELL CYCLE, PEPTIDOGLYCAN, CHAP, CELL; HET: PG4; 2.55A {STREPTOCOCCUS PNEUMONIAE}
+Probab=22.94  E-value=81  Score=34.77  Aligned_cols=42  Identities=26%  Similarity=0.248  Sum_probs=29.3  Template_Neff=10.100
+
+Q query           188 IRPGTVIYD---PAGHVAIIHRVTDDGRIFYIDSHPDNTLTSGMY  229 (544)
+Q Consensus       188 lrPGTV~yD---P~GHvlvV~rV~~~G~l~~iDAhPD~Svtr~~f  229 (544)
+                      .+||-+++-   +.|||.||..|..+|.++....++.+.+....+
+T Consensus       328 ~~~Gdlv~~~~~~~~Hvgiv~~v~~~g~~~i~~~n~~~~~~~~~~  372 (392)
+T 4CGK_A          328 PQVGAIACWNDGGYGHVAVVTAVESTTRIQVSESNYAGNRTIGNH  372 (392)
+T ss_dssp             CCTTCEEEEECSSSCEEEEEEEEEETTEEEEEBSSBTTBCSSBCS
+T ss_pred             CCCccEEEEcCCCCceEEEEEEecCCCeEEEEEcCCCCCCcccee
+Confidence            677765433   479999999998888676677776665544443
+
+
+No 19
+>3M7O_A Lymphocyte antigen 86; BETA SHEET, Glycoprotein, Immunity, Inflammatory; HET: NDG, L9R, NAG, BEN; 1.65A {Mus musculus}
+Probab=22.17  E-value=86  Score=30.87  Aligned_cols=36  Identities=14%  Similarity=0.136  Sum_probs=5.7  Template_Neff=8.700
+
+Q query             1 MKMSNFLLLGLMLLPGLAEAQTASKAWRITKPSWTAADE   39 (544)
+Q Consensus         1 ~~~~~~ll~~~~~~~~~a~a~~~~~~W~i~k~~W~~~dE   39 (544)
+                      ||.+...+++++|++..+.+......|.-   .|--.++
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~---~~~~~~~   36 (162)
+T 3M7O_A            1 MNGVAAALLVWILTSPSSSDHGSENGWPK---HTACNSG   36 (162)
+T ss_dssp             -------------------------CCCC---EEEEEET
+T ss_pred             CchHHHHHHHHHHhCccccCCCCCCCCCc---eEEEccC
+Confidence            88888877777777766665555667742   4555444
+
+
+No 20
+>1OEY_A NEUTROPHIL CYTOSOL FACTOR 2, NEUTROPHIL; IMMUNE SYSTEM, PB1 HETERODIMER-COMPLEX, NADPH; 2.0A {HOMO SAPIENS} SCOP: d.15.2.2
+Probab=20.14  E-value=1e+02  Score=26.89  Aligned_cols=45  Identities=9%  Similarity=0.173  Sum_probs=33.0  Template_Neff=8.600
+
+Q query           418 ANIAEDLLATYEREARFCQFTYRNSAGGSVTLNLEEARQRVFDIS  462 (544)
+Q Consensus       418 ~~l~~dl~~~~~~~~~~c~i~Y~~SdG~~~~Ltl~~~r~r~femS  462 (544)
+                      .+|.+.+...+......+++.|...+|..++|+-++=.+.++.++
+T Consensus        27 ~~L~~~i~~~~~~~~~~~~l~Y~D~~~d~v~i~sd~dl~~a~~~~   71 (83)
+T 1OEY_A           27 SQVRDMVSKKLELRLEHTKLSYRPRDSNELVPLSEDSMKDAWGQV   71 (83)
+T ss_dssp             HHHHHHHHHHTTCCGGGCCEEECCTTCSSCEECCTTTHHHHHTTC
+T ss_pred             HHHHHHHHHHhCCChhhceEEEeCCCCCeeecCCchhHHHHHHHh
+Confidence            456666666666555778899999999999998777666665543
+
+

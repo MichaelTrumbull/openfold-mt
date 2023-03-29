@@ -1,0 +1,301 @@
+Query         query 
+Match_columns 160
+No_of_seqs    59 out of 69
+Neff          3.63488
+Searched_HMMs 90139
+Date          Wed Jun 29 04:32:27 2022
+Command       /mnt/home/dberenberg/gustaf_stuff/openfold/lib/conda/envs/openfold_venv/bin/hhsearch -i /tmp/tmpdb76dias/query.a3m -o /tmp/tmpdb76dias/output.hhr -maxseq 1000000 -cpu 64 -d /mnt/home/dberenberg/gustaf_stuff/OpenFold/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5HB5_B Nucleoporin NUP145 (E.C  35.4      35 0.00039   28.1   0.0   41  113-157    22-72  (140)
+  2 1HSS_C 0.19 ALPHA-AMYLASE INHI  32.7      42 0.00046   27.4   0.0   10   39-48    113-122 (124)
+  3 6WIN_A Type 6 secretion amidas  32.5      42 0.00047   28.6   0.0   69   39-128    18-92  (140)
+  4 5HB6_B Nucleoporin NUP145 (E.C  32.2      43 0.00048   27.7   0.0   45  113-157    19-69  (144)
+  5 4X23_B HISTONE H3/CENP-A, HIST  29.1      53 0.00058   22.3   0.0   44   32-75     34-77  (79)
+  6 3KEP_A Nucleoporin NUP145 (E.C  29.1      53 0.00058   28.3   0.0   45  112-156    36-90  (174)
+  7 3KES_A Nucleoporin NUP145 (E.C  29.1      53 0.00058   28.3   0.0   45  112-156    36-90  (174)
+  8 7NQ6_A Nuclear pore complex pr  28.6      55 0.00061   27.3   0.0   39  114-156    30-74  (152)
+  9 7NQA_B Nup98, Nanobody, comple  28.6      55 0.00061   27.3   0.0   39  114-156    30-74  (152)
+ 10 3NF5_A Crystal structure of th  27.4      59 0.00066   27.7   0.0   45  112-157    30-81  (164)
+ 11 3KES_B Nucleoporin NUP145 (E.C  26.0      65 0.00072   27.7   0.0   44  113-156    37-90  (174)
+ 12 6KE9_F Histone H3.1, Histone H  24.7      71 0.00079   22.4   0.0   44   32-75     42-85  (87)
+ 13 1KO6_A Nuclear Pore Complex Pr  24.2      74 0.00082   27.8   0.0   40  114-157    65-110 (187)
+ 14 3PBP_E Nucleoporin NUP82/Nucle  23.3      79 0.00088   26.3   0.0   44  113-156    20-69  (148)
+ 15 2HUE_C Anti-silencing protein   22.5      84 0.00093   21.9   0.0   44   32-75     39-82  (84)
+ 16 4EP8_B Urease subunit alpha (E  22.2      86 0.00095   25.7   0.0   50   73-124    49-99  (101)
+ 17 4EPD_B Urease subunit alpha (E  22.2      86 0.00095   25.7   0.0   50   73-124    49-99  (101)
+ 18 6ZNY_BBB Urease subunit gamma   20.9      95  0.0011   26.2   0.0   51   73-125    51-102 (122)
+ 19 7DCO_Z PRP8 isoform 1, SNU114   20.3      99  0.0011   25.6   0.0   27   66-97     73-99  (121)
+
+No 1
+>5HB5_B Nucleoporin NUP145 (E.C.3.4.21.-); Nucleocytoplasmic transport, Protein transport, TRANSPORT; HET: FLC; 1.5A {Chaetomium thermophilum (strain DSM 1495 / CBS 144.50 / IMI 039719)}
+Probab=35.44  E-value=35  Score=28.11  Aligned_cols=41  Identities=24%  Similarity=0.317  Sum_probs=30.3  Template_Neff=6.500
+
+Q query           113 TEIRAINGGLLGAG------WLHPVDLRKVLTQKNPD----GSFKYDGTDIFVYI  157 (160)
+Q Consensus       113 t~IRsVNG~~LG~~------W~~~vdL~~vL~~~N~d----G~f~yDgt~I~VyI  157 (160)
+                      .+.+.|+++.+|..      |..||||+.+    +=|    -...++...|.||=
+T Consensus        22 ~~L~~V~~f~Vgr~g~G~I~f~~pvDl~~l----dld~~~~~iV~~~~~~v~vYp   72 (140)
+T 5HB5_B           22 MQRQRVVGFTVGRENVGSVQFKVPVDLSNI----NLDDLFGTIVILEPRSATVYP   72 (140)
+T ss_dssp             TGGGGBTTCEEEETTTEEEEESSCBCCTTS----CTTSCBTTTEEEETTEEEECS
+T ss_pred             hhcceecCcEEeeCCeEEEEEcCceeCccC----ChhHcCCCeEEEcCCEEEEcC
+Confidence            46888888888874      9899999866    223    56677777777773
+
+
+No 2
+>1HSS_C 0.19 ALPHA-AMYLASE INHIBITOR; CEREAL INHIBITOR, ANIMAL AMYLASE; 2.06A {Triticum aestivum} SCOP: a.52.1.2
+Probab=32.73  E-value=42  Score=27.38  Aligned_cols=10  Identities=60%  Similarity=0.793  Sum_probs=8.9  Template_Neff=6.100
+
+Q query            39 GVCYDAAAYM   48 (160)
+Q Consensus        39 GVCyDavAyv   48 (160)
+                      |||||.+||-
+T Consensus       113 ~~~~~~~~~~  122 (124)
+T 1HSS_C          113 YVCKDVAAYP  122 (124)
+T ss_dssp             SSCHHHHTTT
+T ss_pred             ccchhhhccC
+Confidence            8999999984
+
+
+No 3
+>6WIN_A Type 6 secretion amidase effector; amidase, toxin, peptidoglycan hydrolase, ANTIMICROBIAL; HET: MSE; 2.05A {Salmonella typhi}
+Probab=32.51  E-value=42  Score=28.65  Aligned_cols=69  Identities=17%  Similarity=0.206  Sum_probs=42.6  Template_Neff=4.300
+
+Q query            39 GVCYDAAAYMRYLYNAKISFDQLTSISAQNWLPVFKFAEGRMWDGRNSLPGGKAIGFCRVKGME------FFHAAVAVGG  112 (160)
+Q Consensus        39 GVCyDavAyv~~L~~~~Is~~~L~~~~gq~W~~~fnf~~g~~WdG~s~ip~GkaIGFyr~~~~~------~FHsAIavGg  112 (160)
+                      |-|..+||+|+.+.+.   +.+      -.|.      .|++=.+...||+|+||-=+-  ++.      .=|+||-+|-
+T Consensus        18 G~~gECValVk~~~~~---~~T------~~W~------~G~~V~gn~~I~~GT~IATF~--nG~Y~~~~~g~HaAIy~~q   80 (140)
+T 6WIN_A           18 GNHHQCVELIQHYIRV---GQA------STWQ------QGAAVFGNKNIEVGTVIATFV--NGRYPNHNSGNHAAFFLGQ   80 (140)
+T ss_dssp             SSSCCHHHHHHHHSCC---CCG------GGCE------EEEESTTCTTCCTTBEEEECB--TTBCCTTSTTCCEEEEEEE
+T ss_pred             cCccHHHHHHHHHhcc---Ccc------ccee------cCccccCCCCCCCCcEEEEEe--CCCCCCCCCCCeEEEEEee
+Confidence            4567889999998753   211      2243      455554557899999997442  233      3799999983
+
+
+Q query           113 TEIRAINGGLLGAGWL  128 (160)
+Q Consensus       113 t~IRsVNG~~LG~~W~  128 (160)
+                      ..    +|..+=.-|.
+T Consensus        81 d~----~GI~V~DQw~   92 (140)
+T 6WIN_A           81 DT----GGIWVMDQWK   92 (140)
+T ss_dssp             ET----TEEEEEECCS
+T ss_pred             CC----CeEEEEEccC
+Confidence            21    4444444454
+
+
+No 4
+>5HB6_B Nucleoporin NUP145 (E.C.3.4.21.-); Nucleocytoplasmic transport, Protein transport, TRANSPORT; HET: SO4; 1.3A {Chaetomium thermophilum (strain DSM 1495 / CBS 144.50 / IMI 039719)}
+Probab=32.25  E-value=43  Score=27.70  Aligned_cols=45  Identities=18%  Similarity=0.172  Sum_probs=30.1  Template_Neff=6.600
+
+Q query           113 TEIRAINGGLLGAG------WLHPVDLRKVLTQKNPDGSFKYDGTDIFVYI  157 (160)
+Q Consensus       113 t~IRsVNG~~LG~~------W~~~vdL~~vL~~~N~dG~f~yDgt~I~VyI  157 (160)
+                      .+.+.|+++.+|..      |..||||+.+-=....+....++...|+||-
+T Consensus        19 ~~L~~V~~F~Igr~g~G~I~f~~pvDl~~~dld~~~~~iV~i~~~~v~vYp   69 (144)
+T 5HB6_B           19 MQRQRVVGFTVGRENVGSVQFKVPVDLSNINLDDLFGTIVILEPRSATVYP   69 (144)
+T ss_dssp             HHHTSBTTCEEEETTTEEEEESSCBCCTTSCTTSCBTTTEEEETTEEEESS
+T ss_pred             hHcccccCcEEeeCCeEEEEEcCceeCcccChhHcCCCeEEEcCCEEEEcC
+Confidence            46888888888864      9899999876100001256667777777773
+
+
+No 5
+>4X23_B HISTONE H3/CENP-A, HISTONE H4, HISTONE; NUCLEOSOME CORE PARTICLE, WIDOM 601; 3.5A {Homo sapiens}
+Probab=29.15  E-value=53  Score=22.33  Aligned_cols=44  Identities=11%  Similarity=0.196  Sum_probs=31.6  Template_Neff=9.700
+
+Q query            32 DITAYMKGVCYDAAAYMRYLYNAKISFDQLTSISAQNWLPVFKF   75 (160)
+Q Consensus        32 ~I~~y~~GVCyDavAyv~~L~~~~Is~~~L~~~~gq~W~~~fnf   75 (160)
+                      ....|..-++.||..|+++-....|++.++...-...+.+.|.|
+T Consensus        34 ~~~~~i~~i~~~a~~~~~~~~R~~i~~~Dv~~al~~~~~~~~g~   77 (79)
+T 4X23_B           34 VLKVFLENVIRDAVTYTEHAKRKTVTAMDVVYALKRQGRTLYGF   77 (79)
+T ss_pred             HHHHHHHHHHHHHHHHHhcCCCCeecHHHHHHHHHhCCcccccc
+Confidence            34467788999999999998777788888776654444454544
+
+
+No 6
+>3KEP_A Nucleoporin NUP145 (E.C.3.4.21.-); Nuclear pore complex, NUP145, NUP145-N; HET: MSE, EDO; 1.82A {Saccharomyces cerevisiae}
+Probab=29.13  E-value=53  Score=28.31  Aligned_cols=45  Identities=18%  Similarity=0.264  Sum_probs=31.7  Template_Neff=6.100
+
+Q query           112 GTEIRAINGGLLGA------GWLHPVDLRKVLT---QKNPDGSFKYD-GTDIFVY  156 (160)
+Q Consensus       112 gt~IRsVNG~~LG~------~W~~~vdL~~vL~---~~N~dG~f~yD-gt~I~Vy  156 (160)
+                      -.+.++|+++.+|.      .|..||||+.+-.   ...=|....++ ...|.||
+T Consensus        36 ~~eL~~V~~F~Igr~g~G~I~f~~pVDl~~l~~~~~~~~Ld~iV~i~~~~~V~VY   90 (174)
+T 3KEP_A           36 LKQLAAVSNFVIGRRGYGCITFQHDVDLTAFTKSFREELFGKIVIFRSSKTVEVY   90 (174)
+T ss_dssp             TTGGGSBSSCEEEETTTEEEEESSCBCCGGGTTCHHHHHBTTTEEEETTTEEEEC
+T ss_pred             HHHhcccCCcEEEeCCeEEEEeCCCeecccCCHHHHHHhcCCeEEECCCCEEEEc
+Confidence            45788999998886      4999999987731   00125666777 7777777
+
+
+No 7
+>3KES_A Nucleoporin NUP145 (E.C.3.4.21.-); Nuclear pore complex, NUP145, NUP145-N; HET: EDO, MSE; 2.1A {Saccharomyces cerevisiae}
+Probab=29.13  E-value=53  Score=28.31  Aligned_cols=45  Identities=18%  Similarity=0.264  Sum_probs=31.7  Template_Neff=6.100
+
+Q query           112 GTEIRAINGGLLGA------GWLHPVDLRKVLT---QKNPDGSFKYD-GTDIFVY  156 (160)
+Q Consensus       112 gt~IRsVNG~~LG~------~W~~~vdL~~vL~---~~N~dG~f~yD-gt~I~Vy  156 (160)
+                      -.+.++|+++.+|.      .|..||||+.+-.   ...=|....++ ...|.||
+T Consensus        36 ~~eL~~V~~F~Igr~g~G~I~f~~pVDl~~l~~~~~~~~Ld~iV~i~~~~~V~VY   90 (174)
+T 3KES_A           36 LKQLAAVSNFVIGRRGYGCITFQHDVDLTAFTKSFREELFGKIVIFRSSKTVEVY   90 (174)
+T ss_dssp             HHHHTSBSSCEEEETTTEEEEESSCBCCGGGTTCHHHHHBTTTEEEETTTEEEEC
+T ss_pred             HHHhcccCCcEEEeCCeEEEEeCCCeecccCCHHHHHHhcCCeEEECCCCEEEEc
+Confidence            45788999998886      4999999987731   00125666777 7777777
+
+
+No 8
+>7NQ6_A Nuclear pore complex protein Nup96; Nup98, 1.5A resolution, NUCLEAR PROTEIN; HET: MPD; 1.5A {Xenopus tropicalis}
+Probab=28.60  E-value=55  Score=27.31  Aligned_cols=39  Identities=21%  Similarity=0.293  Sum_probs=28.5  Template_Neff=6.700
+
+Q query           114 EIRAINGGLLGA------GWLHPVDLRKVLTQKNPDGSFKYDGTDIFVY  156 (160)
+Q Consensus       114 ~IRsVNG~~LG~------~W~~~vdL~~vL~~~N~dG~f~yDgt~I~Vy  156 (160)
+                      +.+.|.++.+|.      .|..||||+.+    +=|....++...|+||
+T Consensus        30 ~l~~V~~f~Vgr~g~G~I~f~~pvDl~~~----dLd~iV~i~~~~v~VY   74 (152)
+T 7NQ6_A           30 GECIVNGFTIGREGFGSIYFEGIVNLTNL----DLDSIVHIRRKEVIVY   74 (152)
+T ss_dssp             SCBEEEEEEEEETTTEEEEEEEEEECTTC----BHHHHEEEETTEEEES
+T ss_pred             CceeecCcEEEeCCeEEEEecCceeCCCC----CcccCEEEcCCEEEEe
+Confidence            466788877775      49999999866    2256667777778777
+
+
+No 9
+>7NQA_B Nup98, Nanobody, complex, NUCLEAR PROTEIN; 2.2A {Xenopus tropicalis}
+Probab=28.60  E-value=55  Score=27.31  Aligned_cols=39  Identities=21%  Similarity=0.293  Sum_probs=28.5  Template_Neff=6.700
+
+Q query           114 EIRAINGGLLGA------GWLHPVDLRKVLTQKNPDGSFKYDGTDIFVY  156 (160)
+Q Consensus       114 ~IRsVNG~~LG~------~W~~~vdL~~vL~~~N~dG~f~yDgt~I~Vy  156 (160)
+                      +.+.|.++.+|.      .|..||||+.+    +=|....++...|+||
+T Consensus        30 ~l~~V~~f~Vgr~g~G~I~f~~pvDl~~~----dLd~iV~i~~~~v~VY   74 (152)
+T 7NQA_B           30 GECIVNGFTIGREGFGSIYFEGIVNLTNL----DLDSIVHIRRKEVIVY   74 (152)
+T ss_pred             CceeecCcEEEeCCeEEEEecCceeCCCC----CcccCEEEcCCEEEEe
+Confidence            466788877775      49999999866    2256667777778777
+
+
+No 10
+>3NF5_A Crystal structure of the C-terminal; Nuclear pore complex, NUP116, GLEBS; HET: GOL; 1.94A {Candida glabrata}
+Probab=27.35  E-value=59  Score=27.66  Aligned_cols=45  Identities=24%  Similarity=0.448  Sum_probs=32.1  Template_Neff=6.300
+
+Q query           112 GTEIRAINGGLLGA------GWLHPVDLRKV-LTQKNPDGSFKYDGTDIFVYI  157 (160)
+Q Consensus       112 gt~IRsVNG~~LG~------~W~~~vdL~~v-L~~~N~dG~f~yDgt~I~VyI  157 (160)
+                      ..+.+.|+++.+|.      -|..||||..+ |. ...|....++...++||=
+T Consensus        30 ~~eL~~V~~F~Igr~g~G~I~f~~pvDl~~ldl~-~i~d~iV~i~~~~v~VYp   81 (164)
+T 3NF5_A           30 KYEIQKVENLVVGNKQYGKIEFLDPVDLSDIPLG-SICDDLVVFQPMSVLLYN   81 (164)
+T ss_dssp             HHHHTSBCSCEEEETTTEEEEESSCBCCTTCCGG-GTBTTTEEEETTEEEEST
+T ss_pred             HHHhcccCCcEEEeCCcEEEEeCCCeeCccCCcc-ccCCceEEECCCEEEEeC
+Confidence            45688899998886      48899999876 21 112666667778888873
+
+
+No 11
+>3KES_B Nucleoporin NUP145 (E.C.3.4.21.-); Nuclear pore complex, NUP145, NUP145-N,yeast; HET: EDO; 2.1A {Saccharomyces cerevisiae}
+Probab=26.00  E-value=65  Score=27.73  Aligned_cols=44  Identities=18%  Similarity=0.303  Sum_probs=30.0  Template_Neff=6.200
+
+Q query           113 TEIRAINGGLLGA------GWLHPVDLRKVLT---QKNPDGSFKYD-GTDIFVY  156 (160)
+Q Consensus       113 t~IRsVNG~~LG~------~W~~~vdL~~vL~---~~N~dG~f~yD-gt~I~Vy  156 (160)
+                      .+.+.|+++.+|.      .|..||||..+-.   ...-|....++ ...|+||
+T Consensus        37 ~eL~~V~~FtVgr~g~G~I~f~~pVDl~~l~~~~~~~~ld~iV~~~~~~~v~VY   90 (174)
+T 3KES_B           37 KQLAAVSNFVIGRRGYGCITFQHDVDLTAFTKSFREELFGKIVIFRSSKTVEVY   90 (174)
+T ss_dssp             HHHTTBSSCEEEETTTEEEEESSCBCCGGGTTCHHHHHBTTTEEEETTTEEEES
+T ss_pred             HHhcccCCcEEEeCCeEEEEeCCCeeccccCHHHHHHHcCCEEEEcCCCEEEEc
+Confidence            4688899888885      6999999987731   01125556666 3677777
+
+
+No 12
+>6KE9_F Histone H3.1, Histone H4, Histone; Telomeric DNA, Nucleosome Core Particle; 2.22A {Homo sapiens}
+Probab=24.75  E-value=71  Score=22.45  Aligned_cols=44  Identities=11%  Similarity=0.196  Sum_probs=30.1  Template_Neff=9.300
+
+Q query            32 DITAYMKGVCYDAAAYMRYLYNAKISFDQLTSISAQNWLPVFKF   75 (160)
+Q Consensus        32 ~I~~y~~GVCyDavAyv~~L~~~~Is~~~L~~~~gq~W~~~fnf   75 (160)
+                      ..+.+..-++.||..|+.+-....|+++++...-...+.+.|.|
+T Consensus        42 ~~~~fl~~i~~~a~~~~~~~~r~~i~~~Dv~~al~~~~~~~~gf   85 (87)
+T 6KE9_F           42 VLKVFLENVIRDAVTYTEHAKRKTVTAMDVVYALKRQGRTLYGF   85 (87)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHTTCSEECHHHHHHHHHHTTCEEESS
+T ss_pred             HHHHHHHHHHHHHHHHHhhcCCCccCHHHHHHHHHhCCCccccc
+Confidence            34456678888999998887666788888766544444444544
+
+
+No 13
+>1KO6_A Nuclear Pore Complex Protein Nup98/Nuclear; nucleoporin, autoproteolysis, nuclear pore, TRANSFERASE; 3.0A {Homo sapiens} SCOP: b.119.1.1
+Probab=24.16  E-value=74  Score=27.81  Aligned_cols=40  Identities=18%  Similarity=0.250  Sum_probs=29.3  Template_Neff=6.000
+
+Q query           114 EIRAINGGLLGA------GWLHPVDLRKVLTQKNPDGSFKYDGTDIFVYI  157 (160)
+Q Consensus       114 ~IRsVNG~~LG~------~W~~~vdL~~vL~~~N~dG~f~yDgt~I~VyI  157 (160)
+                      +.++|+++.+|.      .|..||||..+    +=|....++...+.||=
+T Consensus        65 ~L~~V~~FtVgr~g~G~I~f~~pVDl~~l----dLd~iV~i~~~~v~VYp  110 (187)
+T 1KO6_A           65 GECIVSDFTIGRKGYGSIYFEGDVNLTNL----NLDDIVHIRRKEVVVYL  110 (187)
+T ss_dssp             SCCEESSEEEEETTTEEEEECSCEECTTC----BHHHHEEEETTEEEESS
+T ss_pred             hcccccCcEEEeCCeEEEEeCCCeeCCCC----CccccEEEeCCEEEEcC
+Confidence            478888888886      48899999866    22556667777777773
+
+
+No 14
+>3PBP_E Nucleoporin NUP82/Nucleoporin NUP116/NSP116/Nucleoporin NUP159 complex; beta-propeller, nucleoporin, mRNA export, mRNP; HET: PGE, MSE; 2.6A {Saccharomyces cerevisiae}
+Probab=23.31  E-value=79  Score=26.35  Aligned_cols=44  Identities=18%  Similarity=0.355  Sum_probs=30.7  Template_Neff=6.600
+
+Q query           113 TEIRAINGGLLGA------GWLHPVDLRKVLTQKNPDGSFKYDGTDIFVY  156 (160)
+Q Consensus       113 t~IRsVNG~~LG~------~W~~~vdL~~vL~~~N~dG~f~yDgt~I~Vy  156 (160)
+                      .+.+.|+++.+|.      .|..||||+.+==....|....++...|.||
+T Consensus        20 ~~L~~V~~F~Vgr~g~G~I~f~~pvDl~~ldl~~~~d~iV~i~~~~v~vY   69 (148)
+T 3PBP_E           20 LQLRKVPHLVVGHKSYGKIEFLEPVDLAGIPLTSLGGVIITFEPKTCIIY   69 (148)
+T ss_dssp             STTSSBCSCEEEETTTEEEEESSCBCCTTSCTTHHHHTSEEEETTEEEES
+T ss_pred             HHhccCCCcEEEeCCcEEEEeCCceeCCCCcHhHcCCcEEEEcCCEEEEe
+Confidence            4678888888876      5888999986510011266777777778887
+
+
+No 15
+>2HUE_C Anti-silencing protein 1, Histone H3; mini beta sheet, elongated Beta; HET: SO4, GOL; 1.7A {Saccharomyces cerevisiae} SCOP: a.22.1.1
+Probab=22.52  E-value=84  Score=21.94  Aligned_cols=44  Identities=11%  Similarity=0.196  Sum_probs=29.2  Template_Neff=9.300
+
+Q query            32 DITAYMKGVCYDAAAYMRYLYNAKISFDQLTSISAQNWLPVFKF   75 (160)
+Q Consensus        32 ~I~~y~~GVCyDavAyv~~L~~~~Is~~~L~~~~gq~W~~~fnf   75 (160)
+                      ..+.|..-++.||.+|..+-....|+++++...-...+.+.|.|
+T Consensus        39 ~~~~~~~~i~~~a~~~a~~~~r~~i~~~Dv~~al~~~~~~~~gf   82 (84)
+T 2HUE_C           39 VLKVFLENVIRDAVTYTEHAKRKTVTAMDVVYALKRQGRTLYGF   82 (84)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHTTCSEECHHHHHHHTTTTCEEEESC
+T ss_pred             HHHHHHHHHHHHHHHHHhhCCCCcccHHHHHHHHHhCCCCcccC
+Confidence            34457788899999999988777788887655533333333433
+
+
+No 16
+>4EP8_B Urease subunit alpha (E.C.3.5.1.5), Urease; alpha-beta barrel, nickel metalloenzyme, hydrolase; 1.55A {Enterobacter aerogenes}
+Probab=22.22  E-value=86  Score=25.66  Aligned_cols=50  Identities=26%  Similarity=0.399  Sum_probs=33.7  Template_Neff=3.900
+
+Q query            73 FKFAEGRMWDGRNSLPGGKAIGFCRVKGMEFFHAAVAVGG-TEIRAINGGLLG  124 (160)
+Q Consensus        73 fnf~~g~~WdG~s~ip~GkaIGFyr~~~~~~FHsAIavGg-t~IRsVNG~~LG  124 (160)
+                      +.|.....|--+-+||+|+||-|-.-...+  =.=+..|| ..|.+.||..-|
+T Consensus        49 L~FdR~~A~G~RLdIpaGTavRFEPG~~~~--V~LV~~gG~r~v~G~~g~~~g   99 (101)
+T 4EP8_B           49 LKFDRQQAAGYRLNIPAGTAVRFEPGQKRE--VELVAFAGHRAVFGFRGEVMG   99 (101)
+T ss_dssp             EESCTTTTTTEEECSSTTCEEEECTTCEEE--EEEEECCTTCEECSTTSSCCE
+T ss_pred             cCcchhHccceecCCCCcceeccCCCCcEE--EEEEEccCCcEEeCCCcccCC
+Confidence            456777778888899999999998633222  23345565 557777776544
+
+
+No 17
+>4EPD_B Urease subunit alpha (E.C.3.5.1.5), Urease; alpha-beta barrel, nickel metalloenzyme, hydrolase; 1.7A {Enterobacter aerogenes}
+Probab=22.22  E-value=86  Score=25.66  Aligned_cols=50  Identities=26%  Similarity=0.399  Sum_probs=33.7  Template_Neff=3.900
+
+Q query            73 FKFAEGRMWDGRNSLPGGKAIGFCRVKGMEFFHAAVAVGG-TEIRAINGGLLG  124 (160)
+Q Consensus        73 fnf~~g~~WdG~s~ip~GkaIGFyr~~~~~~FHsAIavGg-t~IRsVNG~~LG  124 (160)
+                      +.|.....|--+-+||+|+||-|-.-...+  =.=+..|| ..|.+.||..-|
+T Consensus        49 L~FdR~~A~G~RLdIpaGTavRFEPG~~~~--V~LV~~gG~r~v~G~~g~~~g   99 (101)
+T 4EPD_B           49 LKFDRQQAAGYRLNIPAGTAVRFEPGQKRE--VELVAFAGHRAVFGFRGEVMG   99 (101)
+T ss_dssp             EESCHHHHTTEEECSCTTCEEEECTTCEEE--EEEEECCTTCEECSTTSSCCE
+T ss_pred             cCcchhHccceecCCCCcceeccCCCCcEE--EEEEEccCCcEEeCCCcccCC
+Confidence            456777778888899999999998633222  23345565 557777776544
+
+
+No 18
+>6ZNY_BBB Urease subunit gamma (E.C.3.5.1.5), Urease; urease, nickel, enzyme, inhibitor, METAL; HET: CXM, QNW, EDO, SO4, KCX; 1.5A {Sporosarcina pasteurii}
+Probab=20.94  E-value=95  Score=26.23  Aligned_cols=51  Identities=25%  Similarity=0.329  Sum_probs=35.7  Template_Neff=3.800
+
+Q query            73 FKFAEGRMWDGRNSLPGGKAIGFCRVKGMEFFHAAVAVGG-TEIRAINGGLLGA  125 (160)
+Q Consensus        73 fnf~~g~~WdG~s~ip~GkaIGFyr~~~~~~FHsAIavGg-t~IRsVNG~~LG~  125 (160)
+                      +.|.....|--+-+||+|+||-|-.-...+  =.=+.+|| ..|.+.||..-|.
+T Consensus        51 L~FDR~~A~G~RLdIpaGTavRFEPG~~k~--V~LV~~gG~r~v~G~~gl~~G~  102 (122)
+T 6ZNY_BBB         51 LLFDRAEGIGRRLNIPSGTAARFEPGEEME--VELTELGGNREVFGISDLTNGS  102 (122)
+T ss_pred             cCcchhhccceecCCCCCcccccCCCCcEE--EEEEeccCceEEeCCccccCCC
+Confidence            456777788888899999999998633222  23355665 5688888866553
+
+
+No 19
+>7DCO_Z PRP8 isoform 1, SNU114 isoform; RNA splicing, spliceosome, Bact complex; HET: ZN, IHP, GTP; 2.5A {Saccharomyces cerevisiae}
+Probab=20.33  E-value=99  Score=25.62  Aligned_cols=27  Identities=26%  Similarity=0.410  Sum_probs=20.2  Template_Neff=5.200
+
+Q query            66 AQNWLPVFKFAEGRMWDGRNSLPGGKAIGFCR   97 (160)
+Q Consensus        66 gq~W~~~fnf~~g~~WdG~s~ip~GkaIGFyr   97 (160)
+                      +..-.++|+...|..|||.   -.|+  ||..
+T Consensus        73 g~~ppNRfgI~PG~rWDGV---dRsN--GfE~   99 (121)
+T 7DCO_Z           73 KPAPENRFAIMPGSRWDGV---HRSN--GFEE   99 (121)
+T ss_pred             CCCCCccccCCCCCccccc---ccCC--cHHH
+Confidence            3345689999999999995   4554  7874
+
+

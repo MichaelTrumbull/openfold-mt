@@ -1,0 +1,2013 @@
+Query         query 
+Match_columns 547
+No_of_seqs    498 out of 10000
+Neff          5.65998
+Searched_HMMs 90139
+Date          Mon Jun 27 19:13:08 2022
+Command       /mnt/home/dberenberg/gustaf_stuff/openfold/lib/conda/envs/openfold_venv/bin/hhsearch -i /tmp/tmpydvn24pt/query.a3m -o /tmp/tmpydvn24pt/output.hhr -maxseq 1000000 -cpu 64 -d /mnt/home/dberenberg/gustaf_stuff/OpenFold/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6ZY2_A YrbD protein, ABC trans  99.6 7.8E-20 8.6E-25  177.3   0.0  136   43-190    36-178 (183)
+  2 7CGE_I Lipid asymmetry mainten  99.6 1.2E-18 1.3E-23  169.7   0.0  117   44-162    37-160 (183)
+  3 7CH8_A Mla complex, Lipid tran  99.5   2E-18 2.2E-23  163.5   0.0  113   44-159    37-152 (157)
+  4 7AI2_C susbtrate binding prote  99.5   5E-18 5.5E-23  158.2   0.0  106   44-151    28-137 (138)
+  5 7AI3_D substrate binding prote  99.5   5E-18 5.5E-23  158.2   0.0  106   44-151    28-137 (138)
+  6 5UW2_A Probable phospholipid A  99.5 1.4E-17 1.6E-22  159.6   0.0  135   44-190    19-160 (165)
+  7 7D06_I Lipid asymmetry mainten  99.4 1.2E-16 1.4E-21  159.6   0.0  113   44-159    37-199 (226)
+  8 7D08_G Lipid asymmetry mainten  99.4 1.5E-16 1.7E-21  158.5   0.0  111   44-157    37-197 (222)
+  9 6IC4_A Toluene tolerance efflu  99.3   1E-15 1.2E-20  149.5   0.0  104   44-150    29-182 (183)
+ 10 5UW8_B Probable phospholipid A  99.3 1.8E-15   2E-20  138.3   0.0   96   43-138    18-120 (122)
+ 11 5UW8_G Probable phospholipid A  99.3 1.8E-15   2E-20  138.3   0.0   96   43-138    18-120 (122)
+ 12 5UVN_F Paraquat-inducible prot  99.1 3.8E-14 4.3E-19  156.4   0.0  139   47-195   261-433 (453)
+ 13 6VCI_C Lipophilic envelope-spa  98.2 4.3E-09 4.7E-14  107.2   0.0   86   46-133     3-94  (235)
+ 14 6VCI_A Lipophilic envelope-spa  97.8 6.9E-08 7.7E-13   98.6   0.0   78   45-122   122-213 (235)
+ 15 6VCI_C Lipophilic envelope-spa  97.8 8.3E-08 9.3E-13   97.9   0.0   77   46-122   123-213 (235)
+ 16 6V0C_D Intermembrane transport  97.8   9E-08   1E-12  114.2   0.0   77   47-123     2-94  (832)
+ 17 6V0F_A Intermembrane transport  97.8   9E-08   1E-12  114.2   0.0   77   47-123     2-94  (832)
+ 18 6KZ3_A Intermembrane transport  97.8   1E-07 1.2E-12  106.5   0.0   77   47-123     2-94  (464)
+ 19 6KZ4_A Intermembrane transport  97.6 3.3E-07 3.6E-12   99.5   0.0   87   46-136     3-94  (366)
+ 20 6KZ4_A Intermembrane transport  97.6 3.6E-07   4E-12   99.2   0.0   76   46-122   123-214 (366)
+ 21 5UVN_F Paraquat-inducible prot  97.5 7.2E-07   8E-12   99.8   0.0   79   45-123    16-110 (453)
+ 22 6VCI_A Lipophilic envelope-spa  97.4 1.4E-06 1.5E-11   89.3   0.0   76   46-121     3-84  (235)
+ 23 6KZ4_A Intermembrane transport  97.2 3.1E-06 3.5E-11   92.1   0.0   88   45-134   235-329 (366)
+ 24 6KZ3_A Intermembrane transport  96.9 1.6E-05 1.7E-10   89.6   0.0   78   45-122   234-325 (464)
+ 25 6V0C_D Intermembrane transport  96.7 3.3E-05 3.6E-10   93.0   0.0   77   46-123   589-681 (832)
+ 26 6V0F_A Intermembrane transport  96.7 3.3E-05 3.6E-10   93.0   0.0   77   46-123   589-681 (832)
+ 27 6V0C_D Intermembrane transport  95.9  0.0005 5.5E-09   83.2   0.0   78   45-122   234-325 (832)
+ 28 6V0F_A Intermembrane transport  95.9  0.0005 5.5E-09   83.2   0.0   78   45-122   234-325 (832)
+ 29 5UVN_F Paraquat-inducible prot  95.6  0.0011 1.2E-08   75.1   0.0   62   46-107   132-197 (453)
+ 30 6KZ3_A Intermembrane transport  95.4  0.0017 1.9E-08   73.7   0.0   62   46-107   347-410 (464)
+ 31 6V0C_D Intermembrane transport  94.8  0.0048 5.4E-08   75.1   0.0   62   45-106   114-179 (832)
+ 32 6V0F_A Intermembrane transport  94.8  0.0048 5.4E-08   75.1   0.0   62   45-106   114-179 (832)
+ 33 6KZ3_A Intermembrane transport  94.5  0.0068 7.5E-08   69.0   0.0   62   46-107   115-180 (464)
+ 34 6E7E_A IncA; membrane fusion,   80.8     1.1 1.3E-05   43.3   0.0  107  181-290    32-138 (169)
+ 35 5IJN_Z NUCLEAR PORE COMPLEX PR  78.1     1.6 1.8E-05   51.3   0.0    6   69-74    170-175 (522)
+ 36 6TFJ_D Vegetative insecticidal  74.7     2.4 2.6E-05   52.2   0.0   99  143-243    46-152 (789)
+ 37 6V1V_A Vegetative insecticidal  74.4     2.4 2.7E-05   51.9   0.0   99  143-243    61-167 (796)
+ 38 6YRF_C Vegetative insecticidal  72.4       3 3.3E-05   51.3   0.0  100  143-244    56-163 (803)
+ 39 5IJN_Z NUCLEAR PORE COMPLEX PR  67.4     4.5   5E-05   47.9   0.0   13  207-219   449-461 (522)
+ 40 6GAO_B Outer capsid protein si  67.2     4.6 5.1E-05   42.9   0.0    6  358-363   202-207 (240)
+ 41 4UT1_A FLAGELLAR HOOK-ASSOCIAT  58.6     8.6 9.5E-05   47.0   0.0   10  215-224   143-152 (673)
+ 42 5IJN_Z NUCLEAR PORE COMPLEX PR  58.2     8.8 9.8E-05   45.6   0.0   17  262-278   471-487 (522)
+ 43 6S1K_F Chemotaxis protein CheA  55.9      10 0.00011   43.6   0.0   21  250-270   465-485 (551)
+ 44 7NRC_A 40S ribosomal protein S  54.6      11 0.00012   44.3   0.0   16  239-254   318-333 (1209)
+ 45 5G6U_A LANGERIN; CARBOHYDRATE   52.8      12 0.00014   38.9   0.0    8  357-364   151-158 (261)
+ 46 6FPD_A Protein AB21; Agaricus   49.5      15 0.00017   38.0   0.0   16  143-158    62-77  (208)
+ 47 5G6U_B LANGERIN; CARBOHYDRATE   48.5      16 0.00018   37.7   0.0   11  354-364   148-158 (261)
+ 48 4UY3_A SEPTATION RING FORMATIO  47.8      17 0.00019   37.1   0.0   72  201-272    91-162 (198)
+ 49 4LIN_K gp26-2M; helical, trime  45.6      19 0.00021   40.0   0.0   16  103-118    30-45  (300)
+ 50 6YS8_C GldM, GldL; membrane pr  40.5      26 0.00029   37.3   0.0   63  228-291   146-208 (215)
+ 51 6YS8_G GldM, GldL; membrane pr  40.5      26 0.00029   37.3   0.0   63  228-291   146-208 (215)
+ 52 6S18_A Aromatic acid chemorece  37.8      31 0.00034   39.2   0.0   13  257-269   505-517 (550)
+ 53 3ZX6_B HAMP, METHYL-ACCEPTING   36.9      32 0.00036   37.5   0.0   13  144-156    35-47  (341)
+ 54 6XU8_CY Specialised ribosome,   33.4      40 0.00045   33.1   0.0   32   56-87     45-81  (131)
+ 55 5KIS_B YenB, RHS2; ABC toxin,   33.1      41 0.00045   42.2   0.0    7  448-454   656-662 (965)
+ 56 7R95_A SARS-Cov-2, Heptad repe  30.2      49 0.00054   28.0   0.0   36  251-286    19-54  (56)
+ 57 1YKE_D RNA polymerase II media  30.2      49 0.00054   33.1   0.0   40  230-269    94-133 (151)
+ 58 4CGK_B SECRETED 45 KDA PROTEIN  28.2      56 0.00062   36.3   0.0   16  256-271   187-202 (392)
+ 59 7KIP_C Spike glycoprotein; NL6  27.6      58 0.00065   43.4   0.0  194  208-419   953-1150(1356)
+ 60 3H6P_B ESAT-6 LIKE PROTEIN ESX  26.9      61 0.00068   29.8   0.0   10  208-217    38-47  (111)
+ 61 6BFU_B Spike protein; coronavi  26.7      62 0.00069   41.9   0.0  220  208-455   759-982 (1024)
+ 62 6ZM0_AAA Cell shape-determinin  26.7      62 0.00069   32.5   0.0   32   52-83     97-136 (164)
+ 63 5ZHY_B Spike glycoprotein,Spik  26.6      62 0.00069   32.2   0.0   36  174-209    42-77  (148)
+ 64 5ZHY_D Spike glycoprotein,Spik  26.6      62 0.00069   32.2   0.0   36  174-209    42-77  (148)
+ 65 3FAV_D ESAT-6-like protein esx  26.1      65 0.00072   27.2   0.0   13  181-193    17-29  (94)
+ 66 6U7K_B Spike glycoprotein; PED  25.9      66 0.00073   43.0   0.0  194  208-419   974-1172(1399)
+ 67 7CYD_A Spike glycoprotein; Alp  25.9      66 0.00073   42.1   0.0  194  208-419   772-969 (1116)
+ 68 6JX7_A Feline Infectious Perit  25.4      68 0.00075   43.0   0.0  194  208-419  1045-1242(1468)
+ 69 4MOD_B HR1 of S protein, LINKE  25.3      68 0.00076   31.6   0.0   45  171-215    26-70  (129)
+ 70 6RLD_A Small-conductance mecha  25.2      69 0.00077   34.8   0.0   26   56-82    127-152 (286)
+ 71 6VV5_A Spike glycoprotein; gly  25.1      70 0.00077   42.7   0.0  194  208-419   959-1157(1356)
+ 72 2QF4_A Cell shape determining   24.8      71 0.00078   32.3   0.0   32   52-83    102-141 (172)
+ 73 4GWP_A Mediator of RNA polymer  24.4      73 0.00081   30.8   0.0   57  206-262    17-77  (115)
+ 74 4GWQ_A Mediator of RNA polymer  24.4      73 0.00081   30.8   0.0   57  206-262    17-77  (115)
+ 75 5IJN_G NUCLEAR PORE COMPLEX PR  24.3      73 0.00082   38.4   0.0   14  146-159   245-258 (599)
+ 76 6DFP_A Inosine-5'-monophosphat  24.3      74 0.00082   35.5   0.0    8  233-240   139-146 (372)
+ 77 1QU7_A METHYL-ACCEPTING CHEMOT  24.1      75 0.00083   32.2   0.0   15  254-268   176-190 (227)
+ 78 3R84_Q Mediator of RNA polymer  24.1      75 0.00083   29.1   0.0   58  206-263    14-75  (86)
+ 79 3R84_S Mediator of RNA polymer  24.1      75 0.00083   29.1   0.0   58  206-263    14-75  (86)
+ 80 7KIP_C Spike glycoprotein; NL6  23.7      77 0.00085   42.4   0.0   24  188-211   993-1016(1356)
+ 81 5B3D_D Flagella synthesis prot  23.5      78 0.00087   29.9   0.0   73  208-287    38-110 (140)
+ 82 3H6P_D ESAT-6 LIKE PROTEIN ESX  23.2      80 0.00088   26.9   0.0   18  180-197    17-34  (96)
+ 83 6ZLV_C bacterial cell wall elo  23.2      80 0.00089   32.0   0.0   35   49-83    109-152 (176)
+ 84 5ZUV_A Spike glycoprotein,EK1,  23.2      80 0.00089   31.1   0.0   13  170-182    15-27  (133)
+ 85 3OPC_B Uncharacterized protein  23.1      80 0.00089   30.6   0.0   40  249-288    88-127 (154)
+ 86 5SZS_C Spike glycoprotein; cor  23.1      80 0.00089   42.1   0.0  194  208-419   938-1135(1325)
+ 87 6PWP_B Small-conductance mecha  23.1      80 0.00089   34.4   0.0   26   56-82    130-155 (289)
+ 88 3LNR_A Aerotaxis transducer Ae  22.5      84 0.00093   28.7   0.0   10  146-155    45-54  (175)
+ 89 6BFU_B Spike protein; coronavi  22.1      87 0.00096   40.8   0.0   17  188-204   799-815 (1024)
+ 90 7NRC_A 40S ribosomal protein S  21.7      89 0.00099   37.5   0.0    7  115-121   233-239 (1209)
+ 91 6JX7_A Feline Infectious Perit  21.7      89 0.00099   42.1   0.0   22  188-209  1085-1106(1468)
+ 92 2J5U_A MREC PROTEIN; BACTERIAL  21.5      90   0.001   33.8   0.0   42   52-93    163-212 (255)
+ 93 2KG7_B Uncharacterized protein  21.5      91   0.001   26.5   0.0   20  178-197    16-35  (97)
+ 94 6VV5_A Spike glycoprotein; gly  21.4      91   0.001   41.7   0.0   25  188-212   999-1023(1356)
+ 95 6U7K_B Spike glycoprotein; PED  21.4      91   0.001   41.8   0.0   26  188-213  1014-1039(1399)
+ 96 5GAF_V 50S ribosomal protein L  20.7      97  0.0011   28.7   0.0   30   58-88      3-36  (102)
+ 97 7CYD_A Spike glycoprotein; Alp  20.7      97  0.0011   40.7   0.0   25  188-212   812-836 (1116)
+ 98 1VQO_T 50S RIBOSOMAL SUBUNIT;   20.6      97  0.0011   30.0   0.0   32   56-87     40-75  (120)
+ 99 5SZS_C Spike glycoprotein; cor  20.6      97  0.0011   41.4   0.0   23  188-210   978-1000(1325)
+100 6S18_A Aromatic acid chemorece  20.3      99  0.0011   35.3   0.0    9  149-157   419-427 (550)
+101 5AJI_G SMALL-CONDUCTANCE MECHA  20.2   1E+02  0.0011   33.6   0.0   25   57-82    128-152 (286)
+
+No 1
+>6ZY2_A YrbD protein, ABC transporter maintaining; phospholipid, phospholipid transport, ABC transporter; 3.6A {Escherichia coli B185}
+Probab=99.63  E-value=7.8e-20  Score=177.31  Aligned_cols=136  Identities=20%  Similarity=0.274  Sum_probs=98.4  Template_Neff=8.100
+
+Q query            43 KLTNTTVTAYFPEVLALYPGDKVLIMGVRVGSIDSIETAGD--KMKVVFHFNNKY-KVPENATASILNPSLVASRVIQLS  119 (547)
+Q Consensus        43 ~~~~~tvtA~F~da~GLy~Gd~VrV~GV~VG~V~sIep~gd--~V~Vt~~vd~~~-~VPada~A~I~~~SLVg~RyVqLt  119 (547)
+                      ...+++|+++|+++.||.+|++|+|+|++||+|++|++.++  +++|+|.|++++ +|++|++|.|.+.+++|++||+|.
+T Consensus        36 ~~~~~~i~v~~~~~~GL~~gs~V~~~Gv~VG~V~~I~~~~~~~~~~v~l~i~~~~~~l~~~s~~~i~~~~llG~~~i~l~  115 (183)
+T 6ZY2_A           36 TEPTYTLYATFDNIGGLKARSPVSIGGVVVGRVADITLDPKTYLPRVTLEIEQRYNHIPDTSSLSIRTSGLLGEQYLALN  115 (183)
+T ss_dssp             CCCCEEEEEECSCCSSCCTTCCEESSSSEEECCCCEEECTTTCCEEEEEEECSSCCCCCTTCEEEEEESTTTSCEEEEEE
+T ss_pred             CCCcEEEEEEeCCCCCCCCCCcEEECCEEEEEEEEEEeCCCCCeeEEEEEEeCCCccCCCCCEEEEEeCCCcCceEEEEe
+Confidence            34568899999999999999999999999999999999874  688999999998 899999999999999999999999
+
+
+Q query           120 PPYTG----GPTLRDGAVLDVDRTQVPIEYDEVRNQVTRLLADLGPTPEQPKGPFGDIIESFADGFAGKGEQLNR  190 (547)
+Q Consensus       120 P~y~g----GP~L~dGavIP~eRT~vPvE~Del~~~L~~L~~~LgP~~~~~~g~l~~~l~s~a~~l~G~G~~L~~  190 (547)
+                      |+...    ++.|++|++|+.  +..+.+++++++++.+..          ...++++++++++.++|+++.+..
+T Consensus       116 ~g~~~~~~~~~~l~~g~~i~~--~~~~~~l~~l~~~~~~~~----------~~~~~~~~~~~~~~~~~~~~~~~~  178 (183)
+T 6ZY2_A          116 VGFEDPELGTAILKDGDTIQD--TKSAMVLEDLIGQFLYGS----------KGDDNKNSGDAPAAAPGNNETTEP  178 (183)
+T ss_dssp             CCCCCC---CCCCCTTCCCSC--EECCCCHHHHHHHHHC------------------------------------
+T ss_pred             cCCCCccccccccCCCCEEec--CCCCccHHHHHHHHhhcC----------CCCCcccccchhHhcCCCCCcccc
+Confidence            98752    578999999988  556889999987765543          235788889999999998876643
+
+
+No 2
+>7CGE_I Lipid asymmetry maintenance ABC transporter; MEMBRANE PROTEIN; HET: PGW; 2.9A {Escherichia coli (strain K12)}
+Probab=99.56  E-value=1.2e-18  Score=169.66  Aligned_cols=117  Identities=20%  Similarity=0.274  Sum_probs=99.8  Template_Neff=7.600
+
+Q query            44 LTNTTVTAYFPEVLALYPGDKVLIMGVRVGSIDSIETAG--DKMKVVFHFNNKYK-VPENATASILNPSLVASRVIQLSP  120 (547)
+Q Consensus        44 ~~~~tvtA~F~da~GLy~Gd~VrV~GV~VG~V~sIep~g--d~V~Vt~~vd~~~~-VPada~A~I~~~SLVg~RyVqLtP  120 (547)
+                      ..+++|+++|+++.||.+|++|+|+|++||+|++|++.+  ++++|++.|+++++ |++|++|.|...+++|++||+|.+
+T Consensus        37 ~~~~~~~~~~~~~~GL~~Gs~V~~~Gv~VG~V~~I~~~~~~~~v~v~~~I~~~~~~i~~ds~a~i~~~~llG~~~I~l~~  116 (183)
+T 7CGE_I           37 EPTYTLYATFDNIGGLKARSPVSIGGVVVGRVADITLDPKTYLPRVTLEIEQRYNHIPDTSSLSIRTSGLLGEQYLALNV  116 (183)
+T ss_dssp             CCEEEEEEECSCCTTCCTTCCEEETTEEEEEECCCCEETTTTEEEEEEEEETTCCCCBTTCEEEEECCSSSSCCEEEEEC
+T ss_pred             CCcEEEEEEECCCCCCCCCCcEEECCEEEEEEEEEEeCCCCCeEEEEEEEcCCCccCCCCCEEEEEeCCCCCceEEEEEe
+Confidence            456899999999999999999999999999999999987  47899999999996 999999999999999999999999
+
+
+Q query           121 PYTGG----PTLRDGAVLDVDRTQVPIEYDEVRNQVTRLLADLGPT  162 (547)
+Q Consensus       121 ~y~gG----P~L~dGavIP~eRT~vPvE~Del~~~L~~L~~~LgP~  162 (547)
+                      +....    +.|++|++|+.  +..+.+++++++++.+++..+++.
+T Consensus       117 g~~~~~~~~~~l~~g~~I~~--~~~~~~l~~ll~~~~~~~~~~~~~  160 (183)
+T 7CGE_I          117 GFEDPELGTAILKDGDTIQD--TKSAMVLEDLIGQFLYGSKGDDNK  160 (183)
+T ss_dssp             CCCCCTTTCCBCCTTCEECC--CCCCCCSHHHHHHHHC--------
+T ss_pred             CCCCccccceecCCCCeecc--CCCCccHHHHHHHHHHhccCCCCc
+Confidence            87644    58999999998  556789999999999999888754
+
+
+No 3
+>7CH8_A Mla complex, Lipid transporter, MEMBRANE; HET: AD9, LPP;{Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1)}
+Probab=99.55  E-value=2e-18  Score=163.55  Aligned_cols=113  Identities=22%  Similarity=0.334  Sum_probs=100.4  Template_Neff=8.200
+
+Q query            44 LTNTTVTAYFPEVLALYPGDKVLIMGVRVGSIDSIETAG--DKMKVVFHFNNKY-KVPENATASILNPSLVASRVIQLSP  120 (547)
+Q Consensus        44 ~~~~tvtA~F~da~GLy~Gd~VrV~GV~VG~V~sIep~g--d~V~Vt~~vd~~~-~VPada~A~I~~~SLVg~RyVqLtP  120 (547)
+                      ..+++|+++|+++.||.+|++|+|+|++||+|++|++.+  ++++|+|.|++++ +|++|++|+|.+.+++|++||+|.|
+T Consensus        37 ~~~~~~~~~~~~~~GL~~gs~V~~~Gv~VG~V~~i~~~~~~~~v~v~~~i~~~~~~i~~~s~~~i~~~~llG~~~i~l~~  116 (157)
+T 7CH8_A           37 GDTYKVYAYFDNIAGVTVRGKVTLAGVTIGKVTAVDLDRDSYTGRVTMEINQNVNNLPVDSTASILTAGLLGEKYIGISV  116 (157)
+T ss_dssp             TCEEEEEEEESCCTTCCSSCCEEETTEEEECEEEEEECTTTCCEEEEEEEESSCCCCCSSCEEEEEESTTTSCEEEEEEC
+T ss_pred             CCeEEEEEEEcCCCCCCCCCEEEECCEEEEEEEEEEeeCCCCeEEEEEEEeCCcccCCCCCEEEEEeCCCCcccEEEeee
+Confidence            456899999999999999999999999999999999986  4789999999999 9999999999999999999999999
+
+
+Q query           121 PYTGGPTLRDGAVLDVDRTQVPIEYDEVRNQVTRLLADL  159 (547)
+Q Consensus       121 ~y~gGP~L~dGavIP~eRT~vPvE~Del~~~L~~L~~~L  159 (547)
+                      +.. ++.|++|++|+.  +..+.++++++++++.+...+
+T Consensus       117 g~~-~~~l~~g~~i~~--~~~~~~l~~~l~~l~~~~~~~  152 (157)
+T 7CH8_A          117 GGD-EDVLKDGSTIHD--TQSALVLEDLIGKFLLNSVNK  152 (157)
+T ss_dssp             CSC-SCCCCSSSBCCC--EECCCCHHHHHCCCCCCCCC-
+T ss_pred             CCC-cccCCCCCEecc--CCCcccHHHHHHHHhhhccCh
+Confidence            865 478999999997  445789999988887766543
+
+
+No 4
+>7AI2_C susbtrate binding protein, MCE, Mce4A; HET: MSE; 3.61A {Mycobacterium tuberculosis H37Rv}
+Probab=99.52  E-value=5e-18  Score=158.17  Aligned_cols=106  Identities=23%  Similarity=0.394  Sum_probs=95.4  Template_Neff=7.700
+
+Q query            44 LTNTTVTAYFPEVL-ALYPGDKVLIMGVRVGSIDSIETAGDKMKVVFHFNNKY--KVPENATASILNPSLVASRVIQLSP  120 (547)
+Q Consensus        44 ~~~~tvtA~F~da~-GLy~Gd~VrV~GV~VG~V~sIep~gd~V~Vt~~vd~~~--~VPada~A~I~~~SLVg~RyVqLtP  120 (547)
+                      ..+++|+++|+++. ||.+|++|+++|++||+|++|++.+++++|++.|++++  +|+++++|+|...+++|++||+|.+
+T Consensus        28 ~~~~~~~v~f~~~~~gL~~Gs~V~~~Gv~VG~V~~I~l~~~~~~v~l~I~~~~~~~i~~~s~~~i~~~~llG~~~I~l~~  107 (138)
+T 7AI2_C           28 ASTDTVTVSSPRAGLVMEKGAKVKYRGIQVGKVTDISYSGNQARLKLAIDSGEMGFIPSNATVRIAGNTIFGAKSVEFIP  107 (138)
+T ss_dssp             CCEEEEEEECSSSCEEEEEEEEEEETTEEEEEEEEEEEETTEEEEEEEEETTTGGGSBTTCEEEECCEEEEEEEEEEEEC
+T ss_pred             CCCEEEEEEcCCcccCcCCCCeEEECCEEEEEEEEEEEeCCEEEEEEEEecccccccCCCCEEEEEcCCCCCceeEEEeC
+Confidence            35688999999998 79999999999999999999999988999999999999  8999999999999999999999999
+
+
+Q query           121 PYT-GGPTLRDGAVLDVDRTQVPIEYDEVRNQ  151 (547)
+Q Consensus       121 ~y~-gGP~L~dGavIP~eRT~vPvE~Del~~~  151 (547)
+                      +.. +++.|++|++|+.++  .++++|+++++
+T Consensus       108 g~~~~~~~l~~g~~i~~~~--~~~~l~~vl~~  137 (138)
+T 7AI2_C          108 PKTPSPKPLSPNAHVAASQ--VQLELEHHHHH  137 (138)
+T ss_dssp             CSSCCSSBCCTTCEECGGG--EEECCCCC---
+T ss_pred             CCCCCCCCCCCCCEEeccc--ccccHHHhhcc
+Confidence            875 578999999999954  68999988754
+
+
+No 5
+>7AI3_D substrate binding protein, MCE, Mce4A; 2.9A {Mycobacterium tuberculosis H37Rv}
+Probab=99.52  E-value=5e-18  Score=158.17  Aligned_cols=106  Identities=23%  Similarity=0.394  Sum_probs=95.4  Template_Neff=7.700
+
+Q query            44 LTNTTVTAYFPEVL-ALYPGDKVLIMGVRVGSIDSIETAGDKMKVVFHFNNKY--KVPENATASILNPSLVASRVIQLSP  120 (547)
+Q Consensus        44 ~~~~tvtA~F~da~-GLy~Gd~VrV~GV~VG~V~sIep~gd~V~Vt~~vd~~~--~VPada~A~I~~~SLVg~RyVqLtP  120 (547)
+                      ..+++|+++|+++. ||.+|++|+++|++||+|++|++.+++++|++.|++++  +|+++++|+|...+++|++||+|.+
+T Consensus        28 ~~~~~~~v~f~~~~~gL~~Gs~V~~~Gv~VG~V~~I~l~~~~~~v~l~I~~~~~~~i~~~s~~~i~~~~llG~~~I~l~~  107 (138)
+T 7AI3_D           28 ASTDTVTVSSPRAGLVMEKGAKVKYRGIQVGKVTDISYSGNQARLKLAIDSGEMGFIPSNATVRIAGNTIFGAKSVEFIP  107 (138)
+T ss_dssp             CCEEEEEEECSSTTEEECTTCEEEETTEEEEEEEEEEECSSCEEEEEEEEHHHHTTSBTTCEEEEEEEEEEEEEEEEEEC
+T ss_pred             CCCEEEEEEcCCcccCcCCCCeEEECCEEEEEEEEEEEeCCEEEEEEEEecccccccCCCCEEEEEcCCCCCceeEEEeC
+Confidence            35688999999998 79999999999999999999999988999999999999  8999999999999999999999999
+
+
+Q query           121 PYT-GGPTLRDGAVLDVDRTQVPIEYDEVRNQ  151 (547)
+Q Consensus       121 ~y~-gGP~L~dGavIP~eRT~vPvE~Del~~~  151 (547)
+                      +.. +++.|++|++|+.++  .++++|+++++
+T Consensus       108 g~~~~~~~l~~g~~i~~~~--~~~~l~~vl~~  137 (138)
+T 7AI3_D          108 PKTPSPKPLSPNAHVAASQ--VQLELEHHHHH  137 (138)
+T ss_dssp             CSSCCSSBCCTTEEECGGG--EEEEECCC---
+T ss_pred             CCCCCCCCCCCCCEEeccc--ccccHHHhhcc
+Confidence            875 578999999999954  68999988754
+
+
+No 6
+>5UW2_A Probable phospholipid ABC transporter-binding protein; MCE protein, bacterial lipid transport; 2.85A {Escherichia coli O157:H7}
+Probab=99.49  E-value=1.4e-17  Score=159.64  Aligned_cols=135  Identities=20%  Similarity=0.287  Sum_probs=113.9  Template_Neff=7.600
+
+Q query            44 LTNTTVTAYFPEVLALYPGDKVLIMGVRVGSIDSIETAGD--KMKVVFHFNNKY-KVPENATASILNPSLVASRVIQLSP  120 (547)
+Q Consensus        44 ~~~~tvtA~F~da~GLy~Gd~VrV~GV~VG~V~sIep~gd--~V~Vt~~vd~~~-~VPada~A~I~~~SLVg~RyVqLtP  120 (547)
+                      ..+++|+++|+++.||.+|++|+++|++||+|++|++.++  .++|+|.|++++ +|++|++|+|.+.+++|++||+|.+
+T Consensus        19 ~~~~~~~v~f~~~~GL~~gs~V~~~Gv~VG~V~~I~l~~~~~~v~v~~~I~~~~~~l~~ds~~~i~~~~llG~~~I~l~~   98 (165)
+T 5UW2_A           19 EPTYTLYATFDNIGGLKARSPVSIGGVVVGRVADITLDPKTYLPRVTLEIEQRYNHIPDTSSLSIRTSGLLGEQYLALNV   98 (165)
+T ss_pred             CCcEEEEEEECCCCCCCCCCcEEECCEEEEEEEEEEEcCCCCeEEEEEEEcCCCccCCCCCEEEEEeCCCCCccEEEEec
+Confidence            3568899999999999999999999999999999999875  789999999999 9999999999999999999999999
+
+
+Q query           121 PYTG----GPTLRDGAVLDVDRTQVPIEYDEVRNQVTRLLADLGPTPEQPKGPFGDIIESFADGFAGKGEQLNR  190 (547)
+Q Consensus       121 ~y~g----GP~L~dGavIP~eRT~vPvE~Del~~~L~~L~~~LgP~~~~~~g~l~~~l~s~a~~l~G~G~~L~~  190 (547)
+                      +...    ++.|++|++|+.  +..+.+++++++++..   ++       ...++++++++++.|+|++++.+.
+T Consensus        99 g~~~~~~~~~~l~~g~~I~~--~~~~~~l~~l~~~~~~---~~-------~~~l~~~~~~l~~~l~~~~~~~~~  160 (165)
+T 5UW2_A           99 GFEDPELGTAILKDGDTIQD--TKSAMVLEDLIGQFLY---GS-------KGDDNKNSGDAPAAAPGNNETTEP  160 (165)
+T ss_pred             CCCCCCCCCCCCCCCCeecC--CCCCCCHHHHHHhHhh---cC-------cHHHHHHHHHHHHHhcCCccccCC
+Confidence            8652    578999999998  5557888888876543   11       234677888888888887776543
+
+
+No 7
+>7D06_I Lipid asymmetry maintenance ABC transporter; MEMBRANE PROTEIN; HET: PGV; 3.1A {Acinetobacter baumannii}
+Probab=99.41  E-value=1.2e-16  Score=159.58  Aligned_cols=113  Identities=23%  Similarity=0.321  Sum_probs=96.7  Template_Neff=4.600
+
+Q query            44 LTNTTVTAYFPEVLALYPGDKVLIMGVRVGSIDSIETAG--DKMKVVFHFNNK-------------------------Y-   95 (547)
+Q Consensus        44 ~~~~tvtA~F~da~GLy~Gd~VrV~GV~VG~V~sIep~g--d~V~Vt~~vd~~-------------------------~-   95 (547)
+                      ..+++++++|+++.||.+|++|+++|++||+|++|++..  +.++|+|.+|++                         + 
+T Consensus        37 ~~~~~~~v~f~~v~GL~~Ga~V~~~GV~VG~V~sI~~~~~~~~~~V~~~id~~~~~~~~~~~~~v~~~~~~~~r~~~~~~  116 (226)
+T 7D06_I           37 SDGYTMKAQFDNVNGLKPRAKVTMSGVTIGRVDSITLDPVTRLATVTFDLDGKLTSFNAEQLKEVQKNALDELRYSSDYT  116 (226)
+T ss_dssp             TTCCCEEEEESCCTTCCTTCEEESSSSEEEEEEEEEEETTTTEEEEEEECCHHHHSCCSHHHHHHHHHHHHHHTSHHHHH
+T ss_pred             CCcEEEEEEeCCCCCCCCCCeEEECCEEEEEEEEEEecCCCCeEEEEEEEcCcccccchHHHhHHHHhhhhhhhcCCccc
+Confidence            456889999999999999999999999999999999986  478899999987                         5 
+
+
+Q query            96 ----------------------KVPENATASILNPSLVASRVIQLSPPYTGGPTLRDGAVLDVDRTQVPIEYDEVRNQVT  153 (547)
+Q Consensus        96 ----------------------~VPada~A~I~~~SLVg~RyVqLtP~y~gGP~L~dGavIP~eRT~vPvE~Del~~~L~  153 (547)
+                                            .|+.|++|.|.+.+++|++||+|.|+.. .+.|++|++|..  +..+.+++++++.+.
+T Consensus       117 ~~~~~~~~~~~~~~~~~~~~~~~I~~ds~a~I~s~gLlG~~yIeL~pg~~-~~~l~~g~~I~~--~~~~~~l~~l~~~~~  193 (226)
+T 7D06_I          117 QATPAQQKTMEQQLISNMNSITSIDEDAYIMVATNGLLGEKYLKIVPGGG-LNYLKRGDTISN--TQGTMDLEDLISKFI  193 (226)
+T ss_dssp             HSCSSTTHHHHHHHHHHHSSEEEEETTCEEEEECSTTTCCCEEEEECCCC-SSEEETTCEECC--EECCCCHHHHHHHHC
+T ss_pred             cCCHHHHHHHHHHHHhccccccccCCCCEEEEEeCCcccccEEEeecCCC-CcCCCCCCEEec--cCCCCCHHHHHHHHh
+Confidence                                  7999999999999999999999999875 579999999987  666889999988877
+
+
+Q query           154 RLLADL  159 (547)
+Q Consensus       154 ~L~~~L  159 (547)
+                      .+....
+T Consensus       194 ~~~~~~  199 (226)
+T 7D06_I          194 TGGGAG  199 (226)
+T ss_dssp             ------
+T ss_pred             hhcccc
+Confidence            766554
+
+
+No 8
+>7D08_G Lipid asymmetry maintenance ABC transporter; MEMBRANE PROTEIN; HET: ATP; 4.0A {Acinetobacter baumannii}
+Probab=99.40  E-value=1.5e-16  Score=158.52  Aligned_cols=111  Identities=23%  Similarity=0.341  Sum_probs=96.4  Template_Neff=4.600
+
+Q query            44 LTNTTVTAYFPEVLALYPGDKVLIMGVRVGSIDSIETAG--DKMKVVFHFNNK-------------------------Y-   95 (547)
+Q Consensus        44 ~~~~tvtA~F~da~GLy~Gd~VrV~GV~VG~V~sIep~g--d~V~Vt~~vd~~-------------------------~-   95 (547)
+                      ..+++++++|+++.||.+|++|+++||+||+|++|++..  ..++|++.+|++                         + 
+T Consensus        37 ~~~~~~~v~f~~v~GL~~Ga~V~~~GV~VG~V~sI~l~~~~~~~~v~~~id~~~~~~~~~~~~~v~~~~~~~~~~~~~~~  116 (222)
+T 7D08_G           37 SDGYTMKAQFDNVNGLKPRAKVTMSGVTIGRVDSITLDPVTRLATVTFDLDGKLTSFNAEQLKEVQKNALDELRYSSDYT  116 (222)
+T ss_dssp             SSCCCEEECCSCCTTCCTTCEEESSSSEEEEEEEEEEETTTTEEEEEEEECTTTSCCCHHHHHHHHHHHHHHHTCTTTSS
+T ss_pred             CCcEEEEEEECCCCCCCCCCEEEECCEEEEEEEEEEecCCCCeEEEEEEEcCcccccchHHHhHHHHhhhhhhhcCcccc
+Confidence            456889999999999999999999999999999999976  478899999988                         5 
+
+
+Q query            96 ----------------------KVPENATASILNPSLVASRVIQLSPPYTGGPTLRDGAVLDVDRTQVPIEYDEVRNQVT  153 (547)
+Q Consensus        96 ----------------------~VPada~A~I~~~SLVg~RyVqLtP~y~gGP~L~dGavIP~eRT~vPvE~Del~~~L~  153 (547)
+                                            .|+.|++|.|.+.+++|++||+|.|+.. .++|++|++|..  +..+.+++++++++.
+T Consensus       117 ~~~~~~~~~~~~~~~~~~~~~~~I~~ds~a~v~s~gLlG~~yIeI~pg~~-~~~l~~g~~i~~--~~~~~~l~~l~~~~~  193 (222)
+T 7D08_G          117 QATPAQQKTMEQQLISNMNSITSIDEDAYIMVATNGLLGEKYLKIVPGGG-LNYLKRGDTISN--TQGTMDLEDLISKFI  193 (222)
+T ss_dssp             SSSGGGTTHHHHHHHHHHSSCCSSCSSCEEEEECCSSSCCCEEEEECCCC-SSCCCSSCBCCC--EECCCCHHHHHHTTC
+T ss_pred             cCCHHHHHHHHHHHHhccccccccCCCCEEEEEeCCcccccEEEeeeCCC-CCCCCCCCEEec--cCCCCCHHHHHHHHh
+Confidence                                  7999999999999999999999999875 589999999986  666889999988776
+
+
+Q query           154 RLLA  157 (547)
+Q Consensus       154 ~L~~  157 (547)
+                      ....
+T Consensus       194 ~~~~  197 (222)
+T 7D08_G          194 TGGG  197 (222)
+T ss_dssp             ----
+T ss_pred             hhcc
+Confidence            5543
+
+
+No 9
+>6IC4_A Toluene tolerance efflux transporter (ABC; Membrane protein Antibiotic resistance ABC; 8.7A {Acinetobacter baumannii}
+Probab=99.32  E-value=1e-15  Score=149.45  Aligned_cols=104  Identities=25%  Similarity=0.387  Sum_probs=93.2  Template_Neff=5.400
+
+Q query            44 LTNTTVTAYFPEVLALYPGDKVLIMGVRVGSIDSIETAG--DKMKVVFHFNNK-------------------------Y-   95 (547)
+Q Consensus        44 ~~~~tvtA~F~da~GLy~Gd~VrV~GV~VG~V~sIep~g--d~V~Vt~~vd~~-------------------------~-   95 (547)
+                      ..+++++++|+++.||.+|++|+++|++||+|++|++.+  ++++|++.|+++                         + 
+T Consensus        29 ~~~~~l~v~F~~a~GL~~GspV~~~GV~VG~V~~I~l~~d~~~v~V~l~Id~~~~~~~~~~~~~v~~~~~~~~~~~~~~~  108 (183)
+T 6IC4_A           29 SDGYTMKAQFDNVNGLKPRAKVTMSGVTIGRVDSITLDPVTRLATVTFDLDGKLTSFNAEQLKEVQKNALDELRYSSDYT  108 (183)
+T ss_dssp             TTSEEEEEEESCCTTCCTTCEEEETTEEEEEEEEEEEETTTTEEEEEEEECTTCCCSCHHHHHHHHHHHHHHHHHSHHHH
+T ss_pred             CCcEEEEEEeCCCCCCCCCCeEEECCEEEEEEEEEEecCCCCeEEEEEEEcCcccccchHHhhHHHHhhhhhhhcCcccc
+Confidence            356789999999999999999999999999999999976  478999999998                         5 
+
+
+Q query            96 ----------------------KVPENATASILNPSLVASRVIQLSPPYTGGPTLRDGAVLDVDRTQVPIEYDEVRN  150 (547)
+Q Consensus        96 ----------------------~VPada~A~I~~~SLVg~RyVqLtP~y~gGP~L~dGavIP~eRT~vPvE~Del~~  150 (547)
+                                            .|++|+++.|.+.+++|++||+|.|+.. .+.|++|++|..  |+.+.++++++.
+T Consensus       109 ~~~~~~~~~~~~~~~~~~~~~~~i~~~~~~~v~~~~l~G~~~i~i~~~~~-~~~l~~g~~i~~--~~~~~~~~~~~~  182 (183)
+T 6IC4_A          109 QATPAQQKTMEQQLISNMNSITSIDEDAYIMVATNGLLGEKYLKIVPGGG-LNYLKRGDTISN--TQGTMDLEDLIS  182 (183)
+T ss_dssp             SSCHHHHHHHHHHHHHTHHHHTTCCSCEEEEEEESSSSSCEEEEEEECCC-SSCCCTTSCCEE--EESSCCHHHHHT
+T ss_pred             cCCHHHHHHHHHHHHhccccccccCCCCEEEEEeCCCCcccEEEeecCCC-CCcCCCCCEEec--ccCCCCHHHHhc
+Confidence                                  7999999999999999999999999875 579999999986  666788887764
+
+
+No 10
+>5UW8_B Probable phospholipid ABC transporter-binding protein; MCE protein, bacterial lipid transport; 2.15A {Escherichia coli O157:H7}
+Probab=99.30  E-value=1.8e-15  Score=138.30  Aligned_cols=96  Identities=23%  Similarity=0.387  Sum_probs=86.3  Template_Neff=7.800
+
+Q query            43 KLTNTTVTAYFPEVLALYPGDKVLIMGVRVGSIDSIETAGD--KMKVVFHFNNKY-KVPENATASILNPSLVASRVIQLS  119 (547)
+Q Consensus        43 ~~~~~tvtA~F~da~GLy~Gd~VrV~GV~VG~V~sIep~gd--~V~Vt~~vd~~~-~VPada~A~I~~~SLVg~RyVqLt  119 (547)
+                      ...+++|+++|+++.||.+|++|+++|++||+|++|++.++  .++|+|.|++++ +|++|+++.|...+++|++||+|.
+T Consensus        18 ~~~~~~i~~~f~~~~GL~~gs~V~~~Gv~VG~V~~i~~~~~~~~v~V~l~i~~~~~~l~~~s~~~i~~~~llG~~~i~l~   97 (122)
+T 5UW8_B           18 TEPTYTLYATFDNIGGLKARSPVSIGGVVVGRVADITLDPKTYLPRVTLEIEQRYNHIPDTSSLSIRTSGLLGEQYLALN   97 (122)
+T ss_dssp             -CCEEEEEEECSCCTTCCTTCEEEETTEEEEEEEEEEECTTTCCEEEEEEEETTCCCCBTTCEEEEEEETTTTEEEEEEE
+T ss_pred             CCCcEEEEEEECCCCCCCCCCcEEECCEEEEEEEEEEeCCCCCeeEEEEEEeCCcccCCCCCEEEEEeCCCCCccEEEEe
+Confidence            34568899999999999999999999999999999999874  689999999998 999999999999999999999999
+
+
+Q query           120 PPYT----GGPTLRDGAVLDVDR  138 (547)
+Q Consensus       120 P~y~----gGP~L~dGavIP~eR  138 (547)
+                      ++..    +++.|++|++|+..+
+T Consensus        98 ~g~~~~~~~~~~l~~g~~i~~~~  120 (122)
+T 5UW8_B           98 VGFEDPELGTAILKDGDTIQDTK  120 (122)
+T ss_dssp             CCCC-----CCBCCTTCEECEEE
+T ss_pred             cCCCCccccccccCCCCEEeccC
+Confidence            9865    257899999998754
+
+
+No 11
+>5UW8_G Probable phospholipid ABC transporter-binding protein; MCE protein, bacterial lipid transport; 2.15A {Escherichia coli O157:H7}
+Probab=99.30  E-value=1.8e-15  Score=138.30  Aligned_cols=96  Identities=23%  Similarity=0.387  Sum_probs=87.0  Template_Neff=7.800
+
+Q query            43 KLTNTTVTAYFPEVLALYPGDKVLIMGVRVGSIDSIETAGD--KMKVVFHFNNKY-KVPENATASILNPSLVASRVIQLS  119 (547)
+Q Consensus        43 ~~~~~tvtA~F~da~GLy~Gd~VrV~GV~VG~V~sIep~gd--~V~Vt~~vd~~~-~VPada~A~I~~~SLVg~RyVqLt  119 (547)
+                      ...+++|+++|+++.||.+|++|+++|++||+|++|++.++  .++|+|.|++++ +|++|+++.|...+++|++||+|.
+T Consensus        18 ~~~~~~i~~~f~~~~GL~~gs~V~~~Gv~VG~V~~i~~~~~~~~v~V~l~i~~~~~~l~~~s~~~i~~~~llG~~~i~l~   97 (122)
+T 5UW8_G           18 TEPTYTLYATFDNIGGLKARSPVSIGGVVVGRVADITLDPKTYLPRVTLEIEQRYNHIPDTSSLSIRTSGLLGEQYLALN   97 (122)
+T ss_dssp             CCCEEEEEEECSCCTTCCTTCEEEETTEEEEEEEEEEECTTTCCEEEEEEEETTCCCCBTTCEEEEEECTTTCCEEEEEE
+T ss_pred             CCCcEEEEEEECCCCCCCCCCcEEECCEEEEEEEEEEeCCCCCeeEEEEEEeCCcccCCCCCEEEEEeCCCCCccEEEEe
+Confidence            34568899999999999999999999999999999999874  689999999998 999999999999999999999999
+
+
+Q query           120 PPYT----GGPTLRDGAVLDVDR  138 (547)
+Q Consensus       120 P~y~----gGP~L~dGavIP~eR  138 (547)
+                      ++..    +++.|++|++|+..+
+T Consensus        98 ~g~~~~~~~~~~l~~g~~i~~~~  120 (122)
+T 5UW8_G           98 VGFEDPELGTAILKDGDTIQDTK  120 (122)
+T ss_dssp             CCCCCGGGTCCBCCTTEEECEEE
+T ss_pred             cCCCCccccccccCCCCEEeccC
+Confidence            9865    257899999998754
+
+
+No 12
+>5UVN_F Paraquat-inducible protein B; MCE protein, bacterial lipid transport; 3.96A {Escherichia coli}
+Probab=99.14  E-value=3.8e-14  Score=156.37  Aligned_cols=139  Identities=10%  Similarity=0.175  Sum_probs=114.9  Template_Neff=7.500
+
+Q query            47 TTVTAYFP-EVLALYPGDKVLIMGVRVGSIDSIETAGD----------KMKVVFHFNNK-----------------YKVP   98 (547)
+Q Consensus        47 ~tvtA~F~-da~GLy~Gd~VrV~GV~VG~V~sIep~gd----------~V~Vt~~vd~~-----------------~~VP   98 (547)
+                      ++|+++|+ ++.||.+|++|+|+|++||+|++|++..+          +++|++.|+++                 ..|+
+T Consensus       261 ~~~~~~f~~~~~GL~~GspV~~~Gv~VG~V~~I~~~~~~~~~~~~~~~~v~V~l~I~~~~~~~~~~~~~~~~~~~~~~i~  340 (453)
+T 5UVN_F          261 IDYLMFFKDSVRGLQPGAPVEFRGIRLGTVSKVPFFAPNMRQTFNDDYRIPVLIRIEPERLKMQLGENADVVEHLGELLK  340 (453)
+T ss_dssp             EEEEEEECSCCCSCCTTCEEEETTEEEEEECCSSCCCHHHHHHHHHHCSEEEEEEECGGGTC-------CHHHHHHHHHT
+T ss_pred             ceEEEEeCCCCCCCCCCCcEEECCEEeeEEEEEEccCCCccCCCCcceEEEEEEEEeHHHHhcccCCchHHHHHHHHHHH
+Confidence            47889997 99999999999999999999999999764          78899999997                 4699
+
+
+Q query            99 ENATASILNPS-LVASRVIQLSPPYTGGPTL-----RDGAVLDVDRTQVPIEYDEVRNQVTRLLADLGPTPEQPKGPFGD  172 (547)
+Q Consensus        99 ada~A~I~~~S-LVg~RyVqLtP~y~gGP~L-----~dGavIP~eRT~vPvE~Del~~~L~~L~~~LgP~~~~~~g~l~~  172 (547)
+                      ++++|.|.+.+ ++|.+||+|.++....+.+     .++.+|+.    .+.+++++++.++.+++++++.      .+.+
+T Consensus       341 ~g~~a~i~~~~ll~G~~~I~L~~~~~~~~~l~~~~~~~~~~Ip~----~~~~l~~l~~~~~~ll~~l~~~------~l~~  410 (453)
+T 5UVN_F          341 RGLRGSLKTGNLVTGALYVDLDFYPNTPAITGIREFNGYQIIPT----VSGGLAQIQQRLMEALDKINKL------XXXX  410 (453)
+T ss_dssp             TTCCEEEEESSSSSCCEEEEEC--------------CCSCEECB----CCCHHHHHHHHHHHHHHHHHTC------CHHH
+T ss_pred             cCCEEEEEeCCCccceeEEEeecCCCCCcccccccccCceEecc----CCCHHHHHHHHHHHHHHHHHhC------CCCC
+Confidence            99999999999 8899999999987655544     37889986    3568999999999999988643      5888
+
+
+Q query           173 IIESFADGFAGKGEQLNRTLRGL  195 (547)
+Q Consensus       173 ~l~s~a~~l~G~G~~L~~tL~~L  195 (547)
+                      +++++.+.++|.+++++++|...
+T Consensus       411 il~~l~~~l~~~~~~~~~~~~~~  433 (453)
+T 5UVN_F          411 XXXXXXXXXXXXXXXXXXXXXXX  433 (453)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             CCCCCCCCCCCCCCCCCCCCCCC
+Confidence            99999999999999998887654
+
+
+No 13
+>6VCI_C Lipophilic envelope-spanning tunnel protein LetB; lipid transport, bacterial cell envelope; 2.15A {Escherichia coli (strain K12)}
+Probab=98.18  E-value=4.3e-09  Score=107.21  Aligned_cols=86  Identities=13%  Similarity=0.171  Sum_probs=75.8  Template_Neff=7.900
+
+Q query            46 NTTVTAYFPEVLALYPGDKVLIMGVRVGSIDSIETAGD--KMKVVFHFNNKY--KVPENATASILN--PSLVASRVIQLS  119 (547)
+Q Consensus        46 ~~tvtA~F~da~GLy~Gd~VrV~GV~VG~V~sIep~gd--~V~Vt~~vd~~~--~VPada~A~I~~--~SLVg~RyVqLt  119 (547)
+                      +++|+++|+++.||..|++|+|+|++||+|++|++.++  +++|++.|+++|  .|++++++++.+  ...+|.++|+|.
+T Consensus         3 g~~v~l~~~~~~gL~~GspV~y~Gv~VG~V~~i~l~~~~~~v~v~l~I~~~~~~~i~~~s~f~~~sg~~~~~g~~gv~v~   82 (235)
+T 6VCI_C            3 DLMIHLQAPDLGSLNSGSLVYFRKIPVGKVYDYAINPNKQGVVIDVLIERRFTDLVKKGSRFWNVSGVDANVSISGAKVK   82 (235)
+T ss_dssp             CEEEEEEESCCTTCCTTCEEEETTEEEEEEEEEEECSSSSSEEEEEEECSTTGGGCBTTCCEEEEEEECCEEEECCTCES
+T ss_pred             CEEEEEEeCCCCCCCCCCeEEECCeeeEEEEEEEEcCCCCeEEEEEEEccchhhheecCcEEEEccceEEEEeccceEEE
+Confidence            46899999999999999999999999999999999874  799999999999  799999999998  488999999999
+
+
+Q query           120 PPYTGGPTLRDGAV  133 (547)
+Q Consensus       120 P~y~gGP~L~dGav  133 (547)
+                      ++..  ..|-.|..
+T Consensus        83 ~~~~--~~l~~G~i   94 (235)
+T 6VCI_C           83 LESL--AALVNGAI   94 (235)
+T ss_dssp             CCTT--GGGEEEEE
+T ss_pred             eCCH--HHHHhCeE
+Confidence            8754  24555654
+
+
+No 14
+>6VCI_A Lipophilic envelope-spanning tunnel protein LetB; lipid transport, bacterial cell envelope; 2.15A {Escherichia coli (strain K12)}
+Probab=97.83  E-value=6.9e-08  Score=98.61  Aligned_cols=78  Identities=17%  Similarity=0.309  Sum_probs=70.9  Template_Neff=7.800
+
+Q query            45 TNTTVTAYFPEVLALYP-GDKVLIMGVRVGSIDSIETAGD-KMKVVFHFNNKY--KVPENATASILNPS----------L  110 (547)
+Q Consensus        45 ~~~tvtA~F~da~GLy~-Gd~VrV~GV~VG~V~sIep~gd-~V~Vt~~vd~~~--~VPada~A~I~~~S----------L  110 (547)
+                      ..++|+++|+++.||.. |++|+|+|++||+|++|++..+ +++|++.|++++  .+++++++++...+          +
+T Consensus       122 ~~~~i~l~~~~~~gL~~ggspV~y~Gv~VG~V~~i~l~~~~~v~v~~~I~~~~~~~i~~~s~f~~~~~~i~l~~~~l~tl  201 (235)
+T 6VCI_A          122 RGVIIKLELPSGAGLTADSTPLMYQGLEVGQLTKLDLNPGGKVTGEMTVDPSVVTLLRENTRIELRNPKLSLSDANLSAL  201 (235)
+T ss_dssp             CCEEEEEEESCCTTCCTTTSEEEETTEEEEEEEEEEECTTSCEEEEEEECGGGGGGCBSSCEEEEECCSCCCSCCSSCHH
+T ss_pred             CCcEEEEEeCCCCCCCCCCccEEECCEEEEEEEEEEcCCCCcEEEEEEEchHHHhhCcCCCEEEEcCCCeeccccCHHHH
+Confidence            35788999999999999 7999999999999999999875 788999999999  79999999999874          9
+
+
+Q query           111 VASRVIQLSPPY  122 (547)
+Q Consensus       111 Vg~RyVqLtP~y  122 (547)
+                      +++.||++.|+.
+T Consensus       202 l~g~~i~~~~~~  213 (235)
+T 6VCI_A          202 LTGKTFELVPGD  213 (235)
+T ss_dssp             HHSCEEEEECCC
+T ss_pred             HccCEEEecCCC
+Confidence            999999999864
+
+
+No 15
+>6VCI_C Lipophilic envelope-spanning tunnel protein LetB; lipid transport, bacterial cell envelope; 2.15A {Escherichia coli (strain K12)}
+Probab=97.80  E-value=8.3e-08  Score=97.94  Aligned_cols=77  Identities=17%  Similarity=0.317  Sum_probs=69.7  Template_Neff=7.900
+
+Q query            46 NTTVTAYFPEVLALYPG-DKVLIMGVRVGSIDSIETAGD-KMKVVFHFNNKY--KVPENATASILNP----------SLV  111 (547)
+Q Consensus        46 ~~tvtA~F~da~GLy~G-d~VrV~GV~VG~V~sIep~gd-~V~Vt~~vd~~~--~VPada~A~I~~~----------SLV  111 (547)
+                      ..+|+++|+++.||.+| ++|+|+|++||+|++|++..+ ++.|++.|++++  .+++++++++...          +++
+T Consensus       123 ~~~i~l~~~~~~gL~~G~spV~~~Gv~VG~V~~v~l~~~~~v~v~i~I~~~~~~~l~~~s~f~~~~~~i~~~g~~~~sll  202 (235)
+T 6VCI_C          123 GVIIKLELPSGAGLTADSTPLMYQGLEVGQLTKLDLNPGGKVTGEMTVDPSVVTLLRENTRIELRNPKLSLSDANLSALL  202 (235)
+T ss_dssp             CEEEEEEESCCTTCCTTTCEEEETTEEEEEEEEEEECGGGCEEEEEEECGGGGGGCBTTCEEEEECCSCCCCCTTSCHHH
+T ss_pred             CeEEEEEeCCCCCCCCCccceEECCEEEEEEEEEEcCCCCcEEEEEEEcHHHHhhccccceEEeccccccccCCChhhhh
+Confidence            56899999999999999 999999999999999999865 788999999999  7999999999765          779
+
+
+Q query           112 ASRVIQLSPPY  122 (547)
+Q Consensus       112 g~RyVqLtP~y  122 (547)
+                      ++.||.|.|+.
+T Consensus       203 ~G~~i~l~pg~  213 (235)
+T 6VCI_C          203 TGKTFELVPGD  213 (235)
+T ss_dssp             HSCEEEEECCC
+T ss_pred             cccEEEEeCCC
+Confidence            88999999753
+
+
+No 16
+>6V0C_D Intermembrane transport protein YebT; lipid transport, bacterial cell envelope; 3.46A {Escherichia coli (strain K12)}
+Probab=97.79  E-value=9e-08  Score=114.17  Aligned_cols=77  Identities=27%  Similarity=0.420  Sum_probs=71.7  Template_Neff=7.300
+
+Q query            47 TTVTAYFPEVLALYPG-DKVLIMGVRVGSIDSIETAGD--KMKVVFHFNNKY--KVPENATASILNP-----------SL  110 (547)
+Q Consensus        47 ~tvtA~F~da~GLy~G-d~VrV~GV~VG~V~sIep~gd--~V~Vt~~vd~~~--~VPada~A~I~~~-----------SL  110 (547)
+                      ++|+++|+++.||.+| ++|+|+|++||+|++|++..+  +++|++.||+++  .|++|++++|+.+           ++
+T Consensus         2 ~~i~v~f~~~~GL~~g~t~V~~~Gv~VG~V~~i~l~~~~~~v~v~~~i~~~~~~~l~~~s~~~i~~~~~sl~gi~~l~~l   81 (832)
+T 6V0C_D            2 NTVTIDFMSADGIVPGRTPVRYQGVEVGTVQDISLSDDLRKIEVKVSIKSDMKDALREETQFWLVTPKASLAGVSGLDAL   81 (832)
+T ss_dssp             CCEEEEESCCSSCCSSSCEEEETTEEEEEEEEEEEETTTTEEEEEEEECHHHHHHCCSSCEEEEECCCCCHHHHHTCTTT
+T ss_pred             eEEEEEeCCCCCCCCCccceEECCEEEEEEEEEEEcCCCCEEEEEEEEchhhhhhccCCcEEEEEcCccccccCcccchh
+Confidence            5789999999999999 999999999999999999864  699999999998  7999999999999           99
+
+
+Q query           111 VASRVIQLSPPYT  123 (547)
+Q Consensus       111 Vg~RyVqLtP~y~  123 (547)
+                      +|++||++.|+..
+T Consensus        82 ~gg~yi~l~pg~~   94 (832)
+T 6V0C_D           82 VGGNYIGMMPGKG   94 (832)
+T ss_dssp             SCCCEEEEECCSC
+T ss_pred             cccceEEEeCCCC
+Confidence            9999999998753
+
+
+No 17
+>6V0F_A Intermembrane transport protein YebT; conformational dynamics, lipid transport, bacterial; 2.96A {Escherichia coli (strain K12)}
+Probab=97.79  E-value=9e-08  Score=114.17  Aligned_cols=77  Identities=27%  Similarity=0.420  Sum_probs=0.0  Template_Neff=7.300
+
+Q query            47 TTVTAYFPEVLALYPG-DKVLIMGVRVGSIDSIETAGD--KMKVVFHFNNKY--KVPENATASILNP-----------SL  110 (547)
+Q Consensus        47 ~tvtA~F~da~GLy~G-d~VrV~GV~VG~V~sIep~gd--~V~Vt~~vd~~~--~VPada~A~I~~~-----------SL  110 (547)
+                      ++|+++|+++.||.+| ++|+|+|++||+|++|++..+  +++|++.||+++  .|++|++++|+.+           ++
+T Consensus         2 ~~i~v~f~~~~GL~~g~t~V~~~Gv~VG~V~~i~l~~~~~~v~v~~~i~~~~~~~l~~~s~~~i~~~~~sl~gi~~l~~l   81 (832)
+T 6V0F_A            2 NTVTIDFMSADGIVPGRTPVRYQGVEVGTVQDISLSDDLRKIEVKVSIKSDMKDALREETQFWLVTPKASLAGVSGLDAL   81 (832)
+T ss_dssp             --------------------------------------------------------------------------------
+T ss_pred             eEEEEEeCCCCCCCCCccceEECCEEEEEEEEEEEcCCCCEEEEEEEEchhhhhhccCCcEEEEEcCccccccCcccchh
+Confidence            5789999999999999 999999999999999999864  699999999998  7999999999999           99
+
+
+Q query           111 VASRVIQLSPPYT  123 (547)
+Q Consensus       111 Vg~RyVqLtP~y~  123 (547)
+                      +|++||++.|+..
+T Consensus        82 ~gg~yi~l~pg~~   94 (832)
+T 6V0F_A           82 VGGNYIGMMPGKG   94 (832)
+T ss_dssp             -------------
+T ss_pred             cccceEEEeCCCC
+Confidence            9999999998753
+
+
+No 18
+>6KZ3_A Intermembrane transport protein YebT; lipid channel, LIPID TRANSPORT;{Escherichia coli K-12}
+Probab=97.77  E-value=1e-07  Score=106.51  Aligned_cols=77  Identities=27%  Similarity=0.420  Sum_probs=71.3  Template_Neff=7.700
+
+Q query            47 TTVTAYFPEVLALYPG-DKVLIMGVRVGSIDSIETAGD--KMKVVFHFNNKY--KVPENATASILNP-----------SL  110 (547)
+Q Consensus        47 ~tvtA~F~da~GLy~G-d~VrV~GV~VG~V~sIep~gd--~V~Vt~~vd~~~--~VPada~A~I~~~-----------SL  110 (547)
+                      ++|+++|+++.||.+| ++|+|+|++||+|++|++.++  +++|++.|++++  .|++|++++|.+.           ++
+T Consensus         2 ~~~~~~~~~~~gl~~g~t~V~~~Gv~VG~V~~v~l~~~~~~v~v~~~i~~~~~~~i~~~s~f~i~~~~~sl~gi~~l~~l   81 (464)
+T 6KZ3_A            2 NTVTIDFMSADGIVPGRTPVRYQGVEVGTVQDISLSDDLRKIEVKVSIKSDMKDALREETQFWLVTPKASLAGVSGLDAL   81 (464)
+T ss_dssp             CCEEEEESCCSSCCTTTCEEEETTEEEEEEEEEEECTTSSSEEEEECCCSSCTTSSSSSCEEEECCCCCCSSSSSSCGGG
+T ss_pred             eEEEEEeCCCCCCCCCcceeEECCEEEEEEEEEEecCCCCeEEEEEEEChhhhhheecCcEEEEecCcccccccCCHHHH
+Confidence            5789999999999998 999999999999999999875  799999999999  7999999999997           99
+
+
+Q query           111 VASRVIQLSPPYT  123 (547)
+Q Consensus       111 Vg~RyVqLtP~y~  123 (547)
+                      +++.||++.|+..
+T Consensus        82 l~g~~i~~~p~~~   94 (464)
+T 6KZ3_A           82 VGGNYIGMMPGKG   94 (464)
+T ss_dssp             SCCCCEEEECCSS
+T ss_pred             hccceEEecCCCC
+Confidence            9999999998753
+
+
+No 19
+>6KZ4_A Intermembrane transport protein YebT; lipid channel, LIPID TRANSPORT;{Escherichia coli K-12}
+Probab=97.60  E-value=3.3e-07  Score=99.52  Aligned_cols=87  Identities=16%  Similarity=0.217  Sum_probs=71.6  Template_Neff=8.000
+
+Q query            46 NTTVTAYFPEVLALYPGDKVLIMGVRVGSIDSIETAGDKMKVVFHFNNKY--KVPENATASILN---PSLVASRVIQLSP  120 (547)
+Q Consensus        46 ~~tvtA~F~da~GLy~Gd~VrV~GV~VG~V~sIep~gd~V~Vt~~vd~~~--~VPada~A~I~~---~SLVg~RyVqLtP  120 (547)
+                      +++|+++|+++.||.+|++|+|+|++||+|++|++..++++|++.|+++|  .|++|+++++.+   .++ +-.-|+|.+
+T Consensus         3 g~~~~~~~~~~~gL~~GspV~~~Gv~VG~V~~i~l~~~~v~v~~~I~~~~~~~i~~~s~f~i~sg~~~~~-~~~gv~v~~   81 (366)
+T 6KZ4_A            3 TTTVSLSAETLPDVQAGSVVLYRKFEVGEVITVRPRANAFDIDLHIKPEYRNLLTSNSVFWAEGGAKVQL-NGSGLTVQA   81 (366)
+T ss_dssp             CCSEEEEESSCCSCCTTCEEESSSSEEEEEEEEEECSSSEEEEEEECGGGGGGCCSSEEEEECCSCBCCE-ETTEECCBC
+T ss_pred             CEEEEEEeCCCCCCCCCCEEEECCeEEEEEEEEEeCCCeEEEEEEECHHHHhhcCCCCEEEEecceEEEE-ecCCceeec
+Confidence            57899999999999999999999999999999999988999999999999  799999999962   222 222387877
+
+
+Q query           121 PYTGGPTLRDGAVLDV  136 (547)
+Q Consensus       121 ~y~gGP~L~dGavIP~  136 (547)
+                      ..-  ..|-+|+ |..
+T Consensus        82 ~~l--~~l~~G~-i~~   94 (366)
+T 6KZ4_A           82 SPL--SRALKGA-ISF   94 (366)
+T ss_dssp             CST--THHHHCE-EEE
+T ss_pred             CcH--HHHHcCe-EEE
+Confidence            543  2477777 654
+
+
+No 20
+>6KZ4_A Intermembrane transport protein YebT; lipid channel, LIPID TRANSPORT;{Escherichia coli K-12}
+Probab=97.58  E-value=3.6e-07  Score=99.18  Aligned_cols=76  Identities=13%  Similarity=0.234  Sum_probs=68.5  Template_Neff=8.000
+
+Q query            46 NTTVTAYFPEVLALYPGDKVLIMGVRVGSIDSIETAGD--KMKVVFHFNNKY--K-VPENATASILN-----------PS  109 (547)
+Q Consensus        46 ~~tvtA~F~da~GLy~Gd~VrV~GV~VG~V~sIep~gd--~V~Vt~~vd~~~--~-VPada~A~I~~-----------~S  109 (547)
+                      +.++++.|+++.||..|++|+++|++||+|++|++.++  +++|++.|++++  . ++++++++|..           .+
+T Consensus       123 ~~~i~~~~~~~~gL~~gs~V~~~Gv~VG~V~~i~l~~~~~~v~v~~~I~~~~~~~~~~~~s~~~i~~~~i~~~gi~~l~~  202 (366)
+T 6KZ4_A          123 GGQITLHAFDAGKLAVGMPIRYLGIDIGQIQTLDLITARNEVQAKAVLYPEYVQTFARGGTRFSVVTPQISAAGVEHLDT  202 (366)
+T ss_dssp             SEEEEEEESCTTSCCTTCEEEETTEEEEEECCCEEETTTTEEEEEEEECTTTTTTSSSTTCEEEEECCEEETTEEECGGG
+T ss_pred             CceEEEEecCCCCCCCCCeEEECCEEEEEEEEEeccCCCCeEEEEEEEcHHHHHhhccCCCEEEEECCCcCCCCCCChHH
+Confidence            56889999999999999999999999999999999775  799999999997  4 59999999987           67
+
+
+Q query           110 LVASRVIQLSPPY  122 (547)
+Q Consensus       110 LVg~RyVqLtP~y  122 (547)
+                      ++| +||+|.|+.
+T Consensus       203 llg-~~I~l~p~~  214 (366)
+T 6KZ4_A          203 ILQ-PYINVEPGR  214 (366)
+T ss_dssp             GTS-CEEEEECCC
+T ss_pred             hcc-ceeEEecCC
+Confidence            888 999998763
+
+
+No 21
+>5UVN_F Paraquat-inducible protein B; MCE protein, bacterial lipid transport; 3.96A {Escherichia coli}
+Probab=97.47  E-value=7.2e-07  Score=99.78  Aligned_cols=79  Identities=19%  Similarity=0.287  Sum_probs=71.0  Template_Neff=7.500
+
+Q query            45 TNTTVTAYFPEVLALYPG-DKVLIMGVRVGSIDSIETAGD--KMKVVFHFNNKY--KVPENATASILNP-----------  108 (547)
+Q Consensus        45 ~~~tvtA~F~da~GLy~G-d~VrV~GV~VG~V~sIep~gd--~V~Vt~~vd~~~--~VPada~A~I~~~-----------  108 (547)
+                      .+.+|+++|+++.||.+| ++|+|+|++||+|++|++..+  ++.|++.|+++|  .|+++++++|...           
+T Consensus        16 ~g~~i~l~~~~~~gL~~G~tpV~y~Gv~VG~V~~i~l~~~~~~v~v~i~I~~~~~~~i~~~S~Fwi~~~~~~~~gi~~l~   95 (453)
+T 5UVN_F           16 QGPEVTLITANAEGIEGGKTTIKSRSVDVGVVESATLADDLTHVEIKARLNSGMEKLLHKDTVFWVVKPQIGREGISGLG   95 (453)
+T ss_dssp             -CCEEEEEESCCTTCCTTTCEEEETTEEEEEEEEEEECTTSSSEEEEEEECGGGGGGCTTTCEEEECCCCBSSSCBCCSS
+T ss_pred             CCCEEEEEeCCCCCCCCCCCeEEECCEEEEEEEEEEEcCCCCeEEEEEEEchhhHHhccCCcEEEEeCCccccccccchH
+Confidence            457899999999999999 999999999999999999764  688999999999  5999999999974           
+
+
+Q query           109 SLVASRVIQLSPPYT  123 (547)
+Q Consensus       109 SLVg~RyVqLtP~y~  123 (547)
+                      +|+++.||.+.|+..
+T Consensus        96 ~Ll~G~~I~~~p~~~  110 (453)
+T 5UVN_F           96 TLLSGVYIELQPGAK  110 (453)
+T ss_dssp             HHHHCCCEEEECCSS
+T ss_pred             HHhcCCEEEEecCCC
+Confidence            489999999998754
+
+
+No 22
+>6VCI_A Lipophilic envelope-spanning tunnel protein LetB; lipid transport, bacterial cell envelope; 2.15A {Escherichia coli (strain K12)}
+Probab=97.36  E-value=1.4e-06  Score=89.28  Aligned_cols=76  Identities=11%  Similarity=0.127  Sum_probs=58.7  Template_Neff=7.800
+
+Q query            46 NTTVTAYFPEVLALYPGDKVLIMGVRVGSIDSIETAGD--KMKVVFHFNNKY--KVPENATASILNP--SLVASRVIQLS  119 (547)
+Q Consensus        46 ~~tvtA~F~da~GLy~Gd~VrV~GV~VG~V~sIep~gd--~V~Vt~~vd~~~--~VPada~A~I~~~--SLVg~RyVqLt  119 (547)
+                      +++++++|+++.||.+|++|+|+|++||+|++|++..+  +++|++.|+++|  .|+++++++|.+.  --++...|++.
+T Consensus         3 ~~~i~l~~~~~~gL~~GspV~y~Gv~VG~V~~i~l~~~~~~v~v~~~I~~~~~~~i~~~s~f~i~sg~~~~~~~~g~~v~   82 (235)
+T 6VCI_A            3 DLMIHLQAPDLGSLNSGSLVYFRKIPVGKVYDYAINPNKQGVVIDVLIERRFTDLVKKGSRFWNVSGVDANVSISGAKVK   82 (235)
+T ss_dssp             CEEEEEEESCCTTCCTTCEEEETTEEEEEEEEEEECSSSSSEEEEEEECSTTGGGCBTTCCEEEEEEECC----------
+T ss_pred             CEEEEEEeCCcCCCCCCCeEEECCeeeEEEEEEEEcCCCCeEEEEEEEechhhhhcccCCEEEEeeCeEEEEeccceEEE
+Confidence            46789999999999999999999999999999999874  799999999999  6999999999873  12455567766
+
+
+Q query           120 PP  121 (547)
+Q Consensus       120 P~  121 (547)
+                      ..
+T Consensus        83 ~~   84 (235)
+T 6VCI_A           83 LE   84 (235)
+T ss_dssp             -C
+T ss_pred             eC
+Confidence            54
+
+
+No 23
+>6KZ4_A Intermembrane transport protein YebT; lipid channel, LIPID TRANSPORT;{Escherichia coli K-12}
+Probab=97.21  E-value=3.1e-06  Score=92.08  Aligned_cols=88  Identities=17%  Similarity=0.263  Sum_probs=75.4  Template_Neff=8.000
+
+Q query            45 TNTTVTAYFPEVLALYPGDKVLIMGVRVGSIDSIETAG--DKMKVVFHFNNKY--KVPENATASILNPSL---VASRVIQ  117 (547)
+Q Consensus        45 ~~~tvtA~F~da~GLy~Gd~VrV~GV~VG~V~sIep~g--d~V~Vt~~vd~~~--~VPada~A~I~~~SL---Vg~RyVq  117 (547)
+                      ..++|+++|+++.||.+|++|+|+|++||+|++|++..  ++++|++.|+++|  .|++++++++.+ ++   +|..+++
+T Consensus       235 ~~~~~~l~~~~~~gL~~GspV~y~Gv~VG~V~~i~l~~~~~~v~v~~~I~~~~~~~v~~~s~f~~~s-gl~~~~g~~g~~  313 (366)
+T 6KZ4_A          235 DGLSIIVEAPEAGSLGIGTPVLFRGLEVGTVTGMTLGTLSDRVMIAMRISKRYQHLVRNNSVFWLAS-GYSLDFGLTGGV  313 (366)
+T ss_dssp             SSCEEEEEESCCTTCCTTCEEEETTEEEEEEEEEECCSSTTSEEEEEEECTTSGGGCBTTCCBEEEC-SCCCCCCSSCCC
+T ss_pred             CcEEEEEEeCCCCCCCCCCcEEECCEEEEEEEEEEecCCCCeeEEEEEEcccccccccCCeEEEecc-CeEEEEEccccE
+Confidence            35788999999999999999999999999999999976  5899999999999  799999999987 77   8999999
+
+
+Q query           118 LSPPYTGGPTLRDGAVL  134 (547)
+Q Consensus       118 LtP~y~gGP~L~dGavI  134 (547)
+                      +.++.- ...|+.|-.+
+T Consensus       314 i~~~~l-~~~l~ggi~~  329 (366)
+T 6KZ4_A          314 VKTGTF-NQFIRGGIAF  329 (366)
+T ss_dssp             CCCCCC-GGGTSCEEEC
+T ss_pred             EEcCCH-HHHHhCceEE
+Confidence            988643 3355555444
+
+
+No 24
+>6KZ3_A Intermembrane transport protein YebT; lipid channel, LIPID TRANSPORT;{Escherichia coli K-12}
+Probab=96.88  E-value=1.6e-05  Score=89.57  Aligned_cols=78  Identities=17%  Similarity=0.308  Sum_probs=68.2  Template_Neff=7.700
+
+Q query            45 TNTTVTAYFPEVLALYPG-DKVLIMGVRVGSIDSIETAGD-KMKVVFHFNNKY--KVPENATASILNPSL----------  110 (547)
+Q Consensus        45 ~~~tvtA~F~da~GLy~G-d~VrV~GV~VG~V~sIep~gd-~V~Vt~~vd~~~--~VPada~A~I~~~SL----------  110 (547)
+                      .+.+|++.|+++.||.+| ++|+|+|++||+|++|++..+ ++.|++.|+++|  .+.+++++++.+..+          
+T Consensus       234 ~g~~i~l~~~~~~gL~~G~~pV~y~Gi~VG~V~~v~l~~d~~v~v~~~I~~~~~~~~~~~s~fwi~~~~i~~~G~~l~~l  313 (464)
+T 6KZ3_A          234 RGVIIKLELPSGAGLTADSTPLMYQGLEVGQLTKLDLNPGGKVTGEMTVDPSVVTLLRENTRIELRNPKLSLSDANLSAL  313 (464)
+T ss_dssp             CCEEEEEEESCCSSCCSSSCEEEETTEEEEEEEEECCCTTSCEEEEEEECTTSGGGCBTTCEEEEECCCCCTTTCCTTHH
+T ss_pred             CCEEEEEEeCCCCCCCCCceeeEECCEEEEEEEEEEcCCCCeEEEEEEECHHHHHhhccCcEEEEccccccccCCChhHh
+Confidence            356899999999999999 999999999999999999876 688999999998  599999999988766          
+
+
+Q query           111 VASRVIQLSPPY  122 (547)
+Q Consensus       111 Vg~RyVqLtP~y  122 (547)
+                      +++.||.+.|+.
+T Consensus       314 l~G~~i~~~~~~  325 (464)
+T 6KZ3_A          314 LTGKTFELVPGD  325 (464)
+T ss_dssp             HHCCEEEEECCC
+T ss_pred             eeccEEEeecCC
+Confidence            667788887653
+
+
+No 25
+>6V0C_D Intermembrane transport protein YebT; lipid transport, bacterial cell envelope; 3.46A {Escherichia coli (strain K12)}
+Probab=96.71  E-value=3.3e-05  Score=93.00  Aligned_cols=77  Identities=13%  Similarity=0.220  Sum_probs=68.4  Template_Neff=7.300
+
+Q query            46 NTTVTAYFPEVLALYPGDKVLIMGVRVGSIDSIETAGD--KMKVVFHFNNKYK---VPENATASILN-----------PS  109 (547)
+Q Consensus        46 ~~tvtA~F~da~GLy~Gd~VrV~GV~VG~V~sIep~gd--~V~Vt~~vd~~~~---VPada~A~I~~-----------~S  109 (547)
+                      +..|+++|+++.||.+|++|+|+|++||+|++|++..+  ++.|++.|++++.   ++++++++|..           .+
+T Consensus       589 ~~~i~i~f~~~~GL~~gs~V~y~Gv~IG~V~~I~l~~d~~~v~v~~~i~~~~~~~~i~~~s~f~i~~p~i~l~gis~l~t  668 (832)
+T 6V0C_D          589 GGQITLHAFDAGKLAVGMPIRYLGIDIGQIQTLDLITARNEVQAKAVLYPEYVQTFARGGTRFSVVTPQISAAGVEHLDT  668 (832)
+T ss_dssp             SEEEEEEESCCSSCCTTCEEEETTEEEEEEEEEEEETTTTEEEEEEEECTTTTTTSSSSSCEEEEECCCBCSSCBCCSGG
+T ss_pred             CcEEEEEecCCCCCCCCCeEEECCEEEEEEEEEeCCCCCCeEEEEEEECHHHHHhhccCCCEEEEEcCccCCCCCCChhh
+Confidence            56799999999999999999999999999999999875  6889999999885   99999999986           45
+
+
+Q query           110 LVASRVIQLSPPYT  123 (547)
+Q Consensus       110 LVg~RyVqLtP~y~  123 (547)
+                      |+ +.||++.|+..
+T Consensus       669 Ll-g~yI~l~pg~~  681 (832)
+T 6V0C_D          669 IL-QPYINVEPGRG  681 (832)
+T ss_dssp             GT-SCEEEEECCCS
+T ss_pred             cc-hheeeeecCCC
+Confidence            77 79999998753
+
+
+No 26
+>6V0F_A Intermembrane transport protein YebT; conformational dynamics, lipid transport, bacterial; 2.96A {Escherichia coli (strain K12)}
+Probab=96.71  E-value=3.3e-05  Score=93.00  Aligned_cols=77  Identities=13%  Similarity=0.220  Sum_probs=0.0  Template_Neff=7.300
+
+Q query            46 NTTVTAYFPEVLALYPGDKVLIMGVRVGSIDSIETAGD--KMKVVFHFNNKYK---VPENATASILN-----------PS  109 (547)
+Q Consensus        46 ~~tvtA~F~da~GLy~Gd~VrV~GV~VG~V~sIep~gd--~V~Vt~~vd~~~~---VPada~A~I~~-----------~S  109 (547)
+                      +..|+++|+++.||.+|++|+|+|++||+|++|++..+  ++.|++.|++++.   ++++++++|..           .+
+T Consensus       589 ~~~i~i~f~~~~GL~~gs~V~y~Gv~IG~V~~I~l~~d~~~v~v~~~i~~~~~~~~i~~~s~f~i~~p~i~l~gis~l~t  668 (832)
+T 6V0F_A          589 GGQITLHAFDAGKLAVGMPIRYLGIDIGQIQTLDLITARNEVQAKAVLYPEYVQTFARGGTRFSVVTPQISAAGVEHLDT  668 (832)
+T ss_dssp             --------------------------------------------------------------------------------
+T ss_pred             CcEEEEEecCCCCCCCCCeEEECCEEEEEEEEEeCCCCCCeEEEEEEECHHHHHhhccCCCEEEEEcCccCCCCCCChhh
+Confidence            56799999999999999999999999999999999875  6889999999885   99999999986           45
+
+
+Q query           110 LVASRVIQLSPPYT  123 (547)
+Q Consensus       110 LVg~RyVqLtP~y~  123 (547)
+                      |+ +.||++.|+..
+T Consensus       669 Ll-g~yI~l~pg~~  681 (832)
+T 6V0F_A          669 IL-QPYINVEPGRG  681 (832)
+T ss_dssp             --------------
+T ss_pred             cc-hheeeeecCCC
+Confidence            77 79999998753
+
+
+No 27
+>6V0C_D Intermembrane transport protein YebT; lipid transport, bacterial cell envelope; 3.46A {Escherichia coli (strain K12)}
+Probab=95.91  E-value=0.0005  Score=83.22  Aligned_cols=78  Identities=17%  Similarity=0.312  Sum_probs=67.5  Template_Neff=7.300
+
+Q query            45 TNTTVTAYFPEVLALYPG-DKVLIMGVRVGSIDSIETAG-DKMKVVFHFNNKY--KVPENATASILNP----------SL  110 (547)
+Q Consensus        45 ~~~tvtA~F~da~GLy~G-d~VrV~GV~VG~V~sIep~g-d~V~Vt~~vd~~~--~VPada~A~I~~~----------SL  110 (547)
+                      .+.+|+++|+++.||.+| ++|+|+|++||+|++|++.. +++.|++.|++++  .+.++++++++.+          +|
+T Consensus       234 ~g~~i~l~f~~~~gl~~G~tpV~y~Gi~VG~V~~i~l~~d~~v~v~~~I~~~~~~~l~~~s~Fw~v~~~~sl~G~~l~tl  313 (832)
+T 6V0C_D          234 RGVIIKLELPSGAGLTADSTPLMYQGLEVGQLTKLDLNPGGKVTGEMTVDPSVVTLLRENTRIELRNPKLSLSDANLSAL  313 (832)
+T ss_dssp             CCEEEEEECSCCSSCCTTTCEEEETTEEEEEEEEEEEETTTEEEEEEEECTTTGGGCCSSCEEEEECCBCCSSBCCHHHH
+T ss_pred             CCeEEEEEeCCCCCCCCCceeeEECCeEEEEEEEEEcCCCCeEEEEEEEcHHHHhhccCCCEEEEecCeeecCccChhHH
+Confidence            457899999999999999 99999999999999999976 4788999999988  6999999888752          45
+
+
+Q query           111 VASRVIQLSPPY  122 (547)
+Q Consensus       111 Vg~RyVqLtP~y  122 (547)
+                      +.+.||++.|+.
+T Consensus       314 i~G~~i~~~~~~  325 (832)
+T 6V0C_D          314 LTGKTFELVPGD  325 (832)
+T ss_dssp             HHCCEEEEECCC
+T ss_pred             hcCCEEEEeCCC
+Confidence            777889888764
+
+
+No 28
+>6V0F_A Intermembrane transport protein YebT; conformational dynamics, lipid transport, bacterial; 2.96A {Escherichia coli (strain K12)}
+Probab=95.91  E-value=0.0005  Score=83.22  Aligned_cols=78  Identities=17%  Similarity=0.312  Sum_probs=67.5  Template_Neff=7.300
+
+Q query            45 TNTTVTAYFPEVLALYPG-DKVLIMGVRVGSIDSIETAG-DKMKVVFHFNNKY--KVPENATASILNP----------SL  110 (547)
+Q Consensus        45 ~~~tvtA~F~da~GLy~G-d~VrV~GV~VG~V~sIep~g-d~V~Vt~~vd~~~--~VPada~A~I~~~----------SL  110 (547)
+                      .+.+|+++|+++.||.+| ++|+|+|++||+|++|++.. +++.|++.|++++  .+.++++++++.+          +|
+T Consensus       234 ~g~~i~l~f~~~~gl~~G~tpV~y~Gi~VG~V~~i~l~~d~~v~v~~~I~~~~~~~l~~~s~Fw~v~~~~sl~G~~l~tl  313 (832)
+T 6V0F_A          234 RGVIIKLELPSGAGLTADSTPLMYQGLEVGQLTKLDLNPGGKVTGEMTVDPSVVTLLRENTRIELRNPKLSLSDANLSAL  313 (832)
+T ss_dssp             CCEEEEEECSCCSSCCTTTCEEEETTEEEEEEEEEEEETTTEEEEEEEECSTGGGTCCTTCEEEEECCBCCSSBCCHHHH
+T ss_pred             CCeEEEEEeCCCCCCCCCceeeEECCeEEEEEEEEEcCCCCeEEEEEEEcHHHHhhccCCCEEEEecCeeecCccChhHH
+Confidence            457899999999999999 99999999999999999976 4788999999988  6999999888752          45
+
+
+Q query           111 VASRVIQLSPPY  122 (547)
+Q Consensus       111 Vg~RyVqLtP~y  122 (547)
+                      +.+.||++.|+.
+T Consensus       314 i~G~~i~~~~~~  325 (832)
+T 6V0F_A          314 LTGKTFELVPGD  325 (832)
+T ss_dssp             HHCCEEEEECCC
+T ss_pred             hcCCEEEEeCCC
+Confidence            777889888764
+
+
+No 29
+>5UVN_F Paraquat-inducible protein B; MCE protein, bacterial lipid transport; 3.96A {Escherichia coli}
+Probab=95.60  E-value=0.0011  Score=75.10  Aligned_cols=62  Identities=26%  Similarity=0.289  Sum_probs=55.9  Template_Neff=7.500
+
+Q query            46 NTTVTAYFPEVLALYPGDKVLIMGVRVGSIDSIETAGD--KMKVVFHFNNKY--KVPENATASILN  107 (547)
+Q Consensus        46 ~~tvtA~F~da~GLy~Gd~VrV~GV~VG~V~sIep~gd--~V~Vt~~vd~~~--~VPada~A~I~~  107 (547)
+                      +.+|+++|+++.||..|++|+|+|++||+|++|++..+  ++.+++.|+.+|  .+..++++++.+
+T Consensus       132 g~~~~l~~~~~~gL~~GsPV~yrGi~VG~V~~i~l~~d~~~v~i~v~I~~~y~~lv~~~S~F~~~s  197 (453)
+T 5UVN_F          132 GIRVILDSKKAGQLSPGDPVLFRGYRVGSVETSTFDTQKRNISYQLFINAPYDRLVTNNVRFWKDS  197 (453)
+T ss_dssp             SEEEEEECSCCTTCCTTCEEEETTEEEEEEEEEEECTTTCCEEEEEEECSTTGGGCBTTCEEEEEC
+T ss_pred             cEEEEEEcCCCCCCCCCCCEEECCEEEEEEEEEEecCCCCeeEEEEEEeCCchhhcccCCcchhhc
+Confidence            46788889999999999999999999999999999875  688999999988  589999998876
+
+
+No 30
+>6KZ3_A Intermembrane transport protein YebT; lipid channel, LIPID TRANSPORT;{Escherichia coli K-12}
+Probab=95.39  E-value=0.0017  Score=73.69  Aligned_cols=62  Identities=16%  Similarity=0.237  Sum_probs=54.8  Template_Neff=7.700
+
+Q query            46 NTTVTAYFPEVLALYPGDKVLIMGVRVGSIDSIETAGDKMKVVFHFNNKY--KVPENATASILN  107 (547)
+Q Consensus        46 ~~tvtA~F~da~GLy~Gd~VrV~GV~VG~V~sIep~gd~V~Vt~~vd~~~--~VPada~A~I~~  107 (547)
+                      +.+++++++++.||..|++|+|+|++||+|++|++..++++|++.|+++|  .+..+++++..+
+T Consensus       347 ~~~~~l~~~~~~gL~~GspV~yrGv~VG~V~~i~l~~~~v~v~i~I~~~y~~li~~~s~f~~~s  410 (464)
+T 6KZ3_A          347 VLTLTLTAPESYGIDAGQPLILHGVQVGQVIDRKLTSKGVTFTVAIEPQHRELVKGDSKFVVNS  410 (464)
+T ss_dssp             CEEEEEEESSCTTCCTTCEEEETTEEEEEEEEEECCTTCEEEEEEECSTTTTTCCSSCEEEECC
+T ss_pred             ceEEEEEcCCCCCCCCCCcEEECCEEEEEEEEEEecCCeEEEEEEECccccccccCCeEEEECC
+Confidence            46788888899999999999999999999999999988999999999998  477777766654
+
+
+No 31
+>6V0C_D Intermembrane transport protein YebT; lipid transport, bacterial cell envelope; 3.46A {Escherichia coli (strain K12)}
+Probab=94.77  E-value=0.0048  Score=75.07  Aligned_cols=62  Identities=11%  Similarity=0.169  Sum_probs=57.1  Template_Neff=7.300
+
+Q query            45 TNTTVTAYFPEVLALYPGDKVLIMGVRVGSIDSIETAGD--KMKVVFHFNNKY--KVPENATASIL  106 (547)
+Q Consensus        45 ~~~tvtA~F~da~GLy~Gd~VrV~GV~VG~V~sIep~gd--~V~Vt~~vd~~~--~VPada~A~I~  106 (547)
+                      .++++++.|+++.||.+|++|+|+|++||+|++|++..+  +|+|++.|+++|  .|.+++++++.
+T Consensus       114 ~g~~i~l~~~~~~gl~~GtpV~y~gi~VG~V~~v~l~~~~~~v~v~~~I~~~y~~li~~~s~F~~~  179 (832)
+T 6V0C_D          114 GDLMIHLQAPDLGSLNSGSLVYFRKIPVGKVYDYAINPNKQGVVIDVLIERRFTDLVKKGSRFWNV  179 (832)
+T ss_dssp             SCEEEEEEESSCTTCCTTCEEEETTEEEEEEEEEECCSSTTCEEEEEEECGGGTTTCBTTCCEEEC
+T ss_pred             CcEEEEEEcCCCCCCCCCCeEEEcCceeeEEEEEEeCCCCCceEEEEEEehhHHHheecCeEEEEc
+Confidence            457899999999999999999999999999999999875  799999999988  49999999988
+
+
+No 32
+>6V0F_A Intermembrane transport protein YebT; conformational dynamics, lipid transport, bacterial; 2.96A {Escherichia coli (strain K12)}
+Probab=94.77  E-value=0.0048  Score=75.07  Aligned_cols=62  Identities=11%  Similarity=0.169  Sum_probs=56.7  Template_Neff=7.300
+
+Q query            45 TNTTVTAYFPEVLALYPGDKVLIMGVRVGSIDSIETAGD--KMKVVFHFNNKY--KVPENATASIL  106 (547)
+Q Consensus        45 ~~~tvtA~F~da~GLy~Gd~VrV~GV~VG~V~sIep~gd--~V~Vt~~vd~~~--~VPada~A~I~  106 (547)
+                      .++++++.|+++.||.+|++|+|+|++||+|++|++..+  +|+|++.|+++|  .|.+++++++.
+T Consensus       114 ~g~~i~l~~~~~~gl~~GtpV~y~gi~VG~V~~v~l~~~~~~v~v~~~I~~~y~~li~~~s~F~~~  179 (832)
+T 6V0F_A          114 GDLMIHLQAPDLGSLNSGSLVYFRKIPVGKVYDYAINPNKQGVVIDVLIERRFTDLVKKGSRFWNV  179 (832)
+T ss_dssp             -CEEEEEEESSCTTCCTTCEEEETTEEEEEEEEEEECSSTTCEEEEEEECSGGGGTCBTTCCEEEC
+T ss_pred             CcEEEEEEcCCCCCCCCCCeEEEcCceeeEEEEEEeCCCCCceEEEEEEehhHHHheecCeEEEEc
+Confidence            457899999999999999999999999999999999875  799999999988  49999999988
+
+
+No 33
+>6KZ3_A Intermembrane transport protein YebT; lipid channel, LIPID TRANSPORT;{Escherichia coli K-12}
+Probab=94.53  E-value=0.0068  Score=68.98  Aligned_cols=62  Identities=11%  Similarity=0.180  Sum_probs=56.0  Template_Neff=7.700
+
+Q query            46 NTTVTAYFPEVLALYPGDKVLIMGVRVGSIDSIETAGD--KMKVVFHFNNKY--KVPENATASILN  107 (547)
+Q Consensus        46 ~~tvtA~F~da~GLy~Gd~VrV~GV~VG~V~sIep~gd--~V~Vt~~vd~~~--~VPada~A~I~~  107 (547)
+                      +.+|++.|+++.||..|++|+|+|++||+|++|++..+  ++.|++.|+++|  .|..++++++.+
+T Consensus       115 g~~i~l~~~~~~gL~~GspV~yrgv~VG~V~~i~l~~~~~~v~v~~~I~~~~~~li~~~s~Fw~~s  180 (464)
+T 6KZ3_A          115 DLMIHLQAPDLGSLNSGSLVYFRKIPVGKVYDYAINPNKQGVVIDVLIERRFTDLVKKGSRFWNVS  180 (464)
+T ss_dssp             CEEEEEEESSCCSCCTTCEEEETTEEEEEEEEEEECTTSSCEEEEEEECGGGTTSCBTTCCEEEEC
+T ss_pred             ceEEEEEcCCCCCCCCCCeEEECCeeeEEEEEEEecCCCCeEEEEEEEecchhhheecCCEEEEee
+Confidence            46788889999999999999999999999999999875  689999999998  489999999885
+
+
+No 34
+>6E7E_A IncA; membrane fusion, chlamydia, SNARE-like protein; 1.12A {Chlamydia trachomatis}
+Probab=80.82  E-value=1.1  Score=43.30  Aligned_cols=107  Identities=15%  Similarity=0.231  Sum_probs=53.4  Template_Neff=1.500
+
+Q query           181 FAGKGEQLNRTLRGLSDALTALNEGRGDFFAVVKSLALFVNALHRSDQQFVALNNDLAQFTNSFTNTDQELANALQDLNR  260 (547)
+Q Consensus       181 l~G~G~~L~~tL~~LS~al~~L~~~~~dl~~~i~nL~~~v~aL~~~d~ql~~l~~~La~~t~~La~~~~~L~~aL~~L~~  260 (547)
+                      |-+....+..+-.+||+....+-.-..++.+.-+....+.+....+.+.++++-.+  .....|...-..|.+-+..|..
+T Consensus        32 F~~lsK~FATTSKDLS~VS~DF~~~lQ~fqs~h~GFesLL~~YknSaEelR~lFSQ--etiq~LK~~i~SLkeEIkel~P  109 (169)
+T 6E7E_A           32 FLHLSKEFATTSKDLSAVSQDFYSCLQGFRDNYKGFESLLDEYKNSTEEMRKLFSQ--EIIADLKGSVASLREEIRFLTP  109 (169)
+T ss_dssp             HHHHHHHTTTTCHHHHHHHHHHHHHHTTGGGGGHHHHHHHHHSTTCCHHHHTTCCH--HHHHHHHHHHHHHHHHHHHHTT
+T ss_pred             HHHHhHHhccccCcHHHHHHHHHHHHHHHHHhhhcHHHHHHHhhcCHHHHHHHHCH--HHHHHHHHHHHHHHHHHHHHHH
+Confidence            33333444444444555444444444444444444445555555555556555432  2233344444445555555666
+
+
+Q query           261 VLKTTREFLDRNGGVLTHDIDNLEQVTTAI  290 (547)
+Q Consensus       261 ~l~~v~~fl~~n~~~L~~~v~~L~~vt~~L  290 (547)
+                      +.++|+++ .+|...|+..++.|..+-..|
+T Consensus       110 LaEEVRRL-aeNkesLt~ivqdL~~IRd~L  138 (169)
+T 6E7E_A          110 LAEEVRRL-AHNQQSLTAAIEELKTIRDSL  138 (169)
+T ss_dssp             HHHHHHHH-HHTTCCCHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHH-HhcHHHHHHHHHHHHHHHHHH
+Confidence            66666663 555666666666665554443
+
+
+No 35
+>5IJN_Z NUCLEAR PORE COMPLEX PROTEIN NUP155; Nuclear pore complex, Nucleocytoplasmic transport; 21.4A {Homo sapiens}
+Probab=78.07  E-value=1.6  Score=51.33  Aligned_cols=6  Identities=50%  Similarity=1.049  Sum_probs=0.0  Template_Neff=5.000
+
+Q query            69 GVRVGS   74 (547)
+Q Consensus        69 GV~VG~   74 (547)
+                      |..+|.
+T Consensus       170 ~~~~~~  175 (522)
+T 5IJN_Z          170 GFNIGS  175 (522)
+T ss_dssp             ------
+T ss_pred             cccccC
+Confidence            344443
+
+
+No 36
+>6TFJ_D Vegetative insecticidal protein; Vip3Aa, toxin, protoxin, beta prism;{Bacillus thuringiensis}
+Probab=74.68  E-value=2.4  Score=52.17  Aligned_cols=99  Identities=15%  Similarity=0.229  Sum_probs=47.2  Template_Neff=4.500
+
+Q query           143 IEYDEVRNQVTRLLADLGPTPEQPKGPFGDIIESFADGFAGKGEQLNRTLRGLSDALTALNEGRGDFFAVVKS-LALFVN  221 (547)
+Q Consensus       143 vE~Del~~~L~~L~~~LgP~~~~~~g~l~~~l~s~a~~l~G~G~~L~~tL~~LS~al~~L~~~~~dl~~~i~n-L~~~v~  221 (547)
+                      .++||+++..+ |+.+++..-.+.++.|.+++.+..-+ .....+|-+.-+++++.+..++...+.+.++++- |-.+++
+T Consensus        46 ~~~~~~l~~~~-ll~~~~~~~~~~~~~~~~~~~~~~~~-~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~  123 (789)
+T 6TFJ_D           46 LTLDEILKNQQ-LLNDISGKLDGVNGSLNDLIAQGNLN-TELSKEILKIANEQNQVLNDVNNKLDAINTMLRVYLPKLTS  123 (789)
+T ss_dssp             TCCSSCGGGHH-HHHHHHHHHHHHHHHHHHHHHHCCCC-SHHHHHHHHHHHHHHHHHHHHHHHHHHHHHCCCCCHHHHHH
+T ss_pred             CCHHHHHHcHH-HHHHHHhhhhcccchHHHHHHccCcC-HHHHHHHHHHHHHHHHHHHhHHHHHHHHHHHHHHHHHHHHH
+Confidence            56677775543 55555554445567788877642111 1112334444455555555555444444333322 333444
+
+
+Q query           222 ALHRSD-------QQFVALNNDLAQFTNS  243 (547)
+Q Consensus       222 aL~~~d-------~ql~~l~~~La~~t~~  243 (547)
+                      +|+.--       .||+.+..+|+.+++.
+T Consensus       124 ~~~~v~~~~~~~~~~~~~~~~~~~~~~~~  152 (789)
+T 6TFJ_D          124 MLSDVMKQNYALSLQIEYLSKQLQEISDK  152 (789)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHHHHT
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHh
+Confidence            443333       3444444444444443
+
+
+No 37
+>6V1V_A Vegetative insecticidal protein; insecticidal protein Bacillus thuringiensis pore; 3.189A {Bacillus thuringiensis}
+Probab=74.43  E-value=2.4  Score=51.93  Aligned_cols=99  Identities=17%  Similarity=0.245  Sum_probs=48.5  Template_Neff=4.100
+
+Q query           143 IEYDEVRNQVTRLLADLGPTPEQPKGPFGDIIESFADGFAGKGEQLNRTLRGLSDALTALNEGRGDFFAVVKS-LALFVN  221 (547)
+Q Consensus       143 vE~Del~~~L~~L~~~LgP~~~~~~g~l~~~l~s~a~~l~G~G~~L~~tL~~LS~al~~L~~~~~dl~~~i~n-L~~~v~  221 (547)
+                      .++||+++..+ |+.+++..-.+.++.|++++.+..-+ .....+|-..-+++++.+..++...+.+.++++- |-.+++
+T Consensus        61 ~~~~~~l~~~~-ll~~~~~~~~~~~~~~~~~~~~~~~~-~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~  138 (796)
+T 6V1V_A           61 LTLDEILKNQN-LLNDISGKLDGINGDLGDLIAQGNLN-SELAKELLKISNEQNQMLNHVNAQLNAINSTLNIYLPKITS  138 (796)
+T ss_dssp             CCSCCCGGGHH-HHHHHHHHHHHHHHHHHHHHTTCCSC-HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHCCCCCHHHHHH
+T ss_pred             CCHHHHHHcHH-HHHHHHhhhccccchHHHHHHhcccC-HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            56777776544 66666554455567788887642111 1112334444455555555555444444443322 333444
+
+
+Q query           222 ALHRS-------DQQFVALNNDLAQFTNS  243 (547)
+Q Consensus       222 aL~~~-------d~ql~~l~~~La~~t~~  243 (547)
+                      +|+.-       ..||+.+..+|+.+++.
+T Consensus       139 ~~~~v~~~~~~~~~~~~~~~~~~~~~~~~  167 (796)
+T 6V1V_A          139 MLNEVMKQNHVLSLQIEFLSKQLQEISDK  167 (796)
+T ss_dssp             HHHHHHHHHHHHHHHTTHHHHHHHHHHTT
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            44333       34455555555544443
+
+
+No 38
+>6YRF_C Vegetative insecticidal protein; Toxin, Vip3, Bt toxin;{Bacillus thuringiensis}
+Probab=72.39  E-value=3  Score=51.34  Aligned_cols=100  Identities=17%  Similarity=0.249  Sum_probs=48.1  Template_Neff=4.200
+
+Q query           143 IEYDEVRNQVTRLLADLGPTPEQPKGPFGDIIESFADGFAGKGEQLNRTLRGLSDALTALNEGRGDFFAVVKS-LALFVN  221 (547)
+Q Consensus       143 vE~Del~~~L~~L~~~LgP~~~~~~g~l~~~l~s~a~~l~G~G~~L~~tL~~LS~al~~L~~~~~dl~~~i~n-L~~~v~  221 (547)
+                      .++||+++..+ |+.+++..-.+.++.|++++.+..-+ .....+|-..-+++++.+..++...+.+.+++.- |-.+++
+T Consensus        56 ~~~~~~l~~~~-ll~~~~~~~~~~~~~~~~~~~~~~~~-~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~  133 (803)
+T 6YRF_C           56 LTLDEILKNQN-LLNDISGKLDGINGDLGDLIAQGNLN-SELAKELLKISNEQNQMLNHVNAQLNAINSTLNIYLPKITS  133 (803)
+T ss_dssp             SSSSCHHHHHH-HHHHHHHHHHHHHHHHHHHHHHCCSC-HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             CCHHHHHHcHH-HHHHHHhhhccccchHHHHHHhcccC-HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            56777775543 56666554445567788887642111 1112334444455555555555444444333322 333344
+
+
+Q query           222 ALHRS-------DQQFVALNNDLAQFTNSF  244 (547)
+Q Consensus       222 aL~~~-------d~ql~~l~~~La~~t~~L  244 (547)
+                      +|+.-       ..||+.+..+|+.+++.|
+T Consensus       134 ~~~~v~~~~~~~~~~~~~~~~~~~~~~~~~  163 (803)
+T 6YRF_C          134 MLNEVMKQNHVLSLQIEFLSKQLQEISDKL  163 (803)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHHHTTC
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHc
+Confidence            44333       344555555555544443
+
+
+No 39
+>5IJN_Z NUCLEAR PORE COMPLEX PROTEIN NUP155; Nuclear pore complex, Nucleocytoplasmic transport; 21.4A {Homo sapiens}
+Probab=67.41  E-value=4.5  Score=47.86  Aligned_cols=13  Identities=15%  Similarity=0.230  Sum_probs=5.8  Template_Neff=5.000
+
+Q query           207 GDFFAVVKSLALF  219 (547)
+Q Consensus       207 ~dl~~~i~nL~~~  219 (547)
+                      +||.++|+.++..
+T Consensus       449 ~dLkEIIeqLNs~  461 (522)
+T 5IJN_Z          449 QDLKDIIEHLNTS  461 (522)
+T ss_dssp             HHHHHHHHHHHHT
+T ss_pred             HHHHHHHHHHHhc
+Confidence            3444444444433
+
+
+No 40
+>6GAO_B Outer capsid protein sigma-1; cell attachment protein, reovirus sigma1; 2.101A {Mammalian orthoreovirus 1 Lang}
+Probab=67.18  E-value=4.6  Score=42.88  Aligned_cols=6  Identities=0%  Similarity=0.080  Sum_probs=2.3  Template_Neff=7.200
+
+Q query           358 SAELCA  363 (547)
+Q Consensus       358 ~a~lc~  363 (547)
+                      ....|+
+T Consensus       202 ~~~~~~  207 (240)
+T 6GAO_B          202 TGMVVK  207 (240)
+T ss_dssp             TEEEEC
+T ss_pred             ceeEEE
+Confidence            333344
+
+
+No 41
+>4UT1_A FLAGELLAR HOOK-ASSOCIATED PROTEIN; MOTOR PROTEIN, ANTIGEN, EPITOPE DISCOVERY; HET: EDO; 1.8A {BURKHOLDERIA PSEUDOMALLEI K96243}
+Probab=58.62  E-value=8.6  Score=46.98  Aligned_cols=10  Identities=10%  Similarity=0.102  Sum_probs=3.7  Template_Neff=7.500
+
+Q query           215 SLALFVNALH  224 (547)
+Q Consensus       215 nL~~~v~aL~  224 (547)
+                      ..+.+++.++
+T Consensus       143 ~a~~La~~~n  152 (673)
+T 4UT1_A          143 NAQTLASQLV  152 (673)
+T ss_dssp             HHHHHHHHHH
+T ss_pred             HHHHHHHHHH
+Confidence            3333333333
+
+
+No 42
+>5IJN_Z NUCLEAR PORE COMPLEX PROTEIN NUP155; Nuclear pore complex, Nucleocytoplasmic transport; 21.4A {Homo sapiens}
+Probab=58.24  E-value=8.8  Score=45.63  Aligned_cols=17  Identities=18%  Similarity=0.208  Sum_probs=7.8  Template_Neff=5.000
+
+Q query           262 LKTTREFLDRNGGVLTH  278 (547)
+Q Consensus       262 l~~v~~fl~~n~~~L~~  278 (547)
+                      +.++.++|+.+.+.|..
+T Consensus       471 L~QI~kILNaHl~SLqW  487 (522)
+T 5IJN_Z          471 LQQICKILNAHMDSLQW  487 (522)
+T ss_dssp             HHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHH
+Confidence            34444445544444433
+
+
+No 43
+>6S1K_F Chemotaxis protein CheA (E.C.2.7.13.3), CheW; chemotaxis, methyl-accepting chemotaxis protein, histidine; 8.38A {Escherichia coli str. K-12 substr. MG1655star}
+Probab=55.88  E-value=10  Score=43.55  Aligned_cols=21  Identities=5%  Similarity=0.147  Sum_probs=0.0  Template_Neff=10.500
+
+Q query           250 ELANALQDLNRVLKTTREFLD  270 (547)
+Q Consensus       250 ~L~~aL~~L~~~l~~v~~fl~  270 (547)
+                      +......++...+.++....+
+T Consensus       465 ~~~~~~~~i~~~~~~l~~~~~  485 (551)
+T 6S1K_F          465 EQSRGIDQVGLAVAEMDRVTQ  485 (551)
+T ss_dssp             ---------------------
+T ss_pred             HHHHHHHHHHHHHHHHHHHHH
+Confidence            333333333333433333333
+
+
+No 44
+>7NRC_A 40S ribosomal protein S0-A, 40S; Ribosome, Disome, GCN1, Translation, GAAC; HET: 5CT; 3.9A {Saccharomyces cerevisiae S288C}
+Probab=54.62  E-value=11  Score=44.27  Aligned_cols=16  Identities=13%  Similarity=0.380  Sum_probs=7.5  Template_Neff=1.000
+
+Q query           239 QFTNSFTNTDQELANA  254 (547)
+Q Consensus       239 ~~t~~La~~~~~L~~a  254 (547)
+                      ++.++|+++..|++..
+T Consensus       318 eivgvlndshkevrka  333 (1209)
+T 7NRC_A          318 EIVGVLNDSHKEVRKA  333 (1209)
+T ss_pred             HHHhhhccchHHHHHH
+Confidence            3444455555444443
+
+
+No 45
+>5G6U_A LANGERIN; CARBOHYDRATE BINDING PROTEIN, LANGERIN, CD207; HET: TRP, CL, YJM; 1.844A {HOMO SAPIENS}
+Probab=52.82  E-value=12  Score=38.93  Aligned_cols=8  Identities=13%  Similarity=0.700  Sum_probs=3.4  Template_Neff=9.700
+
+Q query           357 ESAELCAQ  364 (547)
+Q Consensus       357 ~~a~lc~q  364 (547)
+                      ++.+.|..
+T Consensus       151 ~A~~~C~~  158 (261)
+T 5G6U_A          151 SAEQFCVS  158 (261)
+T ss_pred             HHHHHHHH
+Confidence            33444443
+
+
+No 46
+>6FPD_A Protein AB21; Agaricus bisporus, tetrahelical bundle, toxin-like; 2.5A {Agaricus bisporus}
+Probab=49.48  E-value=15  Score=37.99  Aligned_cols=16  Identities=19%  Similarity=0.183  Sum_probs=9.3  Template_Neff=7.900
+
+Q query           143 IEYDEVRNQVTRLLAD  158 (547)
+Q Consensus       143 vE~Del~~~L~~L~~~  158 (547)
+                      .+|+.+.+....++.+
+T Consensus        62 ~~W~~~~~~~~~lL~~   77 (208)
+T 6FPD_A           62 PRVDEFAKSFNDILWA   77 (208)
+T ss_dssp             HHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHH
+Confidence            3666666666665543
+
+
+No 47
+>5G6U_B LANGERIN; CARBOHYDRATE BINDING PROTEIN, LANGERIN, CD207; HET: CL, SGN, TRP; 1.844A {HOMO SAPIENS}
+Probab=48.46  E-value=16  Score=37.72  Aligned_cols=11  Identities=9%  Similarity=0.549  Sum_probs=5.8  Template_Neff=10.200
+
+Q query           354 GYQESAELCAQ  364 (547)
+Q Consensus       354 ~~~~~a~lc~q  364 (547)
+                      ...++.+.|..
+T Consensus       148 sw~~A~~~C~~  158 (261)
+T 5G6U_B          148 TWYSAEQFCVS  158 (261)
+T ss_dssp             CHHHHHHHHHH
+T ss_pred             CHHHHHHHHHH
+Confidence            44455556654
+
+
+No 48
+>4UY3_A SEPTATION RING FORMATION REGULATOR EZRA; STRUCTURAL PROTEIN, DIVISOME, FTSZ, CELL; 2.6A {STAPHYLOCOCCUS AUREUS}
+Probab=47.76  E-value=17  Score=37.06  Aligned_cols=72  Identities=7%  Similarity=0.138  Sum_probs=46.1  Template_Neff=8.500
+
+Q query           201 ALNEGRGDFFAVVKSLALFVNALHRSDQQFVALNNDLAQFTNSFTNTDQELANALQDLNRVLKTTREFLDRN  272 (547)
+Q Consensus       201 ~L~~~~~dl~~~i~nL~~~v~aL~~~d~ql~~l~~~La~~t~~La~~~~~L~~aL~~L~~~l~~v~~fl~~n  272 (547)
+                      .+..-..++..+.+.|..+...-..+..++..+-..+..+-..|...+..++.++..|...+..+..-+.+.
+T Consensus        91 ~l~~~e~~~~~l~~~l~~l~~~e~~~r~~i~~lk~~y~~lrk~ll~~~~~~G~a~~~Le~~l~~ie~~f~~~  162 (198)
+T 4UY3_A           91 LMDSYEQSYQQQLEDVNEIIALYKDNDELYDKCKVDYREMKRDVLANRHQFGEAASLLETEIEKFEPRLEQY  162 (198)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHCSGGGGGGHHHHHHHHHTHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHchhcchhHHHHHHHHHHHHHHHHHHH
+Confidence            333344455556666666666666666777777777777777777777777777776666666665554443
+
+
+No 49
+>4LIN_K gp26-2M; helical, trimeric coiled-coil, viral fiber; 2.7A {Bacteriophage P22}
+Probab=45.61  E-value=19  Score=40.02  Aligned_cols=16  Identities=25%  Similarity=0.308  Sum_probs=8.0  Template_Neff=6.000
+
+Q query           103 ASILNPSLVASRVIQL  118 (547)
+Q Consensus       103 A~I~~~SLVg~RyVqL  118 (547)
+                      |.|...+++...|...
+T Consensus        30 ~~~lp~~~~~~~y~~~   45 (300)
+T 4LIN_K           30 ASILPRNVFSKSYLLY   45 (300)
+T ss_dssp             GGGSCCSSSCHHHHHH
+T ss_pred             cccCCCCcCCHHHHHH
+Confidence            3444455555555443
+
+
+No 50
+>6YS8_C GldM, GldL; membrane protein complex ion-driven motor; 3.9A {Flavobacterium johnsoniae}
+Probab=40.54  E-value=26  Score=37.31  Aligned_cols=63  Identities=10%  Similarity=0.198  Sum_probs=0.0  Template_Neff=5.100
+
+Q query           228 QQFVALNNDLAQFTNSFTNTDQELANALQDLNRVLKTTREFLDRNGGVLTHDIDNLEQVTTAIL  291 (547)
+Q Consensus       228 ~ql~~l~~~La~~t~~La~~~~~L~~aL~~L~~~l~~v~~fl~~n~~~L~~~v~~L~~vt~~L~  291 (547)
+                      +|+..++.+|..+-..-.-+-++..+-++.++...+++.+|-++. ..|...+..|+.|-..++
+T Consensus       146 ~qm~~l~knL~~LN~iYe~QLk~~~~q~~~~~~~~~~~~~~keq~-~kLa~nL~sLN~VYg~ML  208 (215)
+T 6YS8_C          146 EEMSMAAAQMESLNSLYKVQLESASRNAQANSEIAENAAKLKEQM-ASMTANIASLNSVYGGML  208 (215)
+T ss_dssp             ----------------------------------------------------------------
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH-HHHHHHHHHHHHHHHHHH
+Confidence            455555555554444333222333333333333444444432222 345555555555544443
+
+
+No 51
+>6YS8_G GldM, GldL; membrane protein complex ion-driven motor; 3.9A {Flavobacterium johnsoniae}
+Probab=40.54  E-value=26  Score=37.31  Aligned_cols=63  Identities=10%  Similarity=0.198  Sum_probs=0.0  Template_Neff=5.100
+
+Q query           228 QQFVALNNDLAQFTNSFTNTDQELANALQDLNRVLKTTREFLDRNGGVLTHDIDNLEQVTTAIL  291 (547)
+Q Consensus       228 ~ql~~l~~~La~~t~~La~~~~~L~~aL~~L~~~l~~v~~fl~~n~~~L~~~v~~L~~vt~~L~  291 (547)
+                      +|+..++.+|..+-..-.-+-++..+-++.++...+++.+|-++. ..|...+..|+.|-..++
+T Consensus       146 ~qm~~l~knL~~LN~iYe~QLk~~~~q~~~~~~~~~~~~~~keq~-~kLa~nL~sLN~VYg~ML  208 (215)
+T 6YS8_G          146 EEMSMAAAQMESLNSLYKVQLESASRNAQANSEIAENAAKLKEQM-ASMTANIASLNSVYGGML  208 (215)
+T ss_dssp             ----------------------------------------------------------------
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH-HHHHHHHHHHHHHHHHHH
+Confidence            455555555554444333222333333333333444444432222 345555555555544443
+
+
+No 52
+>6S18_A Aromatic acid chemoreceptor; Ligand binding domain, Pseudomonas putida; 1.6A {Pseudomonas putida KT2440}
+Probab=37.84  E-value=31  Score=39.21  Aligned_cols=13  Identities=31%  Similarity=0.493  Sum_probs=0.0  Template_Neff=11.300
+
+Q query           257 DLNRVLKTTREFL  269 (547)
+Q Consensus       257 ~L~~~l~~v~~fl  269 (547)
+                      ++...+.++.++.
+T Consensus       505 ~i~~~~~~~~~~~  517 (550)
+T 6S18_A          505 EVDRNLLNIRELS  517 (550)
+T ss_dssp             -------------
+T ss_pred             HHHHHHHHHHHHH
+Confidence            3333333333333
+
+
+No 53
+>3ZX6_B HAMP, METHYL-ACCEPTING CHEMOTAXIS PROTEIN I; SIGNALING, HAMP DOMAIN, TSR RECEPTOR; 2.65A {ARCHAEOGLOBUS FULGIDUS}
+Probab=36.86  E-value=32  Score=37.50  Aligned_cols=13  Identities=23%  Similarity=0.309  Sum_probs=5.2  Template_Neff=9.700
+
+Q query           144 EYDEVRNQVTRLL  156 (547)
+Q Consensus       144 E~Del~~~L~~L~  156 (547)
+                      ++.++...++.+.
+T Consensus        35 ei~~l~~~~n~~~   47 (341)
+T 3ZX6_B           35 EIGILAKSIERLR   47 (341)
+T ss_dssp             HHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHH
+Confidence            3334444444433
+
+
+No 54
+>6XU8_CY Specialised ribosome, Drosophila melanogaster, Ovary; 3.0A {Drosophila melanogaster}
+Probab=33.39  E-value=40  Score=33.07  Aligned_cols=32  Identities=19%  Similarity=0.246  Sum_probs=23.9  Template_Neff=6.100
+
+Q query            56 VLALYPGDKVLIM-----GVRVGSIDSIETAGDKMKV   87 (547)
+Q Consensus        56 a~GLy~Gd~VrV~-----GV~VG~V~sIep~gd~V~V   87 (547)
+                      .-.|.+||.|+|.     |..+|+|.+|.....+|.|
+T Consensus        45 ~~~I~kGD~V~V~~G~~kGk~~GkV~~V~~~~~~V~v   81 (131)
+T 6XU8_CY          45 SMPIRRDDEVQVIRGHFKGNQVGKVVQAYRKKFVVYV   81 (131)
+T ss_pred             cCccCCCCEEEEEeCCCCCceeEEEEEEEccCCEEEE
+Confidence            4578899999887     3349999999876655554
+
+
+No 55
+>5KIS_B YenB, RHS2; ABC toxin, RHS, TOXIN; 2.4A {Yersinia entomophaga}
+Probab=33.05  E-value=41  Score=42.20  Aligned_cols=7  Identities=14%  Similarity=0.397  Sum_probs=2.7  Template_Neff=10.100
+
+Q query           448 ANMLTPE  454 (547)
+Q Consensus       448 ~~~~~p~  454 (547)
+                      ...++|+
+T Consensus       656 gRfls~D  662 (965)
+T 5KIS_B          656 GRWLSAD  662 (965)
+T ss_pred             ceecCCC
+Confidence            3333333
+
+
+No 56
+>7R95_A SARS-Cov-2, Heptad repeat, residual dipolar; NMR {Severe acute respiratory syndrome coronavirus 2}
+Probab=30.22  E-value=49  Score=28.04  Aligned_cols=36  Identities=14%  Similarity=0.254  Sum_probs=29.3  Template_Neff=2.900
+
+Q query           251 LANALQDLNRVLKTTREFLDRNGGVLTHDIDNLEQV  286 (547)
+Q Consensus       251 L~~aL~~L~~~l~~v~~fl~~n~~~L~~~v~~L~~v  286 (547)
+                      +...++..+.++..+++.+.+++..|.+.+.+|..+
+T Consensus        19 Iq~gf~tta~AL~KIQ~VVN~q~~aL~~L~~QL~~~   54 (56)
+T 7R95_A           19 IQDSLSSTASALGKLQDVVNQNAQALNTLVKQSGLV   54 (56)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSSCC
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhcC
+Confidence            335577788889999999999999999888887765
+
+
+No 57
+>1YKE_D RNA polymerase II mediator complex; GENE REGULATION; 3.3A {Saccharomyces cerevisiae} SCOP: a.252.1.1
+Probab=30.20  E-value=49  Score=33.13  Aligned_cols=40  Identities=8%  Similarity=0.145  Sum_probs=14.5  Template_Neff=6.600
+
+Q query           230 FVALNNDLAQFTNSFTNTDQELANALQDLNRVLKTTREFL  269 (547)
+Q Consensus       230 l~~l~~~La~~t~~La~~~~~L~~aL~~L~~~l~~v~~fl  269 (547)
+                      |..|..++..+-..+.....++...+..+..++..+.+-+
+T Consensus        94 i~~L~~El~~~~~E~~~a~~e~eell~~l~~li~~v~~~~  133 (151)
+T 1YKE_D           94 IDMLQKKLVEVEDEKIEAIKKKEKLLRHVDSLIEDFVDGI  133 (151)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHCC---
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            4444444444433333333333333333333333333333
+
+
+No 58
+>4CGK_B SECRETED 45 KDA PROTEIN; CELL CYCLE, PEPTIDOGLYCAN, CHAP, CELL; HET: PG4; 2.55A {STREPTOCOCCUS PNEUMONIAE}
+Probab=28.17  E-value=56  Score=36.30  Aligned_cols=16  Identities=13%  Similarity=-0.101  Sum_probs=6.0  Template_Neff=10.000
+
+Q query           256 QDLNRVLKTTREFLDR  271 (547)
+Q Consensus       256 ~~L~~~l~~v~~fl~~  271 (547)
+                      .++.....+.+.++.+
+T Consensus       187 ~~l~~~~~~~~~~~~~  202 (392)
+T 4CGK_B          187 QALTTKQAELKAAELS  202 (392)
+T ss_dssp             HHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHH
+Confidence            3333333333333333
+
+
+No 59
+>7KIP_C Spike glycoprotein; NL63, in situ, Spike trimer; HET: BMA, NAG, MAN; 3.39A {Human coronavirus NL63}
+Probab=27.64  E-value=58  Score=43.36  Aligned_cols=194  Identities=16%  Similarity=0.267  Sum_probs=120.7  Template_Neff=4.600
+
+Q query           208 DFFAVVKSLALFVNALHRSDQQFV-ALNNDLAQFTNSFTNTD---QELANALQDLNRVLKTTREFLDRNGGVLTHDIDNL  283 (547)
+Q Consensus       208 dl~~~i~nL~~~v~aL~~~d~ql~-~l~~~La~~t~~La~~~---~~L~~aL~~L~~~l~~v~~fl~~n~~~L~~~v~~L  283 (547)
+                      .+.+=+.-++.-.+.|.++.++|. +|++-+..+...|.+-.   ++-+++++..+.++..+++.+.+++..|.+.+.+|
+T Consensus       953 ~vq~RlN~~~l~~~vL~~NQk~iA~sFN~A~~~i~~~f~~v~~ai~qts~~~~t~~~Al~kiQ~vVN~~~~aL~~l~~qL 1032 (1356)
+T 7KIP_C          953 ALQARLNYVALQTDVLQENQKILAASFNKAINNIVASFSSVNDAITQTAEAIHTVTIALNKIQDVVNQQGSALNHLTSQL 1032 (1356)
+T ss_dssp             HTHHHHTTTSCCCCSSCCHHHHHHHHHHHHHHHHHHHTTTCCHHHHTTCSSHHHHHHHHHHHHHHHHHHHHHHHHHGGGG
+T ss_pred             HHHHHhhHhhhcHHHHHHHHHHHHHHHHHHHHHHHHHhhhhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            344445667777788888877765 66666666665554444   45556677788899999999999999999999999
+
+
+Q query           284 EQVTTAILQPEPRDGLETGLHAYPNLAANVLNINSPNQGGIIGLPVLPGVTNFSNPLQFVCSSIQAGSRLGYQESAELCA  363 (547)
+Q Consensus       284 ~~vt~~L~~~~~rd~Le~~L~~~P~~~an~~niy~P~~g~~~g~~~lp~~~nf~nP~~~iC~~i~a~~~~~~~~~a~lc~  363 (547)
+                      ..=.+++-.     .|+++...+-.+-++. .+.    .=++|..+  +++-|-.-...-=.-+.+ +|.=+++.-..|.
+T Consensus      1033 ~~nF~AISs-----si~dIy~rLd~leAda-QvD----RLItGRL~--aLna~vtq~l~~~~~v~~-sr~lA~qKinECV 1099 (1356)
+T 7KIP_C         1033 RHNFQAISN-----SIQAIYDRLDSIQADQ-QVD----RLITGRLA--ALNAFVSQVLNKYTEVRG-SRRLAQQKINECV 1099 (1356)
+T ss_dssp             SCCCSSSCS-----CHHHHHTTSCHHHHHH-HHH----HHHHHHHH--HHHHHHHHHHHHHHHHHH-HHHHHHHHCCCCC
+T ss_pred             HHHHHHHHH-----HHHHHHHHHHHHHHHH-HHH----HHHHhHHH--HHHHHHHHHHHHHHHHHH-HHHHHHHHHHHHH
+Confidence            887777742     3555555554444442 211    11223321  122232211111112222 3333445555677
+
+
+Q query           364 QYLAPIMDAIKFNYLPFGMNLASTAMTLPKQIAYSEKRLQPPPGYKDTTVPGIWSR  419 (547)
+Q Consensus       364 q~l~P~l~~~~~n~~p~~~n~~~~~~~~p~~~~ys~~~l~p~~g~~~~~~p~~~~~  419 (547)
+                      +-     ...++.+-==|.+.++=+.+-|+.|.+-.-.+.|-.-..-+..+|+-..
+T Consensus      1100 ks-----QS~R~gFCGnG~Hv~s~~q~AP~Gi~f~H~~~~P~~~~~v~a~~G~C~~ 1150 (1356)
+T 7KIP_C         1100 KS-----QSNRYGFCGNGTHIFSIVNSAPDGLLFLHTVLLPTDYKNVKAWSGICVD 1150 (1356)
+T ss_dssp             SS-----CCCCTTSSSSSEEEEEEEEEETTEEEEEEEEEEECCEEEEEBCCCEEET
+T ss_pred             Hc-----cCcccCCCCCCeeeEEeeecCCCeEEEEEEeecccceeEEEEEEEEeec
+Confidence            64     3345566666899999999999999998888888644445667888654
+
+
+No 60
+>3H6P_B ESAT-6 LIKE PROTEIN ESXS, ESAT-6; Four-helix bundle, Structural Genomics, PSI-2; 1.91A {Mycobacterium tuberculosis}
+Probab=26.89  E-value=61  Score=29.78  Aligned_cols=10  Identities=0%  Similarity=-0.177  Sum_probs=3.6  Template_Neff=8.700
+
+Q query           208 DFFAVVKSLA  217 (547)
+Q Consensus       208 dl~~~i~nL~  217 (547)
+                      ++...+++|.
+T Consensus        38 ~l~~~~~~l~   47 (111)
+T 3H6P_B           38 LMRHTIGQAE   47 (111)
+T ss_dssp             HHHHHHHHHH
+T ss_pred             HHHHHHHHHH
+Confidence            3333333333
+
+
+No 61
+>6BFU_B Spike protein; coronavirus spike glycoprotein, porcine deltacoronavirus; HET: BMA, MAN, NAG; 3.5A {Porcine deltacoronavirus}
+Probab=26.74  E-value=62  Score=41.95  Aligned_cols=220  Identities=20%  Similarity=0.265  Sum_probs=132.4  Template_Neff=4.500
+
+Q query           208 DFFAVVKSLALFVNALHRSDQQFV-ALNNDLAQFTNSFTNTD---QELANALQDLNRVLKTTREFLDRNGGVLTHDIDNL  283 (547)
+Q Consensus       208 dl~~~i~nL~~~v~aL~~~d~ql~-~l~~~La~~t~~La~~~---~~L~~aL~~L~~~l~~v~~fl~~n~~~L~~~v~~L  283 (547)
+                      .+..=+.-++.-.+.|.++.++|. +|++-+..+...|.+-.   ++-+++++..+.++..+++.+.+++..|.+.+.+|
+T Consensus       759 ~vq~RlN~~~lt~~vL~~NQk~iA~sFN~A~~~i~~~f~~V~~ai~qts~~~~t~~~Al~kiQ~VVN~~~~aL~~l~~qL  838 (1024)
+T 6BFU_B          759 AVQARLNYVALQTNVLQENQKILAESFNQAVGNISLALSSVNDAIQQTSEALNTVAIAIKKIQTVVNQQGEALSHLTAQL  838 (1024)
+T ss_dssp             HHHHHHHHHTTSSSCCSTTHHHHHHHHHHHHHHHHHHHHTTCCSCCTTCHHHHHHHHHHHHHHHHHHTTTHHHHHHHHGG
+T ss_pred             HHHHHhhhhhhcHHHHHHHHHHHHHHHHHHHHHHHHHHHhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            344445667777788888877765 56666666665554444   45556677788899999999999999999999999
+
+
+Q query           284 EQVTTAILQPEPRDGLETGLHAYPNLAANVLNINSPNQGGIIGLPVLPGVTNFSNPLQFVCSSIQAGSRLGYQESAELCA  363 (547)
+Q Consensus       284 ~~vt~~L~~~~~rd~Le~~L~~~P~~~an~~niy~P~~g~~~g~~~lp~~~nf~nP~~~iC~~i~a~~~~~~~~~a~lc~  363 (547)
+                      ..=.+++-     ..|++++..+-.+-++. .+.    .=++|...  +++-|-.-...--.-+.+ +|.=+++.-..|.
+T Consensus       839 ~~nFgAIS-----ssi~dIy~rLd~leAda-QvD----RLItGRL~--aLna~vtq~l~~~~~v~~-sr~lA~qKinECV  905 (1024)
+T 6BFU_B          839 SNNFQAIS-----TSIQDIYNRLEEVEANQ-QVD----RLITGRLA--ALNAYVTQLLNQMSQIRQ-SRLLAQQKINECV  905 (1024)
+T ss_dssp             GCCCSSSC-----SCHHHHHHHSCHHHHHH-HHH----HHHHHHHH--HHHHHHHHHHHHHHHHHH-HHHHHHHHCCCCC
+T ss_pred             HHHHHHHH-----HHHHHHHHHHHHHHHHH-HHH----HHHHhHHH--HHHHHHHHHHHHHHHHHH-HHHHHHHHHHHHH
+Confidence            88777774     23555555555444442 221    12223321  122232211111112222 3333445555677
+
+
+Q query           364 QYLAPIMDAIKFNYLPFGMNLASTAMTLPKQIAYSEKRLQPPPGYKDTTVPGIWSRDTLFSHGNHEPGWIVAPGMQGVQV  443 (547)
+Q Consensus       364 q~l~P~l~~~~~n~~p~~~n~~~~~~~~p~~~~ys~~~l~p~~g~~~~~~p~~~~~~~~~~~~~~~pg~~~~pg~~g~~~  443 (547)
+                      +-     ...++.+-==|.+.++=..+-|+.|.+=.-.+.|-.-..-+..+|+-..++-        |.+++  ..|.-+
+T Consensus       906 ks-----QS~R~gFCGnG~Hv~S~~q~AP~Gi~F~H~~~~P~~~~~v~a~~G~C~~~~~--------~~~~~--~~~~~~  970 (1024)
+T 6BFU_B          906 KS-----QSPRYGFCGNGTHIFSLTQTAPNGIFFMHAVLVPNKFTRVNASAGICVDNTR--------GYSLQ--PQLILY  970 (1024)
+T ss_dssp             CS-----CCCCTTTSSSSEEEEEEEEEETTEEEEEEEEEEEEEEEEECCBCEEEETTTE--------EEEEC--TTEEEE
+T ss_pred             Hc-----cCCCcCCCCCCeeeEeeeecCCCeEEEEEEEecccceeEEEEEEEeEecCCc--------eEEeC--CceEEE
+Confidence            65     3345556666899999999999999998888888644445677888654311        23333  344555
+
+
+Q query           444 QPATANMLTPES  455 (547)
+Q Consensus       444 ~~~~~~~~~p~~  455 (547)
+                      +....-+.||-.
+T Consensus       971 ~~n~~~~~T~r~  982 (1024)
+T 6BFU_B          971 QFNNSWRVTPRN  982 (1024)
+T ss_dssp             EETTEEEEEESS
+T ss_pred             EeCCEEEEcccc
+Confidence            555555566544
+
+
+No 62
+>6ZM0_AAA Cell shape-determining protein MreC; Rod-Shape Bacteria, Peptidoglycan, elongasome, cytoskeletal; 1.471A {Pseudomonas aeruginosa PAO1}
+Probab=26.70  E-value=62  Score=32.48  Aligned_cols=32  Identities=16%  Similarity=0.348  Sum_probs=25.7  Template_Neff=7.700
+
+Q query            52 YFPEVLALYPGDKVLIMG--------VRVGSIDSIETAGD   83 (547)
+Q Consensus        52 ~F~da~GLy~Gd~VrV~G--------V~VG~V~sIep~gd   83 (547)
+                      +++....++.||.|.-.|        ..||+|++|+...+
+T Consensus        97 ~i~~~~~i~~GD~V~Tsg~~~~~p~gl~IG~V~~i~~~~~  136 (164)
+T 6ZM0_AAA         97 YVADTADIKEGDLLVSSGLGQRFPAGYPVATVKEVIHDSG  136 (164)
+T ss_pred             EeCCCCCCCCCCEEEECCCCCCCCCCCeEEEEEEEEeCCC
+Confidence            456678899999887644        89999999997764
+
+
+No 63
+>5ZHY_B Spike glycoprotein,Spike glycoprotein; membrane fusion, broad-spectrum inhibitor design; 2.441A {Human coronavirus 229E}
+Probab=26.60  E-value=62  Score=32.21  Aligned_cols=36  Identities=19%  Similarity=0.329  Sum_probs=6.9  Template_Neff=2.300
+
+Q query           174 IESFADGFAGKGEQLNRTLRGLSDALTALNEGRGDF  209 (547)
+Q Consensus       174 l~s~a~~l~G~G~~L~~tL~~LS~al~~L~~~~~dl  209 (547)
+                      +..+-+....+|..|+.+..+|+.-..+++....|+
+T Consensus        42 L~KIQdVVN~qg~ALs~Lt~QL~nNFqAISSSI~di   77 (148)
+T 5ZHY_B           42 LNKIQDVVNQQGNSLNHLTSQLRQNFQLVPRGSGGS   77 (148)
+T ss_dssp             HHHHHHHHHHHTTC----------------------
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHhhCcchhhhccc
+Confidence            334444455555555555555555444444443333
+
+
+No 64
+>5ZHY_D Spike glycoprotein,Spike glycoprotein; membrane fusion, broad-spectrum inhibitor design; 2.441A {Human coronavirus 229E}
+Probab=26.60  E-value=62  Score=32.21  Aligned_cols=36  Identities=19%  Similarity=0.329  Sum_probs=9.2  Template_Neff=2.300
+
+Q query           174 IESFADGFAGKGEQLNRTLRGLSDALTALNEGRGDF  209 (547)
+Q Consensus       174 l~s~a~~l~G~G~~L~~tL~~LS~al~~L~~~~~dl  209 (547)
+                      +..+-+....+|..|+.+..+|+.-..+++....|+
+T Consensus        42 L~KIQdVVN~qg~ALs~Lt~QL~nNFqAISSSI~di   77 (148)
+T 5ZHY_D           42 LNKIQDVVNQQGNSLNHLTSQLRQNFQLVPRGSGGS   77 (148)
+T ss_dssp             HHHHHHHHHHHHHHTTCC------------------
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHhhCcchhhhccc
+Confidence            334444455555555555555555444444443333
+
+
+No 65
+>3FAV_D ESAT-6-like protein esxB, 6 kDa; Complex, Operon structure, Four-helical-bundle, Coiled-coil; 2.15A {Mycobacterium tuberculosis}
+Probab=26.10  E-value=65  Score=27.17  Aligned_cols=13  Identities=15%  Similarity=0.289  Sum_probs=4.7  Template_Neff=10.800
+
+Q query           181 FAGKGEQLNRTLR  193 (547)
+Q Consensus       181 l~G~G~~L~~tL~  193 (547)
+                      +.+..+++.+.+.
+T Consensus        17 ~~~~~~~l~~~~~   29 (94)
+T 3FAV_D           17 IQGNVTSIHSLLD   29 (94)
+T ss_dssp             HHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHH
+Confidence            3333333333333
+
+
+No 66
+>6U7K_B Spike glycoprotein; PEDV, Spike, Coronavirus, Fusion Protein; HET: BMA, NAG, MAN; 3.14A {Porcine epidemic diarrhea virus (strain CV777)}
+Probab=25.88  E-value=66  Score=42.98  Aligned_cols=194  Identities=19%  Similarity=0.268  Sum_probs=120.1  Template_Neff=4.400
+
+Q query           208 DFFAVVKSLALFVNALHRSDQQFV-ALNNDLAQFTNSFTNTD---QELANALQDLNRVLKTTREFLDRNGGVLTHDIDNL  283 (547)
+Q Consensus       208 dl~~~i~nL~~~v~aL~~~d~ql~-~l~~~La~~t~~La~~~---~~L~~aL~~L~~~l~~v~~fl~~n~~~L~~~v~~L  283 (547)
+                      .+.+=+.-++.-.+.|.++.+.|. +|++-+..+...|.+-.   ++-+++++..+.++..+++.+.+++..|.+.+.+|
+T Consensus       974 ~vq~RlN~v~lt~~VL~~NQk~iA~sFN~A~~~i~~~f~~Vn~ai~qts~~~~t~~~Al~kiQ~VVN~q~~aL~~l~~qL 1053 (1399)
+T 6U7K_B          974 AVQARLNYLALQTDVLQRNQQLLAESFNSAIGNITSAFESVKEAISQTSKGLNTVAHALTKVQEVVNSQGSALNQLTVQL 1053 (1399)
+T ss_dssp             HHHHHHHTTSCCCCTTSTHHHHHHHHHHHHHHHHHTTTTSCGGGCCGGGGSTTSHHHHHHHHHHHHHTTSHHHHHHHHTT
+T ss_pred             HHHHHhhHHHhchHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            344445667777788888877765 66666666665554444   45556677778899999999999999999999999
+
+
+Q query           284 EQVTTAILQPEPRDGLETGLHAYPNLAANVLNINSPNQGGIIGLPVLPGVTNFSNPLQFVCSSIQAGSRLGYQESAELCA  363 (547)
+Q Consensus       284 ~~vt~~L~~~~~rd~Le~~L~~~P~~~an~~niy~P~~g~~~g~~~lp~~~nf~nP~~~iC~~i~a~~~~~~~~~a~lc~  363 (547)
+                      ..=.+++-.     .|++++..+-.+-++. .+.    .=++|..+  +++-|-.-...--.-+.+ +|.=+++.-..|.
+T Consensus      1054 ~~nFgAISs-----si~dIy~rLd~leAda-QvD----RLItGRL~--aLna~vtq~l~~~~~v~~-sr~LA~qKinECV 1120 (1399)
+T 6U7K_B         1054 QHNFQAISS-----SIDDIYSRLDILSADV-QVD----RLITGRLS--ALNAFVAQTLTKYTEVQA-SRKLAQQKVNECV 1120 (1399)
+T ss_dssp             SCCTTSSCS-----CHHHHHHSSCHHHHHH-HHH----HHHHHHHH--HHHHHHHHHHHHHHHHHH-HHHHHHHHCCCCC
+T ss_pred             HHHHHHHHH-----HHHHHHHHHHHHHHhh-HHH----HHHhhHHH--HHHHHHHHHHHHHHHHHH-HHHHHHHHHHHHH
+Confidence            887777742     3555555555444442 211    12223321  122232211111112222 3333445555677
+
+
+Q query           364 QYLAPIMDAIKFNYLPF-GMNLASTAMTLPKQIAYSEKRLQPPPGYKDTTVPGIWSR  419 (547)
+Q Consensus       364 q~l~P~l~~~~~n~~p~-~~n~~~~~~~~p~~~~ys~~~l~p~~g~~~~~~p~~~~~  419 (547)
+                      +-     ...++.+-== |.+.++=+.+-|+.|.+-.-.+.|-.-..-+..+|+-..
+T Consensus      1121 kS-----QS~R~gFCGn~G~Hv~S~~q~APnGi~F~H~~~~Pt~~~~v~a~~GlC~~ 1172 (1399)
+T 6U7K_B         1121 KS-----QSQRYGFCGGDGEHIFSLVQAAPQGLLFLHTVLVPGDFVNVLAIAGLCVN 1172 (1399)
+T ss_dssp             SS-----CCCSTTTTTSSSEEEEEEEEEETTEEEEEEEEEEESCEEEEEEECCEEET
+T ss_pred             Hh-----cCcccCCCCCCceeEEEecccCCCeEEEEEEeeccCceEEEEEEEEEEec
+Confidence            64     3446666666 888899899999999988888887644445667887654
+
+
+No 67
+>7CYD_A Spike glycoprotein; Alphacoronavirus, spike glycoprotein, STRUCTURAL PROTEIN; HET: BMA, MAN, NAG;{Human coronavirus 229E}
+Probab=25.87  E-value=66  Score=42.09  Aligned_cols=194  Identities=16%  Similarity=0.263  Sum_probs=118.0  Template_Neff=4.500
+
+Q query           208 DFFAVVKSLALFVNALHRSDQQFV-ALNNDLAQFTNSFTNTD---QELANALQDLNRVLKTTREFLDRNGGVLTHDIDNL  283 (547)
+Q Consensus       208 dl~~~i~nL~~~v~aL~~~d~ql~-~l~~~La~~t~~La~~~---~~L~~aL~~L~~~l~~v~~fl~~n~~~L~~~v~~L  283 (547)
+                      .+.+=+.-++.-.+.|.++.+.|. +|++-+..+...|.+-.   ++-+++++..+.++..+++.+.+++..|.+.+.+|
+T Consensus       772 ~vq~RlN~v~lt~~vL~~NQk~iA~sFN~A~~~i~~~f~~V~~ai~qts~~~~t~~~Al~kiQ~VVN~q~~aL~~l~~qL  851 (1116)
+T 7CYD_A          772 AIQSRLNYVALQTDVLQENQKILAASFNKAMTNIVDAFTGVNDAITQTSQALQTVATALNKIQDVVNQQGNSLNHLTSQL  851 (1116)
+T ss_dssp             HHHHHHHHHCCCCCSCCHHHHHHHHHHHHHHHHHHHHHC---------CHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHhhhhhhcHHHHHHHHHHHHHHHHHHHHHHHHHhhhhhhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            344445667777788888877765 66666666665554444   45556677778899999999999999999999999
+
+
+Q query           284 EQVTTAILQPEPRDGLETGLHAYPNLAANVLNINSPNQGGIIGLPVLPGVTNFSNPLQFVCSSIQAGSRLGYQESAELCA  363 (547)
+Q Consensus       284 ~~vt~~L~~~~~rd~Le~~L~~~P~~~an~~niy~P~~g~~~g~~~lp~~~nf~nP~~~iC~~i~a~~~~~~~~~a~lc~  363 (547)
+                      ..=.+++-.     .|+++...+-.+-++. .+.    .=++|..+  +++-|-.-...--.-+.+ +|.=+++.-..|.
+T Consensus       852 ~~nFgAISs-----si~dIy~rLd~leAda-QvD----RLItGRL~--aLna~vtq~l~~~~~v~~-sr~LA~qKinECV  918 (1116)
+T 7CYD_A          852 RQNFQAISS-----SIQAIYDRLDIIQADQ-QVD----RLITGRLA--ALNVFVSHTLTKYTEVRA-SRQLAQQKVNECV  918 (1116)
+T ss_dssp             HSCSSSSCS-----CHHHHHHHCCHHHHHH-HHH----HHHHHHHH--HHHHHHHHHHHHHHHHHH-HHHHHHHHCCCCC
+T ss_pred             HHHHHHHHH-----HHHHHHHHHHHHHHHH-HHH----HHHHhHHH--HHHHHHHHHHHHHHHHHH-HHHHHHHHHHHHH
+Confidence            887777742     3555555554444432 211    12223321  122232211111112222 3333445555677
+
+
+Q query           364 QYLAPIMDAIKFNYLPFGMNLASTAMTLPKQIAYSEKRLQPPPGYKDTTVPGIWSR  419 (547)
+Q Consensus       364 q~l~P~l~~~~~n~~p~~~n~~~~~~~~p~~~~ys~~~l~p~~g~~~~~~p~~~~~  419 (547)
+                      +-     ...++.+-==|.+.++=..+-|+.|.+-.-.+.|-.-..-+..+|+-..
+T Consensus       919 ks-----QS~R~gFCGnG~Hv~S~~q~APnGi~F~H~~~~P~~~~~v~a~~GlC~~  969 (1116)
+T 7CYD_A          919 KS-----QSKRYGFCGNGTHIFSLVNAAPEGLVFLHTVLLPTQYKDVEAWSGLCVD  969 (1116)
+T ss_dssp             TS-----CCSCTTTSSSSEEEEEEEEEETTEEEEEEEEECCSSEEEEEECSCCCCS
+T ss_pred             Hh-----cCcccCCCCCCeeEEEecccCCCeEEEEEEeeccceeEEEEEEEEEeec
+Confidence            64     3445666666899999999999999998888888644445667888654
+
+
+No 68
+>6JX7_A Feline Infectious Peritonitis Virus Spike; CoV spike protein, VIRAL PROTEIN; HET: BMA, NAG, FUC, MAN; 3.31A {Feline infectious peritonitis virus}
+Probab=25.38  E-value=68  Score=43.05  Aligned_cols=194  Identities=16%  Similarity=0.254  Sum_probs=121.5  Template_Neff=4.400
+
+Q query           208 DFFAVVKSLALFVNALHRSDQQFV-ALNNDLAQFTNSFTNTD---QELANALQDLNRVLKTTREFLDRNGGVLTHDIDNL  283 (547)
+Q Consensus       208 dl~~~i~nL~~~v~aL~~~d~ql~-~l~~~La~~t~~La~~~---~~L~~aL~~L~~~l~~v~~fl~~n~~~L~~~v~~L  283 (547)
+                      .+.+=+.-++.-.+.|.++.+.|. +|++-+..+...|.+-.   ++-+++++..+.++..+++.+.+++..|.+.+.+|
+T Consensus      1045 ~vq~RlN~v~lt~~VL~~NQk~iA~sFN~A~~~i~~~f~~V~~ai~qts~~f~t~~~Al~kiQ~VVN~q~~aL~~L~~qL 1124 (1468)
+T 6JX7_A         1045 QVQARLNYVALQTDVLQENQKILANAFNNAIGNITLALGKVSNAITTVSDGFNSMASALTKIQSVVNQQGEALSHLISQL 1124 (1468)
+T ss_dssp             HHHHHHHTTSCCCSCCHHHHHHHHHHHHHHHHHHHHHHHSCCSCSCCCCSHHHHHHHHHHHHHHHTTTHHHHHHHHHGGG
+T ss_pred             HHHHHhhhhhhchHHHHHHHHHHHHHHHHHHHHHHHHhhhhhhHHHHhhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            344445667777788888877765 66666666665554444   45556677788899999999999999999999999
+
+
+Q query           284 EQVTTAILQPEPRDGLETGLHAYPNLAANVLNINSPNQGGIIGLPVLPGVTNFSNPLQFVCSSIQAGSRLGYQESAELCA  363 (547)
+Q Consensus       284 ~~vt~~L~~~~~rd~Le~~L~~~P~~~an~~niy~P~~g~~~g~~~lp~~~nf~nP~~~iC~~i~a~~~~~~~~~a~lc~  363 (547)
+                      ..=.+++-     ..|++++..+-.+-++. .+.    .=++|..+  +++-|-.-...--.-+. .+|.=+++.-..|.
+T Consensus      1125 ~~nFgAIS-----ssi~dIy~RLd~leAda-QvD----RLItGRL~--aLna~vtq~l~~~~~v~-~sr~LA~qKiNECV 1191 (1468)
+T 6JX7_A         1125 QKNFQAIS-----SSIAEIYNRLEKVEADA-QVD----RLITGRLA--ALNAYVAQTLTQYAEVK-ASRQLAMEKVNECV 1191 (1468)
+T ss_dssp             SCCTTSSC-----SCHHHHTTTSCHHHHHH-HHH----HHHHHHHH--HHHHHHHHHHHHHHHHH-HHHHHHHHHCCCCC
+T ss_pred             HHHHHHHH-----HHHHHHHHHHHHHHHHH-HHH----HHHHhHHH--HHHHHHHHHHHHHHHHH-HHHHHHHHHHHHHH
+Confidence            88877774     23555555555444442 211    12223321  12223221111111222 23333445555677
+
+
+Q query           364 QYLAPIMDAIKFNYLPFGMNLASTAMTLPKQIAYSEKRLQPPPGYKDTTVPGIWSR  419 (547)
+Q Consensus       364 q~l~P~l~~~~~n~~p~~~n~~~~~~~~p~~~~ys~~~l~p~~g~~~~~~p~~~~~  419 (547)
+                      +-     ...++.+-==|.+.++=+.+-|+.|.+=.-.+.|-.-..-+..+|+-..
+T Consensus      1192 kS-----QS~R~gFCGnG~Hv~Si~q~APnGi~F~H~~~~Pt~~~~v~a~~GlC~~ 1242 (1468)
+T 6JX7_A         1192 KS-----QSDRYGFCGNGTHLFSLVNSAPDGLLFFHTVLLPTEWEEVTAWSGICVN 1242 (1468)
+T ss_dssp             TT-----CCCCTTSSSSSSEEEEEEEEETTEEEEEEEEEEECCCCEEECBSCEEET
+T ss_pred             Hc-----cccCcCCCCCCeeeEeecccCCCeEEEEEEeecccceEEEEEEEEEeec
+Confidence            64     3446666666899999999999999998888888644445677888654
+
+
+No 69
+>4MOD_B HR1 of S protein, LINKER; MERS-CoV, Viral envelope proteins, Spike; 1.901A {Human betacoronavirus 2c EMC/2012}
+Probab=25.34  E-value=68  Score=31.64  Aligned_cols=45  Identities=18%  Similarity=0.320  Sum_probs=16.0  Template_Neff=3.200
+
+Q query           171 GDIIESFADGFAGKGEQLNRTLRGLSDALTALNEGRGDFFAVVKS  215 (547)
+Q Consensus       171 ~~~l~s~a~~l~G~G~~L~~tL~~LS~al~~L~~~~~dl~~~i~n  215 (547)
+                      ...+..+-+....++..|+.+..+|+....+++....|+..=++.
+T Consensus        26 ~~Al~kiQ~vVN~~~~aL~~L~~qL~~nFgAISssi~dIy~rLd~   70 (129)
+T 4MOD_B           26 NEAFQKVQDAVNNNAQALSKLASELSNTFGAISASIGDILVPRGS   70 (129)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHC---------------------
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHchhHHHHHHHHHhhcc
+Confidence            344455556666777788887777777777777666666544433
+
+
+No 70
+>6RLD_A Small-conductance mechanosensitive channel; MEMBRANE PROTEIN, CHANNEL, MECHANOSENSITIVE; HET: PCW; 2.93A {Escherichia coli K-12}
+Probab=25.18  E-value=69  Score=34.76  Aligned_cols=26  Identities=23%  Similarity=0.340  Sum_probs=21.2  Template_Neff=8.600
+
+Q query            56 VLALYPGDKVLIMGVRVGSIDSIETAG   82 (547)
+Q Consensus        56 a~GLy~Gd~VrV~GV~VG~V~sIep~g   82 (547)
+                      ..-.+.||.|++.|+ .|+|++|....
+T Consensus       127 ~~pf~vGD~I~i~~~-~G~V~~I~~~~  152 (286)
+T 6RLD_A          127 FRPFRAGEYVDLGGV-AGTVLSVQIFS  152 (286)
+T ss_dssp             SCSCCSSCEEEESSC-EEEEEEECSSE
+T ss_pred             CCCCCCCCEEEECCe-EEEEEEEEeEE
+Confidence            455778999999995 59999998865
+
+
+No 71
+>6VV5_A Spike glycoprotein; glycoprotein, surface, receptor-binding, membrane fusion; HET: BMA, PAM, NAG, MAN;{Porcine epidemic diarrhea virus}
+Probab=25.05  E-value=70  Score=42.68  Aligned_cols=194  Identities=18%  Similarity=0.267  Sum_probs=120.2  Template_Neff=4.500
+
+Q query           208 DFFAVVKSLALFVNALHRSDQQFV-ALNNDLAQFTNSFTNTD---QELANALQDLNRVLKTTREFLDRNGGVLTHDIDNL  283 (547)
+Q Consensus       208 dl~~~i~nL~~~v~aL~~~d~ql~-~l~~~La~~t~~La~~~---~~L~~aL~~L~~~l~~v~~fl~~n~~~L~~~v~~L  283 (547)
+                      .+.+=+.-++.-.+.|.++.+.|. +|++-+..+...|.+-.   ++-+++++..+.++..+++.+.+++..|.+.+.+|
+T Consensus       959 ~vq~RlN~v~lt~~VL~~NQk~iA~sFN~A~~~i~~~f~~V~~ai~qts~~~~t~~~Al~kiQ~VVN~q~~aL~~l~~qL 1038 (1356)
+T 6VV5_A          959 AVQARLNYLALQTDVLQRNQQLLAESFNSAIGNITSAFESVKEAISQTSKGLNTVAHALTKVQEVVNSQGAALTQLTVQL 1038 (1356)
+T ss_dssp             HHHHHHHHHSCCCCCSSHHHHHHHHHHHHHHHHHHHHTTTGGGSCCTTTTSTTSHHHHHHHHHHHHHTTTTTHHHHHHGG
+T ss_pred             HHHHHhhhhHhchHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            344445667777788888877765 66666666665554444   45556677778899999999999999999999999
+
+
+Q query           284 EQVTTAILQPEPRDGLETGLHAYPNLAANVLNINSPNQGGIIGLPVLPGVTNFSNPLQFVCSSIQAGSRLGYQESAELCA  363 (547)
+Q Consensus       284 ~~vt~~L~~~~~rd~Le~~L~~~P~~~an~~niy~P~~g~~~g~~~lp~~~nf~nP~~~iC~~i~a~~~~~~~~~a~lc~  363 (547)
+                      ..=.+++-.     .|++++..+-.+-++. .+.    .=++|..+  +++-|-.-...--.-+. .+|.=+++.-..|.
+T Consensus      1039 ~~nFgAISs-----si~dIy~rLd~leAda-QvD----RLItGRL~--aLna~vtq~l~~~~~v~-~sr~LA~qKinECV 1105 (1356)
+T 6VV5_A         1039 QHNFQAISS-----SIDDIYSRLDILSADA-QVD----RLITGRLS--ALNAFVAQTLTKYTEVQ-ASRKLAQQKVNECV 1105 (1356)
+T ss_dssp             GCCCSSSCS-----CHHHHHTTSCHHHHHH-HHH----HHHHHHHH--HHHHHHHHHHHHHHHHH-HHHHHHHHHCCCCC
+T ss_pred             HHHHHHHHH-----HHHHHHHHHHHHHHhh-HHH----HHHHhHHH--HHHHHHHHHHHHHHHHH-HHHHHHHHHHHHHH
+Confidence            887777742     3555555554444442 211    12223321  12223221111111222 23333445555677
+
+
+Q query           364 QYLAPIMDAIKFNYLPF-GMNLASTAMTLPKQIAYSEKRLQPPPGYKDTTVPGIWSR  419 (547)
+Q Consensus       364 q~l~P~l~~~~~n~~p~-~~n~~~~~~~~p~~~~ys~~~l~p~~g~~~~~~p~~~~~  419 (547)
+                      +-     ...++.+-== |.+.++=+.+-|+.|.+-.-.+.|-.-..-+..+|+-..
+T Consensus      1106 kS-----QS~R~gFCGn~G~Hv~S~~q~APnGi~F~H~~~~Pt~~~~v~a~~GlC~~ 1157 (1356)
+T 6VV5_A         1106 KS-----QSQRYGFCGGDGEHIFSLVQAAPQGLLFLHTVLVPSDFVDVIAIAGLCVN 1157 (1356)
+T ss_dssp             SS-----CCCSTTTSSSSSEEEEEEEEEETTEEEEEEEEEECSEEEEEEECCCEEET
+T ss_pred             Hh-----cCcccCCCCCCceeEEEecccCCCeEEEEEEeecccceEEEEEEEEEEec
+Confidence            64     3345666666 888999999999999998888888644445667888654
+
+
+No 72
+>2QF4_A Cell shape determining protein MreC; filament a-lytic protease fold, STRUCTURAL; HET: EDO; 1.2A {Streptococcus pneumoniae}
+Probab=24.84  E-value=71  Score=32.31  Aligned_cols=32  Identities=22%  Similarity=0.304  Sum_probs=24.8  Template_Neff=7.800
+
+Q query            52 YFPEVLALYPGDKVLI--------MGVRVGSIDSIETAGD   83 (547)
+Q Consensus        52 ~F~da~GLy~Gd~VrV--------~GV~VG~V~sIep~gd   83 (547)
+                      +++....+.+||.|.-        .|+.||+|.+|+...+
+T Consensus       102 ~i~~~~~i~~GD~VvTsG~~~~~p~gl~IG~V~~i~~~~~  141 (172)
+T 2QF4_A          102 QLNSNSDISAGDKVTTGGLGNFNVADIPVGEVVATTHSTD  141 (172)
+T ss_dssp             CCSCCCCCCTTCEEEEECCSSSCCEEEEEEEEEEEESTTC
+T ss_pred             ecCCCCCCCCCCEEEeCCCCCCCCCCcEEEEEEEEEeCCC
+Confidence            3456678888888754        4889999999998654
+
+
+No 73
+>4GWP_A Mediator of RNA polymerase II; Binding Sites, Mediator Complex, Models; 4.2A {Saccharomyces cerevisiae}
+Probab=24.35  E-value=73  Score=30.83  Aligned_cols=57  Identities=11%  Similarity=0.189  Sum_probs=31.2  Template_Neff=5.300
+
+Q query           206 RGDFFAVVKSLALFVNALHRS----DQQFVALNNDLAQFTNSFTNTDQELANALQDLNRVL  262 (547)
+Q Consensus       206 ~~dl~~~i~nL~~~v~aL~~~----d~ql~~l~~~La~~t~~La~~~~~L~~aL~~L~~~l  262 (547)
+                      ..+|.+++++....+.+|...    +.+..+|..+..+|.+.|......|..-+..|..++
+T Consensus        17 Dk~I~slL~~As~ai~~Ls~~k~~~~~~~~~F~~~~~~f~~tL~~V~~~LrrqI~~Leea~   77 (115)
+T 4GWP_A           17 ETQLCSMLQEASQVTFIFGELKRGNESVKPQFENHVKQFYERLDKSTTQLRKEIQLLDENV   77 (115)
+T ss_pred             HHHHHHHHHHHHHHHHHHcCCCCChHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHh
+Confidence            334444444444444444332    233555666666677777766667777666666663
+
+
+No 74
+>4GWQ_A Mediator of RNA polymerase II; Binding Sites, Mediator Complex, Models; 4.5A {Saccharomyces cerevisiae}
+Probab=24.35  E-value=73  Score=30.83  Aligned_cols=57  Identities=11%  Similarity=0.189  Sum_probs=31.2  Template_Neff=5.300
+
+Q query           206 RGDFFAVVKSLALFVNALHRS----DQQFVALNNDLAQFTNSFTNTDQELANALQDLNRVL  262 (547)
+Q Consensus       206 ~~dl~~~i~nL~~~v~aL~~~----d~ql~~l~~~La~~t~~La~~~~~L~~aL~~L~~~l  262 (547)
+                      ..+|.+++++....+.+|...    +.+..+|..+..+|.+.|......|..-+..|..++
+T Consensus        17 Dk~I~slL~~As~ai~~Ls~~k~~~~~~~~~F~~~~~~f~~tL~~V~~~LrrqI~~Leea~   77 (115)
+T 4GWQ_A           17 ETQLCSMLQEASQVTFIFGELKRGNESVKPQFENHVKQFYERLDKSTTQLRKEIQLLDENV   77 (115)
+T ss_pred             HHHHHHHHHHHHHHHHHHcCCCCChHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHh
+Confidence            334444444444444444332    233555666666677777766667777666666663
+
+
+No 75
+>5IJN_G NUCLEAR PORE COMPLEX PROTEIN NUP155; Nuclear pore complex, Nucleocytoplasmic transport; 21.4A {Homo sapiens}
+Probab=24.30  E-value=73  Score=38.39  Aligned_cols=14  Identities=7%  Similarity=0.245  Sum_probs=4.4  Template_Neff=2.900
+
+Q query           146 DEVRNQVTRLLADL  159 (547)
+Q Consensus       146 Del~~~L~~L~~~L  159 (547)
+                      +||-+++.+.+++|
+T Consensus       245 sDLPpeLQQEIEQL  258 (599)
+T 5IJN_G          245 ENLPPVICQDVENL  258 (599)
+T ss_dssp             ---CHHHHHHHHHH
+T ss_pred             hhCCHHHHHHHHHH
+Confidence            34444444433333
+
+
+No 76
+>6DFP_A Inosine-5'-monophosphate dehydrogenase (E.C.1.1.1.205); tripartite toxin, alpha-fold, putative membrane; HET: MSE; 1.5A {Vibrio cholerae serotype O1 (strain ATCC 39315 / El Tor Inaba N16961)}
+Probab=24.29  E-value=74  Score=35.46  Aligned_cols=8  Identities=25%  Similarity=0.821  Sum_probs=2.9  Template_Neff=9.500
+
+Q query           233 LNNDLAQF  240 (547)
+Q Consensus       233 l~~~La~~  240 (547)
+                      +.++|..|
+T Consensus       139 l~~~l~~f  146 (372)
+T 6DFP_A          139 MNKELSDW  146 (372)
+T ss_dssp             HHHHHHHH
+T ss_pred             HHHHHHHH
+Confidence            33333333
+
+
+No 77
+>1QU7_A METHYL-ACCEPTING CHEMOTAXIS PROTEIN I; SERINE, CHEMOTAXIS, FOUR HELICAL-BUNDLE, SIGNALING; 2.6A {Escherichia coli} SCOP: h.4.5.1
+Probab=24.09  E-value=75  Score=32.17  Aligned_cols=15  Identities=0%  Similarity=0.138  Sum_probs=5.5  Template_Neff=10.300
+
+Q query           254 ALQDLNRVLKTTREF  268 (547)
+Q Consensus       254 aL~~L~~~l~~v~~f  268 (547)
+                      .+.++...+..+..+
+T Consensus       176 ~~~~i~~~~~~i~~~  190 (227)
+T 1QU7_A          176 GIDQVGLAVAEMDRV  190 (227)
+T ss_dssp             HHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHH
+Confidence            333333333333333
+
+
+No 78
+>3R84_Q Mediator of RNA polymerase II; four-helix bundle, transcription, nucleus; HET: MSE; 2.05A {Saccharomyces cerevisiae}
+Probab=24.05  E-value=75  Score=29.10  Aligned_cols=58  Identities=10%  Similarity=0.180  Sum_probs=28.5  Template_Neff=5.700
+
+Q query           206 RGDFFAVVKSLALFVNALHRS----DQQFVALNNDLAQFTNSFTNTDQELANALQDLNRVLK  263 (547)
+Q Consensus       206 ~~dl~~~i~nL~~~v~aL~~~----d~ql~~l~~~La~~t~~La~~~~~L~~aL~~L~~~l~  263 (547)
+                      ..++..++++.+..+++|...    +.+-.+|..+..++...|..-...|..-+..|..+++
+T Consensus        14 d~~I~~lL~~As~ai~~Ls~~k~~~~~~~~~f~~~~~~f~~tL~~V~~~LrrqI~~Leea~~   75 (86)
+T 3R84_Q           14 ETQLCSMLQEASQVTFIFGELKRGNESVKPQFENHVKQFYERLDKSTTQLRKEIQLLDENVG   75 (86)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHTTCGGGHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTBT
+T ss_pred             HHHHHHHHHHHHHHHHHHhcCCCCchhhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhC
+Confidence            334444444444444444332    2234455555555666666555556555555555543
+
+
+No 79
+>3R84_S Mediator of RNA polymerase II; four-helix bundle, transcription, nucleus; HET: MSE; 2.05A {Saccharomyces cerevisiae}
+Probab=24.05  E-value=75  Score=29.10  Aligned_cols=58  Identities=10%  Similarity=0.180  Sum_probs=28.5  Template_Neff=5.700
+
+Q query           206 RGDFFAVVKSLALFVNALHRS----DQQFVALNNDLAQFTNSFTNTDQELANALQDLNRVLK  263 (547)
+Q Consensus       206 ~~dl~~~i~nL~~~v~aL~~~----d~ql~~l~~~La~~t~~La~~~~~L~~aL~~L~~~l~  263 (547)
+                      ..++..++++.+..+++|...    +.+-.+|..+..++...|..-...|..-+..|..+++
+T Consensus        14 d~~I~~lL~~As~ai~~Ls~~k~~~~~~~~~f~~~~~~f~~tL~~V~~~LrrqI~~Leea~~   75 (86)
+T 3R84_S           14 ETQLCSMLQEASQVTFIFGELKRGNESVKPQFENHVKQFYERLDKSTTQLRKEIQLLDENVG   75 (86)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHTTCGGGHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTBT
+T ss_pred             HHHHHHHHHHHHHHHHHHhcCCCCchhhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhC
+Confidence            334444444444444444332    2234455555555666666555556555555555543
+
+
+No 80
+>7KIP_C Spike glycoprotein; NL63, in situ, Spike trimer; HET: BMA, NAG, MAN; 3.39A {Human coronavirus NL63}
+Probab=23.66  E-value=77  Score=42.35  Aligned_cols=24  Identities=8%  Similarity=0.174  Sum_probs=10.6  Template_Neff=4.600
+
+Q query           188 LNRTLRGLSDALTALNEGRGDFFA  211 (547)
+Q Consensus       188 L~~tL~~LS~al~~L~~~~~dl~~  211 (547)
+                      ++++|.+.|++.++.+.....+.+
+T Consensus       993 v~~ai~qts~~~~t~~~Al~kiQ~ 1016 (1356)
+T 7KIP_C          993 VNDAITQTAEAIHTVTIALNKIQD 1016 (1356)
+T ss_dssp             CCHHHHTTCSSHHHHHHHHHHHHH
+T ss_pred             hHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            444444444444444443333333
+
+
+No 81
+>5B3D_D Flagella synthesis protein FlgN; flagellar type III secretion, export; HET: MSE; 2.3A {Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720)}
+Probab=23.47  E-value=78  Score=29.90  Aligned_cols=73  Identities=16%  Similarity=0.206  Sum_probs=40.1  Template_Neff=9.500
+
+Q query           208 DFFAVVKSLALFVNALHRSDQQFVALNNDLAQFTNSFTNTDQELANALQDLNRVLKTTREFLDRNGGVLTHDIDNLEQVT  287 (547)
+Q Consensus       208 dl~~~i~nL~~~v~aL~~~d~ql~~l~~~La~~t~~La~~~~~L~~aL~~L~~~l~~v~~fl~~n~~~L~~~v~~L~~vt  287 (547)
+                      .|..++..-+.++..+...+.....+...+. -      .+..+.....+|...+.+++.....|+..+...+..+..+.
+T Consensus        38 ~l~~~~~~k~~l~~~l~~l~~~r~~~~~~~~-~------~~~~l~~~~~~l~~~~~~~~~~n~~N~~ll~~~~~~~~~~l  110 (140)
+T 5B3D_D           38 QLQRITEEKSSLLATLDYLEQQRRLEQNAQR-S------ANDDIAERWQAITEKTQHLRDLNQHNGWLLEGQIERNQQAL  110 (140)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHTCCC------------CCSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHcC-C------CCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            3444444445555555544444444444332 1      04566667777777777777777777776666555444443
+
+
+No 82
+>3H6P_D ESAT-6 LIKE PROTEIN ESXS, ESAT-6; Four-helix bundle, Structural Genomics, PSI-2; 1.91A {Mycobacterium tuberculosis}
+Probab=23.19  E-value=80  Score=26.91  Aligned_cols=18  Identities=17%  Similarity=0.206  Sum_probs=5.8  Template_Neff=10.600
+
+Q query           180 GFAGKGEQLNRTLRGLSD  197 (547)
+Q Consensus       180 ~l~G~G~~L~~tL~~LS~  197 (547)
+                      .+....++|+..++++..
+T Consensus        17 ~~~~~~~~l~~~~~~~~~   34 (96)
+T 3H6P_D           17 DMAGYAGTLQSLGADIAS   34 (96)
+T ss_dssp             ---CHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHH
+Confidence            333333334433333333
+
+
+No 83
+>6ZLV_C bacterial cell wall elongation, STRUCTURAL; 3.6A {Pseudomonas aeruginosa}
+Probab=23.17  E-value=80  Score=31.97  Aligned_cols=35  Identities=14%  Similarity=0.323  Sum_probs=26.3  Template_Neff=8.000
+
+Q query            49 VTA-YFPEVLALYPGDKVLIMG--------VRVGSIDSIETAGD   83 (547)
+Q Consensus        49 vtA-~F~da~GLy~Gd~VrV~G--------V~VG~V~sIep~gd   83 (547)
+                      +.+ +++....+.+||.|.-.|        ..||+|++|+...+
+T Consensus       109 ~~l~~i~~~~~i~~GD~VvTSG~~~~~P~gl~VG~V~~i~~~~~  152 (176)
+T 6ZLV_C          109 LELRYVADTADIKEGDLLVSSGLGQRFPAGYPVATVKEVIHDSG  152 (176)
+T ss_dssp             EEEESCBTTCSCCTTCEEEECCTTSSSCTTCEEEEEEEEECCTT
+T ss_pred             EEEEEeCCCCCCCCCCEEEEcCCCCCCCCCcEEEEEEEEEeCCC
+Confidence            444 455667899998886644        89999999998754
+
+
+No 84
+>5ZUV_A Spike glycoprotein,EK1, Spike glycoprotein,inhibitor EK1; Human Coronavirus 229E, Spike protein; 2.21A {Human coronavirus 229E}
+Probab=23.17  E-value=80  Score=31.07  Aligned_cols=13  Identities=23%  Similarity=0.623  Sum_probs=5.2  Template_Neff=2.400
+
+Q query           170 FGDIIESFADGFA  182 (547)
+Q Consensus       170 l~~~l~s~a~~l~  182 (547)
+                      |+..+..+..+|.
+T Consensus        15 FN~AignI~~aF~   27 (133)
+T 5ZUV_A           15 FNKAMTNIVDAFT   27 (133)
+T ss_dssp             HHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHH
+Confidence            3334444433443
+
+
+No 85
+>3OPC_B Uncharacterized protein; Structural Genomics, PSI-2, Protein Structure; 2.09A {Bordetella pertussis}
+Probab=23.13  E-value=80  Score=30.56  Aligned_cols=40  Identities=23%  Similarity=0.313  Sum_probs=24.3  Template_Neff=9.200
+
+Q query           249 QELANALQDLNRVLKTTREFLDRNGGVLTHDIDNLEQVTT  288 (547)
+Q Consensus       249 ~~L~~aL~~L~~~l~~v~~fl~~n~~~L~~~v~~L~~vt~  288 (547)
+                      ..|....++|...+.+++..-..|+..+...+........
+T Consensus        88 ~~l~~~~~~l~~~~~~~~~~n~~N~~ll~~~l~~~~~~l~  127 (154)
+T 3OPC_B           88 PELGPLWQALQANAAQAREHNQRNGTLIAVNLRHTQESLD  127 (154)
+T ss_dssp             GGGHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             cchHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            4566666666666777776666666666655554444433
+
+
+No 86
+>5SZS_C Spike glycoprotein; coronavirus, viral fusion protein, vaccine; HET: BMA, MAN, NAG; 3.4A {Human coronavirus NL63}
+Probab=23.09  E-value=80  Score=42.08  Aligned_cols=194  Identities=16%  Similarity=0.278  Sum_probs=118.8  Template_Neff=4.500
+
+Q query           208 DFFAVVKSLALFVNALHRSDQQFV-ALNNDLAQFTNSFTNTD---QELANALQDLNRVLKTTREFLDRNGGVLTHDIDNL  283 (547)
+Q Consensus       208 dl~~~i~nL~~~v~aL~~~d~ql~-~l~~~La~~t~~La~~~---~~L~~aL~~L~~~l~~v~~fl~~n~~~L~~~v~~L  283 (547)
+                      .+.+=+.-++...+.|.++.+.|. +|++-+..+...|.+-.   ++-+++++..+.++..+++.+.+++..|.+.+.+|
+T Consensus       938 ~vq~RlN~~~lt~~vL~~NQk~iA~sFN~A~~~i~~~f~~V~~ai~qts~~~~t~~~Al~kiQ~VVN~q~~aL~~l~~qL 1017 (1325)
+T 5SZS_C          938 ALQARLNYVALQTDVLQENQKILAASFNKAINNIVASFSSVNDAITQTAEAIHTVTIALNKIQDVVNQQGSALNHLTSQL 1017 (1325)
+T ss_dssp             HHHHHHHTTSCCCCSSCHHHHHHHHHHHHHHHHHHHHHHC--------CTHHHHHHHHHHHHHHHHHHHHHHHHHHHHGG
+T ss_pred             HHHHHhhHhhhcHHHHHHHHHHHHHHHHHHHHHHHHHhhhhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            344445667777788888877765 56666666665544444   45556677778899999999999999999999999
+
+
+Q query           284 EQVTTAILQPEPRDGLETGLHAYPNLAANVLNINSPNQGGIIGLPVLPGVTNFSNPLQFVCSSIQAGSRLGYQESAELCA  363 (547)
+Q Consensus       284 ~~vt~~L~~~~~rd~Le~~L~~~P~~~an~~niy~P~~g~~~g~~~lp~~~nf~nP~~~iC~~i~a~~~~~~~~~a~lc~  363 (547)
+                      ..=.+++-.     .|++++..+-.+-++. .+.    .=++|..+  +++-|-.-...--.-+. .+|.=+++.-..|.
+T Consensus      1018 ~~nFgAISs-----si~dIy~rLd~leAda-QvD----RLItGRL~--aLna~vtq~l~~~~~v~-~sr~LA~qKinECV 1084 (1325)
+T 5SZS_C         1018 RHNFQAISN-----SIQAIYDRLDSIQADQ-QVD----RLITGRLA--ALNAFVSQVLNKYTEVR-GSRRLAQQKINECV 1084 (1325)
+T ss_dssp             GCCCSSSCS-----CHHHHHTTSCHHHHHH-HHH----HHHHHHHH--HHHHHHHHHHHHHHHHH-HHHHHHHHHHCCCC
+T ss_pred             HHHHHHHHH-----HHHHHHHHHHHHHHHH-HHH----HHHHhHHH--HHHHHHHHHHHHHHHHH-HHHHHHHHHHHHHH
+Confidence            887777742     3555555555444442 211    12223321  12223221111111222 23333445555677
+
+
+Q query           364 QYLAPIMDAIKFNYLPFGMNLASTAMTLPKQIAYSEKRLQPPPGYKDTTVPGIWSR  419 (547)
+Q Consensus       364 q~l~P~l~~~~~n~~p~~~n~~~~~~~~p~~~~ys~~~l~p~~g~~~~~~p~~~~~  419 (547)
+                      +-     ...++.+-==|.+.++=+.+-|+.|.+-.-.+.|-.-..-+..+|+-..
+T Consensus      1085 ks-----QS~R~gFCGnG~Hv~S~~q~APnGi~F~H~~~~P~~~~~v~a~~GlC~~ 1135 (1325)
+T 5SZS_C         1085 KS-----QSNRYGFCGNGTHIFSIVNSAPDGLLFLHTVLLPTDYKNVKAWSGICVD 1135 (1325)
+T ss_dssp             CC-----CCCCTTSSSSSEEEEEEEEEETTEEEEEEEEEEEEEEEEEEEESCEEET
+T ss_pred             Hc-----cCcCcCCCCCCeeeEEeeecCCCeEEEEEEeecccceeEEEEEEEEeec
+Confidence            64     3446666666899999999999999998888888644445667888654
+
+
+No 87
+>6PWP_B Small-conductance mechanosensitive channel; MscS, Nanodisc, Mechanosensitive Channel of;{Escherichia coli (strain K12)}
+Probab=23.06  E-value=80  Score=34.38  Aligned_cols=26  Identities=23%  Similarity=0.340  Sum_probs=21.4  Template_Neff=8.500
+
+Q query            56 VLALYPGDKVLIMGVRVGSIDSIETAG   82 (547)
+Q Consensus        56 a~GLy~Gd~VrV~GV~VG~V~sIep~g   82 (547)
+                      ..-.+.||.|++.|+ .|+|++|....
+T Consensus       130 ~~pf~vGD~I~i~~~-~G~V~~I~l~~  155 (289)
+T 6PWP_B          130 FRPFRAGEYVDLGGV-AGTVLSVQIFS  155 (289)
+T ss_dssp             HCSSCTTSEEESSSC-EEEEEEECSSE
+T ss_pred             cCCCCCCCEEEECCE-EEEEEEEEeEE
+Confidence            456788999999995 59999998865
+
+
+No 88
+>3LNR_A Aerotaxis transducer Aer2; HAMP domain, poly-HAMP domains, SIGNALING; 2.64A {Pseudomonas aeruginosa}
+Probab=22.52  E-value=84  Score=28.68  Aligned_cols=10  Identities=10%  Similarity=0.351  Sum_probs=3.8  Template_Neff=12.300
+
+Q query           146 DEVRNQVTRL  155 (547)
+Q Consensus       146 Del~~~L~~L  155 (547)
+                      .++...++.+
+T Consensus        45 ~~l~~~~~~~   54 (175)
+T 3LNR_A           45 ERLYDSLRAL   54 (175)
+T ss_dssp             HHHHHHHHHH
+T ss_pred             HHHHHHHHHH
+Confidence            3333333333
+
+
+No 89
+>6BFU_B Spike protein; coronavirus spike glycoprotein, porcine deltacoronavirus; HET: BMA, MAN, NAG; 3.5A {Porcine deltacoronavirus}
+Probab=22.07  E-value=87  Score=40.76  Aligned_cols=17  Identities=24%  Similarity=0.376  Sum_probs=7.0  Template_Neff=4.500
+
+Q query           188 LNRTLRGLSDALTALNE  204 (547)
+Q Consensus       188 L~~tL~~LS~al~~L~~  204 (547)
+                      ++++|.+.|++.++.+.
+T Consensus       799 V~~ai~qts~~~~t~~~  815 (1024)
+T 6BFU_B          799 VNDAIQQTSEALNTVAI  815 (1024)
+T ss_dssp             TCCSCCTTCHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHH
+Confidence            33444444444444433
+
+
+No 90
+>7NRC_A 40S ribosomal protein S0-A, 40S; Ribosome, Disome, GCN1, Translation, GAAC; HET: 5CT; 3.9A {Saccharomyces cerevisiae S288C}
+Probab=21.72  E-value=89  Score=37.47  Aligned_cols=7  Identities=43%  Similarity=0.785  Sum_probs=3.4  Template_Neff=1.000
+
+Q query           115 VIQLSPP  121 (547)
+Q Consensus       115 yVqLtP~  121 (547)
+                      .|+|.|.
+T Consensus       233 vieilpn  239 (1209)
+T 7NRC_A          233 VIEILPN  239 (1209)
+T ss_pred             HHHHHHH
+Confidence            3455553
+
+
+No 91
+>6JX7_A Feline Infectious Peritonitis Virus Spike; CoV spike protein, VIRAL PROTEIN; HET: BMA, NAG, FUC, MAN; 3.31A {Feline infectious peritonitis virus}
+Probab=21.70  E-value=89  Score=42.06  Aligned_cols=22  Identities=9%  Similarity=0.294  Sum_probs=9.1  Template_Neff=4.400
+
+Q query           188 LNRTLRGLSDALTALNEGRGDF  209 (547)
+Q Consensus       188 L~~tL~~LS~al~~L~~~~~dl  209 (547)
+                      ++++|.+.|++.++.+.....+
+T Consensus      1085 V~~ai~qts~~f~t~~~Al~ki 1106 (1468)
+T 6JX7_A         1085 VSNAITTVSDGFNSMASALTKI 1106 (1468)
+T ss_dssp             CCSCSCCCCSHHHHHHHHHHHH
+T ss_pred             hhhHHHHhhHHHHHHHHHHHHH
+Confidence            3444444444444444333333
+
+
+No 92
+>2J5U_A MREC PROTEIN; BACTERIAL CELL SHAPE DETERMINING PROTEIN; 2.5A {LISTERIA MONOCYTOGENES}
+Probab=21.53  E-value=90  Score=33.75  Aligned_cols=42  Identities=21%  Similarity=0.366  Sum_probs=29.3  Template_Neff=7.600
+
+Q query            52 YFPEVLALYPGDKVLIMG--------VRVGSIDSIETAGDKMKVVFHFNN   93 (547)
+Q Consensus        52 ~F~da~GLy~Gd~VrV~G--------V~VG~V~sIep~gd~V~Vt~~vd~   93 (547)
+                      +++....+..||.|.-.|        +.||+|++|+........++.|..
+T Consensus       163 ~ip~~~~I~~GD~VvTSG~~~~fP~gl~VG~V~~i~~~~~~~~~~~~V~p  212 (255)
+T 2J5U_A          163 QLPYDMKFKKGQKVVTSGLGGKFPAGIFIGTIEKVETDKMGLSQTAFIKP  212 (255)
+T ss_dssp             EEETTSCCCTTCEEEECCTTSSSCTTCEEEEEEEEEECTTSSEEEEEEEE
+T ss_pred             eCCCCCCCCCCCEEEeCCCCCCCCCCcEEEEEEEEEeCCCCCeEEEEEEE
+Confidence            456678899999887654        799999999987644333333333
+
+
+No 93
+>2KG7_B Uncharacterized protein esxG (PE family; Protein complex, UNKNOWN FUNCTION; NMR {Mycobacterium tuberculosis}
+Probab=21.49  E-value=91  Score=26.55  Aligned_cols=20  Identities=20%  Similarity=0.155  Sum_probs=8.0  Template_Neff=10.700
+
+Q query           178 ADGFAGKGEQLNRTLRGLSD  197 (547)
+Q Consensus       178 a~~l~G~G~~L~~tL~~LS~  197 (547)
+                      +..+.....+|+..+..+..
+T Consensus        16 a~~l~~~~~~l~~~~~~l~~   35 (97)
+T 2KG7_B           16 AGDMAGYAGTLQSLGAEIAV   35 (97)
+T ss_dssp             CSCHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHH
+Confidence            33344444444444433333
+
+
+No 94
+>6VV5_A Spike glycoprotein; glycoprotein, surface, receptor-binding, membrane fusion; HET: BMA, PAM, NAG, MAN;{Porcine epidemic diarrhea virus}
+Probab=21.41  E-value=91  Score=41.71  Aligned_cols=25  Identities=12%  Similarity=0.171  Sum_probs=11.4  Template_Neff=4.500
+
+Q query           188 LNRTLRGLSDALTALNEGRGDFFAV  212 (547)
+Q Consensus       188 L~~tL~~LS~al~~L~~~~~dl~~~  212 (547)
+                      ++++|.+.|++.++.+.....+.++
+T Consensus       999 V~~ai~qts~~~~t~~~Al~kiQ~V 1023 (1356)
+T 6VV5_A          999 VKEAISQTSKGLNTVAHALTKVQEV 1023 (1356)
+T ss_dssp             GGGSCCTTTTSTTSHHHHHHHHHHH
+T ss_pred             HHHHHHHhHHHHHHHHHHHHHHHHH
+Confidence            4444555555544444443344333
+
+
+No 95
+>6U7K_B Spike glycoprotein; PEDV, Spike, Coronavirus, Fusion Protein; HET: BMA, NAG, MAN; 3.14A {Porcine epidemic diarrhea virus (strain CV777)}
+Probab=21.39  E-value=91  Score=41.79  Aligned_cols=26  Identities=15%  Similarity=0.208  Sum_probs=11.8  Template_Neff=4.400
+
+Q query           188 LNRTLRGLSDALTALNEGRGDFFAVV  213 (547)
+Q Consensus       188 L~~tL~~LS~al~~L~~~~~dl~~~i  213 (547)
+                      ++++|.+.|++.++.+.....+.++|
+T Consensus      1014 Vn~ai~qts~~~~t~~~Al~kiQ~VV 1039 (1399)
+T 6U7K_B         1014 VKEAISQTSKGLNTVAHALTKVQEVV 1039 (1399)
+T ss_dssp             CGGGCCGGGGSTTSHHHHHHHHHHHH
+T ss_pred             HHHHHHHhHHHHHHHHHHHHHHHHHH
+Confidence            44444555555444444434443333
+
+
+No 96
+>5GAF_V 50S ribosomal protein L2, 50S; ribosome, srp, sr; HET: GNP, MG; 4.3A {Escherichia coli}
+Probab=20.69  E-value=97  Score=28.69  Aligned_cols=30  Identities=20%  Similarity=0.436  Sum_probs=20.7  Template_Neff=7.500
+
+Q query            58 ALYPGDKVLIM-G---VRVGSIDSIETAGDKMKVV   88 (547)
+Q Consensus        58 GLy~Gd~VrV~-G---V~VG~V~sIep~gd~V~Vt   88 (547)
+                      .|.+||.|+|. |   -++|+|.+|. ..+++.|+
+T Consensus         3 ~i~~GD~V~Vi~G~~kGk~G~V~~V~-~~~~V~ve   36 (102)
+T 5GAF_V            3 KIRRDDEVIVLTGKDKGKRGKVKNVL-SSGKVIVE   36 (102)
+T ss_pred             CcCCCCEEEEEeCCCCCCEEEEEEEE-eCCeEEEe
+Confidence            46789988776 3   2678888888 66665553
+
+
+No 97
+>7CYD_A Spike glycoprotein; Alphacoronavirus, spike glycoprotein, STRUCTURAL PROTEIN; HET: BMA, MAN, NAG;{Human coronavirus 229E}
+Probab=20.68  E-value=97  Score=40.72  Aligned_cols=25  Identities=20%  Similarity=0.247  Sum_probs=7.3  Template_Neff=4.500
+
+Q query           188 LNRTLRGLSDALTALNEGRGDFFAV  212 (547)
+Q Consensus       188 L~~tL~~LS~al~~L~~~~~dl~~~  212 (547)
+                      ++++|.+.|++.++.+.....+.++
+T Consensus       812 V~~ai~qts~~~~t~~~Al~kiQ~V  836 (1116)
+T 7CYD_A          812 VNDAITQTSQALQTVATALNKIQDV  836 (1116)
+T ss_dssp             --------CHHHHHHHHHHHHHHHH
+T ss_pred             hhhHHHHHHHHHHHHHHHHHHHHHH
+Confidence            4444444555444444433333333
+
+
+No 98
+>1VQO_T 50S RIBOSOMAL SUBUNIT; ribosome 50S, PROTEIN-PROTEIN COMPLEX, RNA-RNA; HET: UR3, PSU, SR, OMU, NA, 1MA, OMG, MG, CL, PPU; 2.2A {Haloarcula marismortui} SCOP: b.34.5.1
+Probab=20.62  E-value=97  Score=29.98  Aligned_cols=32  Identities=19%  Similarity=0.360  Sum_probs=22.9  Template_Neff=6.400
+
+Q query            56 VLALYPGDKVLIM-GV---RVGSIDSIETAGDKMKV   87 (547)
+Q Consensus        56 a~GLy~Gd~VrV~-GV---~VG~V~sIep~gd~V~V   87 (547)
+                      .-.|.+||.|.|. |-   ++|+|.+|......+.|
+T Consensus        40 ~~~i~~GD~V~Vi~G~~kG~~g~V~~v~~~~~~v~v   75 (120)
+T 1VQO_T           40 NVRVNAGDTVEVLRGDFAGEEGEVINVDLDKAVIHV   75 (120)
+T ss_pred             eeccCCCCEEEEecCCCCCCEEEEEEEECCCCEEEE
+Confidence            5678999999877 21   57888888776655444
+
+
+No 99
+>5SZS_C Spike glycoprotein; coronavirus, viral fusion protein, vaccine; HET: BMA, MAN, NAG; 3.4A {Human coronavirus NL63}
+Probab=20.60  E-value=97  Score=41.39  Aligned_cols=23  Identities=9%  Similarity=0.186  Sum_probs=6.3  Template_Neff=4.500
+
+Q query           188 LNRTLRGLSDALTALNEGRGDFF  210 (547)
+Q Consensus       188 L~~tL~~LS~al~~L~~~~~dl~  210 (547)
+                      ++++|.+.|++.++.+.....+.
+T Consensus       978 V~~ai~qts~~~~t~~~Al~kiQ 1000 (1325)
+T 5SZS_C          978 VNDAITQTAEAIHTVTIALNKIQ 1000 (1325)
+T ss_dssp             --------CTHHHHHHHHHHHHH
+T ss_pred             hHHHHHHHHHHHHHHHHHHHHHH
+Confidence            44444444444444443333333
+
+
+No 100
+>6S18_A Aromatic acid chemoreceptor; Ligand binding domain, Pseudomonas putida; 1.6A {Pseudomonas putida KT2440}
+Probab=20.33  E-value=99  Score=35.28  Aligned_cols=9  Identities=22%  Similarity=0.257  Sum_probs=0.0  Template_Neff=11.300
+
+Q query           149 RNQVTRLLA  157 (547)
+Q Consensus       149 ~~~L~~L~~  157 (547)
+                      .+.+.+|..
+T Consensus       419 a~ei~~La~  427 (550)
+T 6S18_A          419 ADEVRTLAY  427 (550)
+T ss_dssp             ---------
+T ss_pred             HHHHHHHHH
+Confidence            344444443
+
+
+No 101
+>5AJI_G SMALL-CONDUCTANCE MECHANOSENSITIVE CHANNEL; TRANSPORT PROTEIN; HET: D10, R1A, OCT, HEX; 2.99A {ESCHERICHIA COLI}
+Probab=20.18  E-value=1e+02  Score=33.61  Aligned_cols=25  Identities=24%  Similarity=0.352  Sum_probs=20.7  Template_Neff=8.500
+
+Q query            57 LALYPGDKVLIMGVRVGSIDSIETAG   82 (547)
+Q Consensus        57 ~GLy~Gd~VrV~GV~VG~V~sIep~g   82 (547)
+                      .-...||.|++.|+ -|+|++|....
+T Consensus       128 rpf~vGD~I~i~~~-~G~V~~I~l~~  152 (286)
+T 5AJI_G          128 RPFRAGEYVDLGGV-AGTVLSVQIFS  152 (286)
+T ss_dssp             CSSCTTCEEEESSC-EEEEEEECSSE
+T ss_pred             CCCCCCCEEEECCE-EEEEEEEEeEE
+Confidence            45678999999995 59999999865
+
+

@@ -1,0 +1,200 @@
+Query         query 
+Match_columns 331
+No_of_seqs    157 out of 2159
+Neff          6.73835
+Searched_HMMs 90139
+Date          Thu May 12 16:59:35 2022
+Command       /mnt/home/dberenberg/gustaf_stuff/openfold/lib/conda/envs/openfold_venv/bin/hhsearch -i /tmp/tmpx45ob4la/query.a3m -o /tmp/tmpx45ob4la/output.hhr -maxseq 1000000 -cpu 64 -d /mnt/home/dberenberg/gustaf_stuff/OpenFold/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1XQO_A 8-oxoguanine DNA glycos  83.1     0.8 8.9E-06   45.0   0.0  106  169-309   121-229 (256)
+  2 2NN4_A Hypothetical protein yq  38.0      30 0.00034   27.8   0.0   16  232-247     6-21  (72)
+  3 5KN8_A Adenine DNA glycosylase  36.0      34 0.00038   32.5   0.0   93  111-245    69-161 (232)
+  4 4UOB_A ENDONUCLEASE III-3 (E.C  24.5      72  0.0008   31.6   0.0  106  113-246    96-204 (278)
+  5 7EF9_A Adenine DNA glycosylase  24.2      74 0.00082   33.7   0.0   96  111-247    89-184 (448)
+  6 5BY1_B Non-structural protein   23.8      76 0.00085   25.6   0.0   19  290-308    15-33  (84)
+  7 1ORN_A ENDONUCLEASE III/DNA; D  22.6      83 0.00092   29.9   0.0   59  113-186    65-123 (226)
+  8 2OHD_F Probable molybdenum cof  22.2      86 0.00095   29.0   0.0   61  239-301    20-81  (151)
+  9 2IIH_A Molybdenum cofactor bio  15.8 1.5E+02  0.0016   27.7   0.0   63  239-303    27-90  (157)
+ 10 5H5N_A Non-structural protein   15.6 1.5E+02  0.0017   23.6   0.0   18  291-308     6-23  (74)
+
+No 1
+>1XQO_A 8-oxoguanine DNA glycosylase; Helix-hairpin-Helix, 8-oxoguanine DNA glycosylase, Archaea; 1.03A {Pyrobaculum aerophilum} SCOP: a.96.1.6
+Probab=83.09  E-value=0.8  Score=45.05  Aligned_cols=106  Identities=15%  Similarity=0.206  Sum_probs=70.7  Template_Neff=5.400
+
+Q query           169 SAVALVDIVTNAFPSFRDVATYRGEQVRFYCRAQILVSDLY-GAF-D-GSDLGAFDDLGELTAFADYKVPQVLHHLGILR  245 (331)
+Q Consensus       169 ~a~~lv~~l~~~fp~F~D~~~y~g~~v~f~KrAQll~~~l~-~~~-~-~~~~~~f~d~~~Lt~fADy~vPq~Lr~~GvL~  245 (331)
+                      +...+.+.|.+.+++=.+.     +.|.|-      +-|++ ..+ . +..   +....++.+--||+|-.+....|++.
+T Consensus       121 dl~~l~~~La~~l~~~~~~-----KTiVFa------vKMl~Ya~~i~~g~~---~~~p~~ipIPVD~RI~rit~r~Giv~  186 (256)
+T 1XQO_A          121 DLGLTLRQLSHIVGARREQ-----KTLVFT------IKILNYAYMCSRGVN---RVLPFDIPIPVDYRVARLTWCAGLID  186 (256)
+T ss_dssp             CHHHHHHHHHHHHTSCTTS-----HHHHHH------HHHHHHHHHHHHTCC---CCCCTTSCCCCCHHHHHHHHHTTSCS
+T ss_pred             CHHHHHHHHHHHHCCCCcc-----hHHHHH------HHHHHHHHHHhcCCC---CCCCCCCCCCccHHHHHHHHHhCCcc
+Confidence            4556777777766554332     455664      44554 222 1 211   12333458999999999999999998
+
+
+Q query           246 YAPALHDRLARREEIPAGSPEEVEIRAATIWGVEELRRALASRGHALDAYQVDWLLWDEGQRLP  309 (331)
+Q Consensus       246 ys~~L~~~id~~~~i~~gs~~EvEIRAati~A~e~l~~~l~~~~~~i~a~~lD~~LW~~~~~~~  309 (331)
+                      ..                ..+.+++|-..+.|...+.+..     .+...+||..||..|+..-
+T Consensus       187 ~~----------------~~~~~~~r~~v~~aW~~Va~~s-----gIpplhLDslLW~~gr~~c  229 (256)
+T 1XQO_A          187 FP----------------PEEALRRYEAVQKIWDAVARET-----GIPPLHLDTLLWLAGRAVL  229 (256)
+T ss_dssp             SC----------------HHHHHHTHHHHHHHHHHHHHHH-----TCCHHHHHHHHHHHHHHHT
+T ss_pred             CC----------------HHHHHHHHHHHHHHHHHHHHHH-----CCCHHHHHHHHHHHhhhhh
+Confidence            73                2344677888888888876653     4889999999999887653
+
+
+No 2
+>2NN4_A Hypothetical protein yqgQ; Novel fold, pfam:DUF910, 10278a, Structural; 2.1A {Bacillus subtilis} SCOP: a.272.1.1
+Probab=38.01  E-value=30  Score=27.82  Aligned_cols=16  Identities=38%  Similarity=0.688  Sum_probs=14.9  Template_Neff=4.200
+
+Q query           232 YKVPQVLHHLGILRYA  247 (331)
+Q Consensus       232 y~vPq~Lr~~GvL~ys  247 (331)
+                      |.|.|+|..+|++.|.
+T Consensus         6 yDVqqLLKrfG~~IY~   21 (72)
+T 2NN4_A            6 YDVQQLLKTFGHIVYF   21 (72)
+T ss_dssp             HHHHHHHHTTTCCCCC
+T ss_pred             HHHHHHHHHhCeeeee
+Confidence            6789999999999997
+
+
+No 3
+>5KN8_A Adenine DNA glycosylase/DNA Complex; adenine glycosylase, oxoG, DNA repair; 1.81A {Geobacillus stearothermophilus}
+Probab=35.99  E-value=34  Score=32.47  Aligned_cols=93  Identities=17%  Similarity=0.188  Sum_probs=55.7  Template_Neff=9.300
+
+Q query           111 TDASYLAEITRDDVATIFAGEGEIPLLDERARILRETGSVLAERFAGRFSDAIAAAGRSAVALVDIVTNAFPSFRDVATY  190 (331)
+Q Consensus       111 ~d~~~l~~~t~~~~~~if~~~~~iPll~eR~~~l~e~G~~L~~~~~g~f~~~i~~a~~~a~~lv~~l~~~fp~F~D~~~y  190 (331)
+                      .+++.++..+.+++.+.++..+   +-. |.+.+.++++.+.+.|+|..           ....+.| ..+|+..+..  
+T Consensus        69 p~~~~l~~~~~~~l~~~l~~~g---~~~-ka~~i~~~a~~l~~~~~~~~-----------~~~~~~L-~~i~GiG~~t--  130 (232)
+T 5KN8_A           69 PTLEALADADEDEVLKAWEGLG---YYS-RVRNLHAAVKEVKTRYGGKV-----------PDDPDEF-SRLKGVGPYT--  130 (232)
+T ss_dssp             CSHHHHHHSCHHHHHHHHTTSC---CHH-HHHHHHHHHHHHHHHSTTSC-----------CSSHHHH-HTSTTCCHHH--
+T ss_pred             CCHHHHhcCCHHHHHHHHHcCC---HHH-HHHHHHHHHHHHHHHhCCCC-----------CCCHHHH-HcCCCCCHHH--
+Confidence            3567778888888887776432   223 78889999998888776532           2333444 3577765431  
+
+
+Q query           191 RGEQVRFYCRAQILVSDLYGAFDGSDLGAFDDLGELTAFADYKVPQVLHHLGILR  245 (331)
+Q Consensus       191 ~g~~v~f~KrAQll~~~l~~~~~~~~~~~f~d~~~Lt~fADy~vPq~Lr~~GvL~  245 (331)
+                                |..+     ..+...      . .  ....|..+-.++..+|++.
+T Consensus       131 ----------a~~~-----l~~~~~------~-~--~~~~D~~~~r~~~rlg~~~  161 (232)
+T 5KN8_A          131 ----------VGAV-----LSLAYG------V-P--EPAVNGNVMRVLSRLFLVT  161 (232)
+T ss_dssp             ----------HHHH-----HHHHHC------C-C--CCCCCHHHHHHHHHHHTCC
+T ss_pred             ----------HHHH-----HHHHhC------C-C--CCeeCHHHHHHHHHhcCCC
+Confidence                      1111     111100      0 0  1356888888888888765
+
+
+No 4
+>4UOB_A ENDONUCLEASE III-3 (E.C.4.2.99.18); LYASE, ENDONUCLEASE III, FES CLUSTER; HET: ACT, SO4; 1.31A {DEINOCOCCUS RADIODURANS}
+Probab=24.54  E-value=72  Score=31.59  Aligned_cols=106  Identities=12%  Similarity=0.013  Sum_probs=58.5  Template_Neff=8.600
+
+Q query           113 ASYLAEITRDDVATIFAGEGEIPLLDERARILRETGSVLAERFAGRFSDAIAAAGR---SAVALVDIVTNAFPSFRDVAT  189 (331)
+Q Consensus       113 ~~~l~~~t~~~~~~if~~~~~iPll~eR~~~l~e~G~~L~~~~~g~f~~~i~~a~~---~a~~lv~~l~~~fp~F~D~~~  189 (331)
+                      +..+...+.+++.++++.. ...+-..|.+.|.++++.+.++|++.-.+-+.....   +...+.+.|. .+|+..+.. 
+T Consensus        96 ~~~l~~~~~e~l~~~l~~~-~~G~~~~kA~~i~~~a~~l~~~~~~~~l~~l~~~p~~~~~~~~~~~~L~-~l~GIG~~t-  172 (278)
+T 4UOB_A           96 WEAALLDGPDGIEATLKSA-GGGLSRMKADYIYGILAHLQEHHGGLSLRFLREFPHTPEGHEQARQALA-ALPGVGHKT-  172 (278)
+T ss_dssp             HHHHHHHHHHHHHHHHHHT-SCSCHHHHHHHHHHHHHHHHHHSSSSCCGGGGGSCSSHHHHHHHHHHHH-TSTTCCHHH-
+T ss_pred             HHHHhhCChhHHHHHHHHc-CCCccHHHHHHHHHHHHHHHHHcCCCCHHHHhhCCCCCCChHHHHHHHH-cCCCCCHHH-
+Confidence            4456667777777766521 123445688899999999998887633222222211   2344555554 477764331 
+
+
+Q query           190 YRGEQVRFYCRAQILVSDLYGAFDGSDLGAFDDLGELTAFADYKVPQVLHHLGILRY  246 (331)
+Q Consensus       190 y~g~~v~f~KrAQll~~~l~~~~~~~~~~~f~d~~~Lt~fADy~vPq~Lr~~GvL~y  246 (331)
+                                      +++...+....    .     ....|..+-.++..+|.+..
+T Consensus       173 ----------------A~~ill~~~~~----~-----~v~vD~~v~R~~~rl~~~~~  204 (278)
+T 4UOB_A          173 ----------------VALVLLFDLRR----P-----AMPVDGNMERAAKRLELVPA  204 (278)
+T ss_dssp             ----------------HHHHHHHHSCC----C-----CCCCCHHHHHHHHHTTSSCT
+T ss_pred             ----------------HHHHHHHhcCC----C-----CCCccHHHHHHHHHcCCCCC
+Confidence                            11111211100    1     13458888888888887753
+
+
+No 5
+>7EF9_A Adenine DNA glycosylase/DNA Complex; DNA repair, DNA BINDING PROTEIN-DNA; HET: 8OG, 3DR, SO4; 1.97A {Mus musculus}
+Probab=24.19  E-value=74  Score=33.72  Aligned_cols=96  Identities=17%  Similarity=0.255  Sum_probs=60.7  Template_Neff=9.000
+
+Q query           111 TDASYLAEITRDDVATIFAGEGEIPLLDERARILRETGSVLAERFAGRFSDAIAAAGRSAVALVDIVTNAFPSFRDVATY  190 (331)
+Q Consensus       111 ~d~~~l~~~t~~~~~~if~~~~~iPll~eR~~~l~e~G~~L~~~~~g~f~~~i~~a~~~a~~lv~~l~~~fp~F~D~~~y  190 (331)
+                      .+++.|+..+.+++..++++-   .+.. |.+.|.++++.+.++++|..           ....+.|...+|+..+..  
+T Consensus        89 p~~~~la~a~~~~l~~~~~~~---g~~~-ka~~i~~~a~~i~~~~~~~~-----------~~~~~~L~~~l~GIG~~t--  151 (448)
+T 7EF9_A           89 PKLQDLASASLEEVNQLWSGL---GYYS-RGRRLQEGARKVVEELGGHM-----------PRTAETLQQLLPGVGRYT--  151 (448)
+T ss_dssp             CSHHHHHTSCHHHHHHHHTTS---SCTH-HHHHHHHHHHHHHHHSTTCC-----------CCSHHHHHHHSTTCCHHH--
+T ss_pred             CCHHHHhcCCHHHHHHHHhcc---CHHH-HHHHHHHHHHHHHHHhCCCC-----------CCcHHHHHHhCCCCCHHH--
+Confidence            467778888888888877633   3445 88999999999888887643           234445553577765431  
+
+
+Q query           191 RGEQVRFYCRAQILVSDLYGAFDGSDLGAFDDLGELTAFADYKVPQVLHHLGILRYA  247 (331)
+Q Consensus       191 ~g~~v~f~KrAQll~~~l~~~~~~~~~~~f~d~~~Lt~fADy~vPq~Lr~~GvL~ys  247 (331)
+                                     +++...+....         -....|..+-.++..+|++...
+T Consensus       152 ---------------A~~il~~~~~~---------~~~~vD~~v~R~~~rl~~~~~~  184 (448)
+T 7EF9_A          152 ---------------AGAIASIAFDQ---------VTGVVDGNVLRVLCRVRAIGAD  184 (448)
+T ss_dssp             ---------------HHHHHHHHHCC---------CCCCCCHHHHHHHHHHTTCCSC
+T ss_pred             ---------------HHHHHHHhcCc---------ceeeecHHHHHHHHHHhccCCC
+Confidence                           12222221100         0245688899999999987643
+
+
+No 6
+>5BY1_B Non-structural protein 1; Viral Protein, Immune Antagonist; HET: 1PE; 1.751A {Influenza A virus (A/flat-faced bat/Peru/033/2010(H18N11))}
+Probab=23.76  E-value=76  Score=25.63  Aligned_cols=19  Identities=37%  Similarity=0.531  Sum_probs=15.1  Template_Neff=1.500
+
+Q query           290 HALDAYQVDWLLWDEGQRL  308 (331)
+Q Consensus       290 ~~i~a~~lD~~LW~~~~~~  308 (331)
+                      ..+.+-++|.+||...+..
+T Consensus        15 nTv~sFQVDCfLWHvrK~~   33 (84)
+T 5BY1_B           15 PTTIAFQVDCYLWHLKKML   33 (84)
+T ss_dssp             HHHHHHHHHHHHHHHHHHH
+T ss_pred             CcchhHHHHHHHHHHHHHH
+Confidence            4578889999999976654
+
+
+No 7
+>1ORN_A ENDONUCLEASE III/DNA; DNA repair, DNA glycosylase, [4Fe-4S]; 1.7A {Geobacillus stearothermophilus} SCOP: a.96.1.1
+Probab=22.64  E-value=83  Score=29.89  Aligned_cols=59  Identities=14%  Similarity=0.252  Sum_probs=37.2  Template_Neff=9.100
+
+Q query           113 ASYLAEITRDDVATIFAGEGEIPLLDERARILRETGSVLAERFAGRFSDAIAAAGRSAVALVDIVTNAFPSFRD  186 (331)
+Q Consensus       113 ~~~l~~~t~~~~~~if~~~~~iPll~eR~~~l~e~G~~L~~~~~g~f~~~i~~a~~~a~~lv~~l~~~fp~F~D  186 (331)
+                      +..+...+.+++.++++.   +.+...+.+.|.++++.+.+.++|+           ...+.+.|. .+|+..+
+T Consensus        65 ~~~l~~~~~~~l~~~l~~---~g~~~~ka~~i~~~a~~l~~~~~~~-----------~~~~~~~L~-~i~GiG~  123 (226)
+T 1ORN_A           65 PHDYIAVPLEELEQDIRS---IGLYRNKARNIQKLCAMLIDKYNGE-----------VPRDRDELM-KLPGVGR  123 (226)
+T ss_dssp             HHHHHSSCHHHHHHHTGG---GSSHHHHHHHHHHHHHHHHHHSTTS-----------CCSCHHHHT-TSTTCCH
+T ss_pred             HHHHhcCCHHHHHHHHHh---cCCcHHHHHHHHHHHHHHHHHcCCC-----------CCCcHHHHh-cCCCCCH
+Confidence            445666667777777653   2344577888888888888776543           223445554 5777654
+
+
+No 8
+>2OHD_F Probable molybdenum cofactor biosynthesis protein; alpha + beta, BIOSYNTHETIC PROTEIN; 2.2A {Sulfolobus tokodaii str. 7}
+Probab=22.22  E-value=86  Score=29.01  Aligned_cols=61  Identities=13%  Similarity=0.197  Sum_probs=44.7  Template_Neff=4.900
+
+Q query           239 HHLGILRYAPALHDRLARREEIPAGSPEEVEIRAATIWGVEELRRALASRG-HALDAYQVDWLL  301 (331)
+Q Consensus       239 r~~GvL~ys~~L~~~id~~~~i~~gs~~EvEIRAati~A~e~l~~~l~~~~-~~i~a~~lD~~L  301 (331)
+                      ...|.|..++++-+.|.++ .++.|+.-++. |.|.|.|+.+-.+.|.--. -+++.+++|+.+
+T Consensus        20 ~A~g~I~l~~~~~~~i~~~-~~~KGdvl~~A-riAgi~aaK~Ts~lIPlcHpi~i~~v~v~~~~   81 (151)
+T 2OHD_F           20 VVEGYIKLRKETIEKIKNK-EVEKGDVITVA-KTAGILAAKKTPELIPMCHPIPLEFVDVEIKI   81 (151)
+T ss_dssp             EEEEEEECCHHHHHHHHTT-CCTTCCHHHHH-HHHHHHHHHHHHHHSTTCCCCCCCEEEEEEEE
+T ss_pred             EEEEEEEecHHHHHHHHcC-CCCCCcHHHHH-HHHHHHHHHhchhcCCCCCCCccceeEEEEEE
+Confidence            4678999999999999855 48999988887 9999999977665553221 235666666654
+
+
+No 9
+>2IIH_A Molybdenum cofactor biosynthesis protein C; MOAC, MOLYBDENUM COFACTOR (MOCO), MOCO; 1.75A {Thermus thermophilus}
+Probab=15.78  E-value=1.5e+02  Score=27.70  Aligned_cols=63  Identities=14%  Similarity=0.124  Sum_probs=45.8  Template_Neff=5.200
+
+Q query           239 HHLGILRYAPALHDRLARREEIPAGSPEEVEIRAATIWGVEELRRALASR-GHALDAYQVDWLLWD  303 (331)
+Q Consensus       239 r~~GvL~ys~~L~~~id~~~~i~~gs~~EvEIRAati~A~e~l~~~l~~~-~~~i~a~~lD~~LW~  303 (331)
+                      ...|.+..+++.-+.|.+ ..++.|+.-++. |.|.|.|+.+-.+.|.-- .-+++.+++|+.+..
+T Consensus        27 ~A~g~i~~~~~~~~~i~~-~~~~KGdvl~~A-riAgi~aaK~T~~lIPlCHpi~i~~v~v~~~~~~   90 (157)
+T 2IIH_A           27 TAEAFVELTEEALSALEK-GGVGKGDPLVVA-QLAGILAAKKTADLIPLCHPLPLTGVEVRVELLK   90 (157)
+T ss_dssp             EEEEEEECCHHHHHHHTT-TCSSSCCHHHHH-HHHHHHHHHHHHHHSTTCCCCCCSEEEEEEEEET
+T ss_pred             EEEEEEEeCHHHHHHHHc-CCCCCCCHHHHH-HHHHHHHHHhhhhccCCCCCCCCcceEEEEEEcC
+Confidence            457889999988888885 448999988887 999999997765555321 124667777776643
+
+
+No 10
+>5H5N_A Non-structural protein 1; influenza virus, RNA-binding domain, RNA; 2.0A {Influenza A virus (A/little yellow-shouldered bat/Guatemala/060/2010(H17N10))}
+Probab=15.58  E-value=1.5e+02  Score=23.60  Aligned_cols=18  Identities=39%  Similarity=0.608  Sum_probs=14.5  Template_Neff=1.600
+
+Q query           291 ALDAYQVDWLLWDEGQRL  308 (331)
+Q Consensus       291 ~i~a~~lD~~LW~~~~~~  308 (331)
+                      .+.+-++|.+||...+..
+T Consensus         6 Tv~sFQVDCfLWHvrK~~   23 (74)
+T 5H5N_A            6 TTIAFQVDCYLWHLKKTL   23 (74)
+T ss_dssp             HHHHHHHHHHHHHHHHHH
+T ss_pred             cchhhhHHHHHHHHHHHH
+Confidence            477889999999976654
+
+

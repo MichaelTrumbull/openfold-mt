@@ -1,0 +1,160 @@
+Query         query 
+Match_columns 640
+No_of_seqs    27 out of 31
+Neff          3.41585
+Searched_HMMs 90139
+Date          Fri May 27 03:21:57 2022
+Command       /mnt/home/dberenberg/gustaf_stuff/openfold/lib/conda/envs/openfold_venv/bin/hhsearch -i /tmp/tmp0nwq8uop/query.a3m -o /tmp/tmp0nwq8uop/output.hhr -maxseq 1000000 -cpu 28 -d /mnt/home/dberenberg/gustaf_stuff/OpenFold/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2X4K_B 4-OXALOCROTONATE TAUTOM  16.7 1.4E+02  0.0015   23.6   0.0   51   38-92      1-51  (63)
+  2 6OGM_E 4-oxalocrotonate tautom  15.0 1.6E+02  0.0018   23.3   0.0   48   39-90      1-48  (64)
+  3 7ACC_C GTP cyclohydrolase 1 (E  14.3 1.7E+02  0.0019   28.1   0.0   61   38-98      1-73  (86)
+  4 3H0D_A CtsR; protein DNA compl  10.0 2.8E+02  0.0032   29.4   0.0   46  301-347    31-77  (155)
+  5 1WMI_B hypothetical protein PH   9.6   3E+02  0.0033   25.8   0.0   12  628-639    12-23  (67)
+  6 1WPL_Q GTP cyclohydrolase I(E.   9.1 3.2E+02  0.0036   26.2   0.0   27   72-98     45-71  (84)
+  7 6KRB_C Acylphosphatase (E.C.3.   9.1 3.3E+02  0.0036   24.9   0.0   26  600-625    33-58  (91)
+  8 7ALC_F GTP cyclohydrolase 1, G   9.0 3.3E+02  0.0037   26.4   0.0   60   39-98      3-74  (87)
+  9 2GV1_A Probable acylphosphatas   7.8   4E+02  0.0045   24.4   0.0   30  600-629    33-62  (92)
+ 10 2LXF_A Uncharacterized protein   7.4 4.3E+02  0.0048   26.4   0.0   31  599-629    62-92  (121)
+
+No 1
+>2X4K_B 4-OXALOCROTONATE TAUTOMERASE; ISOMERASE; HET: PO4; 1.1A {STAPHYLOCOCCUS AUREUS}
+Probab=16.68  E-value=1.4e+02  Score=23.60  Aligned_cols=51  Identities=16%  Similarity=0.085  Sum_probs=30.2  Template_Neff=10.300
+
+Q query            38 SDMSHVIITETHSTGLRLDQGAGDYYWSEMPSRVTQLHNNDPNRVVLTEIEFSDG   92 (640)
+Q Consensus        38 SDMP~vlV~~tyea~L~~~~~~~gyfv~~MP~~i~~~~sNd~~rVIlt~ie~n~g   92 (640)
+                      |+||+|.++-.=  .+.  .....=+...+-..|.+.+.-++.++.+.-.++..+
+T Consensus         1 ~~Mp~v~i~~~~--~~~--~~~~~~l~~~i~~~l~~~~~~~~~~i~v~~~~~~~~   51 (63)
+T 2X4K_B            1 SMMPIVNVKLLE--GRS--DEQLKNLVSEVTDAVEKTTGANRQAIHVVIEEMKPN   51 (63)
+T ss_dssp             CCCCEEEEEEES--CCC--HHHHHHHHHHHHHHHHHHHCCCGGGCEEEEEEECTT
+T ss_pred             CCCcEEEEEEeC--CCC--HHHHHHHHHHHHHHHHHHHCCCHHhEEEEEEecCHH
+Confidence            789998775441  222  223334556666667776766667776665555433
+
+
+No 2
+>6OGM_E 4-oxalocrotonate tautomerase; HYDROLASE; HET: GOL, FMT; 1.865A {Burkholderia lata (strain ATCC 17760 / DSM 23089 / LMG 22485 / NCIMB 9086 / R18194 / 383)}
+Probab=15.02  E-value=1.6e+02  Score=23.30  Aligned_cols=48  Identities=4%  Similarity=0.036  Sum_probs=27.3  Template_Neff=10.300
+
+Q query            39 DMSHVIITETHSTGLRLDQGAGDYYWSEMPSRVTQLHNNDPNRVVLTEIEFS   90 (640)
+Q Consensus        39 DMP~vlV~~tyea~L~~~~~~~gyfv~~MP~~i~~~~sNd~~rVIlt~ie~n   90 (640)
+                      ||||+.++-.  ..+.  .....=+...+-..+.+.+.-++++|.++-.+..
+T Consensus         1 ~MP~i~i~~~--~~~~--~~~~~~l~~~l~~~~~~~l~~~~~~i~v~~~~~~   48 (64)
+T 6OGM_E            1 XMPVIVAILI--AGRT--DEQKRALIAALSETSASVLDAPLQATRVMIKDIP   48 (64)
+T ss_dssp             -CCEEEEEEE--TTCC--HHHHHHHHHHHHHHHHHHHTCCGGGCEEEEEEEC
+T ss_pred             CCCEEEEEEe--CCCC--HHHHHHHHHHHHHHHHHHhCCCHHHEEEEEEEeC
+Confidence            6999988744  1122  1222234556666677777777777765544443
+
+
+No 3
+>7ACC_C GTP cyclohydrolase 1 (E.C.3.5.4.16); GTP cyclohydrolase 1 feedback regulatory; HET: K; 2.04A {Homo sapiens}
+Probab=14.35  E-value=1.7e+02  Score=28.06  Aligned_cols=61  Identities=15%  Similarity=0.165  Sum_probs=32.3  Template_Neff=5.200
+
+Q query            38 SDMSHVIITETHSTGLRLDQGAGD----YYWSEMPSRVT--------QLHNNDPNRVVLTEIEFSDGSRHMLS   98 (640)
+Q Consensus        38 SDMP~vlV~~tyea~L~~~~~~~g----yfv~~MP~~i~--------~~~sNd~~rVIlt~ie~n~g~r~~l~   98 (640)
+                      |-||+++|........+++--+.+    -....+.++.+        .+.-+++-|+||.++|..+=+---+.
+T Consensus         1 ~~MPYilvs~~i~~~~gpT~vGd~~sD~~Lm~~L~A~~~~~l~n~f~~y~~~~~P~~VLn~LE~lGykVV~~t   73 (86)
+T 7ACC_C            1 SHMPYLLISTQIRMEVGPTMVGDEQSDPELMQHLGASKRRALGNNFYEYYVDDPPRIVLDKLERRGFRVLSMT   73 (86)
+T ss_dssp             CCCSEEEEEEESCTTSCCEEEEETTSCHHHHHHTTCEEECCTTBSSCEEEESSCHHHHHHHHHHTTEEEEEEE
+T ss_pred             CCCCeEEEEeeeecccCCeecCCCCccHHHHHhhCCccchhcCCCceEEEeCCCHHHHHHHHHHCCcEEEEee
+Confidence            468888888776532221111111    12233333333        44566778888888886554433333
+
+
+No 4
+>3H0D_A CtsR; protein DNA complex, winged HTH; HET: PO4; 2.4A {Bacillus stearothermophilus}
+Probab=10.02  E-value=2.8e+02  Score=29.44  Aligned_cols=46  Identities=22%  Similarity=0.327  Sum_probs=38.7  Template_Neff=4.900
+
+Q query           301 SEHLGIYPSKITWYVTNLVYNG-SGYNIDGGLFNGNDIKLSPREFIIK  347 (640)
+Q Consensus       301 ~~~~~~tP~kV~WyvlNLryn~-~gy~V~~n~FtG~dIkiSp~~F~IK  347 (640)
+                      .+.++|.|.++. ||++=||+. .||-|++==--|+=|+|.+=.+.=+
+T Consensus        31 A~~F~CvPSQIN-YVL~TRFT~e~GY~VESrRGGGGyIRI~ri~~~~~   77 (155)
+T 3H0D_A           31 ANKFRCVPSQIN-YVINTRFTLERGYIVESKRGGGGYIRIMKVKTKSE   77 (155)
+T ss_dssp             HHHTTSCTHHHH-HHHHHHSSGGGTEEEEEECSTTCEEEEEEEEECTT
+T ss_pred             HHHhCCCHHhcc-eeeeeccCcccCeEEEEeccCCceEEEEEEecCch
+Confidence            358999999987 799999966 5999999989999999988766443
+
+
+No 5
+>1WMI_B hypothetical protein PHS013, hypothetical protein; toxin-antitoxin complex, HYDROLASE-HYDROLASE INHIBITOR COMPLEX; 2.3A {Pyrococcus horikoshii} SCOP: a.137.13.1
+Probab=9.62  E-value=3e+02  Score=25.82  Aligned_cols=12  Identities=50%  Similarity=0.592  Sum_probs=10.5  Template_Neff=2.000
+
+Q query           628 CLPNIKLIIQRL  639 (640)
+Q Consensus       628 ~lp~~ri~vqrl  639 (640)
+                      =|-++|+.||||
+T Consensus        12 ELeRlkveiQrL   23 (67)
+T 1WMI_B           12 ELERLKVEIQRL   23 (67)
+T ss_dssp             HHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHH
+Confidence            477999999998
+
+
+No 6
+>1WPL_Q GTP cyclohydrolase I(E.C.3.5.4.16)/GTP cyclohydrolase I; ENZYME-REGULATORY PROTEIN COMPLEX, HYDROLASE-PROTEIN BINDING; HET: NA, 3PO, HBI, ZN; 2.8A {Rattus norvegicus} SCOP: d.205.1.1
+Probab=9.11  E-value=3.2e+02  Score=26.21  Aligned_cols=27  Identities=26%  Similarity=0.324  Sum_probs=17.1  Template_Neff=5.200
+
+Q query            72 TQLHNNDPNRVVLTEIEFSDGSRHMLS   98 (640)
+Q Consensus        72 ~~~~sNd~~rVIlt~ie~n~g~r~~l~   98 (640)
+                      ..+.-+++-|+||.++|..+=+---+.
+T Consensus        45 ~~y~~~~~P~~VLn~LE~lGykVV~~s   71 (84)
+T 1WPL_Q           45 YEYYVNDPPRIVLDKLECRGFRVLSMT   71 (84)
+T ss_dssp             CEEEESSCHHHHHHHHHHTTEEEEEEE
+T ss_pred             eEEEeCCCHHHHHHHHHHcCcEEEEee
+Confidence            345566778888888886554433333
+
+
+No 7
+>6KRB_C Acylphosphatase (E.C.3.6.1.7); Acylphosphatase, HYDROLASE; HET: SO4, GOL; 2.375A {Vibrio cholerae serotype O1 (strain ATCC 39541 / Classical Ogawa 395 / O395)}
+Probab=9.05  E-value=3.3e+02  Score=24.89  Aligned_cols=26  Identities=15%  Similarity=0.212  Sum_probs=19.9  Template_Neff=8.200
+
+Q query           600 TYYMRNDGNNNISIWLDSSMSNIIGM  625 (640)
+Q Consensus       600 ~y~ikN~gnGnv~~~~~~~~~~~~~~  625 (640)
+                      .=|++|..||.|++.+.-....+--+
+T Consensus        33 ~G~v~N~~dg~Vei~~~G~~~~i~~f   58 (91)
+T 6KRB_C           33 TGYAKNLNNGDVEVVACGTPERLEEL   58 (91)
+T ss_dssp             EEEEEECTTSCEEEEEEECHHHHHHH
+T ss_pred             EEEEEECCCCcEEEEEEECHHHHHHH
+Confidence            45799999999999998876654333
+
+
+No 8
+>7ALC_F GTP cyclohydrolase 1, GTPCH1, GTP; HET: PHE; 1.726A {Homo sapiens}
+Probab=9.00  E-value=3.3e+02  Score=26.37  Aligned_cols=60  Identities=13%  Similarity=0.156  Sum_probs=31.0  Template_Neff=5.100
+
+Q query            39 DMSHVIITETHSTGLRLDQGAGD----YYWSEMPSRVT--------QLHNNDPNRVVLTEIEFSDGSRHMLS   98 (640)
+Q Consensus        39 DMP~vlV~~tyea~L~~~~~~~g----yfv~~MP~~i~--------~~~sNd~~rVIlt~ie~n~g~r~~l~   98 (640)
+                      -||+++|........+++--+.+    -....+.++.+        .+.-+++-|+||.++|..+=+---+.
+T Consensus         3 ~MPYilVs~~i~~~~gpT~vGd~~sD~~Lm~~L~A~~~~~l~n~f~~y~~~~~P~~VLn~LE~lGykVV~ms   74 (87)
+T 7ALC_F            3 HMPYLLISTQIRMEVGPTMVGDEQSDPELMQHLGASKRRALGNNFYEYYVDDPPRIVLDKLERRGFRVLSMT   74 (87)
+T ss_dssp             -CCEEEEEEESCTTSCCEEEEETTSCHHHHHHTTCEEECCTTCSSCEEEESSCHHHHHHHHHHTTCEEEEEE
+T ss_pred             CCCeEEEEceeecccCCeecCCCCccHHHHHhhCCchhhhcCCCceEEEeCCCHHHHHHHHHHCCcEEEEee
+Confidence            48888888776532221111111    12233333333        45566788889998887554433333
+
+
+No 9
+>2GV1_A Probable acylphosphatase (E.C.3.6.1.7); globular alpha-helix/beta-sheet protein, Hydrolase; NMR {Escherichia coli}
+Probab=7.78  E-value=4e+02  Score=24.40  Aligned_cols=30  Identities=13%  Similarity=0.161  Sum_probs=21.5  Template_Neff=8.200
+
+Q query           600 TYYMRNDGNNNISIWLDSSMSNIIGMKACL  629 (640)
+Q Consensus       600 ~y~ikN~gnGnv~~~~~~~~~~~~~~~~~l  629 (640)
+                      .=|++|..||.|++.+.-....+--|...|
+T Consensus        33 ~G~v~n~~dg~V~i~~~G~~~~v~~f~~~l   62 (92)
+T 2GV1_A           33 TGYAKNLDDGSVEVVACGEEGQVEKLMQWL   62 (92)
+T ss_dssp             CCEEEECSSSCEEEEECSCHHHHHHHHHHH
+T ss_pred             EEEEEECCCCeEEEEEEeCHHHHHHHHHHH
+Confidence            456999999999999888766443343333
+
+
+No 10
+>2LXF_A Uncharacterized protein; Beaver fever, giardiasis, Seattle Structural; NMR {Giardia lamblia}
+Probab=7.39  E-value=4.3e+02  Score=26.43  Aligned_cols=31  Identities=16%  Similarity=0.237  Sum_probs=22.1  Template_Neff=6.600
+
+Q query           599 LTYYMRNDGNNNISIWLDSSMSNIIGMKACL  629 (640)
+Q Consensus       599 ~~y~ikN~gnGnv~~~~~~~~~~~~~~~~~l  629 (640)
+                      |.=|++|+.||.|++.+.-....+--|...|
+T Consensus        62 L~G~VrN~~dG~Vei~~~G~~~~I~~f~~~l   92 (121)
+T 2LXF_A           62 LVGYVTNNEDGSVSGVVQGPKEQVDAFVKYL   92 (121)
+T ss_dssp             CEEEEEECTTSCEEEEEEEEHHHHHHHHHHH
+T ss_pred             CEEEEEECCCCeEEEEEEccHHHHHHHHHHH
+Confidence            3457999999999999988766543343333
+
+

@@ -1,0 +1,228 @@
+Query         query 
+Match_columns 116
+No_of_seqs    105 out of 197
+Neff          2.66299
+Searched_HMMs 90139
+Date          Mon Jun 27 16:56:30 2022
+Command       /mnt/home/dberenberg/gustaf_stuff/openfold/lib/conda/envs/openfold_venv/bin/hhsearch -i /tmp/tmpkrnwgv7i/query.a3m -o /tmp/tmpkrnwgv7i/output.hhr -maxseq 1000000 -cpu 64 -d /mnt/home/dberenberg/gustaf_stuff/OpenFold/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7KUG_A Probable transcriptiona  98.6 7.2E-11 7.9E-16   80.5   0.0   68   22-89      8-79  (79)
+  2 7KIM_Z DNA-directed RNA polyme  98.6 9.5E-11   1E-15   82.1   0.0   71   21-91      7-81  (92)
+  3 7KUF_A Probable transcriptiona  98.6 9.5E-11   1E-15   82.1   0.0   71   21-91      7-81  (92)
+  4 5OAY_A Transcriptional regulat  98.4 8.3E-10 9.2E-15   77.8   0.0   71   21-91      6-85  (94)
+  5 6ONO_C Transcriptional regulat  98.3 1.4E-09 1.6E-14   73.2   0.0   66   26-91      1-75  (76)
+  6 6ONU_E Transcriptional regulat  98.3 1.4E-09 1.6E-14   73.2   0.0   66   26-91      1-75  (76)
+  7 6FRK_r Ribosomal protein eL28,  52.6      13 0.00014   29.7   0.0   10   37-46    573-582 (605)
+  8 5M73_D Signal recognition part  46.8      18  0.0002   29.3   0.0   10   37-46     63-72  (158)
+  9 7OBR_z SRP SRP receptor, co-tr  45.3      20 0.00022   30.7   0.0   10   37-46    573-582 (671)
+ 10 2L3I_A entity; antimicrobial p  38.2      30 0.00033   21.9   0.0    9   56-64      4-12  (30)
+ 11 2KNG_A Protein lsr2; DNA-bindi  23.2      79 0.00088   22.0   0.0   22   89-110    12-33  (55)
+ 12 5XY3_p Ribosomal protein L8, p  21.5      90   0.001   23.1   0.0   23   48-77     34-56  (92)
+ 13 7NWH_p 60S ribosomal protein L  20.8      96  0.0011   24.1   0.0   23   48-77     51-73  (109)
+ 14 5TBW_AQ ?; Protein translation  20.4      99  0.0011   22.8   0.0   14   63-77     42-55  (91)
+ 15 6R84_D ABC transporter ATP-bin  20.4      99  0.0011   22.8   0.0   14   63-77     42-55  (91)
+
+No 1
+>7KUG_A Probable transcriptional regulator WhiB7, RNA; Redox-sensitive, Iron-sulfur cluster, transcription, activator; HET: MSE, SF4; 1.55A {Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)}
+Probab=98.60  E-value=7.2e-11  Score=80.55  Aligned_cols=68  Identities=29%  Similarity=0.604  Sum_probs=56.8  Template_Neff=6.600
+
+Q query            22 TVTALYEVPLGVCTQ-DPDRWTTTPD---DEAKTLCRACPRRWLCARDAVESAGAEGLWAGVVIPESGRARA   89 (116)
+Q Consensus        22 t~~~~~~~p~~~Ct~-DPDRWtt~~D---~~AKaLCRaCPRRw~CAreA~~tpga~GlWAGV~IPe~GR~R~   89 (116)
+                      ..+..+|...++|.+ +|++||+++.   +.|+++|..|||+.+|+++|+.+++.+|||||++..+|+++++
+T Consensus         8 ~~~~~~w~~~a~C~~~~p~~~~~~~~~~~~~A~~iC~~CPVr~~C~~~Al~~~~~~GVwgG~~~~~Rr~~~~   79 (79)
+T 7KUG_A            8 RQTPRQRLPVLPCHVGDPDMWFADTPAGLEVAKTMCVSCPIRRQCLAAALQRAEPWGVWGGEIFDQGSIVSH   79 (79)
+T ss_dssp             --------CCCGGGSSCGGGGGCSSHHHHHHHHHHHTTCTTHHHHHHHHHHHTCCSSEETTEEEETTEECCC
+T ss_pred             CCCcccCccCCCCcCCCHHHhcCCChhhHHHHHHHHcCCccHHHHHHHHHHhCCCccEECeeecccCccccC
+Confidence            467889999999999 9999999876   8999999999999999999999999999999999999998764
+
+
+No 2
+>7KIM_Z DNA-directed RNA polymerase subunit alpha; RNA polymerase, Transcription factor, Mycobacterium;{Mycobacterium tuberculosis}
+Probab=98.58  E-value=9.5e-11  Score=82.07  Aligned_cols=71  Identities=30%  Similarity=0.553  Sum_probs=66.6  Template_Neff=6.500
+
+Q query            21 MTVTALYEVPLGVCTQ-DPDRWTTTPD---DEAKTLCRACPRRWLCARDAVESAGAEGLWAGVVIPESGRARAFA   91 (116)
+Q Consensus        21 mt~~~~~~~p~~~Ct~-DPDRWtt~~D---~~AKaLCRaCPRRw~CAreA~~tpga~GlWAGV~IPe~GR~R~fA   91 (116)
+                      ..++..+|...++|.+ ||++||+++.   +.|+++|..|||+.+|+++|+.+++.+|||||++..+|+++++.+
+T Consensus         7 ~~~~~~~w~~~a~C~~~dpd~ff~~~~~~~~~A~~iC~~CPv~~~C~~~Al~~~~~~GVWgG~~~~~Rr~~~~~~   81 (92)
+T 7KIM_Z            7 PRQTPRQRLPVLPCHVGDPDLWFADTPAGLEVAKTLCVSCPIRRQCLAAALQRAEPWGVWGGEIFDQGSIVSHKR   81 (92)
+T ss_pred             CCCCCccccccCCccCCCHHHhCCCChhhHHHHHHHHccChhHHHHHHHHHHhCCCccEECeeehhhCceeccCC
+Confidence            3578899999999999 9999999875   899999999999999999999999999999999999999998887
+
+
+No 3
+>7KUF_A Probable transcriptional regulator WhiB7, RNA; Redox-sensitive, Iron-sulfur cluster, transcription, activator; 2.6A {Mycobacterium tuberculosis}
+Probab=98.58  E-value=9.5e-11  Score=82.07  Aligned_cols=71  Identities=30%  Similarity=0.553  Sum_probs=59.4  Template_Neff=6.500
+
+Q query            21 MTVTALYEVPLGVCTQ-DPDRWTTTPD---DEAKTLCRACPRRWLCARDAVESAGAEGLWAGVVIPESGRARAFA   91 (116)
+Q Consensus        21 mt~~~~~~~p~~~Ct~-DPDRWtt~~D---~~AKaLCRaCPRRw~CAreA~~tpga~GlWAGV~IPe~GR~R~fA   91 (116)
+                      ..++..+|...++|.+ ||++||+++.   +.|+++|..|||+.+|+++|+.+++.+|||||++..+|+++++.+
+T Consensus         7 ~~~~~~~w~~~a~C~~~dpd~ff~~~~~~~~~A~~iC~~CPv~~~C~~~Al~~~~~~GVWgG~~~~~Rr~~~~~~   81 (92)
+T 7KUF_A            7 PRQTPRQRLPVLPCHVGDPDLWFADTPAGLEVAKTLCVSCPIRRQCLAAALQRAEPWGVWGGEIFDQGSIVSHKR   81 (92)
+T ss_dssp             ---------CCCSTTSSCGGGGGCSSHHHHHHHHHHGGGCTTHHHHHHHHHHTTCSEEEETTEEEETTEECSSCC
+T ss_pred             CCCCCccccccCCccCCCHHHhCCCChhhHHHHHHHHccChhHHHHHHHHHHhCCCccEECeeehhhCceeccCC
+Confidence            3578899999999999 9999999875   899999999999999999999999999999999999999998887
+
+
+No 4
+>5OAY_A Transcriptional regulator WhiB1; nitric oxide, sigmaA, iron-sulfur, tuberculosis; HET: SF4; NMR {Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)}
+Probab=98.37  E-value=8.3e-10  Score=77.82  Aligned_cols=71  Identities=23%  Similarity=0.406  Sum_probs=62.2  Template_Neff=6.400
+
+Q query            21 MTVTALYEVPLGVCTQ-DPDRWTTTPD--------DEAKTLCRACPRRWLCARDAVESAGAEGLWAGVVIPESGRARAFA   91 (116)
+Q Consensus        21 mt~~~~~~~p~~~Ct~-DPDRWtt~~D--------~~AKaLCRaCPRRw~CAreA~~tpga~GlWAGV~IPe~GR~R~fA   91 (116)
+                      +..+..+|+..++|.+ +|++||+++.        +.|++||..|||+.+|+++|+.+++.+|||||++..+|+++++.+
+T Consensus         6 ~~~~~~~W~~~A~C~~~dp~~ff~~~~~~~~~~~~~~A~~iC~~CPVr~~C~~~Al~~~~~~GVWGG~t~~eR~~~~~~~   85 (94)
+T 5OAY_A            6 YFQGAMDWRHKAVCRDEDPELFFPVGNSGPALAQIADAKLVCNRCPVTTECLSWALNTGQDSGVWGGMSEDERRALKRRN   85 (94)
+T ss_dssp             -----CHHHHHHHHHTSCHHHHSCCCSCSHHHHHHHHHHHHHHSSCCCHHHHHHHHHHTCCCSSSCCCCHHHHHHHHHHH
+T ss_pred             ccCCcccHHHcCcccCCCHHHhCCCCCCChhHHHHHHHHHHhcCCccHHHHHHHHHHhCCCCeEECCCCHHHHHHHHHHH
+Confidence            4567889999999999 9999999763        789999999999999999999999999999999999999998877
+
+
+No 5
+>6ONO_C Transcriptional regulator WhiB1, RNA polymerase; Iron-sulfur cluster, transcription regulation, redox-sensing; HET: PEG, MSE, SF4; 1.85A {Mycobacterium tuberculosis H37Rv}
+Probab=98.31  E-value=1.4e-09  Score=73.17  Aligned_cols=66  Identities=23%  Similarity=0.450  Sum_probs=60.2  Template_Neff=7.000
+
+Q query            26 LYEVPLGVCTQ-DPDRWTTTPD--------DEAKTLCRACPRRWLCARDAVESAGAEGLWAGVVIPESGRARAFA   91 (116)
+Q Consensus        26 ~~~~p~~~Ct~-DPDRWtt~~D--------~~AKaLCRaCPRRw~CAreA~~tpga~GlWAGV~IPe~GR~R~fA   91 (116)
+                      .+|+..++|.+ +|++||+++.        +.|++||..|||+.+|+++|+.+++.+|||||++..+|+++++.+
+T Consensus         1 ~~W~~~a~C~~~dp~~~~~~~~~~~~~~~~~~A~~iC~~CPV~~~C~~~Al~~~~~~GVwgG~~~~~R~~~~~~~   75 (76)
+T 6ONO_C            1 MDWRHKAVCRDEDPELFFPVGNSGPALAQIADAKLVCNRCPVTTECLSWALNTGQDSGVWGGMSEDERRALKRRN   75 (76)
+T ss_dssp             -CGGGGCGGGGSCGGGGCCSSSSTHHHHHHHHHHHHHTTCTTHHHHHHHHHHHTCCSSCBTTBCHHHHHHHHCCC
+T ss_pred             CChhhcCcccCCCHHHhCCCCCCChhHHHHHHHHHHhCCCCcHHHHHHHHHHhCCCCeEeCCCCHHHHHHHHhhc
+Confidence            37999999999 9999998763        789999999999999999999999999999999999999987754
+
+
+No 6
+>6ONU_E Transcriptional regulator WhiB1, RNA polymerase; Iron-sulfur cluster, transcription regulation, redox-sensing; HET: MSE, SF4; 1.85A {Mycobacterium tuberculosis H37Rv}
+Probab=98.31  E-value=1.4e-09  Score=73.17  Aligned_cols=66  Identities=23%  Similarity=0.450  Sum_probs=59.1  Template_Neff=7.000
+
+Q query            26 LYEVPLGVCTQ-DPDRWTTTPD--------DEAKTLCRACPRRWLCARDAVESAGAEGLWAGVVIPESGRARAFA   91 (116)
+Q Consensus        26 ~~~~p~~~Ct~-DPDRWtt~~D--------~~AKaLCRaCPRRw~CAreA~~tpga~GlWAGV~IPe~GR~R~fA   91 (116)
+                      .+|+..++|.+ +|++||+++.        +.|++||..|||+.+|+++|+.+++.+|||||++..+|+++++.+
+T Consensus         1 ~~W~~~a~C~~~dp~~~~~~~~~~~~~~~~~~A~~iC~~CPV~~~C~~~Al~~~~~~GVwgG~~~~~R~~~~~~~   75 (76)
+T 6ONU_E            1 MDWRHKAVCRDEDPELFFPVGNSGPALAQIADAKLVCNRCPVTTECLSWALNTGQDSGVWGGMSEDERRALKRRN   75 (76)
+T ss_dssp             -CGGGGCGGGGSCGGGGCCCCSSSCCHHHHHHHHHHHTTCTTHHHHHHHHHHHTCCSSCBTTBCHHHHHHHCC--
+T ss_pred             CChhhcCcccCCCHHHhCCCCCCChhHHHHHHHHHHhCCCCcHHHHHHHHHHhCCCCeEeCCCCHHHHHHHHhhc
+Confidence            37999999999 9999998763        789999999999999999999999999999999999999987754
+
+
+No 7
+>6FRK_r Ribosomal protein eL28, Ribosomal protein; ER membrane targeting ribosome Signal; HET: GTP, GNP, MG; 3.7A {Canis lupus familiaris}
+Probab=52.60  E-value=13  Score=29.69  Aligned_cols=10  Identities=40%  Similarity=1.039  Sum_probs=7.1  Template_Neff=12.500
+
+Q query            37 DPDRWTTTPD   46 (116)
+Q Consensus        37 DPDRWtt~~D   46 (116)
+                      ||+.|.|-..
+T Consensus       573 dperwlp~~~  582 (605)
+T 6FRK_r          573 DPERWLPMRX  582 (605)
+T ss_pred             ChhhcCCHHh
+Confidence            7788887654
+
+
+No 8
+>5M73_D Signal recognition particle 19 kDa; protein targeting, signal recognition particle; HET: GOL, MG, GTP, K; 3.4A {Homo sapiens}
+Probab=46.77  E-value=18  Score=29.34  Aligned_cols=10  Identities=40%  Similarity=1.129  Sum_probs=8.2  Template_Neff=5.300
+
+Q query            37 DPDRWTTTPD   46 (116)
+Q Consensus        37 DPDRWtt~~D   46 (116)
+                      |||.|.|-..
+T Consensus        63 DPERWLPkre   72 (158)
+T 5M73_D           63 DPERWLPMRE   72 (158)
+T ss_dssp             CSSCSSCTTT
+T ss_pred             CHHhhccHHh
+Confidence            8999998765
+
+
+No 9
+>7OBR_z SRP SRP receptor, co-translational protein; HET: GDP, MG; 2.8A {Canis lupus familiaris}
+Probab=45.35  E-value=20  Score=30.74  Aligned_cols=10  Identities=40%  Similarity=1.129  Sum_probs=8.4  Template_Neff=11.000
+
+Q query            37 DPDRWTTTPD   46 (116)
+Q Consensus        37 DPDRWtt~~D   46 (116)
+                      |||.|.|-..
+T Consensus       573 dpERWlp~~~  582 (671)
+T 7OBR_z          573 DPERWLPMRE  582 (671)
+T ss_pred             ChhhcCCHhh
+Confidence            8999998765
+
+
+No 10
+>2L3I_A entity; antimicrobial peptide, ANTIMICROBIAL PROTEIN; NMR {N/A}
+Probab=38.21  E-value=30  Score=21.89  Aligned_cols=9  Identities=44%  Similarity=1.634  Sum_probs=4.2  Template_Neff=1.000
+
+Q query            56 CPRRWLCAR   64 (116)
+Q Consensus        56 CPRRw~CAr   64 (116)
+                      ||---.|.+
+T Consensus         4 cpkswkcka   12 (30)
+T 2L3I_A            4 CPKSWKCKA   12 (30)
+T ss_dssp             SSSCSCCCH
+T ss_pred             CCCccccHH
+Confidence            454444443
+
+
+No 11
+>2KNG_A Protein lsr2; DNA-binding domain, Immune response, DNA; NMR {Mycobacterium tuberculosis}
+Probab=23.22  E-value=79  Score=22.05  Aligned_cols=22  Identities=27%  Similarity=0.276  Sum_probs=17.1  Template_Neff=4.400
+
+Q query            89 AFALGQLRSLAERNGYPVRDHR  110 (116)
+Q Consensus        89 ~fALrqLrsLAe~~Gypvr~~r  110 (116)
+                      ......||..|..|||+|.+..
+T Consensus        12 ~~~~~~IRaWA~~nG~~Vs~RG   33 (55)
+T 2KNG_A           12 REQSAAIREWARRNGHNVSTRG   33 (55)
+T ss_dssp             STHHHHHHHHHHHTTCCCCSSS
+T ss_pred             HHHHHHHHHHHHHcCCCCCCCC
+Confidence            3445668999999999998753
+
+
+No 12
+>5XY3_p Ribosomal protein L8, putative, Uncharacterized; Trichomonas vaginalis ribosome, rRNA, rprotein; 3.2A {Trichomonas vaginalis}
+Probab=21.54  E-value=90  Score=23.08  Aligned_cols=23  Identities=30%  Similarity=0.726  Sum_probs=11.5  Template_Neff=5.900
+
+Q query            48 EAKTLCRACPRRWLCARDAVESAGAEGLWA   77 (116)
+Q Consensus        48 ~AKaLCRaCPRRw~CAreA~~tpga~GlWA   77 (116)
+                      .++-.|+.|--.      .+. ....|||.
+T Consensus        34 ~~ky~CpfCg~~------~vk-R~~~GiW~   56 (92)
+T 5XY3_p           34 RKKYPCAFCGKD------SVK-RNAVGIWT   56 (92)
+T ss_pred             hccccCCCCCce------eEe-eeecEEEE
+Confidence            344455555433      322 34478883
+
+
+No 13
+>7NWH_p 60S ribosomal protein L8, uL4; Inhibitor 80S Termination Complex Blasticidin; HET: GCP, MG, BLS; 4.1A {Oryctolagus cuniculus}
+Probab=20.76  E-value=96  Score=24.14  Aligned_cols=23  Identities=30%  Similarity=0.709  Sum_probs=12.4  Template_Neff=4.900
+
+Q query            48 EAKTLCRACPRRWLCARDAVESAGAEGLWA   77 (116)
+Q Consensus        48 ~AKaLCRaCPRRw~CAreA~~tpga~GlWA   77 (116)
+                      .++-.|+.|-      ...+.+ ...|||.
+T Consensus        51 ~~ky~Cp~CG------k~~VkR-~~~GIW~   73 (109)
+T 7NWH_p           51 HAKYTCSFCG------KTKMKR-RAVGIWH   73 (109)
+T ss_pred             hccccCCCCC------Cceeec-cccEEEe
+Confidence            3444555554      344444 4489993
+
+
+No 14
+>5TBW_AQ ?; Protein translation inhibitor, complex, ribosome; HET: MG, ZN, 7AL, OHX; 3.0A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=20.39  E-value=99  Score=22.84  Aligned_cols=14  Identities=36%  Similarity=0.997  Sum_probs=7.5  Template_Neff=5.900
+
+Q query            63 ARDAVESAGAEGLWA   77 (116)
+Q Consensus        63 AreA~~tpga~GlWA   77 (116)
+                      -...+.. ...|||.
+T Consensus        42 g~~~vkR-~~~GiW~   55 (91)
+T 5TBW_AQ          42 GKKTVKR-GAAGIWT   55 (91)
+T ss_pred             CCeeeee-cccceEe
+Confidence            3334433 4478884
+
+
+No 15
+>6R84_D ABC transporter ATP-binding protein ARB1; 60S ribosomal subunit, Vms1, Arb1; 3.6A {Saccharomyces cerevisiae}
+Probab=20.39  E-value=99  Score=22.84  Aligned_cols=14  Identities=36%  Similarity=0.997  Sum_probs=7.5  Template_Neff=5.900
+
+Q query            63 ARDAVESAGAEGLWA   77 (116)
+Q Consensus        63 AreA~~tpga~GlWA   77 (116)
+                      -...+.. ...|||.
+T Consensus        42 g~~~vkR-~~~GiW~   55 (91)
+T 6R84_D           42 GKKTVKR-GAAGIWT   55 (91)
+T ss_pred             CCeeeee-cccceEe
+Confidence            3334433 4478884
+
+

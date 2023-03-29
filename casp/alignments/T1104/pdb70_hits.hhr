@@ -1,0 +1,159 @@
+Query         query 
+Match_columns 117
+No_of_seqs    21 out of 29
+Neff          2.87881
+Searched_HMMs 90139
+Date          Thu May 12 16:47:21 2022
+Command       /mnt/home/dberenberg/gustaf_stuff/openfold/lib/conda/envs/openfold_venv/bin/hhsearch -i /tmp/tmptj5ppny5/query.a3m -o /tmp/tmptj5ppny5/output.hhr -maxseq 1000000 -cpu 64 -d /mnt/home/dberenberg/gustaf_stuff/OpenFold/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2HL7_A Cytochrome C-type bioge  34.0      39 0.00043   24.4   0.0   34    9-42     47-80  (84)
+  2 2KW0_A CcmH protein; oxidoredu  27.7      58 0.00064   24.0   0.0   38    9-46     44-81  (90)
+  3 3JVN_A Acetyltransferase (E.C.  26.1      65 0.00072   21.0   0.0   32   69-100    93-124 (166)
+  4 3OAO_A uncharacterized protein  24.7      72 0.00079   23.7   0.0   44   10-53     55-98  (147)
+  5 3D3M_A Eukaryotic translation   24.2      74 0.00082   24.3   0.0   32    9-40      3-34  (168)
+  6 2DXQ_A Acetyltransferase; acet  22.7      83 0.00092   19.6   0.0   26   74-99     91-116 (150)
+  7 6F03_C BPSL2520; Antigen, Burk  22.5      84 0.00093   25.4   0.0   43   10-52    112-154 (199)
+  8 3F0A_A N-ACETYLTRANSFERASE; N-  22.1      86 0.00096   20.2   0.0   38    3-40     12-53  (162)
+  9 2K2U_B RNA polymerase II trans  20.5      98  0.0011   20.4   0.0   11   12-22     18-28  (35)
+ 10 4JXR_A Acetyltransferase (E.C.  19.5 1.1E+02  0.0012   20.9   0.0   26   75-100    94-119 (186)
+
+No 1
+>2HL7_A Cytochrome C-type biogenesis protein CcmH; Three-helices bundle, OXIDOREDUCTASE; HET: PG4; 1.7A {Pseudomonas aeruginosa}
+Probab=34.01  E-value=39  Score=24.42  Aligned_cols=34  Identities=9%  Similarity=0.188  Sum_probs=27.8  Template_Neff=6.200
+
+Q query             9 AVAKGLEEMYANGVTEDNFKNYVKNNFAQQEISS   42 (117)
+Q Consensus         9 ~VA~~LEkMF~nGVse~N~~~Yv~~Nfs~~EI~~   42 (117)
+                      ..-..+.+|...|-|++-..+|+.+.|++.=+..
+T Consensus        47 ~~R~~I~~~l~~G~s~~eI~~~~v~~YG~~IL~~   80 (84)
+T 2HL7_A           47 DLRKQIYGQLQQGKSDGEIVDYMVARYGDFVRYK   80 (84)
+T ss_dssp             HHHHHHHHHHHHTCCHHHHHHHHHHHHTTTCEEC
+T ss_pred             HHHHHHHHHHHCCCCHHHHHHHHHHHHCccceeC
+Confidence            3445678899999999999999999999865544
+
+
+No 2
+>2KW0_A CcmH protein; oxidoreductase, cytochrome c maturation; NMR {Escherichia coli}
+Probab=27.69  E-value=58  Score=23.95  Aligned_cols=38  Identities=8%  Similarity=0.178  Sum_probs=31.1  Template_Neff=6.000
+
+Q query             9 AVAKGLEEMYANGVTEDNFKNYVKNNFAQQEISSVEEE   46 (117)
+Q Consensus         9 ~VA~~LEkMF~nGVse~N~~~Yv~~Nfs~~EI~~AE~E   46 (117)
+                      ..-+.+.+|...|-|.+-..+|+.+.|++.=+..+...
+T Consensus        44 ~~R~~I~~~l~~G~s~~eI~~~~v~~YGe~IL~~P~~~   81 (90)
+T 2KW0_A           44 DLRQKVYELMQEGKSKKEIVDYMVARYGNFVTYDPPLT   81 (90)
+T ss_dssp             HHHHHHHHHHHHTCCHHHHHHHHHHHHTTTCBCSCCSC
+T ss_pred             HHHHHHHHHHHCCCCHHHHHHHHHHHHCceeeeCCCCC
+Confidence            44567788999999999999999999998877665544
+
+
+No 3
+>3JVN_A Acetyltransferase (E.C.2.3.1.-); alpha-beta protein, Structural Genomics, PSI-2; 2.61A {Vibrio fischeri}
+Probab=26.11  E-value=65  Score=21.00  Aligned_cols=32  Identities=13%  Similarity=0.103  Sum_probs=20.5  Template_Neff=12.500
+
+Q query            69 SISAIVKAAQKKAWKELAVTVLRFAKANGLKT  100 (117)
+Q Consensus        69 nv~~iv~~~qkkaWke~a~~v~~~~~~~g~k~  100 (117)
+                      .+.+.-.|-.+..-.++...+++++++.|++.
+T Consensus        93 ~~~v~~~~r~~G~~~~l~~~~~~~~~~~g~~~  124 (166)
+T 3JVN_A           93 ELYIEKEYRREGVAEQLMMRIEQELKDYGVKE  124 (166)
+T ss_dssp             EEEECTTTCSSSHHHHHHHHHHHHHHTTTCSE
+T ss_pred             EEEeCHHHhCCCHHHHHHHHHHHHHHHCCCCE
+Confidence            33333344455566777888888888877664
+
+
+No 4
+>3OAO_A uncharacterized protein from DUF2059 family; STRUCTURAL GENOMICS, JOINT CENTER FOR; HET: PO4; 2.72A {Pseudomonas aeruginosa}
+Probab=24.66  E-value=72  Score=23.65  Aligned_cols=44  Identities=9%  Similarity=0.170  Sum_probs=30.2  Template_Neff=8.700
+
+Q query            10 VAKGLEEMYANGVTEDNFKNYVKNNFAQQEISSVEEELNVNISD   53 (117)
+Q Consensus        10 VA~~LEkMF~nGVse~N~~~Yv~~Nfs~~EI~~AE~ELn~Nisg   53 (117)
+                      +.+.+++.|....-.+.+.....+.||.+||...-.++++-...
+T Consensus        55 ~~~~~~~~~~~~~~~~~~~~~y~~~fT~eEl~~li~FY~SP~Gq   98 (147)
+T 3OAO_A           55 ANAELDRAIGWDKIKPELIKLYTTNFTESELKDLNAFYQSPLGK   98 (147)
+T ss_dssp             HHHHHHHHHCHHHHHHHHHHHHHHHSCHHHHHHHHHHHHSHHHH
+T ss_pred             HHHHHHHHcCHHHHHHHHHHHHHhcCCHHHHHHHHHHHhCHHHH
+Confidence            34444445555555666667888999999999988887775444
+
+
+No 5
+>3D3M_A Eukaryotic translation initiation factor 4; HEAT repeat domain, Structural Genomics; 1.9A {Homo sapiens}
+Probab=24.24  E-value=74  Score=24.28  Aligned_cols=32  Identities=13%  Similarity=0.172  Sum_probs=26.7  Template_Neff=8.500
+
+Q query             9 AVAKGLEEMYANGVTEDNFKNYVKNNFAQQEI   40 (117)
+Q Consensus         9 ~VA~~LEkMF~nGVse~N~~~Yv~~Nfs~~EI   40 (117)
+                      .|-+.|++++..|-+.+.+.+|+++|.+++..
+T Consensus         3 ~~~~~L~~~l~~~~~~~~i~~wi~~~v~~~~~   34 (168)
+T 3D3M_A            3 KLEKELLKQIKLDPSPQTIYKWIKDNISPKLH   34 (168)
+T ss_pred             HHHHHHHHHHhhCCCHHHHHHHHHHhCCHHHc
+Confidence            35568999999999999999999999887654
+
+
+No 6
+>2DXQ_A Acetyltransferase; acetyltransferase, Structural Genomics, PSI-2, Protein; HET: PO4; 1.8A {Agrobacterium tumefaciens str.}
+Probab=22.72  E-value=83  Score=19.63  Aligned_cols=26  Identities=4%  Similarity=-0.121  Sum_probs=17.7  Template_Neff=13.000
+
+Q query            74 VKAAQKKAWKELAVTVLRFAKANGLK   99 (117)
+Q Consensus        74 v~~~qkkaWke~a~~v~~~~~~~g~k   99 (117)
+                      =.|-.+...+.+...+.++++..|++
+T Consensus        91 ~~~r~~g~~~~l~~~~~~~~~~~g~~  116 (150)
+T 2DXQ_A           91 EARRGRGYGRTVVRHAIETAFGANCY  116 (150)
+T ss_dssp             GGGTTSSHHHHHHHHHHHHHHHTTCS
+T ss_pred             HhhcCCCHHHHHHHHHHHHHHhCCCC
+Confidence            34445556677778888888877764
+
+
+No 7
+>6F03_C BPSL2520; Antigen, Burkholderia, putative exported protein; HET: ACT, GOL, MSE; 2.2A {Burkholderia pseudomallei K96243}
+Probab=22.53  E-value=84  Score=25.38  Aligned_cols=43  Identities=7%  Similarity=-0.013  Sum_probs=31.3  Template_Neff=7.500
+
+Q query            10 VAKGLEEMYANGVTEDNFKNYVKNNFAQQEISSVEEELNVNIS   52 (117)
+Q Consensus        10 VA~~LEkMF~nGVse~N~~~Yv~~Nfs~~EI~~AE~ELn~Nis   52 (117)
+                      +...+++.|....-.+.+.....+.||.+||...-.++++-.-
+T Consensus       112 ~~~~~~~~~~~~~~~~~i~~iYa~~fT~eELq~iiaFY~SP~G  154 (199)
+T 6F03_C          112 AGKVFGTQQFTNDAMQAQYDAYAKYYSTSEIKDLTTFYKSPTG  154 (199)
+T ss_dssp             TTGGGGSHHHHHHHHHHHHHHHHHHCCHHHHHHHHHHHHSHHH
+T ss_pred             HHHHhhhhhchHHHHHHHHHHHHHhCCHHHHHHHHHHHhCHHH
+Confidence            3344455666666677777888899999999998888877443
+
+
+No 8
+>3F0A_A N-ACETYLTRANSFERASE; N-ACETYLTRANSFERASE, THERMOPLASMA ACIDOPHILUM, ACETYL-COA, STRUCTURAL; HET: ACO; 2.5A {Thermoplasma acidophilum}
+Probab=22.12  E-value=86  Score=20.23  Aligned_cols=38  Identities=8%  Similarity=0.335  Sum_probs=23.1  Template_Neff=12.600
+
+Q query             3 EDSEVEAVAKGLEEMYANG----VTEDNFKNYVKNNFAQQEI   40 (117)
+Q Consensus         3 ~~~evd~VA~~LEkMF~nG----Vse~N~~~Yv~~Nfs~~EI   40 (117)
+                      ...+.+.+.+.+...|...    .+++.+..+....++.+++
+T Consensus        12 ~~~d~~~i~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   53 (162)
+T 3F0A_A           12 SIEDLETLIEVARESWKWTYAGIYSEEYIESWIREKYSKEKL   53 (162)
+T ss_dssp             CGGGHHHHHHHHHHHHHHHTTTTSCHHHHHHHHHHHSCHHHH
+T ss_pred             CHHhHHHHHHHHHHHHHHHhhccCCHHHHHHHHHHHcCHHHH
+Confidence            4567777777777777655    3455555555555555443
+
+
+No 9
+>2K2U_B RNA polymerase II transcription factor; VP16, TFIIH, Tfb1, Activation, Transcription; NMR {Saccharomyces cerevisiae}
+Probab=20.45  E-value=98  Score=20.41  Aligned_cols=11  Identities=18%  Similarity=0.537  Sum_probs=8.5  Template_Neff=1.800
+
+Q query            12 KGLEEMYANGV   22 (117)
+Q Consensus        12 ~~LEkMF~nGV   22 (117)
+                      =++|+||++-.
+T Consensus        18 fEFEQMFtdaL   28 (35)
+T 2K2U_B           18 FEFEQMFTDAL   28 (35)
+T ss_dssp             HHHHHTTSCCC
+T ss_pred             chHHHHHHHHh
+Confidence            37899998754
+
+
+No 10
+>4JXR_A Acetyltransferase (E.C.2.3.1.-); Structural Genomics, PSI-Biology, New York; HET: 2PE, ACO, FLC, MSE; 1.15A {Sinorhizobium meliloti}
+Probab=19.53  E-value=1.1e+02  Score=20.92  Aligned_cols=26  Identities=23%  Similarity=0.193  Sum_probs=17.9  Template_Neff=12.000
+
+Q query            75 KAAQKKAWKELAVTVLRFAKANGLKT  100 (117)
+Q Consensus        75 ~~~qkkaWke~a~~v~~~~~~~g~k~  100 (117)
+                      .|-.+...+++...++++++..|++.
+T Consensus        94 ~~r~~Gi~~~ll~~~~~~~~~~g~~~  119 (186)
+T 4JXR_A           94 EARGKGIGKALLSELVGRCTALGFRQ  119 (186)
+T ss_dssp             GGTTSSHHHHHHHHHHHHHHHHTCCE
+T ss_pred             HHCCCCHHHHHHHHHHHHHHHCCCCE
+Confidence            44455567777788888888777653
+
+

@@ -1,0 +1,1024 @@
+Query         query 
+Match_columns 196
+No_of_seqs    59 out of 62
+Neff          2.83655
+Searched_HMMs 90139
+Date          Mon Jul 11 21:18:20 2022
+Command       /mnt/home/dberenberg/gustaf_stuff/openfold/lib/conda/envs/openfold_venv/bin/hhsearch -i /tmp/tmpfjih26bj/query.a3m -o /tmp/tmpfjih26bj/output.hhr -maxseq 1000000 -cpu 64 -d /mnt/home/dberenberg/gustaf_stuff/OpenFold/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6ZZB_A SAG family member (Sag1 100.0 7.8E-50 8.7E-55  345.7   0.0  194    2-196    39-232 (242)
+  2 3Q2U_A Glioma pathogenesis-rel  90.5    0.12 1.4E-06   41.1   0.0  138    9-185    15-171 (205)
+  3 1CFE_A PATHOGENESIS-RELATED PR  88.4    0.25 2.8E-06   34.8   0.0  128   11-181     2-130 (135)
+  4 5JYS_A Protein PRY1; CAP prote  79.6     1.4 1.5E-05   39.9   0.0  127   10-180   159-286 (298)
+  5 1U53_A secreted protein ASP-2;  75.7     2.1 2.4E-05   33.2   0.0   46  139-186   130-176 (196)
+  6 3NT8_A Ancylostoma secreted pr  72.3       3 3.3E-05   36.5   0.0   41  138-180   353-393 (424)
+  7 6ANY_A Bm4233, isoform b; Veno  68.8     4.1 4.5E-05   32.0   0.0   41  139-179   130-171 (206)
+  8 4G2U_B Ancylostoma-secreted pr  65.3     5.4 5.9E-05   33.7   0.0   47  138-185   132-182 (219)
+  9 5ETE_A Pry1p; TAPs, testis spe  59.8     7.9 8.8E-05   28.5   0.0  130    8-181     8-138 (149)
+ 10 5WEE_A Uncharacterized protein  52.2      13 0.00014   29.4   0.0  130   11-180    14-158 (195)
+ 11 2DDB_A Pseudecin; CRISP, snake  51.7      13 0.00015   30.5   0.0  132   12-180     5-142 (210)
+ 12 2DDB_B Pseudecin; CRISP, snake  51.7      13 0.00015   30.5   0.0  132   12-180     5-142 (210)
+ 13 4P27_A EFKLSEGQRAIYNFHKKVRKDVK  48.3      16 0.00018   27.2   0.0   45  139-186   107-151 (162)
+ 14 3S6V_B Ac-ASP-7; Pathogenesis-  48.2      16 0.00018   29.9   0.0   40  141-181   103-147 (206)
+ 15 1QNX_A VES V 5; ANTIGEN 5, ALL  47.3      17 0.00019   29.9   0.0   46  139-185   157-206 (209)
+ 16 2VZN_A VENOM ALLERGEN 3; MAJOR  45.1      20 0.00022   29.8   0.0   51  139-190   158-213 (218)
+ 17 5WEE_B Uncharacterized protein  42.2      24 0.00026   28.2   0.0   74   98-185    90-165 (195)
+ 18 3U3L_C Tablysin 15; CAP domain  41.5      25 0.00027   29.3   0.0   48  138-186   151-201 (233)
+ 19 3U3U_C Tablysin 15; CAP domain  41.5      25 0.00027   29.3   0.0   48  138-186   151-201 (233)
+ 20 3S6S_B Ac-ASP-7; Pathogenesis-  37.6      31 0.00034   28.5   0.0   40  141-181   103-147 (206)
+ 21 5V51_F PR-1 protein; pathogene  36.9      32 0.00036   27.0   0.0  120   10-181    13-136 (175)
+ 22 4NUO_A Ancylostoma secreted pr  35.7      35 0.00039   26.8   0.0   77   99-185   112-189 (210)
+ 23 4TPV_B Hookworm Platelet Inhib  34.4      38 0.00042   26.5   0.0  131   11-185    14-149 (182)
+ 24 5VHG_A Golgi-associated plant   34.2      38 0.00042   25.0   0.0  141   10-189     4-146 (150)
+ 25 4TPV_A Hookworm Platelet Inhib  32.7      42 0.00046   26.3   0.0  131   11-185    14-149 (182)
+ 26 2W50_A ARMET-LIKE PROTEIN 1; M  31.4      45  0.0005   27.8   0.0   14  166-179    45-58  (102)
+ 27 4XUW_B Cor a 8; Allergen, plan  31.1      46 0.00051   24.8   0.0    7   98-104    84-90  (92)
+ 28 6FRR_B Non-specific lipid-tran  30.7      48 0.00053   24.9   0.0    7   98-104    84-90  (92)
+ 29 5B16_B Ribonuclease 3 (E.C.3.1  29.2      53 0.00058   23.7   0.0   10   18-27      5-14  (39)
+ 30 1WVR_A Triflin; cysteine-rich   28.6      55 0.00061   27.3   0.0  135    9-180    11-153 (221)
+ 31 6IMF_A Cysteine-rich venom pro  28.6      55 0.00061   27.3   0.0  135    9-180    11-153 (221)
+ 32 5LQV_A Non-specific lipid-tran  28.3      56 0.00062   24.5   0.0   13   93-105    79-91  (93)
+ 33 2ALG_B non-specific lipid tran  28.1      56 0.00062   24.5   0.0    8   97-104    83-90  (92)
+ 34 1SIY_A Nonspecific lipid-trans  27.8      58 0.00064   24.2   0.0    8   97-104    82-89  (91)
+ 35 1XTA_A Natrin 1; natrin, CRISP  27.8      58 0.00064   27.1   0.0  139   10-185    12-161 (221)
+ 36 5V50_F PR-1 protein; pathogene  27.6      58 0.00065   25.8   0.0  117   10-178    13-133 (175)
+ 37 2LPN_A Cerebral dopamine neuro  25.6      67 0.00074   27.0   0.0   14  166-179    50-63  (105)
+ 38 1MID_A Nonspecific lipid-trans  24.9      71 0.00078   23.9   0.0    8   97-104    82-89  (91)
+ 39 2N2Z_A Non-specific lipid-tran  22.7      83 0.00092   23.5   0.0    9   97-105    84-92  (93)
+ 40 1GH1_A NONSPECIFIC LIPID TRANS  22.5      84 0.00093   23.4   0.0    6   98-103    83-88  (90)
+ 41 1UVA_A NONSPECIFIC LIPID TRANS  21.8      89 0.00099   23.3   0.0   12   93-104    78-89  (91)
+ 42 3NT8_A Ancylostoma secreted pr  21.7      89 0.00099   27.8   0.0   42  137-180   142-183 (424)
+ 43 1T12_A NONSPECIFIC LIPID-TRANS  21.0      94   0.001   23.2   0.0    8   97-104    82-89  (91)
+ 44 1FK5_A NON-SPECIFIC LIPID-TRAN  20.9      95  0.0011   23.4   0.0    6   98-103    85-90  (93)
+ 45 1MZM_A MAIZE NONSPECIFIC LIPID  20.9      95  0.0011   23.4   0.0    6   98-103    85-90  (93)
+
+No 1
+>6ZZB_A SAG family member (Sag19); Apicomplexa, Eimeria tenella, CAP proteins; HET: SO4; 1.322A {Eimeria tenella}
+Probab=100.00  E-value=7.8e-50  Score=345.66  Aligned_cols=194  Identities=45%  Similarity=0.764  Sum_probs=184.9  Template_Neff=5.000
+
+Q query             2 AATTPIVAEDATTACLPTMNMLRVLNLRDQALDALQPETGGASEDEEREEQGEHTKSKTTAEIAKELAGTKAETCEKGAT   81 (196)
+Q Consensus         2 ~~~tpp~A~dkT~~CL~iiN~LR~enLk~lll~~l~~e~~~~~~~~~~~~~~~~~~~~Ta~~IA~~LAG~d~~tCe~g~~   81 (196)
+                      .++++|+|+|||+|||++|||+|||||+|||++|++++|++||++| ++++.+++..+++.+||++|+|.+.++|+.++.
+T Consensus        39 ~~~~~p~a~dvtdd~yla~NLaRngkL~v~i~el~ka~d~~Lv~sL-k~~v~~~~~~~~~~~ia~~lag~~~~tC~~~~~  117 (242)
+T 6ZZB_A           39 QTPTPPQADEKTEDCLAIINKLRSENLKDLLGTLAKAEDTEVTESL-KAIKIEEPASPTAPKIAVTLAGSNVDTCESGEG  117 (242)
+T ss_dssp             -CCCCCCEEECHHHHHHHHHHHHC----CCSCCCEECCHHHHHHHH-HHTTCCCSSSCCHHHHHHHHHCSCTTTCTTGGG
+T ss_pred             CCCCCCCcCCCHHHHHHHHHHHHhCCCcHHHHhcccccCchHHHHH-HHHhccCCCCCCcchHHHHhcCCCCCcchhccc
+Confidence            3689999999999999999999999999999999999999999999 999998888899999999999999999999988
+
+
+Q query            82 ADAKTHTGLVIPFEYSTVFDCGSLIQGHFAAGLSHMQESNFDPATGAYDTGKAPFDNLSASNVANIMWSKSTKASCAVTK  161 (196)
+Q Consensus        82 Ana~~YpGLVIpF~hsT~FDC~ALIq~tytAGL~HLkqsNfdpstgtyd~~~APfdNv~AsNvAflls~Ks~KVSCAaT~  161 (196)
+                      +++|+||+||++|+|+++||||+|||+||++||++|++++||++++.|+++++||++++++|||||||++|||||||+|+
+T Consensus       118 ~~~k~~~~F~~~F~y~t~pdyr~LlQ~al~aGL~~f~~~~Yp~~~~~w~~~~~~w~~~a~anlA~LL~s~STkVGCaig~  197 (242)
+T 6ZZB_A          118 ANAKKYPGLVIPFPHDTEFNCNALIQATYTAGLDHLKQSNFEPSTGTYDVENAPFNNVNASNVAFLLSEKSKKVSCAATK  197 (242)
+T ss_dssp             CCSSSSCSEEEEEETTSCCCHHHHHHHHHHHHHHHHHHSCCCTTTCCCCTTSTTTTSHHHHHHHHHTCTTCCEEEEEEEC
+T ss_pred             cccccCCcceeecCCCCCCCHHHHHHHHHHHhHHHHHhcCCCCCCCcccccCCcccCccHHHHHHHHccCCCceEeeeeC
+Confidence            88888999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q query           162 NCQAGHNVLYCRLVEPITSQDKPFTTELYEALLQR  196 (196)
+Q Consensus       162 dC~aGhNVLfCyFiePL~~gdkPfttElYnALl~R  196 (196)
+                      +|+++++||||+|+||++++++||++|||++||+|
+T Consensus       198 ~C~~~~~vLfC~l~Pa~~~~~aPF~eEyy~aLi~R  232 (242)
+T 6ZZB_A          198 DCKAGHDVLFCYFIDPLRKEDKPFTAELYNALWGL  232 (242)
+T ss_dssp             CCSSSEEEEEEEEESCCCTTCCCCCHHHHHHHHHC
+T ss_pred             CCCCCcEEEEEEecCccccCCCCCCHHHHHHHHHH
+Confidence            99999999999999999999999999999999998
+
+
+No 2
+>3Q2U_A Glioma pathogenesis-related protein 1; CRISP, human glioma pathogenesis-related protein; HET: GOL; 1.85A {Homo sapiens}
+Probab=90.48  E-value=0.12  Score=41.09  Aligned_cols=138  Identities=16%  Similarity=0.241  Sum_probs=81.3  Template_Neff=10.200
+
+Q query             9 AEDATTACLPTMNMLRVLNLR--DQALDALQPETGGASEDEEREEQGEHTKSKTTAEIAKELAGTKAETCEKGATAD---   83 (196)
+Q Consensus         9 A~dkT~~CL~iiN~LR~enLk--~lll~~l~~e~~~~~~~~~~~~~~~~~~~~Ta~~IA~~LAG~d~~tCe~g~~An---   83 (196)
+                      ..+....++..||.+|....+  ..+.+|.+  |.+|.... +...                     ..|.......   
+T Consensus        15 ~~~~~~~~l~~~N~~R~~~~~~~~~m~~L~~--n~~L~~~A-~~~a---------------------~~~~~~~~~~~~~   70 (205)
+T 3Q2U_A           15 NEDFIKDCVRIHNKFRSEVKPTASDMLYMTW--DPALAQIA-KAWA---------------------SNCQFSHNTRLKP   70 (205)
+T ss_dssp             CHHHHHHHHHHHHHHHHTCSSCBSSCBCCEE--CHHHHHHH-HHHH---------------------TTCBSSCCTTSST
+T ss_pred             CHHHHHHHHHHHHHHHHhcCCChhhcccCcc--CHHHHHHH-HHHH---------------------hcCCcCCCCCCCC
+Confidence            345556899999999986532  22367888  88876555 3332                     1222211100   
+
+
+Q query            84 ----AKTHTGLVIPFEYS--TVFDCGSLIQGHFAAGLSHMQESNFDPATGAYDTGKAPFDNLSASNVANIMWSKSTKASC  157 (196)
+Q Consensus        84 ----a~~YpGLVIpF~hs--T~FDC~ALIq~tytAGL~HLkqsNfdpstgtyd~~~APfdNv~AsNvAflls~Ks~KVSC  157 (196)
+                          ...+..+...+...  ........|+.|+.. ...+   +|..         ..+ .....++++|||.+++.|||
+T Consensus        71 ~~~~~~~~~~~gen~~~~~~~~~~~~~~i~~W~~~-~~~~---~~~~---------~~~-~~~~~~f~~ll~~~~~~iGC  136 (205)
+T 3Q2U_A           71 PHKLHPNFTSLGENIWTGSVPIFSVSSAITNWYDE-IQDY---DFKT---------RIC-KKVCGHYTQVVWADSYKVGC  136 (205)
+T ss_dssp             TCCSSTTCSSCEEEEEEEETTTCCHHHHHHHHHGG-GGGE---ETTT---------TEE-SSCCHHHHHHTCTTCCEEEE
+T ss_pred             CcccCCCCCCceeeeeeecCCCCCHHHHHHHHHHH-hhcC---CCCC---------Ccc-ccchhHHHHHHccccCeEee
+Confidence                00011122211111  223566777777664 2211   2221         111 24677999999999999999
+
+
+Q query           158 AVTKNCQA--------GHNVLYCRLVEPITSQDKPF  185 (196)
+Q Consensus       158 AaT~dC~a--------GhNVLfCyFiePL~~gdkPf  185 (196)
+                      ++.. |..        +..+++|.|.|.+.....||
+T Consensus       137 a~~~-~~~~~~~~~~~~~~~~vC~~~~~~~~~~~~y  171 (205)
+T 3Q2U_A          137 AVQF-CPKVSGFDALSNGAHFICNYGPGGNYPTWPY  171 (205)
+T ss_dssp             EEEE-ESCCBTCSSCCSEEEEEEEEESCCCCSSCSS
+T ss_pred             eEEe-cCCcCCCccccccEEEEeeCCCCCCCCCCCC
+Confidence            9998 976        47899999999988655454
+
+
+No 3
+>1CFE_A PATHOGENESIS-RELATED PROTEIN P14A; PATHOGENESIS-RELATED PROTEIN, PR-1 PROTEINS, PLANT; NMR {Solanum lycopersicum} SCOP: d.111.1.1
+Probab=88.38  E-value=0.25  Score=34.84  Aligned_cols=128  Identities=13%  Similarity=0.158  Sum_probs=78.6  Template_Neff=11.600
+
+Q query            11 DATTACLPTMNMLRVLNLRDQALDALQPETGGASEDEEREEQGEHTKSKTTAEIAKELAGTKAETCEKGATADAKTHTGL   90 (196)
+Q Consensus        11 dkT~~CL~iiN~LR~enLk~lll~~l~~e~~~~~~~~~~~~~~~~~~~~Ta~~IA~~LAG~d~~tCe~g~~Ana~~YpGL   90 (196)
+                      +....++..||.+|+-.-   ..+|..  |.+|.... +....                 .-...|.....       .+
+T Consensus         2 ~~~~~~l~~~N~~R~~~~---~~~l~~--~~~L~~~A-~~~a~-----------------~~~~~~~~~~~-------~~   51 (135)
+T 1CFE_A            2 NSPQDYLAVHNDARAQVG---VGPMSW--DANLASRA-QNYAN-----------------SRAGDCNLIHS-------GA   51 (135)
+T ss_dssp             CSHHHHHHHHHHHHHHTT---CCCCEE--CSHHHHHH-HHHHH-----------------HHTTTCCSCSC-------SS
+T ss_pred             CChHHHHHHHHHHHHHhC---CCCCCC--CHHHHHHH-HHHHH-----------------hcCCCCCCCCC-------CC
+Confidence            345678999999998533   678888  88876544 33221                 11123332111       12
+
+
+Q query            91 VIPFEYS-TVFDCGSLIQGHFAAGLSHMQESNFDPATGAYDTGKAPFDNLSASNVANIMWSKSTKASCAVTKNCQAGHNV  169 (196)
+Q Consensus        91 VIpF~hs-T~FDC~ALIq~tytAGL~HLkqsNfdpstgtyd~~~APfdNv~AsNvAflls~Ks~KVSCAaT~dC~aGhNV  169 (196)
+                      ...+... ..+.....+..|+.. ...+   .++  ...+.      ......++++|||.++++|||++.. |..+..+
+T Consensus        52 ~~~~~~~~~~~~~~~~~~~w~~~-~~~~---~~~--~~~~~------~~~~~~~~~~l~~~~~~~vGc~~~~-~~~~~~~  118 (135)
+T 1CFE_A           52 GENLAKGGGDFTGRAAVQLWVSE-RPSY---NYA--TNQCV------GGKKCRHYTQVVWRNSVRLGCGRAR-CNNGWWF  118 (135)
+T ss_dssp             SBCCEECSSSCCHHHHHHHHHTT-GGGE---EGG--GTEEC------SSSCCSSHHHHHCTTCCEEEEEEEE-CTTSSEE
+T ss_pred             CcceeecCCCCCHHHHHHHHHhc-chhc---cCC--CCccc------CCccchhhHHhccCcCcEEEEEEEE-cCCCCEE
+Confidence            2222211 224456667777664 2221   222  12222      2356789999999999999999998 9877899
+
+
+Q query           170 LYCRLVEPITSQ  181 (196)
+Q Consensus       170 LfCyFiePL~~g  181 (196)
+                      ++|.|.|++...
+T Consensus       119 ~vC~y~~~~~~~  130 (135)
+T 1CFE_A          119 ISCNYDPVGNWI  130 (135)
+T ss_dssp             EEEECSSCCSCT
+T ss_pred             EEEEecCCCCCC
+Confidence            999999988754
+
+
+No 4
+>5JYS_A Protein PRY1; CAP protein, TRANSPORT PROTEIN; 1.901A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=79.55  E-value=1.4  Score=39.88  Aligned_cols=127  Identities=13%  Similarity=0.274  Sum_probs=77.3  Template_Neff=8.000
+
+Q query            10 EDATTACLPTMNMLRVLNLRDQALDALQPETGGASEDEEREEQGEHTKSKTTAEIAKELAGTKAETCEKGATADAKTHTG   89 (196)
+Q Consensus        10 ~dkT~~CL~iiN~LR~enLk~lll~~l~~e~~~~~~~~~~~~~~~~~~~~Ta~~IA~~LAG~d~~tCe~g~~Ana~~YpG   89 (196)
+                      .+..+.++..||.+|...  ..+.+|.+  |.+|.... +....                   .-.|.....+.. .  .
+T Consensus       159 ~~~~~~iL~~hN~~R~~~--~~m~~L~w--d~~Le~~A-q~~A~-------------------~~~~~~~~~~~~-~--~  211 (298)
+T 5JYS_A          159 SDFASSVLAEHNKKRALH--KDTPALSW--SDTLASYA-QDYAD-------------------NYDCSGTLTHSG-G--P  211 (298)
+T ss_dssp             CHHHHHHHHHHHHHHTTB--TTCCCCEE--CHHHHHHH-HHHHH-------------------TCCCSSCCCCCC-C--S
+T ss_pred             hHHHHHHHHHHHHHHHHh--cCCCCCee--CHHHHHHH-HHHHH-------------------hccccCCCCCCC-C--C
+Confidence            355668999999999854  13568888  88876544 33321                   111221111111 1  2
+
+
+Q query            90 LVIPFEYSTVFDCGSLIQGHFAAGLSHMQESNFDPATGAYDTGKAPFDNLSASNVANIMWSKSTKASCAVTKNCQAG-HN  168 (196)
+Q Consensus        90 LVIpF~hsT~FDC~ALIq~tytAGL~HLkqsNfdpstgtyd~~~APfdNv~AsNvAflls~Ks~KVSCAaT~dC~aG-hN  168 (196)
+                      +..++.+  ..+....|+.|++. +..+   +|.  ...       + ....+|+++|||.+.++|||++.. |..+ ..
+T Consensus       212 ~geNl~~--~~~~~~av~~W~~E-~~~~---~~~--~~~-------~-~~~~ghftqml~~~~t~IGCg~~~-c~~~~~~  274 (298)
+T 5JYS_A          212 YGENLAL--GYDGPAAVDAWYNE-ISNY---DFS--NPG-------F-SSNTGHFTQVVWKSTTQVGCGIKT-CGGAWGD  274 (298)
+T ss_dssp             SEEEEEE--SSCHHHHHHHHHGG-GGGC---CTT--SCS-------C-CTTTHHHHHHTCTTCCEEEEEEEE-CCTTTCE
+T ss_pred             ceeeecc--cCCHHHHHHHHHHH-HhcC---CCC--CCC-------c-cccccHHHHHHcHhCCEEEEEEEE-ECCCeeE
+Confidence            2222221  12346678888775 2222   222  111       1 235679999999999999999999 9654 67
+
+
+Q query           169 VLYCRLVEPITS  180 (196)
+Q Consensus       169 VLfCyFiePL~~  180 (196)
+                      +++|.|.|.++.
+T Consensus       275 ~vvC~Y~p~gn~  286 (298)
+T 5JYS_A          275 YVICSYDPAGNY  286 (298)
+T ss_dssp             EEEEEEESCCCC
+T ss_pred             EEEEEeCCCCCC
+Confidence            899999999864
+
+
+No 5
+>1U53_A secreted protein ASP-2; ANTIBIOTIC; 1.56A {Necator americanus}
+Probab=75.71  E-value=2.1  Score=33.20  Aligned_cols=46  Identities=13%  Similarity=0.371  Sum_probs=37.4  Template_Neff=10.900
+
+Q query           139 LSASNVANIMWSKSTKASCAVTKNCQAGHNVLYCRLVEPITS-QDKPFT  186 (196)
+Q Consensus       139 v~AsNvAflls~Ks~KVSCAaT~dC~aGhNVLfCyFiePL~~-gdkPft  186 (196)
+                      ....++++|||...++|||+... |. +...++|.|.|.... +..||.
+T Consensus       130 ~~~~~f~~~i~~~~~~iGC~~~~-c~-~~~~~~C~~~~~~~~~~~~~y~  176 (196)
+T 1U53_A          130 RGVGHYTQMVWQETVKLGCYVEA-CS-NMCYVVCQYGPAGNMMGKDIYE  176 (196)
+T ss_dssp             TTCHHHHHHTCTTCCEEEEEEEE-CS-SCEEEEEEEESCCCCTTSBSSC
+T ss_pred             CCchHHHHHHhhcCcEEEEEeEe-cC-CcEEEEEeecCCCCcCCCcccC
+Confidence            34788999999999999999998 96 467899999997753 445543
+
+
+No 6
+>3NT8_A Ancylostoma secreted protein 1; PATHOGENESIS RELATED-1 PROTEIN, CYSTEINE-RICH SECRETORY; 2.2A {Necator americanus}
+Probab=72.32  E-value=3  Score=36.52  Aligned_cols=41  Identities=20%  Similarity=0.403  Sum_probs=36.3  Template_Neff=10.900
+
+Q query           138 NLSASNVANIMWSKSTKASCAVTKNCQAGHNVLYCRLVEPITS  180 (196)
+Q Consensus       138 Nv~AsNvAflls~Ks~KVSCAaT~dC~aGhNVLfCyFiePL~~  180 (196)
+                      +....++++|+|.++++|||++.. |. +..+++|.|.|+++.
+T Consensus       353 ~~~~~~f~~~~~~~~~~vGCa~~~-c~-~~~~~vC~y~~~~n~  393 (424)
+T 3NT8_A          353 NMQIGHYTQMAWDTTYKLGCAVVF-CN-DFTFGVCQYGPGGNY  393 (424)
+T ss_dssp             TCCCHHHHHHHCTTCCEEEEEEEE-CS-SSEEEEEEEESCCCC
+T ss_pred             CCCchHHHHHHhhhcCeEEEEEEE-cC-CCEEEEeccCCCCCc
+Confidence            356899999999999999999998 97 478999999998764
+
+
+No 7
+>6ANY_A Bm4233, isoform b; Venom allergen-like, VAL, Ancylostoma secreted; HET: FUC, NAG, BMA; 2.25A {Brugia malayi}
+Probab=68.83  E-value=4.1  Score=31.97  Aligned_cols=41  Identities=20%  Similarity=0.545  Sum_probs=35.4  Template_Neff=10.900
+
+Q query           139 LSASNVANIMWSKSTKASCAVTKNCQAG-HNVLYCRLVEPIT  179 (196)
+Q Consensus       139 v~AsNvAflls~Ks~KVSCAaT~dC~aG-hNVLfCyFiePL~  179 (196)
+                      ....++++|||.++++|||+....|..+ ...++|.|.|...
+T Consensus       130 ~~~~~f~~~~~~~~t~iGCa~~~~~~~~~~~~~vC~y~~~~~  171 (206)
+T 6ANY_A          130 QGVLHFTQMAWGKTHKIGCGIATNCDGGRTLIAICHYSPAGN  171 (206)
+T ss_dssp             TSCHHHHHHTCTTCCEEEEEEEEEHHHHTEEEEEEEEESCCC
+T ss_pred             hcchHHHHHHcccCCceeeeEEecCCCCceEEEEEEeeCCCC
+Confidence            4678999999999999999999868654 6789999999864
+
+
+No 8
+>4G2U_B Ancylostoma-secreted protein-like protein; CAP protein, SCP/TAPS protein, CRISP; HET: NAG; 1.85A {Ostertagia ostertagi}
+Probab=65.30  E-value=5.4  Score=33.71  Aligned_cols=47  Identities=19%  Similarity=0.309  Sum_probs=38.6  Template_Neff=9.000
+
+Q query           138 NLSASNVANIMWSKSTKASCAVTKNCQA---GHNVLYCRLVEPITS-QDKPF  185 (196)
+Q Consensus       138 Nv~AsNvAflls~Ks~KVSCAaT~dC~a---GhNVLfCyFiePL~~-gdkPf  185 (196)
+                      +....+|++|+|.+.++|||+... |..   +..++.|.|.|.... ++.+|
+T Consensus       132 ~~~~~~f~~~~~~~~~~iGC~~~~-c~~~~~~~~~~~C~y~~~~~~~~~~~y  182 (219)
+T 4G2U_B          132 NWQIRPLSNIANWQNLKVGCAHKV-CKFPTGTNMVVSCAYGGEVLQDNEVVW  182 (219)
+T ss_dssp             CGGGHHHHHHHCTTCCEEEEEEEE-EEETTEEEEEEEEEESSCCCCTTCBSS
+T ss_pred             chhcHHHHHHHHHHhcceecEEEe-CCCCCCCcEEEEeecCCCCCCCCcccc
+Confidence            456789999999999999999999 863   577899999999853 44554
+
+
+No 9
+>5ETE_A Pry1p; TAPs, testis specific proteins, Tpx; HET: DIO; 2.1A {Saccharomyces cerevisiae YJM1434}
+Probab=59.78  E-value=7.9  Score=28.54  Aligned_cols=130  Identities=12%  Similarity=0.247  Sum_probs=76.6  Template_Neff=11.100
+
+Q query             8 VAEDATTACLPTMNMLRVLNLRDQALDALQPETGGASEDEEREEQGEHTKSKTTAEIAKELAGTKAETCEKGATADAKTH   87 (196)
+Q Consensus         8 ~A~dkT~~CL~iiN~LR~enLk~lll~~l~~e~~~~~~~~~~~~~~~~~~~~Ta~~IA~~LAG~d~~tCe~g~~Ana~~Y   87 (196)
+                      ...+....++..||.+|...-  .+.+|..  |.+|.... +..+.                   .-.|....... .. 
+T Consensus         8 ~~~~~~~~~l~~~N~~R~~~~--~m~~l~~--d~~L~~~A-~~~~~-------------------~~~~~~~~~~~-~~-   61 (149)
+T 5ETE_A            8 DLSDFASSVLAEHNKKRALHK--DTPALSW--SDTLASYA-QDYAD-------------------NYDCSGTLTHS-GG-   61 (149)
+T ss_dssp             CCCHHHHHHHHHHHHHHTTBT--TCCCCEE--CHHHHHHH-HHHHH-------------------TCCCSSCCCCC-CC-
+T ss_pred             ChhHHHHHHHHHHHHHHHHcC--CCCCCcc--CHHHHHHH-HHHHH-------------------HccCcCccccC-CC-
+Confidence            345666789999999999542  2567777  77664433 22211                   01121111100 01 
+
+
+Q query            88 TGLVIPFEYSTVFDCGSLIQGHFAAGLSHMQESNFDPATGAYDTGKAPFDNLSASNVANIMWSKSTKASCAVTKNCQAG-  166 (196)
+Q Consensus        88 pGLVIpF~hsT~FDC~ALIq~tytAGL~HLkqsNfdpstgtyd~~~APfdNv~AsNvAflls~Ks~KVSCAaT~dC~aG-  166 (196)
+                       .+...+..  ..+.+..++.|++. +.++   .++.  ..       | +....+++.|||.+.++|||+... |..+ 
+T Consensus        62 -~~~~~~~~--~~~~~~~~~~w~~~-~~~~---~~~~--~~-------~-~~~~~~~~~l~~~~~~~iGc~~~~-c~~~~  123 (149)
+T 5ETE_A           62 -PYGENLAL--GYDGPAAVDAWYNE-ISNY---DFSN--PG-------F-SSNTGHFTQVVWKSTTQVGCGIKT-CGGAW  123 (149)
+T ss_dssp             -SSEEEEEE--SCCHHHHHHHHHHG-GGGC---CTTS--CS-------C-CTTTHHHHHHHCTTCCEEEEEEEE-CCTTT
+T ss_pred             -CCeeeEEe--cCCHHHHHHHHHHH-hccC---CCCC--CC-------C-cccccHHHHHHchhCCeEEEEEEE-cCCCe
+Confidence             22222221  23456778888765 2221   1111  11       2 235678999999999999999999 9763 
+
+
+Q query           167 HNVLYCRLVEPITSQ  181 (196)
+Q Consensus       167 hNVLfCyFiePL~~g  181 (196)
+                      ..+++|.|.|.+...
+T Consensus       124 ~~~~~c~~~~~~~~~  138 (149)
+T 5ETE_A          124 GDYVICSYDPAGNYE  138 (149)
+T ss_dssp             CEEEEEEEESCCCCT
+T ss_pred             eEEEEEEeeCCCCCC
+Confidence            789999999987644
+
+
+No 10
+>5WEE_A Uncharacterized protein; Sperm-coating protein, Tpx, antigen 5; HET: FUC, NAG; 1.99A {Heligmosomoides polygyrus bakeri}
+Probab=52.20  E-value=13  Score=29.43  Aligned_cols=130  Identities=17%  Similarity=0.210  Sum_probs=76.8  Template_Neff=10.500
+
+Q query            11 DATTACLPTMNMLRVLNLRDQ-------------ALDALQPETGGASEDEEREEQGEHTKSKTTAEIAKELAGTKAETCE   77 (196)
+Q Consensus        11 dkT~~CL~iiN~LR~enLk~l-------------ll~~l~~e~~~~~~~~~~~~~~~~~~~~Ta~~IA~~LAG~d~~tCe   77 (196)
+                      +.-..++..||.+|......+             +..|.+  |.+|.... +..                     ...|.
+T Consensus        14 ~~~~~~l~~~N~~R~~~~~g~~~~~~~~~~~~~~m~~L~w--d~~L~~~A-~~~---------------------a~~c~   69 (195)
+T 5WEE_A           14 TTREVFLRFHNDVRKFIALGIYPNKVGVLGPAKNMYQLKW--SCDLEEEA-HES---------------------IYSCS   69 (195)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHTCEECSSSEECCEESCBCCEE--CHHHHHHH-HHH---------------------HTTSS
+T ss_pred             HHHHHHHHHHHHHHHHHHcCCCCCCCcccCChhHhhcccc--CchHHHHH-HHH---------------------HhcCC
+Confidence            334568899999998766433             667777  77766554 332                     23454
+
+
+Q query            78 KGATAD-AKTHT-GLVIPFEYSTVFDCGSLIQGHFAAGLSHMQESNFDPATGAYDTGKAPFDNLSASNVANIMWSKSTKA  155 (196)
+Q Consensus        78 ~g~~An-a~~Yp-GLVIpF~hsT~FDC~ALIq~tytAGL~HLkqsNfdpstgtyd~~~APfdNv~AsNvAflls~Ks~KV  155 (196)
+                      ...... ...+. .+...+  .........++.|+.. +..+   ++....       ..++ ....++++|||.+.++|
+T Consensus        70 ~~~~~~~~~~~~~~~~~~~--~~~~~~~~~~~~W~~~-~~~~---~~~~~~-------~~~~-~~~~~f~~~v~~~~~~i  135 (195)
+T 5WEE_A           70 YNPLLLHPQSYSKLLSVDL--PDTDVVGATLEMWTEF-MRIY---GVNTKT-------NSYN-PSFSQFANMAYSKNTKV  135 (195)
+T ss_dssp             CCCCSSSCEEEEEEECCSS--CHHHHHHHHHHHHHHH-HHHH---CCCTTT-------CBCC-GGGHHHHHHHCTTCCEE
+T ss_pred             CCcccCCccchhhheecCC--CcchHHHHHHHHHHHH-HHHh---CCCCCc-------cccc-cchHHHHHHHhhcCCeE
+Confidence            432211 01100 111111  1233445667676554 2211   111110       1122 56789999999999999
+
+
+Q query           156 SCAVTKNCQAGHNVLYCRLVEPITS  180 (196)
+Q Consensus       156 SCAaT~dC~aGhNVLfCyFiePL~~  180 (196)
+                      ||++.. |. +..+++|.|.|....
+T Consensus       136 GC~~~~-c~-~~~~~vC~y~~~~~~  158 (195)
+T 5WEE_A          136 GCSYKK-CG-GDTLVTCVYELGVKL  158 (195)
+T ss_dssp             EEEEEE-ET-TEEEEEEEESSCCBT
+T ss_pred             EEEEEE-cC-CcEEEEEEEeCCCCC
+Confidence            999998 97 578999999999854
+
+
+No 11
+>2DDB_A Pseudecin; CRISP, snake venom, CNG channel; HET: GOL, FMT; 1.9A {Pseudechis porphyriacus}
+Probab=51.74  E-value=13  Score=30.46  Aligned_cols=132  Identities=14%  Similarity=0.204  Sum_probs=78.7  Template_Neff=9.800
+
+Q query            12 ATTACLPTMNMLRVLNLR--DQALDALQPETGGASEDEEREEQGEHTKSKTTAEIAKELAGTKAETCEKGATAD-AK--T   86 (196)
+Q Consensus        12 kT~~CL~iiN~LR~enLk--~lll~~l~~e~~~~~~~~~~~~~~~~~~~~Ta~~IA~~LAG~d~~tCe~g~~An-a~--~   86 (196)
+                      .-...+..||.+|+..++  ..+.+|.+  |.+|.... +..+                     ..|....... ..  .
+T Consensus         5 ~r~~il~~hN~~R~~~~~~a~~M~~L~w--d~~Le~~A-~~~a---------------------~~c~~~~~~~~~~~~~   60 (210)
+T 2DDB_A            5 YQKEIVDKHNALRRSVKPTARNMLQMKW--NSHAAQNA-KRWA---------------------DRCTFAHSPPNTRTVG   60 (210)
+T ss_dssp             HHHHHHHHHHHHHTTCSSCBSSCBCCEE--CHHHHHHH-HHHH---------------------TTTCCSCCCGGGSEET
+T ss_pred             HHHHHHHHHHHHHHhCCCCccccccCee--CHHHHHHH-HHHH---------------------hcCCCCCCCccccccC
+Confidence            345688899999996632  25677888  77776554 3322                     2233221100 00  0
+
+
+Q query            87 HTGLVIPFEYS-TVFDCGSLIQGHFAAGLSHMQESNFDPATGAYDTGKAPFDNLSASNVANIMWSKSTKASCAVTKNCQA  165 (196)
+Q Consensus        87 YpGLVIpF~hs-T~FDC~ALIq~tytAGL~HLkqsNfdpstgtyd~~~APfdNv~AsNvAflls~Ks~KVSCAaT~dC~a  165 (196)
+                      +..+...+... ........|+.|+... ..+   .|+.  .      .........++++|||.+.++|||++.. |..
+T Consensus        61 ~~~~g~n~~~~~~~~~~~~~i~~W~~e~-~~~---~~~~--~------~~~~~~~~~~f~~~i~~~~t~iGCa~~~-c~~  127 (210)
+T 2DDB_A           61 KLRCGENIFMSSQPFPWSGVVQAWYDEI-KNF---VYGI--G------AKPPGSVIGHYTQVVWYKSHLIGCASAK-CSS  127 (210)
+T ss_dssp             TEECEEEEEEESSCCCHHHHHHHHHGGG-GGE---ETTT--E------ESSTTSCCHHHHHHTCTTCCEEEEEEEE-EET
+T ss_pred             CeeceeeEEEeCCCCCHHHHHHHHHHHH-hhc---CCCC--C------CCCCCCccChhHhHhccccceEeEEEEE-cCC
+Confidence            11122222211 2335566777776652 221   2221  1      1122356789999999999999999998 987
+
+
+Q query           166 GHNVLYCRLVEPITS  180 (196)
+Q Consensus       166 GhNVLfCyFiePL~~  180 (196)
+                      +..+++|.|.|....
+T Consensus       128 ~~~~~vC~y~~~~~~  142 (210)
+T 2DDB_A          128 SKYLYVCQYCPAGNI  142 (210)
+T ss_dssp             TEEEEEEEEESCSSS
+T ss_pred             CCEEEEEEecCCCCC
+Confidence            778999999999764
+
+
+No 12
+>2DDB_B Pseudecin; CRISP, snake venom, CNG channel; HET: GOL, FMT; 1.9A {Pseudechis porphyriacus}
+Probab=51.74  E-value=13  Score=30.46  Aligned_cols=132  Identities=14%  Similarity=0.204  Sum_probs=78.7  Template_Neff=9.800
+
+Q query            12 ATTACLPTMNMLRVLNLR--DQALDALQPETGGASEDEEREEQGEHTKSKTTAEIAKELAGTKAETCEKGATAD-AK--T   86 (196)
+Q Consensus        12 kT~~CL~iiN~LR~enLk--~lll~~l~~e~~~~~~~~~~~~~~~~~~~~Ta~~IA~~LAG~d~~tCe~g~~An-a~--~   86 (196)
+                      .-...+..||.+|+..++  ..+.+|.+  |.+|.... +..+                     ..|....... ..  .
+T Consensus         5 ~r~~il~~hN~~R~~~~~~a~~M~~L~w--d~~Le~~A-~~~a---------------------~~c~~~~~~~~~~~~~   60 (210)
+T 2DDB_B            5 YQKEIVDKHNALRRSVKPTARNMLQMKW--NSHAAQNA-KRWA---------------------DRCTFAHSPPNTRTVG   60 (210)
+T ss_dssp             HHHHHHHHHHHHHHTCSSCBSSCBCCEE--CHHHHHHH-HHHH---------------------TTCCCSCCCGGGSEET
+T ss_pred             HHHHHHHHHHHHHHhCCCCccccccCee--CHHHHHHH-HHHH---------------------hcCCCCCCCccccccC
+Confidence            345688899999996632  25677888  77776554 3322                     2233221100 00  0
+
+
+Q query            87 HTGLVIPFEYS-TVFDCGSLIQGHFAAGLSHMQESNFDPATGAYDTGKAPFDNLSASNVANIMWSKSTKASCAVTKNCQA  165 (196)
+Q Consensus        87 YpGLVIpF~hs-T~FDC~ALIq~tytAGL~HLkqsNfdpstgtyd~~~APfdNv~AsNvAflls~Ks~KVSCAaT~dC~a  165 (196)
+                      +..+...+... ........|+.|+... ..+   .|+.  .      .........++++|||.+.++|||++.. |..
+T Consensus        61 ~~~~g~n~~~~~~~~~~~~~i~~W~~e~-~~~---~~~~--~------~~~~~~~~~~f~~~i~~~~t~iGCa~~~-c~~  127 (210)
+T 2DDB_B           61 KLRCGENIFMSSQPFPWSGVVQAWYDEI-KNF---VYGI--G------AKPPGSVIGHYTQVVWYKSHLIGCASAK-CSS  127 (210)
+T ss_dssp             TEECEEEEEEESSCCCHHHHHHHHHGGG-GGE---ETTT--E------ESSTTSCCHHHHHHTCTTCCEEEEEEEE-EET
+T ss_pred             CeeceeeEEEeCCCCCHHHHHHHHHHHH-hhc---CCCC--C------CCCCCCccChhHhHhccccceEeEEEEE-cCC
+Confidence            11122222211 2335566777776652 221   2221  1      1122356789999999999999999998 987
+
+
+Q query           166 GHNVLYCRLVEPITS  180 (196)
+Q Consensus       166 GhNVLfCyFiePL~~  180 (196)
+                      +..+++|.|.|....
+T Consensus       128 ~~~~~vC~y~~~~~~  142 (210)
+T 2DDB_B          128 SKYLYVCQYCPAGNI  142 (210)
+T ss_dssp             TEEEEEEEEESCSSS
+T ss_pred             CCEEEEEEecCCCCC
+Confidence            778999999999764
+
+
+No 13
+>4P27_A EFKLSEGQRAIYNFHKKVRKDVKNCRIPGQPPAKNLTKLKWNKLLANKAKQQAKRCKYDS  NDPNDFIIGDFESIGQNLADYPTIEGAMKDWLEEYKNYNFEKNQCNGDCKNYKQMVWNTT  EEIGCGYEKCGKNYLIVCNYAPGDSEDRPYEAKPESKCNKSE; Pathogenesis Related Protein, SCP/TAPS, ALLERGEN; HET: NAG; 2.16A {Schistosoma mansoni}
+Probab=48.31  E-value=16  Score=27.23  Aligned_cols=45  Identities=18%  Similarity=0.577  Sum_probs=38.0  Template_Neff=11.200
+
+Q query           139 LSASNVANIMWSKSTKASCAVTKNCQAGHNVLYCRLVEPITSQDKPFT  186 (196)
+Q Consensus       139 v~AsNvAflls~Ks~KVSCAaT~dC~aGhNVLfCyFiePL~~gdkPft  186 (196)
+                      ....++++|||.+++.|||++.. |.. ..+++|.|.|.++ +..||.
+T Consensus       107 ~~~~~~~~~~~~~~~~vGC~~~~-~~~-~~~~~c~y~~~~~-~~~~y~  151 (162)
+T 4P27_A          107 GDCKNYKQMVWNTTEEIGCGYEK-CGK-NYLIVCNYAPGDS-EDRPYE  151 (162)
+T ss_dssp             SCCHHHHHHTCTTCCEEEEEEEE-ETT-EEEEEEEEESCCC-SSCSSC
+T ss_pred             ccccchhhhhhhhcCeEEEEEEe-eCC-cEEEEEeCCCCCC-CCCCcc
+Confidence            45778999999999999999998 975 6789999999885 446664
+
+
+No 14
+>3S6V_B Ac-ASP-7; Pathogenesis-related Protein, CAP, SCP/TAPS, UNKNOWN; 2.6A {Ancylostoma caninum}
+Probab=48.23  E-value=16  Score=29.95  Aligned_cols=40  Identities=10%  Similarity=0.191  Sum_probs=34.0  Template_Neff=9.700
+
+Q query           141 ASNVANIMWSKSTKASCAVTKNCQAG-----HNVLYCRLVEPITSQ  181 (196)
+Q Consensus       141 AsNvAflls~Ks~KVSCAaT~dC~aG-----hNVLfCyFiePL~~g  181 (196)
+                      ..++++|+|.++++|||++.. |...     ...++|.|.|....+
+T Consensus       103 ~~~f~~~i~~~~t~iGCa~~~-c~~~~~~~~~~~~vC~y~~~~~~~  147 (206)
+T 3S6V_B          103 KNSMRQVVYPKATRFGCSGRL-RRNKKTGMRRMDWVCVYDKKPKDG  147 (206)
+T ss_dssp             HHHHHHHHCTTCCEEEEEEEE-C----CCSEEEEEEEEESCCCCTT
+T ss_pred             chHHHHHHHHHccceeEEEEE-cCCCCCCCeEEEEEEEecCCCCCC
+Confidence            789999999999999999999 9764     789999999998653
+
+
+No 15
+>1QNX_A VES V 5; ANTIGEN 5, ALLERGEN, VESPID VENOM; 1.9A {VESPULA VULGARIS} SCOP: d.111.1.1
+Probab=47.28  E-value=17  Score=29.88  Aligned_cols=46  Identities=13%  Similarity=0.384  Sum_probs=38.3  Template_Neff=9.700
+
+Q query           139 LSASNVANIMWSKSTKASCAVTKNCQAG---HNVLYCRLVEPITS-QDKPF  185 (196)
+Q Consensus       139 v~AsNvAflls~Ks~KVSCAaT~dC~aG---hNVLfCyFiePL~~-gdkPf  185 (196)
+                      ....++++|+|.++++|||+... |...   ..+++|.|.|++.. ++.|+
+T Consensus       157 ~~~~~f~~~i~~~~~~iGCa~~~-c~~~~~~~~~~vC~y~~~~~~~~~~iY  206 (209)
+T 1QNX_A          157 LKTGHYTQMVWANTKEVGCGSIK-YIQEKWHKHYLVCNYGPSGNFKNEELY  206 (209)
+T ss_dssp             HHHHHHHHHTCTTCCEEEEEEEE-EEETTEEEEEEEEEEESCCCCTTSCSS
+T ss_pred             cccchhhHeeeCcCCeEecEEEE-EecCceeeEEEEEeecCCCcccCCccc
+Confidence            46788999999999999999999 9764   78899999998765 44554
+
+
+No 16
+>2VZN_A VENOM ALLERGEN 3; MAJOR FIRE ANT ALLERGEN, SOL; 3.05A {SOLENOPSIS INVICTA}
+Probab=45.13  E-value=20  Score=29.77  Aligned_cols=51  Identities=16%  Similarity=0.305  Sum_probs=43.2  Template_Neff=9.700
+
+Q query           139 LSASNVANIMWSKSTKASCAVTKNCQAG----HNVLYCRLVEPITS-QDKPFTTELY  190 (196)
+Q Consensus       139 v~AsNvAflls~Ks~KVSCAaT~dC~aG----hNVLfCyFiePL~~-gdkPfttElY  190 (196)
+                      ....++++|+|.++++|||++.. |...    ...++|.|.|+++. ++.||..+.+
+T Consensus       158 ~~~~~f~~mi~~~~t~vGCa~~~-c~~~~~~~~~~~vC~y~~~gn~~~~~~~~~~~~  213 (218)
+T 2VZN_A          158 MKVGHYTQIVWAKTTKIGCGRIM-FKEPDNWTKHYLVCNYGPAGNVLGAPIYEIKKH  213 (218)
+T ss_dssp             HHHHHHHHHTCTTCCEEEEEEEE-EECTTSCEEEEEEEEEESCCCCTTSCSSCBCCC
+T ss_pred             ccccHHHHHHHHhcCeEeeEEEE-EeCCCCCeeEEEEEEecCCCcCCCCCCcccccc
+Confidence            45788999999999999999998 9653    78999999999976 6688777654
+
+
+No 17
+>5WEE_B Uncharacterized protein; Sperm-coating protein, Tpx, antigen 5; HET: NAG, FUC; 1.99A {Heligmosomoides polygyrus bakeri}
+Probab=42.15  E-value=24  Score=28.22  Aligned_cols=74  Identities=19%  Similarity=0.324  Sum_probs=52.2  Template_Neff=10.300
+
+Q query            98 TVFDCGSLIQGHFAAGLSHMQESNFDPATGAYDTGKAPFDNLSASNVANIMWSKSTKASCAVTKNCQAGHNVLYCRLVEP  177 (196)
+Q Consensus        98 T~FDC~ALIq~tytAGL~HLkqsNfdpstgtyd~~~APfdNv~AsNvAflls~Ks~KVSCAaT~dC~aGhNVLfCyFieP  177 (196)
+                      ...+....|+.|+.. +.+.   ++...       ...|.+ ...++++|+|...++|||++.. |.. ..+++|.|.|.
+T Consensus        90 ~~~~~~~~i~~w~~~-~~~~---~~~~~-------~~~~~~-~~~~f~~~i~~~~~~iGCa~~~-c~~-~~~~~C~~~~~  155 (195)
+T 5WEE_B           90 DTDVVGATLEMWTEF-MRIY---GVNTK-------TNSYNP-SFSQFANMAYSKNTKVGCSYKK-CGG-DTLVTCVYELG  155 (195)
+T ss_dssp             HHHHHHHHHHHHHHH-HHHH---CCCTT-------TTBCCG-GGHHHHHHHCTTCCEEEEEEEE-ETT-EEEEEEEESSC
+T ss_pred             cchHHHHHHHHHHHH-HHHh---CCCCC-------CCCcCc-chHHHHHHHHHHhCeEeEEEEe-cCC-cEEEEEEecCC
+Confidence            345566777777664 2221   22211       134555 8889999999999999999999 875 78899999999
+
+
+Q query           178 IT--SQDKPF  185 (196)
+Q Consensus       178 L~--~gdkPf  185 (196)
+                      ..  .+..+|
+T Consensus       156 ~~~~~~~~~y  165 (195)
+T 5WEE_B          156 VKLPSHPQMW  165 (195)
+T ss_dssp             CBTTTBCBSS
+T ss_pred             CCCCCCCccc
+Confidence            84  455554
+
+
+No 18
+>3U3L_C Tablysin 15; CAP domain, alphaVbeta3 integrin, salivary; HET: CIT, PLM; 1.57A {Tabanus yao}
+Probab=41.46  E-value=25  Score=29.26  Aligned_cols=48  Identities=19%  Similarity=0.326  Sum_probs=38.2  Template_Neff=10.000
+
+Q query           138 NLSASNVANIMWSKSTKASCAVTKNCQAG---HNVLYCRLVEPITSQDKPFT  186 (196)
+Q Consensus       138 Nv~AsNvAflls~Ks~KVSCAaT~dC~aG---hNVLfCyFiePL~~gdkPft  186 (196)
+                      +....++++|+|.++++|||+... |..+   ...++|.|.|....++.||.
+T Consensus       151 ~~~~~~f~~~v~~~~~~iGCa~~~-c~~~~~~~~~~vC~y~~~~~~~~~~y~  201 (233)
+T 3U3L_C          151 NGDVKELALAISDRVTAVGCGLTT-WEDGAKARALLTCNFSSQNTRGRPVYK  201 (233)
+T ss_dssp             -CCCHHHHHHTCTTCCEEEEEEEE-EEETTEEEEEEEEEESCCCCTTSCSSC
+T ss_pred             CccHHHHHHHHHhhcCceeeeEEE-EcCCCeEEEEEEeecCCCCCCCCcccc
+Confidence            455678999999999999999999 9765   68999999993334556654
+
+
+No 19
+>3U3U_C Tablysin 15; CAP domain, binding protein, integrin; HET: EAH, CIT; 2.5A {Tabanus yao}
+Probab=41.46  E-value=25  Score=29.26  Aligned_cols=48  Identities=19%  Similarity=0.326  Sum_probs=38.7  Template_Neff=10.000
+
+Q query           138 NLSASNVANIMWSKSTKASCAVTKNCQAG---HNVLYCRLVEPITSQDKPFT  186 (196)
+Q Consensus       138 Nv~AsNvAflls~Ks~KVSCAaT~dC~aG---hNVLfCyFiePL~~gdkPft  186 (196)
+                      +....++++|+|.++++|||+... |..+   ...++|.|.|....++.||.
+T Consensus       151 ~~~~~~f~~~v~~~~~~iGCa~~~-c~~~~~~~~~~vC~y~~~~~~~~~~y~  201 (233)
+T 3U3U_C          151 NGDVKELALAISDRVTAVGCGLTT-WEDGAKARALLTCNFSSQNTRGRPVYK  201 (233)
+T ss_dssp             SSCCHHHHHHTCTTCCEEEEEEEE-EEETTEEEEEEEEEESSCCCTTSCSSC
+T ss_pred             CccHHHHHHHHHhhcCceeeeEEE-EcCCCeEEEEEEeecCCCCCCCCcccc
+Confidence            455678999999999999999999 9765   68999999993334556654
+
+
+No 20
+>3S6S_B Ac-ASP-7; Pathogenesis-related Protein, SCP/TAPS, UNKNOWN FUNCTION; 2.4A {Ancylostoma caninum}
+Probab=37.56  E-value=31  Score=28.50  Aligned_cols=40  Identities=10%  Similarity=0.191  Sum_probs=34.6  Template_Neff=9.600
+
+Q query           141 ASNVANIMWSKSTKASCAVTKNCQAG-----HNVLYCRLVEPITSQ  181 (196)
+Q Consensus       141 AsNvAflls~Ks~KVSCAaT~dC~aG-----hNVLfCyFiePL~~g  181 (196)
+                      ..++++|+|.++++|||+... |...     ..+++|.|.|....+
+T Consensus       103 ~~~f~q~i~~~~t~iGCa~~~-c~~~~~~~~~~~~vC~y~~~~~~~  147 (206)
+T 3S6S_B          103 KNSMRQVVYPKATRFGCSGRL-RRNKKTGMRRMDWVCVYDKKPKDG  147 (206)
+T ss_dssp             HHHHHHHHCTTCCEEEEEEEE-CC-------EEEEEEEESCCCCTT
+T ss_pred             chhHHHHHHHHccceEEEEEE-cCCCCCCCeEEEEEEEecCCCCCC
+Confidence            789999999999999999999 9764     789999999987643
+
+
+No 21
+>5V51_F PR-1 protein; pathogenesis-related protein 1, Cacao infection; HET: SEY; 2.92A {Moniliophthora perniciosa}
+Probab=36.93  E-value=32  Score=26.98  Aligned_cols=120  Identities=14%  Similarity=0.120  Sum_probs=72.9  Template_Neff=10.300
+
+Q query            10 EDATTACLPTMNMLRVLNLRDQALDALQPETGGASEDEEREEQGEHTKSKTTAEIAKELAGTKAETCEKGATADAKTHTG   89 (196)
+Q Consensus        10 ~dkT~~CL~iiN~LR~enLk~lll~~l~~e~~~~~~~~~~~~~~~~~~~~Ta~~IA~~LAG~d~~tCe~g~~Ana~~YpG   89 (196)
+                      ++.....+..||.+|...   .+.+|.+  |.+|.... +..                     ...|....... ..+..
+T Consensus        13 ~~~~~~~l~~~N~~R~~~---~~~~l~~--~~~L~~~A-~~~---------------------a~~c~~~~~~~-~~~~~   64 (175)
+T 5V51_F           13 DSFKNKWLELHNNERTTR---QLDSLEW--DGDLAWKA-QQV---------------------ATQCNVDNPQL-WGDNG   64 (175)
+T ss_dssp             HHHHHHHHHHHHHHHHHT---TCCCCEE--CHHHHHHH-HHH---------------------HHTTCSSSCCC-CSTTT
+T ss_pred             HHHHHHHHHHHHHHHHHC---CCccCcc--CHHHHHHH-HHH---------------------HhhCCCCCccc-cCCCC
+Confidence            344558999999999843   3678888  77766544 322                     23453222210 00112
+
+
+Q query            90 LVIPFEYSTVFDCGSLIQGHFAAGLSHMQESNFDPATGAYDTGKAPFDNLSASNVANIMWSKSTKASCAVTKNCQA----  165 (196)
+Q Consensus        90 LVIpF~hsT~FDC~ALIq~tytAGL~HLkqsNfdpstgtyd~~~APfdNv~AsNvAflls~Ks~KVSCAaT~dC~a----  165 (196)
+                      +...+.   ....+..|+.|+... ..   .+|.                ...++++|||.++++|||++.. |..    
+T Consensus        65 ~g~~~~---~~~~~~~i~~W~~e~-~~---~~~~----------------~~~~~~~l~~~~~~~vGCa~~~-~~~~~~~  120 (175)
+T 5V51_F           65 ASFNIG---RYTKEQAFAEWTATS-GS---FPDD----------------RSIPWQRIVANSAQKVGCGEAT-CVLEGDM  120 (175)
+T ss_dssp             TCEEEE---ESSHHHHHHHHHTTG-GG---TTSG----------------GGHHHHHHHCSSCCEEEEEEEE-EECTTSC
+T ss_pred             Cceeec---ccCHHHHHHHHHHhh-cC---CCcc----------------cCCHHHHHHhhhcCEEEeEEEE-cCCCCCc
+Confidence            222221   233455566665531 11   1111                4567899999999999999999 975    
+
+
+Q query           166 GHNVLYCRLVEPITSQ  181 (196)
+Q Consensus       166 GhNVLfCyFiePL~~g  181 (196)
+                      +..+++|.|.|+.+..
+T Consensus       121 ~~~~~~C~y~~~~~~~  136 (175)
+T 5V51_F          121 AYTVNVCYYDPPLSDY  136 (175)
+T ss_dssp             EEEEEEEEEESCCCCH
+T ss_pred             eeEEEEEEecCCCCcc
+Confidence            3589999999997653
+
+
+No 22
+>4NUO_A Ancylostoma secreted protein 2; SCP/TAPS, Excretory/secretory product, UNKNOWN FUNCTION; 1.75A {Necator americanus}
+Probab=35.72  E-value=35  Score=26.84  Aligned_cols=77  Identities=9%  Similarity=0.171  Sum_probs=51.1  Template_Neff=11.100
+
+Q query            99 VFDCGSLIQGHFAAGLSHMQESNFDPATGAYDTGKAPFDNLSASNVANIMWSKSTKASCAVTKNCQAGHNVLYCRLVEPI  178 (196)
+Q Consensus        99 ~FDC~ALIq~tytAGL~HLkqsNfdpstgtyd~~~APfdNv~AsNvAflls~Ks~KVSCAaT~dC~aGhNVLfCyFiePL  178 (196)
+                      ..+....++.|+..... +   .++.. ..+.   .........++++|+|.+.|+|||+... |. +...++|.|.|.+
+T Consensus       112 ~~~~~~~~~~w~~~~~~-~---~~~~~-~~~~---~~~~~~~~~~f~~l~~~~~t~iGCa~~~-c~-~~~~~vC~~~~~~  181 (210)
+T 4NUO_A          112 AKAAEQASKAWFGELAE-K---GVGQN-LKLT---GGLFSRGVGHYTQMVWQETVKLGCYVEA-CS-NMCYVVCQYGPAG  181 (210)
+T ss_dssp             HHHHHHHHHHHHHHHHH-H---CCCSC-CBCC---HHHHTTTCHHHHHHTCTTCCEEEEEEEE-CS-SCEEEEEEEESCC
+T ss_pred             HHHHHHHHHHHHHHHHH-c---CCCCc-ceec---hhhcccccHHHHHHHHhhccEEEEEEEe-cC-CcEEEEEeecCCC
+Confidence            33667788888775322 1   11110 1111   2233456789999999999999999998 96 4679999999987
+
+
+Q query           179 TSQ-DKPF  185 (196)
+Q Consensus       179 ~~g-dkPf  185 (196)
+                      ... ..|+
+T Consensus       182 ~~~~~~~y  189 (210)
+T 4NUO_A          182 NMMGKDIY  189 (210)
+T ss_dssp             CCTTSBSS
+T ss_pred             CcCCCccc
+Confidence            643 3444
+
+
+No 23
+>4TPV_B Hookworm Platelet Inhibitor; cysteine-rich/antigen 5/pathogenesis-related 1 CAP platelet; HET: GOL; 1.6A {Ancylostoma caninum}
+Probab=34.40  E-value=38  Score=26.51  Aligned_cols=131  Identities=18%  Similarity=0.263  Sum_probs=77.0  Template_Neff=10.600
+
+Q query            11 DATTACLPTMNMLRVLNLR----DQALDALQPETGGASEDEEREEQGEHTKSKTTAEIAKELAGTKAETCEKGATADAKT   86 (196)
+Q Consensus        11 dkT~~CL~iiN~LR~enLk----~lll~~l~~e~~~~~~~~~~~~~~~~~~~~Ta~~IA~~LAG~d~~tCe~g~~Ana~~   86 (196)
+                      +.....+..||.+|...-.    ..+.+|.+  |.+|.... +..+                     ..|..........
+T Consensus        14 ~~~~~~l~~~N~~R~~~~~~~~~~~m~~l~w--d~~L~~~A-~~~~---------------------~~c~~~~~~~g~n   69 (182)
+T 4TPV_B           14 DMREMFTELHNGYRAAFARNYKTSKMRTMVY--DCTLEEKA-YKSA---------------------EKCSEEPSSEEEN   69 (182)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHTBTTCBCCEE--CHHHHHHH-HHHH---------------------TTCCSSCSSTTEE
+T ss_pred             HHHHHHHHHHHHHHHHHHcCCCcchhHhccc--CchHHHHH-HHHH---------------------ccCCCCCCCCcce
+Confidence            3444789999999984431    13457888  88876555 3332                     2343221110011
+
+
+Q query            87 HTGLVIPFEYSTVFDCGSLIQGHFAAGLSHMQESNFDPATGAYDTGKAPFDNLSASNVANIMWSKSTKASCAVTKNCQAG  166 (196)
+Q Consensus        87 YpGLVIpF~hsT~FDC~ALIq~tytAGL~HLkqsNfdpstgtyd~~~APfdNv~AsNvAflls~Ks~KVSCAaT~dC~aG  166 (196)
+                        .+.  |...........|+.|+.. ...+   +|.    .+.      ......++++|||.++++|||++.. |.. 
+T Consensus        70 --~~~--~~~~~~~~~~~~v~~w~~~-~~~~---~~~----~~~------~~~~~~~f~~~~~~~~~~vGC~~~~-~~~-  129 (182)
+T 4TPV_B           70 --VDV--FSAATLNIPLEAGNSWWSE-IFEL---RGK----VYN------KNGKTSNIANMVWDSHDKLGCAVVD-CSG-  129 (182)
+T ss_dssp             --EEE--ESCCSSCHHHHHHHHHHGG-GGGC---CSS----BCC------CSSSSHHHHHHHCTTCCEEEEEEEE-ETT-
+T ss_pred             --eEe--eehhhccHHHHHHHHHHHH-HHhc---Ccc----ccc------CCCcchHHHHHHHHhcCeEEEEEEe-cCC-
+Confidence              111  1111234556677776553 2221   111    111      3456789999999999999999999 975 
+
+
+Q query           167 HNVLYCRLVEPITSQ-DKPF  185 (196)
+Q Consensus       167 hNVLfCyFiePL~~g-dkPf  185 (196)
+                      ...++|.|.|..... ..||
+T Consensus       130 ~~~~~C~y~p~~~~~~~~~y  149 (182)
+T 4TPV_B          130 KTHVVCQYGPEAKGDGKTIY  149 (182)
+T ss_dssp             EEEEEEEEESSCCCTTSBSC
+T ss_pred             CEEEEEeccCCCCCCCCcCc
+Confidence            788999999987643 3443
+
+
+No 24
+>5VHG_A Golgi-associated plant pathogenesis-related protein 1; GAPR-1, Autophagy, Beclin 1, PLANT; 1.27A {Homo sapiens}
+Probab=34.19  E-value=38  Score=24.99  Aligned_cols=141  Identities=11%  Similarity=0.109  Sum_probs=82.4  Template_Neff=11.200
+
+Q query            10 EDATTACLPTMNMLRVLNLRDQALDALQPETGGASEDEEREEQGEHTKSKTTAEIAKELAGTKAETCEKGATADAKTHTG   89 (196)
+Q Consensus        10 ~dkT~~CL~iiN~LR~enLk~lll~~l~~e~~~~~~~~~~~~~~~~~~~~Ta~~IA~~LAG~d~~tCe~g~~Ana~~YpG   89 (196)
+                      ++....++..||.+|...   .+.+|..  |.+|.... +.....                 ...+|........ .+..
+T Consensus         4 ~~~~~~~l~~~N~~R~~~---g~~~l~~--~~~L~~~A-~~~a~~-----------------~~~~~~~~~~~~~-~~~~   59 (150)
+T 5VHG_A            4 KQFHNEVLKAHNEYRQKH---GVPPLKL--CKDLNREA-QQYSEA-----------------LASTRILKASPES-SRGQ   59 (150)
+T ss_dssp             HHHHHHHHHHHHHHHHHT---TCCCCEE--CHHHHHHH-HHHHHH-----------------HHHHCCCSCCCGG-GSTT
+T ss_pred             hHHHHHHHHHHHHHHHHh---CCCCccc--CHHHHHHH-HHHHHH-----------------HHhcCccccCCCc-cCCC
+Confidence            455568999999999954   3567888  87776544 332210                 1112222211100 0002
+
+
+Q query            90 LVIPFEYS-TVFDCGSLIQGHFAAGLSHMQESNFDPATGAYDTGKAPFDNLSASNVANIMWSKSTKASCAVTKNCQAGHN  168 (196)
+Q Consensus        90 LVIpF~hs-T~FDC~ALIq~tytAGL~HLkqsNfdpstgtyd~~~APfdNv~AsNvAflls~Ks~KVSCAaT~dC~aGhN  168 (196)
+                      +...+... .....+.+|+.|+... ..   ..+.  ..       .+ ...-.++..|||.++++|||++.. |..+..
+T Consensus        60 ~~~~~~~~~~~~~~~~~v~~w~~~~-~~---~~~~--~~-------~~-~~~~~~~~~l~~~~~~~iGc~~~~-~~~~~~  124 (150)
+T 5VHG_A           60 CGENLAWASYDQTGKEVADRWYSAI-KN---YNFQ--QP-------GF-TSGTKAFTAMVWKNTKKMGVGKAS-ASDGSS  124 (150)
+T ss_dssp             CEEEEEEESSCCCHHHHHHHHHGGG-GG---CCTT--SC-------SC-CGGGHHHHHHHCTTCCEEEEEEEE-CTTSCE
+T ss_pred             ceeEEEEecCCccHHHHHHHHHHHh-hc---CCCC--CC-------CC-CCCCcchHHHHhhcCCeEEEEEEE-cCCCCE
+Confidence            22222111 1245566777776642 11   1121  11       11 145779999999999999999999 987789
+
+
+Q query           169 VLYCRLVEPITSQ-DKPFTTEL  189 (196)
+Q Consensus       169 VLfCyFiePL~~g-dkPfttEl  189 (196)
+                      ++.|.|.|.++.. +.+|..-.
+T Consensus       125 ~~~c~~~~~g~~~~~~~y~~~~  146 (150)
+T 5VHG_A          125 FVVARYFPAGGVVNEGFFEENV  146 (150)
+T ss_dssp             EEEEEEESCCCCCCTTHHHHHS
+T ss_pred             EEEEEEeCCCCCCCCCcccccC
+Confidence            9999999988753 56665433
+
+
+No 25
+>4TPV_A Hookworm Platelet Inhibitor; cysteine-rich/antigen 5/pathogenesis-related 1 CAP platelet; HET: GOL; 1.6A {Ancylostoma caninum}
+Probab=32.74  E-value=42  Score=26.27  Aligned_cols=131  Identities=17%  Similarity=0.208  Sum_probs=77.1  Template_Neff=10.600
+
+Q query            11 DATTACLPTMNMLRVLNL----RDQALDALQPETGGASEDEEREEQGEHTKSKTTAEIAKELAGTKAETCEKGATADAKT   86 (196)
+Q Consensus        11 dkT~~CL~iiN~LR~enL----k~lll~~l~~e~~~~~~~~~~~~~~~~~~~~Ta~~IA~~LAG~d~~tCe~g~~Ana~~   86 (196)
+                      +.-...+..||.+|...-    ...+.+|.+  |.+|.... +..+                     ..|..........
+T Consensus        14 ~~r~~~l~~~N~~R~~~a~g~~~~~m~~l~w--d~~Le~~A-~~~~---------------------~~c~~~~~~~~~~   69 (182)
+T 4TPV_A           14 DMREMFTELHNGYRAAFARNYKTSKMRTMVY--DCTLEEKA-YKSA---------------------EKCSEEPSSEEEN   69 (182)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHTBTTCBCCEE--CHHHHHHH-HHHH---------------------TTCCSSCSSTTEE
+T ss_pred             HHHHHHHHHHHHHHHHHhcCCCCCcchhCee--CchHHHHH-HHHH---------------------ccCCCCCCChhcc
+Confidence            344578999999998542    123677888  88876555 3222                     2354332211111
+
+
+Q query            87 HTGLVIPFEYSTVFDCGSLIQGHFAAGLSHMQESNFDPATGAYDTGKAPFDNLSASNVANIMWSKSTKASCAVTKNCQAG  166 (196)
+Q Consensus        87 YpGLVIpF~hsT~FDC~ALIq~tytAGL~HLkqsNfdpstgtyd~~~APfdNv~AsNvAflls~Ks~KVSCAaT~dC~aG  166 (196)
+                      +  +.  |..........+++.|+... .     .|+.  ..      ...+....++++|||.+.++|||+... |. +
+T Consensus        70 ~--~~--~~~~~~~~~~~~~~~W~~~~-~-----~~~~--~~------~~~~~~~~~f~~~~~~~~~~iGC~~~~-c~-~  129 (182)
+T 4TPV_A           70 V--DV--FSAATLNIPLEAGNSWWSEI-F-----ELRG--KV------YNKNGKTSNIANMVWDSHDKLGCAVVD-CS-G  129 (182)
+T ss_dssp             E--EE--ESSCSSCHHHHHHHHHHGGG-G-----GCCS--SB------CCCSSSSHHHHHHHCTTCCEEEEEEEE-ET-T
+T ss_pred             e--ec--cccccCchHHHHHHHhHHHH-H-----hccC--ce------eccCCccchHHHHHhhhcCEEEEEEEE-eC-C
+Confidence            1  11  11112233355666776541 1     2211  11      112345678999999999999999999 97 6
+
+
+Q query           167 HNVLYCRLVEPITS-QDKPF  185 (196)
+Q Consensus       167 hNVLfCyFiePL~~-gdkPf  185 (196)
+                      ...++|.|.|.... +..||
+T Consensus       130 ~~~~~C~y~~~~~~~~~~~y  149 (182)
+T 4TPV_A          130 KTHVVCQYGPEAKGDGKTIY  149 (182)
+T ss_dssp             EEEEEEEEESSCCCTTCBSC
+T ss_pred             CEEEEeeecCCCCCCCccCc
+Confidence            78899999999854 33444
+
+
+No 26
+>2W50_A ARMET-LIKE PROTEIN 1; MANF, CDNF, SAPOSIN, SECRETED, ER; HET: PO4; 1.6A {HOMO SAPIENS}
+Probab=31.43  E-value=45  Score=27.77  Aligned_cols=14  Identities=14%  Similarity=0.339  Sum_probs=9.8  Template_Neff=4.800
+
+Q query           166 GHNVLYCRLVEPIT  179 (196)
+Q Consensus       166 GhNVLfCyFiePL~  179 (196)
+                      |+--=||||.=+..
+T Consensus        45 gKe~r~CYyiGa~~   58 (102)
+T 2W50_A           45 GKENRLCYYLGATK   58 (102)
+T ss_dssp             HHHHHHHHHTTCST
+T ss_pred             CcchhhhhhhcCCc
+Confidence            55566888877665
+
+
+No 27
+>4XUW_B Cor a 8; Allergen, plant protein; 1.1A {Corylus avellana}
+Probab=31.14  E-value=46  Score=24.84  Aligned_cols=7  Identities=14%  Similarity=0.567  Sum_probs=3.1  Template_Neff=8.500
+
+Q query            98 TVFDCGS  104 (196)
+Q Consensus        98 T~FDC~A  104 (196)
+                      ...||..
+T Consensus        84 ~~~dC~~   90 (92)
+T 4XUW_B           84 PSTNCNN   90 (92)
+T ss_dssp             TTCCGGG
+T ss_pred             CCCCccc
+Confidence            4444443
+
+
+No 28
+>6FRR_B Non-specific lipid-transfer protein; Art v 3.0201 lipid binding; HET: SO4; 1.948A {Artemisia vulgaris}
+Probab=30.72  E-value=48  Score=24.94  Aligned_cols=7  Identities=29%  Similarity=0.539  Sum_probs=3.4  Template_Neff=8.300
+
+Q query            98 TVFDCGS  104 (196)
+Q Consensus        98 T~FDC~A  104 (196)
+                      ...||..
+T Consensus        84 ~~~dC~~   90 (92)
+T 6FRR_B           84 LETDCNK   90 (92)
+T ss_dssp             SSCCGGG
+T ss_pred             CCCCccc
+Confidence            4555543
+
+
+No 29
+>5B16_B Ribonuclease 3 (E.C.3.1.26.3), Microprocessor complex; Endonuclease, RNase III, Trimeric complex; 3.2A {Homo sapiens}
+Probab=29.16  E-value=53  Score=23.74  Aligned_cols=10  Identities=10%  Similarity=-0.024  Sum_probs=4.8  Template_Neff=2.800
+
+Q query            18 PTMNMLRVLN   27 (196)
+Q Consensus        18 ~iiN~LR~en   27 (196)
+                      .++|.+|.+=
+T Consensus         5 aIL~KLk~EM   14 (39)
+T 5B16_B            5 HILSKLQEEM   14 (39)
+T ss_dssp             HHHHHHHHHH
+T ss_pred             HHHHHHHHHH
+Confidence            4455555443
+
+
+No 30
+>1WVR_A Triflin; cysteine-rich secretory protein, TOXIN; 2.4A {Trimeresurus flavoviridis}
+Probab=28.57  E-value=55  Score=27.35  Aligned_cols=135  Identities=13%  Similarity=0.156  Sum_probs=80.5  Template_Neff=9.700
+
+Q query             9 AEDATTACLPTMNMLRVLNLR--DQALDALQPETGGASEDEEREEQGEHTKSKTTAEIAKELAGTKAETCEKGATADAKT   86 (196)
+Q Consensus         9 A~dkT~~CL~iiN~LR~enLk--~lll~~l~~e~~~~~~~~~~~~~~~~~~~~Ta~~IA~~LAG~d~~tCe~g~~Ana~~   86 (196)
+                      ..+.....+..||.+|...++  ..+.+|.+  |.+|.... +...                     ..|..........
+T Consensus        11 ~~~~r~~iL~~hN~~R~~~~~~a~nM~~L~w--d~~Le~~A-~~~a---------------------~~c~~~~~~~~~~   66 (221)
+T 1WVR_A           11 KPEIQNEIIDLHNSLRRSVNPTASNMLKMEW--YPEAAANA-ERWA---------------------YRCIESHSSRDSR   66 (221)
+T ss_dssp             SHHHHHHHHHHHHHHHTSCSSCBSSCBCCEE--CHHHHHHH-HHHH---------------------TTCCCSCCCGGGG
+T ss_pred             CHHHHHHHHHHHHHHHHhCCCCcccccccee--CHHHHHHH-HHHH---------------------HhCcccCCChhhc
+Confidence            344555899999999997643  24457888  88876554 3332                     2233221110000
+
+
+Q query            87 ---HTGLVIPFEYS-TVFDCGSLIQGHFAAGLSHMQESNFDPATGAYDTGKAPFDNLSASNVANIMWSKSTKASCAVTKN  162 (196)
+Q Consensus        87 ---YpGLVIpF~hs-T~FDC~ALIq~tytAGL~HLkqsNfdpstgtyd~~~APfdNv~AsNvAflls~Ks~KVSCAaT~d  162 (196)
+                         +..+...+... ...+....|..|+.. +..+   .|+.  .      .........++++|+|.+.++|||++.. 
+T Consensus        67 ~~~~~~~g~~~~~~~~~~~~~~~i~~W~~e-~~~~---~~~~--~------~~~~~~~~~~f~~~i~~~~t~iGC~~~~-  133 (221)
+T 1WVR_A           67 VIGGIKCGENIYMATYPAKWTDIIHAWHGE-YKDF---KYGV--G------AVPSDAVIGHYTQIVWYKSYRAGCAAAY-  133 (221)
+T ss_dssp             EETTEECEEEEEEESSCCCHHHHHHHHHGG-GGGE---ETTT--E------ESSTTSCCHHHHHHTCTTCCEEEEEEEE-
+T ss_pred             ccCCccCeeEEEeeCCCccHHHHHHHHHHH-HhcC---CCCC--C------CCCCCccccHHHHHhccccceEEEEEEE-
+Confidence               10122222211 123456667777664 2222   2221  1      1234457789999999999999999999 
+
+
+Q query           163 CQAG--HNVLYCRLVEPITS  180 (196)
+Q Consensus       163 C~aG--hNVLfCyFiePL~~  180 (196)
+                      |..+  ..+++|.|.|..+.
+T Consensus       134 c~~~~~~~~~vC~y~~~~n~  153 (221)
+T 1WVR_A          134 CPSSKYSYFYVCQYCPAGNI  153 (221)
+T ss_dssp             CTTSSSSEEEEEEEESCCSC
+T ss_pred             CCCCCceEEEEEeccCCCCC
+Confidence            9775  78999999999864
+
+
+No 31
+>6IMF_A Cysteine-rich venom protein triflin, Small; COMPLEX, ANTITOXIN, TOXIN-ANTITOXIN COMPLEX, TOXIN; HET: GOL, MES; 2.3A {Protobothrops flavoviridis}
+Probab=28.57  E-value=55  Score=27.35  Aligned_cols=135  Identities=13%  Similarity=0.156  Sum_probs=80.5  Template_Neff=9.700
+
+Q query             9 AEDATTACLPTMNMLRVLNLR--DQALDALQPETGGASEDEEREEQGEHTKSKTTAEIAKELAGTKAETCEKGATADAKT   86 (196)
+Q Consensus         9 A~dkT~~CL~iiN~LR~enLk--~lll~~l~~e~~~~~~~~~~~~~~~~~~~~Ta~~IA~~LAG~d~~tCe~g~~Ana~~   86 (196)
+                      ..+.....+..||.+|...++  ..+.+|.+  |.+|.... +...                     ..|..........
+T Consensus        11 ~~~~r~~iL~~hN~~R~~~~~~a~nM~~L~w--d~~Le~~A-~~~a---------------------~~c~~~~~~~~~~   66 (221)
+T 6IMF_A           11 KPEIQNEIIDLHNSLRRSVNPTASNMLKMEW--YPEAAANA-ERWA---------------------YRCIESHSSRDSR   66 (221)
+T ss_dssp             SHHHHHHHHHHHHHHHHSCSSCBSSCBCCEE--CHHHHHHH-HHHH---------------------TTTCCSCCCTTTT
+T ss_pred             CHHHHHHHHHHHHHHHHhCCCCcccccccee--CHHHHHHH-HHHH---------------------HhCcccCCChhhc
+Confidence            344555899999999997643  24457888  88876554 3332                     2233221110000
+
+
+Q query            87 ---HTGLVIPFEYS-TVFDCGSLIQGHFAAGLSHMQESNFDPATGAYDTGKAPFDNLSASNVANIMWSKSTKASCAVTKN  162 (196)
+Q Consensus        87 ---YpGLVIpF~hs-T~FDC~ALIq~tytAGL~HLkqsNfdpstgtyd~~~APfdNv~AsNvAflls~Ks~KVSCAaT~d  162 (196)
+                         +..+...+... ...+....|..|+.. +..+   .|+.  .      .........++++|+|.+.++|||++.. 
+T Consensus        67 ~~~~~~~g~~~~~~~~~~~~~~~i~~W~~e-~~~~---~~~~--~------~~~~~~~~~~f~~~i~~~~t~iGC~~~~-  133 (221)
+T 6IMF_A           67 VIGGIKCGENIYMATYPAKWTDIIHAWHGE-YKDF---KYGV--G------AVPSDAVIGHYTQIVWYKSYRAGCAAAY-  133 (221)
+T ss_dssp             EETTEECEEEEEEESSCCCHHHHHHHHHGG-GGGE---ETTT--E------ESSTTSCCHHHHHHTCTTCCEEEEEEEE-
+T ss_pred             ccCCccCeeEEEeeCCCccHHHHHHHHHHH-HhcC---CCCC--C------CCCCCccccHHHHHhccccceEEEEEEE-
+Confidence               10122222211 123456667777664 2222   2221  1      1234457789999999999999999999 
+
+
+Q query           163 CQAG--HNVLYCRLVEPITS  180 (196)
+Q Consensus       163 C~aG--hNVLfCyFiePL~~  180 (196)
+                      |..+  ..+++|.|.|..+.
+T Consensus       134 c~~~~~~~~~vC~y~~~~n~  153 (221)
+T 6IMF_A          134 CPSSKYSYFYVCQYCPAGNI  153 (221)
+T ss_dssp             CTTSSSSEEEEEEEESCCCB
+T ss_pred             CCCCCceEEEEEeccCCCCC
+Confidence            9775  78999999999864
+
+
+No 32
+>5LQV_A Non-specific lipid-transfer protein 2; plant defense peptide lipid transfer; HET: PGM; NMR {Lens culinaris}
+Probab=28.27  E-value=56  Score=24.47  Aligned_cols=13  Identities=31%  Similarity=0.848  Sum_probs=6.3  Template_Neff=8.500
+
+Q query            93 PFEYSTVFDCGSL  105 (196)
+Q Consensus        93 pF~hsT~FDC~AL  105 (196)
+                      +|..+...||..+
+T Consensus        79 ~~~i~~~~~C~~~   91 (93)
+T 5LQV_A           79 PYKISTTTNCNTV   91 (93)
+T ss_dssp             CSCCCTTSCGGGC
+T ss_pred             CCCCCCCCCCCcc
+Confidence            3333455566544
+
+
+No 33
+>2ALG_B non-specific lipid transfer protein; Non-specific lipid transfer protein, LTP; HET: DAO, P6G; 2.3A {Prunus persica}
+Probab=28.13  E-value=56  Score=24.48  Aligned_cols=8  Identities=25%  Similarity=0.638  Sum_probs=4.1  Template_Neff=8.400
+
+Q query            97 STVFDCGS  104 (196)
+Q Consensus        97 sT~FDC~A  104 (196)
+                      +..+||..
+T Consensus        83 ~~~~dC~~   90 (92)
+T 2ALG_B           83 SASTNCAT   90 (92)
+T ss_dssp             CTTCCGGG
+T ss_pred             CCCCCCcc
+Confidence            35555544
+
+
+No 34
+>1SIY_A Nonspecific lipid-transfer protein 1; alpha helix, LIPID BINDING PROTEIN; NMR {Vigna radiata var. radiata}
+Probab=27.80  E-value=58  Score=24.22  Aligned_cols=8  Identities=50%  Similarity=0.742  Sum_probs=3.7  Template_Neff=8.600
+
+Q query            97 STVFDCGS  104 (196)
+Q Consensus        97 sT~FDC~A  104 (196)
+                      +...||.+
+T Consensus        82 ~~~~dC~~   89 (91)
+T 1SIY_A           82 STSTNCNS   89 (91)
+T ss_pred             CCCCCccc
+Confidence            34555543
+
+
+No 35
+>1XTA_A Natrin 1; natrin, CRISP, serine protease, ion; 1.58A {Naja atra}
+Probab=27.76  E-value=58  Score=27.12  Aligned_cols=139  Identities=15%  Similarity=0.203  Sum_probs=80.0  Template_Neff=9.800
+
+Q query            10 EDATTACLPTMNMLRVLNLRD--QALDALQPETGGASEDEEREEQGEHTKSKTTAEIAKELAGTKAETCEKGATADA-KT   86 (196)
+Q Consensus        10 ~dkT~~CL~iiN~LR~enLk~--lll~~l~~e~~~~~~~~~~~~~~~~~~~~Ta~~IA~~LAG~d~~tCe~g~~Ana-~~   86 (196)
+                      .+.-...+..||.+|...++-  .+.+|.+  |.+|.... +..+                     ..|........ ..
+T Consensus        12 ~~~~~~il~~hN~~R~~~~~~a~nM~~L~w--d~~Le~~A-~~~a---------------------~~c~~~~~~~~~~~   67 (221)
+T 1XTA_A           12 KKKQKEIVDLHNSLRRRVSPTASNMLKMEW--YPEAASNA-ERWA---------------------NTCSLNHSPDNLRV   67 (221)
+T ss_dssp             HHHHHHHHHHHHHHHHTCSSCBSSCBCCEE--CHHHHHHH-HHHH---------------------TTTCCSCCCGGGCE
+T ss_pred             HHHHHHHHHHHHHHHHhcCCChhhcccCEe--CHHHHHHH-HHHH---------------------hhCCCCCCChhhcc
+Confidence            344458899999999976432  3347888  88876555 3332                     22322211000 00
+
+
+Q query            87 --HTGLVIPFEYS-TVFDCGSLIQGHFAAGLSHMQESNFDPATGAYDTGKAPFDNLSASNVANIMWSKSTKASCAVTKNC  163 (196)
+Q Consensus        87 --YpGLVIpF~hs-T~FDC~ALIq~tytAGL~HLkqsNfdpstgtyd~~~APfdNv~AsNvAflls~Ks~KVSCAaT~dC  163 (196)
+                        +..+...+... ........|+.|+.. +..+   .|+.  .      ..-......++++|||..+++|||++.. |
+T Consensus        68 ~~~~~~g~n~~~~~~~~~~~~~i~~W~~e-~~~~---~~~~--~------~~~~~~~~~~f~~~i~~~~t~iGCa~~~-c  134 (221)
+T 1XTA_A           68 LEGIQCGESIYMSSNARTWTEIIHLWHDE-YKNF---VYGV--G------ASPPGSVTGHYTQIVWYQTYRAGCAVSY-C  134 (221)
+T ss_dssp             ETTEECEEEEEEESSCCCHHHHHHHHHGG-GGGE---ETTT--E------ESSTTCCCHHHHHHTCTTCCEEEEEEEE-C
+T ss_pred             ccCeeceeeeeeeCCCCCHHHHHHHHHHH-HHcC---cCCC--C------CCCCCCccchhHHhhcccccEEEeEEEE-C
+Confidence              00111111111 223455666666553 2221   2221  1      1112356789999999999999999999 9
+
+
+Q query           164 QAG--HNVLYCRLVEPITS-Q--DKPF  185 (196)
+Q Consensus       164 ~aG--hNVLfCyFiePL~~-g--dkPf  185 (196)
+                      ..+  ..+++|.|.|+... +  ..||
+T Consensus       135 ~~~~~~~~~vC~y~~~~~~~~~~~~~y  161 (221)
+T 1XTA_A          135 PSSAWSYFYVCQYCPSGNFQGKTATPY  161 (221)
+T ss_dssp             TTSSSSEEEEEEEESCCCCTTTTTCSS
+T ss_pred             CCCCceEEEEEeecCCccCCCCCCCCC
+Confidence            765  68999999999654 3  4554
+
+
+No 36
+>5V50_F PR-1 protein; pathogenesis-related protein 1, Cacao infection; 2.43A {Moniliophthora perniciosa}
+Probab=27.56  E-value=58  Score=25.79  Aligned_cols=117  Identities=15%  Similarity=0.105  Sum_probs=72.6  Template_Neff=10.100
+
+Q query            10 EDATTACLPTMNMLRVLNLRDQALDALQPETGGASEDEEREEQGEHTKSKTTAEIAKELAGTKAETCEKGATADAKTHTG   89 (196)
+Q Consensus        10 ~dkT~~CL~iiN~LR~enLk~lll~~l~~e~~~~~~~~~~~~~~~~~~~~Ta~~IA~~LAG~d~~tCe~g~~Ana~~YpG   89 (196)
+                      .+.....+..||.+|...   .+.+|.+  |.+|.... +..                     ...|......   .+ +
+T Consensus        13 ~~~~~~il~~~N~~R~~~---~m~~L~~--d~~L~~~A-~~~---------------------a~~c~~~~~~---~~-~   61 (175)
+T 5V50_F           13 DSFKNKWLELHNNERTTR---QLDSLEW--DGDLAWKA-QQV---------------------ATQCNVDNPQ---LW-G   61 (175)
+T ss_dssp             HHHHHHHHHHHHHHHHHT---TCCCCEE--CHHHHHHH-HHH---------------------HHTCCSSSCC---CC-S
+T ss_pred             HHHHHHHHHHHHHHHHhc---CCccCCC--CHHHHHHH-HHH---------------------HHcCCCCCCC---Cc-c
+Confidence            344567899999999964   4888999  88876544 222                     2345422111   11 1
+
+
+Q query            90 LVIPFEYSTVFDCGSLIQGHFAAGLSHMQESNFDPATGAYDTGKAPFDNLSASNVANIMWSKSTKASCAVTKNCQAG---  166 (196)
+Q Consensus        90 LVIpF~hsT~FDC~ALIq~tytAGL~HLkqsNfdpstgtyd~~~APfdNv~AsNvAflls~Ks~KVSCAaT~dC~aG---  166 (196)
+                      ..+.+...........|..|+...      ..|              +.....++++|||.++++|||+... |..+   
+T Consensus        62 ~~~~~~~~~~~~~~~~~~~w~~~~------~~~--------------~~~~~~~~~~li~~~~~~vGC~~~~-c~~~~~~  120 (175)
+T 5V50_F           62 DNGASFNIGRYTKEQAFAEWTATS------GSF--------------PDDRSIPWQRIVANSAQKVGCGEAT-CVLEGDM  120 (175)
+T ss_dssp             TTTTCEEEEESSHHHHHHHHHTTG------GGT--------------TSGGGHHHHHHHCSSCCEEEEEEEE-EECTTSC
+T ss_pred             cccccccCCCCCHHHHHHHHHHhh------cCC--------------CccccchHHHHHHHhhCEEEeeEee-cCCCCCc
+Confidence            111111112344455565655431      112              2223678999999999999999999 9754   
+
+
+Q query           167 -HNVLYCRLVEPI  178 (196)
+Q Consensus       167 -hNVLfCyFiePL  178 (196)
+                       ..+++|.|.|.+
+T Consensus       121 ~~~~~~C~y~p~~  133 (175)
+T 5V50_F          121 AYTVNVCYYDPPL  133 (175)
+T ss_dssp             EEEEEEEEEESCC
+T ss_pred             eeEEEEEEecCCC
+Confidence             688999999998
+
+
+No 37
+>2LPN_A Cerebral dopamine neurotrophic factor; Nerve growth factor, neurotrophic factor; NMR {Homo sapiens}
+Probab=25.63  E-value=67  Score=26.97  Aligned_cols=14  Identities=14%  Similarity=0.339  Sum_probs=9.8  Template_Neff=4.800
+
+Q query           166 GHNVLYCRLVEPIT  179 (196)
+Q Consensus       166 GhNVLfCyFiePL~  179 (196)
+                      |+--=||||.=+..
+T Consensus        50 gKe~r~CYyiGa~~   63 (105)
+T 2LPN_A           50 GKENRLCYYLGATK   63 (105)
+T ss_dssp             HHHHHHHHHHCCTT
+T ss_pred             Cchhhchhhccccc
+Confidence            55566888877765
+
+
+No 38
+>1MID_A Nonspecific lipid-transfer protein 1; lipid transfer, LIPID BINDING PROTEIN; HET: LAP; 1.71A {Hordeum vulgare} SCOP: a.52.1.1
+Probab=24.85  E-value=71  Score=23.92  Aligned_cols=8  Identities=38%  Similarity=0.700  Sum_probs=4.3  Template_Neff=8.400
+
+Q query            97 STVFDCGS  104 (196)
+Q Consensus        97 sT~FDC~A  104 (196)
+                      +..+||..
+T Consensus        82 ~~~~~C~~   89 (91)
+T 1MID_A           82 SPDIDCSR   89 (91)
+T ss_dssp             CTTCCGGG
+T ss_pred             CCCCCccc
+Confidence            45566654
+
+
+No 39
+>2N2Z_A Non-specific lipid-transfer protein; lipid transfer protein, plant defense; NMR {Anethum graveolens}
+Probab=22.69  E-value=83  Score=23.51  Aligned_cols=9  Identities=33%  Similarity=0.641  Sum_probs=4.6  Template_Neff=8.600
+
+Q query            97 STVFDCGSL  105 (196)
+Q Consensus        97 sT~FDC~AL  105 (196)
+                      +..+||..+
+T Consensus        84 ~~~~~C~~~   92 (93)
+T 2N2Z_A           84 SPSTDCNRV   92 (93)
+T ss_dssp             CTTCCTTTC
+T ss_pred             CCCCCcccC
+Confidence            355555543
+
+
+No 40
+>1GH1_A NONSPECIFIC LIPID TRANSFER PROTEIN; 4-HELIX WINDING, LIPID BINDING PROTEIN; NMR {Triticum aestivum} SCOP: a.52.1.1
+Probab=22.46  E-value=84  Score=23.40  Aligned_cols=6  Identities=33%  Similarity=0.783  Sum_probs=2.5  Template_Neff=8.500
+
+Q query            98 TVFDCG  103 (196)
+Q Consensus        98 T~FDC~  103 (196)
+                      ...||.
+T Consensus        83 ~~~~C~   88 (90)
+T 1GH1_A           83 LNIDCS   88 (90)
+T ss_dssp             SCCCCS
+T ss_pred             CCCCcC
+Confidence            344443
+
+
+No 41
+>1UVA_A NONSPECIFIC LIPID TRANSFER PROTEIN 1; LIPID TRANSPORT, LTP 1, PAP; HET: MYR; 2.5A {ORYZA SATIVA} SCOP: a.52.1.1
+Probab=21.76  E-value=89  Score=23.25  Aligned_cols=12  Identities=33%  Similarity=0.863  Sum_probs=5.8  Template_Neff=8.600
+
+Q query            93 PFEYSTVFDCGS  104 (196)
+Q Consensus        93 pF~hsT~FDC~A  104 (196)
+                      +|..+..+||..
+T Consensus        78 ~~~i~~~~dC~~   89 (91)
+T 1UVA_A           78 PYTISASIDCSR   89 (91)
+T ss_dssp             SSCSSSSSCGGG
+T ss_pred             CCCCCCCCCccc
+Confidence            333345566654
+
+
+No 42
+>3NT8_A Ancylostoma secreted protein 1; PATHOGENESIS RELATED-1 PROTEIN, CYSTEINE-RICH SECRETORY; 2.2A {Necator americanus}
+Probab=21.66  E-value=89  Score=27.83  Aligned_cols=42  Identities=19%  Similarity=0.235  Sum_probs=35.7  Template_Neff=10.900
+
+Q query           137 DNLSASNVANIMWSKSTKASCAVTKNCQAGHNVLYCRLVEPITS  180 (196)
+Q Consensus       137 dNv~AsNvAflls~Ks~KVSCAaT~dC~aGhNVLfCyFiePL~~  180 (196)
+                      .+....++++|+|..+++|||++.+ |. +...++|.|.|....
+T Consensus       142 ~~~~~~~f~~~~~~~~~~iGCa~~~-c~-~~~~~~C~y~~~~~~  183 (424)
+T 3NT8_A          142 TGGGLFAFSNMVYSETTKLGCAYKV-CG-TKLAVSCIYNGVGYI  183 (424)
+T ss_dssp             CCTTCHHHHHHHCTTCCEEEEEEEE-ET-TEEEEEEEESSCCCS
+T ss_pred             ecCchhHHHHHhhhhhceeeeEEEe-cC-CeEEEEEeecCCCCc
+Confidence            3457889999999999999999999 97 466899999987653
+
+
+No 43
+>1T12_A NONSPECIFIC LIPID-TRANSFER PROTEIN 1; cystein rich protein  lipid; NMR {Nicotiana tabacum}
+Probab=20.99  E-value=94  Score=23.20  Aligned_cols=8  Identities=38%  Similarity=0.659  Sum_probs=4.2  Template_Neff=8.500
+
+Q query            97 STVFDCGS  104 (196)
+Q Consensus        97 sT~FDC~A  104 (196)
+                      +...||..
+T Consensus        82 ~~~~dC~~   89 (91)
+T 1T12_A           82 SPSTDCSK   89 (91)
+T ss_dssp             SSSSCCTT
+T ss_pred             CCCCCccc
+Confidence            35556654
+
+
+No 44
+>1FK5_A NON-SPECIFIC LIPID-TRANSFER PROTEIN; protein-lipid complex, LIPID TRANSPORT; HET: OLA; 1.3A {Zea mays} SCOP: a.52.1.1
+Probab=20.91  E-value=95  Score=23.43  Aligned_cols=6  Identities=50%  Similarity=0.883  Sum_probs=2.7  Template_Neff=8.300
+
+Q query            98 TVFDCG  103 (196)
+Q Consensus        98 T~FDC~  103 (196)
+                      ...||.
+T Consensus        85 ~~~dC~   90 (93)
+T 1FK5_A           85 TSTDCS   90 (93)
+T ss_dssp             TTCCGG
+T ss_pred             CCCCcc
+Confidence            444444
+
+
+No 45
+>1MZM_A MAIZE NONSPECIFIC LIPID TRANSFER PROTEIN; ALPHA-HELICAL STRUCTURE, LIPID TRANSPORT; HET: PLM; 1.78A {Zea mays} SCOP: a.52.1.1
+Probab=20.91  E-value=95  Score=23.43  Aligned_cols=6  Identities=50%  Similarity=0.883  Sum_probs=2.7  Template_Neff=8.300
+
+Q query            98 TVFDCG  103 (196)
+Q Consensus        98 T~FDC~  103 (196)
+                      ...||.
+T Consensus        85 ~~~dC~   90 (93)
+T 1MZM_A           85 TSTDCS   90 (93)
+T ss_dssp             TTCCGG
+T ss_pred             CCCCcc
+Confidence            444444
+
+

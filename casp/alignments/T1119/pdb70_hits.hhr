@@ -1,0 +1,174 @@
+Query         query 
+Match_columns 153
+No_of_seqs    4 out of 11
+Neff          1.89386
+Searched_HMMs 90139
+Date          Fri May 27 05:24:31 2022
+Command       /mnt/home/dberenberg/gustaf_stuff/openfold/lib/conda/envs/openfold_venv/bin/hhsearch -i /tmp/tmp2couu62j/query.a3m -o /tmp/tmp2couu62j/output.hhr -maxseq 1000000 -cpu 28 -d /mnt/home/dberenberg/gustaf_stuff/OpenFold/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6M6Z_B TMH4C4; nanopore, de no  25.4      68 0.00075   28.5   0.0  114    3-123    35-161 (203)
+  2 2K9L_A RNA polymerase sigma fa  14.3 1.7E+02  0.0019   22.9   0.0   16  137-152     7-22  (76)
+  3 5CWF_A Designed helical repeat  13.7 1.8E+02   0.002   25.8   0.0   71   51-129    65-135 (191)
+  4 5CWF_C Designed helical repeat  13.7 1.8E+02   0.002   25.8   0.0   71   51-129    65-135 (191)
+  5 5UYO_A HEEH_rd4_0097; de novo   12.7   2E+02  0.0023   21.9   0.0   18    1-18     18-35  (64)
+  6 2K9L_A RNA polymerase sigma fa  11.9 2.2E+02  0.0025   22.3   0.0   19   88-106     7-25  (76)
+  7 2K9L_A RNA polymerase sigma fa  11.5 2.4E+02  0.0026   22.2   0.0   19   39-57      7-25  (76)
+  8 2PZI_A Probable serine/threoni   8.5 3.6E+02   0.004   25.5   0.0   64   41-126   504-576 (681)
+  9 5CWF_A Designed helical repeat   5.9 5.7E+02  0.0063   23.0   0.0   64   15-82     74-137 (191)
+ 10 5CWF_C Designed helical repeat   5.9 5.7E+02  0.0063   23.0   0.0   64   15-82     74-137 (191)
+
+No 1
+>6M6Z_B TMH4C4; nanopore, de novo design, MEMBRANE; 5.9A {Escherichia coli}
+Probab=25.41  E-value=68  Score=28.54  Aligned_cols=114  Identities=40%  Similarity=0.344  Sum_probs=64.3  Template_Neff=1.000
+
+Q query             3 SMGSDEQRRELEEKIKWKLAELASKSEEERKEI-----------KLRVIAYVLVQLEDLQKNLSDEQRRELEEKIKWKLA   71 (153)
+Q Consensus         3 ~~~~~~~~~~~~ek~~~~~~~~~~k~~Eer~~~-----------kl~vvay~l~~le~LQKnlsd~qrrE~~~~~~w~~~   71 (153)
+                      |..|+|-.||++||-...-+++++-....-..|           .-.|||.++-+    |.+++.+-+..+. ||  -+-
+T Consensus        35 swrseelireleekgaaseaelarmkqqhmtaylqaaltaweiisksviallllq----qnqlnlelntdtd-kn--vae  107 (203)
+T 6M6Z_B           35 SWRSEELIRELEEKGAASEAELARMKQQHMTAYLQAALTAWEIISKSVIALLLLQ----QNQLNLELNTDTD-KN--VAE  107 (203)
+T ss_dssp             HHHHHHHHHHHHHHTCSCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH----HHHHHHHHTTSCC-HH--HHH
+T ss_pred             HhccHHHHHHHHHccCCCHHHHHHHHHHHHHHHHHHHHHHHHHHhHHHHHHHHHH----hhccccccCCcCC-hH--HHH
+Confidence            456888999999998776667766433222111           12244444432    4456666666552 23  333
+
+
+Q query            72 ELASKSEEERKEIKL--RVIAYVLVQLEDLQKNLSDEQRRELEEKIKWKLAELA  123 (153)
+Q Consensus        72 ~~~~k~~Eer~~~kl--~vvay~l~~le~LQKnlsd~qrrE~~~~~~w~~~~~~  123 (153)
+                      ++.+.+.|--+..-|  -|||++.--+-.|-.--|.+--||.++|-.-.-++++
+T Consensus       108 ellrrsreylkkvaliqlviafvflillillswrseelireleekgaaseaela  161 (203)
+T 6M6Z_B          108 ELLRRSREYLKKVALIQLVIAFVFLILLILLSWRSEELIRELEEKGAASEAELA  161 (203)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTCSCHHHHH
+T ss_pred             HHHHHhHHHHHHHHHHHHHHHHHHHHHHHHHHhccHHHHHHHHHccCCCHHHHH
+Confidence            555555554333222  3667777666677666777777777765433333333
+
+
+No 2
+>2K9L_A RNA polymerase sigma factor RpoN; protein, TRANSCRIPTION; NMR {Aquifex aeolicus}
+Probab=14.26  E-value=1.7e+02  Score=22.91  Aligned_cols=16  Identities=44%  Similarity=0.711  Sum_probs=14.0  Template_Neff=1.000
+
+Q query           137 VIAYVLVQLEDLQKNL  152 (153)
+Q Consensus       137 vvay~l~~le~LQknl  152 (153)
+                      -|-|+++.++.||+|+
+T Consensus         7 qipytpseleelqqni   22 (76)
+T 2K9L_A            7 QIPYTPSELEELQQNI   22 (76)
+Confidence            4679999999999986
+
+
+No 3
+>5CWF_A Designed helical repeat protein; helical repeat protein, DE NOVO; HET: CA; 1.8A {synthetic construct}
+Probab=13.69  E-value=1.8e+02  Score=25.84  Aligned_cols=71  Identities=27%  Similarity=0.260  Sum_probs=38.7  Template_Neff=1.000
+
+Q query            51 QKNLSDEQRRELEEKIKWKLAELASKSEEERKEIKLRVIAYVLVQLEDLQKNLSDEQRRELEEKIKWKLAELASKSEEE  129 (153)
+Q Consensus        51 QKnlsd~qrrE~~~~~~w~~~~~~~k~~Eer~~~kl~vvay~l~~le~LQKnlsd~qrrE~~~~~~w~~~~~~~k~~Ee  129 (153)
+                      -||+.|++-||.    .+-+++|...+.|.+..-.-.|...+--..----||+.|++-||..    +-+++|...+.|.
+T Consensus        65 aknnddevarei----araaaeivealrennsdemakvmlalakavllaaknnddevareia----raaaeivealren  135 (191)
+T 5CWF_A           65 AKNNDDEVAREI----ARAAAEIVEALRENNSDEMAKVMLALAKAVLLAAKNNDDEVAREIA----RAAAEIVEALREN  135 (191)
+T ss_dssp             HHHSCHHHHHHH----HHHHHHHHHHHHHCCCHHHHHHHHHHHHHHHHHHHTTCHHHHHHHH----HHHHHHHHHHHHC
+T ss_pred             HhcCcHHHHHHH----HHHHHHHHHHHHHCCcHHHHHHHHHHHHHHHHHHhcCcHHHHHHHH----HHHHHHHHHHHHC
+Confidence            478888888875    5667777776666555433222211111111224677777776643    4555555444443
+
+
+No 4
+>5CWF_C Designed helical repeat protein; helical repeat protein, DE NOVO; HET: CA; 1.8A {synthetic construct}
+Probab=13.69  E-value=1.8e+02  Score=25.84  Aligned_cols=71  Identities=27%  Similarity=0.260  Sum_probs=38.7  Template_Neff=1.000
+
+Q query            51 QKNLSDEQRRELEEKIKWKLAELASKSEEERKEIKLRVIAYVLVQLEDLQKNLSDEQRRELEEKIKWKLAELASKSEEE  129 (153)
+Q Consensus        51 QKnlsd~qrrE~~~~~~w~~~~~~~k~~Eer~~~kl~vvay~l~~le~LQKnlsd~qrrE~~~~~~w~~~~~~~k~~Ee  129 (153)
+                      -||+.|++-||.    .+-+++|...+.|.+..-.-.|...+--..----||+.|++-||..    +-+++|...+.|.
+T Consensus        65 aknnddevarei----araaaeivealrennsdemakvmlalakavllaaknnddevareia----raaaeivealren  135 (191)
+T 5CWF_C           65 AKNNDDEVAREI----ARAAAEIVEALRENNSDEMAKVMLALAKAVLLAAKNNDDEVAREIA----RAAAEIVEALREN  135 (191)
+T ss_dssp             HTCSBHHHHHHH----HHHHHHHHHHHHHCCCHHHHHHHHHHHHHHHHHHHCSCHHHHHHHH----HHHHHHHHHHHHC
+T ss_pred             HhcCcHHHHHHH----HHHHHHHHHHHHHCCcHHHHHHHHHHHHHHHHHHhcCcHHHHHHHH----HHHHHHHHHHHHC
+Confidence            478888888875    5667777776666555433222211111111224677777776643    4555555444443
+
+
+No 5
+>5UYO_A HEEH_rd4_0097; de novo design, helix-strand-strand-helix, mini; NMR {Escherichia}
+Probab=12.68  E-value=2e+02  Score=21.93  Aligned_cols=18  Identities=56%  Similarity=0.726  Sum_probs=12.8  Template_Neff=1.000
+
+Q query             1 GSSMGSDEQRRELEEKIK   18 (153)
+Q Consensus         1 ~~~~~~~~~~~~~~ek~~   18 (153)
+                      ||.|.-.||.|.|+|-.+
+T Consensus        18 gshmdveeqirrleevlk   35 (64)
+T 5UYO_A           18 GSHMDVEEQIRRLEEVLK   35 (64)
+T ss_dssp             --CCCSHHHHHHHHHHHH
+T ss_pred             CCcCcHHHHHHHHHHHHH
+Confidence            678888999998887543
+
+
+No 6
+>2K9L_A RNA polymerase sigma factor RpoN; protein, TRANSCRIPTION; NMR {Aquifex aeolicus}
+Probab=11.90  E-value=2.2e+02  Score=22.32  Aligned_cols=19  Identities=42%  Similarity=0.594  Sum_probs=16.1  Template_Neff=1.000
+
+Q query            88 VIAYVLVQLEDLQKNLSDE  106 (153)
+Q Consensus        88 vvay~l~~le~LQKnlsd~  106 (153)
+                      -|-|+++.++.||+|...+
+T Consensus         7 qipytpseleelqqnikle   25 (76)
+T 2K9L_A            7 QIPYTPSELEELQQNIKLE   25 (76)
+Confidence            3679999999999998754
+
+
+No 7
+>2K9L_A RNA polymerase sigma factor RpoN; protein, TRANSCRIPTION; NMR {Aquifex aeolicus}
+Probab=11.50  E-value=2.4e+02  Score=22.21  Aligned_cols=19  Identities=42%  Similarity=0.594  Sum_probs=15.9  Template_Neff=1.000
+
+Q query            39 VIAYVLVQLEDLQKNLSDE   57 (153)
+Q Consensus        39 vvay~l~~le~LQKnlsd~   57 (153)
+                      -|-|+++.++.||+|...+
+T Consensus         7 qipytpseleelqqnikle   25 (76)
+T 2K9L_A            7 QIPYTPSELEELQQNIKLE   25 (76)
+Confidence            3679999999999998653
+
+
+No 8
+>2PZI_A Probable serine/threonine-protein kinase pknG (E.C.2.7.11.1); Serine/Threonine-Protein Kinase, ATP-recognition, Kinase-inhibitor complex; HET: AXX, GOL; 2.4A {Mycobacterium tuberculosis}
+Probab=8.48  E-value=3.6e+02  Score=25.51  Aligned_cols=64  Identities=14%  Similarity=0.013  Sum_probs=36.4  Template_Neff=9.300
+
+Q query            41 AYVLVQLEDLQKNLSDEQRRELEEKIKWKLAELASKSEEERKEIKLRVIAYVLVQLEDLQKNLSDEQRRELEEKIKWK--  118 (153)
+Q Consensus        41 ay~l~~le~LQKnlsd~qrrE~~~~~~w~~~~~~~k~~Eer~~~kl~vvay~l~~le~LQKnlsd~qrrE~~~~~~w~--  118 (153)
+                      |++|..+..+....++.       +.+.++++|.++..            .++..+..+.....+...++..   +.+  
+T Consensus       504 a~~l~~lg~v~~~~~~~-------~~~~~al~i~~~~g------------~~l~~lg~~~~~~g~~~~A~~~---~~~~~  561 (681)
+T 2PZI_A          504 KLALAATAELAGNTDEH-------KFYQTVWSTNDGVI------------SAAFGLARARSAEGDRVGAVRT---LDEVP  561 (681)
+T ss_dssp             HHHHHHHHHHHTCCCTT-------CHHHHHHHHCTTCH------------HHHHHHHHHHHHTTCHHHHHHH---HHTSC
+T ss_pred             HHHHHHHHHHHcCcchh-------HHHHHHHHHHhHHH------------HHHHHHHHHHhhcCCchhHHhc---cccCC
+Confidence            34444444444444444       24555555555544            6677777777777777666655   555  
+
+
+Q query           119 -------LAELASKS  126 (153)
+Q Consensus       119 -------~~~~~~k~  126 (153)
+                             +++|..+.
+T Consensus       562 ~~~~~~~a~~i~~~~  576 (681)
+T 2PZI_A          562 PTSRHFTTARLTSAV  576 (681)
+T ss_dssp             TTSTTHHHHHHHHHH
+T ss_pred             CCCccccHHHHHHHH
+Confidence                   55655554
+
+
+No 9
+>5CWF_A Designed helical repeat protein; helical repeat protein, DE NOVO; HET: CA; 1.8A {synthetic construct}
+Probab=5.94  E-value=5.7e+02  Score=22.98  Aligned_cols=64  Identities=22%  Similarity=0.205  Sum_probs=32.4  Template_Neff=1.000
+
+Q query            15 EKIKWKLAELASKSEEERKEIKLRVIAYVLVQLEDLQKNLSDEQRRELEEKIKWKLAELASKSEEERK   82 (153)
+Q Consensus        15 ek~~~~~~~~~~k~~Eer~~~kl~vvay~l~~le~LQKnlsd~qrrE~~~~~~w~~~~~~~k~~Eer~   82 (153)
+                      ..|.+.+++|...+.|.+..-.-.|..-+--..----||+.|++-||.    .+-+++|...+.|.+.
+T Consensus        74 reiaraaaeivealrennsdemakvmlalakavllaaknnddevarei----araaaeivealrenns  137 (191)
+T 5CWF_A           74 REIARAAAEIVEALRENNSDEMAKVMLALAKAVLLAAKNNDDEVAREI----ARAAAEIVEALRENNS  137 (191)
+T ss_dssp             HHHHHHHHHHHHHHHHCCCHHHHHHHHHHHHHHHHHHHTTCHHHHHHH----HHHHHHHHHHHHHCCC
+T ss_pred             HHHHHHHHHHHHHHHHCCcHHHHHHHHHHHHHHHHHHhcCcHHHHHHH----HHHHHHHHHHHHHCCc
+Confidence            334556666666665555443222221111111122477778887775    4566666655555443
+
+
+No 10
+>5CWF_C Designed helical repeat protein; helical repeat protein, DE NOVO; HET: CA; 1.8A {synthetic construct}
+Probab=5.94  E-value=5.7e+02  Score=22.98  Aligned_cols=64  Identities=22%  Similarity=0.205  Sum_probs=32.4  Template_Neff=1.000
+
+Q query            15 EKIKWKLAELASKSEEERKEIKLRVIAYVLVQLEDLQKNLSDEQRRELEEKIKWKLAELASKSEEERK   82 (153)
+Q Consensus        15 ek~~~~~~~~~~k~~Eer~~~kl~vvay~l~~le~LQKnlsd~qrrE~~~~~~w~~~~~~~k~~Eer~   82 (153)
+                      ..|.+.+++|...+.|.+..-.-.|..-+--..----||+.|++-||.    .+-+++|...+.|.+.
+T Consensus        74 reiaraaaeivealrennsdemakvmlalakavllaaknnddevarei----araaaeivealrenns  137 (191)
+T 5CWF_C           74 REIARAAAEIVEALRENNSDEMAKVMLALAKAVLLAAKNNDDEVAREI----ARAAAEIVEALRENNS  137 (191)
+T ss_dssp             HHHHHHHHHHHHHHHHCCCHHHHHHHHHHHHHHHHHHHCSCHHHHHHH----HHHHHHHHHHHHHCCC
+T ss_pred             HHHHHHHHHHHHHHHHCCcHHHHHHHHHHHHHHHHHHhcCcHHHHHHH----HHHHHHHHHHHHHCCc
+Confidence            334556666666665555443222221111111122477778887775    4566666655555443
+
+

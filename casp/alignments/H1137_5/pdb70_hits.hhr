@@ -1,0 +1,1254 @@
+Query         query 
+Match_columns 390
+No_of_seqs    264 out of 10000
+Neff          6.92699
+Searched_HMMs 90139
+Date          Mon Jun 27 18:32:02 2022
+Command       /mnt/home/dberenberg/gustaf_stuff/openfold/lib/conda/envs/openfold_venv/bin/hhsearch -i /tmp/tmpsu8a9h9l/query.a3m -o /tmp/tmpsu8a9h9l/output.hhr -maxseq 1000000 -cpu 64 -d /mnt/home/dberenberg/gustaf_stuff/OpenFold/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6ZY2_A YrbD protein, ABC trans  99.6 1.1E-19 1.2E-24  167.5   0.0  137   51-193    36-178 (183)
+  2 5UW2_A Probable phospholipid A  99.5   2E-18 2.2E-23  156.7   0.0  140   49-194    16-161 (165)
+  3 7AI2_C susbtrate binding prote  99.5 8.4E-18 9.3E-23  148.3   0.0  109   50-160    26-137 (138)
+  4 7AI3_D substrate binding prote  99.5 8.4E-18 9.3E-23  148.3   0.0  109   50-160    26-137 (138)
+  5 7CGE_I Lipid asymmetry mainten  99.5 1.6E-17 1.8E-22  153.3   0.0  120   52-173    37-162 (183)
+  6 7CH8_A Mla complex, Lipid tran  99.5 1.7E-17 1.8E-22  149.3   0.0  108   52-163    37-147 (157)
+  7 7D06_I Lipid asymmetry mainten  99.4 4.9E-17 5.4E-22  152.6   0.0  124   52-179    37-210 (226)
+  8 7D08_G Lipid asymmetry mainten  99.4 2.5E-16 2.8E-21  147.6   0.0  109   52-164    37-195 (222)
+  9 5UW8_B Probable phospholipid A  99.3 5.6E-16 6.2E-21  133.9   0.0   99   49-147    16-120 (122)
+ 10 5UW8_G Probable phospholipid A  99.3 5.6E-16 6.2E-21  133.9   0.0   99   49-147    16-120 (122)
+ 11 6IC4_A Toluene tolerance efflu  99.3 2.1E-15 2.3E-20  138.6   0.0  104   52-159    29-182 (183)
+ 12 5UVN_F Paraquat-inducible prot  99.2 6.7E-15 7.4E-20  154.1   0.0  143   53-200   259-435 (453)
+ 13 6VCI_C Lipophilic envelope-spa  98.3 1.8E-09   2E-14  104.2   0.0   86   54-142     3-94  (235)
+ 14 6V0C_D Intermembrane transport  98.0 1.8E-08   2E-13  113.8   0.0   77   55-131     2-94  (832)
+ 15 6V0F_A Intermembrane transport  98.0 1.8E-08   2E-13  113.8   0.0   77   55-131     2-94  (832)
+ 16 6VCI_C Lipophilic envelope-spa  97.9 2.9E-08 3.2E-13   95.9   0.0   79   52-130   121-213 (235)
+ 17 6VCI_A Lipophilic envelope-spa  97.9 3.3E-08 3.7E-13   95.6   0.0   79   52-130   121-213 (235)
+ 18 6KZ3_A Intermembrane transport  97.8 6.2E-08 6.8E-13  102.7   0.0   77   55-131     2-94  (464)
+ 19 6KZ4_A Intermembrane transport  97.7 1.4E-07 1.5E-12   97.2   0.0   77   53-130   122-214 (366)
+ 20 6KZ4_A Intermembrane transport  97.7 1.6E-07 1.8E-12   96.6   0.0   85   54-145     3-94  (366)
+ 21 6KZ4_A Intermembrane transport  97.5 5.7E-07 6.4E-12   92.6   0.0   90   51-143   233-329 (366)
+ 22 5UVN_F Paraquat-inducible prot  97.5 6.2E-07 6.9E-12   95.0   0.0   79   52-130    15-109 (453)
+ 23 6VCI_A Lipophilic envelope-spa  97.4 8.7E-07 9.7E-12   85.9   0.0   76   54-129     3-84  (235)
+ 24 6V0C_D Intermembrane transport  96.9 1.7E-05 1.9E-10   90.4   0.0   78   53-131   588-681 (832)
+ 25 6V0F_A Intermembrane transport  96.9 1.7E-05 1.9E-10   90.4   0.0   78   53-131   588-681 (832)
+ 26 6KZ3_A Intermembrane transport  96.8 2.7E-05   3E-10   83.1   0.0   79   52-130   233-325 (464)
+ 27 6V0C_D Intermembrane transport  95.8 0.00072   8E-09   77.6   0.0   78   53-130   234-325 (832)
+ 28 6V0F_A Intermembrane transport  95.8 0.00072   8E-09   77.6   0.0   78   53-130   234-325 (832)
+ 29 5UVN_F Paraquat-inducible prot  95.6  0.0011 1.2E-08   71.0   0.0   63   53-115   131-197 (453)
+ 30 6KZ3_A Intermembrane transport  95.4  0.0016 1.7E-08   70.0   0.0   63   53-115   346-410 (464)
+ 31 6KZ3_A Intermembrane transport  94.7  0.0052 5.8E-08   66.1   0.0   64   52-115   113-180 (464)
+ 32 6V0C_D Intermembrane transport  94.7  0.0053 5.8E-08   70.8   0.0   63   52-114   113-179 (832)
+ 33 6V0F_A Intermembrane transport  94.7  0.0053 5.8E-08   70.8   0.0   63   52-114   113-179 (832)
+ 34 6ADQ_K Transmembrane cytochrom  88.5    0.25 2.8E-06   47.0   0.0   43  100-146   101-152 (186)
+ 35 5IJN_Z NUCLEAR PORE COMPLEX PR  76.5       2 2.2E-05   47.7   0.0   51  172-222   332-382 (522)
+ 36 6GAO_B Outer capsid protein si  60.4     7.6 8.4E-05   38.8   0.0   10  319-328   171-180 (240)
+ 37 3U0C_A Invasin ipaB; transloca  53.2      12 0.00013   36.6   0.0   87  151-237    51-137 (201)
+ 38 4UY3_A SEPTATION RING FORMATIO  52.4      13 0.00014   35.7   0.0  105  151-255    59-163 (198)
+ 39 5WKQ_A Invasin IpaD, single-do  44.2      21 0.00023   34.2   0.0   87  152-238     9-95  (174)
+ 40 3TUL_A Cell invasion protein s  42.9      23 0.00025   33.5   0.0   88  152-239     4-91  (158)
+ 41 3TUL_B Cell invasion protein s  38.0      30 0.00034   32.7   0.0   85  153-237     5-89  (158)
+ 42 7EFT_B scaffold protein, dimer  33.5      40 0.00044   36.3   0.0   49   56-106   134-182 (367)
+ 43 7NRC_A 40S ribosomal protein S  32.0      44 0.00049   37.3   0.0   15  240-254   316-330 (1209)
+ 44 6ZM0_AAA Cell shape-determinin  29.9      50 0.00056   31.0   0.0   52   55-108    23-74  (164)
+ 45 6P16_A PmoF1; copper binding p  29.8      50 0.00056   29.0   0.0   79   54-146    24-102 (121)
+ 46 6TIK_B Core and E antigen,Puta  27.4      59 0.00065   37.3   0.0   11  190-200   179-189 (589)
+ 47 5LP5_E Penicillin-binding prot  27.1      60 0.00067   32.6   0.0   40   64-106   119-158 (248)
+ 48 6ZLV_C bacterial cell wall elo  25.6      67 0.00074   30.5   0.0   49   56-106    40-88  (176)
+ 49 4UT1_A FLAGELLAR HOOK-ASSOCIAT  25.3      68 0.00076   37.4   0.0   12   76-87     63-74  (673)
+ 50 6U5B_l Tri1a PA0618, Sheath PA  25.2      69 0.00076   33.5   0.0   54  219-272    60-113 (290)
+ 51 5IJN_Z NUCLEAR PORE COMPLEX PR  24.5      72  0.0008   36.1   0.0    9  212-220   451-459 (522)
+ 52 2QF4_B Cell shape determining   24.3      74 0.00082   30.2   0.0   46   56-103    24-69  (172)
+ 53 6ZM0_AAA Cell shape-determinin  23.6      77 0.00086   29.8   0.0   32   60-91     97-136 (164)
+ 54 5XBJ_A Flagellar hook-associat  23.1      80 0.00089   35.4   0.0   52  210-261    94-145 (511)
+ 55 6IXH_B Type VI Secretion Syste  22.3      85 0.00095   30.1   0.0   55   22-76     13-73  (178)
+ 56 6GAP_A Outer capsid protein si  22.0      87 0.00096   32.0   0.0    9  322-330   220-228 (261)
+ 57 6E5F_A Lipid binding protein L  21.1      94   0.001   30.7   0.0   18   20-37      7-24  (228)
+ 58 6P1F_A Copper chaperone PCu(A)  20.3      99  0.0011   27.8   0.0   67   70-146    36-102 (131)
+ 59 1YKE_D RNA polymerase II media  20.1   1E+02  0.0011   28.9   0.0   19  204-222    65-83  (151)
+
+No 1
+>6ZY2_A YrbD protein, ABC transporter maintaining; phospholipid, phospholipid transport, ABC transporter; 3.6A {Escherichia coli B185}
+Probab=99.63  E-value=1.1e-19  Score=167.46  Aligned_cols=137  Identities=24%  Similarity=0.303  Sum_probs=99.3  Template_Neff=8.100
+
+Q query            51 ESGSMTLYVQMPETLALNANSRVRVRDVFVGRVRKIELINW--VPTLTVDVEPGI-KLPKNTLAKIGQTSLLGSQHVELN  127 (390)
+Q Consensus        51 ~~~~ytv~a~f~da~gL~~ga~V~~~GV~VG~V~~I~l~~~--~a~Vtl~id~~v-~lPa~t~A~v~~~slLGe~yV~L~  127 (390)
+                      +...++|+++|+++.||.+|++|+|+|++||+|++|++.++  .+.|++.|++++ +||++++|+|.+.+++|++||+|.
+T Consensus        36 ~~~~~~i~v~~~~~~GL~~gs~V~~~Gv~VG~V~~I~~~~~~~~~~v~l~i~~~~~~l~~~s~~~i~~~~llG~~~i~l~  115 (183)
+T 6ZY2_A           36 TEPTYTLYATFDNIGGLKARSPVSIGGVVVGRVADITLDPKTYLPRVTLEIEQRYNHIPDTSSLSIRTSGLLGEQYLALN  115 (183)
+T ss_dssp             CCCCEEEEEECSCCSSCCTTCCEESSSSEEECCCCEEECTTTCCEEEEEEECSSCCCCCTTCEEEEEESTTTSCEEEEEE
+T ss_pred             CCCcEEEEEEeCCCCCCCCCCcEEECCEEEEEEEEEEeCCCCCeeEEEEEEeCCCccCCCCCEEEEEeCCCcCceEEEEe
+Confidence            56789999999999999999999999999999999999874  688999999998 999999999999999999999999
+
+
+Q query           128 PPEDP---SSELLRDGDTIPLAQSSAYPTIERTLAGISGILTGGGIPNIEVIQTEVFNILNGRADQIRE  193 (390)
+Q Consensus       128 pp~~~---~~~~L~dG~~Ip~~~T~~~~~ve~~L~~l~~ll~~~~~~~l~~i~~el~~al~G~~~~l~~  193 (390)
+                      |+.++   ++++|++|++|+..  ..+.++++++..+...    ...+++.++++++++++|+++.++.
+T Consensus       116 ~g~~~~~~~~~~l~~g~~i~~~--~~~~~l~~l~~~~~~~----~~~~~~~~~~~~~~~~~~~~~~~~~  178 (183)
+T 6ZY2_A          116 VGFEDPELGTAILKDGDTIQDT--KSAMVLEDLIGQFLYG----SKGDDNKNSGDAPAAAPGNNETTEP  178 (183)
+T ss_dssp             CCCCCC---CCCCCTTCCCSCE--ECCCCHHHHHHHHHC------------------------------
+T ss_pred             cCCCCccccccccCCCCEEecC--CCCccHHHHHHHHhhc----CCCCCcccccchhHhcCCCCCcccc
+Confidence            98643   24689999999985  4578999999887663    3778899999999999999887754
+
+
+No 2
+>5UW2_A Probable phospholipid ABC transporter-binding protein; MCE protein, bacterial lipid transport; 2.85A {Escherichia coli O157:H7}
+Probab=99.55  E-value=2e-18  Score=156.69  Aligned_cols=140  Identities=24%  Similarity=0.312  Sum_probs=122.7  Template_Neff=7.600
+
+Q query            49 GTESGSMTLYVQMPETLALNANSRVRVRDVFVGRVRKIELINW--VPTLTVDVEPGI-KLPKNTLAKIGQTSLLGSQHVE  125 (390)
+Q Consensus        49 g~~~~~ytv~a~f~da~gL~~ga~V~~~GV~VG~V~~I~l~~~--~a~Vtl~id~~v-~lPa~t~A~v~~~slLGe~yV~  125 (390)
+                      +.+...++|+++|+++.||.+|++|+|+|++||+|++|++.++  .++|++.|++++ +||+|++|+|.+.+++|++||+
+T Consensus        16 ~~~~~~~~~~v~f~~~~GL~~gs~V~~~Gv~VG~V~~I~l~~~~~~v~v~~~I~~~~~~l~~ds~~~i~~~~llG~~~I~   95 (165)
+T 5UW2_A           16 IRTEPTYTLYATFDNIGGLKARSPVSIGGVVVGRVADITLDPKTYLPRVTLEIEQRYNHIPDTSSLSIRTSGLLGEQYLA   95 (165)
+T ss_pred             cccCCcEEEEEEECCCCCCCCCCcEEECCEEEEEEEEEEEcCCCCeEEEEEEEcCCCccCCCCCEEEEEeCCCCCccEEE
+Confidence            4677789999999999999999999999999999999999875  688999999999 9999999999999999999999
+
+
+Q query           126 LNPPEDPS---SELLRDGDTIPLAQSSAYPTIERTLAGISGILTGGGIPNIEVIQTEVFNILNGRADQIREF  194 (390)
+Q Consensus       126 L~pp~~~~---~~~L~dG~~Ip~~~T~~~~~ve~~L~~l~~ll~~~~~~~l~~i~~el~~al~G~~~~l~~l  194 (390)
+                      |.|+..+.   +++|++|++|+..  ..+.++++++.++..    ....+++.++++++++|++++.+++..
+T Consensus        96 l~~g~~~~~~~~~~l~~g~~I~~~--~~~~~l~~l~~~~~~----~~~~~l~~~~~~l~~~l~~~~~~~~~~  161 (165)
+T 5UW2_A           96 LNVGFEDPELGTAILKDGDTIQDT--KSAMVLEDLIGQFLY----GSKGDDNKNSGDAPAAAPGNNETTEPV  161 (165)
+T ss_pred             EecCCCCCCCCCCCCCCCCeecCC--CCCCCHHHHHHhHhh----cCcHHHHHHHHHHHHHhcCCccccCCc
+Confidence            99986531   4789999999985  456889999887654    247788999999999999998887753
+
+
+No 3
+>7AI2_C susbtrate binding protein, MCE, Mce4A; HET: MSE; 3.61A {Mycobacterium tuberculosis H37Rv}
+Probab=99.50  E-value=8.4e-18  Score=148.30  Aligned_cols=109  Identities=22%  Similarity=0.389  Sum_probs=96.6  Template_Neff=7.700
+
+Q query            50 TESGSMTLYVQMPETL-ALNANSRVRVRDVFVGRVRKIELINWVPTLTVDVEPGI--KLPKNTLAKIGQTSLLGSQHVEL  126 (390)
+Q Consensus        50 ~~~~~ytv~a~f~da~-gL~~ga~V~~~GV~VG~V~~I~l~~~~a~Vtl~id~~v--~lPa~t~A~v~~~slLGe~yV~L  126 (390)
+                      .+...++|+++|+++. ||.+|++|+++|++||+|++|++.++.++|++.|++++  .||+|++|+|.+.+++|++||+|
+T Consensus        26 ~~~~~~~~~v~f~~~~~gL~~Gs~V~~~Gv~VG~V~~I~l~~~~~~v~l~I~~~~~~~i~~~s~~~i~~~~llG~~~I~l  105 (138)
+T 7AI2_C           26 AMASTDTVTVSSPRAGLVMEKGAKVKYRGIQVGKVTDISYSGNQARLKLAIDSGEMGFIPSNATVRIAGNTIFGAKSVEF  105 (138)
+T ss_dssp             CCCCEEEEEEECSSSCEEEEEEEEEEETTEEEEEEEEEEEETTEEEEEEEEETTTGGGSBTTCEEEECCEEEEEEEEEEE
+T ss_pred             CCCCCEEEEEEcCCcccCcCCCCeEEECCEEEEEEEEEEEeCCEEEEEEEEecccccccCCCCEEEEEcCCCCCceeEEE
+Confidence            4556789999999998 79999999999999999999999988899999999999  99999999999999999999999
+
+
+Q query           127 NPPEDPSSELLRDGDTIPLAQSSAYPTIERTLAG  160 (390)
+Q Consensus       127 ~pp~~~~~~~L~dG~~Ip~~~T~~~~~ve~~L~~  160 (390)
+                      .|+..+++++|++|++|+..+  .+.++|++++.
+T Consensus       106 ~~g~~~~~~~l~~g~~i~~~~--~~~~l~~vl~~  137 (138)
+T 7AI2_C          106 IPPKTPSPKPLSPNAHVAASQ--VQLELEHHHHH  137 (138)
+T ss_dssp             ECCSSCCSSBCCTTCEECGGG--EEECCCCC---
+T ss_pred             eCCCCCCCCCCCCCCEEeccc--ccccHHHhhcc
+Confidence            998654468899999999874  57899988764
+
+
+No 4
+>7AI3_D substrate binding protein, MCE, Mce4A; 2.9A {Mycobacterium tuberculosis H37Rv}
+Probab=99.50  E-value=8.4e-18  Score=148.30  Aligned_cols=109  Identities=22%  Similarity=0.389  Sum_probs=95.6  Template_Neff=7.700
+
+Q query            50 TESGSMTLYVQMPETL-ALNANSRVRVRDVFVGRVRKIELINWVPTLTVDVEPGI--KLPKNTLAKIGQTSLLGSQHVEL  126 (390)
+Q Consensus        50 ~~~~~ytv~a~f~da~-gL~~ga~V~~~GV~VG~V~~I~l~~~~a~Vtl~id~~v--~lPa~t~A~v~~~slLGe~yV~L  126 (390)
+                      .+...++|+++|+++. ||.+|++|+++|++||+|++|++.++.++|++.|++++  .||+|++|+|.+.+++|++||+|
+T Consensus        26 ~~~~~~~~~v~f~~~~~gL~~Gs~V~~~Gv~VG~V~~I~l~~~~~~v~l~I~~~~~~~i~~~s~~~i~~~~llG~~~I~l  105 (138)
+T 7AI3_D           26 AMASTDTVTVSSPRAGLVMEKGAKVKYRGIQVGKVTDISYSGNQARLKLAIDSGEMGFIPSNATVRIAGNTIFGAKSVEF  105 (138)
+T ss_dssp             --CCEEEEEEECSSTTEEECTTCEEEETTEEEEEEEEEEECSSCEEEEEEEEHHHHTTSBTTCEEEEEEEEEEEEEEEEE
+T ss_pred             CCCCCEEEEEEcCCcccCcCCCCeEEECCEEEEEEEEEEEeCCEEEEEEEEecccccccCCCCEEEEEcCCCCCceeEEE
+Confidence            4556789999999998 79999999999999999999999988899999999999  99999999999999999999999
+
+
+Q query           127 NPPEDPSSELLRDGDTIPLAQSSAYPTIERTLAG  160 (390)
+Q Consensus       127 ~pp~~~~~~~L~dG~~Ip~~~T~~~~~ve~~L~~  160 (390)
+                      .|+..+++++|++|++|+..+  .+.++|++++.
+T Consensus       106 ~~g~~~~~~~l~~g~~i~~~~--~~~~l~~vl~~  137 (138)
+T 7AI3_D          106 IPPKTPSPKPLSPNAHVAASQ--VQLELEHHHHH  137 (138)
+T ss_dssp             ECCSSCCSSBCCTTEEECGGG--EEEEECCC---
+T ss_pred             eCCCCCCCCCCCCCCEEeccc--ccccHHHhhcc
+Confidence            998654468899999999874  57899988764
+
+
+No 5
+>7CGE_I Lipid asymmetry maintenance ABC transporter; MEMBRANE PROTEIN; HET: PGW; 2.9A {Escherichia coli (strain K12)}
+Probab=99.48  E-value=1.6e-17  Score=153.34  Aligned_cols=120  Identities=28%  Similarity=0.370  Sum_probs=98.7  Template_Neff=7.600
+
+Q query            52 SGSMTLYVQMPETLALNANSRVRVRDVFVGRVRKIELINW--VPTLTVDVEPGIK-LPKNTLAKIGQTSLLGSQHVELNP  128 (390)
+Q Consensus        52 ~~~ytv~a~f~da~gL~~ga~V~~~GV~VG~V~~I~l~~~--~a~Vtl~id~~v~-lPa~t~A~v~~~slLGe~yV~L~p  128 (390)
+                      ...++|+++|+++.||.+|++|+|+|++||+|++|++.++  +++|++.|+++++ +|+|++|++.+.+++|++||+|.|
+T Consensus        37 ~~~~~~~~~~~~~~GL~~Gs~V~~~Gv~VG~V~~I~~~~~~~~v~v~~~I~~~~~~i~~ds~a~i~~~~llG~~~I~l~~  116 (183)
+T 7CGE_I           37 EPTYTLYATFDNIGGLKARSPVSIGGVVVGRVADITLDPKTYLPRVTLEIEQRYNHIPDTSSLSIRTSGLLGEQYLALNV  116 (183)
+T ss_dssp             CCEEEEEEECSCCTTCCTTCCEEETTEEEEEECCCCEETTTTEEEEEEEEETTCCCCBTTCEEEEECCSSSSCCEEEEEC
+T ss_pred             CCcEEEEEEECCCCCCCCCCcEEECCEEEEEEEEEEeCCCCCeEEEEEEEcCCCccCCCCCEEEEEeCCCCCceEEEEEe
+Confidence            6789999999999999999999999999999999999874  7889999999996 999999999999999999999999
+
+
+Q query           129 PEDPS---SELLRDGDTIPLAQSSAYPTIERTLAGISGILTGGGIPNI  173 (390)
+Q Consensus       129 p~~~~---~~~L~dG~~Ip~~~T~~~~~ve~~L~~l~~ll~~~~~~~l  173 (390)
+                      +.+..   .+.|++|++|+..  ..+.+++++++++..+++..+..+.
+T Consensus       117 g~~~~~~~~~~l~~g~~I~~~--~~~~~l~~ll~~~~~~~~~~~~~~~  162 (183)
+T 7CGE_I          117 GFEDPELGTAILKDGDTIQDT--KSAMVLEDLIGQFLYGSKGDDNKNS  162 (183)
+T ss_dssp             CCCCCTTTCCBCCTTCEECCC--CCCCCSHHHHHHHHC----------
+T ss_pred             CCCCccccceecCCCCeeccC--CCCccHHHHHHHHHHhccCCCCcCC
+Confidence            86431   1489999999985  4567999999998877665554433
+
+
+No 6
+>7CH8_A Mla complex, Lipid transporter, MEMBRANE; HET: AD9, LPP;{Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1)}
+Probab=99.48  E-value=1.7e-17  Score=149.27  Aligned_cols=108  Identities=19%  Similarity=0.378  Sum_probs=97.1  Template_Neff=8.200
+
+Q query            52 SGSMTLYVQMPETLALNANSRVRVRDVFVGRVRKIELIN--WVPTLTVDVEPGI-KLPKNTLAKIGQTSLLGSQHVELNP  128 (390)
+Q Consensus        52 ~~~ytv~a~f~da~gL~~ga~V~~~GV~VG~V~~I~l~~--~~a~Vtl~id~~v-~lPa~t~A~v~~~slLGe~yV~L~p  128 (390)
+                      ...++|++.|+++.||.+|++|+|+|++||+|++|++.+  ..++|++.|++++ .||+|++|++.+.+++|++||+|.|
+T Consensus        37 ~~~~~~~~~~~~~~GL~~gs~V~~~Gv~VG~V~~i~~~~~~~~v~v~~~i~~~~~~i~~~s~~~i~~~~llG~~~i~l~~  116 (157)
+T 7CH8_A           37 GDTYKVYAYFDNIAGVTVRGKVTLAGVTIGKVTAVDLDRDSYTGRVTMEINQNVNNLPVDSTASILTAGLLGEKYIGISV  116 (157)
+T ss_dssp             TCEEEEEEEESCCTTCCSSCCEEETTEEEECEEEEEECTTTCCEEEEEEEESSCCCCCSSCEEEEEESTTTSCEEEEEEC
+T ss_pred             CCeEEEEEEEcCCCCCCCCCEEEECCEEEEEEEEEEeeCCCCeEEEEEEEeCCcccCCCCCEEEEEeCCCCcccEEEeee
+Confidence            677999999999999999999999999999999999986  3788999999999 9999999999999999999999999
+
+
+Q query           129 PEDPSSELLRDGDTIPLAQSSAYPTIERTLAGISG  163 (390)
+Q Consensus       129 p~~~~~~~L~dG~~Ip~~~T~~~~~ve~~L~~l~~  163 (390)
+                      +..  .++|++|++|+..  ..+.+++++++.+..
+T Consensus       117 g~~--~~~l~~g~~i~~~--~~~~~l~~~l~~l~~  147 (157)
+T 7CH8_A          117 GGD--EDVLKDGSTIHDT--QSALVLEDLIGKFLL  147 (157)
+T ss_dssp             CSC--SCCCCSSSBCCCE--ECCCCHHHHHCCCCC
+T ss_pred             CCC--cccCCCCCEeccC--CCcccHHHHHHHHhh
+Confidence            864  3689999999975  446789988877654
+
+
+No 7
+>7D06_I Lipid asymmetry maintenance ABC transporter; MEMBRANE PROTEIN; HET: PGV; 3.1A {Acinetobacter baumannii}
+Probab=99.44  E-value=4.9e-17  Score=152.64  Aligned_cols=124  Identities=21%  Similarity=0.286  Sum_probs=96.6  Template_Neff=4.600
+
+Q query            52 SGSMTLYVQMPETLALNANSRVRVRDVFVGRVRKIELINW--VPTLTVDVEPG-------------------------I-  103 (390)
+Q Consensus        52 ~~~ytv~a~f~da~gL~~ga~V~~~GV~VG~V~~I~l~~~--~a~Vtl~id~~-------------------------v-  103 (390)
+                      .++|+++++|+++.||.+|++|+|+|++||+|++|++...  .+.|++.++++                         + 
+T Consensus        37 ~~~~~~~v~f~~v~GL~~Ga~V~~~GV~VG~V~sI~~~~~~~~~~V~~~id~~~~~~~~~~~~~v~~~~~~~~r~~~~~~  116 (226)
+T 7D06_I           37 SDGYTMKAQFDNVNGLKPRAKVTMSGVTIGRVDSITLDPVTRLATVTFDLDGKLTSFNAEQLKEVQKNALDELRYSSDYT  116 (226)
+T ss_dssp             TTCCCEEEEESCCTTCCTTCEEESSSSEEEEEEEEEEETTTTEEEEEEECCHHHHSCCSHHHHHHHHHHHHHHTSHHHHH
+T ss_pred             CCcEEEEEEeCCCCCCCCCCeEEECCEEEEEEEEEEecCCCCeEEEEEEEcCcccccchHHHhHHHHhhhhhhhcCCccc
+Confidence            6789999999999999999999999999999999999864  67889999887                         5 
+
+
+Q query           104 ----------------------KLPKNTLAKIGQTSLLGSQHVELNPPEDPSSELLRDGDTIPLAQSSAYPTIERTLAGI  161 (390)
+Q Consensus       104 ----------------------~lPa~t~A~v~~~slLGe~yV~L~pp~~~~~~~L~dG~~Ip~~~T~~~~~ve~~L~~l  161 (390)
+                                            .||.|++|.|.+.+++|++||+|.|+..  .++|++|++|+..  ..+.+++++++.+
+T Consensus       117 ~~~~~~~~~~~~~~~~~~~~~~~I~~ds~a~I~s~gLlG~~yIeL~pg~~--~~~l~~g~~I~~~--~~~~~l~~l~~~~  192 (226)
+T 7D06_I          117 QATPAQQKTMEQQLISNMNSITSIDEDAYIMVATNGLLGEKYLKIVPGGG--LNYLKRGDTISNT--QGTMDLEDLISKF  192 (226)
+T ss_dssp             HSCSSTTHHHHHHHHHHHSSEEEEETTCEEEEECSTTTCCCEEEEECCCC--SSEEETTCEECCE--ECCCCHHHHHHHH
+T ss_pred             cCCHHHHHHHHHHHHhccccccccCCCCEEEEEeCCcccccEEEeecCCC--CcCCCCCCEEecc--CCCCCHHHHHHHH
+Confidence                                  8899999999999999999999999864  4789999999965  4578999999988
+
+
+Q query           162 SGILTGGGIPNIEVIQTE  179 (390)
+Q Consensus       162 ~~ll~~~~~~~l~~i~~e  179 (390)
+                      .....++..+..+...+|
+T Consensus       193 ~~~~~~~~~~~~~~~~~~  210 (226)
+T 7D06_I          193 ITGGGAGKVAAGSSSAEE  210 (226)
+T ss_dssp             C-----------------
+T ss_pred             hhhccccccccCCcchhh
+Confidence            776655555555444443
+
+
+No 8
+>7D08_G Lipid asymmetry maintenance ABC transporter; MEMBRANE PROTEIN; HET: ATP; 4.0A {Acinetobacter baumannii}
+Probab=99.38  E-value=2.5e-16  Score=147.58  Aligned_cols=109  Identities=22%  Similarity=0.326  Sum_probs=96.1  Template_Neff=4.600
+
+Q query            52 SGSMTLYVQMPETLALNANSRVRVRDVFVGRVRKIELINW--VPTLTVDVEPG-------------------------I-  103 (390)
+Q Consensus        52 ~~~ytv~a~f~da~gL~~ga~V~~~GV~VG~V~~I~l~~~--~a~Vtl~id~~-------------------------v-  103 (390)
+                      .++|+++++|+++.||.+|++|+++|++||+|++|++...  .+.|++.|+++                         + 
+T Consensus        37 ~~~~~~~v~f~~v~GL~~Ga~V~~~GV~VG~V~sI~l~~~~~~~~v~~~id~~~~~~~~~~~~~v~~~~~~~~~~~~~~~  116 (222)
+T 7D08_G           37 SDGYTMKAQFDNVNGLKPRAKVTMSGVTIGRVDSITLDPVTRLATVTFDLDGKLTSFNAEQLKEVQKNALDELRYSSDYT  116 (222)
+T ss_dssp             SSCCCEEECCSCCTTCCTTCEEESSSSEEEEEEEEEEETTTTEEEEEEEECTTTSCCCHHHHHHHHHHHHHHHTCTTTSS
+T ss_pred             CCcEEEEEEECCCCCCCCCCEEEECCEEEEEEEEEEecCCCCeEEEEEEEcCcccccchHHHhHHHHhhhhhhhcCcccc
+Confidence            6789999999999999999999999999999999999864  67889999988                         5 
+
+
+Q query           104 ----------------------KLPKNTLAKIGQTSLLGSQHVELNPPEDPSSELLRDGDTIPLAQSSAYPTIERTLAGI  161 (390)
+Q Consensus       104 ----------------------~lPa~t~A~v~~~slLGe~yV~L~pp~~~~~~~L~dG~~Ip~~~T~~~~~ve~~L~~l  161 (390)
+                                            .||+|+++.+.+.+++|++||+|.|+..  .++|++|++|+..  ..+.+++++++.+
+T Consensus       117 ~~~~~~~~~~~~~~~~~~~~~~~I~~ds~a~v~s~gLlG~~yIeI~pg~~--~~~l~~g~~i~~~--~~~~~l~~l~~~~  192 (222)
+T 7D08_G          117 QATPAQQKTMEQQLISNMNSITSIDEDAYIMVATNGLLGEKYLKIVPGGG--LNYLKRGDTISNT--QGTMDLEDLISKF  192 (222)
+T ss_dssp             SSSGGGTTHHHHHHHHHHSSCCSSCSSCEEEEECCSSSCCCEEEEECCCC--SSCCCSSCBCCCE--ECCCCHHHHHHTT
+T ss_pred             cCCHHHHHHHHHHHHhccccccccCCCCEEEEEeCCcccccEEEeeeCCC--CCCCCCCCEEecc--CCCCCHHHHHHHH
+Confidence                                  7899999999999999999999999864  4789999999965  4568999999887
+
+
+Q query           162 SGI  164 (390)
+Q Consensus       162 ~~l  164 (390)
+                      ...
+T Consensus       193 ~~~  195 (222)
+T 7D08_G          193 ITG  195 (222)
+T ss_dssp             C--
+T ss_pred             hhh
+Confidence            553
+
+
+No 9
+>5UW8_B Probable phospholipid ABC transporter-binding protein; MCE protein, bacterial lipid transport; 2.15A {Escherichia coli O157:H7}
+Probab=99.35  E-value=5.6e-16  Score=133.94  Aligned_cols=99  Identities=31%  Similarity=0.444  Sum_probs=86.9  Template_Neff=7.800
+
+Q query            49 GTESGSMTLYVQMPETLALNANSRVRVRDVFVGRVRKIELINW--VPTLTVDVEPGI-KLPKNTLAKIGQTSLLGSQHVE  125 (390)
+Q Consensus        49 g~~~~~ytv~a~f~da~gL~~ga~V~~~GV~VG~V~~I~l~~~--~a~Vtl~id~~v-~lPa~t~A~v~~~slLGe~yV~  125 (390)
+                      ..+...++|+++|+++.||.+|++|+|+|++||+|++|++.++  .++|++.|++++ +||+|++++|.+.+++|++||+
+T Consensus        16 ~~~~~~~~i~~~f~~~~GL~~gs~V~~~Gv~VG~V~~i~~~~~~~~v~V~l~i~~~~~~l~~~s~~~i~~~~llG~~~i~   95 (122)
+T 5UW8_B           16 IRTEPTYTLYATFDNIGGLKARSPVSIGGVVVGRVADITLDPKTYLPRVTLEIEQRYNHIPDTSSLSIRTSGLLGEQYLA   95 (122)
+T ss_dssp             ---CCEEEEEEECSCCTTCCTTCEEEETTEEEEEEEEEEECTTTCCEEEEEEEETTCCCCBTTCEEEEEEETTTTEEEEE
+T ss_pred             ccCCCcEEEEEEECCCCCCCCCCcEEECCEEEEEEEEEEeCCCCCeeEEEEEEeCCcccCCCCCEEEEEeCCCCCccEEE
+Confidence            3566789999999999999999999999999999999999875  688999999998 9999999999999999999999
+
+
+Q query           126 LNPPEDPS---SELLRDGDTIPLAQ  147 (390)
+Q Consensus       126 L~pp~~~~---~~~L~dG~~Ip~~~  147 (390)
+                      |.++..++   +++|.+|++|+..+
+T Consensus        96 l~~g~~~~~~~~~~l~~g~~i~~~~  120 (122)
+T 5UW8_B           96 LNVGFEDPELGTAILKDGDTIQDTK  120 (122)
+T ss_dssp             EECCCC-----CCBCCTTCEECEEE
+T ss_pred             EecCCCCccccccccCCCCEEeccC
+Confidence            99986532   46899999998764
+
+
+No 10
+>5UW8_G Probable phospholipid ABC transporter-binding protein; MCE protein, bacterial lipid transport; 2.15A {Escherichia coli O157:H7}
+Probab=99.35  E-value=5.6e-16  Score=133.94  Aligned_cols=99  Identities=31%  Similarity=0.444  Sum_probs=88.6  Template_Neff=7.800
+
+Q query            49 GTESGSMTLYVQMPETLALNANSRVRVRDVFVGRVRKIELINW--VPTLTVDVEPGI-KLPKNTLAKIGQTSLLGSQHVE  125 (390)
+Q Consensus        49 g~~~~~ytv~a~f~da~gL~~ga~V~~~GV~VG~V~~I~l~~~--~a~Vtl~id~~v-~lPa~t~A~v~~~slLGe~yV~  125 (390)
+                      ..+...++|+++|+++.||.+|++|+|+|++||+|++|++.++  .++|++.|++++ +||+|++++|.+.+++|++||+
+T Consensus        16 ~~~~~~~~i~~~f~~~~GL~~gs~V~~~Gv~VG~V~~i~~~~~~~~v~V~l~i~~~~~~l~~~s~~~i~~~~llG~~~i~   95 (122)
+T 5UW8_G           16 IRTEPTYTLYATFDNIGGLKARSPVSIGGVVVGRVADITLDPKTYLPRVTLEIEQRYNHIPDTSSLSIRTSGLLGEQYLA   95 (122)
+T ss_dssp             -CCCCEEEEEEECSCCTTCCTTCEEEETTEEEEEEEEEEECTTTCCEEEEEEEETTCCCCBTTCEEEEEECTTTCCEEEE
+T ss_pred             ccCCCcEEEEEEECCCCCCCCCCcEEECCEEEEEEEEEEeCCCCCeeEEEEEEeCCcccCCCCCEEEEEeCCCCCccEEE
+Confidence            3566789999999999999999999999999999999999875  688999999998 9999999999999999999999
+
+
+Q query           126 LNPPEDPS---SELLRDGDTIPLAQ  147 (390)
+Q Consensus       126 L~pp~~~~---~~~L~dG~~Ip~~~  147 (390)
+                      |.++..++   +++|.+|++|+..+
+T Consensus        96 l~~g~~~~~~~~~~l~~g~~i~~~~  120 (122)
+T 5UW8_G           96 LNVGFEDPELGTAILKDGDTIQDTK  120 (122)
+T ss_dssp             EECCCCCGGGTCCBCCTTEEECEEE
+T ss_pred             EecCCCCccccccccCCCCEEeccC
+Confidence            99986532   46899999998764
+
+
+No 11
+>6IC4_A Toluene tolerance efflux transporter (ABC; Membrane protein Antibiotic resistance ABC; 8.7A {Acinetobacter baumannii}
+Probab=99.29  E-value=2.1e-15  Score=138.62  Aligned_cols=104  Identities=23%  Similarity=0.368  Sum_probs=92.5  Template_Neff=5.400
+
+Q query            52 SGSMTLYVQMPETLALNANSRVRVRDVFVGRVRKIELIN--WVPTLTVDVEPG-------------------------I-  103 (390)
+Q Consensus        52 ~~~ytv~a~f~da~gL~~ga~V~~~GV~VG~V~~I~l~~--~~a~Vtl~id~~-------------------------v-  103 (390)
+                      ...++++++|+++.||.+|++|+++|++||+|++|++.+  +.++|++.|+++                         + 
+T Consensus        29 ~~~~~l~v~F~~a~GL~~GspV~~~GV~VG~V~~I~l~~d~~~v~V~l~Id~~~~~~~~~~~~~v~~~~~~~~~~~~~~~  108 (183)
+T 6IC4_A           29 SDGYTMKAQFDNVNGLKPRAKVTMSGVTIGRVDSITLDPVTRLATVTFDLDGKLTSFNAEQLKEVQKNALDELRYSSDYT  108 (183)
+T ss_dssp             TTSEEEEEEESCCTTCCTTCEEEETTEEEEEEEEEEEETTTTEEEEEEEECTTCCCSCHHHHHHHHHHHHHHHHHSHHHH
+T ss_pred             CCcEEEEEEeCCCCCCCCCCeEEECCEEEEEEEEEEecCCCCeEEEEEEEcCcccccchHHhhHHHHhhhhhhhcCcccc
+Confidence            567899999999999999999999999999999999987  378899999998                         5 
+
+
+Q query           104 ----------------------KLPKNTLAKIGQTSLLGSQHVELNPPEDPSSELLRDGDTIPLAQSSAYPTIERTLA  159 (390)
+Q Consensus       104 ----------------------~lPa~t~A~v~~~slLGe~yV~L~pp~~~~~~~L~dG~~Ip~~~T~~~~~ve~~L~  159 (390)
+                                            .||+|+++.+.+.+++|++||+|.|+..  .++|++|++|+..  ..+.+++++++
+T Consensus       109 ~~~~~~~~~~~~~~~~~~~~~~~i~~~~~~~v~~~~l~G~~~i~i~~~~~--~~~l~~g~~i~~~--~~~~~~~~~~~  182 (183)
+T 6IC4_A          109 QATPAQQKTMEQQLISNMNSITSIDEDAYIMVATNGLLGEKYLKIVPGGG--LNYLKRGDTISNT--QGTMDLEDLIS  182 (183)
+T ss_dssp             SSCHHHHHHHHHHHHHTHHHHTTCCSCEEEEEEESSSSSCEEEEEEECCC--SSCCCTTSCCEEE--ESSCCHHHHHT
+T ss_pred             cCCHHHHHHHHHHHHhccccccccCCCCEEEEEeCCCCcccEEEeecCCC--CCcCCCCCEEecc--cCCCCHHHHhc
+Confidence                                  8899999999999999999999999864  4789999999865  44678888764
+
+
+No 12
+>5UVN_F Paraquat-inducible protein B; MCE protein, bacterial lipid transport; 3.96A {Escherichia coli}
+Probab=99.23  E-value=6.7e-15  Score=154.05  Aligned_cols=143  Identities=10%  Similarity=0.127  Sum_probs=119.1  Template_Neff=7.500
+
+Q query            53 GSMTLYVQMP-ETLALNANSRVRVRDVFVGRVRKIELINW----------VPTLTVDVEPG-----------------IK  104 (390)
+Q Consensus        53 ~~ytv~a~f~-da~gL~~ga~V~~~GV~VG~V~~I~l~~~----------~a~Vtl~id~~-----------------v~  104 (390)
+                      .+++|++.|+ ++.||.+|++|+|+|++||+|++|++..+          .+.|++.|+++                 ..
+T Consensus       259 ~~~~~~~~f~~~~~GL~~GspV~~~Gv~VG~V~~I~~~~~~~~~~~~~~~~v~V~l~I~~~~~~~~~~~~~~~~~~~~~~  338 (453)
+T 5UVN_F          259 DHIDYLMFFKDSVRGLQPGAPVEFRGIRLGTVSKVPFFAPNMRQTFNDDYRIPVLIRIEPERLKMQLGENADVVEHLGEL  338 (453)
+T ss_dssp             CCEEEEEEECSCCCSCCTTCEEEETTEEEEEECCSSCCCHHHHHHHHHHCSEEEEEEECGGGTC-------CHHHHHHHH
+T ss_pred             CCceEEEEeCCCCCCCCCCCcEEECCEEeeEEEEEEccCCCccCCCCcceEEEEEEEEeHHHHhcccCCchHHHHHHHHH
+Confidence            3568899997 89999999999999999999999999764          67899999987                 57
+
+
+Q query           105 LPKNTLAKIGQTS-LLGSQHVELNPPEDPSSELL-----RDGDTIPLAQSSAYPTIERTLAGISGILTGGGIPNIEVIQT  178 (390)
+Q Consensus       105 lPa~t~A~v~~~s-lLGe~yV~L~pp~~~~~~~L-----~dG~~Ip~~~T~~~~~ve~~L~~l~~ll~~~~~~~l~~i~~  178 (390)
+                      ||+|++|.|.+.+ ++|.+||+|.++.++ .+.+     .++.+||..    +.++++++..+..+++......++.+++
+T Consensus       339 i~~g~~a~i~~~~ll~G~~~I~L~~~~~~-~~~l~~~~~~~~~~Ip~~----~~~l~~l~~~~~~ll~~l~~~~l~~il~  413 (453)
+T 5UVN_F          339 LKRGLRGSLKTGNLVTGALYVDLDFYPNT-PAITGIREFNGYQIIPTV----SGGLAQIQQRLMEALDKINKLXXXXXXX  413 (453)
+T ss_dssp             HTTTCCEEEEESSSSSCCEEEEEC---------------CCSCEECBC----CCHHHHHHHHHHHHHHHHHTCCHHHHHH
+T ss_pred             HHcCCEEEEEeCCCccceeEEEeecCCCC-CcccccccccCceEeccC----CCHHHHHHHHHHHHHHHHHhCCCCCCCC
+Confidence            9999999999999 789999999987653 2333     478889864    4689999999999998888889999999
+
+
+Q query           179 EVFNILNGRADQIREFLNQLDT  200 (390)
+Q Consensus       179 el~~al~G~~~~l~~ll~~l~~  200 (390)
+                      +++.+++|.++.+++++.....
+T Consensus       414 ~l~~~l~~~~~~~~~~~~~~~~  435 (453)
+T 5UVN_F          414 XXXXXXXXXXXXXXXXXXXXXX  435 (453)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             CCCCCCCCCCCCCCCCCCCCCC
+Confidence            9999999999999999876543
+
+
+No 13
+>6VCI_C Lipophilic envelope-spanning tunnel protein LetB; lipid transport, bacterial cell envelope; 2.15A {Escherichia coli (strain K12)}
+Probab=98.28  E-value=1.8e-09  Score=104.18  Aligned_cols=86  Identities=17%  Similarity=0.135  Sum_probs=75.3  Template_Neff=7.900
+
+Q query            54 SMTLYVQMPETLALNANSRVRVRDVFVGRVRKIELINW--VPTLTVDVEPGI--KLPKNTLAKIGQ--TSLLGSQHVELN  127 (390)
+Q Consensus        54 ~ytv~a~f~da~gL~~ga~V~~~GV~VG~V~~I~l~~~--~a~Vtl~id~~v--~lPa~t~A~v~~--~slLGe~yV~L~  127 (390)
+                      .++|++.|+++.+|.+|++|+|+|++||+|++|+++++  .+.+++.|++++  .||+++++++.+  ...+|.++|++.
+T Consensus         3 g~~v~l~~~~~~gL~~GspV~y~Gv~VG~V~~i~l~~~~~~v~v~l~I~~~~~~~i~~~s~f~~~sg~~~~~g~~gv~v~   82 (235)
+T 6VCI_C            3 DLMIHLQAPDLGSLNSGSLVYFRKIPVGKVYDYAINPNKQGVVIDVLIERRFTDLVKKGSRFWNVSGVDANVSISGAKVK   82 (235)
+T ss_dssp             CEEEEEEESCCTTCCTTCEEEETTEEEEEEEEEEECSSSSSEEEEEEECSTTGGGCBTTCCEEEEEEECCEEEECCTCES
+T ss_pred             CEEEEEEeCCCCCCCCCCeEEECCeeeEEEEEEEEcCCCCeEEEEEEEccchhhheecCcEEEEccceEEEEeccceEEE
+Confidence            46889999999999999999999999999999999875  799999999999  899999999998  478999999999
+
+
+Q query           128 PPEDPSSELLRDGDT  142 (390)
+Q Consensus       128 pp~~~~~~~L~dG~~  142 (390)
+                      ++..   ..|-.|..
+T Consensus        83 ~~~~---~~l~~G~i   94 (235)
+T 6VCI_C           83 LESL---AALVNGAI   94 (235)
+T ss_dssp             CCTT---GGGEEEEE
+T ss_pred             eCCH---HHHHhCeE
+Confidence            8743   23444553
+
+
+No 14
+>6V0C_D Intermembrane transport protein YebT; lipid transport, bacterial cell envelope; 3.46A {Escherichia coli (strain K12)}
+Probab=98.01  E-value=1.8e-08  Score=113.82  Aligned_cols=77  Identities=19%  Similarity=0.262  Sum_probs=71.7  Template_Neff=7.300
+
+Q query            55 MTLYVQMPETLALNAN-SRVRVRDVFVGRVRKIELINW--VPTLTVDVEPGI--KLPKNTLAKIGQT-----------SL  118 (390)
+Q Consensus        55 ytv~a~f~da~gL~~g-a~V~~~GV~VG~V~~I~l~~~--~a~Vtl~id~~v--~lPa~t~A~v~~~-----------sl  118 (390)
+                      ++|+++|+++.||.+| ++|+|+|++||+|++|++.++  ++.|++.|++++  .|++|++++|...           ++
+T Consensus         2 ~~i~v~f~~~~GL~~g~t~V~~~Gv~VG~V~~i~l~~~~~~v~v~~~i~~~~~~~l~~~s~~~i~~~~~sl~gi~~l~~l   81 (832)
+T 6V0C_D            2 NTVTIDFMSADGIVPGRTPVRYQGVEVGTVQDISLSDDLRKIEVKVSIKSDMKDALREETQFWLVTPKASLAGVSGLDAL   81 (832)
+T ss_dssp             CCEEEEESCCSSCCSSSCEEEETTEEEEEEEEEEEETTTTEEEEEEEECHHHHHHCCSSCEEEEECCCCCHHHHHTCTTT
+T ss_pred             eEEEEEeCCCCCCCCCccceEECCEEEEEEEEEEEcCCCCEEEEEEEEchhhhhhccCCcEEEEEcCccccccCcccchh
+Confidence            5788999999999999 999999999999999999865  689999999999  8999999999998           99
+
+
+Q query           119 LGSQHVELNPPED  131 (390)
+Q Consensus       119 LGe~yV~L~pp~~  131 (390)
+                      +|.+||++.|+..
+T Consensus        82 ~gg~yi~l~pg~~   94 (832)
+T 6V0C_D           82 VGGNYIGMMPGKG   94 (832)
+T ss_dssp             SCCCEEEEECCSC
+T ss_pred             cccceEEEeCCCC
+Confidence            9999999998753
+
+
+No 15
+>6V0F_A Intermembrane transport protein YebT; conformational dynamics, lipid transport, bacterial; 2.96A {Escherichia coli (strain K12)}
+Probab=98.01  E-value=1.8e-08  Score=113.82  Aligned_cols=77  Identities=19%  Similarity=0.262  Sum_probs=0.0  Template_Neff=7.300
+
+Q query            55 MTLYVQMPETLALNAN-SRVRVRDVFVGRVRKIELINW--VPTLTVDVEPGI--KLPKNTLAKIGQT-----------SL  118 (390)
+Q Consensus        55 ytv~a~f~da~gL~~g-a~V~~~GV~VG~V~~I~l~~~--~a~Vtl~id~~v--~lPa~t~A~v~~~-----------sl  118 (390)
+                      ++|+++|+++.||.+| ++|+|+|++||+|++|++.++  ++.|++.|++++  .|++|++++|...           ++
+T Consensus         2 ~~i~v~f~~~~GL~~g~t~V~~~Gv~VG~V~~i~l~~~~~~v~v~~~i~~~~~~~l~~~s~~~i~~~~~sl~gi~~l~~l   81 (832)
+T 6V0F_A            2 NTVTIDFMSADGIVPGRTPVRYQGVEVGTVQDISLSDDLRKIEVKVSIKSDMKDALREETQFWLVTPKASLAGVSGLDAL   81 (832)
+T ss_dssp             --------------------------------------------------------------------------------
+T ss_pred             eEEEEEeCCCCCCCCCccceEECCEEEEEEEEEEEcCCCCEEEEEEEEchhhhhhccCCcEEEEEcCccccccCcccchh
+Confidence            5788999999999999 999999999999999999865  689999999999  8999999999998           99
+
+
+Q query           119 LGSQHVELNPPED  131 (390)
+Q Consensus       119 LGe~yV~L~pp~~  131 (390)
+                      +|.+||++.|+..
+T Consensus        82 ~gg~yi~l~pg~~   94 (832)
+T 6V0F_A           82 VGGNYIGMMPGKG   94 (832)
+T ss_dssp             -------------
+T ss_pred             cccceEEEeCCCC
+Confidence            9999999998753
+
+
+No 16
+>6VCI_C Lipophilic envelope-spanning tunnel protein LetB; lipid transport, bacterial cell envelope; 2.15A {Escherichia coli (strain K12)}
+Probab=97.95  E-value=2.9e-08  Score=95.93  Aligned_cols=79  Identities=23%  Similarity=0.365  Sum_probs=70.7  Template_Neff=7.900
+
+Q query            52 SGSMTLYVQMPETLALNAN-SRVRVRDVFVGRVRKIELINW-VPTLTVDVEPGI--KLPKNTLAKIGQT----------S  117 (390)
+Q Consensus        52 ~~~ytv~a~f~da~gL~~g-a~V~~~GV~VG~V~~I~l~~~-~a~Vtl~id~~v--~lPa~t~A~v~~~----------s  117 (390)
+                      ...++|++.|+++.||.+| ++|+|+|++||+|++|++..+ .+.|++.|++++  .+++++++++.+.          +
+T Consensus       121 ~~~~~i~l~~~~~~gL~~G~spV~~~Gv~VG~V~~v~l~~~~~v~v~i~I~~~~~~~l~~~s~f~~~~~~i~~~g~~~~s  200 (235)
+T 6VCI_C          121 QRGVIIKLELPSGAGLTADSTPLMYQGLEVGQLTKLDLNPGGKVTGEMTVDPSVVTLLRENTRIELRNPKLSLSDANLSA  200 (235)
+T ss_dssp             TCCEEEEEEESCCTTCCTTTCEEEETTEEEEEEEEEEECGGGCEEEEEEECGGGGGGCBTTCEEEEECCSCCCCCTTSCH
+T ss_pred             cCCeEEEEEeCCCCCCCCCccceEECCEEEEEEEEEEcCCCCcEEEEEEEcHHHHhhccccceEEeccccccccCCChhh
+Confidence            4467899999999999999 999999999999999999866 788999999999  8999999999764          7
+
+
+Q query           118 LLGSQHVELNPPE  130 (390)
+Q Consensus       118 lLGe~yV~L~pp~  130 (390)
+                      +++..||++.|+.
+T Consensus       201 ll~G~~i~l~pg~  213 (235)
+T 6VCI_C          201 LLTGKTFELVPGD  213 (235)
+T ss_dssp             HHHSCEEEEECCC
+T ss_pred             hhcccEEEEeCCC
+Confidence            7888899999764
+
+
+No 17
+>6VCI_A Lipophilic envelope-spanning tunnel protein LetB; lipid transport, bacterial cell envelope; 2.15A {Escherichia coli (strain K12)}
+Probab=97.93  E-value=3.3e-08  Score=95.58  Aligned_cols=79  Identities=23%  Similarity=0.356  Sum_probs=71.5  Template_Neff=7.800
+
+Q query            52 SGSMTLYVQMPETLALNA-NSRVRVRDVFVGRVRKIELINW-VPTLTVDVEPGI--KLPKNTLAKIGQTS----------  117 (390)
+Q Consensus        52 ~~~ytv~a~f~da~gL~~-ga~V~~~GV~VG~V~~I~l~~~-~a~Vtl~id~~v--~lPa~t~A~v~~~s----------  117 (390)
+                      ...++|++.|+++.||.+ |++|+|+|++||+|++|++..+ .+.|++.|++++  .+++++++++.+.+          
+T Consensus       121 ~~~~~i~l~~~~~~gL~~ggspV~y~Gv~VG~V~~i~l~~~~~v~v~~~I~~~~~~~i~~~s~f~~~~~~i~l~~~~l~t  200 (235)
+T 6VCI_A          121 QRGVIIKLELPSGAGLTADSTPLMYQGLEVGQLTKLDLNPGGKVTGEMTVDPSVVTLLRENTRIELRNPKLSLSDANLSA  200 (235)
+T ss_dssp             TCCEEEEEEESCCTTCCTTTSEEEETTEEEEEEEEEEECTTSCEEEEEEECGGGGGGCBSSCEEEEECCSCCCSCCSSCH
+T ss_pred             cCCcEEEEEeCCCCCCCCCCccEEECCEEEEEEEEEEcCCCCcEEEEEEEchHHHhhCcCCCEEEEcCCCeeccccCHHH
+Confidence            355788999999999999 7999999999999999999876 788999999999  89999999999875          
+
+
+Q query           118 LLGSQHVELNPPE  130 (390)
+Q Consensus       118 lLGe~yV~L~pp~  130 (390)
+                      ++|..||++.|+.
+T Consensus       201 ll~g~~i~~~~~~  213 (235)
+T 6VCI_A          201 LLTGKTFELVPGD  213 (235)
+T ss_dssp             HHHSCEEEEECCC
+T ss_pred             HHccCEEEecCCC
+Confidence            8988999999875
+
+
+No 18
+>6KZ3_A Intermembrane transport protein YebT; lipid channel, LIPID TRANSPORT;{Escherichia coli K-12}
+Probab=97.84  E-value=6.2e-08  Score=102.74  Aligned_cols=77  Identities=19%  Similarity=0.262  Sum_probs=71.2  Template_Neff=7.700
+
+Q query            55 MTLYVQMPETLALNAN-SRVRVRDVFVGRVRKIELINW--VPTLTVDVEPGI--KLPKNTLAKIGQT-----------SL  118 (390)
+Q Consensus        55 ytv~a~f~da~gL~~g-a~V~~~GV~VG~V~~I~l~~~--~a~Vtl~id~~v--~lPa~t~A~v~~~-----------sl  118 (390)
+                      ++|++.|+++.||.+| ++|+|+|++||+|++|++.++  ++.|++.|++++  .+++|+++++.+.           ++
+T Consensus         2 ~~~~~~~~~~~gl~~g~t~V~~~Gv~VG~V~~v~l~~~~~~v~v~~~i~~~~~~~i~~~s~f~i~~~~~sl~gi~~l~~l   81 (464)
+T 6KZ3_A            2 NTVTIDFMSADGIVPGRTPVRYQGVEVGTVQDISLSDDLRKIEVKVSIKSDMKDALREETQFWLVTPKASLAGVSGLDAL   81 (464)
+T ss_dssp             CCEEEEESCCSSCCTTTCEEEETTEEEEEEEEEEECTTSSSEEEEECCCSSCTTSSSSSCEEEECCCCCCSSSSSSCGGG
+T ss_pred             eEEEEEeCCCCCCCCCcceeEECCEEEEEEEEEEecCCCCeEEEEEEEChhhhhheecCcEEEEecCcccccccCCHHHH
+Confidence            5788999999999998 999999999999999999875  799999999998  8999999999987           89
+
+
+Q query           119 LGSQHVELNPPED  131 (390)
+Q Consensus       119 LGe~yV~L~pp~~  131 (390)
+                      +|..||++.|+..
+T Consensus        82 l~g~~i~~~p~~~   94 (464)
+T 6KZ3_A           82 VGGNYIGMMPGKG   94 (464)
+T ss_dssp             SCCCCEEEECCSS
+T ss_pred             hccceEEecCCCC
+Confidence            9999999998753
+
+
+No 19
+>6KZ4_A Intermembrane transport protein YebT; lipid channel, LIPID TRANSPORT;{Escherichia coli K-12}
+Probab=97.73  E-value=1.4e-07  Score=97.16  Aligned_cols=77  Identities=12%  Similarity=0.148  Sum_probs=69.3  Template_Neff=8.000
+
+Q query            53 GSMTLYVQMPETLALNANSRVRVRDVFVGRVRKIELINW--VPTLTVDVEPGI--K-LPKNTLAKIGQ-----------T  116 (390)
+Q Consensus        53 ~~ytv~a~f~da~gL~~ga~V~~~GV~VG~V~~I~l~~~--~a~Vtl~id~~v--~-lPa~t~A~v~~-----------~  116 (390)
+                      ..+++++.|+++.||.+|++|+|+|++||+|++|++.++  .+.|++.|++++  . +++++++++.+           .
+T Consensus       122 ~~~~i~~~~~~~~gL~~gs~V~~~Gv~VG~V~~i~l~~~~~~v~v~~~I~~~~~~~~~~~~s~~~i~~~~i~~~gi~~l~  201 (366)
+T 6KZ4_A          122 VGGQITLHAFDAGKLAVGMPIRYLGIDIGQIQTLDLITARNEVQAKAVLYPEYVQTFARGGTRFSVVTPQISAAGVEHLD  201 (366)
+T ss_dssp             CSEEEEEEESCTTSCCTTCEEEETTEEEEEECCCEEETTTTEEEEEEEECTTTTTTSSSTTCEEEEECCEEETTEEECGG
+T ss_pred             hCceEEEEecCCCCCCCCCeEEECCEEEEEEEEEeccCCCCeEEEEEEEcHHHHHhhccCCCEEEEECCCcCCCCCCChH
+Confidence            357888999999999999999999999999999999875  789999999997  4 59999999988           6
+
+
+Q query           117 SLLGSQHVELNPPE  130 (390)
+Q Consensus       117 slLGe~yV~L~pp~  130 (390)
+                      +++| .||++.|+.
+T Consensus       202 ~llg-~~I~l~p~~  214 (366)
+T 6KZ4_A          202 TILQ-PYINVEPGR  214 (366)
+T ss_dssp             GGTS-CEEEEECCC
+T ss_pred             Hhcc-ceeEEecCC
+Confidence            7898 999998764
+
+
+No 20
+>6KZ4_A Intermembrane transport protein YebT; lipid channel, LIPID TRANSPORT;{Escherichia coli K-12}
+Probab=97.70  E-value=1.6e-07  Score=96.60  Aligned_cols=85  Identities=16%  Similarity=0.135  Sum_probs=70.0  Template_Neff=8.000
+
+Q query            54 SMTLYVQMPETLALNANSRVRVRDVFVGRVRKIELINWVPTLTVDVEPGI--KLPKNTLAKIGQ-----TSLLGSQHVEL  126 (390)
+Q Consensus        54 ~ytv~a~f~da~gL~~ga~V~~~GV~VG~V~~I~l~~~~a~Vtl~id~~v--~lPa~t~A~v~~-----~slLGe~yV~L  126 (390)
+                      .++|++.|+++.||.+|++|+|+|++||+|++|++..+++.|++.|++++  .|++++++++.+     .++.|   |++
+T Consensus         3 g~~~~~~~~~~~gL~~GspV~~~Gv~VG~V~~i~l~~~~v~v~~~I~~~~~~~i~~~s~f~i~sg~~~~~~~~g---v~v   79 (366)
+T 6KZ4_A            3 TTTVSLSAETLPDVQAGSVVLYRKFEVGEVITVRPRANAFDIDLHIKPEYRNLLTSNSVFWAEGGAKVQLNGSG---LTV   79 (366)
+T ss_dssp             CCSEEEEESSCCSCCTTCEEESSSSEEEEEEEEEECSSSEEEEEEECGGGGGGCCSSEEEEECCSCBCCEETTE---ECC
+T ss_pred             CEEEEEEeCCCCCCCCCCEEEECCeEEEEEEEEEeCCCeEEEEEEECHHHHhhcCCCCEEEEecceEEEEecCC---cee
+Confidence            46889999999999999999999999999999999988899999999999  899999999962     23333   777
+
+
+Q query           127 NPPEDPSSELLRDGDTIPL  145 (390)
+Q Consensus       127 ~pp~~~~~~~L~dG~~Ip~  145 (390)
+                      .++.-   ..|-.|. |..
+T Consensus        80 ~~~~l---~~l~~G~-i~~   94 (366)
+T 6KZ4_A           80 QASPL---SRALKGA-ISF   94 (366)
+T ss_dssp             BCCST---THHHHCE-EEE
+T ss_pred             ecCcH---HHHHcCe-EEE
+Confidence            76532   2366666 543
+
+
+No 21
+>6KZ4_A Intermembrane transport protein YebT; lipid channel, LIPID TRANSPORT;{Escherichia coli K-12}
+Probab=97.51  E-value=5.7e-07  Score=92.64  Aligned_cols=90  Identities=16%  Similarity=0.194  Sum_probs=78.1  Template_Neff=8.000
+
+Q query            51 ESGSMTLYVQMPETLALNANSRVRVRDVFVGRVRKIELIN--WVPTLTVDVEPGI--KLPKNTLAKIGQTSL---LGSQH  123 (390)
+Q Consensus        51 ~~~~ytv~a~f~da~gL~~ga~V~~~GV~VG~V~~I~l~~--~~a~Vtl~id~~v--~lPa~t~A~v~~~sl---LGe~y  123 (390)
+                      +...++|++.++++.||.+|++|+|+|++||+|++|++..  .++.|++.|++++  .+++++++++.+ ++   +|..+
+T Consensus       233 ~~~~~~~~l~~~~~~gL~~GspV~y~Gv~VG~V~~i~l~~~~~~v~v~~~I~~~~~~~v~~~s~f~~~s-gl~~~~g~~g  311 (366)
+T 6KZ4_A          233 YLDGLSIIVEAPEAGSLGIGTPVLFRGLEVGTVTGMTLGTLSDRVMIAMRISKRYQHLVRNNSVFWLAS-GYSLDFGLTG  311 (366)
+T ss_dssp             TSSSCEEEEEESCCTTCCTTCEEEETTEEEEEEEEEECCSSTTSEEEEEEECTTSGGGCBTTCCBEEEC-SCCCCCCSSC
+T ss_pred             CCCcEEEEEEeCCCCCCCCCCcEEECCEEEEEEEEEEecCCCCeeEEEEEEcccccccccCCeEEEecc-CeEEEEEccc
+Confidence            4567889999999999999999999999999999999986  4799999999999  899999999987 77   99999
+
+
+Q query           124 VELNPPEDPSSELLRDGDTI  143 (390)
+Q Consensus       124 V~L~pp~~~~~~~L~dG~~I  143 (390)
+                      +++.++.-  ...|+.|-.+
+T Consensus       312 ~~i~~~~l--~~~l~ggi~~  329 (366)
+T 6KZ4_A          312 GVVKTGTF--NQFIRGGIAF  329 (366)
+T ss_dssp             CCCCCCCC--GGGTSCEEEC
+T ss_pred             cEEEcCCH--HHHHhCceEE
+Confidence            99998653  3466666555
+
+
+No 22
+>5UVN_F Paraquat-inducible protein B; MCE protein, bacterial lipid transport; 3.96A {Escherichia coli}
+Probab=97.49  E-value=6.2e-07  Score=95.02  Aligned_cols=79  Identities=19%  Similarity=0.265  Sum_probs=70.5  Template_Neff=7.500
+
+Q query            52 SGSMTLYVQMPETLALNAN-SRVRVRDVFVGRVRKIELINW--VPTLTVDVEPGI--KLPKNTLAKIGQT----------  116 (390)
+Q Consensus        52 ~~~ytv~a~f~da~gL~~g-a~V~~~GV~VG~V~~I~l~~~--~a~Vtl~id~~v--~lPa~t~A~v~~~----------  116 (390)
+                      ...++|++.|+++.||.+| ++|+|+|++||+|++|+++++  .+.+++.|++++  .+++|+++++.+.          
+T Consensus        15 ~~g~~i~l~~~~~~gL~~G~tpV~y~Gv~VG~V~~i~l~~~~~~v~v~i~I~~~~~~~i~~~S~Fwi~~~~~~~~gi~~l   94 (453)
+T 5UVN_F           15 HQGPEVTLITANAEGIEGGKTTIKSRSVDVGVVESATLADDLTHVEIKARLNSGMEKLLHKDTVFWVVKPQIGREGISGL   94 (453)
+T ss_dssp             --CCEEEEEESCCTTCCTTTCEEEETTEEEEEEEEEEECTTSSSEEEEEEECGGGGGGCTTTCEEEECCCCBSSSCBCCS
+T ss_pred             CCCCEEEEEeCCCCCCCCCCCeEEECCEEEEEEEEEEEcCCCCeEEEEEEEchhhHHhccCCcEEEEeCCccccccccch
+Confidence            4457899999999999999 999999999999999999875  688999999998  6999999999874          
+
+
+Q query           117 -SLLGSQHVELNPPE  130 (390)
+Q Consensus       117 -slLGe~yV~L~pp~  130 (390)
+                       +++|..||++.|+.
+T Consensus        95 ~~Ll~G~~I~~~p~~  109 (453)
+T 5UVN_F           95 GTLLSGVYIELQPGA  109 (453)
+T ss_dssp             SHHHHCCCEEEECCS
+T ss_pred             HHHhcCCEEEEecCC
+Confidence             48999999999874
+
+
+No 23
+>6VCI_A Lipophilic envelope-spanning tunnel protein LetB; lipid transport, bacterial cell envelope; 2.15A {Escherichia coli (strain K12)}
+Probab=97.44  E-value=8.7e-07  Score=85.87  Aligned_cols=76  Identities=17%  Similarity=0.127  Sum_probs=58.7  Template_Neff=7.800
+
+Q query            54 SMTLYVQMPETLALNANSRVRVRDVFVGRVRKIELINW--VPTLTVDVEPGI--KLPKNTLAKIGQT--SLLGSQHVELN  127 (390)
+Q Consensus        54 ~ytv~a~f~da~gL~~ga~V~~~GV~VG~V~~I~l~~~--~a~Vtl~id~~v--~lPa~t~A~v~~~--slLGe~yV~L~  127 (390)
+                      ++++++.|+++.||.+|++|+|+|++||+|++|+++++  .+.|++.|++++  .|++++++++.+.  --++...|++.
+T Consensus         3 ~~~i~l~~~~~~gL~~GspV~y~Gv~VG~V~~i~l~~~~~~v~v~~~I~~~~~~~i~~~s~f~i~sg~~~~~~~~g~~v~   82 (235)
+T 6VCI_A            3 DLMIHLQAPDLGSLNSGSLVYFRKIPVGKVYDYAINPNKQGVVIDVLIERRFTDLVKKGSRFWNVSGVDANVSISGAKVK   82 (235)
+T ss_dssp             CEEEEEEESCCTTCCTTCEEEETTEEEEEEEEEEECSSSSSEEEEEEECSTTGGGCBTTCCEEEEEEECC----------
+T ss_pred             CEEEEEEeCCcCCCCCCCeEEECCeeeEEEEEEEEcCCCCeEEEEEEEechhhhhcccCCEEEEeeCeEEEEeccceEEE
+Confidence            57888999999999999999999999999999999875  789999999998  8999999999873  12455667776
+
+
+Q query           128 PP  129 (390)
+Q Consensus       128 pp  129 (390)
+                      .+
+T Consensus        83 ~~   84 (235)
+T 6VCI_A           83 LE   84 (235)
+T ss_dssp             -C
+T ss_pred             eC
+Confidence            54
+
+
+No 24
+>6V0C_D Intermembrane transport protein YebT; lipid transport, bacterial cell envelope; 3.46A {Escherichia coli (strain K12)}
+Probab=96.86  E-value=1.7e-05  Score=90.36  Aligned_cols=78  Identities=12%  Similarity=0.144  Sum_probs=68.7  Template_Neff=7.300
+
+Q query            53 GSMTLYVQMPETLALNANSRVRVRDVFVGRVRKIELINW--VPTLTVDVEPGIK---LPKNTLAKIGQ-----------T  116 (390)
+Q Consensus        53 ~~ytv~a~f~da~gL~~ga~V~~~GV~VG~V~~I~l~~~--~a~Vtl~id~~v~---lPa~t~A~v~~-----------~  116 (390)
+                      ..+.++++|+++.||.+|++|+|+|++||+|++|++.++  .+.|++.|++++.   ++++++++|..           .
+T Consensus       588 ~~~~i~i~f~~~~GL~~gs~V~y~Gv~IG~V~~I~l~~d~~~v~v~~~i~~~~~~~~i~~~s~f~i~~p~i~l~gis~l~  667 (832)
+T 6V0C_D          588 VGGQITLHAFDAGKLAVGMPIRYLGIDIGQIQTLDLITARNEVQAKAVLYPEYVQTFARGGTRFSVVTPQISAAGVEHLD  667 (832)
+T ss_dssp             CSEEEEEEESCCSSCCTTCEEEETTEEEEEEEEEEEETTTTEEEEEEEECTTTTTTSSSSSCEEEEECCCBCSSCBCCSG
+T ss_pred             cCcEEEEEecCCCCCCCCCeEEECCEEEEEEEEEeCCCCCCeEEEEEEECHHHHHhhccCCCEEEEEcCccCCCCCCChh
+Confidence            356788999999999999999999999999999999876  6889999999885   99999999976           3
+
+
+Q query           117 SLLGSQHVELNPPED  131 (390)
+Q Consensus       117 slLGe~yV~L~pp~~  131 (390)
+                      +++ ..||++.|+..
+T Consensus       668 tLl-g~yI~l~pg~~  681 (832)
+T 6V0C_D          668 TIL-QPYINVEPGRG  681 (832)
+T ss_dssp             GGT-SCEEEEECCCS
+T ss_pred             hcc-hheeeeecCCC
+Confidence            567 69999998753
+
+
+No 25
+>6V0F_A Intermembrane transport protein YebT; conformational dynamics, lipid transport, bacterial; 2.96A {Escherichia coli (strain K12)}
+Probab=96.86  E-value=1.7e-05  Score=90.36  Aligned_cols=78  Identities=12%  Similarity=0.144  Sum_probs=0.0  Template_Neff=7.300
+
+Q query            53 GSMTLYVQMPETLALNANSRVRVRDVFVGRVRKIELINW--VPTLTVDVEPGIK---LPKNTLAKIGQ-----------T  116 (390)
+Q Consensus        53 ~~ytv~a~f~da~gL~~ga~V~~~GV~VG~V~~I~l~~~--~a~Vtl~id~~v~---lPa~t~A~v~~-----------~  116 (390)
+                      ..+.++++|+++.||.+|++|+|+|++||+|++|++.++  .+.|++.|++++.   ++++++++|..           .
+T Consensus       588 ~~~~i~i~f~~~~GL~~gs~V~y~Gv~IG~V~~I~l~~d~~~v~v~~~i~~~~~~~~i~~~s~f~i~~p~i~l~gis~l~  667 (832)
+T 6V0F_A          588 VGGQITLHAFDAGKLAVGMPIRYLGIDIGQIQTLDLITARNEVQAKAVLYPEYVQTFARGGTRFSVVTPQISAAGVEHLD  667 (832)
+T ss_dssp             --------------------------------------------------------------------------------
+T ss_pred             cCcEEEEEecCCCCCCCCCeEEECCEEEEEEEEEeCCCCCCeEEEEEEECHHHHHhhccCCCEEEEEcCccCCCCCCChh
+Confidence            356788999999999999999999999999999999876  6889999999885   99999999976           3
+
+
+Q query           117 SLLGSQHVELNPPED  131 (390)
+Q Consensus       117 slLGe~yV~L~pp~~  131 (390)
+                      +++ ..||++.|+..
+T Consensus       668 tLl-g~yI~l~pg~~  681 (832)
+T 6V0F_A          668 TIL-QPYINVEPGRG  681 (832)
+T ss_dssp             ---------------
+T ss_pred             hcc-hheeeeecCCC
+Confidence            567 69999998753
+
+
+No 26
+>6KZ3_A Intermembrane transport protein YebT; lipid channel, LIPID TRANSPORT;{Escherichia coli K-12}
+Probab=96.76  E-value=2.7e-05  Score=83.07  Aligned_cols=79  Identities=23%  Similarity=0.361  Sum_probs=68.7  Template_Neff=7.700
+
+Q query            52 SGSMTLYVQMPETLALNAN-SRVRVRDVFVGRVRKIELINW-VPTLTVDVEPGI--KLPKNTLAKIGQTSL---------  118 (390)
+Q Consensus        52 ~~~ytv~a~f~da~gL~~g-a~V~~~GV~VG~V~~I~l~~~-~a~Vtl~id~~v--~lPa~t~A~v~~~sl---------  118 (390)
+                      ...++|++.|+++.||.+| ++|+|+|++||+|++|++.++ ++.|++.|++++  .+.+++++++.+..+         
+T Consensus       233 ~~g~~i~l~~~~~~gL~~G~~pV~y~Gi~VG~V~~v~l~~d~~v~v~~~I~~~~~~~~~~~s~fwi~~~~i~~~G~~l~~  312 (464)
+T 6KZ3_A          233 QRGVIIKLELPSGAGLTADSTPLMYQGLEVGQLTKLDLNPGGKVTGEMTVDPSVVTLLRENTRIELRNPKLSLSDANLSA  312 (464)
+T ss_dssp             CCCEEEEEEESCCSSCCSSSCEEEETTEEEEEEEEECCCTTSCEEEEEEECTTSGGGCBTTCEEEEECCCCCTTTCCTTH
+T ss_pred             cCCEEEEEEeCCCCCCCCCceeeEECCEEEEEEEEEEcCCCCeEEEEEEECHHHHHhhccCcEEEEccccccccCCChhH
+Confidence            3457899999999999999 999999999999999999876 788999999998  789999999987655         
+
+
+Q query           119 -LGSQHVELNPPE  130 (390)
+Q Consensus       119 -LGe~yV~L~pp~  130 (390)
+                       ++..||.+.|+.
+T Consensus       313 ll~G~~i~~~~~~  325 (464)
+T 6KZ3_A          313 LLTGKTFELVPGD  325 (464)
+T ss_dssp             HHHCCEEEEECCC
+T ss_pred             heeccEEEeecCC
+Confidence             666688888654
+
+
+No 27
+>6V0C_D Intermembrane transport protein YebT; lipid transport, bacterial cell envelope; 3.46A {Escherichia coli (strain K12)}
+Probab=95.77  E-value=0.00072  Score=77.57  Aligned_cols=78  Identities=23%  Similarity=0.369  Sum_probs=67.4  Template_Neff=7.300
+
+Q query            53 GSMTLYVQMPETLALNAN-SRVRVRDVFVGRVRKIELINW-VPTLTVDVEPGI--KLPKNTLAKIGQT----------SL  118 (390)
+Q Consensus        53 ~~ytv~a~f~da~gL~~g-a~V~~~GV~VG~V~~I~l~~~-~a~Vtl~id~~v--~lPa~t~A~v~~~----------sl  118 (390)
+                      ..++|++.|+++.||.+| ++|+|+|++||+|++|+++.+ .+.|++.|++++  .+.+++++++.+.          ++
+T Consensus       234 ~g~~i~l~f~~~~gl~~G~tpV~y~Gi~VG~V~~i~l~~d~~v~v~~~I~~~~~~~l~~~s~Fw~v~~~~sl~G~~l~tl  313 (832)
+T 6V0C_D          234 RGVIIKLELPSGAGLTADSTPLMYQGLEVGQLTKLDLNPGGKVTGEMTVDPSVVTLLRENTRIELRNPKLSLSDANLSAL  313 (832)
+T ss_dssp             CCEEEEEECSCCSSCCTTTCEEEETTEEEEEEEEEEEETTTEEEEEEEECTTTGGGCCSSCEEEEECCBCCSSBCCHHHH
+T ss_pred             CCeEEEEEeCCCCCCCCCceeeEECCeEEEEEEEEEcCCCCeEEEEEEEcHHHHhhccCCCEEEEecCeeecCccChhHH
+Confidence            457889999999999999 999999999999999999875 788999999988  7899999888752          34
+
+
+Q query           119 LGSQHVELNPPE  130 (390)
+Q Consensus       119 LGe~yV~L~pp~  130 (390)
+                      +...||++.|+.
+T Consensus       314 i~G~~i~~~~~~  325 (832)
+T 6V0C_D          314 LTGKTFELVPGD  325 (832)
+T ss_dssp             HHCCEEEEECCC
+T ss_pred             hcCCEEEEeCCC
+Confidence            666789998865
+
+
+No 28
+>6V0F_A Intermembrane transport protein YebT; conformational dynamics, lipid transport, bacterial; 2.96A {Escherichia coli (strain K12)}
+Probab=95.77  E-value=0.00072  Score=77.57  Aligned_cols=78  Identities=23%  Similarity=0.369  Sum_probs=67.4  Template_Neff=7.300
+
+Q query            53 GSMTLYVQMPETLALNAN-SRVRVRDVFVGRVRKIELINW-VPTLTVDVEPGI--KLPKNTLAKIGQT----------SL  118 (390)
+Q Consensus        53 ~~ytv~a~f~da~gL~~g-a~V~~~GV~VG~V~~I~l~~~-~a~Vtl~id~~v--~lPa~t~A~v~~~----------sl  118 (390)
+                      ..++|++.|+++.||.+| ++|+|+|++||+|++|+++.+ .+.|++.|++++  .+.+++++++.+.          ++
+T Consensus       234 ~g~~i~l~f~~~~gl~~G~tpV~y~Gi~VG~V~~i~l~~d~~v~v~~~I~~~~~~~l~~~s~Fw~v~~~~sl~G~~l~tl  313 (832)
+T 6V0F_A          234 RGVIIKLELPSGAGLTADSTPLMYQGLEVGQLTKLDLNPGGKVTGEMTVDPSVVTLLRENTRIELRNPKLSLSDANLSAL  313 (832)
+T ss_dssp             CCEEEEEECSCCSSCCTTTCEEEETTEEEEEEEEEEEETTTEEEEEEEECSTGGGTCCTTCEEEEECCBCCSSBCCHHHH
+T ss_pred             CCeEEEEEeCCCCCCCCCceeeEECCeEEEEEEEEEcCCCCeEEEEEEEcHHHHhhccCCCEEEEecCeeecCccChhHH
+Confidence            457889999999999999 999999999999999999875 788999999988  7899999888752          34
+
+
+Q query           119 LGSQHVELNPPE  130 (390)
+Q Consensus       119 LGe~yV~L~pp~  130 (390)
+                      +...||++.|+.
+T Consensus       314 i~G~~i~~~~~~  325 (832)
+T 6V0F_A          314 LTGKTFELVPGD  325 (832)
+T ss_dssp             HHCCEEEEECCC
+T ss_pred             hcCCEEEEeCCC
+Confidence            666789998865
+
+
+No 29
+>5UVN_F Paraquat-inducible protein B; MCE protein, bacterial lipid transport; 3.96A {Escherichia coli}
+Probab=95.59  E-value=0.0011  Score=71.02  Aligned_cols=63  Identities=11%  Similarity=0.034  Sum_probs=56.3  Template_Neff=7.500
+
+Q query            53 GSMTLYVQMPETLALNANSRVRVRDVFVGRVRKIELINW--VPTLTVDVEPGI--KLPKNTLAKIGQ  115 (390)
+Q Consensus        53 ~~ytv~a~f~da~gL~~ga~V~~~GV~VG~V~~I~l~~~--~a~Vtl~id~~v--~lPa~t~A~v~~  115 (390)
+                      ..++|++.++++.||.+|+||+|+|++||+|++|++..+  .+.+++.|++.+  .+.+++++++.+
+T Consensus       131 ~g~~~~l~~~~~~gL~~GsPV~yrGi~VG~V~~i~l~~d~~~v~i~v~I~~~y~~lv~~~S~F~~~s  197 (453)
+T 5UVN_F          131 KGIRVILDSKKAGQLSPGDPVLFRGYRVGSVETSTFDTQKRNISYQLFINAPYDRLVTNNVRFWKDS  197 (453)
+T ss_dssp             CSEEEEEECSCCTTCCTTCEEEETTEEEEEEEEEEECTTTCCEEEEEEECSTTGGGCBTTCEEEEEC
+T ss_pred             CcEEEEEEcCCCCCCCCCCCEEECCEEEEEEEEEEecCCCCeeEEEEEEeCCchhhcccCCcchhhc
+Confidence            457788889999999999999999999999999999975  688999999888  778999998876
+
+
+No 30
+>6KZ3_A Intermembrane transport protein YebT; lipid channel, LIPID TRANSPORT;{Escherichia coli K-12}
+Probab=95.42  E-value=0.0016  Score=70.02  Aligned_cols=63  Identities=24%  Similarity=0.312  Sum_probs=54.7  Template_Neff=7.700
+
+Q query            53 GSMTLYVQMPETLALNANSRVRVRDVFVGRVRKIELINWVPTLTVDVEPGI--KLPKNTLAKIGQ  115 (390)
+Q Consensus        53 ~~ytv~a~f~da~gL~~ga~V~~~GV~VG~V~~I~l~~~~a~Vtl~id~~v--~lPa~t~A~v~~  115 (390)
+                      ..+++++..+++.||.+|+||+|+|++||+|++|+++...+.|++.|++++  .+..+++++..+
+T Consensus       346 ~~~~~~l~~~~~~gL~~GspV~yrGv~VG~V~~i~l~~~~v~v~i~I~~~y~~li~~~s~f~~~s  410 (464)
+T 6KZ3_A          346 DVLTLTLTAPESYGIDAGQPLILHGVQVGQVIDRKLTSKGVTFTVAIEPQHRELVKGDSKFVVNS  410 (464)
+T ss_dssp             SCEEEEEEESSCTTCCTTCEEEETTEEEEEEEEEECCTTCEEEEEEECSTTTTTCCSSCEEEECC
+T ss_pred             CceEEEEEcCCCCCCCCCCcEEECCEEEEEEEEEEecCCeEEEEEEECccccccccCCeEEEECC
+Confidence            356788888889999999999999999999999999988899999999998  566777776654
+
+
+No 31
+>6KZ3_A Intermembrane transport protein YebT; lipid channel, LIPID TRANSPORT;{Escherichia coli K-12}
+Probab=94.72  E-value=0.0052  Score=66.13  Aligned_cols=64  Identities=22%  Similarity=0.203  Sum_probs=56.7  Template_Neff=7.700
+
+Q query            52 SGSMTLYVQMPETLALNANSRVRVRDVFVGRVRKIELINW--VPTLTVDVEPGI--KLPKNTLAKIGQ  115 (390)
+Q Consensus        52 ~~~ytv~a~f~da~gL~~ga~V~~~GV~VG~V~~I~l~~~--~a~Vtl~id~~v--~lPa~t~A~v~~  115 (390)
+                      ....+|++.++++.||.+|++|+|+|++||+|++|++..+  .+.+++.|++++  .+..++++++.+
+T Consensus       113 ~~g~~i~l~~~~~~gL~~GspV~yrgv~VG~V~~i~l~~~~~~v~v~~~I~~~~~~li~~~s~Fw~~s  180 (464)
+T 6KZ3_A          113 NGDLMIHLQAPDLGSLNSGSLVYFRKIPVGKVYDYAINPNKQGVVIDVLIERRFTDLVKKGSRFWNVS  180 (464)
+T ss_dssp             SSCEEEEEEESSCCSCCTTCEEEETTEEEEEEEEEEECTTSSCEEEEEEECGGGTTSCBTTCCEEEEC
+T ss_pred             CCceEEEEEcCCCCCCCCCCeEEECCeeeEEEEEEEecCCCCeEEEEEEEecchhhheecCCEEEEee
+Confidence            3457788889999999999999999999999999999875  689999999987  679999988885
+
+
+No 32
+>6V0C_D Intermembrane transport protein YebT; lipid transport, bacterial cell envelope; 3.46A {Escherichia coli (strain K12)}
+Probab=94.72  E-value=0.0053  Score=70.78  Aligned_cols=63  Identities=22%  Similarity=0.205  Sum_probs=58.0  Template_Neff=7.300
+
+Q query            52 SGSMTLYVQMPETLALNANSRVRVRDVFVGRVRKIELINW--VPTLTVDVEPGI--KLPKNTLAKIG  114 (390)
+Q Consensus        52 ~~~ytv~a~f~da~gL~~ga~V~~~GV~VG~V~~I~l~~~--~a~Vtl~id~~v--~lPa~t~A~v~  114 (390)
+                      ...+++++.|+++.+|.+|++|+|+|++||+|++|+++.+  ++.+++.|++++  .|.+++++++.
+T Consensus       113 ~~g~~i~l~~~~~~gl~~GtpV~y~gi~VG~V~~v~l~~~~~~v~v~~~I~~~y~~li~~~s~F~~~  179 (832)
+T 6V0C_D          113 NGDLMIHLQAPDLGSLNSGSLVYFRKIPVGKVYDYAINPNKQGVVIDVLIERRFTDLVKKGSRFWNV  179 (832)
+T ss_dssp             SSCEEEEEEESSCTTCCTTCEEEETTEEEEEEEEEECCSSTTCEEEEEEECGGGTTTCBTTCCEEEC
+T ss_pred             CCcEEEEEEcCCCCCCCCCCeEEEcCceeeEEEEEEeCCCCCceEEEEEEehhHHHheecCeEEEEc
+Confidence            4568999999999999999999999999999999999876  799999999987  68999999988
+
+
+No 33
+>6V0F_A Intermembrane transport protein YebT; conformational dynamics, lipid transport, bacterial; 2.96A {Escherichia coli (strain K12)}
+Probab=94.72  E-value=0.0053  Score=70.78  Aligned_cols=63  Identities=22%  Similarity=0.205  Sum_probs=57.0  Template_Neff=7.300
+
+Q query            52 SGSMTLYVQMPETLALNANSRVRVRDVFVGRVRKIELINW--VPTLTVDVEPGI--KLPKNTLAKIG  114 (390)
+Q Consensus        52 ~~~ytv~a~f~da~gL~~ga~V~~~GV~VG~V~~I~l~~~--~a~Vtl~id~~v--~lPa~t~A~v~  114 (390)
+                      ...+++++.|+++.+|.+|++|+|+|++||+|++|+++.+  ++.+++.|++++  .|.+++++++.
+T Consensus       113 ~~g~~i~l~~~~~~gl~~GtpV~y~gi~VG~V~~v~l~~~~~~v~v~~~I~~~y~~li~~~s~F~~~  179 (832)
+T 6V0F_A          113 NGDLMIHLQAPDLGSLNSGSLVYFRKIPVGKVYDYAINPNKQGVVIDVLIERRFTDLVKKGSRFWNV  179 (832)
+T ss_dssp             --CEEEEEEESSCTTCCTTCEEEETTEEEEEEEEEEECSSTTCEEEEEEECSGGGGTCBTTCCEEEC
+T ss_pred             CCcEEEEEEcCCCCCCCCCCeEEEcCceeeEEEEEEeCCCCCceEEEEEEehhHHHheecCeEEEEc
+Confidence            4568999999999999999999999999999999999876  799999999987  68999999988
+
+
+No 34
+>6ADQ_K Transmembrane cytochrome C oxidase subunit; Respiratory, Supercomplex, SOD, Mycobacterium, ETC; HET: 9XX, HEA, HEC, HEM, PLM, 9Y0, 9YF, CDL, MQ9; 3.5A {Mycobacterium smegmatis MC2 51}
+Probab=88.46  E-value=0.25  Score=46.98  Aligned_cols=43  Identities=7%  Similarity=0.083  Sum_probs=25.5  Template_Neff=7.500
+
+Q query           100 EPGIKLPKNTLAKIGQTS---------LLGSQHVELNPPEDPSSELLRDGDTIPLA  146 (390)
+Q Consensus       100 d~~v~lPa~t~A~v~~~s---------lLGe~yV~L~pp~~~~~~~L~dG~~Ip~~  146 (390)
+                      ...+.||++....+....         ..+..+|.|....    ..++.|+.++..
+T Consensus       101 ~~~~~ipa~~~v~l~~~~~~~~~~~~~~~~g~hvml~~l~----~~l~~G~~v~vt  152 (186)
+T 6ADQ_K          101 TGDSTVPADGVLIVGEPDGQIQAVENAEAADAVTAEVELT----KPITNGLLYDFT  152 (186)
+T ss_pred             eCCceeCCCCEEEEcCCCccchhHhcchhcCcEEEEEeCC----CCcCCCcEEEEE
+Confidence            345677777776665431         1234566665432    357888888765
+
+
+No 35
+>5IJN_Z NUCLEAR PORE COMPLEX PROTEIN NUP155; Nuclear pore complex, Nucleocytoplasmic transport; 21.4A {Homo sapiens}
+Probab=76.49  E-value=2  Score=47.66  Aligned_cols=51  Identities=14%  Similarity=0.187  Sum_probs=26.2  Template_Neff=5.000
+
+Q query           172 NIEVIQTEVFNILNGRADQIREFLNQLDTFTDELNQQREEITRAIDSTNRL  222 (390)
+Q Consensus       172 ~l~~i~~el~~al~G~~~~l~~ll~~l~~~~~~l~~~~~~i~~~l~~~~~l  222 (390)
+                      +|++++++...-|+.+...+.++..+++.-=..|.++.+.|..+.++++++
+T Consensus       332 ~LEeIINkW~~ELE~qek~F~dqA~rVnaWDr~LieN~ekI~~L~~eV~kl  382 (522)
+T 5IJN_Z          332 QLESLINKWSLELEDQERHFLQQATQVNAWDRTLIENGEKITSLHREVEKV  382 (522)
+T ss_dssp             --CHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             hHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            355555555555555555555555555555555555555555555554444
+
+
+No 36
+>6GAO_B Outer capsid protein sigma-1; cell attachment protein, reovirus sigma1; 2.101A {Mammalian orthoreovirus 1 Lang}
+Probab=60.45  E-value=7.6  Score=38.84  Aligned_cols=10  Identities=20%  Similarity=0.225  Sum_probs=5.1  Template_Neff=7.200
+
+Q query           319 KAIRGDYINV  328 (390)
+Q Consensus       319 ~a~~Gdy~n~  328 (390)
+                      +..-++|..|
+T Consensus       171 ~~~~~~~~~~  180 (240)
+T 6GAO_B          171 NVIVGNGMWF  180 (240)
+T ss_dssp             EECBCTTEEE
+T ss_pred             EEEecCceee
+Confidence            3344666644
+
+
+No 37
+>3U0C_A Invasin ipaB; translocator, type three secretion system; 2.05A {Shigella flexneri}
+Probab=53.21  E-value=12  Score=36.62  Aligned_cols=87  Identities=10%  Similarity=0.163  Sum_probs=71.1  Template_Neff=6.000
+
+Q query           151 YPTIERTLAGISGILTGGGIPNIEVIQTEVFNILNGRADQIREFLNQLDTFTDELNQQREEITRAIDSTNRLLNIVSQRN  230 (390)
+Q Consensus       151 ~~~ve~~L~~l~~ll~~~~~~~l~~i~~el~~al~G~~~~l~~ll~~l~~~~~~l~~~~~~i~~~l~~~~~l~~~la~~~  230 (390)
+                      ...+..+|+.+..++...+..+|..-+.-++...++.......+.+.++..+..+..-.+.+..+.+.++.+-..+...+
+T Consensus        51 ~a~lT~LLg~l~~Llge~Sl~~L~nrL~~~na~~~a~~~~~~~Ls~~fe~a~~~~~~A~d~l~~aq~~~~~a~~~v~~aq  130 (201)
+T 3U0C_A           51 SSQLTLLIGNLIQILGEKSLTALTNKITAWKSQQQARQQKNLEFSDKINTLLSETEGLTRDYEKQINKLKNADSKIKDLE  130 (201)
+T ss_dssp             HHHHHHHHHHHHHHHCSGGGHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHccccHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            35677888899998888888888888888888889999999999999999999999888888888888887777776666
+
+
+Q query           231 DTLDRVL  237 (390)
+Q Consensus       231 ~~l~~~l  237 (390)
+                      ..++.+-
+T Consensus       131 ~~L~~Aq  137 (201)
+T 3U0C_A          131 NKINQIQ  137 (201)
+T ss_dssp             HHHHHHH
+T ss_pred             HHHHHHH
+Confidence            6665543
+
+
+No 38
+>4UY3_A SEPTATION RING FORMATION REGULATOR EZRA; STRUCTURAL PROTEIN, DIVISOME, FTSZ, CELL; 2.6A {STAPHYLOCOCCUS AUREUS}
+Probab=52.43  E-value=13  Score=35.70  Aligned_cols=105  Identities=7%  Similarity=0.111  Sum_probs=69.5  Template_Neff=8.500
+
+Q query           151 YPTIERTLAGISGILTGGGIPNIEVIQTEVFNILNGRADQIREFLNQLDTFTDELNQQREEITRAIDSTNRLLNIVSQRN  230 (390)
+Q Consensus       151 ~~~ve~~L~~l~~ll~~~~~~~l~~i~~el~~al~G~~~~l~~ll~~l~~~~~~l~~~~~~i~~~l~~~~~l~~~la~~~  230 (390)
+                      .+.+++.+..+...+...........+.++...+..-...+..+.++++.+...-..++..|..+=+....+-..+...+
+T Consensus        59 ~~~i~~~l~~~e~~~~~~~~~~~~~~l~~~~~~l~~~e~~~~~l~~~l~~l~~~e~~~r~~i~~lk~~y~~lrk~ll~~~  138 (198)
+T 4UY3_A           59 LAPVEEKIHNAEALLDKFSFNASQSEIDDANELMDSYEQSYQQQLEDVNEIIALYKDNDELYDKCKVDYREMKRDVLANR  138 (198)
+T ss_dssp             CTTHHHHHHHHHHHHHTTCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHCS
+T ss_pred             cHHHHHHHHHHHHHHhcCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHch
+Confidence            45666666665555544444445556666777777777788888888888888777788777777777777777777776
+
+
+Q query           231 DTLDRVLTEFPPLIQHFAETRDLFA  255 (390)
+Q Consensus       231 ~~l~~~l~~~~~~~~~l~~~r~~l~  255 (390)
+                      -..+.+++.+..-+..+.+.-..+.
+T Consensus       139 ~~~G~a~~~Le~~l~~ie~~f~~~~  163 (198)
+T 4UY3_A          139 HQFGEAASLLETEIEKFEPRLEQYE  163 (198)
+T ss_dssp             GGGGGGHHHHHHHHHTHHHHHHHHH
+T ss_pred             hcchhHHHHHHHHHHHHHHHHHHHH
+Confidence            6666666666555555544444443
+
+
+No 39
+>5WKQ_A Invasin IpaD, single-domain antibody JPS-G3; Shigella, type III secretion, T3SS; 2.1A {Shigella flexneri}
+Probab=44.17  E-value=21  Score=34.23  Aligned_cols=87  Identities=11%  Similarity=0.179  Sum_probs=69.5  Template_Neff=6.000
+
+Q query           152 PTIERTLAGISGILTGGGIPNIEVIQTEVFNILNGRADQIREFLNQLDTFTDELNQQREEITRAIDSTNRLLNIVSQRND  231 (390)
+Q Consensus       152 ~~ve~~L~~l~~ll~~~~~~~l~~i~~el~~al~G~~~~l~~ll~~l~~~~~~l~~~~~~i~~~l~~~~~l~~~la~~~~  231 (390)
+                      ..+..+|+.+..++.......|..-+.-++....+.......+.+.++..+..+..-.+.+..+.+.++.+-..+...+.
+T Consensus         9 a~lT~Llg~l~qLlge~Sl~~L~nrL~~~na~~~a~~~~~~~Ls~~fe~a~~~~~~a~d~l~~aq~~~~~a~~~v~~aq~   88 (174)
+T 5WKQ_A            9 SQLTLLIGNLIQILGEKSLTALTNKITAWKSQQQARQQKNLEFSDKINTLLSETEGLTRDYEKQINKLKNADSKIKDLEN   88 (174)
+T ss_dssp             HHHHHHHHHHHHHHCSGGGHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHccccHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            45677888888888888888888878888888889999999999999999999888888888888888777776666665
+
+
+Q query           232 TLDRVLT  238 (390)
+Q Consensus       232 ~l~~~l~  238 (390)
+                      .++.+-.
+T Consensus        89 ~L~~aq~   95 (174)
+T 5WKQ_A           89 KINQIQT   95 (174)
+T ss_dssp             HHHHHHH
+T ss_pred             HHHHHHH
+Confidence            5555433
+
+
+No 40
+>3TUL_A Cell invasion protein sipB; translocator, type three secretion system; 2.793A {Salmonella enterica subsp. enterica serovar Typhimurium}
+Probab=42.85  E-value=23  Score=33.53  Aligned_cols=88  Identities=9%  Similarity=0.110  Sum_probs=68.3  Template_Neff=5.200
+
+Q query           152 PTIERTLAGISGILTGGGIPNIEVIQTEVFNILNGRADQIREFLNQLDTFTDELNQQREEITRAIDSTNRLLNIVSQRND  231 (390)
+Q Consensus       152 ~~ve~~L~~l~~ll~~~~~~~l~~i~~el~~al~G~~~~l~~ll~~l~~~~~~l~~~~~~i~~~l~~~~~l~~~la~~~~  231 (390)
+                      ..+..+|+.+..++...++++|..-+.-.+..+.++......+-.++.........-.+.+..+.+.++.+-..+...+.
+T Consensus         4 ~~lT~LLg~l~qLlg~sSl~~L~~rl~~~nam~~a~q~~~~~lS~~~~~a~~~~~aa~dal~~A~~~a~~a~~~v~~aq~   83 (158)
+T 3TUL_A            4 GQLTLLLGKLMTLLGDVSLSQLESRLAVWQAMIESQKEMGIQVSKEFQTALGEAQEATDLYEASIKKTDTAKSVYDAATK   83 (158)
+T ss_dssp             CTHHHHHHHHHHHCCCCCCHHHHHHHHHHHHHHHHHHHHTC--CCTHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHccCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            34566788888888888888888888888888999998888888888888888888888888888888887777776666
+
+
+Q query           232 TLDRVLTE  239 (390)
+Q Consensus       232 ~l~~~l~~  239 (390)
+                      .|+.+-..
+T Consensus        84 ~L~~Aq~~   91 (158)
+T 3TUL_A           84 KLTQAQNK   91 (158)
+T ss_dssp             HHHHHHHH
+T ss_pred             HHHHHHHH
+Confidence            66655433
+
+
+No 41
+>3TUL_B Cell invasion protein sipB; translocator, type three secretion system; HET: MSE; 2.793A {Salmonella enterica subsp. enterica serovar Typhimurium}
+Probab=37.95  E-value=30  Score=32.71  Aligned_cols=85  Identities=9%  Similarity=0.114  Sum_probs=66.7  Template_Neff=5.400
+
+Q query           153 TIERTLAGISGILTGGGIPNIEVIQTEVFNILNGRADQIREFLNQLDTFTDELNQQREEITRAIDSTNRLLNIVSQRNDT  232 (390)
+Q Consensus       153 ~ve~~L~~l~~ll~~~~~~~l~~i~~el~~al~G~~~~l~~ll~~l~~~~~~l~~~~~~i~~~l~~~~~l~~~la~~~~~  232 (390)
+                      .+..+|+.+..++...+..+|..-+.-.+..+.++......+-.++.........-.+.+..+.+.++.+-..+...+..
+T Consensus         5 ~lT~LLg~l~qL~g~~Sl~~L~~rl~~~~am~~a~q~~~~~ls~~~~~a~~~~~~a~da~~~a~~~~~~a~~~v~~aq~~   84 (158)
+T 3TUL_B            5 QLTLLLGKLMTLLGDVSLSQLESRLAVWQAMIESQKEMGIQVSKEFQTALGEAQEATDLYEASIKKTDTAKSVYDAATKK   84 (158)
+T ss_dssp             CHHHHHHHHHGGGSCHHHHHHHHHHHHHHHHTTTTTTTC---CCSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHccCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            45667888888888888888888888888889999988988999999888888888888888888888877777776666
+
+
+Q query           233 LDRVL  237 (390)
+Q Consensus       233 l~~~l  237 (390)
+                      |+.+-
+T Consensus        85 L~~Aq   89 (158)
+T 3TUL_B           85 LTQAQ   89 (158)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+Confidence            66553
+
+
+No 42
+>7EFT_B scaffold protein, dimer, filament-like structure; 2.1A {Escherichia coli}
+Probab=33.51  E-value=40  Score=36.31  Aligned_cols=49  Identities=12%  Similarity=0.158  Sum_probs=35.7  Template_Neff=6.400
+
+Q query            56 TLYVQMPETLALNANSRVRVRDVFVGRVRKIELINWVPTLTVDVEPGIKLP  106 (390)
+Q Consensus        56 tv~a~f~da~gL~~ga~V~~~GV~VG~V~~I~l~~~~a~Vtl~id~~v~lP  106 (390)
+                      ++.+.--...|++.|++|...+.-||+|.++....  .+|.+-.|++.+++
+T Consensus       134 ~iiId~Gs~dGVk~G~~Vv~~~gLVGrV~eV~~~~--S~V~LItD~~s~i~  182 (367)
+T 7EFT_B          134 QVVIDKGSVNGVYEGQPVISDKGVVGQVVAVAKLT--SRVLLICDATHALP  182 (367)
+T ss_dssp             EEEESCCGGGTCCTTCEEECSSSEEEEEEEECSSC--EEEEETTSTTCEEE
+T ss_pred             EEEEeCCCCCCccCCCeEEeCCceeEEEEEecCCe--EEEEEeecCCCceE
+Confidence            34444445679999999999899999999987653  45556666665554
+
+
+No 43
+>7NRC_A 40S ribosomal protein S0-A, 40S; Ribosome, Disome, GCN1, Translation, GAAC; HET: 5CT; 3.9A {Saccharomyces cerevisiae S288C}
+Probab=31.98  E-value=44  Score=37.31  Aligned_cols=15  Identities=7%  Similarity=0.321  Sum_probs=6.6  Template_Neff=1.000
+
+Q query           240 FPPLIQHFAETRDLF  254 (390)
+Q Consensus       240 ~~~~~~~l~~~r~~l  254 (390)
+                      .++++.+|++...++
+T Consensus       316 vpeivgvlndshkev  330 (1209)
+T 7NRC_A          316 VPEIVGVLNDSHKEV  330 (1209)
+T ss_pred             HHHHHhhhccchHHH
+Confidence            344444554443333
+
+
+No 44
+>6ZM0_AAA Cell shape-determining protein MreC; Rod-Shape Bacteria, Peptidoglycan, elongasome, cytoskeletal; 1.471A {Pseudomonas aeruginosa PAO1}
+Probab=29.86  E-value=50  Score=31.01  Aligned_cols=52  Identities=10%  Similarity=0.106  Sum_probs=37.3  Template_Neff=7.700
+
+Q query            55 MTLYVQMPETLALNANSRVRVRDVFVGRVRKIELINWVPTLTVDVEPGIKLPKN  108 (390)
+Q Consensus        55 ytv~a~f~da~gL~~ga~V~~~GV~VG~V~~I~l~~~~a~Vtl~id~~v~lPa~  108 (390)
+                      .++.+..-...|+.+|++|...+.-||+|.++...  ..+|.+--+++..+|.-
+T Consensus        23 ~~l~Id~G~~dGv~~g~~Vv~~~~LVG~V~~v~~~--~s~V~lit~~~~~i~v~   74 (164)
+T 6ZM0_AAA         23 QRIMIDKGENDGVFVGQPVLDASGLMGQVVEVMPY--TARVLLLTDTTHSIPVQ   74 (164)
+T ss_pred             cEEEEecchhcCccCCCEEEeCCceeEEEEEecCC--EEEEEEeecCCCceEEE
+Confidence            34555555567999999999999999999988654  45666666666554433
+
+
+No 45
+>6P16_A PmoF1; copper binding protein, chaperone, METAL; 1.913A {Methylocystis sp. ATCC 49242}
+Probab=29.82  E-value=50  Score=28.98  Aligned_cols=79  Identities=14%  Similarity=0.175  Sum_probs=49.5  Template_Neff=8.500
+
+Q query            54 SMTLYVQMPETLALNANSRVRVRDVFVGRVRKIELINWVPTLTVDVEPGIKLPKNTLAKIGQTSLLGSQHVELNPPEDPS  133 (390)
+Q Consensus        54 ~ytv~a~f~da~gL~~ga~V~~~GV~VG~V~~I~l~~~~a~Vtl~id~~v~lPa~t~A~v~~~slLGe~yV~L~pp~~~~  133 (390)
+                      ...+++.+.|.+    ..++++.|+..-....+++....  ..+.+...+.||++....+..    |..|+.|....   
+T Consensus        24 ~~~~~~ti~N~~----~~~~~L~~v~s~~~~~~~~~~~~--~~~~~~~~~~ip~~~~~~l~p----~g~~l~l~~~~---   90 (121)
+T 6P16_A           24 NASFYAFIHNNG----DTPDKLVAVKVEKFGSAVIHGDA--KNLALEAPVLLPPKQKITLAP----GGAYVALLDAK---   90 (121)
+T ss_pred             cEEEEEEEEeCC----CCCeEEEEEEeCCcceEEEeccc--ceeeecCCeEeCCCCEEEeCC----CeeEEEEecCC---
+Confidence            344555555542    36777877777666555554321  234455578899999877763    45777776542   
+
+
+Q query           134 SELLRDGDTIPLA  146 (390)
+Q Consensus       134 ~~~L~dG~~Ip~~  146 (390)
+                       ..++.|+.++..
+T Consensus        91 -~~~~~G~~~~lt  102 (121)
+T 6P16_A           91 -KHLEVGWGLEMT  102 (121)
+T ss_pred             -CCCCCCCEEEEE
+Confidence             357888888764
+
+
+No 46
+>6TIK_B Core and E antigen,Putative adhesin/invasin,Core; Virus-like particle, VLP, antigen, NadA;{Hepatitis B virus}
+Probab=27.43  E-value=59  Score=37.29  Aligned_cols=11  Identities=18%  Similarity=0.416  Sum_probs=0.0  Template_Neff=7.200
+
+Q query           190 QIREFLNQLDT  200 (390)
+Q Consensus       190 ~l~~ll~~l~~  200 (390)
+                      +++.++..+..
+T Consensus       179 ~I~~l~~~i~~  189 (589)
+T 6TIK_B          179 EIEKLTTKLAD  189 (589)
+T ss_dssp             -----------
+T ss_pred             HHHHHHHHHHh
+Confidence            34444443333
+
+
+No 47
+>5LP5_E Penicillin-binding protein 2 (Pbp2), Rod; TRANSFERASE, CELL WALL, HYDROLASE-ANTIBIOTIC complex; 2.74A {Helicobacter pylori (strain ATCC 700392 / 26695)}
+Probab=27.07  E-value=60  Score=32.60  Aligned_cols=40  Identities=8%  Similarity=-0.138  Sum_probs=31.3  Template_Neff=8.000
+
+Q query            64 TLALNANSRVRVRDVFVGRVRKIELINWVPTLTVDVEPGIKLP  106 (390)
+Q Consensus        64 a~gL~~ga~V~~~GV~VG~V~~I~l~~~~a~Vtl~id~~v~lP  106 (390)
+                      ..|+..|++|...|.-||+|.++ .  ...+|.+-.|+...+|
+T Consensus       119 ~~gi~~~~~Vv~~~~lVG~V~~v-~--~~s~V~li~d~~~~i~  158 (248)
+T 5LP5_E          119 NLEENKIYGLVSHNQAIGIAVLE-K--GRLNGFLNAHKRCAYS  158 (248)
+T ss_dssp             TCCTTCEEEEESSSBEEEEEEEE-T--TEEEEEETTSTTCCCE
+T ss_pred             CCCCcccceEEeCCeEEEEEEEe-C--CEEEEEEeecCCCeeE
+Confidence            56888999999999999999998 3  3566677677766555
+
+
+No 48
+>6ZLV_C bacterial cell wall elongation, STRUCTURAL; 3.6A {Pseudomonas aeruginosa}
+Probab=25.64  E-value=67  Score=30.48  Aligned_cols=49  Identities=10%  Similarity=0.126  Sum_probs=35.9  Template_Neff=8.000
+
+Q query            56 TLYVQMPETLALNANSRVRVRDVFVGRVRKIELINWVPTLTVDVEPGIKLP  106 (390)
+Q Consensus        56 tv~a~f~da~gL~~ga~V~~~GV~VG~V~~I~l~~~~a~Vtl~id~~v~lP  106 (390)
+                      ++.+..-...|+++|++|...+.-||+|.++...  ..+|.+-.|++.+++
+T Consensus        40 ~l~Id~G~~~Gi~~g~~Vv~~~glVG~V~~v~~~--~S~V~li~d~~~~i~   88 (176)
+T 6ZLV_C           40 RIMIDKGENDGVFVGQPVLDASGLMGQVVEVMPY--TARVLLLTDTTHSIP   88 (176)
+T ss_dssp             EEEESCCGGGTCCTTCEEECSSSEEEEEEEECSS--CEEEEETTSTTCEEE
+T ss_pred             EEEEecCcccCccCCCEEEeCCcEEEEEEEECCC--EEEEEEeecCCCeee
+Confidence            4555555567999999999988899999998765  455666556665544
+
+
+No 49
+>4UT1_A FLAGELLAR HOOK-ASSOCIATED PROTEIN; MOTOR PROTEIN, ANTIGEN, EPITOPE DISCOVERY; HET: EDO; 1.8A {BURKHOLDERIA PSEUDOMALLEI K96243}
+Probab=25.31  E-value=68  Score=37.39  Aligned_cols=12  Identities=17%  Similarity=0.019  Sum_probs=0.0  Template_Neff=7.500
+
+Q query            76 RDVFVGRVRKIE   87 (390)
+Q Consensus        76 ~GV~VG~V~~I~   87 (390)
+                      .||.|..|.++.
+T Consensus        63 ~GV~v~~I~R~~   74 (673)
+T 4UT1_A           63 QGVSTVTVERQY   74 (673)
+T ss_dssp             ------------
+T ss_pred             CceEEeeEEeec
+Confidence            466666665554
+
+
+No 50
+>6U5B_l Tri1a PA0618, Sheath PA0622, Tube; bacteriocin, pyocin, VIRAL PROTEIN, ANTIMICROBIAL; 3.5A {Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1)}
+Probab=25.21  E-value=69  Score=33.50  Aligned_cols=54  Identities=9%  Similarity=0.167  Sum_probs=24.9  Template_Neff=5.700
+
+Q query           219 TNRLLNIVSQRNDTLDRVLTEFPPLIQHFAETRDLFADAVTALGRLSAAADETL  272 (390)
+Q Consensus       219 ~~~l~~~la~~~~~l~~~l~~~~~~~~~l~~~r~~l~~~l~~l~~l~~~~~~~l  272 (390)
+                      +.++.+.++..+..+..++.....+.....+.++++..+-..++......+++.
+T Consensus        60 ~~~~~r~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  113 (290)
+T 6U5B_l           60 LQRAMRGIGQAQGKVNRVVSTYDRASRALLGIDERLDALKVQVNSAAQAVGKVA  113 (290)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHh
+Confidence            344444444444555555544444444444444444444444444444444433
+
+
+No 51
+>5IJN_Z NUCLEAR PORE COMPLEX PROTEIN NUP155; Nuclear pore complex, Nucleocytoplasmic transport; 21.4A {Homo sapiens}
+Probab=24.52  E-value=72  Score=36.13  Aligned_cols=9  Identities=22%  Similarity=0.401  Sum_probs=3.3  Template_Neff=5.000
+
+Q query           212 ITRAIDSTN  220 (390)
+Q Consensus       212 i~~~l~~~~  220 (390)
+                      |.++++.++
+T Consensus       451 LkEIIeqLN  459 (522)
+T 5IJN_Z          451 LKDIIEHLN  459 (522)
+T ss_dssp             HHHHHHHHH
+T ss_pred             HHHHHHHHH
+Confidence            333333333
+
+
+No 52
+>2QF4_B Cell shape determining protein MreC; filament a-lytic protease fold, STRUCTURAL; HET: EDO; 1.2A {Streptococcus pneumoniae}
+Probab=24.26  E-value=74  Score=30.19  Aligned_cols=46  Identities=13%  Similarity=0.093  Sum_probs=33.4  Template_Neff=7.700
+
+Q query            56 TLYVQMPETLALNANSRVRVRDVFVGRVRKIELINWVPTLTVDVEPGI  103 (390)
+Q Consensus        56 tv~a~f~da~gL~~ga~V~~~GV~VG~V~~I~l~~~~a~Vtl~id~~v  103 (390)
+                      ++.+.--...|+++|++|...+.-||+|.++...  ..+|.+--|++.
+T Consensus        24 ~i~I~~G~~dGI~~g~~Vi~~~~LVG~V~~v~~~--~S~V~li~d~~~   69 (172)
+T 2QF4_B           24 ELTLDAGRSKGASENMLAIANGGLIGSVSKVEEN--STIVNLLTNTEN   69 (172)
+T ss_dssp             EEEESCCGGGTCCTTCEEEETTEEEEEEEEECSS--CEEEEETTCSBC
+T ss_pred             EEEEeccHhhCCCCCCEEEeCCcEEEEEEEEcCC--eEEEEEeecCCC
+Confidence            4445444567999999999988899999998764  355555555543
+
+
+No 53
+>6ZM0_AAA Cell shape-determining protein MreC; Rod-Shape Bacteria, Peptidoglycan, elongasome, cytoskeletal; 1.471A {Pseudomonas aeruginosa PAO1}
+Probab=23.62  E-value=77  Score=29.80  Aligned_cols=32  Identities=9%  Similarity=0.030  Sum_probs=24.3  Template_Neff=7.700
+
+Q query            60 QMPETLALNANSRVRVR--------DVFVGRVRKIELINW   91 (390)
+Q Consensus        60 ~f~da~gL~~ga~V~~~--------GV~VG~V~~I~l~~~   91 (390)
+                      +++....+++|+.|.-.        |..||+|++|+.++.
+T Consensus        97 ~i~~~~~i~~GD~V~Tsg~~~~~p~gl~IG~V~~i~~~~~  136 (164)
+T 6ZM0_AAA         97 YVADTADIKEGDLLVSSGLGQRFPAGYPVATVKEVIHDSG  136 (164)
+T ss_pred             EeCCCCCCCCCCEEEECCCCCCCCCCCeEEEEEEEEeCCC
+Confidence            34556678888887664        489999999998764
+
+
+No 54
+>5XBJ_A Flagellar hook-associated protein FlgK; Bacterial Flagellum, Hook, Filament, Junction; 2.448A {Campylobacter jejuni}
+Probab=23.13  E-value=80  Score=35.44  Aligned_cols=52  Identities=15%  Similarity=0.205  Sum_probs=29.3  Template_Neff=7.900
+
+Q query           210 EEITRAIDSTNRLLNIVSQRNDTLDRVLTEFPPLIQHFAETRDLFADAVTAL  261 (390)
+Q Consensus       210 ~~i~~~l~~~~~l~~~la~~~~~l~~~l~~~~~~~~~l~~~r~~l~~~l~~l  261 (390)
+                      .+|...++.++.+++.+++-+.+|...-.....-...|.++|+.+.+-|..+
+T Consensus        94 ~~i~~~V~~iN~ll~qIa~LN~qI~~~~~~~g~~~ndL~DqRD~ll~eLS~~  145 (511)
+T 5XBJ_A           94 DDIKNTVDEINRIGEEIATINKQIYGQEALPTEHANELRDRRDELELTLSKL  145 (511)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHTSSSCCCHHHHHHHHHHHHHHHHHHHTT
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHhcccCCCCChhHHHHHHHHHHHHHHHH
+Confidence            4456667777777777777777766552211122334666777654444433
+
+
+No 55
+>6IXH_B Type VI Secretion System TssJ; Type VI secretion system membrane; 4.0A {Escherichia coli (strain 55989 / EAEC)}
+Probab=22.29  E-value=85  Score=30.12  Aligned_cols=55  Identities=24%  Similarity=0.308  Sum_probs=13.9  Template_Neff=7.200
+
+Q query            22 VLAAVALVLTSCGQWRGIANVPLPGGPG-TESGSMTLYVQMPETLALNAN-----SRVRVR   76 (390)
+Q Consensus        22 vl~~valvl~~~g~~~g~~~~~lpg~~g-~~~~~ytv~a~f~da~gL~~g-----a~V~~~   76 (390)
+                      ++..++++++||+.+.....-..+.... .......+++++....++.++     +||.++
+T Consensus        13 ~~~~~~~~L~GCs~~~~~~~~~~~~~~~~~~~~~~~i~l~i~a~~~lN~~~~G~p~Pv~V~   73 (178)
+T 6IXH_B           13 IIALFSLSLSGCGLTQRVADGTVSATKSLFYRQIKTLHLDIRAREAINTSAAGIPLSVVVR   73 (178)
+T ss_dssp             -------------------------------CCCCBCCEEEEEEEEESBCTTSCBCCEEEE
+T ss_pred             HHHHHHHHHhhcccchhhcccccccccccccCCCcEEEEEEEeCcccCCCCCCCcCeEEEE
+Confidence            3344556789998532110000000000 011223455556666667766     666554
+
+
+No 56
+>6GAP_A Outer capsid protein sigma-1; cell attachment protein, reovirus sigma1; 2.15A {Mammalian orthoreovirus 3 Dearing}
+Probab=22.03  E-value=87  Score=31.97  Aligned_cols=9  Identities=11%  Similarity=0.113  Sum_probs=4.1  Template_Neff=7.400
+
+Q query           322 RGDYINVSL  330 (390)
+Q Consensus       322 ~Gdy~n~~~  330 (390)
+                      .++|.++.-
+T Consensus       220 ~~~~~~~~~  228 (261)
+T 6GAP_A          220 NTDQFQIVN  228 (261)
+T ss_dssp             CTTTEEEET
+T ss_pred             cCCeEEEEc
+Confidence            444554443
+
+
+No 57
+>6E5F_A Lipid binding protein LpqN; Lipid Binding Protein, (6DDTre)Lauryl-6-Trehaloside; HET: L6T; 1.37A {Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)}
+Probab=21.05  E-value=94  Score=30.67  Aligned_cols=18  Identities=22%  Similarity=0.322  Sum_probs=12.6  Template_Neff=8.500
+
+Q query            20 TAVLAAVALVLTSCGQWR   37 (390)
+Q Consensus        20 ~~vl~~valvl~~~g~~~   37 (390)
+                      ++++++++++|++||...
+T Consensus         7 a~~~~~~~~~l~~c~~~~   24 (228)
+T 6E5F_A            7 AVATVALSLALAGCSFNI   24 (228)
+T ss_pred             HHHHHHHHHHHHhhcCCC
+Confidence            445556778899998643
+
+
+No 58
+>6P1F_A Copper chaperone PCu(A)C; copper binding protein, chaperone, METAL; 1.654A {Methylosinus trichosporium OB3b}
+Probab=20.32  E-value=99  Score=27.80  Aligned_cols=67  Identities=21%  Similarity=0.189  Sum_probs=40.4  Template_Neff=8.000
+
+Q query            70 NSRVRVRDVFVGRVRKIELINWVPTLTVDVEPGIKLPKNTLAKIGQTSLLGSQHVELNPPEDPSSELLRDGDTIPLA  146 (390)
+Q Consensus        70 ga~V~~~GV~VG~V~~I~l~~~~a~Vtl~id~~v~lPa~t~A~v~~~slLGe~yV~L~pp~~~~~~~L~dG~~Ip~~  146 (390)
+                      +.++++-|+.+-.-.++++.....  .+...+.+.||.+....+..    |..|+.|....    ..+++|+.++..
+T Consensus        36 ~~~~~L~~vss~~a~~~~l~~~~~--~~~~~~~~~Ip~~~~~~l~~----~g~hlmL~~~~----~~~~~G~~v~vt  102 (131)
+T 6P1F_A           36 DRPDRLIGVKSADFRSVQFHIAPH--LVAREDAIYLPPLSRVTMAP----GGSHVELVDIS----KMNPVGWAAEMT  102 (131)
+T ss_pred             CCCeEEEEEEeCCcCeEEEecCcc--eeeecCCeeeCCCCEEEecC----CeeEEEEecCC----CCCCCCCEEEEE
+Confidence            456777666554434444433211  23444567899998877664    45777776432    357788888874
+
+
+No 59
+>1YKE_D RNA polymerase II mediator complex; GENE REGULATION; 3.3A {Saccharomyces cerevisiae} SCOP: a.252.1.1
+Probab=20.06  E-value=1e+02  Score=28.93  Aligned_cols=19  Identities=21%  Similarity=0.352  Sum_probs=8.2  Template_Neff=6.600
+
+Q query           204 ELNQQREEITRAIDSTNRL  222 (390)
+Q Consensus       204 ~l~~~~~~i~~~l~~~~~l  222 (390)
+                      +|-....+|..+|+++-.+
+T Consensus        65 DLv~k~KqIe~LIdsLP~~   83 (151)
+T 1YKE_D           65 DIILKTRQINKLIDSLPGV   83 (151)
+T ss_dssp             HHHHHHHHHHHHHHHCTTS
+T ss_pred             HHHHHHHHHHHHHHhCCCC
+Confidence            3333344444444444443
+
+
