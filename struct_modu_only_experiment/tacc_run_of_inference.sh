@@ -24,8 +24,8 @@ CUDA_VISIBLE_DEVICES=0 python3 run_pretrained_openfold.py \
     /scratch/00946/zzhang/data/openfold/ls6-tacc/pdb_mmcif/mmcif_files \
     --output_dir ./ \
     --model_device "cuda:0" \
-    --config_preset "model_4_ptm" \
-    --openfold_checkpoint_path openfold/resources/openfold_params/finetuning_no_templ_ptm_1.pt \
+    --config_preset "model_1_ptm" \
+    --openfold_checkpoint_path openfold/resources/openfold_params/finetuning_ptm_1.pt \
     --use_precomputed_alignments /scratch/09120/sk844/validation_set_cameo/alignments \
     --subtract_plddt \
     --skip_relaxation
@@ -39,8 +39,8 @@ CUDA_VISIBLE_DEVICES=0 python3 run_pretrained_openfold.py \
     /scratch/00946/zzhang/data/openfold/ls6-tacc/pdb_mmcif/mmcif_files \
     --output_dir ./ \
     --model_device "cuda:0" \
-    --config_preset "model_4_ptm" \
-    --openfold_checkpoint_path openfold/resources/openfold_params/finetuning_no_templ_ptm_1.pt \
+    --config_preset "model_1_ptm" \
+    --openfold_checkpoint_path openfold/resources/openfold_params/finetuning_ptm_1.pt \
     --use_precomputed_alignments /scratch/09120/sk844/validation_set_cameo/alignments \
     --subtract_plddt \
     --skip_relaxation
