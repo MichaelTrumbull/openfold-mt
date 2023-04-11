@@ -17,7 +17,7 @@ do
 for i in -1 0 1 2 3 4 5 6 7
 do
 ## this is the file that will be loaded in to determine where to zero 
-python3 set_iteration_doe_file.py -r $r -i $i
+python3 set_iteration_doe_file.py -r $r -i $i -rep s
 
 CUDA_VISIBLE_DEVICES=0 python3 run_pretrained_openfold.py \
     /work/09123/mjt2211/ls6/openfold-mt/DOE_perturbable_fastas \
@@ -32,7 +32,7 @@ CUDA_VISIBLE_DEVICES=0 python3 run_pretrained_openfold.py \
 done
 done
 
-python3 set_iteration_doe_file.py -r -1 -i -1
+python3 set_iteration_doe_file.py -r -1 -i -1 -rep s
 
 CUDA_VISIBLE_DEVICES=0 python3 run_pretrained_openfold.py \
     /work/09123/mjt2211/ls6/openfold-mt/DOE_perturbable_fastas \

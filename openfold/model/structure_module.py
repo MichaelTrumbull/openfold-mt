@@ -639,6 +639,7 @@ class StructureModule(nn.Module):
         with open('iteration_DOE_file.txt', 'r') as f: hold = f.read()
         self.r_zeroed = hold.split('_')[1]
         self.i_zeroed = hold.split('_')[3]
+        self.rep_zeroed = hold.split('_')[5]
         ##################
 
     def forward(
@@ -664,33 +665,38 @@ class StructureModule(nn.Module):
         Returns:
             A dictionary of outputs
         """
-        ######## SAVE ########
+        ######## SAVE FULL STARTING DICT ########
         LATENT_SPACE_SAVE_PATH = 'predictions/tmp/' # /tmp folder should be created (then modified) in run_pretrained_openfold.py
-        name_file = 'evoformer_output_dict_recy_-_.pt'
+        #name_file = 'evoformer_output_dict_recy_-_.pt'
         #torch.save(evoformer_output_dict,LATENT_SPACE_SAVE_PATH + name_file)
         ######################
 
-        ##### new code: get current cycle_no by reading s_evo_
-        if os.path.isfile('predictions/tmp/s_evo_block_recy_2_.pt'):
+        ##### new code: get current cycle_no by reading s_line_0_...
+        if os.path.isfile("s_line_0_r_2.pt"):
             current_r = 3
-        elif os.path.isfile('predictions/tmp/s_evo_block_recy_1_.pt'):
+        elif os.path.isfile('predictions/tmp/"s_line_0_r_1.pt"'):
             current_r = 2
-        elif os.path.isfile('predictions/tmp/s_evo_block_recy_0_.pt'):
+        elif os.path.isfile('predictions/tmp/"s_line_0_r_0.pt"'):
             current_r = 1
         else:
             current_r = 0
         
 
         s = evoformer_output_dict["single"]
+        # moved this up...
+        # [*, N, N, C_z]
+        z = self.layer_norm_z(evoformer_output_dict["pair"])################### line 2 ################### 
+        
 
-        ######## SAVE ########
-        name_file = "s_evo_block_recy_-_.pt" # - is renamed to recycle number in model.py
+        ########################################   SAVE / PERTURB   ########################################
+        name_file = f"s_line_0_r_-.pt" #"s_evo_block_recy_-_.pt" # - is renamed to recycle number in model.py 
         torch.save(s,LATENT_SPACE_SAVE_PATH + name_file)
-        ######################
-        # PERTURB
+        name_file = f"z_line_0_r_-.pt" #"s_evo_block_recy_-_.pt" # - is renamed to recycle number in model.py 
+        torch.save(z,LATENT_SPACE_SAVE_PATH + name_file)
         if (int(self.i_zeroed) == -1) and (int(self.r_zeroed) == int(current_r)):
-            print(f'zeroing s at r {current_r} i {-1}')
-            s=s*0
+            if self.rep_zeroed == 's': s=s*0
+            if self.rep_zeroed == 'z': z=z*0
+        ######################################################################################################
 
         if mask is None:
             # [*, N]
@@ -700,9 +706,7 @@ class StructureModule(nn.Module):
         s = self.layer_norm_s(s) ################### line 1 ################### 
         
 
-        # [*, N, N, C_z]
-        z = self.layer_norm_z(evoformer_output_dict["pair"])################### line 2 ################### 
-
+        
         z_reference_list = None
         if(_offload_inference):
             assert(sys.getrefcount(evoformer_output_dict["pair"]) == 2)
@@ -734,37 +738,23 @@ class StructureModule(nn.Module):
                 _offload_inference=_offload_inference, 
                 _z_reference_list=z_reference_list
             )  ################### line 6 ################### 
-            ######## SAVE ########
-            name_file = "s_iter_{}_recy_-_afteripa.pt".format(i) # - is renamed to recycle number in model.py
+            ################################   SAVE   ################################################################
+            name_file = f"s_line_6_i_{i}_r_-.pt" # - is renamed to recycle number in model.py
             torch.save(s,LATENT_SPACE_SAVE_PATH + name_file)
-            ######################
-            
-            ### TEST ###
-            '''
-            Test: remove s here, after IPA. s is carrying info 
-            through at this step so s=s*0 here should totally 
-            destroy it. apply only to first iteration
-            '''
-            ###if i == 0: s = s * 0
-            ###s = s * 0
-            ###if i == (self.no_blocks - 1): s = s * 0
-
-
+            ###########################################################################################################
 
 
             s = self.ipa_dropout(s)  ################### line 7 ################### 
             s = self.layer_norm_ipa(s) ################### line 7 ################### 
             s = self.transition(s) ########## line 8, 9 #############
             
-            ######## SAVE ########
-            name_file = "s_iter_{}_recy_-_aftertransition.pt".format(i) # - is renamed to recycle number in model.py
+            ###############################    SAVE / PERTURB   #####################################################
+            name_file = f"s_line_9_i_{i}_r_-.pt" # - is renamed to recycle number in model.py
             torch.save(s,LATENT_SPACE_SAVE_PATH + name_file)
-            ######################
-            # PERTURB
             if (int(self.i_zeroed) == int(i)) and (int(self.r_zeroed) == int(current_r)):
-                print(f'zeroing s at r {current_r} i {i}')
                 s=s*0
-           
+            ##########################################################################################################
+
             # [*, N]
             rigids = rigids.compose_q_update_vec(self.bb_update(s)) ############### line 10 #############
 
