@@ -18,7 +18,7 @@ do
 python3 set_iteration_doe_file.py -r $r -i -1 -rep z
 
 CUDA_VISIBLE_DEVICES=0 python3 run_pretrained_openfold.py \
-    /work/09123/mjt2211/ls6/openfold-mt/DOE_perturbable_fastas \
+    /work/09123/mjt2211/ls6/openfold-mt/DOE_fasta_dir \
     /scratch/00946/zzhang/data/openfold/ls6-tacc/pdb_mmcif/mmcif_files \
     --output_dir ./ \
     --model_device "cuda:0" \
@@ -32,7 +32,7 @@ done
 # regular run...
 python3 set_iteration_doe_file.py -r -1 -i -1 -rep s
 CUDA_VISIBLE_DEVICES=0 python3 run_pretrained_openfold.py \
-    /work/09123/mjt2211/ls6/openfold-mt/DOE_perturbable_fastas \
+    /work/09123/mjt2211/ls6/openfold-mt/DOE_fasta_dir \
     /scratch/00946/zzhang/data/openfold/ls6-tacc/pdb_mmcif/mmcif_files \
     --output_dir ./ \
     --model_device "cuda:0" \
