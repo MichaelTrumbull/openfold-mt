@@ -696,6 +696,8 @@ class StructureModule(nn.Module):
         if (int(self.i_zeroed) == -1) and (int(self.r_zeroed) == int(current_r)):
             if self.rep_zeroed == 's': s=s*0
             if self.rep_zeroed == 'z': z=z*0
+        if int(self.r_zeroed) == 42: # this signals that I want to perturb every recycle
+            s=s*0
         ######################################################################################################
 
         if mask is None:
