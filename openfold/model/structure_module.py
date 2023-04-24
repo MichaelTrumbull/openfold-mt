@@ -693,9 +693,12 @@ class StructureModule(nn.Module):
         torch.save(s,LATENT_SPACE_SAVE_PATH + name_file)
         name_file = f"z_line_0_r_-.pt" #"s_evo_block_recy_-_.pt" # - is renamed to recycle number in model.py 
         torch.save(z,LATENT_SPACE_SAVE_PATH + name_file)
+        pert_z = False # if we are not perterbing Z then i do want to run IPA 
         if (int(self.i_zeroed) == -1) and (int(self.r_zeroed) == int(current_r)):
             if self.rep_zeroed == 's': s=s*0
-            if self.rep_zeroed == 'z': z=z*0
+            if self.rep_zeroed == 'z': 
+                z=z*0
+                pert_z = True # don't run IPA so that the zeroed Z does not damage the S
         if int(self.r_zeroed) == 42: # this signals that I want to perturb every recycle
             s=s*0
         ######################################################################################################
@@ -731,15 +734,16 @@ class StructureModule(nn.Module):
         outputs = []
         for i in range(self.no_blocks): ################### line 5 ################### 
             # [*, N, C_s]
-            s = s + self.ipa(
-                s, 
-                z, 
-                rigids, 
-                mask, 
-                inplace_safe=inplace_safe,
-                _offload_inference=_offload_inference, 
-                _z_reference_list=z_reference_list
-            )  ################### line 6 ################### 
+            if not pert_z:
+                s = s + self.ipa(
+                    s, 
+                    z, 
+                    rigids, 
+                    mask, 
+                    inplace_safe=inplace_safe,
+                    _offload_inference=_offload_inference, 
+                    _z_reference_list=z_reference_list
+                )  ################### line 6 ################### 
             ################################   SAVE   ################################################################
             name_file = f"s_line_6_i_{i}_r_-.pt" # - is renamed to recycle number in model.py
             torch.save(s,LATENT_SPACE_SAVE_PATH + name_file)
