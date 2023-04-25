@@ -665,6 +665,9 @@ class StructureModule(nn.Module):
         Returns:
             A dictionary of outputs
         """
+        #  
+
+        #
         ######## SAVE FULL STARTING DICT ########
         LATENT_SPACE_SAVE_PATH = 'predictions/tmp/' # /tmp folder should be created (then modified) in run_pretrained_openfold.py
         #name_file = 'evoformer_output_dict_recy_-_.pt'
@@ -813,8 +816,8 @@ class StructureModule(nn.Module):
             #torch.save(preds["sidechain_frames"],LATENT_SPACE_SAVE_PATH + name_file)
             #######################
             ######## SAVE ########
-            name_file = "positions_iter_{}_recy_-_.pt".format(i) # - is renamed to recycle number in model.py
-            torch.save(preds["positions"],LATENT_SPACE_SAVE_PATH + name_file)
+            #name_file = "positions_iter_{}_recy_-_.pt".format(i) # - is renamed to recycle number in model.py
+            #torch.save(preds["positions"],LATENT_SPACE_SAVE_PATH + name_file)
             ######################
 
             outputs.append(preds)
