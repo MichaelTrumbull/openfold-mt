@@ -38,7 +38,20 @@
     - Here I do the same thing but I also compare how perturbable (by zeroeing out the s representation) the protein is for each model. 
     - I wanted to see if there was any relationship between the propogation of the latent space in the heatmap and how perturbable it was. I don't remember seeing a clear relationship.
   - 6DOE_track_latent_space.ipynb
-    - 
+    - Here i start perturbing (s=0) at individual recycles and iterations. So You can see how the perturbation propogates (and how the latent space recovers). 
+    - The first set of plots look weird. They have a new pattern to them. This is because I also *sometimes* saved the s latent space at two different locations in the structure module. I label these saves as location A and location B. This is before and after IPA.
+    - In the second half of the plots (where they look like the previous notebooks) you can see more clearly how the perturbation will not propogate at all unless you perturb the s directly after it comes from the evoformer block or if you perturb s at the initial (0) iteration in that recycle. 
+    - These plots show how resiliant s is to perturbation. It can regenerate s from the pair representation. 
+  - 7DOE_LSpace_Z_pert.ipynb
+    - Here I perturb Z, the pair representation inside of the structure module.
+    - In my initial tests that inspired this investigation I saw that OF was wildly resilient to s being perturbed, but could be successfully perturbed if z was zeroed. This is why these plots seem to have much greater an effect.
+    - You can also see i severed the IPA connection to see what sort of effect that would have
+    - Note: L9 stands for line 9. This means I am saving the latent space at line 9 seen in algorithm 20 in the AlphaFold supplimentary materials. In the code you can have the heatmap include line 6 but I found that to be largely not useful.
+  - 8DOE_LSpace_S_pert_every_r.ipynb
+    - Here I perturb s as it comes from the evoformer block (at line 0 of algorithm 20), but now I will do it at said iteration every recycle. 
+    - It looks here that the dissimilarity between latent space is not representative of how perturbed the final prediction is as seen by the tmscore listed in the title.
+  - 9DOE_tmscore_heatmap.ipynb
+    - This heatmap is NOT similarity between latent space. I am perturbing the latent space as before, but now I am showing how perturbed the final predicted protein structure is. I show this through the tmscore between the predicted protein without perturbation and the predicted protein with perturbation. The heat map is not necessary though so the regular plot next to it describes it better.
 
 ### If you want to run things again
 
