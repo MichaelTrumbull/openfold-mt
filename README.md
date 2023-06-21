@@ -1,3 +1,77 @@
+# Latent space perturbation study
+
+### Important locations
+**Note**: tmscore is the metric I use. It always denotes the tmscore between the protein generated when it is unperturbed vs when it is perturbed. result = tmscore(regular OF run, perturbed run). The one notable exception is when I try to 'kick it' into a new conformational state. To see if the generated protein was trending towards the new conformation I used xray data for the new conformation in the tmscore.
+- Runs located in openfold-mt/data/taccruns
+  - contains 35 GB of data
+  - not saved to github. use exxmini.
+  - As long as this data is sitting there the notebooks for plotting should work just fine
+- IPython notebooks located in openfold-mt/personal-nbs
+  - Numbered as I created new ones for new studies or plots. Keeps it organized
+  - 1compare.ipynb
+    - Ignore these plots. These were all remaid in a better way in the following notebooks
+  - 2perturb_representations.ipynb
+    - This is where I studied if I could perturb the model (with a guassian noise) while it generated a protein such that it would "kick it" into a new conformation.
+    - This study was done on ~3 proteins (with each having another conformation or two)
+    - It is clear that as perturbation increases the tmscore decreases for the main conformation (expected result) and also decreases for each alternative conformation (unfortunate result). 
+    - An possible next step would be to run the perturbation multiple times but only pay attention to when its prediction confidence is highest. So if in this random perturbations OF has high confidence in one of its predictions then maybe you could take that prediction and repeat. This could slowly guide it to a different shape that is still plausible.
+    - I think this idea just doesn't work though.
+  - 3cameo_data_s0.ipynb
+    - The entire cameo data set was used here. I am no longer trying to get new conformations. I am just seeing how perturbations effect the final prediction
+    - Two things are studied here
+    - How different OF models and different perturbation locations effect the final result. 
+      - You can see that, for an unknown reason, different proteins (in the cameo data set) will perturb differently depending on where you perturb and which model you use. 
+    - Can any protein features explain why certain proteins get perturbed and when?
+      - No. 
+      - As you can see at the bottom of this notebook I found the R^2 value to relate every protein feature to how much it was perturbed (tmscore). The highest value is too small to matter. No relationship found
+        - protein features include things like its physical size when folded, the number of beta sheets present, MSA depth, residue length, Pi helicies, proportional fractions of all of these, ect. 
+      - I could not find any relationship that could explain why certain proteins were perturbable and others were not.
+  - 4track_latent_space.ipynb
+    - This the first experiment of the rest of my work. 
+    - for each plot I am not comparing perturbed or unperturbed any more. Each plot will be either perturbed OR unperturbed but not both.
+    - A single plot corresponds to a single protein
+    - During a prediction run of a protein I save the latent space representation of s (single) at each iteration. There are 8 iterations in the structure module (I label this 'i') and 4 recycles per prediction (I label this 'r')
+    - Each saved latent space (2D tensor) I will flatten it and then compare it to all other latent spaces cosine similarity
+    - As you can see, the first iteration of every recycle is wildely dissimilar from the rest, but the rest are roughly the same to each other.
+    - More interesting plots follow in the next notebooks
+  - 5latent_space_and_s0_data.ipynb
+    - Here I do the same thing but I also compare how perturbable (by zeroeing out the s representation) the protein is for each model. 
+    - I wanted to see if there was any relationship between the propogation of the latent space in the heatmap and how perturbable it was. I don't remember seeing a clear relationship.
+  - 6DOE_track_latent_space.ipynb
+    - 
+
+### If you want to run things again
+
+If you want to expand on these experiments then maybe you will want to reprogram it all yourself since its easier to code than it is to understand someones code. But I will put how my workflow worked here in case it could help.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# README from the original OpenFold repository
+
+
 ![header ](imgs/of_banner.png)
 _Figure: Comparison of OpenFold and AlphaFold2 predictions to the experimental structure of PDB 7KDX, chain B._
 
