@@ -1,6 +1,6 @@
 # Latent space perturbation study
 
-### Important locations
+### data and plots
 **Note**: tmscore is the metric I use. It always denotes the tmscore between the protein generated when it is unperturbed vs when it is perturbed. result = tmscore(regular OF run, perturbed run). The one notable exception is when I try to 'kick it' into a new conformational state. To see if the generated protein was trending towards the new conformation I used xray data for the new conformation in the tmscore.
 - Runs located in openfold-mt/data/taccruns
   - contains 35 GB of data
@@ -53,7 +53,7 @@
   - 9DOE_tmscore_heatmap.ipynb
     - This heatmap is NOT similarity between latent space. I am perturbing the latent space as before, but now I am showing how perturbed the final predicted protein structure is. I show this through the tmscore between the predicted protein without perturbation and the predicted protein with perturbation. The heat map is not necessary though so the regular plot next to it describes it better.
 
-### If you want to run things again
+### If you want to run these experiments
 
 If you want to expand on these experiments then maybe you will want to reprogram it all yourself since its easier to code than it is to understand someones code. But I will put how my workflow worked here in case it could help.
 
